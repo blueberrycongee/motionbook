@@ -1,0 +1,14 @@
+{
+  "kind": "offline render of shared SVG scene; not browser recording",
+  "width": 720,
+  "height": 720,
+  "fps": 60,
+  "frames": 522,
+  "duration": 8.7,
+  "renderer": "sharp/librsvg",
+  "gif_fps": 20,
+  "threads": 2,
+  "original_frames": 495,
+  "original_frame_pts": "Used directly for the first 495 rendered states; encoded at nominal 60 fps.",
+  "authored_tail": "8.24–8.7 seconds restores initial selected tab for seamless loop."
+}

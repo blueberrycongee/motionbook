@@ -1,0 +1,1 @@
+{"name":"expandable-tool-grid-study","private":true,"version":"1.0.0","scripts":{"test":"node test.cjs","render":"node render.cjs"},"devDependencies":{"sharp":"^0.34.0"}}

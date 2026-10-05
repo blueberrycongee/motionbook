@@ -67,3 +67,7 @@
 ## Angry sliders
 
 [![Angry sliders](examples/angry-sliders/preview/angry-sliders.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/angry-sliders)
+
+## Expandable tool grid
+
+[![Expandable tool grid](examples/expandable-tool-grid/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/expandable-tool-grid)
