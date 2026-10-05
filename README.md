@@ -1,5 +1,9 @@
 # 参考动画
 
+## PiP
+
+[![PiP](examples/chatgpt-pip/artifacts/snapping/snap-state-261.png)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/chatgpt-pip)
+
 ## Sketcha onboarding
 
 [![Sketcha onboarding](examples/sketcha-onboarding/preview/onboarding-v2.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/sketcha-onboarding)
@@ -16,4 +20,4 @@
 
 [![Tiny animated SVG](examples/tiny-animated-svg/pro.svg)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/tiny-animated-svg)
 
-[PiP](https://github.com/blueberrycongee/reference-animations/tree/main/examples/chatgpt-pip) · [Playful project hovers](https://github.com/blueberrycongee/reference-animations/tree/main/examples/spencer-playful-hovers)
+[Playful project hovers](https://github.com/blueberrycongee/reference-animations/tree/main/examples/spencer-playful-hovers)
