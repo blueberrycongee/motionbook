@@ -71,3 +71,7 @@
 ## Expandable tool grid
 
 [![Expandable tool grid](examples/expandable-tool-grid/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/expandable-tool-grid)
+
+## Tactile controller
+
+[![Tactile controller](examples/tactile-controller/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/tactile-controller)

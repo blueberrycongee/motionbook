@@ -1,0 +1,103 @@
+{
+  "frame_count": 303,
+  "ui_crop": [
+    145,
+    250,
+    810,
+    466
+  ],
+  "mae_median": 3.4312679847767567,
+  "mae_max": 3.7510117887310868,
+  "worst_frames": [
+    {
+      "frame": 204,
+      "pts": 6.8,
+      "full_frame_mae_rgb": 1.519556327160494,
+      "ui_crop_mae_rgb": 3.7510117887310868
+    },
+    {
+      "frame": 165,
+      "pts": 5.5,
+      "full_frame_mae_rgb": 1.5155160108024692,
+      "ui_crop_mae_rgb": 3.7493502274204027
+    },
+    {
+      "frame": 164,
+      "pts": 5.466666666666667,
+      "full_frame_mae_rgb": 1.5147969714506173,
+      "ui_crop_mae_rgb": 3.745890188434048
+    },
+    {
+      "frame": 202,
+      "pts": 6.733333333333333,
+      "full_frame_mae_rgb": 1.5183174189814814,
+      "ui_crop_mae_rgb": 3.7452450570871623
+    },
+    {
+      "frame": 198,
+      "pts": 6.6,
+      "full_frame_mae_rgb": 1.5180174575617285,
+      "ui_crop_mae_rgb": 3.744038336582196
+    },
+    {
+      "frame": 197,
+      "pts": 6.566666666666666,
+      "full_frame_mae_rgb": 1.5172487461419752,
+      "ui_crop_mae_rgb": 3.7403044648658685
+    },
+    {
+      "frame": 193,
+      "pts": 6.433333333333334,
+      "full_frame_mae_rgb": 1.517380401234568,
+      "ui_crop_mae_rgb": 3.7402487700733316
+    },
+    {
+      "frame": 201,
+      "pts": 6.7,
+      "full_frame_mae_rgb": 1.517135898919753,
+      "ui_crop_mae_rgb": 3.7393646152418083
+    },
+    {
+      "frame": 192,
+      "pts": 6.4,
+      "full_frame_mae_rgb": 1.5170915316358025,
+      "ui_crop_mae_rgb": 3.739178965933352
+    },
+    {
+      "frame": 191,
+      "pts": 6.366666666666666,
+      "full_frame_mae_rgb": 1.5165470679012345,
+      "ui_crop_mae_rgb": 3.737867817692379
+    },
+    {
+      "frame": 190,
+      "pts": 6.333333333333333,
+      "full_frame_mae_rgb": 1.5165846836419754,
+      "ui_crop_mae_rgb": 3.737366564559547
+    },
+    {
+      "frame": 189,
+      "pts": 6.3,
+      "full_frame_mae_rgb": 1.515665027006173,
+      "ui_crop_mae_rgb": 3.7372783811380303
+    },
+    {
+      "frame": 195,
+      "pts": 6.5,
+      "full_frame_mae_rgb": 1.516508487654321,
+      "ui_crop_mae_rgb": 3.736763204307064
+    },
+    {
+      "frame": 199,
+      "pts": 6.633333333333334,
+      "full_frame_mae_rgb": 1.516586612654321,
+      "ui_crop_mae_rgb": 3.7367423187598625
+    },
+    {
+      "frame": 200,
+      "pts": 6.666666666666667,
+      "full_frame_mae_rgb": 1.5163753858024691,
+      "ui_crop_mae_rgb": 3.7357258887960643
+    }
+  ]
+}

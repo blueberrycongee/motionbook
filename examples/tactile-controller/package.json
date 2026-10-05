@@ -1,0 +1,1 @@
+{"name":"tactile-controller","private":true,"scripts":{"test":"node test.cjs","render":"node render.cjs"},"devDependencies":{"sharp":"0.34.3"}}

@@ -1,0 +1,13 @@
+{
+  "kind": "Offline rendering of the shared SVG scene; not a browser recording",
+  "frames": 321,
+  "fps": 30,
+  "duration": 10.7,
+  "width": 960,
+  "height": 720,
+  "original_frames": 303,
+  "original_pts_used": true,
+  "authored_tail_frames": 18,
+  "gif_fps": 15,
+  "threads": 2
+}
