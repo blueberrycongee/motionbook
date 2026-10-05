@@ -1,0 +1,14 @@
+{
+  "name": "angry-sliders-study",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "render": "node src/render.mjs"
+  },
+  "devDependencies": {
+    "sharp": "0.35.4"
+  }
+}

@@ -63,3 +63,7 @@
 ## Invite code reveal
 
 [![Invite code reveal](examples/invite-code-reveal/preview/invite-code-reveal.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/invite-code-reveal)
+
+## Angry sliders
+
+[![Angry sliders](examples/angry-sliders/preview/angry-sliders.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/angry-sliders)

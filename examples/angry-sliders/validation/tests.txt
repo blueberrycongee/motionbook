@@ -1,0 +1,19 @@
+
+> angry-sliders-study@1.0.0 test
+> node --test test/*.test.mjs
+
+✔ DOM-stub pointer capture/cancel, keyboard, replay and reduced-motion release (19.423037ms)
+✔ all 990 native VFR controls and the recorded early timestamp gap (52.161023ms)
+✔ all four source actions end at their actual final values (0.526716ms)
+✔ ballistic prediction and capped drag remain finite and in range (0.398933ms)
+✔ cancel, ignored secondary pointer and new interaction canceling a flight (0.379604ms)
+✔ keyboard bounds, reduced-motion release and completed bounce (0.689031ms)
+✔ new track anchor and preference changes update live drawing (0.316338ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 186.022676
