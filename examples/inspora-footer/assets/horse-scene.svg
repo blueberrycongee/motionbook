@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1671 941" width="1671" height="941" aria-hidden="true">
+ <defs>
+  <linearGradient id="patch-x"><stop stop-color="white" stop-opacity="0"/><stop offset=".08" stop-color="white"/><stop offset=".92" stop-color="white"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient>
+  <linearGradient id="patch-y" x2="0" y2="1"><stop stop-color="white" stop-opacity="0"/><stop offset=".07" stop-color="white"/><stop offset=".93" stop-color="white"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient>
+  <mask id="patch-horizontal"><rect x="679" y="696" width="169" height="143" fill="url(#patch-x)"/></mask>
+  <mask id="patch-soft"><rect x="679" y="696" width="169" height="143" fill="url(#patch-y)" mask="url(#patch-horizontal)"/></mask>
+  <pattern id="engraving" width="7" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(18)"><path d="M1 1v3m2 1v3m2-7v2m1 2v2" fill="none" stroke="#fff0cc" stroke-width=".58" opacity=".7"/></pattern>
+  <path id="horse-body-shape" d="M51 77C57 69 70 68 82 71L104 72 113 63 121 66 120 87C112 98 97 104 79 103 63 105 50 98 49 89 47 84 48 81 51 77Z"/>
+ </defs>
+ <image xlink:href="reference-artwork.png" x="0" y="0" width="1671" height="941"/>
+ <g mask="url(#patch-soft)"><image xlink:href="reference-artwork.png" x="-205" y="0" width="1671" height="941"/></g>
+ <g transform="translate(675 687)">
+  <g id="horse-travel">
+   <ellipse cx="95" cy="135" rx="53" ry="2.1" fill="#0c448b" opacity=".22"/>
+  <g id="horse-bob" fill="#104a8c" stroke="#104a8c" stroke-linejoin="round" stroke-linecap="round">
+    <g id="limb-hind-far" fill="#37659d" stroke="none"><path id="hind-far-upper"/><path id="hind-far-middle"/><path id="hind-far-lower"/><path id="hind-far-pastern"/><path id="hind-far-fetlock"/><path id="hind-far-knee"/><path id="hind-far-middle-texture" fill="url(#engraving)" opacity=".26"/><path id="hind-far-upper-texture" fill="url(#engraving)" opacity=".26"/><path id="hind-far-hoof"/><path id="hind-far-middle-highlight" fill="none" stroke="#fff0cc" stroke-width=".45" opacity=".63"/><path id="hind-far-lower-highlight" fill="none" stroke="#fff0cc" stroke-width=".45" opacity=".63"/></g><g id="limb-front-far" fill="#37659d" stroke="none"><path id="front-far-upper"/><path id="front-far-middle"/><path id="front-far-lower"/><path id="front-far-pastern"/><path id="front-far-fetlock"/><path id="front-far-knee"/><path id="front-far-middle-texture" fill="url(#engraving)" opacity=".26"/><path id="front-far-upper-texture" fill="url(#engraving)" opacity=".26"/><path id="front-far-hoof"/><path id="front-far-middle-highlight" fill="none" stroke="#fff0cc" stroke-width=".45" opacity=".63"/><path id="front-far-lower-highlight" fill="none" stroke="#fff0cc" stroke-width=".45" opacity=".63"/></g><g transform="translate(53 77)"><g id="horse-tail"><path d="M3-1C-11-1-17 5-22 17-27 27-38 33-40 43-31 37-23 35-18 31-9 25-13 10 3 5Z"/><path d="M1 2C-14 3-13 18-23 28L-35 36M-2 3C-12 8-9 17-18 25M-16 29l-16 13" fill="none" stroke="#fff0cc" stroke-width="1"/><path d="M-34 37-44 47-30 40" fill="none" stroke-width="1"/></g></g>
+    <use href="#horse-body-shape"/><use href="#horse-body-shape" fill="url(#engraving)" stroke="none"/>
+    <path d="M54 78C58 74 62 73 68 74M53 82C55 92 64 97 72 98M72 101C83 101 96 97 103 94" stroke="#fff0cc" stroke-width="1.2" fill="none"/>
+    <g transform="translate(112 77)"><g id="horse-head">
+      <path d="M-12 9C-8-3 2-13 11-17 19-21 24-24 31-23L34-26 34-20C39-15 39-9 39-4L42 8C43 14 38 18 34 14L26 3 18 0 13 13 3 19Z"/>
+      <path d="M29-21 26-28 30-26 32-20M33-22 37-29 37-19"/>
+      <path d="M-10 4C-1-4 10-15 24-18M-6 10C1 0 9-7 16-9M31-17C28-12 28-7 31-3L35 5M35 10l4 2" fill="none" stroke="#fff0cc" stroke-width="1.1"/>
+      <path d="M-7-3 1-10 7-13 13-17 20-19 25-21" stroke-width="2.7" fill="none"/>
+      <path d="m0-6 1 3m5-6 1 3m5-6 1 3m5-6 1 3m5-5 1 3" stroke="#fff0cc" stroke-width=".7" fill="none"/>
+      <circle cx="34" cy="-8" r="1" fill="#fff0cc" stroke="none"/>
+      <path d="M26-2 37 7M29 5C19 18 2 8-8 2" stroke="#fff0cc" stroke-width=".65" fill="none"/>
+      <path d="M28 6C18 15 5 12-9 2" fill="none" stroke-width=".7"/>
+    </g></g>
+    <path d="M77 71 101 72 103 91 78 95 72 89Z" fill="#fff0cc" stroke-width="1.2"/>
+    <path d="M79 74 97 74 99 88 79 92Z" fill="#104a8c"/>
+    <path d="M80 75 98 76M80 78l18 1M81 81l17 1M81 84l18 1M81 88l16-1" fill="none" stroke="#fff0cc" stroke-width=".6"/>
+    <g id="limb-hind-near" stroke="none"><path id="hind-near-upper"/><path id="hind-near-middle"/><path id="hind-near-lower"/><path id="hind-near-pastern"/><path id="hind-near-fetlock"/><path id="hind-near-knee"/><path id="hind-near-middle-texture" fill="url(#engraving)" opacity=".26"/><path id="hind-near-upper-texture" fill="url(#engraving)" opacity=".26"/><path id="hind-near-hoof"/><path id="hind-near-middle-highlight" fill="none" stroke="#fff0cc" stroke-width=".45" opacity=".63"/><path id="hind-near-lower-highlight" fill="none" stroke="#fff0cc" stroke-width=".45" opacity=".63"/></g><g id="limb-front-near" stroke="none"><path id="front-near-upper"/><path id="front-near-middle"/><path id="front-near-lower"/><path id="front-near-pastern"/><path id="front-near-fetlock"/><path id="front-near-knee"/><path id="front-near-middle-texture" fill="url(#engraving)" opacity=".26"/><path id="front-near-upper-texture" fill="url(#engraving)" opacity=".26"/><path id="front-near-hoof"/><path id="front-near-middle-highlight" fill="none" stroke="#fff0cc" stroke-width=".45" opacity=".63"/><path id="front-near-lower-highlight" fill="none" stroke="#fff0cc" stroke-width=".45" opacity=".63"/></g><g transform="translate(91 72)"><g id="horse-rider">
+      <g id="rider-upper"><path d="M-7-40C-17-35-17-23-14-13L-10-4-8 7 5 13 16 5 8-5 3-25 0-38Z"/>
+      <path d="M-5-40-2-45 5-42 4-35 0-31-5-35Z"/>
+      <path d="M-11-44C-14-48-8-50 2-49L11-48 12-45C6-42-4-42-11-44Z"/>
+      <path d="M-6-49-5-56C0-60 7-57 8-54L9-48Z"/>
+      <path d="m-4-53 5-1 3 2M-12-30C-16-21-12-9-7-7M-9-34C-5-36-2-31-3-27L-2-16 3-11M-11-26l4 1m-4 4 4 1m-4 4 5 1M-5-8 1-5" stroke="#fff0cc" stroke-width="1.2" fill="none"/>
+      <g id="rider-arm"><path d="M-1-30 8-21 12-9 23 3 19 6 7-5 2-17-4-23Z"/>
+      <path d="M6-20 10-9 21 3" stroke="#fff0cc" stroke-width=".8" fill="none"/>
+      </g></g><path d="M-8 4C-4 4 3 5 6 10L12 20 7 29 1 42-5 41-4 32 1 22-8 15-13 8Z"/>
+      <path d="M-7 6 2 12 7 20 2 29-1 37" fill="none" stroke="#fff0cc" stroke-width="2.4"/>
+      <path d="m-4 37-1 8 9 1 4-3-6-2 1-4Z"/>
+      <path d="M-3 43 4 44" fill="none" stroke="#fff0cc" stroke-width=".8"/>
+      <path d="M3 22 8 24 3 39-1 40" fill="none" stroke-width=".8"/>
+    </g></g>
+   </g>
+  </g>
+ </g>
+</svg>

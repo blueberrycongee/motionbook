@@ -1,5 +1,9 @@
 # 参考动画
 
+## Inspora footer
+
+[![Inspora footer](examples/inspora-footer/delivery/footer-preview.png)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/inspora-footer)
+
 ## Praveen cards
 
 [![Praveen cards](examples/praveen-cards/artifacts/praveen-reconstruction-offline.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/praveen-cards)

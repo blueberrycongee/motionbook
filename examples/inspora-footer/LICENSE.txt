@@ -1,0 +1,7 @@
+Rights notice
+
+No blanket open-source license is assigned to this private reference case.
+
+The desert illustration, paper texture, reference artwork and original design remain with their respective rights holders. Their inclusion and the artwork-containing previews do not grant permission for public or commercial reuse.
+
+The moving horse/rider SVG, motion rig, interface code and tests were independently authored for this reconstruction. Background sources and reuse limitations are recorded in PROVENANCE.md.

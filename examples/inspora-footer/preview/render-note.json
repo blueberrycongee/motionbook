@@ -1,0 +1,14 @@
+{
+  "revision": 6,
+  "reference": "Modern real-horse videos, including mounted side view at 82\u201389s in the public Horses Inside Out walk video",
+  "motion_origin": "Newly authored, not recovered or copied video frames",
+  "preview_seconds": 7,
+  "fps": 20,
+  "frames": 140,
+  "camera": "fixed",
+  "forward_travel_pixels": 252,
+  "final_video_frames_visually_inspected": 28,
+  "visual_auxiliary_labels": false,
+  "browser_runtime_tested": false,
+  "artwork": "Desert and sky texture borrowed from original reference; horse/rider vector paths authored"
+}
