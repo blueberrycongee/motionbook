@@ -1,0 +1,6 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+test('controller bindings, repeated click, keyboard reset, and reduced-motion freeze (DOM stub)',async()=>{
+ const events={},attrs={},button={setAttribute:(k,v)=>attrs[k]=v,addEventListener:(k,fn)=>events['button:'+k]=fn},visual={innerHTML:''},readout={textContent:''},media={matches:false,addEventListener:()=>{}};let next;
+ globalThis.document={querySelector:s=>({'#toggle':button,'#visual':visual,'#readout':readout}[s])};globalThis.matchMedia=()=>media;globalThis.addEventListener=(k,fn)=>events[k]=fn;globalThis.requestAnimationFrame=fn=>next=fn;
+ await import('../src/main.mjs');assert.equal(attrs['aria-pressed'],'false');next(0);next(100);assert.match(readout.textContent,/3%/);events['button:click']();assert.equal(attrs['aria-pressed'],'true');const paused=visual.innerHTML;next(200);assert.equal(readout.textContent,'3%');events['button:click']();assert.equal(attrs['aria-pressed'],'false');events.keydown({code:'KeyR',key:'r'});assert.equal(readout.textContent,'0%');media.matches=true;const still=visual.innerHTML;next(400);next(900);assert.equal(visual.innerHTML,still);events.keydown({code:'Space',key:' ',preventDefault(){},target:visual});assert.equal(attrs['aria-pressed'],'true');
+});

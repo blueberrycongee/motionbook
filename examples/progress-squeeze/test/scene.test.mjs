@@ -1,0 +1,6 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {scene,demoState,reduce,createState,DURATION} from '../src/scene.mjs';
+test('source pause holds at 31% and 81%',()=>{assert.equal(demoState(1.3).progress,.318);assert.equal(demoState(1.8).progress,.318);assert.equal(demoState(4).progress,.818);assert.equal(demoState(4.6).progress,.818);});
+test('manual pause, repeat toggle and reset',()=>{let s=reduce(createState(),{type:'tick',dt:1});s=reduce(s,{type:'toggle'});s=reduce(s,{type:'tick',dt:2});assert.equal(s.progress,.347);assert.equal(s.paused,true);s=reduce(s,{type:'toggle'});s=reduce(s,{type:'tick',dt:1});assert.equal(s.progress,.694);assert.deepEqual(reduce(s,{type:'reset'}),createState());});
+test('bounded progress and negative tick',()=>{let s=reduce(createState(),{type:'tick',dt:100});assert.equal(s.progress,1);assert.equal(reduce(s,{type:'tick',dt:-1}).progress,1);});
+test('full loop has identical boundary',()=>{assert.deepEqual(demoState(0),demoState(DURATION));assert.equal(scene(demoState(0)),scene(demoState(DURATION)));});
+test('all frames finite and no external asset dependency',()=>{for(let i=0;i<DURATION*120;i++){const svg=scene(demoState(i/120));assert(!/NaN|Infinity|<image|https?:\/\/(?!www.w3.org)/.test(svg));assert(svg.startsWith('<svg'));}});

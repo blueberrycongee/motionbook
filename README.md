@@ -31,3 +31,7 @@
 ## Playful project hovers
 
 [![Playful project hovers](examples/spencer-playful-hovers/preview/hover-sequence.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/spencer-playful-hovers)
+
+## Progress squeeze
+
+[![Progress squeeze](examples/progress-squeeze/preview/progress-squeeze.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/progress-squeeze)
