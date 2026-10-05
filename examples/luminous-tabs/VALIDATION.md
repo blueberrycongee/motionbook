@@ -1,18 +1,27 @@
-# Run and validation
+# Run and validation, revision 2
 
-Run `npm start` and open `http://127.0.0.1:4173`. Hover/focus a tab to illuminate it, click to select, use Left/Right/Home/End to navigate, and R to replay the reference sequence. Reduced-motion users get immediate selected states without animation.
+Run `npm start` and open `http://127.0.0.1:4173`. Hover/focus to illuminate, click to select, use Left/Right/Home/End to navigate, and R to replay. Reduced-motion preference uses immediate selected states.
 
-Tests: `npm test`. Preview regeneration: `npm install && npm run render` (FFmpeg required).
+Tests: `npm test`. Re-render: `npm install && npm run render` (FFmpeg required).
 
-## Passed
+## Complete native-frame comparison
 
-- Five Node tests cover measured phases, centered underline widths, exact neutral loop endpoints, rapid reversal/convergence, finite SVG frames, and controller wiring through a DOM stub (click, hover, arrows, replay, reduced motion).
-- `node src/render.mjs` generated 180 original SVG frames at 960 × 864 / 30 fps, a complete six-second MP4, and a clean infinite-loop GIF at 20 fps. Both files decoded without FFmpeg errors.
-- Browser demo and offline renderer share the exact scene generator and sampled timing model. Preview is sharp/librsvg offline rasterization, not a browser capture or a crop of the reference.
-- Actual reference keyframes at 0, 0.6, 1.3, 2.3, 3.5, and 4.2 seconds were compared against rendered frames. Both pill rectangles, text alignment, the centered underline widths and neutral/illuminated states match the observed structure. Review led to a wider highlight, smoother ambient-light mask, and adjusted Attachments spacing.
+All 179 encoded frames from the original media were reviewed in chronological sheets. All 179 same-time regenerated SVGs were then inspected, including expanded crops of both growth/hold/collapse sequences. Source and rebuilt frames have identical 30 fps timestamps; no gallery preview or cadence conversion was used.
 
-## Limits
+The independent all-frame geometry scan at 960 px width found:
 
-Browser runtime is unverified. The task's local Chromium and cloud-browser local-URL routes were already blocked, and were not bypassed. DOM stubs do not verify actual pointer hit-testing, focus rendering, browser events, or browser SVG filters. A real-browser check remains necessary before production use.
+- Underline width error: median 0 px, 95th percentile 0 px, maximum 0 px
+- Underline center error: median 0 px, 95th percentile 0 px, maximum 0 px
+- Ambient-region mean absolute RGB error per frame: median 0.607, 95th percentile 0.702, maximum 0.784, over the unobstructed region y=492–779
 
-Typography, original icon contours and continuous light falloff differ slightly; no pixel-identity claim is made. Gradients are a compact approximation of the source's soft glow. The animation uses measured width samples, with linear interpolation between 0.1-second observations. Authored live interactions use a smooth exponential response rather than pretending the source event logic was recovered. Fontconfig cache warnings were nonfatal.
+See [native frame measurements](validation/native-frame-audit.json). A thresholded underline match and limited-region color agreement are not a whole-image similarity score. Font/icon contours and minor reflection-edge differences remain visible in detailed comparison; no pixel-identity percentage is claimed.
+
+## Passed checks
+
+Five Node tests cover observed phases/native width samples, exact loop boundary, rapid target reversal, finite rendering, and controller wiring through DOM stubs (click, hover, arrow navigation, replay and reduced motion). Complete GIF and MP4 decoding passed.
+
+The 180-frame MP4 is 960 × 864 / 30 fps / six seconds; GIF is a clean 20 fps infinite loop. Offline sharp/librsvg rendering calls the same scene generator and scalar controls as the browser. It is not a browser capture or reference-video playback.
+
+## Runtime limits
+
+Actual browser rendering, pointer hit-testing, focus and browser event dispatch remain unverified. Local Chromium and cloud-browser local URLs were already blocked in the task; restrictions were not bypassed. DOM stubs cannot establish a browser-runtime pass. Check browser rendering and SVG behavior before production use.

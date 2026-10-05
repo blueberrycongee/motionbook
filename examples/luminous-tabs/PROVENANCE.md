@@ -1,17 +1,21 @@
-# Source and reconstruction
+# Source and reconstruction, revision 2
 
-- Reference: https://www.inspora.design/posts/9-6
-- Creator: @marcelkargul
-- Original: https://x.com/marcelkargul/status/2089632076370763821
-- Observed footage: https://media.inspora.design/posts/380c26c2-3ef6-4111-93e4-b031adac1a87.mp4
-- Inspected 2026-10-05. Reference is 1920 × 1728, 30 fps, 5.966667 seconds. All 179 frames were decoded, and 24 frames around the neutral, entry, hold and exit phases were inspected in a transition strip.
+- Curator reference: https://www.inspora.design/posts/9-6
+- Posted by @marcelkargul: https://x.com/marcelkargul/status/2089632076370763821
+- Original media URL, checked against the post's original-media field: https://media.inspora.design/posts/380c26c2-3ef6-4111-93e4-b031adac1a87.mp4
 
-Two dark rounded tabs sit on black: Emails and Attachments. Each brightens separately while a white underline grows outwards from its center, holds, then contracts. Light spreads across the tab's lower edge and below the underline. No source cursor or content panel is shown.
+The original is 1920 × 1728, 179 encoded frames at 30 fps, 5.966667 seconds. Every original frame and every same-timestamp SVG reconstruction was inspected in numbered sequential sheets. Detailed original-versus-replica crops were also inspected at frames 0, 18, 39, 69, 105 and 125.
 
-The independent SVG works at half the source dimensions (960 × 864). First pill: (196,378), 227 × 80; second: (457,378), 337 × 80. Underlines are centered around x=309.5 and x=625.5, near y=484. The first expands at 0.3–1.1s, holds until 1.9s, and collapses by 2.6s. The second expands at 3.0–3.9s, holds until 4.6s, and collapses by 5.3s. Width samples were measured directly from unobstructed bright line pixels; colors and light falloff were visually fitted.
+Two charcoal tabs, Emails and Attachments, illuminate in succession. Their underlines grow symmetrically from the center, hold, then collapse. The tab's lower inner edge catches a bright reflection, with a broader pool of light underneath.
 
-All icons and gradient layers were independently drawn. The six-second preview shows the complete observed sequence with neutral endpoints for looping. The runnable demo adds pointer, click, focus and arrow-key selection. Those interaction policies are authored additions: the footage alone does not establish the original event implementation.
+## Independent implementation
+
+The drawing is a standalone parametric SVG at 960 × 864. Pill positions and dimensions were measured, and both icons redrawn as original paths. Revision 2 uses scalar width, center, text brightness and light-intensity controls measured at all 179 native timestamps instead of interpolating only sparse 0.1-second samples.
+
+Lighting is an independently implemented analytic model: two fitted Gaussian light fields below each tab, an exponential vertical reflection multiplied by a generalized Gaussian horizontal mask inside each pill, and a narrow specular stripe. Model parameters were fitted against unobstructed source regions. No source frame, raster texture, copied SVG/code, font or third-party image is embedded.
+
+The six-second clean loop includes the entire original interaction and a final neutral frame. Pointer, click, focus and arrow-key selection are authored demo behaviors; the footage does not establish the original event handlers.
 
 ## Rights
 
-No license to reuse the original design was shown in the inspected post. This independent educational study does not grant rights in the creator's design. No original source, raster asset, footage, screenshot, or proprietary font is shipped. Obtain necessary permissions before commercial reuse.
+No original reuse license was shown on the inspected post. This independent educational study grants no rights in the creator's design. Reference footage and screenshots are excluded from the package. Obtain necessary permissions before commercial use.
