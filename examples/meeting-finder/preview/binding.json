@@ -1,0 +1,35 @@
+{
+  "method": "Fresh scene rasters equal each delivered still; final media render completed after last scene edit",
+  "scene_sha256": "dbf15ac54068426bc258c712bbc6395a1d7818c489d304fea62528c8831e4aa0",
+  "app_sha256": "64c5a0b20ab1ff23dbf8dd8ab7faf5a9e4bb01cb382da265793ac761b3a82303",
+  "mp4_sha256": "00c3efbdc01fd686a2792d4458c0bd747da9167765c3b9b3fbc0a11d55b7f285",
+  "gif_sha256": "7b1b6dd744fad97587fa7a491bbd231d31839e5b3c5f0091d600856060ff3a84",
+  "stills": [
+    {
+      "name": "early",
+      "t": 0.5,
+      "identical": true
+    },
+    {
+      "name": "midday",
+      "t": 4.8,
+      "identical": true
+    },
+    {
+      "name": "overlap",
+      "t": 11,
+      "identical": true
+    },
+    {
+      "name": "late",
+      "t": 8.7,
+      "identical": true
+    },
+    {
+      "name": "best",
+      "t": 14.3,
+      "identical": true
+    }
+  ],
+  "tail_frames": 126
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "native_pts_samples": 687,
+  "checks": [
+    "687 measured native cursor positions",
+    "687 independently classified selected-hour states",
+    "target value remains separate from animated cursor",
+    "all24 UTC choices and previous-day state",
+    "1008 finite60fps model samples",
+    "exact loop state",
+    "Find best time animated search",
+    "drag/cancel and keyboard Home/End/Escape",
+    "interrupted search",
+    "reduced motion"
+  ],
+  "runtime": "Node VM DOM/event mocks only, not a browser runtime"
+}

@@ -55,3 +55,7 @@
 ## File upload card
 
 [![File upload card](examples/file-upload-card/preview/file-upload-card.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/file-upload-card)
+
+## Meeting Finder
+
+[![Meeting Finder](examples/meeting-finder/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/meeting-finder)

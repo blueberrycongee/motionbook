@@ -1,0 +1,30 @@
+{
+  "reviewed_at_utc": "2026-10-05T21:06:00Z",
+  "reviewer": "/root/replicate_social_motion_cards",
+  "source_file": "motion-reference-research/originals/meeting-finder.mp4",
+  "source_sha256": "49aa67110621e5a40ec5f384523e0754b0828321a8864598398c3bc2c1312fc6",
+  "native_frame_ranges_visually_inspected": [
+    [
+      0,
+      686
+    ]
+  ],
+  "native_frame_count": 687,
+  "actual_pts": true,
+  "final_comparison_directory": "motion-batch-100/reports/social-motion-analysis/meeting-native-comparison-v4",
+  "comparison_sheet_count": 46,
+  "encoded_tail_ranges_visually_inspected": [
+    [
+      882,
+      1007
+    ]
+  ],
+  "full_frame_comparisons": [
+    "motion-batch-100/reports/social-motion-analysis/meeting-full-frame-0.png",
+    "motion-batch-100/reports/social-motion-analysis/meeting-full-frame-6.2.png",
+    "motion-batch-100/reports/social-motion-analysis/meeting-full-frame-10.8.png",
+    "motion-batch-100/reports/social-motion-analysis/meeting-full-frame-13.3.png"
+  ],
+  "scene_sha256": "dbf15ac54068426bc258c712bbc6395a1d7818c489d304fea62528c8831e4aa0",
+  "status": "self_review_passed_pending_independent_review"
+}
