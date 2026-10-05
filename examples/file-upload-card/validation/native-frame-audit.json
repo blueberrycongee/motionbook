@@ -1,0 +1,5161 @@
+{
+  "scope": "All 223 native 60fps original frames compared at720px work resolution. Front top/rim ridge, left threshold edge and right edge ridge at y=320 only; cursor-contaminated upper-right extrema are excluded. No full-image similarity score.",
+  "source_frames": 223,
+  "front_coordinate_errors": {
+    "tab_top_y": {
+      "median_abs": 0.0,
+      "p95_abs": 0.0,
+      "max_abs": 1
+    },
+    "rim_y": {
+      "median_abs": 0.0,
+      "p95_abs": 1.0,
+      "max_abs": 1
+    },
+    "left_edge_x": {
+      "median_abs": 0.0,
+      "p95_abs": 0.0,
+      "max_abs": 0
+    },
+    "right_edge_at_y320": {
+      "median_abs": 1.0,
+      "p95_abs": 2.0,
+      "max_abs": 2
+    }
+  },
+  "folder_region_mae": {
+    "median": 3.2567013698630136,
+    "max": 5.628504109589041
+  },
+  "rows": [
+    {
+      "frame": 0,
+      "pts": 0.0,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.2566027397260275
+    },
+    {
+      "frame": 1,
+      "pts": 0.0166667,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.2408876712328767
+    },
+    {
+      "frame": 2,
+      "pts": 0.0333333,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.235068493150685
+    },
+    {
+      "frame": 3,
+      "pts": 0.05,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.2352438356164384
+    },
+    {
+      "frame": 4,
+      "pts": 0.0666667,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.236668493150685
+    },
+    {
+      "frame": 5,
+      "pts": 0.0833333,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.237260273972603
+    },
+    {
+      "frame": 6,
+      "pts": 0.1,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.2374794520547945
+    },
+    {
+      "frame": 7,
+      "pts": 0.1166667,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.237917808219178
+    },
+    {
+      "frame": 8,
+      "pts": 0.1333333,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.236843835616438
+    },
+    {
+      "frame": 9,
+      "pts": 0.15,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.253315068493151
+    },
+    {
+      "frame": 10,
+      "pts": 0.1666667,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.257183561643836
+    },
+    {
+      "frame": 11,
+      "pts": 0.1833333,
+      "source_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.2891945205479454
+    },
+    {
+      "frame": 12,
+      "pts": 0.2,
+      "source_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.3206794520547946
+    },
+    {
+      "frame": 13,
+      "pts": 0.2166667,
+      "source_front": [
+        238,
+        263,
+        206,
+        507
+      ],
+      "replica_front": [
+        238,
+        263,
+        206,
+        508
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.5234082191780822
+    },
+    {
+      "frame": 14,
+      "pts": 0.2333333,
+      "source_front": [
+        238,
+        263,
+        206,
+        507
+      ],
+      "replica_front": [
+        238,
+        263,
+        206,
+        508
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.531331506849315
+    },
+    {
+      "frame": 15,
+      "pts": 0.25,
+      "source_front": [
+        238,
+        263,
+        206,
+        507
+      ],
+      "replica_front": [
+        238,
+        263,
+        206,
+        508
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.585764383561644
+    },
+    {
+      "frame": 16,
+      "pts": 0.2666667,
+      "source_front": [
+        238,
+        264,
+        206,
+        507
+      ],
+      "replica_front": [
+        238,
+        264,
+        206,
+        509
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 2.453282191780822
+    },
+    {
+      "frame": 17,
+      "pts": 0.2833333,
+      "source_front": [
+        239,
+        264,
+        206,
+        508
+      ],
+      "replica_front": [
+        239,
+        264,
+        206,
+        508
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.3652164383561645
+    },
+    {
+      "frame": 18,
+      "pts": 0.3,
+      "source_front": [
+        239,
+        264,
+        205,
+        508
+      ],
+      "replica_front": [
+        239,
+        264,
+        205,
+        509
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.5616219178082194
+    },
+    {
+      "frame": 19,
+      "pts": 0.3166667,
+      "source_front": [
+        240,
+        265,
+        204,
+        509
+      ],
+      "replica_front": [
+        240,
+        265,
+        204,
+        510
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.5723287671232877
+    },
+    {
+      "frame": 20,
+      "pts": 0.3333333,
+      "source_front": [
+        240,
+        266,
+        204,
+        510
+      ],
+      "replica_front": [
+        240,
+        266,
+        204,
+        511
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.5053479452054797
+    },
+    {
+      "frame": 21,
+      "pts": 0.35,
+      "source_front": [
+        241,
+        267,
+        202,
+        512
+      ],
+      "replica_front": [
+        241,
+        267,
+        202,
+        513
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.739890410958904
+    },
+    {
+      "frame": 22,
+      "pts": 0.3666667,
+      "source_front": [
+        243,
+        269,
+        201,
+        514
+      ],
+      "replica_front": [
+        243,
+        269,
+        201,
+        514
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.4387616438356163
+    },
+    {
+      "frame": 23,
+      "pts": 0.3833333,
+      "source_front": [
+        244,
+        270,
+        199,
+        515
+      ],
+      "replica_front": [
+        244,
+        270,
+        199,
+        517
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 2.8345205479452056
+    },
+    {
+      "frame": 24,
+      "pts": 0.4,
+      "source_front": [
+        245,
+        272,
+        198,
+        517
+      ],
+      "replica_front": [
+        245,
+        272,
+        198,
+        518
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.536569863013699
+    },
+    {
+      "frame": 25,
+      "pts": 0.4166667,
+      "source_front": [
+        246,
+        273,
+        197,
+        518
+      ],
+      "replica_front": [
+        246,
+        273,
+        197,
+        519
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.604208219178082
+    },
+    {
+      "frame": 26,
+      "pts": 0.4333333,
+      "source_front": [
+        247,
+        274,
+        196,
+        519
+      ],
+      "replica_front": [
+        247,
+        274,
+        196,
+        520
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.546904109589041
+    },
+    {
+      "frame": 27,
+      "pts": 0.45,
+      "source_front": [
+        247,
+        274,
+        196,
+        520
+      ],
+      "replica_front": [
+        247,
+        274,
+        196,
+        520
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.8977424657534248
+    },
+    {
+      "frame": 28,
+      "pts": 0.4666667,
+      "source_front": [
+        248,
+        275,
+        195,
+        521
+      ],
+      "replica_front": [
+        248,
+        275,
+        195,
+        522
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.719627397260274
+    },
+    {
+      "frame": 29,
+      "pts": 0.4833333,
+      "source_front": [
+        248,
+        275,
+        195,
+        521
+      ],
+      "replica_front": [
+        248,
+        275,
+        195,
+        522
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 3.0202958904109587
+    },
+    {
+      "frame": 30,
+      "pts": 0.5,
+      "source_front": [
+        249,
+        276,
+        194,
+        522
+      ],
+      "replica_front": [
+        249,
+        276,
+        194,
+        523
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.729545205479452
+    },
+    {
+      "frame": 31,
+      "pts": 0.5166667,
+      "source_front": [
+        249,
+        276,
+        194,
+        522
+      ],
+      "replica_front": [
+        249,
+        276,
+        194,
+        523
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.9907068493150684
+    },
+    {
+      "frame": 32,
+      "pts": 0.5333333,
+      "source_front": [
+        249,
+        277,
+        194,
+        523
+      ],
+      "replica_front": [
+        249,
+        277,
+        194,
+        523
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.6086246575342464
+    },
+    {
+      "frame": 33,
+      "pts": 0.55,
+      "source_front": [
+        249,
+        277,
+        193,
+        523
+      ],
+      "replica_front": [
+        249,
+        277,
+        193,
+        524
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.944931506849315
+    },
+    {
+      "frame": 34,
+      "pts": 0.5666667,
+      "source_front": [
+        250,
+        277,
+        193,
+        523
+      ],
+      "replica_front": [
+        250,
+        277,
+        193,
+        524
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.842323287671233
+    },
+    {
+      "frame": 35,
+      "pts": 0.5833333,
+      "source_front": [
+        250,
+        277,
+        193,
+        524
+      ],
+      "replica_front": [
+        250,
+        277,
+        193,
+        524
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.906312328767123
+    },
+    {
+      "frame": 36,
+      "pts": 0.6,
+      "source_front": [
+        250,
+        278,
+        193,
+        524
+      ],
+      "replica_front": [
+        250,
+        278,
+        193,
+        524
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.6462246575342467
+    },
+    {
+      "frame": 37,
+      "pts": 0.6166667,
+      "source_front": [
+        250,
+        278,
+        193,
+        524
+      ],
+      "replica_front": [
+        250,
+        278,
+        193,
+        524
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.7885150684931506
+    },
+    {
+      "frame": 38,
+      "pts": 0.6333333,
+      "source_front": [
+        250,
+        278,
+        192,
+        524
+      ],
+      "replica_front": [
+        250,
+        278,
+        192,
+        525
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 3.0084931506849317
+    },
+    {
+      "frame": 39,
+      "pts": 0.65,
+      "source_front": [
+        250,
+        278,
+        192,
+        524
+      ],
+      "replica_front": [
+        250,
+        278,
+        192,
+        525
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 3.1077479452054795
+    },
+    {
+      "frame": 40,
+      "pts": 0.6666667,
+      "source_front": [
+        251,
+        278,
+        192,
+        525
+      ],
+      "replica_front": [
+        251,
+        278,
+        192,
+        525
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.899123287671233
+    },
+    {
+      "frame": 41,
+      "pts": 0.6833333,
+      "source_front": [
+        251,
+        278,
+        192,
+        525
+      ],
+      "replica_front": [
+        251,
+        278,
+        192,
+        525
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.915594520547945
+    },
+    {
+      "frame": 42,
+      "pts": 0.7,
+      "source_front": [
+        251,
+        278,
+        192,
+        525
+      ],
+      "replica_front": [
+        251,
+        278,
+        192,
+        525
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.0206356164383563
+    },
+    {
+      "frame": 43,
+      "pts": 0.7166667,
+      "source_front": [
+        251,
+        279,
+        192,
+        525
+      ],
+      "replica_front": [
+        251,
+        279,
+        192,
+        525
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.8036383561643836
+    },
+    {
+      "frame": 44,
+      "pts": 0.7333333,
+      "source_front": [
+        251,
+        279,
+        192,
+        525
+      ],
+      "replica_front": [
+        251,
+        279,
+        192,
+        525
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.8727890410958903
+    },
+    {
+      "frame": 45,
+      "pts": 0.75,
+      "source_front": [
+        251,
+        279,
+        192,
+        525
+      ],
+      "replica_front": [
+        251,
+        279,
+        192,
+        525
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.0410301369863015
+    },
+    {
+      "frame": 46,
+      "pts": 0.7666667,
+      "source_front": [
+        251,
+        279,
+        192,
+        525
+      ],
+      "replica_front": [
+        251,
+        279,
+        192,
+        525
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.164054794520548
+    },
+    {
+      "frame": 47,
+      "pts": 0.7833333,
+      "source_front": [
+        251,
+        279,
+        192,
+        525
+      ],
+      "replica_front": [
+        251,
+        279,
+        192,
+        525
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.2201534246575343
+    },
+    {
+      "frame": 48,
+      "pts": 0.8,
+      "source_front": [
+        251,
+        279,
+        191,
+        525
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 3.4379835616438355
+    },
+    {
+      "frame": 49,
+      "pts": 0.8166667,
+      "source_front": [
+        251,
+        279,
+        191,
+        525
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 3.398060273972603
+    },
+    {
+      "frame": 50,
+      "pts": 0.8333333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.4065424657534247
+    },
+    {
+      "frame": 51,
+      "pts": 0.85,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.423868493150685
+    },
+    {
+      "frame": 52,
+      "pts": 0.8666667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.5101917808219176
+    },
+    {
+      "frame": 53,
+      "pts": 0.8833333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.616295890410959
+    },
+    {
+      "frame": 54,
+      "pts": 0.9,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.5803068493150687
+    },
+    {
+      "frame": 55,
+      "pts": 0.9166667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.5440876712328766
+    },
+    {
+      "frame": 56,
+      "pts": 0.9333333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.5583561643835617
+    },
+    {
+      "frame": 57,
+      "pts": 0.95,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.603364383561644
+    },
+    {
+      "frame": 58,
+      "pts": 0.9666667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.674717808219178
+    },
+    {
+      "frame": 59,
+      "pts": 0.9833333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.796504109589041
+    },
+    {
+      "frame": 60,
+      "pts": 1.0,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.708876712328767
+    },
+    {
+      "frame": 61,
+      "pts": 1.0166667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.903649315068493
+    },
+    {
+      "frame": 62,
+      "pts": 1.0333333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.802772602739726
+    },
+    {
+      "frame": 63,
+      "pts": 1.05,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.7945753424657536
+    },
+    {
+      "frame": 64,
+      "pts": 1.0666667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.9874191780821917
+    },
+    {
+      "frame": 65,
+      "pts": 1.0833333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.9782027397260276
+    },
+    {
+      "frame": 66,
+      "pts": 1.1,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.9810849315068495
+    },
+    {
+      "frame": 67,
+      "pts": 1.1166667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.990772602739726
+    },
+    {
+      "frame": 68,
+      "pts": 1.1333333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.001084931506849
+    },
+    {
+      "frame": 69,
+      "pts": 1.15,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.017282191780822
+    },
+    {
+      "frame": 70,
+      "pts": 1.1666667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.055495890410959
+    },
+    {
+      "frame": 71,
+      "pts": 1.1833333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.232602739726027
+    },
+    {
+      "frame": 72,
+      "pts": 1.2,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.0400109589041096
+    },
+    {
+      "frame": 73,
+      "pts": 1.2166667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.014465753424657
+    },
+    {
+      "frame": 74,
+      "pts": 1.2333333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.041238356164383
+    },
+    {
+      "frame": 75,
+      "pts": 1.25,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.206290410958904
+    },
+    {
+      "frame": 76,
+      "pts": 1.2666667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.008679452054794
+    },
+    {
+      "frame": 77,
+      "pts": 1.2833333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.234619178082192
+    },
+    {
+      "frame": 78,
+      "pts": 1.3,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.215243835616438
+    },
+    {
+      "frame": 79,
+      "pts": 1.3166667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.239134246575342
+    },
+    {
+      "frame": 80,
+      "pts": 1.3333333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.196613698630137
+    },
+    {
+      "frame": 81,
+      "pts": 1.35,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.24346301369863
+    },
+    {
+      "frame": 82,
+      "pts": 1.3666667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.217457534246575
+    },
+    {
+      "frame": 83,
+      "pts": 1.3833333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.211550684931507
+    },
+    {
+      "frame": 84,
+      "pts": 1.4,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.270717808219178
+    },
+    {
+      "frame": 85,
+      "pts": 1.4166667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.205457534246575
+    },
+    {
+      "frame": 86,
+      "pts": 1.4333333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.245501369863014
+    },
+    {
+      "frame": 87,
+      "pts": 1.45,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.259167123287671
+    },
+    {
+      "frame": 88,
+      "pts": 1.4666667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.197150684931507
+    },
+    {
+      "frame": 89,
+      "pts": 1.4833333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.246279452054795
+    },
+    {
+      "frame": 90,
+      "pts": 1.5,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.059397260273973
+    },
+    {
+      "frame": 91,
+      "pts": 1.5166667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.229205479452054
+    },
+    {
+      "frame": 92,
+      "pts": 1.5333333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.203879452054794
+    },
+    {
+      "frame": 93,
+      "pts": 1.55,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.273490410958904
+    },
+    {
+      "frame": 94,
+      "pts": 1.5666667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.062706849315068
+    },
+    {
+      "frame": 95,
+      "pts": 1.5833333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.177446575342466
+    },
+    {
+      "frame": 96,
+      "pts": 1.6,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.178816438356164
+    },
+    {
+      "frame": 97,
+      "pts": 1.6166667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.20531506849315
+    },
+    {
+      "frame": 98,
+      "pts": 1.6333333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.220361643835616
+    },
+    {
+      "frame": 99,
+      "pts": 1.65,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.2703561643835615
+    },
+    {
+      "frame": 100,
+      "pts": 1.6666667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.3933479452054796
+    },
+    {
+      "frame": 101,
+      "pts": 1.6833333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.792427397260274
+    },
+    {
+      "frame": 102,
+      "pts": 1.7,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.921534246575343
+    },
+    {
+      "frame": 103,
+      "pts": 1.7166667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.834958904109589
+    },
+    {
+      "frame": 104,
+      "pts": 1.7333333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.744230136986301
+    },
+    {
+      "frame": 105,
+      "pts": 1.75,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        278,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.120438356164383
+    },
+    {
+      "frame": 106,
+      "pts": 1.7666667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        278,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.895046575342466
+    },
+    {
+      "frame": 107,
+      "pts": 1.7833333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        278,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.4605917808219178
+    },
+    {
+      "frame": 108,
+      "pts": 1.8,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        278,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.440931506849315
+    },
+    {
+      "frame": 109,
+      "pts": 1.8166667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        278,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.349227397260274
+    },
+    {
+      "frame": 110,
+      "pts": 1.8333333,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.176931506849315
+    },
+    {
+      "frame": 111,
+      "pts": 1.85,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.106904109589041
+    },
+    {
+      "frame": 112,
+      "pts": 1.8666667,
+      "source_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "replica_front": [
+        251,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.9825315068493152
+    },
+    {
+      "frame": 113,
+      "pts": 1.8833333,
+      "source_front": [
+        251,
+        279,
+        190,
+        527
+      ],
+      "replica_front": [
+        251,
+        279,
+        190,
+        527
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.6023890410958903
+    },
+    {
+      "frame": 114,
+      "pts": 1.9,
+      "source_front": [
+        250,
+        278,
+        189,
+        527
+      ],
+      "replica_front": [
+        250,
+        278,
+        189,
+        528
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 3.0526246575342464
+    },
+    {
+      "frame": 115,
+      "pts": 1.9166667,
+      "source_front": [
+        249,
+        278,
+        188,
+        529
+      ],
+      "replica_front": [
+        249,
+        278,
+        188,
+        529
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.9028493150684933
+    },
+    {
+      "frame": 116,
+      "pts": 1.9333333,
+      "source_front": [
+        249,
+        277,
+        187,
+        530
+      ],
+      "replica_front": [
+        249,
+        277,
+        187,
+        530
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.052964383561644
+    },
+    {
+      "frame": 117,
+      "pts": 1.95,
+      "source_front": [
+        248,
+        277,
+        186,
+        531
+      ],
+      "replica_front": [
+        248,
+        277,
+        186,
+        531
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.1252712328767123
+    },
+    {
+      "frame": 118,
+      "pts": 1.9666667,
+      "source_front": [
+        248,
+        277,
+        185,
+        531
+      ],
+      "replica_front": [
+        248,
+        277,
+        185,
+        532
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 3.094158904109589
+    },
+    {
+      "frame": 119,
+      "pts": 1.9833333,
+      "source_front": [
+        248,
+        276,
+        185,
+        531
+      ],
+      "replica_front": [
+        248,
+        276,
+        185,
+        532
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 3.2829698630136988
+    },
+    {
+      "frame": 120,
+      "pts": 2.0,
+      "source_front": [
+        247,
+        276,
+        185,
+        532
+      ],
+      "replica_front": [
+        247,
+        276,
+        185,
+        532
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.748449315068493
+    },
+    {
+      "frame": 121,
+      "pts": 2.0166667,
+      "source_front": [
+        247,
+        276,
+        185,
+        532
+      ],
+      "replica_front": [
+        247,
+        275,
+        185,
+        532
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.8527013698630137
+    },
+    {
+      "frame": 122,
+      "pts": 2.0333333,
+      "source_front": [
+        247,
+        276,
+        185,
+        532
+      ],
+      "replica_front": [
+        247,
+        275,
+        185,
+        532
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.9296986301369863
+    },
+    {
+      "frame": 123,
+      "pts": 2.05,
+      "source_front": [
+        247,
+        276,
+        184,
+        532
+      ],
+      "replica_front": [
+        247,
+        275,
+        184,
+        533
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        1
+      ],
+      "folder_region_mae": 4.224416438356164
+    },
+    {
+      "frame": 124,
+      "pts": 2.0666667,
+      "source_front": [
+        247,
+        276,
+        185,
+        532
+      ],
+      "replica_front": [
+        247,
+        275,
+        185,
+        532
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.176449315068493
+    },
+    {
+      "frame": 125,
+      "pts": 2.0833333,
+      "source_front": [
+        247,
+        276,
+        185,
+        532
+      ],
+      "replica_front": [
+        247,
+        275,
+        185,
+        532
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.109128767123288
+    },
+    {
+      "frame": 126,
+      "pts": 2.1,
+      "source_front": [
+        248,
+        276,
+        185,
+        531
+      ],
+      "replica_front": [
+        248,
+        275,
+        185,
+        532
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        1
+      ],
+      "folder_region_mae": 4.048284931506849
+    },
+    {
+      "frame": 127,
+      "pts": 2.1166667,
+      "source_front": [
+        248,
+        276,
+        185,
+        531
+      ],
+      "replica_front": [
+        248,
+        275,
+        185,
+        532
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        1
+      ],
+      "folder_region_mae": 4.257260273972602
+    },
+    {
+      "frame": 128,
+      "pts": 2.1333333,
+      "source_front": [
+        248,
+        277,
+        186,
+        531
+      ],
+      "replica_front": [
+        248,
+        276,
+        186,
+        531
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.1147397260273975
+    },
+    {
+      "frame": 129,
+      "pts": 2.15,
+      "source_front": [
+        249,
+        277,
+        187,
+        530
+      ],
+      "replica_front": [
+        249,
+        276,
+        187,
+        530
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.222367123287671
+    },
+    {
+      "frame": 130,
+      "pts": 2.1666667,
+      "source_front": [
+        250,
+        277,
+        188,
+        529
+      ],
+      "replica_front": [
+        250,
+        276,
+        188,
+        529
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.417161643835616
+    },
+    {
+      "frame": 131,
+      "pts": 2.1833333,
+      "source_front": [
+        250,
+        278,
+        189,
+        528
+      ],
+      "replica_front": [
+        250,
+        277,
+        189,
+        528
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        0
+      ],
+      "folder_region_mae": 4.313468493150685
+    },
+    {
+      "frame": 132,
+      "pts": 2.2,
+      "source_front": [
+        250,
+        278,
+        189,
+        527
+      ],
+      "replica_front": [
+        250,
+        277,
+        189,
+        528
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        1
+      ],
+      "folder_region_mae": 4.4251726027397265
+    },
+    {
+      "frame": 133,
+      "pts": 2.2166667,
+      "source_front": [
+        251,
+        278,
+        190,
+        526
+      ],
+      "replica_front": [
+        251,
+        277,
+        190,
+        527
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        1
+      ],
+      "folder_region_mae": 4.389621917808219
+    },
+    {
+      "frame": 134,
+      "pts": 2.2333333,
+      "source_front": [
+        251,
+        278,
+        190,
+        526
+      ],
+      "replica_front": [
+        251,
+        277,
+        190,
+        527
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        1
+      ],
+      "folder_region_mae": 4.546246575342466
+    },
+    {
+      "frame": 135,
+      "pts": 2.25,
+      "source_front": [
+        251,
+        279,
+        190,
+        525
+      ],
+      "replica_front": [
+        251,
+        278,
+        190,
+        527
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        2
+      ],
+      "folder_region_mae": 4.4511452054794525
+    },
+    {
+      "frame": 136,
+      "pts": 2.2666667,
+      "source_front": [
+        251,
+        279,
+        191,
+        525
+      ],
+      "replica_front": [
+        251,
+        278,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        1
+      ],
+      "folder_region_mae": 4.523758904109589
+    },
+    {
+      "frame": 137,
+      "pts": 2.2833333,
+      "source_front": [
+        251,
+        279,
+        191,
+        525
+      ],
+      "replica_front": [
+        251,
+        278,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        1
+      ],
+      "folder_region_mae": 4.700898630136987
+    },
+    {
+      "frame": 138,
+      "pts": 2.3,
+      "source_front": [
+        251,
+        279,
+        191,
+        525
+      ],
+      "replica_front": [
+        251,
+        278,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        1
+      ],
+      "folder_region_mae": 4.853402739726027
+    },
+    {
+      "frame": 139,
+      "pts": 2.3166667,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        278,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        2
+      ],
+      "folder_region_mae": 4.500241095890411
+    },
+    {
+      "frame": 140,
+      "pts": 2.3333333,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        278,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        2
+      ],
+      "folder_region_mae": 4.628690410958904
+    },
+    {
+      "frame": 141,
+      "pts": 2.35,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        278,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        2
+      ],
+      "folder_region_mae": 4.617808219178082
+    },
+    {
+      "frame": 142,
+      "pts": 2.3666667,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        278,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        2
+      ],
+      "folder_region_mae": 4.6157589041095894
+    },
+    {
+      "frame": 143,
+      "pts": 2.3833333,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        278,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        -1,
+        0,
+        2
+      ],
+      "folder_region_mae": 4.7095232876712325
+    },
+    {
+      "frame": 144,
+      "pts": 2.4,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 4.791813698630137
+    },
+    {
+      "frame": 145,
+      "pts": 2.4166667,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 4.7935342465753426
+    },
+    {
+      "frame": 146,
+      "pts": 2.4333333,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 4.775035616438356
+    },
+    {
+      "frame": 147,
+      "pts": 2.45,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 4.937906849315069
+    },
+    {
+      "frame": 148,
+      "pts": 2.4666667,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 5.411671232876713
+    },
+    {
+      "frame": 149,
+      "pts": 2.4833333,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 5.628504109589041
+    },
+    {
+      "frame": 150,
+      "pts": 2.5,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 5.615945205479452
+    },
+    {
+      "frame": 151,
+      "pts": 2.5166667,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 5.5688219178082194
+    },
+    {
+      "frame": 152,
+      "pts": 2.5333333,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 5.4979945205479455
+    },
+    {
+      "frame": 153,
+      "pts": 2.55,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 5.435572602739726
+    },
+    {
+      "frame": 154,
+      "pts": 2.5666667,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 5.304482191780822
+    },
+    {
+      "frame": 155,
+      "pts": 2.5833333,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 5.249490410958904
+    },
+    {
+      "frame": 156,
+      "pts": 2.6,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 4.925786301369863
+    },
+    {
+      "frame": 157,
+      "pts": 2.6166667,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 4.5848
+    },
+    {
+      "frame": 158,
+      "pts": 2.6333333,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 4.170323287671233
+    },
+    {
+      "frame": 159,
+      "pts": 2.65,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 4.108745205479452
+    },
+    {
+      "frame": 160,
+      "pts": 2.6666667,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 3.9680109589041095
+    },
+    {
+      "frame": 161,
+      "pts": 2.6833333,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 3.9343013698630136
+    },
+    {
+      "frame": 162,
+      "pts": 2.7,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 3.807495890410959
+    },
+    {
+      "frame": 163,
+      "pts": 2.7166667,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 3.7776109589041096
+    },
+    {
+      "frame": 164,
+      "pts": 2.7333333,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 3.641413698630137
+    },
+    {
+      "frame": 165,
+      "pts": 2.75,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 3.5679013698630135
+    },
+    {
+      "frame": 166,
+      "pts": 2.7666667,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 3.490904109589041
+    },
+    {
+      "frame": 167,
+      "pts": 2.7833333,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 3.449380821917808
+    },
+    {
+      "frame": 168,
+      "pts": 2.8,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 3.2567013698630136
+    },
+    {
+      "frame": 169,
+      "pts": 2.8166667,
+      "source_front": [
+        252,
+        279,
+        191,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        191,
+        526
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 3.218904109589041
+    },
+    {
+      "frame": 170,
+      "pts": 2.8333333,
+      "source_front": [
+        252,
+        279,
+        192,
+        524
+      ],
+      "replica_front": [
+        252,
+        279,
+        192,
+        525
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 3.062958904109589
+    },
+    {
+      "frame": 171,
+      "pts": 2.85,
+      "source_front": [
+        251,
+        279,
+        192,
+        524
+      ],
+      "replica_front": [
+        251,
+        279,
+        192,
+        525
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 3.2474520547945205
+    },
+    {
+      "frame": 172,
+      "pts": 2.8666667,
+      "source_front": [
+        251,
+        279,
+        192,
+        524
+      ],
+      "replica_front": [
+        251,
+        279,
+        192,
+        525
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 3.0838246575342465
+    },
+    {
+      "frame": 173,
+      "pts": 2.8833333,
+      "source_front": [
+        251,
+        279,
+        192,
+        524
+      ],
+      "replica_front": [
+        251,
+        279,
+        192,
+        525
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 3.0922739726027397
+    },
+    {
+      "frame": 174,
+      "pts": 2.9,
+      "source_front": [
+        251,
+        278,
+        192,
+        524
+      ],
+      "replica_front": [
+        251,
+        278,
+        192,
+        525
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 3.1522630136986303
+    },
+    {
+      "frame": 175,
+      "pts": 2.9166667,
+      "source_front": [
+        251,
+        278,
+        193,
+        524
+      ],
+      "replica_front": [
+        251,
+        278,
+        193,
+        524
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.7544876712328765
+    },
+    {
+      "frame": 176,
+      "pts": 2.9333333,
+      "source_front": [
+        250,
+        278,
+        193,
+        523
+      ],
+      "replica_front": [
+        250,
+        278,
+        193,
+        524
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.8641972602739725
+    },
+    {
+      "frame": 177,
+      "pts": 2.95,
+      "source_front": [
+        250,
+        277,
+        193,
+        523
+      ],
+      "replica_front": [
+        250,
+        277,
+        193,
+        524
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.7873424657534245
+    },
+    {
+      "frame": 178,
+      "pts": 2.9666667,
+      "source_front": [
+        249,
+        276,
+        194,
+        522
+      ],
+      "replica_front": [
+        249,
+        276,
+        194,
+        523
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 3.043243835616438
+    },
+    {
+      "frame": 179,
+      "pts": 2.9833333,
+      "source_front": [
+        248,
+        275,
+        195,
+        520
+      ],
+      "replica_front": [
+        248,
+        275,
+        195,
+        522
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 2.803419178082192
+    },
+    {
+      "frame": 180,
+      "pts": 3.0,
+      "source_front": [
+        246,
+        273,
+        197,
+        519
+      ],
+      "replica_front": [
+        246,
+        273,
+        197,
+        519
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.8294465753424656
+    },
+    {
+      "frame": 181,
+      "pts": 3.0166667,
+      "source_front": [
+        245,
+        272,
+        198,
+        517
+      ],
+      "replica_front": [
+        245,
+        272,
+        198,
+        518
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.775046575342466
+    },
+    {
+      "frame": 182,
+      "pts": 3.0333333,
+      "source_front": [
+        244,
+        270,
+        200,
+        515
+      ],
+      "replica_front": [
+        244,
+        270,
+        200,
+        515
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.789041095890411
+    },
+    {
+      "frame": 183,
+      "pts": 3.05,
+      "source_front": [
+        243,
+        269,
+        201,
+        514
+      ],
+      "replica_front": [
+        243,
+        269,
+        201,
+        514
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.8694246575342466
+    },
+    {
+      "frame": 184,
+      "pts": 3.0666667,
+      "source_front": [
+        242,
+        268,
+        202,
+        513
+      ],
+      "replica_front": [
+        242,
+        268,
+        202,
+        513
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 3.124504109589041
+    },
+    {
+      "frame": 185,
+      "pts": 3.0833333,
+      "source_front": [
+        242,
+        268,
+        202,
+        512
+      ],
+      "replica_front": [
+        242,
+        268,
+        202,
+        513
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.9472657534246576
+    },
+    {
+      "frame": 186,
+      "pts": 3.1,
+      "source_front": [
+        241,
+        267,
+        203,
+        511
+      ],
+      "replica_front": [
+        240,
+        267,
+        203,
+        512
+      ],
+      "front_errors": [
+        -1,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 3.02213698630137
+    },
+    {
+      "frame": 187,
+      "pts": 3.1166667,
+      "source_front": [
+        241,
+        266,
+        203,
+        511
+      ],
+      "replica_front": [
+        240,
+        266,
+        203,
+        512
+      ],
+      "front_errors": [
+        -1,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 3.2530301369863013
+    },
+    {
+      "frame": 188,
+      "pts": 3.1333333,
+      "source_front": [
+        240,
+        266,
+        204,
+        510
+      ],
+      "replica_front": [
+        239,
+        266,
+        204,
+        511
+      ],
+      "front_errors": [
+        -1,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.9471561643835615
+    },
+    {
+      "frame": 189,
+      "pts": 3.15,
+      "source_front": [
+        240,
+        266,
+        204,
+        510
+      ],
+      "replica_front": [
+        240,
+        266,
+        204,
+        511
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.6327561643835615
+    },
+    {
+      "frame": 190,
+      "pts": 3.1666667,
+      "source_front": [
+        240,
+        265,
+        204,
+        509
+      ],
+      "replica_front": [
+        240,
+        265,
+        204,
+        510
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.7335342465753425
+    },
+    {
+      "frame": 191,
+      "pts": 3.1833333,
+      "source_front": [
+        239,
+        265,
+        205,
+        509
+      ],
+      "replica_front": [
+        239,
+        265,
+        205,
+        510
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.7195068493150685
+    },
+    {
+      "frame": 192,
+      "pts": 3.2,
+      "source_front": [
+        239,
+        265,
+        205,
+        509
+      ],
+      "replica_front": [
+        239,
+        265,
+        205,
+        510
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.4485479452054792
+    },
+    {
+      "frame": 193,
+      "pts": 3.2166667,
+      "source_front": [
+        239,
+        265,
+        205,
+        508
+      ],
+      "replica_front": [
+        239,
+        265,
+        205,
+        510
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 2.3604602739726026
+    },
+    {
+      "frame": 194,
+      "pts": 3.2333333,
+      "source_front": [
+        239,
+        264,
+        205,
+        508
+      ],
+      "replica_front": [
+        239,
+        264,
+        205,
+        509
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.7463342465753424
+    },
+    {
+      "frame": 195,
+      "pts": 3.25,
+      "source_front": [
+        239,
+        264,
+        205,
+        508
+      ],
+      "replica_front": [
+        239,
+        264,
+        205,
+        509
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.6671013698630137
+    },
+    {
+      "frame": 196,
+      "pts": 3.2666667,
+      "source_front": [
+        239,
+        264,
+        206,
+        508
+      ],
+      "replica_front": [
+        239,
+        264,
+        206,
+        508
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.3947287671232877
+    },
+    {
+      "frame": 197,
+      "pts": 3.2833333,
+      "source_front": [
+        238,
+        264,
+        206,
+        508
+      ],
+      "replica_front": [
+        238,
+        264,
+        206,
+        509
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.534235616438356
+    },
+    {
+      "frame": 198,
+      "pts": 3.3,
+      "source_front": [
+        238,
+        264,
+        206,
+        507
+      ],
+      "replica_front": [
+        238,
+        264,
+        206,
+        509
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 2.458290410958904
+    },
+    {
+      "frame": 199,
+      "pts": 3.3166667,
+      "source_front": [
+        238,
+        264,
+        206,
+        507
+      ],
+      "replica_front": [
+        238,
+        264,
+        206,
+        509
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "folder_region_mae": 2.4266410958904108
+    },
+    {
+      "frame": 200,
+      "pts": 3.3333333,
+      "source_front": [
+        238,
+        263,
+        206,
+        507
+      ],
+      "replica_front": [
+        238,
+        263,
+        206,
+        508
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.6591342465753423
+    },
+    {
+      "frame": 201,
+      "pts": 3.35,
+      "source_front": [
+        238,
+        263,
+        206,
+        507
+      ],
+      "replica_front": [
+        238,
+        263,
+        206,
+        508
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.6163945205479453
+    },
+    {
+      "frame": 202,
+      "pts": 3.3666667,
+      "source_front": [
+        238,
+        263,
+        206,
+        507
+      ],
+      "replica_front": [
+        238,
+        263,
+        206,
+        508
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.590378082191781
+    },
+    {
+      "frame": 203,
+      "pts": 3.3833333,
+      "source_front": [
+        238,
+        263,
+        206,
+        507
+      ],
+      "replica_front": [
+        238,
+        263,
+        206,
+        508
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.6477479452054795
+    },
+    {
+      "frame": 204,
+      "pts": 3.4,
+      "source_front": [
+        238,
+        263,
+        206,
+        507
+      ],
+      "replica_front": [
+        238,
+        263,
+        206,
+        508
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.6141479452054797
+    },
+    {
+      "frame": 205,
+      "pts": 3.4166667,
+      "source_front": [
+        238,
+        263,
+        206,
+        507
+      ],
+      "replica_front": [
+        238,
+        263,
+        206,
+        508
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.5813479452054793
+    },
+    {
+      "frame": 206,
+      "pts": 3.4333333,
+      "source_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.414312328767123
+    },
+    {
+      "frame": 207,
+      "pts": 3.45,
+      "source_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.3841534246575344
+    },
+    {
+      "frame": 208,
+      "pts": 3.4666667,
+      "source_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.3436821917808217
+    },
+    {
+      "frame": 209,
+      "pts": 3.4833333,
+      "source_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.3329753424657533
+    },
+    {
+      "frame": 210,
+      "pts": 3.5,
+      "source_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "folder_region_mae": 2.315517808219178
+    },
+    {
+      "frame": 211,
+      "pts": 3.5166667,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.306158904109589
+    },
+    {
+      "frame": 212,
+      "pts": 3.5333333,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.2961753424657534
+    },
+    {
+      "frame": 213,
+      "pts": 3.55,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.2933150684931505
+    },
+    {
+      "frame": 214,
+      "pts": 3.5666667,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.294060273972603
+    },
+    {
+      "frame": 215,
+      "pts": 3.5833333,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.29333698630137
+    },
+    {
+      "frame": 216,
+      "pts": 3.6,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.290553424657534
+    },
+    {
+      "frame": 217,
+      "pts": 3.6166667,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.2930630136986303
+    },
+    {
+      "frame": 218,
+      "pts": 3.6333333,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.2862027397260274
+    },
+    {
+      "frame": 219,
+      "pts": 3.65,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.2870904109589043
+    },
+    {
+      "frame": 220,
+      "pts": 3.6666667,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.272690410958904
+    },
+    {
+      "frame": 221,
+      "pts": 3.6833333,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.2726794520547946
+    },
+    {
+      "frame": 222,
+      "pts": 3.7,
+      "source_front": [
+        238,
+        263,
+        207,
+        506
+      ],
+      "replica_front": [
+        238,
+        263,
+        207,
+        507
+      ],
+      "front_errors": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "folder_region_mae": 2.271780821917808
+    }
+  ]
+}

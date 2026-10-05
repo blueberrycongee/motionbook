@@ -1,0 +1,12 @@
+import {createRequire} from 'node:module';import fs from 'node:fs';import os from 'node:os';import path from 'node:path';import {fileURLToPath} from 'node:url';import {spawnSync} from 'node:child_process';import {scene,demoState,DURATION,WIDTH,HEIGHT} from './scene.mjs';
+const require=createRequire(import.meta.url),sharp=require('sharp');const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),out=path.join(root,'preview'),tmp=fs.mkdtempSync(path.join(os.tmpdir(),'file-upload-card-'));fs.mkdirSync(out,{recursive:true});
+const FPS=60,N=Math.round(DURATION*FPS);
+for(const [name,t] of [['poster',0],['open',.7],['drag',1.4],['drop',1.75],['glow',2.3],['settled',3.5]])await sharp(Buffer.from(scene(demoState(t)))).png().toFile(path.join(out,`${name}.png`));
+if(process.argv.includes('--stills')){fs.rmSync(tmp,{recursive:true,force:true});process.exit(0);}
+for(let f=0;f<N;f++)await sharp(Buffer.from(scene(demoState(f/FPS)))).png().toFile(path.join(tmp,`${String(f).padStart(4,'0')}.png`));
+
+function ff(args){const p=spawnSync('ffmpeg',['-y','-v','error',...args],{stdio:'inherit'});if(p.status!==0)throw Error('ffmpeg failed');}
+ff(['-framerate',String(FPS),'-i',path.join(tmp,'%04d.png'),'-c:v','libx264','-crf','17','-preset','fast','-pix_fmt','yuv420p','-movflags','+faststart',path.join(out,'file-upload-card.mp4')]);
+ff(['-i',path.join(out,'file-upload-card.mp4'),'-filter_complex','fps=30,scale=720:-1:flags=lanczos,split[a][b];[a]palettegen=max_colors=192[p];[b][p]paletteuse=dither=bayer:bayer_scale=3','-loop','0',path.join(out,'file-upload-card.gif')]);
+fs.writeFileSync(path.join(out,'render-info.json'),JSON.stringify({renderer:'sharp/librsvg offline rasterization of the same scene.mjs SVG used by browser demo',browser_capture:false,versions:sharp.versions,width:WIDTH,height:HEIGHT,fps:FPS,frames:N,duration_seconds:DURATION,loop:'Full native 60fps drop/open/light/close sequence plus neutral hold; source-inspired cursor is independently drawn'},null,2));
+fs.rmSync(tmp,{recursive:true,force:true});console.log(`Rendered ${N} frames and looping GIF.`);

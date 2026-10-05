@@ -1,0 +1,13 @@
+{
+  "gif_frames": 120,
+  "gif_duration_ms": 4000,
+  "gif_loop": 0,
+  "gif_unique_frames": 116,
+  "gif_size": [
+    720,
+    720
+  ],
+  "mp4_decode": "passed",
+  "gif_decode": "passed",
+  "browser_capture": false
+}

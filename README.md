@@ -51,3 +51,7 @@
 ## Paperclip transcript
 
 [![Paperclip transcript](examples/paperclip-interaction/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/paperclip-interaction)
+
+## File upload card
+
+[![File upload card](examples/file-upload-card/preview/file-upload-card.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/file-upload-card)

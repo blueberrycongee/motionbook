@@ -1,0 +1,18 @@
+
+> file-upload-card-study@1.0.0 test
+> node --test test/*.test.mjs
+
+✔ local picker/drop wiring, cancel/reset and reduced-motion freeze (DOM stub) (4.045164ms)
+✔ complete native motion phases and loop (1.180297ms)
+✔ drag enter/repeat/leave/reenter and local file flow (0.286053ms)
+✔ picker cancellation, repeated files, negative time and safe display (0.222217ms)
+✔ all 223 native frame poses and full authored loop are finite (5.085037ms)
+✔ opaque file occlusion and cursor-independent plane width regression (0.301847ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 103.360986

@@ -1,0 +1,74 @@
+[
+  {
+    "frame": 0,
+    "pts": 0,
+    "identical": true,
+    "rgba_sha256": "c64704890958cbf298b49a1fd9299cee389402c2020629bd31d25a5a8fe7e19d"
+  },
+  {
+    "frame": 17,
+    "pts": 0.2833333333333333,
+    "identical": true,
+    "rgba_sha256": "eafdd15787d6e48ee2c556f62c2645e75665f51bd10f65e007d5efc849c9880d"
+  },
+  {
+    "frame": 42,
+    "pts": 0.7,
+    "identical": true,
+    "rgba_sha256": "177d00feca133900172a9aa2d1325dd5fa493a3eb63e424fb6d2a2556df5692a"
+  },
+  {
+    "frame": 84,
+    "pts": 1.4,
+    "identical": true,
+    "rgba_sha256": "6db27676d7ee7ddacb8b51c808800e8921ea955b80e76d5de83217fa6a403c88"
+  },
+  {
+    "frame": 94,
+    "pts": 1.5666666666666667,
+    "identical": true,
+    "rgba_sha256": "8608b7bae46d7bdd67a5ae2adc3fd31158450941bbdbea3474e917993836818a"
+  },
+  {
+    "frame": 104,
+    "pts": 1.7333333333333334,
+    "identical": true,
+    "rgba_sha256": "7fd9eff7181620789739a0761cc83b6ce2f8ed6c095b1d14989ddcb0515c7b6a"
+  },
+  {
+    "frame": 106,
+    "pts": 1.7666666666666666,
+    "identical": true,
+    "rgba_sha256": "ad8e25bd79a5edc730774c914d0bfc15e2a67db4522c2429e81ff7391555117f"
+  },
+  {
+    "frame": 109,
+    "pts": 1.8166666666666667,
+    "identical": true,
+    "rgba_sha256": "e2df37b68199e911c3e90ae426678f6046f808600e48c3c642f027561ea5996c"
+  },
+  {
+    "frame": 132,
+    "pts": 2.2,
+    "identical": true,
+    "rgba_sha256": "673ebfbfd7c2f999e6c19ef9d8432a897dee583a497981f189ece933ae1d7065"
+  },
+  {
+    "frame": 144,
+    "pts": 2.4,
+    "identical": true,
+    "rgba_sha256": "3d7e2c5d3865b381072cda097e1037df49ce7001bb5db0d71f2507e53a2e449c"
+  },
+  {
+    "frame": 174,
+    "pts": 2.9,
+    "identical": true,
+    "rgba_sha256": "625d430db12dc7cadda02029868ab99bb4efa21dc206fae1c4ef17ba602ceba6"
+  },
+  {
+    "frame": 222,
+    "pts": 3.7,
+    "identical": true,
+    "rgba_sha256": "c64704890958cbf298b49a1fd9299cee389402c2020629bd31d25a5a8fe7e19d"
+  }
+]

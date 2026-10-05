@@ -1,0 +1,7 @@
+import {scene,demoState,reduce} from './scene.mjs';
+const visual=document.querySelector('#visual'),button=document.querySelector('#choose'),input=document.querySelector('#file'),status=document.querySelector('#status'),motion=matchMedia('(prefers-reduced-motion: reduce)');let state=reduce({}, {type:'reset'}),last=null;
+function paint(){const pose=demoState(state.time);pose.name=state.name;pose.cursor=state.mode==='demo';visual.innerHTML=scene(pose);}
+function action(a){state=reduce(state,a);paint();}
+function file(f){if(!f)return;action({type:'file',name:f.name});status.textContent=`Selected ${f.name}. This local demo does not upload your file.`;if(motion.matches){state.time=2.3;paint();}}
+button.addEventListener('click',()=>{action({type:'choose'});input.value='';input.click();});input.addEventListener('change',()=>file(input.files?.[0]));button.addEventListener('dragover',e=>{e.preventDefault();if(state.mode!=='upload')action({type:'enter'});});button.addEventListener('dragleave',()=>action({type:'leave'}));button.addEventListener('drop',e=>{e.preventDefault();file(e.dataTransfer?.files?.[0]);});addEventListener('keydown',e=>{if(e.key==='Escape'||e.key.toLowerCase()==='r')action({type:'reset'});});
+function frame(now){const dt=last===null?0:Math.min(.1,(now-last)/1000);last=now;if(!motion.matches){state=reduce(state,{type:'tick',dt});paint();}requestAnimationFrame(frame);}paint();requestAnimationFrame(frame);
