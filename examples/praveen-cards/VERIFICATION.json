@@ -1,0 +1,56 @@
+{
+  "reference": "https://x.com/praveenisomer/status/2105983637615526301",
+  "reference_inspected": true,
+  "reference_dimensions": [
+    1920,
+    1440
+  ],
+  "reference_duration_seconds": 17.749333,
+  "reference_fps": 30,
+  "source_code_link_in_post": null,
+  "original_assets_bundled": false,
+  "implementation": "Shared Canvas 2D renderer; measured multi-band folded surfaces with ordered Bayer dithering on the left; right measured 2.5D surface and regenerated vector digits unchanged",
+  "visual_parity": "Improved measured contour and lighting approximation; not original topology or pixel-exact match",
+  "preview_kind": "Offline rendering of shared JavaScript renderer; not browser recording",
+  "tests_passed": 15,
+  "browser_runtime": "Blocked: Chromium socket() failed: Operation not permitted",
+  "browser_interaction_verified": false,
+  "mobile_layout_verified": false,
+  "performance_verified": false,
+  "revision": "left artwork refinement; right v2 preserved",
+  "reference_frames_analyzed": 531,
+  "preview_duration_seconds": 17.708333,
+  "preview_fps": 24,
+  "left_cycle_poses": 60,
+  "left_sections_per_pose": 65,
+  "left_reference_timing_samples": 531,
+  "left_primitive_cycle_seconds": 2.0,
+  "right_fitted_poses": 107,
+  "right_sections_per_pose": 34,
+  "right_scene_pixel_identical_to_v2_at_source_frames": [
+    0,
+    16,
+    32,
+    48,
+    90,
+    180,
+    360,
+    501
+  ],
+  "left_information_panel_pixel_identical_to_v2_at_source_frames": [
+    0,
+    16,
+    32,
+    48,
+    90,
+    180,
+    360,
+    501
+  ],
+  "presentation_cleanup": {
+    "visible_editorial_overlays": false,
+    "burned_in_watermark": false,
+    "reference_comparisons_bundled": false,
+    "behavior_models_changed": false
+  }
+}

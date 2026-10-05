@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#404040"><title>Dither + ASCII cards</title><link rel="stylesheet" href="./public/style.css"></head><body>
+<main aria-label="Dither and ASCII fintech card motion study">
+ <div class="cards">
+  <article class="card" aria-label="NYC Exchange stock card"><canvas data-card="0" width="800" height="1234" aria-label="Moving green cross-halftone ribbon above NYC Exchange"></canvas><h1 class="sr">NYC Exchange</h1><button class="add" data-add="0" aria-label="Add NYC Exchange card" aria-pressed="false"></button><button class="expand" data-expand="0" aria-label="Expand NYC Exchange"></button></article>
+  <article class="card" aria-label="Shanghai Stock Exchange card"><canvas data-card="1" width="800" height="1234" aria-label="Rotating lavender binary-character sculpture above Shanghai Stock Exchange"></canvas><h2 class="sr">Shanghai Stock Exchange</h2><button class="add" data-add="1" aria-label="Add Shanghai Stock Exchange card" aria-pressed="false"></button><button class="expand" data-expand="1" aria-label="Expand Shanghai Stock Exchange"></button></article>
+ </div>
+</main>
+<dialog id="detail"><button id="close" aria-label="Close expanded card">×</button><canvas id="expanded" width="800" height="1234"></canvas></dialog>
+<div class="sr" id="status" aria-live="polite"></div><script type="module" src="./public/app.mjs"></script></body></html>

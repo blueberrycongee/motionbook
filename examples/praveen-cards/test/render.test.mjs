@@ -1,0 +1,10 @@
+import {ribbonCycleDensity,ribbonPeriod,leftTimelineDuration} from '../src/left-surface.mjs';
+import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import {ribbonIntensity,sculptureIntensity,draw}from '../src/render.mjs';import {createRequire}from'node:module';const require=createRequire(import.meta.url),{createCanvas}=require('@napi-rs/canvas');
+for(const fn of [ribbonIntensity,sculptureIntensity]){
+ test(fn.name+' remains finite and bounded across a loop',()=>{let max=0;for(let t=0;t<6;t+=.125)for(let y=0;y<1;y+=.07)for(let x=0;x<1;x+=.07){const v=fn(x,y,t);assert.ok(Number.isFinite(v)&&v>=0&&v<=1);max=Math.max(max,v)}assert.ok(max>.4)});
+ test(fn.name+' repeats at its documented duration',()=>{const period=fn===ribbonIntensity?leftTimelineDuration:17.7;for(let y=0;y<1;y+=.04)for(let x=0;x<1;x+=.04)assert.ok(Math.abs(fn(x,y,.21)-fn(x,y,period+.21))<1e-9)});
+ test(fn.name+' changes over time',()=>{let change=0;for(let y=0;y<1;y+=.05)for(let x=0;x<1;x+=.05)change+=Math.abs(fn(x,y,0)-fn(x,y,.7));assert.ok(change>3)});
+}
+test('actual shared canvas renderer produces different animation frames',()=>{const c=createCanvas(480,360),ctx=c.getContext('2d');draw(ctx,0,480,360);const a=c.toBuffer('image/png');draw(ctx,.75,480,360);const b=c.toBuffer('image/png');assert.ok(a.length>20000);assert.notDeepEqual(a,b)});
+test('demo exposes keyboard-capable controls and reduced motion',()=>{const h=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8'),a=fs.readFileSync(new URL('../public/app.mjs',import.meta.url),'utf8');assert.equal((h.match(/data-add=/g)||[]).length,2);assert.equal((h.match(/data-expand=/g)||[]).length,2);assert.match(a,/prefers-reduced-motion/);assert.match(a,/showModal/);assert.match(a,/visibilitychange/)});
+test('ribbon motion is continuous at the loop seam',()=>{let max=0;for(let y=0;y<1;y+=.05)for(let x=0;x<1;x+=.05)max=Math.max(max,Math.abs(ribbonCycleDensity(x,y,0)-ribbonCycleDensity(x,y,ribbonPeriod-.00001)));assert.ok(max<.002)});

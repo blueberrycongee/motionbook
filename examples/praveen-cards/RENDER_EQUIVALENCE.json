@@ -1,0 +1,68 @@
+{
+  "checks": [
+    {
+      "seconds": 0,
+      "width": 960,
+      "height": 720,
+      "rgba_sha256_original": "d9e7c992f4fa2bc3fd089cca0d7c194f9e9d04273802f9d3ef9ba5446a14291e",
+      "rgba_sha256_chunked": "d9e7c992f4fa2bc3fd089cca0d7c194f9e9d04273802f9d3ef9ba5446a14291e",
+      "pixel_identical": true
+    },
+    {
+      "seconds": 0.5333333333333333,
+      "width": 960,
+      "height": 720,
+      "rgba_sha256_original": "f5f6f73657822f730f3a102554c2634daaa7120a14e9de55dfa60a6459d7a1dd",
+      "rgba_sha256_chunked": "f5f6f73657822f730f3a102554c2634daaa7120a14e9de55dfa60a6459d7a1dd",
+      "pixel_identical": true
+    },
+    {
+      "seconds": 1.0666666666666667,
+      "width": 960,
+      "height": 720,
+      "rgba_sha256_original": "1971589bce7ef62348b9863a2d08027e6e7e730c5e9f2e9b58e3e6197c5cdaec",
+      "rgba_sha256_chunked": "1971589bce7ef62348b9863a2d08027e6e7e730c5e9f2e9b58e3e6197c5cdaec",
+      "pixel_identical": true
+    },
+    {
+      "seconds": 1.6,
+      "width": 960,
+      "height": 720,
+      "rgba_sha256_original": "2b75eb12fb5078bc1f3d509f2f598211b04778f0127563bb2f2f4a948a67ab61",
+      "rgba_sha256_chunked": "2b75eb12fb5078bc1f3d509f2f598211b04778f0127563bb2f2f4a948a67ab61",
+      "pixel_identical": true
+    },
+    {
+      "seconds": 3,
+      "width": 960,
+      "height": 720,
+      "rgba_sha256_original": "9858f31866895b6fdba176e22d35e35bf33b272c8a07b62cf1818407d6e28d9d",
+      "rgba_sha256_chunked": "9858f31866895b6fdba176e22d35e35bf33b272c8a07b62cf1818407d6e28d9d",
+      "pixel_identical": true
+    },
+    {
+      "seconds": 6,
+      "width": 960,
+      "height": 720,
+      "rgba_sha256_original": "4f9d9e4829e94a9fc21a8213c19a87637021cc07e0bb484ff57ea324a324fab2",
+      "rgba_sha256_chunked": "4f9d9e4829e94a9fc21a8213c19a87637021cc07e0bb484ff57ea324a324fab2",
+      "pixel_identical": true
+    },
+    {
+      "seconds": 12,
+      "width": 960,
+      "height": 720,
+      "rgba_sha256_original": "2de96d145d3a9c87a7feb97db5eb7629c92eaab100a077b1eeaae17d55ce401c",
+      "rgba_sha256_chunked": "2de96d145d3a9c87a7feb97db5eb7629c92eaab100a077b1eeaae17d55ce401c",
+      "pixel_identical": true
+    },
+    {
+      "seconds": 16.7,
+      "width": 960,
+      "height": 720,
+      "rgba_sha256_original": "e1ec12116fb164e4fd16dbbf2e8bb903cc7ae36c6f91878a40baa69258522204",
+      "rgba_sha256_chunked": "e1ec12116fb164e4fd16dbbf2e8bb903cc7ae36c6f91878a40baa69258522204",
+      "pixel_identical": true
+    }
+  ]
+}

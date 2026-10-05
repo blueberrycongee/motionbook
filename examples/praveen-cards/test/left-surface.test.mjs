@@ -1,0 +1,4 @@
+import {test}from'node:test';import assert from'node:assert/strict';import{leftSurfaceData as D}from'../src/left-surface-data.mjs';import{ribbonDensity,ribbonPeriod,leftTimelineDuration}from'../src/left-surface.mjs';
+test('left reconstruction uses dense measured phase geometry and full-timeline timing',()=>{assert.equal(D.count,60);assert.equal(D.sectionCount,65);assert.equal(D.clock.phase_frames.length,531);assert.equal(ribbonPeriod,2);assert.equal(leftTimelineDuration,17.7);assert.ok(D.clock.phase_frames.every((v,i)=>i===0||v>=D.clock.phase_frames[i-1]))});
+test('left shading retains a white V between folded surfaces',()=>{let range=[];for(let x=.52;x<.94;x+=.01)range.push(ribbonDensity(x,.35,.7));assert.ok(Math.max(...range)-Math.min(...range)>.12)});
+test('left geometry supports multiple disjoint bands in a horizontal section',()=>{assert.ok(D.poses.some(p=>p.rows.some(row=>row.length>3)))});

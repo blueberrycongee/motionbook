@@ -1,0 +1,4 @@
+import{createRequire}from'node:module';import fs from'node:fs/promises';import path from'node:path';import{draw}from'../src/render.mjs';
+const require=createRequire(import.meta.url),{createCanvas}=require('@napi-rs/canvas');const root=path.resolve(import.meta.dirname,'..'),dir=root+'/artifacts/left-revision';await fs.mkdir(dir+'/frames',{recursive:true});
+for(const[label,n]of[[0,0],[.53,16],[1.07,32],[1.6,48],[3,90],[6,180],[12,360],[16.7,501]]){const c=createCanvas(1920,1440);draw(c.getContext('2d'),n/30);await fs.writeFile(`${dir}/new-${label}.png`,c.toBuffer('image/png'))}
+let c=createCanvas(960,720),ctx=c.getContext('2d');const count=Math.round(17.7*24);for(let i=0;i<count;i++){draw(ctx,i/24,960,720);await fs.writeFile(`${dir}/frames/${String(i).padStart(4,'0')}.png`,c.toBuffer('image/png'))}console.log(`Rendered ${count} full-timeline frames. Offline canvas output from the shared interactive renderer.`);

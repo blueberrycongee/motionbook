@@ -1,0 +1,15 @@
+{
+  "name": "praveen-dither-ascii-study",
+  "version": "1.2.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "render": "node test/render.mjs",
+    "render:full": "node test/render-left-revision.mjs"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "^0.1.80"
+  }
+}

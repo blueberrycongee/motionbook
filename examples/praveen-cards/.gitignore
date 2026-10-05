@@ -1,0 +1,9 @@
+node_modules/
+# Reference media and analysis inputs are for inspection only.
+evidence/*
+!evidence/source.json
+artifacts/frames/
+artifacts/**/frames/
+# Attributed source excerpts are delivered separately for review, not published.
+artifacts/right-revision/right-reference-vs-revised.jpg
+artifacts/left-revision/left-reference-vs-revised.jpg

@@ -1,0 +1,4 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {rightSurfaceData as D}from '../src/right-surface-data.mjs';import {sculptureDensity,referenceDuration}from '../src/right-surface.mjs';
+test('measured right surface spans the full inspected video',()=>{assert.equal(D.poses.length,107);assert.equal(D.ys.length,34);assert.equal(referenceDuration,17.7);assert.ok(D.poses.at(-1).t>17.6);assert.ok(D.poses.every((p,i)=>i===0||p.t>D.poses[i-1].t))});
+test('right surface has distinct long-timescale poses',()=>{let d=0;for(let y=.1;y<1;y+=.03)for(let x=.1;x<.95;x+=.03)d+=Math.abs(sculptureDensity(x,y,1)-sculptureDensity(x,y,7));assert.ok(d>3)});
+test('right surface stays continuous across sampled-pose boundaries',()=>{for(let t of [1/3,2,5,9,13,17])for(let y=.1;y<1;y+=.11)for(let x=.1;x<.9;x+=.11)assert.ok(Math.abs(sculptureDensity(x,y,t-.00001)-sculptureDensity(x,y,t+.00001))<.001)});

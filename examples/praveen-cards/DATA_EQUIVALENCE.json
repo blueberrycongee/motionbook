@@ -1,0 +1,447 @@
+{
+  "approved_zip_sha256": "7b558fb1bd845943bf54b9e2a1ecefe1830e95070ea32e67a3750e081283a692",
+  "max_file_bytes": 24000,
+  "method": "Lossless mechanical splitting of pose.rows arrays into ES module chunks; metadata, row order, property order, numeric values and negative zero preserved.",
+  "data": [
+    {
+      "export": "leftSurfaceData",
+      "original_module": "src/left-surface-data.mjs",
+      "original_module_sha256": "e4689bb95f0ecb14dcfc9449361bf5c37632d8c29ed52fc9eb9561d8ccd77699",
+      "canonical_sha256_before": "41713830a80fe3c3e611445f84e16c4ac6dec46a3358713fb830939daf93ccdc",
+      "canonical_sha256_after": "41713830a80fe3c3e611445f84e16c4ac6dec46a3358713fb830939daf93ccdc",
+      "deep_strict_equal": true,
+      "negative_zero_preserved": true,
+      "pose_count": 60,
+      "row_count": 3900,
+      "chunk_count": 58,
+      "loader_bytes": 10412,
+      "loader_sha256": "165684dba6f85e37972266ec6df998b7c005056dff63d298dc56464bc365f4b0",
+      "chunks": [
+        {
+          "path": "src/left-surface-data/rows-000.mjs",
+          "rows": 100,
+          "bytes": 23755,
+          "sha256": "5d0bdd0d2a39d5c9bc689e3befcd2b52edc797d315a8fe02a93af145a82c2b7e"
+        },
+        {
+          "path": "src/left-surface-data/rows-001.mjs",
+          "rows": 119,
+          "bytes": 23946,
+          "sha256": "ff8d9ff5f2c20789633e7bb3627c57085d8fd0199f91cf5bb1795246ce9974ef"
+        },
+        {
+          "path": "src/left-surface-data/rows-002.mjs",
+          "rows": 80,
+          "bytes": 23729,
+          "sha256": "dd7be3006cfc8cb53bbfae08e6608849ee397a7d70f19935cc1d290e429823ec"
+        },
+        {
+          "path": "src/left-surface-data/rows-003.mjs",
+          "rows": 115,
+          "bytes": 23949,
+          "sha256": "413c4e6a75332af0a6887a7236efb55d2aaebdec45fb0fe4f3eefcfc509a467e"
+        },
+        {
+          "path": "src/left-surface-data/rows-004.mjs",
+          "rows": 77,
+          "bytes": 23468,
+          "sha256": "3e582d65281fa72b176487adb72e37442aae0e9e4e110f243b6d400dd35b4e42"
+        },
+        {
+          "path": "src/left-surface-data/rows-005.mjs",
+          "rows": 76,
+          "bytes": 23998,
+          "sha256": "d1295cf498a5314664545fbeea0cca4054d20c5cd9d09ab724fd5a6715b9e0f4"
+        },
+        {
+          "path": "src/left-surface-data/rows-006.mjs",
+          "rows": 100,
+          "bytes": 23804,
+          "sha256": "9da78dc505c7d13bc6c4ddd2c59d9be6179d0f35ff1da30f82fc78073754d52d"
+        },
+        {
+          "path": "src/left-surface-data/rows-007.mjs",
+          "rows": 74,
+          "bytes": 23478,
+          "sha256": "9403db35bebb52692cf1c79d993b76b28dc07efeb72ea62b74540112506de765"
+        },
+        {
+          "path": "src/left-surface-data/rows-008.mjs",
+          "rows": 70,
+          "bytes": 23827,
+          "sha256": "f7f14507b287b3d023255ebe53424b129a2927b62db4bc6e714c8869672ccef1"
+        },
+        {
+          "path": "src/left-surface-data/rows-009.mjs",
+          "rows": 69,
+          "bytes": 23813,
+          "sha256": "9bc94034dedb728fbe0266d591d7a0fef4fc0d84b1e1e8433f8d3f94343b3e24"
+        },
+        {
+          "path": "src/left-surface-data/rows-010.mjs",
+          "rows": 68,
+          "bytes": 23936,
+          "sha256": "b59ed0dd638126909fe8136496054fa84d52cbdc835076d881bdde02f90f261d"
+        },
+        {
+          "path": "src/left-surface-data/rows-011.mjs",
+          "rows": 67,
+          "bytes": 23455,
+          "sha256": "e991535a6668c4f1f16681d54ebcae9d0a7642a7128cad123204d6a35a340e4f"
+        },
+        {
+          "path": "src/left-surface-data/rows-012.mjs",
+          "rows": 63,
+          "bytes": 23592,
+          "sha256": "d6c1836b87d4210cd73d59e9901311bfccb5bfd5ff6fc4805f6b1759141c5c84"
+        },
+        {
+          "path": "src/left-surface-data/rows-013.mjs",
+          "rows": 62,
+          "bytes": 23600,
+          "sha256": "cd7ee193ebc33bd32d207c916379bfd24234ced2baa452d54d32a9c9af3c6faa"
+        },
+        {
+          "path": "src/left-surface-data/rows-014.mjs",
+          "rows": 63,
+          "bytes": 23982,
+          "sha256": "68842f29d2d1aa852f7b51a05e477811c9a00cde1b5bc3f3729ae06541719696"
+        },
+        {
+          "path": "src/left-surface-data/rows-015.mjs",
+          "rows": 60,
+          "bytes": 23567,
+          "sha256": "db8084ae7db44da566e0750316bd0569f5580f8a144508a9a4acd9221d5d98ea"
+        },
+        {
+          "path": "src/left-surface-data/rows-016.mjs",
+          "rows": 62,
+          "bytes": 23827,
+          "sha256": "3d3f52b537070dd4dba67a9e4da12a0fb5f765e8fdf111a2882e632c5add54c9"
+        },
+        {
+          "path": "src/left-surface-data/rows-017.mjs",
+          "rows": 60,
+          "bytes": 23898,
+          "sha256": "37a07325bdb1aacd5772263d7ca7e349729fc344cfe25211904ddf66003247fa"
+        },
+        {
+          "path": "src/left-surface-data/rows-018.mjs",
+          "rows": 58,
+          "bytes": 23790,
+          "sha256": "c4d08258796253fbe747304c45262a7e01bea4e3ef7a330497835465272789db"
+        },
+        {
+          "path": "src/left-surface-data/rows-019.mjs",
+          "rows": 53,
+          "bytes": 23978,
+          "sha256": "9e0b991364cb38aeaa515f2e93cd6085d914eb81555ea66fffe579e9fb4b9039"
+        },
+        {
+          "path": "src/left-surface-data/rows-020.mjs",
+          "rows": 53,
+          "bytes": 23688,
+          "sha256": "6d496f361a5098224ac45dd4cbd6a5cf65cc8f0fc8b115a93e630499a5d27ee0"
+        },
+        {
+          "path": "src/left-surface-data/rows-021.mjs",
+          "rows": 58,
+          "bytes": 23995,
+          "sha256": "00df355287bca946f2c439075d4456fda98e7da88fe4fee380ceaf63ae61d206"
+        },
+        {
+          "path": "src/left-surface-data/rows-022.mjs",
+          "rows": 56,
+          "bytes": 23809,
+          "sha256": "9d020e1627043c18b51b2ecdd91ae66c5b275513848a0a37f6f3b19b1a21bb60"
+        },
+        {
+          "path": "src/left-surface-data/rows-023.mjs",
+          "rows": 55,
+          "bytes": 23523,
+          "sha256": "49842329caaecd5430add927e5fd1c61b51e506fd534edd9bc7f969b2487651c"
+        },
+        {
+          "path": "src/left-surface-data/rows-024.mjs",
+          "rows": 54,
+          "bytes": 23913,
+          "sha256": "873807f2dd6b16cfd86d325aa1ec3f833790add6975879ad7e80f67dc07676e7"
+        },
+        {
+          "path": "src/left-surface-data/rows-025.mjs",
+          "rows": 51,
+          "bytes": 23919,
+          "sha256": "776642c4d2b700071e98b6c4f27632ec3f1b26f521305e439d02feee3816645b"
+        },
+        {
+          "path": "src/left-surface-data/rows-026.mjs",
+          "rows": 49,
+          "bytes": 23534,
+          "sha256": "7ab7f0a4cd248f378cfd961dafe89d47e8093295b53dd9af38f426b1fc2fdcc8"
+        },
+        {
+          "path": "src/left-surface-data/rows-027.mjs",
+          "rows": 55,
+          "bytes": 23923,
+          "sha256": "ef6bbef9577b3dea0ad560eb90940b16f29a255f50b65f8ca70d4e2848fc2f67"
+        },
+        {
+          "path": "src/left-surface-data/rows-028.mjs",
+          "rows": 50,
+          "bytes": 23731,
+          "sha256": "106c6e3008bdce4bff59299f734ae9c4be421b1b09ba6397d4e0b9fb5fae236b"
+        },
+        {
+          "path": "src/left-surface-data/rows-029.mjs",
+          "rows": 53,
+          "bytes": 23579,
+          "sha256": "84909bb2200ddb7bea39ee690fdb0a175550276938d691b99d45afa991325c8a"
+        },
+        {
+          "path": "src/left-surface-data/rows-030.mjs",
+          "rows": 49,
+          "bytes": 23765,
+          "sha256": "8716ec97e2d9f4686661b593ea1a908dd4833b588f8ace351aaccda5a80d130f"
+        },
+        {
+          "path": "src/left-surface-data/rows-031.mjs",
+          "rows": 52,
+          "bytes": 23679,
+          "sha256": "e1a80ead2a88fb5e21bd1d0418b4c9f0ba52a9a675d9d8c068aa183789c08bc0"
+        },
+        {
+          "path": "src/left-surface-data/rows-032.mjs",
+          "rows": 53,
+          "bytes": 23916,
+          "sha256": "383e917f42c7e628ca0dd6023ae0d860e71e2fcb16b0f9d4d4b27ce2846e4d85"
+        },
+        {
+          "path": "src/left-surface-data/rows-033.mjs",
+          "rows": 50,
+          "bytes": 23894,
+          "sha256": "caf0a28308347dfede7c4d3b35a2651e63b0d7c98488e8d0dc11aaffa42aec6b"
+        },
+        {
+          "path": "src/left-surface-data/rows-034.mjs",
+          "rows": 53,
+          "bytes": 23582,
+          "sha256": "0f912d442c672ad637ec6a0f0ff66d45cd35e6627cc4497000e1aea8be7f0515"
+        },
+        {
+          "path": "src/left-surface-data/rows-035.mjs",
+          "rows": 52,
+          "bytes": 23690,
+          "sha256": "d45f6da96bdbf9a7a2557bc7b51b3b39f46a0be34b07004949dc31c9a69ea72a"
+        },
+        {
+          "path": "src/left-surface-data/rows-036.mjs",
+          "rows": 55,
+          "bytes": 23781,
+          "sha256": "4a73c41e932078098b73683475a7f0a3a8b0132778f9d21f443e149cb151cab7"
+        },
+        {
+          "path": "src/left-surface-data/rows-037.mjs",
+          "rows": 54,
+          "bytes": 23669,
+          "sha256": "d20c177e954788bdfec10c7f2357ac9d1ce68e9a098709adf0125f9bc9d60f13"
+        },
+        {
+          "path": "src/left-surface-data/rows-038.mjs",
+          "rows": 53,
+          "bytes": 23832,
+          "sha256": "a69fea438c522c29ccea1c6f2daa896abb6126d7ec6da93779f45381b8e916c4"
+        },
+        {
+          "path": "src/left-surface-data/rows-039.mjs",
+          "rows": 57,
+          "bytes": 23953,
+          "sha256": "8abe744515013e5cbe5329e5a6352fb61d6c3bf55612c008df897cff2d4f0ab7"
+        },
+        {
+          "path": "src/left-surface-data/rows-040.mjs",
+          "rows": 62,
+          "bytes": 23923,
+          "sha256": "b757add75e305bb6766c7abd1fe1bd7fc15dcdd3540efdf5c2ab2bf5c9542d7c"
+        },
+        {
+          "path": "src/left-surface-data/rows-041.mjs",
+          "rows": 63,
+          "bytes": 23899,
+          "sha256": "949d0fa1be9c90f846caf1dc037d79ec2d76ccd1a305638e8f195bf83e9c18b2"
+        },
+        {
+          "path": "src/left-surface-data/rows-042.mjs",
+          "rows": 61,
+          "bytes": 23703,
+          "sha256": "4db368fbdd9a9fea0f7a910a2efcb8daccf96f87ac46fa28445c3f78c525a960"
+        },
+        {
+          "path": "src/left-surface-data/rows-043.mjs",
+          "rows": 63,
+          "bytes": 23927,
+          "sha256": "c60625cf11f9b581d7a68439860430426f506c8922da133d115491ba1ca9bb70"
+        },
+        {
+          "path": "src/left-surface-data/rows-044.mjs",
+          "rows": 65,
+          "bytes": 23746,
+          "sha256": "1c91ab304619cb51af3e6c982f0676a883ab76c1c17352372c5fc05aef444411"
+        },
+        {
+          "path": "src/left-surface-data/rows-045.mjs",
+          "rows": 66,
+          "bytes": 23910,
+          "sha256": "db335964785eb7e52844e09e36dd6d9fe0a0c93ffff408a9025fd9c156f60ea4"
+        },
+        {
+          "path": "src/left-surface-data/rows-046.mjs",
+          "rows": 70,
+          "bytes": 23770,
+          "sha256": "10011b002dc640c1abc738350bd37dac1e22d0da5b6dfcfa07482b5195e2e585"
+        },
+        {
+          "path": "src/left-surface-data/rows-047.mjs",
+          "rows": 71,
+          "bytes": 23650,
+          "sha256": "67641631e723b8acbac8fefb8f5fe18ba4cdc0fc702e6e866ce201e1fe97643f"
+        },
+        {
+          "path": "src/left-surface-data/rows-048.mjs",
+          "rows": 71,
+          "bytes": 23537,
+          "sha256": "8b56c54776d4bb7ee08b52992cab6fd18c7a5d057247051bb115a12784316138"
+        },
+        {
+          "path": "src/left-surface-data/rows-049.mjs",
+          "rows": 72,
+          "bytes": 23670,
+          "sha256": "e81c12be3f66b7b82694817ee790c1260e1fdcfb6d1b7ecffa827031a1362661"
+        },
+        {
+          "path": "src/left-surface-data/rows-050.mjs",
+          "rows": 74,
+          "bytes": 23784,
+          "sha256": "e17bc2e603e7a1185d3474af557695fa44d62ddb44866a5825832c7786db7954"
+        },
+        {
+          "path": "src/left-surface-data/rows-051.mjs",
+          "rows": 88,
+          "bytes": 23856,
+          "sha256": "7e82103bc9a4e631894756b0b73baf08c444c444320e24b2c88f6d3c9415f019"
+        },
+        {
+          "path": "src/left-surface-data/rows-052.mjs",
+          "rows": 84,
+          "bytes": 23940,
+          "sha256": "98dce085f98062a3bba1880b0ac00e017f80ce7ca8e0cb03bb206f8f65e50e4e"
+        },
+        {
+          "path": "src/left-surface-data/rows-053.mjs",
+          "rows": 77,
+          "bytes": 23630,
+          "sha256": "c7c3f503ff5b04ea0c58d95082ceca9d71aac92e58565c251063c767bcec0ffc"
+        },
+        {
+          "path": "src/left-surface-data/rows-054.mjs",
+          "rows": 78,
+          "bytes": 23931,
+          "sha256": "b06678a4aa70baaae42dced23f971dacd4807cd22f0c845840e33da196533fff"
+        },
+        {
+          "path": "src/left-surface-data/rows-055.mjs",
+          "rows": 99,
+          "bytes": 23892,
+          "sha256": "426872182d7ecbc6780a7add3bb6f68c64fa46c60158fd04c76929ee854bebf1"
+        },
+        {
+          "path": "src/left-surface-data/rows-056.mjs",
+          "rows": 81,
+          "bytes": 23967,
+          "sha256": "f3484df0f93f0cb8bbc76f82582fd754ceee8552d2ef7b5cc3c81147ca547a7a"
+        },
+        {
+          "path": "src/left-surface-data/rows-057.mjs",
+          "rows": 97,
+          "bytes": 23515,
+          "sha256": "37654dde302288e4d13120fa5e88f6e827ea06a67031ec39bed12a74af958384"
+        }
+      ]
+    },
+    {
+      "export": "rightSurfaceData",
+      "original_module": "src/right-surface-data.mjs",
+      "original_module_sha256": "35979b61d096b3cf8ad18cf52a40ec203da17e0d8112b4ae726f356da2cb6e9a",
+      "canonical_sha256_before": "7961f2012a5e936f092c4f5c4b0396cada6345b716eac049b101943c20ff955c",
+      "canonical_sha256_after": "7961f2012a5e936f092c4f5c4b0396cada6345b716eac049b101943c20ff955c",
+      "deep_strict_equal": true,
+      "negative_zero_preserved": true,
+      "pose_count": 107,
+      "row_count": 3638,
+      "chunk_count": 10,
+      "loader_bytes": 5453,
+      "loader_sha256": "95c6ed076a5829911a8bed31271256ce054ffc086c2de85a46b67408e891c6e4",
+      "chunks": [
+        {
+          "path": "src/right-surface-data/rows-000.mjs",
+          "rows": 394,
+          "bytes": 23962,
+          "sha256": "e79c9feaded2ef28b1bf26c06cfe3de801cab758d0cba85c417521380cf9cfed"
+        },
+        {
+          "path": "src/right-surface-data/rows-001.mjs",
+          "rows": 407,
+          "bytes": 23956,
+          "sha256": "0dd35280280e38e4ffb31b60fbce7030a8b3ace09396bfd211af20120da080cf"
+        },
+        {
+          "path": "src/right-surface-data/rows-002.mjs",
+          "rows": 400,
+          "bytes": 23966,
+          "sha256": "169baa113fcb473de8e623ee283b0a3f96f5071ec17417100ff0acf6df6741ba"
+        },
+        {
+          "path": "src/right-surface-data/rows-003.mjs",
+          "rows": 404,
+          "bytes": 23958,
+          "sha256": "d46a47dd3e45e27bd77a9b837996d714e42bbc47322596900ca449c712ba593a"
+        },
+        {
+          "path": "src/right-surface-data/rows-004.mjs",
+          "rows": 410,
+          "bytes": 23964,
+          "sha256": "280ddca99bb0fcdf6b132daf413d6afb6b5e0de59ce3235f69a0b12bf25004e7"
+        },
+        {
+          "path": "src/right-surface-data/rows-005.mjs",
+          "rows": 390,
+          "bytes": 23990,
+          "sha256": "b220fdf7b93b6548d989ae4f0bef7afc9b46e55cd5d5b3fd3f7c9594a911793e"
+        },
+        {
+          "path": "src/right-surface-data/rows-006.mjs",
+          "rows": 401,
+          "bytes": 23971,
+          "sha256": "b858afa416959c797dff6e26ffe356349c47f5834b313d7ad9a6a5077016b611"
+        },
+        {
+          "path": "src/right-surface-data/rows-007.mjs",
+          "rows": 413,
+          "bytes": 23968,
+          "sha256": "4adce5a820de85b031db7afe7a993ae2815c27007ee922dc194d52e6578da94a"
+        },
+        {
+          "path": "src/right-surface-data/rows-008.mjs",
+          "rows": 393,
+          "bytes": 23985,
+          "sha256": "0c0276c5321ae4af3f6f644cc78452aa5f2546a60081c53959cdf5b1110ba6fc"
+        },
+        {
+          "path": "src/right-surface-data/rows-009.mjs",
+          "rows": 26,
+          "bytes": 1797,
+          "sha256": "67cc24fe9bd53e34cbfcc04672f1330718c04bfa4181d2cedc62743ec2055022"
+        }
+      ]
+    }
+  ]
+}
