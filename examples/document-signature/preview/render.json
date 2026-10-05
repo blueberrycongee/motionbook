@@ -2,9 +2,9 @@
   "kind": "offline render of shared SVG scene; not browser recording",
   "width": 1080,
   "height": 1080,
-  "fps": 30,
-  "frames": 198,
-  "duration": 6.6,
+  "fps": 60,
+  "frames": 393,
+  "duration": 6.55,
   "renderer": "sharp/librsvg",
   "gif_fps": 20,
   "threads": 2

@@ -1,0 +1,103 @@
+{
+  "frame_count": 393,
+  "mae_median": 4.350108378870674,
+  "mae_max": 6.676338797814208,
+  "worst_frames": [
+    {
+      "frame": 329,
+      "pts": 5.483333333333333,
+      "full_frame_mae_rgb": 5.157419124371285,
+      "ui_crop_mae_rgb": 6.676338797814208
+    },
+    {
+      "frame": 330,
+      "pts": 5.5,
+      "full_frame_mae_rgb": 5.023711419753086,
+      "ui_crop_mae_rgb": 6.4475992714025505
+    },
+    {
+      "frame": 326,
+      "pts": 5.433333333333334,
+      "full_frame_mae_rgb": 4.990508401920439,
+      "ui_crop_mae_rgb": 6.367809653916211
+    },
+    {
+      "frame": 328,
+      "pts": 5.466666666666667,
+      "full_frame_mae_rgb": 5.071572930955647,
+      "ui_crop_mae_rgb": 6.356483606557377
+    },
+    {
+      "frame": 298,
+      "pts": 4.966666666666667,
+      "full_frame_mae_rgb": 4.984036065386374,
+      "ui_crop_mae_rgb": 6.35188160291439
+    },
+    {
+      "frame": 300,
+      "pts": 5.0,
+      "full_frame_mae_rgb": 4.984899119798811,
+      "ui_crop_mae_rgb": 6.351799635701275
+    },
+    {
+      "frame": 299,
+      "pts": 4.983333333333333,
+      "full_frame_mae_rgb": 4.983971479195245,
+      "ui_crop_mae_rgb": 6.351778688524591
+    },
+    {
+      "frame": 296,
+      "pts": 4.933333333333334,
+      "full_frame_mae_rgb": 4.982539437585734,
+      "ui_crop_mae_rgb": 6.351431693989071
+    },
+    {
+      "frame": 250,
+      "pts": 4.166666666666667,
+      "full_frame_mae_rgb": 4.980735596707819,
+      "ui_crop_mae_rgb": 6.351026411657559
+    },
+    {
+      "frame": 294,
+      "pts": 4.9,
+      "full_frame_mae_rgb": 4.982326245999086,
+      "ui_crop_mae_rgb": 6.350978142076503
+    }
+  ],
+  "metric_units": "RGB mean absolute error in 0\u2013255 levels, not a fidelity percentage",
+  "crop_native_pixels": [
+    240,
+    260,
+    840,
+    870
+  ],
+  "reviewed_at_utc": "2026-10-05T21:28:54Z",
+  "source_sha256": "61f191b9b8effa09e75004a77b2e2ff94fa6e1d7be94aadde7cf0219e8d34950",
+  "replica_mp4_sha256": "194f4f7f9c90708bd7aeae6acb9ffef6bbddf203ebbca8fe9b843b853d807e31",
+  "scene_js_sha256": "2717885e05a73fed62ab4f84fa3de9345907dc5389e428cb2a72e4b1f072f7a8",
+  "visual_coverage": {
+    "source_frames": 393,
+    "replica_frames": 393,
+    "contact_sheets_reviewed": 25,
+    "full_resolution_focus_frames": [
+      0,
+      20,
+      87,
+      96,
+      114,
+      178,
+      180,
+      184,
+      188,
+      192,
+      200,
+      216,
+      327,
+      330,
+      334,
+      340
+    ]
+  },
+  "coverage_note": "All original and final replica native frames inspected in paired sheets. Static phone silhouette and major phase/transition details additionally inspected at full resolution. Source imagery excluded from package.",
+  "runtime": "Offline SVG and simulated DOM; actual browser not tested."
+}

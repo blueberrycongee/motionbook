@@ -1,0 +1,2360 @@
+[
+  {
+    "frame": 0,
+    "pts": 0.0,
+    "full_frame_mae_rgb": 3.5493547096479197,
+    "ui_crop_mae_rgb": 4.260623861566485
+  },
+  {
+    "frame": 1,
+    "pts": 0.016666666666666666,
+    "full_frame_mae_rgb": 3.548785150891632,
+    "ui_crop_mae_rgb": 4.25966029143898
+  },
+  {
+    "frame": 2,
+    "pts": 0.03333333333333333,
+    "full_frame_mae_rgb": 3.547598022405121,
+    "ui_crop_mae_rgb": 4.257139344262295
+  },
+  {
+    "frame": 3,
+    "pts": 0.05,
+    "full_frame_mae_rgb": 3.5490823616826703,
+    "ui_crop_mae_rgb": 4.259962659380692
+  },
+  {
+    "frame": 4,
+    "pts": 0.06666666666666667,
+    "full_frame_mae_rgb": 3.548899748513946,
+    "ui_crop_mae_rgb": 4.258124772313297
+  },
+  {
+    "frame": 5,
+    "pts": 0.08333333333333333,
+    "full_frame_mae_rgb": 3.5493264174668497,
+    "ui_crop_mae_rgb": 4.259114754098361
+  },
+  {
+    "frame": 6,
+    "pts": 0.1,
+    "full_frame_mae_rgb": 3.5486388317329673,
+    "ui_crop_mae_rgb": 4.258619307832422
+  },
+  {
+    "frame": 7,
+    "pts": 0.11666666666666667,
+    "full_frame_mae_rgb": 3.5490932213077273,
+    "ui_crop_mae_rgb": 4.2597030965391625
+  },
+  {
+    "frame": 8,
+    "pts": 0.13333333333333333,
+    "full_frame_mae_rgb": 3.5470207475994515,
+    "ui_crop_mae_rgb": 4.2564526411657555
+  },
+  {
+    "frame": 9,
+    "pts": 0.15,
+    "full_frame_mae_rgb": 3.5473448216735255,
+    "ui_crop_mae_rgb": 4.257383424408014
+  },
+  {
+    "frame": 10,
+    "pts": 0.16666666666666666,
+    "full_frame_mae_rgb": 3.5470364654778237,
+    "ui_crop_mae_rgb": 4.25666029143898
+  },
+  {
+    "frame": 11,
+    "pts": 0.18333333333333332,
+    "full_frame_mae_rgb": 3.5473313900320074,
+    "ui_crop_mae_rgb": 4.257414389799636
+  },
+  {
+    "frame": 12,
+    "pts": 0.2,
+    "full_frame_mae_rgb": 3.54643918609968,
+    "ui_crop_mae_rgb": 4.255602003642987
+  },
+  {
+    "frame": 13,
+    "pts": 0.21666666666666667,
+    "full_frame_mae_rgb": 3.5466998171010515,
+    "ui_crop_mae_rgb": 4.255899817850637
+  },
+  {
+    "frame": 14,
+    "pts": 0.23333333333333334,
+    "full_frame_mae_rgb": 3.546239997713763,
+    "ui_crop_mae_rgb": 4.254583788706739
+  },
+  {
+    "frame": 15,
+    "pts": 0.25,
+    "full_frame_mae_rgb": 3.546565786465478,
+    "ui_crop_mae_rgb": 4.255340619307832
+  },
+  {
+    "frame": 16,
+    "pts": 0.26666666666666666,
+    "full_frame_mae_rgb": 3.5458910608139003,
+    "ui_crop_mae_rgb": 4.253912568306011
+  },
+  {
+    "frame": 17,
+    "pts": 0.2833333333333333,
+    "full_frame_mae_rgb": 3.546380029721079,
+    "ui_crop_mae_rgb": 4.255102003642987
+  },
+  {
+    "frame": 18,
+    "pts": 0.3,
+    "full_frame_mae_rgb": 3.5461499771376315,
+    "ui_crop_mae_rgb": 4.254368852459017
+  },
+  {
+    "frame": 19,
+    "pts": 0.31666666666666665,
+    "full_frame_mae_rgb": 3.5463751714677643,
+    "ui_crop_mae_rgb": 4.255086520947176
+  },
+  {
+    "frame": 20,
+    "pts": 0.3333333333333333,
+    "full_frame_mae_rgb": 3.545841049382716,
+    "ui_crop_mae_rgb": 4.253540983606557
+  },
+  {
+    "frame": 21,
+    "pts": 0.35,
+    "full_frame_mae_rgb": 3.5462568587105623,
+    "ui_crop_mae_rgb": 4.2542732240437156
+  },
+  {
+    "frame": 22,
+    "pts": 0.36666666666666664,
+    "full_frame_mae_rgb": 3.5460196616369455,
+    "ui_crop_mae_rgb": 4.253517304189435
+  },
+  {
+    "frame": 23,
+    "pts": 0.38333333333333336,
+    "full_frame_mae_rgb": 3.5463205875628714,
+    "ui_crop_mae_rgb": 4.254243169398907
+  },
+  {
+    "frame": 24,
+    "pts": 0.4,
+    "full_frame_mae_rgb": 3.5447465134887977,
+    "ui_crop_mae_rgb": 4.250803278688525
+  },
+  {
+    "frame": 25,
+    "pts": 0.4166666666666667,
+    "full_frame_mae_rgb": 3.544982853223594,
+    "ui_crop_mae_rgb": 4.251157559198543
+  },
+  {
+    "frame": 26,
+    "pts": 0.43333333333333335,
+    "full_frame_mae_rgb": 3.544748228166438,
+    "ui_crop_mae_rgb": 4.250416211293261
+  },
+  {
+    "frame": 27,
+    "pts": 0.45,
+    "full_frame_mae_rgb": 3.544986854138089,
+    "ui_crop_mae_rgb": 4.2511794171220405
+  },
+  {
+    "frame": 28,
+    "pts": 0.4666666666666667,
+    "full_frame_mae_rgb": 3.5448030978509375,
+    "ui_crop_mae_rgb": 4.250633879781421
+  },
+  {
+    "frame": 29,
+    "pts": 0.48333333333333334,
+    "full_frame_mae_rgb": 3.5453137860082307,
+    "ui_crop_mae_rgb": 4.251966302367942
+  },
+  {
+    "frame": 30,
+    "pts": 0.5,
+    "full_frame_mae_rgb": 3.5451037379972563,
+    "ui_crop_mae_rgb": 4.251296903460838
+  },
+  {
+    "frame": 31,
+    "pts": 0.5166666666666667,
+    "full_frame_mae_rgb": 3.5453992341106537,
+    "ui_crop_mae_rgb": 4.252151183970856
+  },
+  {
+    "frame": 32,
+    "pts": 0.5333333333333333,
+    "full_frame_mae_rgb": 3.5452066186556928,
+    "ui_crop_mae_rgb": 4.251772313296904
+  },
+  {
+    "frame": 33,
+    "pts": 0.55,
+    "full_frame_mae_rgb": 3.5451883287608594,
+    "ui_crop_mae_rgb": 4.251770491803279
+  },
+  {
+    "frame": 34,
+    "pts": 0.5666666666666667,
+    "full_frame_mae_rgb": 3.5448862597165065,
+    "ui_crop_mae_rgb": 4.250981785063752
+  },
+  {
+    "frame": 35,
+    "pts": 0.5833333333333334,
+    "full_frame_mae_rgb": 3.5450002857796066,
+    "ui_crop_mae_rgb": 4.251417122040073
+  },
+  {
+    "frame": 36,
+    "pts": 0.6,
+    "full_frame_mae_rgb": 3.5439571902149063,
+    "ui_crop_mae_rgb": 4.248915300546448
+  },
+  {
+    "frame": 37,
+    "pts": 0.6166666666666667,
+    "full_frame_mae_rgb": 3.543976051668953,
+    "ui_crop_mae_rgb": 4.249254098360656
+  },
+  {
+    "frame": 38,
+    "pts": 0.6333333333333333,
+    "full_frame_mae_rgb": 3.5436611225422956,
+    "ui_crop_mae_rgb": 4.248531876138434
+  },
+  {
+    "frame": 39,
+    "pts": 0.65,
+    "full_frame_mae_rgb": 3.5439103223593964,
+    "ui_crop_mae_rgb": 4.2492058287795995
+  },
+  {
+    "frame": 40,
+    "pts": 0.6666666666666666,
+    "full_frame_mae_rgb": 3.543469078646548,
+    "ui_crop_mae_rgb": 4.2485755919854284
+  },
+  {
+    "frame": 41,
+    "pts": 0.6833333333333333,
+    "full_frame_mae_rgb": 3.5439583333333333,
+    "ui_crop_mae_rgb": 4.249907103825136
+  },
+  {
+    "frame": 42,
+    "pts": 0.7,
+    "full_frame_mae_rgb": 3.5436439757658893,
+    "ui_crop_mae_rgb": 4.249047358834244
+  },
+  {
+    "frame": 43,
+    "pts": 0.7166666666666667,
+    "full_frame_mae_rgb": 3.5439374714220393,
+    "ui_crop_mae_rgb": 4.249812386156648
+  },
+  {
+    "frame": 44,
+    "pts": 0.7333333333333333,
+    "full_frame_mae_rgb": 3.5431973022405123,
+    "ui_crop_mae_rgb": 4.249000910746813
+  },
+  {
+    "frame": 45,
+    "pts": 0.75,
+    "full_frame_mae_rgb": 3.543066129401006,
+    "ui_crop_mae_rgb": 4.2496238615664845
+  },
+  {
+    "frame": 46,
+    "pts": 0.7666666666666667,
+    "full_frame_mae_rgb": 3.543038980338363,
+    "ui_crop_mae_rgb": 4.248870673952641
+  },
+  {
+    "frame": 47,
+    "pts": 0.7833333333333333,
+    "full_frame_mae_rgb": 3.5481255715592135,
+    "ui_crop_mae_rgb": 4.249570127504554
+  },
+  {
+    "frame": 48,
+    "pts": 0.8,
+    "full_frame_mae_rgb": 3.550924497027892,
+    "ui_crop_mae_rgb": 4.248992714025501
+  },
+  {
+    "frame": 49,
+    "pts": 0.8166666666666667,
+    "full_frame_mae_rgb": 3.5565752171925014,
+    "ui_crop_mae_rgb": 4.249249544626593
+  },
+  {
+    "frame": 50,
+    "pts": 0.8333333333333334,
+    "full_frame_mae_rgb": 3.559938557384545,
+    "ui_crop_mae_rgb": 4.248550091074681
+  },
+  {
+    "frame": 51,
+    "pts": 0.85,
+    "full_frame_mae_rgb": 3.5650020004572474,
+    "ui_crop_mae_rgb": 4.249244080145719
+  },
+  {
+    "frame": 52,
+    "pts": 0.8666666666666667,
+    "full_frame_mae_rgb": 3.5664486168267033,
+    "ui_crop_mae_rgb": 4.2487149362477235
+  },
+  {
+    "frame": 53,
+    "pts": 0.8833333333333333,
+    "full_frame_mae_rgb": 3.5673602537722906,
+    "ui_crop_mae_rgb": 4.249352459016394
+  },
+  {
+    "frame": 54,
+    "pts": 0.9,
+    "full_frame_mae_rgb": 3.565991083676269,
+    "ui_crop_mae_rgb": 4.248661202185792
+  },
+  {
+    "frame": 55,
+    "pts": 0.9166666666666666,
+    "full_frame_mae_rgb": 3.565090877914952,
+    "ui_crop_mae_rgb": 4.24938524590164
+  },
+  {
+    "frame": 56,
+    "pts": 0.9333333333333333,
+    "full_frame_mae_rgb": 3.56491426611797,
+    "ui_crop_mae_rgb": 4.249060109289617
+  },
+  {
+    "frame": 57,
+    "pts": 0.95,
+    "full_frame_mae_rgb": 3.588602823502515,
+    "ui_crop_mae_rgb": 4.249810564663024
+  },
+  {
+    "frame": 58,
+    "pts": 0.9666666666666667,
+    "full_frame_mae_rgb": 3.64040752171925,
+    "ui_crop_mae_rgb": 4.248863387978142
+  },
+  {
+    "frame": 59,
+    "pts": 0.9833333333333333,
+    "full_frame_mae_rgb": 3.666304012345679,
+    "ui_crop_mae_rgb": 4.249735883424408
+  },
+  {
+    "frame": 60,
+    "pts": 1.0,
+    "full_frame_mae_rgb": 3.6775471536351168,
+    "ui_crop_mae_rgb": 4.249056466302368
+  },
+  {
+    "frame": 61,
+    "pts": 1.0166666666666666,
+    "full_frame_mae_rgb": 3.6700182898948333,
+    "ui_crop_mae_rgb": 4.2531803278688525
+  },
+  {
+    "frame": 62,
+    "pts": 1.0333333333333334,
+    "full_frame_mae_rgb": 3.654765660722451,
+    "ui_crop_mae_rgb": 4.263037340619308
+  },
+  {
+    "frame": 63,
+    "pts": 1.05,
+    "full_frame_mae_rgb": 3.6198605395518975,
+    "ui_crop_mae_rgb": 4.286955373406193
+  },
+  {
+    "frame": 64,
+    "pts": 1.0666666666666667,
+    "full_frame_mae_rgb": 3.6023653978052126,
+    "ui_crop_mae_rgb": 4.3101666666666665
+  },
+  {
+    "frame": 65,
+    "pts": 1.0833333333333333,
+    "full_frame_mae_rgb": 3.596555784179241,
+    "ui_crop_mae_rgb": 4.324341530054645
+  },
+  {
+    "frame": 66,
+    "pts": 1.1,
+    "full_frame_mae_rgb": 3.5876577503429354,
+    "ui_crop_mae_rgb": 4.326176684881603
+  },
+  {
+    "frame": 67,
+    "pts": 1.1166666666666667,
+    "full_frame_mae_rgb": 3.5848385345221767,
+    "ui_crop_mae_rgb": 4.336018214936248
+  },
+  {
+    "frame": 68,
+    "pts": 1.1333333333333333,
+    "full_frame_mae_rgb": 3.580461248285322,
+    "ui_crop_mae_rgb": 4.339129326047359
+  },
+  {
+    "frame": 69,
+    "pts": 1.15,
+    "full_frame_mae_rgb": 3.565960219478738,
+    "ui_crop_mae_rgb": 4.3125473588342444
+  },
+  {
+    "frame": 70,
+    "pts": 1.1666666666666667,
+    "full_frame_mae_rgb": 3.576763545953361,
+    "ui_crop_mae_rgb": 4.3645719489981785
+  },
+  {
+    "frame": 71,
+    "pts": 1.1833333333333333,
+    "full_frame_mae_rgb": 3.5659853680841334,
+    "ui_crop_mae_rgb": 4.337331511839708
+  },
+  {
+    "frame": 72,
+    "pts": 1.2,
+    "full_frame_mae_rgb": 3.5764040352080477,
+    "ui_crop_mae_rgb": 4.379336976320583
+  },
+  {
+    "frame": 73,
+    "pts": 1.2166666666666666,
+    "full_frame_mae_rgb": 3.579212105624143,
+    "ui_crop_mae_rgb": 4.387347905282332
+  },
+  {
+    "frame": 74,
+    "pts": 1.2333333333333334,
+    "full_frame_mae_rgb": 3.586947873799726,
+    "ui_crop_mae_rgb": 4.414976320582878
+  },
+  {
+    "frame": 75,
+    "pts": 1.25,
+    "full_frame_mae_rgb": 3.58827617741198,
+    "ui_crop_mae_rgb": 4.420524590163934
+  },
+  {
+    "frame": 76,
+    "pts": 1.2666666666666666,
+    "full_frame_mae_rgb": 3.59950760173754,
+    "ui_crop_mae_rgb": 4.459703096539162
+  },
+  {
+    "frame": 77,
+    "pts": 1.2833333333333334,
+    "full_frame_mae_rgb": 3.596125685871056,
+    "ui_crop_mae_rgb": 4.44929781420765
+  },
+  {
+    "frame": 78,
+    "pts": 1.3,
+    "full_frame_mae_rgb": 3.5972768061271148,
+    "ui_crop_mae_rgb": 4.45334335154827
+  },
+  {
+    "frame": 79,
+    "pts": 1.3166666666666667,
+    "full_frame_mae_rgb": 3.596995598994056,
+    "ui_crop_mae_rgb": 4.452319672131147
+  },
+  {
+    "frame": 80,
+    "pts": 1.3333333333333333,
+    "full_frame_mae_rgb": 3.6012591449474165,
+    "ui_crop_mae_rgb": 4.466738615664845
+  },
+  {
+    "frame": 81,
+    "pts": 1.35,
+    "full_frame_mae_rgb": 3.601100251486054,
+    "ui_crop_mae_rgb": 4.466026411657559
+  },
+  {
+    "frame": 82,
+    "pts": 1.3666666666666667,
+    "full_frame_mae_rgb": 3.6033973479652492,
+    "ui_crop_mae_rgb": 4.473342440801457
+  },
+  {
+    "frame": 83,
+    "pts": 1.3833333333333333,
+    "full_frame_mae_rgb": 3.604571616369456,
+    "ui_crop_mae_rgb": 4.477143897996357
+  },
+  {
+    "frame": 84,
+    "pts": 1.4,
+    "full_frame_mae_rgb": 3.6083367626886145,
+    "ui_crop_mae_rgb": 4.489093806921676
+  },
+  {
+    "frame": 85,
+    "pts": 1.4166666666666667,
+    "full_frame_mae_rgb": 3.606855852766347,
+    "ui_crop_mae_rgb": 4.483876138433516
+  },
+  {
+    "frame": 86,
+    "pts": 1.4333333333333333,
+    "full_frame_mae_rgb": 3.607327960676726,
+    "ui_crop_mae_rgb": 4.485584699453552
+  },
+  {
+    "frame": 87,
+    "pts": 1.45,
+    "full_frame_mae_rgb": 3.6107193072702333,
+    "ui_crop_mae_rgb": 4.496367030965391
+  },
+  {
+    "frame": 88,
+    "pts": 1.4666666666666666,
+    "full_frame_mae_rgb": 3.613591963877458,
+    "ui_crop_mae_rgb": 4.505775045537341
+  },
+  {
+    "frame": 89,
+    "pts": 1.4833333333333334,
+    "full_frame_mae_rgb": 3.6045350365797897,
+    "ui_crop_mae_rgb": 4.475847905282332
+  },
+  {
+    "frame": 90,
+    "pts": 1.5,
+    "full_frame_mae_rgb": 3.5990049154092363,
+    "ui_crop_mae_rgb": 4.458224043715847
+  },
+  {
+    "frame": 91,
+    "pts": 1.5166666666666666,
+    "full_frame_mae_rgb": 3.591246570644719,
+    "ui_crop_mae_rgb": 4.433356102003643
+  },
+  {
+    "frame": 92,
+    "pts": 1.5333333333333334,
+    "full_frame_mae_rgb": 3.5917935528120712,
+    "ui_crop_mae_rgb": 4.436030054644808
+  },
+  {
+    "frame": 93,
+    "pts": 1.55,
+    "full_frame_mae_rgb": 3.587235082304527,
+    "ui_crop_mae_rgb": 4.4209007285974495
+  },
+  {
+    "frame": 94,
+    "pts": 1.5666666666666667,
+    "full_frame_mae_rgb": 3.5819653063557384,
+    "ui_crop_mae_rgb": 4.404155737704918
+  },
+  {
+    "frame": 95,
+    "pts": 1.5833333333333333,
+    "full_frame_mae_rgb": 3.5806244284407867,
+    "ui_crop_mae_rgb": 4.399847905282331
+  },
+  {
+    "frame": 96,
+    "pts": 1.6,
+    "full_frame_mae_rgb": 3.580999657064472,
+    "ui_crop_mae_rgb": 4.402058287795993
+  },
+  {
+    "frame": 97,
+    "pts": 1.6166666666666667,
+    "full_frame_mae_rgb": 3.5772356538637404,
+    "ui_crop_mae_rgb": 4.388281420765027
+  },
+  {
+    "frame": 98,
+    "pts": 1.6333333333333333,
+    "full_frame_mae_rgb": 3.5721753543667125,
+    "ui_crop_mae_rgb": 4.372431693989071
+  },
+  {
+    "frame": 99,
+    "pts": 1.65,
+    "full_frame_mae_rgb": 3.5658107567443986,
+    "ui_crop_mae_rgb": 4.351212204007286
+  },
+  {
+    "frame": 100,
+    "pts": 1.6666666666666667,
+    "full_frame_mae_rgb": 3.562872085048011,
+    "ui_crop_mae_rgb": 4.342353369763206
+  },
+  {
+    "frame": 101,
+    "pts": 1.6833333333333333,
+    "full_frame_mae_rgb": 3.558401063100137,
+    "ui_crop_mae_rgb": 4.323356102003643
+  },
+  {
+    "frame": 102,
+    "pts": 1.7,
+    "full_frame_mae_rgb": 3.5550985939643347,
+    "ui_crop_mae_rgb": 4.307867030965392
+  },
+  {
+    "frame": 103,
+    "pts": 1.7166666666666666,
+    "full_frame_mae_rgb": 3.562081618655693,
+    "ui_crop_mae_rgb": 4.303806921675774
+  },
+  {
+    "frame": 104,
+    "pts": 1.7333333333333334,
+    "full_frame_mae_rgb": 3.5665600708733423,
+    "ui_crop_mae_rgb": 4.283948087431694
+  },
+  {
+    "frame": 105,
+    "pts": 1.75,
+    "full_frame_mae_rgb": 3.5684202103337905,
+    "ui_crop_mae_rgb": 4.2510510018214935
+  },
+  {
+    "frame": 106,
+    "pts": 1.7666666666666666,
+    "full_frame_mae_rgb": 3.6058744855967078,
+    "ui_crop_mae_rgb": 4.2038542805100185
+  },
+  {
+    "frame": 107,
+    "pts": 1.7833333333333334,
+    "full_frame_mae_rgb": 3.6399491312299954,
+    "ui_crop_mae_rgb": 4.181734972677596
+  },
+  {
+    "frame": 108,
+    "pts": 1.8,
+    "full_frame_mae_rgb": 3.6309570759030634,
+    "ui_crop_mae_rgb": 4.174500910746812
+  },
+  {
+    "frame": 109,
+    "pts": 1.8166666666666667,
+    "full_frame_mae_rgb": 3.5817326817558297,
+    "ui_crop_mae_rgb": 4.174213114754099
+  },
+  {
+    "frame": 110,
+    "pts": 1.8333333333333333,
+    "full_frame_mae_rgb": 3.5268249885688157,
+    "ui_crop_mae_rgb": 4.173713114754098
+  },
+  {
+    "frame": 111,
+    "pts": 1.85,
+    "full_frame_mae_rgb": 3.525008573388203,
+    "ui_crop_mae_rgb": 4.17158378870674
+  },
+  {
+    "frame": 112,
+    "pts": 1.8666666666666667,
+    "full_frame_mae_rgb": 3.5315940786465476,
+    "ui_crop_mae_rgb": 4.170653005464481
+  },
+  {
+    "frame": 113,
+    "pts": 1.8833333333333333,
+    "full_frame_mae_rgb": 3.5313011545496114,
+    "ui_crop_mae_rgb": 4.1701757741347905
+  },
+  {
+    "frame": 114,
+    "pts": 1.9,
+    "full_frame_mae_rgb": 3.525907636031093,
+    "ui_crop_mae_rgb": 4.168870673952641
+  },
+  {
+    "frame": 115,
+    "pts": 1.9166666666666667,
+    "full_frame_mae_rgb": 3.520705018289895,
+    "ui_crop_mae_rgb": 4.1683806921675775
+  },
+  {
+    "frame": 116,
+    "pts": 1.9333333333333333,
+    "full_frame_mae_rgb": 3.515683870598994,
+    "ui_crop_mae_rgb": 4.169510928961748
+  },
+  {
+    "frame": 117,
+    "pts": 1.95,
+    "full_frame_mae_rgb": 3.5107478852309097,
+    "ui_crop_mae_rgb": 4.168563752276867
+  },
+  {
+    "frame": 118,
+    "pts": 1.9666666666666666,
+    "full_frame_mae_rgb": 3.5090426383173297,
+    "ui_crop_mae_rgb": 4.1673606557377045
+  },
+  {
+    "frame": 119,
+    "pts": 1.9833333333333334,
+    "full_frame_mae_rgb": 3.5083241883859166,
+    "ui_crop_mae_rgb": 4.1668970856102
+  },
+  {
+    "frame": 120,
+    "pts": 2.0,
+    "full_frame_mae_rgb": 3.508868598536808,
+    "ui_crop_mae_rgb": 4.166382513661202
+  },
+  {
+    "frame": 121,
+    "pts": 2.0166666666666666,
+    "full_frame_mae_rgb": 3.5101065957933244,
+    "ui_crop_mae_rgb": 4.170291438979963
+  },
+  {
+    "frame": 122,
+    "pts": 2.033333333333333,
+    "full_frame_mae_rgb": 3.51048268175583,
+    "ui_crop_mae_rgb": 4.171296903460838
+  },
+  {
+    "frame": 123,
+    "pts": 2.05,
+    "full_frame_mae_rgb": 3.511317729766804,
+    "ui_crop_mae_rgb": 4.1741511839708565
+  },
+  {
+    "frame": 124,
+    "pts": 2.066666666666667,
+    "full_frame_mae_rgb": 3.5118521376314584,
+    "ui_crop_mae_rgb": 4.175854280510018
+  },
+  {
+    "frame": 125,
+    "pts": 2.0833333333333335,
+    "full_frame_mae_rgb": 3.5119404435299497,
+    "ui_crop_mae_rgb": 4.175088342440802
+  },
+  {
+    "frame": 126,
+    "pts": 2.1,
+    "full_frame_mae_rgb": 3.511854138088706,
+    "ui_crop_mae_rgb": 4.174421675774135
+  },
+  {
+    "frame": 127,
+    "pts": 2.1166666666666667,
+    "full_frame_mae_rgb": 3.5122376543209874,
+    "ui_crop_mae_rgb": 4.174884335154827
+  },
+  {
+    "frame": 128,
+    "pts": 2.1333333333333333,
+    "full_frame_mae_rgb": 3.5125914494741655,
+    "ui_crop_mae_rgb": 4.175603825136612
+  },
+  {
+    "frame": 129,
+    "pts": 2.15,
+    "full_frame_mae_rgb": 3.513372770919067,
+    "ui_crop_mae_rgb": 4.177084699453552
+  },
+  {
+    "frame": 130,
+    "pts": 2.1666666666666665,
+    "full_frame_mae_rgb": 3.513727994970279,
+    "ui_crop_mae_rgb": 4.178011839708561
+  },
+  {
+    "frame": 131,
+    "pts": 2.183333333333333,
+    "full_frame_mae_rgb": 3.513780864197531,
+    "ui_crop_mae_rgb": 4.177826958105647
+  },
+  {
+    "frame": 132,
+    "pts": 2.2,
+    "full_frame_mae_rgb": 3.5134362139917696,
+    "ui_crop_mae_rgb": 4.177131147540984
+  },
+  {
+    "frame": 133,
+    "pts": 2.216666666666667,
+    "full_frame_mae_rgb": 3.522076474622771,
+    "ui_crop_mae_rgb": 4.203093806921676
+  },
+  {
+    "frame": 134,
+    "pts": 2.2333333333333334,
+    "full_frame_mae_rgb": 3.52127914951989,
+    "ui_crop_mae_rgb": 4.200220400728598
+  },
+  {
+    "frame": 135,
+    "pts": 2.25,
+    "full_frame_mae_rgb": 3.5262294238683127,
+    "ui_crop_mae_rgb": 4.214042805100182
+  },
+  {
+    "frame": 136,
+    "pts": 2.2666666666666666,
+    "full_frame_mae_rgb": 3.5278766575217193,
+    "ui_crop_mae_rgb": 4.221971766848816
+  },
+  {
+    "frame": 137,
+    "pts": 2.283333333333333,
+    "full_frame_mae_rgb": 3.5282936099679927,
+    "ui_crop_mae_rgb": 4.223340619307832
+  },
+  {
+    "frame": 138,
+    "pts": 2.3,
+    "full_frame_mae_rgb": 3.527798353909465,
+    "ui_crop_mae_rgb": 4.222560109289618
+  },
+  {
+    "frame": 139,
+    "pts": 2.316666666666667,
+    "full_frame_mae_rgb": 3.527907807498857,
+    "ui_crop_mae_rgb": 4.223275956284153
+  },
+  {
+    "frame": 140,
+    "pts": 2.3333333333333335,
+    "full_frame_mae_rgb": 3.5252966392318243,
+    "ui_crop_mae_rgb": 4.217147540983607
+  },
+  {
+    "frame": 141,
+    "pts": 2.35,
+    "full_frame_mae_rgb": 3.5246727823502515,
+    "ui_crop_mae_rgb": 4.215170309653916
+  },
+  {
+    "frame": 142,
+    "pts": 2.3666666666666667,
+    "full_frame_mae_rgb": 3.5244847393689986,
+    "ui_crop_mae_rgb": 4.214363387978142
+  },
+  {
+    "frame": 143,
+    "pts": 2.3833333333333333,
+    "full_frame_mae_rgb": 3.5244627343392776,
+    "ui_crop_mae_rgb": 4.21416029143898
+  },
+  {
+    "frame": 144,
+    "pts": 2.4,
+    "full_frame_mae_rgb": 3.524219250114312,
+    "ui_crop_mae_rgb": 4.2130746812386155
+  },
+  {
+    "frame": 145,
+    "pts": 2.4166666666666665,
+    "full_frame_mae_rgb": 3.524438728852309,
+    "ui_crop_mae_rgb": 4.213774134790528
+  },
+  {
+    "frame": 146,
+    "pts": 2.433333333333333,
+    "full_frame_mae_rgb": 3.5242981252857795,
+    "ui_crop_mae_rgb": 4.213132969034608
+  },
+  {
+    "frame": 147,
+    "pts": 2.45,
+    "full_frame_mae_rgb": 3.524438728852309,
+    "ui_crop_mae_rgb": 4.213774134790528
+  },
+  {
+    "frame": 148,
+    "pts": 2.466666666666667,
+    "full_frame_mae_rgb": 3.524219250114312,
+    "ui_crop_mae_rgb": 4.2130746812386155
+  },
+  {
+    "frame": 149,
+    "pts": 2.4833333333333334,
+    "full_frame_mae_rgb": 3.524438728852309,
+    "ui_crop_mae_rgb": 4.213774134790528
+  },
+  {
+    "frame": 150,
+    "pts": 2.5,
+    "full_frame_mae_rgb": 3.5243655692729767,
+    "ui_crop_mae_rgb": 4.213540983606557
+  },
+  {
+    "frame": 151,
+    "pts": 2.5166666666666666,
+    "full_frame_mae_rgb": 3.5245707590306354,
+    "ui_crop_mae_rgb": 4.2141948998178504
+  },
+  {
+    "frame": 152,
+    "pts": 2.533333333333333,
+    "full_frame_mae_rgb": 3.5243512802926382,
+    "ui_crop_mae_rgb": 4.213495446265938
+  },
+  {
+    "frame": 153,
+    "pts": 2.55,
+    "full_frame_mae_rgb": 3.5245707590306354,
+    "ui_crop_mae_rgb": 4.2141948998178504
+  },
+  {
+    "frame": 154,
+    "pts": 2.566666666666667,
+    "full_frame_mae_rgb": 3.524519890260631,
+    "ui_crop_mae_rgb": 4.21383970856102
+  },
+  {
+    "frame": 155,
+    "pts": 2.5833333333333335,
+    "full_frame_mae_rgb": 3.524586191129401,
+    "ui_crop_mae_rgb": 4.214244080145719
+  },
+  {
+    "frame": 156,
+    "pts": 2.6,
+    "full_frame_mae_rgb": 3.524367569730224,
+    "ui_crop_mae_rgb": 4.213547358834244
+  },
+  {
+    "frame": 157,
+    "pts": 2.6166666666666667,
+    "full_frame_mae_rgb": 3.5245870484682214,
+    "ui_crop_mae_rgb": 4.214246812386157
+  },
+  {
+    "frame": 158,
+    "pts": 2.6333333333333333,
+    "full_frame_mae_rgb": 3.5244272976680384,
+    "ui_crop_mae_rgb": 4.2137377049180325
+  },
+  {
+    "frame": 159,
+    "pts": 2.65,
+    "full_frame_mae_rgb": 3.524679641060814,
+    "ui_crop_mae_rgb": 4.21454189435337
+  },
+  {
+    "frame": 160,
+    "pts": 2.6666666666666665,
+    "full_frame_mae_rgb": 3.5244601623228164,
+    "ui_crop_mae_rgb": 4.213842440801457
+  },
+  {
+    "frame": 161,
+    "pts": 2.683333333333333,
+    "full_frame_mae_rgb": 3.524679641060814,
+    "ui_crop_mae_rgb": 4.21454189435337
+  },
+  {
+    "frame": 162,
+    "pts": 2.7,
+    "full_frame_mae_rgb": 3.5246887860082303,
+    "ui_crop_mae_rgb": 4.21422131147541
+  },
+  {
+    "frame": 163,
+    "pts": 2.716666666666667,
+    "full_frame_mae_rgb": 3.52479223822588,
+    "ui_crop_mae_rgb": 4.214572859744991
+  },
+  {
+    "frame": 164,
+    "pts": 2.7333333333333334,
+    "full_frame_mae_rgb": 3.524572759487883,
+    "ui_crop_mae_rgb": 4.213873406193079
+  },
+  {
+    "frame": 165,
+    "pts": 2.75,
+    "full_frame_mae_rgb": 3.52479223822588,
+    "ui_crop_mae_rgb": 4.214572859744991
+  },
+  {
+    "frame": 166,
+    "pts": 2.7666666666666666,
+    "full_frame_mae_rgb": 3.5246482053040693,
+    "ui_crop_mae_rgb": 4.214048269581056
+  },
+  {
+    "frame": 167,
+    "pts": 2.783333333333333,
+    "full_frame_mae_rgb": 3.524758230452675,
+    "ui_crop_mae_rgb": 4.214515482695811
+  },
+  {
+    "frame": 168,
+    "pts": 2.8,
+    "full_frame_mae_rgb": 3.524538751714678,
+    "ui_crop_mae_rgb": 4.213816029143898
+  },
+  {
+    "frame": 169,
+    "pts": 2.816666666666667,
+    "full_frame_mae_rgb": 3.524758230452675,
+    "ui_crop_mae_rgb": 4.214515482695811
+  },
+  {
+    "frame": 170,
+    "pts": 2.8333333333333335,
+    "full_frame_mae_rgb": 3.524467592592593,
+    "ui_crop_mae_rgb": 4.213609289617486
+  },
+  {
+    "frame": 171,
+    "pts": 2.85,
+    "full_frame_mae_rgb": 3.52477280521262,
+    "ui_crop_mae_rgb": 4.214498178506375
+  },
+  {
+    "frame": 172,
+    "pts": 2.8666666666666667,
+    "full_frame_mae_rgb": 3.524553326474623,
+    "ui_crop_mae_rgb": 4.213798724954462
+  },
+  {
+    "frame": 173,
+    "pts": 2.8833333333333333,
+    "full_frame_mae_rgb": 3.522747199359854,
+    "ui_crop_mae_rgb": 4.207482695810564
+  },
+  {
+    "frame": 174,
+    "pts": 2.9,
+    "full_frame_mae_rgb": 3.52054012345679,
+    "ui_crop_mae_rgb": 4.199927140255009
+  },
+  {
+    "frame": 175,
+    "pts": 2.9166666666666665,
+    "full_frame_mae_rgb": 3.518358481938729,
+    "ui_crop_mae_rgb": 4.192362477231329
+  },
+  {
+    "frame": 176,
+    "pts": 2.933333333333333,
+    "full_frame_mae_rgb": 3.537459419295839,
+    "ui_crop_mae_rgb": 4.2527622950819675
+  },
+  {
+    "frame": 177,
+    "pts": 2.95,
+    "full_frame_mae_rgb": 3.6319773090992227,
+    "ui_crop_mae_rgb": 4.394351548269581
+  },
+  {
+    "frame": 178,
+    "pts": 2.966666666666667,
+    "full_frame_mae_rgb": 3.879399291266575,
+    "ui_crop_mae_rgb": 5.028908014571949
+  },
+  {
+    "frame": 179,
+    "pts": 2.9833333333333334,
+    "full_frame_mae_rgb": 4.135477823502515,
+    "ui_crop_mae_rgb": 5.343288706739527
+  },
+  {
+    "frame": 180,
+    "pts": 3.0,
+    "full_frame_mae_rgb": 4.269300983081847,
+    "ui_crop_mae_rgb": 5.4885628415300545
+  },
+  {
+    "frame": 181,
+    "pts": 3.0166666666666666,
+    "full_frame_mae_rgb": 4.371402892089621,
+    "ui_crop_mae_rgb": 5.660744990892532
+  },
+  {
+    "frame": 182,
+    "pts": 3.033333333333333,
+    "full_frame_mae_rgb": 4.440396090534979,
+    "ui_crop_mae_rgb": 5.789773224043715
+  },
+  {
+    "frame": 183,
+    "pts": 3.05,
+    "full_frame_mae_rgb": 4.535486682670324,
+    "ui_crop_mae_rgb": 5.772027322404371
+  },
+  {
+    "frame": 184,
+    "pts": 3.066666666666667,
+    "full_frame_mae_rgb": 4.509864254686786,
+    "ui_crop_mae_rgb": 5.669524590163935
+  },
+  {
+    "frame": 185,
+    "pts": 3.0833333333333335,
+    "full_frame_mae_rgb": 4.561538923182442,
+    "ui_crop_mae_rgb": 5.769764116575592
+  },
+  {
+    "frame": 186,
+    "pts": 3.1,
+    "full_frame_mae_rgb": 4.7079075217192505,
+    "ui_crop_mae_rgb": 5.898214025500911
+  },
+  {
+    "frame": 187,
+    "pts": 3.1166666666666667,
+    "full_frame_mae_rgb": 4.7141143689986285,
+    "ui_crop_mae_rgb": 5.921576502732241
+  },
+  {
+    "frame": 188,
+    "pts": 3.1333333333333333,
+    "full_frame_mae_rgb": 4.90852366255144,
+    "ui_crop_mae_rgb": 6.228931693989071
+  },
+  {
+    "frame": 189,
+    "pts": 3.15,
+    "full_frame_mae_rgb": 4.924391289437586,
+    "ui_crop_mae_rgb": 6.319587431693989
+  },
+  {
+    "frame": 190,
+    "pts": 3.1666666666666665,
+    "full_frame_mae_rgb": 4.855393232738912,
+    "ui_crop_mae_rgb": 6.179988160291439
+  },
+  {
+    "frame": 191,
+    "pts": 3.183333333333333,
+    "full_frame_mae_rgb": 4.828621399176955,
+    "ui_crop_mae_rgb": 6.167610200364298
+  },
+  {
+    "frame": 192,
+    "pts": 3.2,
+    "full_frame_mae_rgb": 4.770214906264289,
+    "ui_crop_mae_rgb": 6.060678506375227
+  },
+  {
+    "frame": 193,
+    "pts": 3.216666666666667,
+    "full_frame_mae_rgb": 4.77804726794696,
+    "ui_crop_mae_rgb": 6.115272313296903
+  },
+  {
+    "frame": 194,
+    "pts": 3.2333333333333334,
+    "full_frame_mae_rgb": 4.725086019661637,
+    "ui_crop_mae_rgb": 6.027449908925319
+  },
+  {
+    "frame": 195,
+    "pts": 3.25,
+    "full_frame_mae_rgb": 4.732860082304526,
+    "ui_crop_mae_rgb": 6.065715846994536
+  },
+  {
+    "frame": 196,
+    "pts": 3.2666666666666666,
+    "full_frame_mae_rgb": 4.711219707361683,
+    "ui_crop_mae_rgb": 6.044336976320583
+  },
+  {
+    "frame": 197,
+    "pts": 3.283333333333333,
+    "full_frame_mae_rgb": 4.731143404206676,
+    "ui_crop_mae_rgb": 6.092065573770491
+  },
+  {
+    "frame": 198,
+    "pts": 3.3,
+    "full_frame_mae_rgb": 4.724879972565158,
+    "ui_crop_mae_rgb": 6.016965391621129
+  },
+  {
+    "frame": 199,
+    "pts": 3.316666666666667,
+    "full_frame_mae_rgb": 4.740092021033379,
+    "ui_crop_mae_rgb": 6.025203096539162
+  },
+  {
+    "frame": 200,
+    "pts": 3.3333333333333335,
+    "full_frame_mae_rgb": 4.761606367169639,
+    "ui_crop_mae_rgb": 6.046056466302368
+  },
+  {
+    "frame": 201,
+    "pts": 3.35,
+    "full_frame_mae_rgb": 4.793690843621399,
+    "ui_crop_mae_rgb": 6.118422586520947
+  },
+  {
+    "frame": 202,
+    "pts": 3.3666666666666667,
+    "full_frame_mae_rgb": 4.7818052697759486,
+    "ui_crop_mae_rgb": 6.0753306010928965
+  },
+  {
+    "frame": 203,
+    "pts": 3.3833333333333333,
+    "full_frame_mae_rgb": 4.783037837219936,
+    "ui_crop_mae_rgb": 6.073098360655738
+  },
+  {
+    "frame": 204,
+    "pts": 3.4,
+    "full_frame_mae_rgb": 4.8098619684499315,
+    "ui_crop_mae_rgb": 6.117462659380692
+  },
+  {
+    "frame": 205,
+    "pts": 3.4166666666666665,
+    "full_frame_mae_rgb": 4.831759830818473,
+    "ui_crop_mae_rgb": 6.161501821493625
+  },
+  {
+    "frame": 206,
+    "pts": 3.433333333333333,
+    "full_frame_mae_rgb": 4.830858481938729,
+    "ui_crop_mae_rgb": 6.15482422586521
+  },
+  {
+    "frame": 207,
+    "pts": 3.45,
+    "full_frame_mae_rgb": 4.82112625743027,
+    "ui_crop_mae_rgb": 6.128606557377049
+  },
+  {
+    "frame": 208,
+    "pts": 3.466666666666667,
+    "full_frame_mae_rgb": 4.884934842249657,
+    "ui_crop_mae_rgb": 6.20135519125683
+  },
+  {
+    "frame": 209,
+    "pts": 3.4833333333333334,
+    "full_frame_mae_rgb": 4.902800925925926,
+    "ui_crop_mae_rgb": 6.233176684881603
+  },
+  {
+    "frame": 210,
+    "pts": 3.5,
+    "full_frame_mae_rgb": 4.92682641746685,
+    "ui_crop_mae_rgb": 6.246550091074681
+  },
+  {
+    "frame": 211,
+    "pts": 3.5166666666666666,
+    "full_frame_mae_rgb": 4.899026348879744,
+    "ui_crop_mae_rgb": 6.181611111111111
+  },
+  {
+    "frame": 212,
+    "pts": 3.533333333333333,
+    "full_frame_mae_rgb": 4.9139714791952445,
+    "ui_crop_mae_rgb": 6.2005537340619306
+  },
+  {
+    "frame": 213,
+    "pts": 3.55,
+    "full_frame_mae_rgb": 4.921424611339734,
+    "ui_crop_mae_rgb": 6.215775956284153
+  },
+  {
+    "frame": 214,
+    "pts": 3.566666666666667,
+    "full_frame_mae_rgb": 4.923905464106081,
+    "ui_crop_mae_rgb": 6.217292349726776
+  },
+  {
+    "frame": 215,
+    "pts": 3.5833333333333335,
+    "full_frame_mae_rgb": 4.916906149977137,
+    "ui_crop_mae_rgb": 6.198359744990893
+  },
+  {
+    "frame": 216,
+    "pts": 3.6,
+    "full_frame_mae_rgb": 4.920240912208505,
+    "ui_crop_mae_rgb": 6.204757741347906
+  },
+  {
+    "frame": 217,
+    "pts": 3.6166666666666667,
+    "full_frame_mae_rgb": 4.921623228166438,
+    "ui_crop_mae_rgb": 6.208449908925319
+  },
+  {
+    "frame": 218,
+    "pts": 3.6333333333333333,
+    "full_frame_mae_rgb": 4.921204846822131,
+    "ui_crop_mae_rgb": 6.20548087431694
+  },
+  {
+    "frame": 219,
+    "pts": 3.65,
+    "full_frame_mae_rgb": 4.919927697759488,
+    "ui_crop_mae_rgb": 6.2040373406193075
+  },
+  {
+    "frame": 220,
+    "pts": 3.6666666666666665,
+    "full_frame_mae_rgb": 4.923720564700503,
+    "ui_crop_mae_rgb": 6.212777777777778
+  },
+  {
+    "frame": 221,
+    "pts": 3.683333333333333,
+    "full_frame_mae_rgb": 4.9264471879286695,
+    "ui_crop_mae_rgb": 6.220542805100182
+  },
+  {
+    "frame": 222,
+    "pts": 3.7,
+    "full_frame_mae_rgb": 4.929917409693644,
+    "ui_crop_mae_rgb": 6.230593806921676
+  },
+  {
+    "frame": 223,
+    "pts": 3.716666666666667,
+    "full_frame_mae_rgb": 4.935317215363511,
+    "ui_crop_mae_rgb": 6.247882513661202
+  },
+  {
+    "frame": 224,
+    "pts": 3.7333333333333334,
+    "full_frame_mae_rgb": 4.934557898948331,
+    "ui_crop_mae_rgb": 6.247992714025501
+  },
+  {
+    "frame": 225,
+    "pts": 3.75,
+    "full_frame_mae_rgb": 4.935439814814814,
+    "ui_crop_mae_rgb": 6.253005464480874
+  },
+  {
+    "frame": 226,
+    "pts": 3.7666666666666666,
+    "full_frame_mae_rgb": 4.938027263374486,
+    "ui_crop_mae_rgb": 6.264040072859745
+  },
+  {
+    "frame": 227,
+    "pts": 3.783333333333333,
+    "full_frame_mae_rgb": 4.942256801554641,
+    "ui_crop_mae_rgb": 6.279827868852459
+  },
+  {
+    "frame": 228,
+    "pts": 3.8,
+    "full_frame_mae_rgb": 4.9425100022862365,
+    "ui_crop_mae_rgb": 6.281102003642987
+  },
+  {
+    "frame": 229,
+    "pts": 3.816666666666667,
+    "full_frame_mae_rgb": 4.9431255715592135,
+    "ui_crop_mae_rgb": 6.282182149362478
+  },
+  {
+    "frame": 230,
+    "pts": 3.8333333333333335,
+    "full_frame_mae_rgb": 4.943145004572473,
+    "ui_crop_mae_rgb": 6.282982695810564
+  },
+  {
+    "frame": 231,
+    "pts": 3.85,
+    "full_frame_mae_rgb": 4.9436731252857795,
+    "ui_crop_mae_rgb": 6.284705828779599
+  },
+  {
+    "frame": 232,
+    "pts": 3.8666666666666667,
+    "full_frame_mae_rgb": 4.943499371284865,
+    "ui_crop_mae_rgb": 6.284334244080146
+  },
+  {
+    "frame": 233,
+    "pts": 3.8833333333333333,
+    "full_frame_mae_rgb": 4.943808013260174,
+    "ui_crop_mae_rgb": 6.28516393442623
+  },
+  {
+    "frame": 234,
+    "pts": 3.9,
+    "full_frame_mae_rgb": 4.943575388660265,
+    "ui_crop_mae_rgb": 6.284296903460838
+  },
+  {
+    "frame": 235,
+    "pts": 3.9166666666666665,
+    "full_frame_mae_rgb": 4.9436994170096025,
+    "ui_crop_mae_rgb": 6.2845619307832425
+  },
+  {
+    "frame": 236,
+    "pts": 3.933333333333333,
+    "full_frame_mae_rgb": 4.94354052354824,
+    "ui_crop_mae_rgb": 6.284055555555556
+  },
+  {
+    "frame": 237,
+    "pts": 3.95,
+    "full_frame_mae_rgb": 4.944124942844079,
+    "ui_crop_mae_rgb": 6.285454462659381
+  },
+  {
+    "frame": 238,
+    "pts": 3.966666666666667,
+    "full_frame_mae_rgb": 4.943892032464563,
+    "ui_crop_mae_rgb": 6.284959016393443
+  },
+  {
+    "frame": 239,
+    "pts": 3.9833333333333334,
+    "full_frame_mae_rgb": 4.944253257887517,
+    "ui_crop_mae_rgb": 6.286110200364298
+  },
+  {
+    "frame": 240,
+    "pts": 4.0,
+    "full_frame_mae_rgb": 4.946908721993599,
+    "ui_crop_mae_rgb": 6.292713114754099
+  },
+  {
+    "frame": 241,
+    "pts": 4.016666666666667,
+    "full_frame_mae_rgb": 4.9479155235482395,
+    "ui_crop_mae_rgb": 6.29487795992714
+  },
+  {
+    "frame": 242,
+    "pts": 4.033333333333333,
+    "full_frame_mae_rgb": 4.96541638088706,
+    "ui_crop_mae_rgb": 6.323413479052824
+  },
+  {
+    "frame": 243,
+    "pts": 4.05,
+    "full_frame_mae_rgb": 4.965894204389575,
+    "ui_crop_mae_rgb": 6.323447176684882
+  },
+  {
+    "frame": 244,
+    "pts": 4.066666666666666,
+    "full_frame_mae_rgb": 4.972035322359396,
+    "ui_crop_mae_rgb": 6.3303697632058284
+  },
+  {
+    "frame": 245,
+    "pts": 4.083333333333333,
+    "full_frame_mae_rgb": 4.967952389117513,
+    "ui_crop_mae_rgb": 6.316879781420765
+  },
+  {
+    "frame": 246,
+    "pts": 4.1,
+    "full_frame_mae_rgb": 4.970024005486969,
+    "ui_crop_mae_rgb": 6.321982695810565
+  },
+  {
+    "frame": 247,
+    "pts": 4.116666666666666,
+    "full_frame_mae_rgb": 4.970305498399634,
+    "ui_crop_mae_rgb": 6.322456284153006
+  },
+  {
+    "frame": 248,
+    "pts": 4.133333333333334,
+    "full_frame_mae_rgb": 4.970613283036123,
+    "ui_crop_mae_rgb": 6.3235355191256835
+  },
+  {
+    "frame": 249,
+    "pts": 4.15,
+    "full_frame_mae_rgb": 4.9696776406035665,
+    "ui_crop_mae_rgb": 6.321072859744991
+  },
+  {
+    "frame": 250,
+    "pts": 4.166666666666667,
+    "full_frame_mae_rgb": 4.980735596707819,
+    "ui_crop_mae_rgb": 6.351026411657559
+  },
+  {
+    "frame": 251,
+    "pts": 4.183333333333334,
+    "full_frame_mae_rgb": 4.980032293095564,
+    "ui_crop_mae_rgb": 6.349329690346083
+  },
+  {
+    "frame": 252,
+    "pts": 4.2,
+    "full_frame_mae_rgb": 4.980888488797439,
+    "ui_crop_mae_rgb": 6.350530054644809
+  },
+  {
+    "frame": 253,
+    "pts": 4.216666666666667,
+    "full_frame_mae_rgb": 4.980779892546868,
+    "ui_crop_mae_rgb": 6.349233151183971
+  },
+  {
+    "frame": 254,
+    "pts": 4.233333333333333,
+    "full_frame_mae_rgb": 4.982154492455418,
+    "ui_crop_mae_rgb": 6.349610200364299
+  },
+  {
+    "frame": 255,
+    "pts": 4.25,
+    "full_frame_mae_rgb": 4.981843278463649,
+    "ui_crop_mae_rgb": 6.349329690346083
+  },
+  {
+    "frame": 256,
+    "pts": 4.266666666666667,
+    "full_frame_mae_rgb": 4.9818661408321905,
+    "ui_crop_mae_rgb": 6.3494808743169395
+  },
+  {
+    "frame": 257,
+    "pts": 4.283333333333333,
+    "full_frame_mae_rgb": 4.9820304641060815,
+    "ui_crop_mae_rgb": 6.349973588342441
+  },
+  {
+    "frame": 258,
+    "pts": 4.3,
+    "full_frame_mae_rgb": 4.98213848879744,
+    "ui_crop_mae_rgb": 6.350100182149363
+  },
+  {
+    "frame": 259,
+    "pts": 4.316666666666666,
+    "full_frame_mae_rgb": 4.982006458619113,
+    "ui_crop_mae_rgb": 6.350120218579235
+  },
+  {
+    "frame": 260,
+    "pts": 4.333333333333333,
+    "full_frame_mae_rgb": 4.982016746684956,
+    "ui_crop_mae_rgb": 6.350153005464481
+  },
+  {
+    "frame": 261,
+    "pts": 4.35,
+    "full_frame_mae_rgb": 4.982043324188386,
+    "ui_crop_mae_rgb": 6.350237704918033
+  },
+  {
+    "frame": 262,
+    "pts": 4.366666666666666,
+    "full_frame_mae_rgb": 4.982150205761317,
+    "ui_crop_mae_rgb": 6.35050364298725
+  },
+  {
+    "frame": 263,
+    "pts": 4.383333333333334,
+    "full_frame_mae_rgb": 4.982147919524463,
+    "ui_crop_mae_rgb": 6.350387067395264
+  },
+  {
+    "frame": 264,
+    "pts": 4.4,
+    "full_frame_mae_rgb": 4.982147919524463,
+    "ui_crop_mae_rgb": 6.350387067395264
+  },
+  {
+    "frame": 265,
+    "pts": 4.416666666666667,
+    "full_frame_mae_rgb": 4.982147919524463,
+    "ui_crop_mae_rgb": 6.350387067395264
+  },
+  {
+    "frame": 266,
+    "pts": 4.433333333333334,
+    "full_frame_mae_rgb": 4.982160493827161,
+    "ui_crop_mae_rgb": 6.350427140255009
+  },
+  {
+    "frame": 267,
+    "pts": 4.45,
+    "full_frame_mae_rgb": 4.982130772748056,
+    "ui_crop_mae_rgb": 6.350332422586521
+  },
+  {
+    "frame": 268,
+    "pts": 4.466666666666667,
+    "full_frame_mae_rgb": 4.982130772748056,
+    "ui_crop_mae_rgb": 6.350332422586521
+  },
+  {
+    "frame": 269,
+    "pts": 4.483333333333333,
+    "full_frame_mae_rgb": 4.982130772748056,
+    "ui_crop_mae_rgb": 6.350332422586521
+  },
+  {
+    "frame": 270,
+    "pts": 4.5,
+    "full_frame_mae_rgb": 4.982059899405578,
+    "ui_crop_mae_rgb": 6.350332422586521
+  },
+  {
+    "frame": 271,
+    "pts": 4.516666666666667,
+    "full_frame_mae_rgb": 4.982130772748056,
+    "ui_crop_mae_rgb": 6.350332422586521
+  },
+  {
+    "frame": 272,
+    "pts": 4.533333333333333,
+    "full_frame_mae_rgb": 4.982130772748056,
+    "ui_crop_mae_rgb": 6.350332422586521
+  },
+  {
+    "frame": 273,
+    "pts": 4.55,
+    "full_frame_mae_rgb": 4.982130772748056,
+    "ui_crop_mae_rgb": 6.350332422586521
+  },
+  {
+    "frame": 274,
+    "pts": 4.566666666666666,
+    "full_frame_mae_rgb": 4.982403692272519,
+    "ui_crop_mae_rgb": 6.3508132969034605
+  },
+  {
+    "frame": 275,
+    "pts": 4.583333333333333,
+    "full_frame_mae_rgb": 4.982340534979424,
+    "ui_crop_mae_rgb": 6.35066029143898
+  },
+  {
+    "frame": 276,
+    "pts": 4.6,
+    "full_frame_mae_rgb": 4.982351108824874,
+    "ui_crop_mae_rgb": 6.350682149362477
+  },
+  {
+    "frame": 277,
+    "pts": 4.616666666666666,
+    "full_frame_mae_rgb": 4.9821727823502515,
+    "ui_crop_mae_rgb": 6.35026320582878
+  },
+  {
+    "frame": 278,
+    "pts": 4.633333333333334,
+    "full_frame_mae_rgb": 4.98212162780064,
+    "ui_crop_mae_rgb": 6.350326047358834
+  },
+  {
+    "frame": 279,
+    "pts": 4.65,
+    "full_frame_mae_rgb": 4.982202789208962,
+    "ui_crop_mae_rgb": 6.35035883424408
+  },
+  {
+    "frame": 280,
+    "pts": 4.666666666666667,
+    "full_frame_mae_rgb": 4.9822296524919985,
+    "ui_crop_mae_rgb": 6.350444444444444
+  },
+  {
+    "frame": 281,
+    "pts": 4.683333333333334,
+    "full_frame_mae_rgb": 4.982156778692272,
+    "ui_crop_mae_rgb": 6.350212204007286
+  },
+  {
+    "frame": 282,
+    "pts": 4.7,
+    "full_frame_mae_rgb": 4.982186499771377,
+    "ui_crop_mae_rgb": 6.350306921675774
+  },
+  {
+    "frame": 283,
+    "pts": 4.716666666666667,
+    "full_frame_mae_rgb": 4.982156778692272,
+    "ui_crop_mae_rgb": 6.350212204007286
+  },
+  {
+    "frame": 284,
+    "pts": 4.733333333333333,
+    "full_frame_mae_rgb": 4.982156778692272,
+    "ui_crop_mae_rgb": 6.350212204007286
+  },
+  {
+    "frame": 285,
+    "pts": 4.75,
+    "full_frame_mae_rgb": 4.982156778692272,
+    "ui_crop_mae_rgb": 6.350212204007286
+  },
+  {
+    "frame": 286,
+    "pts": 4.766666666666667,
+    "full_frame_mae_rgb": 4.982085905349794,
+    "ui_crop_mae_rgb": 6.350212204007286
+  },
+  {
+    "frame": 287,
+    "pts": 4.783333333333333,
+    "full_frame_mae_rgb": 4.982156778692272,
+    "ui_crop_mae_rgb": 6.350212204007286
+  },
+  {
+    "frame": 288,
+    "pts": 4.8,
+    "full_frame_mae_rgb": 4.982156778692272,
+    "ui_crop_mae_rgb": 6.350212204007286
+  },
+  {
+    "frame": 289,
+    "pts": 4.816666666666666,
+    "full_frame_mae_rgb": 4.982156778692272,
+    "ui_crop_mae_rgb": 6.350212204007286
+  },
+  {
+    "frame": 290,
+    "pts": 4.833333333333333,
+    "full_frame_mae_rgb": 4.982186499771377,
+    "ui_crop_mae_rgb": 6.350306921675774
+  },
+  {
+    "frame": 291,
+    "pts": 4.85,
+    "full_frame_mae_rgb": 4.982156778692272,
+    "ui_crop_mae_rgb": 6.350212204007286
+  },
+  {
+    "frame": 292,
+    "pts": 4.866666666666666,
+    "full_frame_mae_rgb": 4.982156778692272,
+    "ui_crop_mae_rgb": 6.350212204007286
+  },
+  {
+    "frame": 293,
+    "pts": 4.883333333333334,
+    "full_frame_mae_rgb": 4.982156778692272,
+    "ui_crop_mae_rgb": 6.350212204007286
+  },
+  {
+    "frame": 294,
+    "pts": 4.9,
+    "full_frame_mae_rgb": 4.982326245999086,
+    "ui_crop_mae_rgb": 6.350978142076503
+  },
+  {
+    "frame": 295,
+    "pts": 4.916666666666667,
+    "full_frame_mae_rgb": 4.982397119341564,
+    "ui_crop_mae_rgb": 6.350978142076503
+  },
+  {
+    "frame": 296,
+    "pts": 4.933333333333334,
+    "full_frame_mae_rgb": 4.982539437585734,
+    "ui_crop_mae_rgb": 6.351431693989071
+  },
+  {
+    "frame": 297,
+    "pts": 4.95,
+    "full_frame_mae_rgb": 4.982393118427069,
+    "ui_crop_mae_rgb": 6.35096539162113
+  },
+  {
+    "frame": 298,
+    "pts": 4.966666666666667,
+    "full_frame_mae_rgb": 4.984036065386374,
+    "ui_crop_mae_rgb": 6.35188160291439
+  },
+  {
+    "frame": 299,
+    "pts": 4.983333333333333,
+    "full_frame_mae_rgb": 4.983971479195245,
+    "ui_crop_mae_rgb": 6.351778688524591
+  },
+  {
+    "frame": 300,
+    "pts": 5.0,
+    "full_frame_mae_rgb": 4.984899119798811,
+    "ui_crop_mae_rgb": 6.351799635701275
+  },
+  {
+    "frame": 301,
+    "pts": 5.016666666666667,
+    "full_frame_mae_rgb": 4.984340134887974,
+    "ui_crop_mae_rgb": 6.350657559198543
+  },
+  {
+    "frame": 302,
+    "pts": 5.033333333333333,
+    "full_frame_mae_rgb": 4.984269261545496,
+    "ui_crop_mae_rgb": 6.350657559198543
+  },
+  {
+    "frame": 303,
+    "pts": 5.05,
+    "full_frame_mae_rgb": 4.984338420210333,
+    "ui_crop_mae_rgb": 6.350652094717669
+  },
+  {
+    "frame": 304,
+    "pts": 5.066666666666666,
+    "full_frame_mae_rgb": 4.984338420210333,
+    "ui_crop_mae_rgb": 6.350652094717669
+  },
+  {
+    "frame": 305,
+    "pts": 5.083333333333333,
+    "full_frame_mae_rgb": 4.984338420210333,
+    "ui_crop_mae_rgb": 6.350652094717669
+  },
+  {
+    "frame": 306,
+    "pts": 5.1,
+    "full_frame_mae_rgb": 4.984477880658436,
+    "ui_crop_mae_rgb": 6.350746812386157
+  },
+  {
+    "frame": 307,
+    "pts": 5.116666666666666,
+    "full_frame_mae_rgb": 4.984411579789667,
+    "ui_crop_mae_rgb": 6.350652094717669
+  },
+  {
+    "frame": 308,
+    "pts": 5.133333333333334,
+    "full_frame_mae_rgb": 4.984411579789667,
+    "ui_crop_mae_rgb": 6.350652094717669
+  },
+  {
+    "frame": 309,
+    "pts": 5.15,
+    "full_frame_mae_rgb": 4.984411579789667,
+    "ui_crop_mae_rgb": 6.350652094717669
+  },
+  {
+    "frame": 310,
+    "pts": 5.166666666666667,
+    "full_frame_mae_rgb": 4.984377286236854,
+    "ui_crop_mae_rgb": 6.350652094717669
+  },
+  {
+    "frame": 311,
+    "pts": 5.183333333333334,
+    "full_frame_mae_rgb": 4.984375,
+    "ui_crop_mae_rgb": 6.350652094717669
+  },
+  {
+    "frame": 312,
+    "pts": 5.2,
+    "full_frame_mae_rgb": 4.984375,
+    "ui_crop_mae_rgb": 6.350652094717669
+  },
+  {
+    "frame": 313,
+    "pts": 5.216666666666667,
+    "full_frame_mae_rgb": 4.984375,
+    "ui_crop_mae_rgb": 6.350652094717669
+  },
+  {
+    "frame": 314,
+    "pts": 5.233333333333333,
+    "full_frame_mae_rgb": 4.984476737540009,
+    "ui_crop_mae_rgb": 6.350743169398907
+  },
+  {
+    "frame": 315,
+    "pts": 5.25,
+    "full_frame_mae_rgb": 4.984471021947874,
+    "ui_crop_mae_rgb": 6.350783242258652
+  },
+  {
+    "frame": 316,
+    "pts": 5.266666666666667,
+    "full_frame_mae_rgb": 4.984471021947874,
+    "ui_crop_mae_rgb": 6.350783242258652
+  },
+  {
+    "frame": 317,
+    "pts": 5.283333333333333,
+    "full_frame_mae_rgb": 4.984471021947874,
+    "ui_crop_mae_rgb": 6.350783242258652
+  },
+  {
+    "frame": 318,
+    "pts": 5.3,
+    "full_frame_mae_rgb": 4.9844001486053955,
+    "ui_crop_mae_rgb": 6.350783242258652
+  },
+  {
+    "frame": 319,
+    "pts": 5.316666666666666,
+    "full_frame_mae_rgb": 4.984471021947874,
+    "ui_crop_mae_rgb": 6.350783242258652
+  },
+  {
+    "frame": 320,
+    "pts": 5.333333333333333,
+    "full_frame_mae_rgb": 4.984471021947874,
+    "ui_crop_mae_rgb": 6.350783242258652
+  },
+  {
+    "frame": 321,
+    "pts": 5.35,
+    "full_frame_mae_rgb": 4.984471021947874,
+    "ui_crop_mae_rgb": 6.350783242258652
+  },
+  {
+    "frame": 322,
+    "pts": 5.366666666666666,
+    "full_frame_mae_rgb": 4.984500743026977,
+    "ui_crop_mae_rgb": 6.35087795992714
+  },
+  {
+    "frame": 323,
+    "pts": 5.383333333333334,
+    "full_frame_mae_rgb": 4.984246684956561,
+    "ui_crop_mae_rgb": 6.350068306010929
+  },
+  {
+    "frame": 324,
+    "pts": 5.4,
+    "full_frame_mae_rgb": 4.984020061728395,
+    "ui_crop_mae_rgb": 6.349346083788706
+  },
+  {
+    "frame": 325,
+    "pts": 5.416666666666667,
+    "full_frame_mae_rgb": 4.983332475994513,
+    "ui_crop_mae_rgb": 6.347154826958105
+  },
+  {
+    "frame": 326,
+    "pts": 5.433333333333334,
+    "full_frame_mae_rgb": 4.990508401920439,
+    "ui_crop_mae_rgb": 6.367809653916211
+  },
+  {
+    "frame": 327,
+    "pts": 5.45,
+    "full_frame_mae_rgb": 4.986907293095565,
+    "ui_crop_mae_rgb": 6.321108378870674
+  },
+  {
+    "frame": 328,
+    "pts": 5.466666666666667,
+    "full_frame_mae_rgb": 5.071572930955647,
+    "ui_crop_mae_rgb": 6.356483606557377
+  },
+  {
+    "frame": 329,
+    "pts": 5.483333333333333,
+    "full_frame_mae_rgb": 5.157419124371285,
+    "ui_crop_mae_rgb": 6.676338797814208
+  },
+  {
+    "frame": 330,
+    "pts": 5.5,
+    "full_frame_mae_rgb": 5.023711419753086,
+    "ui_crop_mae_rgb": 6.4475992714025505
+  },
+  {
+    "frame": 331,
+    "pts": 5.516666666666667,
+    "full_frame_mae_rgb": 4.718347336534065,
+    "ui_crop_mae_rgb": 6.287955373406193
+  },
+  {
+    "frame": 332,
+    "pts": 5.533333333333333,
+    "full_frame_mae_rgb": 4.345326931870142,
+    "ui_crop_mae_rgb": 5.398176684881603
+  },
+  {
+    "frame": 333,
+    "pts": 5.55,
+    "full_frame_mae_rgb": 4.232210791037952,
+    "ui_crop_mae_rgb": 5.1741029143898
+  },
+  {
+    "frame": 334,
+    "pts": 5.566666666666666,
+    "full_frame_mae_rgb": 4.124086648376772,
+    "ui_crop_mae_rgb": 4.961219489981785
+  },
+  {
+    "frame": 335,
+    "pts": 5.583333333333333,
+    "full_frame_mae_rgb": 4.0226806127114765,
+    "ui_crop_mae_rgb": 4.862720400728597
+  },
+  {
+    "frame": 336,
+    "pts": 5.6,
+    "full_frame_mae_rgb": 3.89277491998171,
+    "ui_crop_mae_rgb": 4.6945273224043715
+  },
+  {
+    "frame": 337,
+    "pts": 5.616666666666666,
+    "full_frame_mae_rgb": 3.867685470964792,
+    "ui_crop_mae_rgb": 4.685899817850638
+  },
+  {
+    "frame": 338,
+    "pts": 5.633333333333334,
+    "full_frame_mae_rgb": 3.789073216735254,
+    "ui_crop_mae_rgb": 4.558059198542805
+  },
+  {
+    "frame": 339,
+    "pts": 5.65,
+    "full_frame_mae_rgb": 3.8332470278920896,
+    "ui_crop_mae_rgb": 4.64986247723133
+  },
+  {
+    "frame": 340,
+    "pts": 5.666666666666667,
+    "full_frame_mae_rgb": 3.792270804755373,
+    "ui_crop_mae_rgb": 4.576600182149362
+  },
+  {
+    "frame": 341,
+    "pts": 5.683333333333334,
+    "full_frame_mae_rgb": 3.773643118427069,
+    "ui_crop_mae_rgb": 4.5371311475409835
+  },
+  {
+    "frame": 342,
+    "pts": 5.7,
+    "full_frame_mae_rgb": 3.6966195130315502,
+    "ui_crop_mae_rgb": 4.426023679417122
+  },
+  {
+    "frame": 343,
+    "pts": 5.716666666666667,
+    "full_frame_mae_rgb": 3.6889211819844534,
+    "ui_crop_mae_rgb": 4.438465391621129
+  },
+  {
+    "frame": 344,
+    "pts": 5.733333333333333,
+    "full_frame_mae_rgb": 3.614977137631459,
+    "ui_crop_mae_rgb": 4.345004553734062
+  },
+  {
+    "frame": 345,
+    "pts": 5.75,
+    "full_frame_mae_rgb": 3.612948102423411,
+    "ui_crop_mae_rgb": 4.347991803278688
+  },
+  {
+    "frame": 346,
+    "pts": 5.766666666666667,
+    "full_frame_mae_rgb": 3.5872856652949245,
+    "ui_crop_mae_rgb": 4.295783242258652
+  },
+  {
+    "frame": 347,
+    "pts": 5.783333333333333,
+    "full_frame_mae_rgb": 3.6056501486053953,
+    "ui_crop_mae_rgb": 4.337768670309654
+  },
+  {
+    "frame": 348,
+    "pts": 5.8,
+    "full_frame_mae_rgb": 3.579590192043896,
+    "ui_crop_mae_rgb": 4.272632058287796
+  },
+  {
+    "frame": 349,
+    "pts": 5.816666666666666,
+    "full_frame_mae_rgb": 3.5784645061728395,
+    "ui_crop_mae_rgb": 4.2653014571949
+  },
+  {
+    "frame": 350,
+    "pts": 5.833333333333333,
+    "full_frame_mae_rgb": 3.5776820416095108,
+    "ui_crop_mae_rgb": 4.253535519125683
+  },
+  {
+    "frame": 351,
+    "pts": 5.85,
+    "full_frame_mae_rgb": 3.585258058984911,
+    "ui_crop_mae_rgb": 4.272666666666667
+  },
+  {
+    "frame": 352,
+    "pts": 5.866666666666666,
+    "full_frame_mae_rgb": 3.581903006401463,
+    "ui_crop_mae_rgb": 4.266685792349727
+  },
+  {
+    "frame": 353,
+    "pts": 5.883333333333334,
+    "full_frame_mae_rgb": 3.5832996113397346,
+    "ui_crop_mae_rgb": 4.2696712204007286
+  },
+  {
+    "frame": 354,
+    "pts": 5.9,
+    "full_frame_mae_rgb": 3.5855364083219023,
+    "ui_crop_mae_rgb": 4.27141985428051
+  },
+  {
+    "frame": 355,
+    "pts": 5.916666666666667,
+    "full_frame_mae_rgb": 3.5891743827160494,
+    "ui_crop_mae_rgb": 4.281689435336976
+  },
+  {
+    "frame": 356,
+    "pts": 5.933333333333334,
+    "full_frame_mae_rgb": 3.5883110425240057,
+    "ui_crop_mae_rgb": 4.27871766848816
+  },
+  {
+    "frame": 357,
+    "pts": 5.95,
+    "full_frame_mae_rgb": 3.587862368541381,
+    "ui_crop_mae_rgb": 4.2815009107468125
+  },
+  {
+    "frame": 358,
+    "pts": 5.966666666666667,
+    "full_frame_mae_rgb": 3.6016729538180154,
+    "ui_crop_mae_rgb": 4.322280510018215
+  },
+  {
+    "frame": 359,
+    "pts": 5.983333333333333,
+    "full_frame_mae_rgb": 3.6105018289894835,
+    "ui_crop_mae_rgb": 4.350108378870674
+  },
+  {
+    "frame": 360,
+    "pts": 6.0,
+    "full_frame_mae_rgb": 3.496215420667581,
+    "ui_crop_mae_rgb": 4.16975591985428
+  },
+  {
+    "frame": 361,
+    "pts": 6.016666666666667,
+    "full_frame_mae_rgb": 3.496308013260174,
+    "ui_crop_mae_rgb": 4.170043715846995
+  },
+  {
+    "frame": 362,
+    "pts": 6.033333333333333,
+    "full_frame_mae_rgb": 3.4962545724737084,
+    "ui_crop_mae_rgb": 4.169866120218579
+  },
+  {
+    "frame": 363,
+    "pts": 6.05,
+    "full_frame_mae_rgb": 3.496556927297668,
+    "ui_crop_mae_rgb": 4.1708060109289615
+  },
+  {
+    "frame": 364,
+    "pts": 6.066666666666666,
+    "full_frame_mae_rgb": 3.49638260173754,
+    "ui_crop_mae_rgb": 4.169722222222222
+  },
+  {
+    "frame": 365,
+    "pts": 6.083333333333333,
+    "full_frame_mae_rgb": 3.496466049382716,
+    "ui_crop_mae_rgb": 4.169987249544627
+  },
+  {
+    "frame": 366,
+    "pts": 6.1,
+    "full_frame_mae_rgb": 3.4964234682213076,
+    "ui_crop_mae_rgb": 4.1698142076502736
+  },
+  {
+    "frame": 367,
+    "pts": 6.116666666666666,
+    "full_frame_mae_rgb": 3.496846422039323,
+    "ui_crop_mae_rgb": 4.171460837887067
+  },
+  {
+    "frame": 368,
+    "pts": 6.133333333333334,
+    "full_frame_mae_rgb": 3.496810985368084,
+    "ui_crop_mae_rgb": 4.170985428051002
+  },
+  {
+    "frame": 369,
+    "pts": 6.15,
+    "full_frame_mae_rgb": 3.4967698331047097,
+    "ui_crop_mae_rgb": 4.171235883424408
+  },
+  {
+    "frame": 370,
+    "pts": 6.166666666666667,
+    "full_frame_mae_rgb": 3.4967026748971195,
+    "ui_crop_mae_rgb": 4.171025500910747
+  },
+  {
+    "frame": 371,
+    "pts": 6.183333333333334,
+    "full_frame_mae_rgb": 3.4968947187928667,
+    "ui_crop_mae_rgb": 4.171475409836066
+  },
+  {
+    "frame": 372,
+    "pts": 6.2,
+    "full_frame_mae_rgb": 3.4965477823502513,
+    "ui_crop_mae_rgb": 4.170947176684882
+  },
+  {
+    "frame": 373,
+    "pts": 6.216666666666667,
+    "full_frame_mae_rgb": 3.4966175125743026,
+    "ui_crop_mae_rgb": 4.171169398907104
+  },
+  {
+    "frame": 374,
+    "pts": 6.233333333333333,
+    "full_frame_mae_rgb": 3.4964014631915865,
+    "ui_crop_mae_rgb": 4.17048087431694
+  },
+  {
+    "frame": 375,
+    "pts": 6.25,
+    "full_frame_mae_rgb": 3.49649662780064,
+    "ui_crop_mae_rgb": 4.170848816029144
+  },
+  {
+    "frame": 376,
+    "pts": 6.266666666666667,
+    "full_frame_mae_rgb": 3.4961151120256058,
+    "ui_crop_mae_rgb": 4.170162112932605
+  },
+  {
+    "frame": 377,
+    "pts": 6.283333333333333,
+    "full_frame_mae_rgb": 3.4962580018289895,
+    "ui_crop_mae_rgb": 4.170617486338798
+  },
+  {
+    "frame": 378,
+    "pts": 6.3,
+    "full_frame_mae_rgb": 3.4961151120256058,
+    "ui_crop_mae_rgb": 4.170162112932605
+  },
+  {
+    "frame": 379,
+    "pts": 6.316666666666666,
+    "full_frame_mae_rgb": 3.4961856995884775,
+    "ui_crop_mae_rgb": 4.170435336976321
+  },
+  {
+    "frame": 380,
+    "pts": 6.333333333333333,
+    "full_frame_mae_rgb": 3.496175411522634,
+    "ui_crop_mae_rgb": 4.17052276867031
+  },
+  {
+    "frame": 381,
+    "pts": 6.35,
+    "full_frame_mae_rgb": 3.4963183013260175,
+    "ui_crop_mae_rgb": 4.170978142076502
+  },
+  {
+    "frame": 382,
+    "pts": 6.366666666666666,
+    "full_frame_mae_rgb": 3.496175411522634,
+    "ui_crop_mae_rgb": 4.17052276867031
+  },
+  {
+    "frame": 383,
+    "pts": 6.383333333333334,
+    "full_frame_mae_rgb": 3.4964223251028805,
+    "ui_crop_mae_rgb": 4.171205828779599
+  },
+  {
+    "frame": 384,
+    "pts": 6.4,
+    "full_frame_mae_rgb": 3.4959639346136258,
+    "ui_crop_mae_rgb": 4.169805100182149
+  },
+  {
+    "frame": 385,
+    "pts": 6.416666666666667,
+    "full_frame_mae_rgb": 3.4964446159122087,
+    "ui_crop_mae_rgb": 4.171336976320583
+  },
+  {
+    "frame": 386,
+    "pts": 6.433333333333334,
+    "full_frame_mae_rgb": 3.4959679355281206,
+    "ui_crop_mae_rgb": 4.169817850637523
+  },
+  {
+    "frame": 387,
+    "pts": 6.45,
+    "full_frame_mae_rgb": 3.495755315500686,
+    "ui_crop_mae_rgb": 4.1693005464480875
+  },
+  {
+    "frame": 388,
+    "pts": 6.466666666666667,
+    "full_frame_mae_rgb": 3.49553926611797,
+    "ui_crop_mae_rgb": 4.168612021857924
+  },
+  {
+    "frame": 389,
+    "pts": 6.483333333333333,
+    "full_frame_mae_rgb": 3.4957964677640603,
+    "ui_crop_mae_rgb": 4.169431693989071
+  },
+  {
+    "frame": 390,
+    "pts": 6.5,
+    "full_frame_mae_rgb": 3.495580418381344,
+    "ui_crop_mae_rgb": 4.168743169398907
+  },
+  {
+    "frame": 391,
+    "pts": 6.516666666666667,
+    "full_frame_mae_rgb": 3.4957964677640603,
+    "ui_crop_mae_rgb": 4.169431693989071
+  },
+  {
+    "frame": 392,
+    "pts": 6.533333333333333,
+    "full_frame_mae_rgb": 3.495580418381344,
+    "ui_crop_mae_rgb": 4.168743169398907
+  }
+]
