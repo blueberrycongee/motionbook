@@ -1,0 +1,56 @@
+{
+  "referenceInspected": true,
+  "referenceMethod": "Downloaded public MP4, decoded frames, viewed contact sheets and full-size frames",
+  "revision": "1.2.0 - restored both text sweeps, approval hand wave and frame-calibrated container/morph timing",
+  "modelTests": {
+    "passed": 21,
+    "failed": 0
+  },
+  "visualReview": "Synchronized original/reconstruction reviewed at hop/sweep peaks, moving-card midpoint, approval wave/sweep peaks and badge morph midpoint; original cursor remains omitted.",
+  "hopVerification": {
+    "heightPx": 8,
+    "staggerMs": 90,
+    "repeatMs": 650,
+    "waves": 2,
+    "referenceSamples": 78,
+    "verticalRmsErrorPx": {
+      "Gmail": 0.253,
+      "Slack": 0.334,
+      "ClickUp": 0.26
+    },
+    "rotationOrScaleAdded": false,
+    "metricScope": "Vertical centroid displacement only, not whole-frame pixel parity"
+  },
+  "outputType": "Deterministic offline SVG rasterization, not browser capture",
+  "browserRuntime": {
+    "verified": false,
+    "reason": "Chromium socket EPERM; local preview URL ERR_BLOCKED_BY_CLIENT"
+  },
+  "preview": {
+    "durationSeconds": 6.7,
+    "fps": 30,
+    "frames": 201,
+    "gifWidth": 654,
+    "gifHeight": 743
+  },
+  "upstreamSourceCopied": false,
+  "originalMediaIncluded": false,
+  "originalTimingCurveKnown": false,
+  "pixelPerfectClaim": false,
+  "sweepVerification": {
+    "regions": [
+      "Connect apps",
+      "Request approval"
+    ],
+    "direction": "left to right",
+    "wavesPerRegion": 2,
+    "scope": "Text glyphs only; no full-card light overlay",
+    "metric": "Mean absolute model tone profile error below 4 gray levels, tested against sampled text masks; not whole-image pixel parity"
+  },
+  "presentation_cleanup": {
+    "visible_editorial_overlays": false,
+    "burned_in_watermark": false,
+    "reference_comparisons_bundled": false,
+    "behavior_models_changed": false
+  }
+}

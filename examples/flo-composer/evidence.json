@@ -1,0 +1,94 @@
+{
+  "reference_url": "https://x.com/flohoeller/status/2102660458658582913",
+  "title": "Chat component interaction – made w/ Claude",
+  "author": "Flo (@flohoeller)",
+  "posted_at": "Wed Sep 23 07:24:53 +0000 2026",
+  "observed_on": "2026-10-05",
+  "media": {
+    "width": 1090,
+    "height": 1238,
+    "duration_seconds": 6.7,
+    "frame_rate": 60,
+    "sha256": "b2329e2601b5412cfd8f802c990fee26f9b95b28973c95fc55ac76ef00939914"
+  },
+  "observations": {
+    "background_rgb": [
+      250,
+      248,
+      246
+    ],
+    "shell_rgb": [
+      238,
+      236,
+      234
+    ],
+    "card_x_px": 241,
+    "card_top_initial_px": 416,
+    "card_top_connected_px": 521,
+    "card_height_px": 305,
+    "shell_height_px": 411,
+    "corner_radius_px": 55,
+    "connect_motion_start_s": 2.1,
+    "connect_motion_duration_s": 0.5,
+    "approval_motion_start_s": 4.76,
+    "approval_motion_duration_s": 0.38,
+    "app_icon_hops": {
+      "amplitude_px": 8,
+      "start_s": 0.817,
+      "repeat_s": 0.65,
+      "stagger_s": 0.09,
+      "waves": 2,
+      "rise_s": 0.18,
+      "apex_hold_s": 0.04,
+      "land_s": 0.2,
+      "rotation_scale": "No meaningful rotation or scaling observed; position-only reconstruction.",
+      "first_version_omission": "App logos were static, omitting the two hop waves."
+    },
+    "text_sweeps": {
+      "Connect apps": {
+        "start_s": 0.817,
+        "period_s": 0.65,
+        "waves": 2,
+        "width_px": 185.95,
+        "speed_px_per_s": 759.287,
+        "base_gray": 128,
+        "peak_gray": 25.485
+      },
+      "Request approval": {
+        "start_s": 3.483333,
+        "period_s": 0.65,
+        "waves": 2,
+        "width_px": 255.824,
+        "speed_px_per_s": 1054.608,
+        "base_gray": 138,
+        "peak_gray": 26.369
+      }
+    },
+    "hand_wave": {
+      "start_s": 3.483333,
+      "period_s": 0.65,
+      "waves": 2,
+      "key_angles_deg": [
+        0,
+        18,
+        -10,
+        7,
+        0
+      ]
+    }
+  },
+  "classification": {
+    "colors_geometry": "Measured from decoded reference frames, approximate due to compression.",
+    "timing": "Visual estimate from video sampled at 10 fps.",
+    "easing": "Card translation interpolates measured 60fps frame positions. Icon hops use a measured smoothstep fit. Shimmer uses triangular grayscale profiles fitted to video text masks.",
+    "icons": "Independently drawn vector approximations.",
+    "font": "Inter Regular used as a visual approximation with measured horizontal adjustments.",
+    "cursor": "Reference cursor omitted from delivered clean preview.",
+    "hop_timing": "Derived from colored-pixel centroid tracking across decoded 60 fps reference frames; smoothstep model fitted to observed trajectory."
+  },
+  "author_source": {
+    "official_url": "https://github.com/flohoeller/affectui-components",
+    "availability": "Official README states Chat Composer is part of affectUI Pro and source is excluded from the MIT repository. No author component code included."
+  },
+  "revision": "1.2.0"
+}
