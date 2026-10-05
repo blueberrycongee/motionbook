@@ -1,0 +1,10 @@
+{
+  "gif_frames": 231,
+  "gif_fps": 30,
+  "gif_loop": 0,
+  "gif_first_last_mean_absolute_rgb": 0.023009730468381867,
+  "mp4_fps": 60,
+  "mp4_frames": 462,
+  "mp4_decode": "passed",
+  "offline": true
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "462 60fps finite scene samples",
+    "clip rise/drop and repeated fan-collapse timeline",
+    "exact clean-loop state",
+    "Share/Close/Escape/reopen",
+    "clip hover entry and exit",
+    "interrupted opening",
+    "reduced motion"
+  ],
+  "environment": "Node VM DOM/event mocks; not a browser runtime"
+}

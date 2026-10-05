@@ -47,3 +47,7 @@
 ## Document signature
 
 [![Document signature](examples/document-signature/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/document-signature)
+
+## Paperclip transcript
+
+[![Paperclip transcript](examples/paperclip-interaction/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/paperclip-interaction)
