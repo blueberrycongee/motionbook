@@ -39,3 +39,7 @@
 ## Luminous tabs
 
 [![Luminous tabs](examples/luminous-tabs/preview/luminous-tabs.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/luminous-tabs)
+
+## Flight pill
+
+[![Flight pill](examples/flight-pill/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/flight-pill)

@@ -1,0 +1,12 @@
+{
+  "name": "motion-study-flight-pill",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node test.cjs",
+    "render": "node render.cjs"
+  },
+  "devDependencies": {
+    "sharp": "0.35.4"
+  }
+}
