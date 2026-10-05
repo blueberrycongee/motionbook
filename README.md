@@ -43,3 +43,7 @@
 ## Flight pill
 
 [![Flight pill](examples/flight-pill/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/flight-pill)
+
+## Document signature
+
+[![Document signature](examples/document-signature/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/document-signature)
