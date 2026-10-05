@@ -2,7 +2,7 @@
 
 ## Inspora footer
 
-[![Inspora footer](examples/inspora-footer/delivery/footer-preview.png)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/inspora-footer)
+[![Inspora footer](examples/inspora-footer/delivery/footer-preview.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/inspora-footer)
 
 ## Praveen cards
 
@@ -10,7 +10,7 @@
 
 ## PiP
 
-[![PiP](examples/chatgpt-pip/artifacts/snapping/snap-state-261.png)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/chatgpt-pip)
+[![PiP](examples/chatgpt-pip/artifacts/snapping/pip-snapping-physics.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/chatgpt-pip)
 
 ## Sketcha onboarding
 
