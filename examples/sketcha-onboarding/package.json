@@ -1,0 +1,13 @@
+{
+  "name": "sketcha-onboarding-study",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "render": "node tools/render-preview.mjs",
+    "build": "node tools/build.mjs",
+    "serve": "python3 -m http.server 4173"
+  },
+  "devDependencies": {"@napi-rs/canvas": "^0.1.80"}
+}

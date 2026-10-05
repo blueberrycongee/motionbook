@@ -1,15 +1,19 @@
 # 参考动画
 
+## Sketcha onboarding
+
+[![Sketcha onboarding](examples/sketcha-onboarding/preview/onboarding-v2.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/sketcha-onboarding)
+
 ## Shiba online
 
-[![Shiba online](examples/shiba-online/preview/shiba-online.gif)](examples/shiba-online/)
+[![Shiba online](examples/shiba-online/preview/shiba-online.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/shiba-online)
 
 ## Flo composer
 
-[![Flo composer](examples/flo-composer/artifacts/flo-composer-reconstruction.gif)](examples/flo-composer/)
+[![Flo composer](examples/flo-composer/artifacts/flo-composer-reconstruction.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/flo-composer)
 
 ## Tiny animated SVG
 
-[![Tiny animated SVG](examples/tiny-animated-svg/pro.svg)](examples/tiny-animated-svg/)
+[![Tiny animated SVG](examples/tiny-animated-svg/pro.svg)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/tiny-animated-svg)
 
-[PiP](examples/chatgpt-pip/) · [Playful project hovers](examples/spencer-playful-hovers/)
+[PiP](https://github.com/blueberrycongee/reference-animations/tree/main/examples/chatgpt-pip) · [Playful project hovers](https://github.com/blueberrycongee/reference-animations/tree/main/examples/spencer-playful-hovers)

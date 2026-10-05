@@ -1,0 +1,38 @@
+
+> sketcha-onboarding-study@1.1.0 test
+> node --test tests/*.test.mjs
+
+✔ standalone build embeds fonts, needs no external files, and passes JavaScript syntax validation (315.088628ms)
+✔ measured 390 by 844 coordinate space (7.97143ms)
+✔ idle remains idle until deliberate activation (0.288167ms)
+✔ tap starts the sequence exactly once (0.275006ms)
+✔ late duplicate taps never restart animation or leave the menu (0.147022ms)
+✔ reset interrupts animation and allows a new independent run (0.185681ms)
+✔ menu reset returns to initial cat state (0.121634ms)
+✔ reduced motion shows final menu on activation (0.188776ms)
+✔ reduced-motion preference changed during animation ends it safely (0.152811ms)
+✔ clock values before activation time clamp to zero (0.17819ms)
+✔ hint fades before glance (0.549923ms)
+✔ glance holds then returns to back before crouch (0.195786ms)
+✔ hop is a back-to-front turn, with no invented somersault (0.300996ms)
+✔ four-paw contact precedes scratch and tear (0.234045ms)
+✔ endpoint is menu at 3.81 seconds, not an endless loop (0.131789ms)
+✔ all sampled motion parameters are finite and bounded (86.017764ms)
+✔ trajectory is continuous across phase boundaries (2.774732ms)
+✔ back-to-profile turn is a single connected head-neck-body contour (6.011983ms)
+✔ coordinated profile morph retains a grounded, continuous center of mass (191.308492ms)
+✔ idle background is the measured cyan, no editorial chrome (25.821761ms)
+✔ cat and tiny poke hint are drawn at measured positions (2.630654ms)
+✔ menu palette and intentional top whitespace match measured layout (2.103956ms)
+✔ partial peel reveals stationary menu at the top while foreground remains lower (6.352941ms)
+✔ all phases render without throwing and produce opaque scene (504.609136ms)
+✔ runtime has no downloaded screenshot/video, proprietary bundle, or remote dependency (1.408453ms)
+✔ semantic buttons expose the four observed menu actions plus replay (0.662654ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 26
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1237.884683

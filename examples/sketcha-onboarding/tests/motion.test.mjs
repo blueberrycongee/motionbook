@@ -1,0 +1,20 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {OnboardingController,poseAt,TIMES,WIDTH,HEIGHT} from '../src/motion.mjs';
+
+test('measured 390 by 844 coordinate space',()=>{assert.equal(WIDTH,390);assert.equal(HEIGHT,844);});
+test('idle remains idle until deliberate activation',()=>{const s=new OnboardingController();assert.equal(s.time(90000),-1);assert.equal(s.state,'idle');});
+test('tap starts the sequence exactly once',()=>{const s=new OnboardingController();assert.equal(s.tap(100),true);assert.equal(s.tap(120),false);assert.equal(s.startedAt,100);assert.equal(s.time(200),.1);});
+test('late duplicate taps never restart animation or leave the menu',()=>{const s=new OnboardingController();s.tap(100);s.time(5000);assert.equal(s.state,'menu');assert.equal(s.tap(5001),false);assert.equal(s.time(1e8),TIMES.finish);});
+test('reset interrupts animation and allows a new independent run',()=>{const s=new OnboardingController();s.tap(0);s.time(2700);s.reset();assert.equal(s.state,'idle');assert.equal(s.time(2900),-1);assert.equal(s.tap(3000),true);assert.equal(s.time(3500),.5);});
+test('menu reset returns to initial cat state',()=>{const s=new OnboardingController();s.tap(0);s.time(10000);s.reset();assert.equal(s.startedAt,null);assert.equal(s.time(10001),-1);});
+test('reduced motion shows final menu on activation',()=>{const s=new OnboardingController({reducedMotion:true});s.tap(0);assert.equal(s.state,'menu');assert.equal(s.time(0),TIMES.finish);});
+test('reduced-motion preference changed during animation ends it safely',()=>{const s=new OnboardingController();s.tap(0);s.reduce(500);assert.equal(s.time(501),TIMES.finish);assert.equal(s.state,'menu');});
+test('clock values before activation time clamp to zero',()=>{const s=new OnboardingController();s.tap(1000);assert.equal(s.time(500),0);});
+test('hint fades before glance',()=>{assert.equal(poseAt(0).hint,1);assert.equal(poseAt(.2).hint,0);assert.equal(poseAt(.5).look,0);});
+test('glance holds then returns to back before crouch',()=>{assert.equal(poseAt(1).look,1);assert.equal(poseAt(1.55).look,1);assert.equal(poseAt(1.92).look,0);});
+test('hop is a back-to-front turn, with no invented somersault',()=>{assert.equal(poseAt(2).front,0);assert.equal(poseAt(2.33).front,1);assert.ok(poseAt(2.33).y<-300);assert.equal('rotation' in poseAt(2.33),false);});
+test('four-paw contact precedes scratch and tear',()=>{assert.equal(poseAt(2.4).scratch,0);assert.ok(poseAt(2.75).scratch>0);assert.equal(poseAt(3.3).scratch,1);assert.equal(poseAt(3.3).tear,0);assert.ok(poseAt(3.57).tear>0);});
+test('endpoint is menu at 3.81 seconds, not an endless loop',()=>{assert.equal(poseAt(3.80).done,false);assert.equal(poseAt(3.81).done,true);assert.equal(poseAt(10).done,true);});
+test('all sampled motion parameters are finite and bounded',()=>{for(let i=-100;i<10000;i++){const p=poseAt(i/1000,i/1000);for(const [k,v]of Object.entries(p))if(typeof v==='number')assert.ok(Number.isFinite(v),k);for(const k of ['hint','look','crouch','front','jump','scratch','tear'])assert.ok(p[k]>=0&&p[k]<=1,k);assert.ok(p.sx>0&&p.sy>0);}});
+test('trajectory is continuous across phase boundaries',()=>{for(const t of Object.values(TIMES)){const a=poseAt(t-1e-5),b=poseAt(t+1e-5);for(const k of ['y','look','front','crouch','sx','sy','scratch','tear'])assert.ok(Math.abs(a[k]-b[k])<.15,`${t} ${k}`);}});

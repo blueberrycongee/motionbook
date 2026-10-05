@@ -1,0 +1,26 @@
+{
+  "standalone.html": {
+    "bytes": 69151,
+    "sha256": "0c5abf1c3cdc9b41732df61787a4b988e700af22c3adbf63cc2adc9e507f3d64"
+  },
+  "preview/onboarding-v2.mp4": {
+    "bytes": 388726,
+    "sha256": "e0080f177bbc7e0de6700ca67ad11b509372dad7d19146bd7d423c18e08ffe8d"
+  },
+  "preview/onboarding-v2.gif": {
+    "bytes": 579898,
+    "sha256": "b76a7b9a18b0f8df93d8ec4b5dd5aafa67494c15505760bc452e771fd4bb4840"
+  },
+  "preview/glance-v2.png": {
+    "bytes": 17093,
+    "sha256": "54263a5a2f5a21876780dd9b3e3549f2e480b5e4c52543fb35629422ca1915e8"
+  },
+  "preview/state-0.png": {
+    "bytes": 26577,
+    "sha256": "daec5042d6043eb216d4450fffece67f10f026916335ed92c9b4a5843d269f1e"
+  },
+  "preview/state-8.png": {
+    "bytes": 130867,
+    "sha256": "3ba8a23310b53ea499e9f3f6ff8e96a19f19178f239407b9eac68a58462b116a"
+  }
+}

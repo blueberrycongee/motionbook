@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0C9BE8">
+<title>Sketcha</title>
+<link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+<main id="app" aria-label="Sketcha onboarding">
+ <canvas id="scene" width="780" height="1688" aria-hidden="true"></canvas>
+ <button id="cat" class="hotspot cat" aria-label="戳一下小猫，进入 Sketcha" title="戳"></button>
+ <nav id="menu" aria-label="Sketcha" hidden>
+  <button class="hotspot history" aria-label="历史作品" data-press="4"></button>
+  <button class="hotspot settings" aria-label="设置" data-press="5"></button>
+  <button class="hotspot card one" aria-label="Take a photo，直接拍下此刻灵感然后开始涂鸦" data-press="0"></button>
+  <button class="hotspot card two" aria-label="导入，导入相册中的素材开始涂鸦" data-press="1"></button>
+  <button class="hotspot card three" aria-label="撒点成画，使用随机点阵作为灵感开始涂鸦" data-press="2"></button>
+  <button class="hotspot card four" aria-label="随机形状，使用随机形状作为灵感开始涂鸦" data-press="3"></button>
+  <button class="hotspot replay" id="replay" aria-label="重新播放小猫入场"></button>
+ </nav>
+ <p id="status" class="sr-only" role="status" aria-live="polite"></p>
+</main>
+<script type="module" src="src/app.mjs"></script>
+</body>
+</html>
