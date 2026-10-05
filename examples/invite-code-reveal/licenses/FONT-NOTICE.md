@@ -1,0 +1,1 @@
+Nunito glyph outlines are embedded under the SIL Open Font License. Original font: https://github.com/google/fonts/tree/main/ofl/nunito . Copyright 2014 The Nunito Project Authors. This is a licensed typographic substitute, not an extracted reference font or independently authored lettering.

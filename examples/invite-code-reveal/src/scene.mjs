@@ -1,0 +1,32 @@
+import {CONTROLS} from './controls.mjs';
+import {CLOSED,CODE,BACK,COPY} from './type.mjs';
+export const WIDTH=720,HEIGHT=720,DURATION=7.2;
+const n=x=>Number(x.toFixed(3)),mix=(a,b,p)=>a+(b-a)*p;
+export const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+export function nativePose(t){let l=0,r=CONTROLS.length-1;while(l+1<r){const m=(l+r)>>1;if(CONTROLS[m][0]<=t)l=m;else r=m;}const a=CONTROLS[l],b=CONTROLS[r],u=clamp((t-a[0])/(b[0]-a[0]));return a.slice(1).map((x,j)=>mix(x,b[j+1],u));}
+export function demoState(t){t=((t%DURATION)+DURATION)%DURATION;let pose=nativePose(t);if(t>6.67){const p=clamp((t-6.67)/.4),q=p*p*(3-2*p),a=nativePose(0);pose=pose.map((x,j)=>mix(x,a[j],q));}return {t,pose,cursor:true};}
+export function reduce(s,a){
+ if(a.type==='reset')return {mode:'demo',time:0,progress:0,target:0,copied:false};
+ if(a.type==='toggle'){const fromPose=interactiveState(s).pose,progress=s.mode==='demo'?clamp((143-fromPose[2])/256):s.progress,target=s.mode==='demo'?(fromPose[2]<0?0:1):1-s.target;return {...s,mode:'interactive',progress,target,fromPose,blend:0,copied:false};}
+ if(a.type==='copy')return {...s,copied:true};
+ if(a.type==='tick'){const dt=clamp(a.dt,0,.1);if(s.mode==='demo')return {...s,time:(s.time+dt)%DURATION};let progress=s.progress+Math.sign(s.target-s.progress)*dt/1.15;if(Math.abs(s.target-progress)<dt/1.15)progress=s.target;return {...s,progress:clamp(progress),blend:Math.min(1,(s.blend||0)+dt/.14)};}
+ return s;
+}
+export function interactiveState(s,reduced=false){if(s.mode==='demo')return demoState(s.time);const p=reduced?s.target:s.progress;let pose=nativePose(mix(.5021,1.655567,p));if(!reduced&&s.fromPose&&s.blend<1){const b=s.blend*s.blend*(3-2*s.blend);pose=pose.map((x,j)=>mix(s.fromPose[j],x,b));}return {t:0,pose,cursor:false};}
+export function project(p,v){const [S,k,H,y0]=v,u=(p[1]-288)/144,d=1+k*(u-.5);return [360+(p[0]-360)*S/d,y0+H*u/d];}
+function inverse(x,y,v){const [S,k,H,y0]=v,Y=y-y0,u=Y*(1-.5*k)/(H-Y*k),d=1+k*(u-.5);return [360+(x-360)*d/S,288+144*u];}
+function poly(points,fill,v,extra=''){let ps=v?points.map(p=>project(p,v)):points;return `<path d="${ps.map((p,i)=>(i?'L':'M')+n(p[0])+' '+n(p[1])).join('')}Z" fill="${fill}" ${extra}/>`;}
+function capsule(x,y,w,h){let p=[[x+h/2,y],[x+w-h/2,y]],r=h/2;for(let i=1;i<=48;i++){let a=-Math.PI/2+i*Math.PI/48;p.push([x+w-r+r*Math.cos(a),y+r+r*Math.sin(a)]);}p.push([x+r,y+h]);for(let i=1;i<=48;i++){let a=Math.PI/2+i*Math.PI/48;p.push([x+r+r*Math.cos(a),y+r+r*Math.sin(a)]);}return p;}
+function circle(cx,cy,r){return Array.from({length:72},(_,i)=>[cx+r*Math.cos(i*Math.PI/36),cy+r*Math.sin(i*Math.PI/36)]);}
+function textPaths(contours,rect,fill,v){const [x,y,w,h]=rect;let d='';for(const c of contours){let points=c.map(p=>[x+p[0]*w,y+p[1]*h]);if(v)points=points.map(p=>project(p,v));d+=points.map((p,i)=>(i?'L':'M')+n(p[0])+' '+n(p[1])).join('')+'Z';}return `<path d="${d}" fill="${fill}"/>`;}
+function sourceRect(x0,y0,x1,y1,v){const a=inverse(x0,y0,v),b=inverse(x1,y1,v);return [a[0],a[1],b[0]-a[0],b[1]-a[1]];}
+const closedRect=sourceRect(145,347,461,380,nativePose(0));
+const backRect=sourceRect(247,224,502,247,nativePose(CONTROLS[79][0]));
+const outer=capsule(90,288,540,144),inner=capsule(102,300,516,120);
+function dotted(){const r=51,straight=406,total=2*straight+2*Math.PI*r;let out='';for(let i=0;i<83;i++){let s=(10.5+i*total/83)%total,x,y;if(s<straight){x=157+s;y=309;}else if((s-=straight)<Math.PI*r){let a=-Math.PI/2+s/r;x=563+r*Math.cos(a);y=360+r*Math.sin(a);}else if((s-=Math.PI*r)<straight){x=563-s;y=411;}else {s-=straight;let a=Math.PI/2+s/r;x=157+r*Math.cos(a);y=360+r*Math.sin(a);}out+=`<circle cx="${n(x)}" cy="${n(y)}" r="3.8" fill="#d4d4d4"/>`;}return out;}
+const dots=dotted();
+export function scene(s){const v=s.pose,front=v[2]>=0,shadow=clamp((v[0]-1)/.1),corners=outer.map(p=>project(p,v)),left=Math.min(...corners.map(p=>p[0])),right=Math.max(...corners.map(p=>p[0])),margin=50*clamp(v[2]/143),shadeStops=Array.from({length:33},(_,i)=>`<stop offset="${i/32}" stop-color="black" stop-opacity="${n((v[6]||0)*Math.exp(-32*(i/32-.5)**2))}"/>`).join(''),pointer='M0 0L31 29Q33 31 29 32L20 32L29 50Q30 53 27 54L23 56Q20 57 18 53L9 36L0 43Z';let lid=poly(front?outer:capsule(90,286,540,148),'#fdfdfd',v)+poly(inner,'#f4f4f4',v);
+ if(front){lid+=textPaths(CLOSED,closedRect,'#262626',v)+poly(circle(558,360,48),'#38d451',v);let pts=[[558,344],[558,376],[545,363],[558,376],[571,363]];let segments=[[pts[0],pts[1]],[pts[2],pts[3]],[pts[3],pts[4]]];for(const [a,b] of segments){const dx=b[0]-a[0],dy=b[1]-a[1],r=3.7,L=Math.hypot(dx,dy),nx=-dy/L*r,ny=dx/L*r;lid+=poly([[a[0]+nx,a[1]+ny],[b[0]+nx,b[1]+ny],[b[0]-nx,b[1]-ny],[a[0]-nx,a[1]-ny]],'#fff',v)+poly(circle(a[0],a[1],r),'#fff',v)+poly(circle(b[0],b[1],r),'#fff',v);}}
+ else lid+=textPaths(BACK,backRect,'#909090',v);
+ return `<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720"><defs><linearGradient id="foldShade" gradientUnits="userSpaceOnUse" x1="0" x2="0" y1="${n(v[7]-4*v[8])}" y2="${n(v[7]+4*v[8])}">${shadeStops}</linearGradient><filter id="horizontalShade" filterUnits="userSpaceOnUse" x="0" y="0" width="720" height="720"><feGaussianBlur stdDeviation="${n(10+shadow*20)} 0"/></filter><filter id="lidShadow" x="-30%" y="-80%" width="160%" height="360%"><feDropShadow dx="0" dy="${n(9+shadow*15)}" stdDeviation="${n(7+shadow*13)}" flood-opacity="${n(.1+shadow*.04)}"/></filter><filter id="groundShadow" x="-40%" y="-200%" width="180%" height="500%"><feGaussianBlur stdDeviation="22"/></filter><filter id="pointerShadow" x="-100%" y="-60%" width="300%" height="260%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity=".27"/></filter><linearGradient id="copyFill" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0ddb41"/><stop offset="1" stop-color="#0de042"/></linearGradient></defs><rect width="720" height="720" fill="#efefef"/>${poly(capsule(90,294,540,132),'#fdfdfd')}${dots}${textPaths(CODE,[146,344,232,32],'#252525')}${poly(capsule(455,324,146,72),'url(#copyFill)')}${textPaths(COPY,[488,350,80,20],'#fff')}${front?`<rect x="${n(left+margin)}" y="${n(v[7]-4*v[8])}" width="${n(right-left-2*margin)}" height="${n(v[8]*8)}" fill="url(#foldShade)" filter="url(#horizontalShade)"/>`:""}<g>${lid}</g>${s.cursor?`<g transform="translate(${n(v[4])} ${n(v[5])}) scale(1 .96)" filter="url(#pointerShadow)"><path d="${pointer}" fill="#050505" stroke="white" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" paint-order="stroke fill"/></g>`:''}</svg>`;
+}

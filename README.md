@@ -59,3 +59,7 @@
 ## Meeting Finder
 
 [![Meeting Finder](examples/meeting-finder/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/meeting-finder)
+
+## Invite code reveal
+
+[![Invite code reveal](examples/invite-code-reveal/preview/invite-code-reveal.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/invite-code-reveal)

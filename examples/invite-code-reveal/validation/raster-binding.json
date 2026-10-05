@@ -1,0 +1,92 @@
+[
+  {
+    "frame": 0,
+    "pts": 0,
+    "identical": true,
+    "rgba_sha256": "7d2540be4309becd53debeca0ca67bca56a61c2c70cf2edd9ae72741b508aadd"
+  },
+  {
+    "frame": 30,
+    "pts": 0.518844,
+    "identical": true,
+    "rgba_sha256": "2819691f689f93d4297aa23afe8665d2a4a90f27a9aba03ecff41ae12b4e4d10"
+  },
+  {
+    "frame": 34,
+    "pts": 0.602411,
+    "identical": true,
+    "rgba_sha256": "028d47a435f9aa70e6d11c071c749b0c8b5dc3e34c01b2a539502201b9a7be1e"
+  },
+  {
+    "frame": 35,
+    "pts": 0.619144,
+    "identical": true,
+    "rgba_sha256": "d28b92a2b2a205a1a012b26336dd08d213ed93028e507b53b88f1f0c513c676f"
+  },
+  {
+    "frame": 40,
+    "pts": 0.702856,
+    "identical": true,
+    "rgba_sha256": "d96e9ec695eccfdb693f32b6f25c121ffb58b9dae783a7dcb8f55ae23c54d964"
+  },
+  {
+    "frame": 79,
+    "pts": 1.3889,
+    "identical": true,
+    "rgba_sha256": "831e76ba55864edcad9bd1dd1db34024a52701b928ba18fc717a59840339c03e"
+  },
+  {
+    "frame": 101,
+    "pts": 1.772233,
+    "identical": true,
+    "rgba_sha256": "21e88270772a5a548c2f7de91e980acf498aba4546d20993d110aebba79f5a3c"
+  },
+  {
+    "frame": 102,
+    "pts": 1.7889,
+    "identical": true,
+    "rgba_sha256": "b6e9920158ce30b95e2e24772f61ae9ed17634a0ab7629634748f99d0c9eb03b"
+  },
+  {
+    "frame": 162,
+    "pts": 2.8389,
+    "identical": true,
+    "rgba_sha256": "14e3e7a51b78b2ff012468049259eef62257e0466d252d4a3e8318e3cfff2df8"
+  },
+  {
+    "frame": 163,
+    "pts": 2.855567,
+    "identical": true,
+    "rgba_sha256": "782db605ba06427cc0d7105a943f97d348dde5d12b026a1ee95f5be3fdeaa47e"
+  },
+  {
+    "frame": 231,
+    "pts": 4.0389,
+    "identical": true,
+    "rgba_sha256": "b1b1e7c4a33b054e97f820a6196dfc6b5b71e7afe11d1e5f38466e59841a41b7"
+  },
+  {
+    "frame": 284,
+    "pts": 4.955567,
+    "identical": true,
+    "rgba_sha256": "3345366b0ff9d7297abc4843bca574f08f5b13df25a59f8cd94a566f7f21e7a2"
+  },
+  {
+    "frame": 301,
+    "pts": 5.2389,
+    "identical": true,
+    "rgba_sha256": "8f9e3431179de897301a8155a29568198d046b5ea4c640a38717d760c2d25e40"
+  },
+  {
+    "frame": 356,
+    "pts": 6.205567,
+    "identical": true,
+    "rgba_sha256": "fb11970f786d5840148d236e967f7fd492905315386824881f2820d866bbbb69"
+  },
+  {
+    "frame": 382,
+    "pts": 6.655567,
+    "identical": true,
+    "rgba_sha256": "4a33788455e63b4a7433e8e7ae5e322dce928be9b50137fa611ff521f7f4cb97"
+  }
+]

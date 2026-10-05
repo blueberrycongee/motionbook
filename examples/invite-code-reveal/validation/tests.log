@@ -1,0 +1,17 @@
+
+> invite-code-reveal-study@1.0.0 test
+> node --test test/*.test.mjs
+
+✔ DOM-stub toggle, clipboard success/failure, stale-copy guard and reduced motion (46.781752ms)
+✔ all 383 native timestamps and three complete observed cycles (1749.611132ms)
+✔ clean loop and neutral settling tail (7.387462ms)
+✔ repeated target reversal preserves the instantaneous pose (0.927111ms)
+✔ copy state, reset, bounded elapsed time and reduced motion (0.188565ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1924.708876
