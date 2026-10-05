@@ -1,26 +1,31 @@
 # Run and validation
 
-Open `index.html` in a browser. Click the pill, close with ×, or press Escape. R replays the loop.
+Serve this directory with `python3 -m http.server 8000`, then open its `index.html` in a browser. Click the pill, close with ×, or press Escape. R replays the loop. The bundled Inter font loads before playback starts. Reduced-motion mode uses immediate state changes.
 
-Tests: `node test.cjs`. Rebuild previews: install `sharp`, then run `node render.cjs`.
+Tests: `node test.cjs`. Rebuild: install the development dependency in package.json and run `node render.cjs`. Offline font matching uses the bundled fonts.conf with fontconfig; the interactive browser loads the WOFF2 directly.
 
-## Tests run
+## Tests
 
-- `node test.cjs`: PASS. Exact loop seam; idle/open/closed phase assertions; 400 SVG samples checked for finite data; SVG content assertions; simulated-DOM click/open/close; interrupted Escape; replay; reduced-motion behavior.
-- `node render.cjs`: PASS. 183 frames at 30 fps; 1080 × 608 MP4 and looping 864 × 486 GIF at 20 fps. Stills include idle, expansion, full card and collapse.
-- The renderer uses the same `scene.js` function as the demo. These are offline SVG rasterizations through sharp/librsvg, not browser recordings.
+- `node test.cjs`: PASS. Timing states, exact scene loop seam, 400 finite SVG samples, simulated-DOM open/close, interrupted Escape, replay and reduced-motion cases.
+- `node render.cjs`: PASS. 366 frames, 60 fps, 1920 × 1080 MP4; 20 fps looping GIF. Both use the same vector scene as the application.
+- Browser/native runtime: not run. Local browser execution and local-site access were denied in this session. The restriction was not retried or bypassed. Simulated DOM tests and offline rendering do not establish a real-browser runtime pass.
 
-## Actual browser runtime
+## Full-frame visual audit
 
-Not run. Local Chromium launch and local-site browser access were denied in this session, so they were not retried or bypassed. The public cloud browser cannot load these unpublished workspace files. Simulated DOM tests do not establish real-browser layout, keyboard behavior, or performance. Open the standalone `index.html` to verify in a real browser.
+All 366 source frames in the selected interval were decoded from the original 1920 × 1080, 60 fps video. They were paired with all 366 decoded replica frames. Every pair was inspected in 23 numbered contact sheets; transition outliers were additionally inspected at full resolution. Per-frame bounds and RGB differences were measured, rather than checking only representative stills.
 
-## Visual self-review
+The audit corrected the original version's over-fast collapse, expansion timing, missing intermediate frames, title trajectory, route progression, counter staging, content scaling and blur. Source preview timestamps were found to lag the original by 50 ms and were not used as native timestamps.
 
-Reference full frame at 3.0 seconds and source contact/timing sheets were compared with replica `preview/open.png`, `preview/expanding.png`, `preview/collapsing.png`, and loop media.
+Numeric metrics are in audit/frame-metrics.json and audit/summary.json. They measure a fixed UI crop; the source's recording cursor remains in the error measurement. RGB error is in 0–255 channel levels, not a fidelity percentage, and cannot replace visual inspection.
 
-- Pill and full-card bounds, center, dark/light contrast, top-left title, close button, airport hierarchy, dashed route arc, status and landing-time placement match the observed composition.
-- Expansion uses a critically damped response fitted to the observed 30 fps width progression, delayed content blur/fade, and reverse collapse. Plane progression is independent of panel growth.
-- Exact first/final scene equality gives a clean loop seam.
-- Remaining differences: system font metrics differ slightly; airplane is a newly drawn silhouette; the original cursor and compression noise are omitted; no claim of pixel identity or real-browser runtime pass.
+The final review checks:
 
-Self-review result: passed for the independent motion-study package, with the differences above explicitly retained. This is not a source-code reconstruction or endorsement by the source creator.
+- Press, expansion, held card, reverse collapse and settling follow the original native-frame geometry.
+- The title follows its measured path; independently delayed detail layers preserve the observed hierarchy and blur.
+- The plane/route reveal and rolling digits no longer jump directly to their final states.
+- First/last scene equality and a returned idle hold give a clean loop.
+- Original interface typography, line artwork and colors were closely compared throughout the motion. Minor font rasterization, vector-icon and video-compression differences remain. The source recording cursor is intentionally absent from the application and clean previews.
+
+The comparison establishes reviewed motion/layout fidelity for this independently implemented interaction, not pixel identity or a browser-runtime pass. Publication and remote verification are separate checks.
+
+Final export reviewed on 2026-10-05T21:04:16Z. The selected crop has median RGB MAE 1.626 and maximum 4.643; detected card bounds differ by at most 4 native pixels (95th percentile 3 pixels). The small counter/blur softness difference at frames 300–305 remains; it does not change the observed state or native-frame collapse timing. The real 400/500/600/700 font files and the single-zero reset at frame 302 were checked after export.

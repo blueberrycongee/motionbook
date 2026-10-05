@@ -1,11 +1,37 @@
 {
-  "kind": "offline render of shared SVG scene; not browser recording",
-  "width": 1080,
-  "height": 608,
-  "fps": 30,
-  "frames": 183,
+  "kind": "Offline vector rendering of the shared SVG scene; not a browser recording",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 366,
   "duration": 6.1,
   "renderer": "sharp/librsvg",
   "gif_fps": 20,
-  "threads": 2
+  "threads": 2,
+  "source_interval": "Original pill-buttons clip [0,6.1) seconds; first complete flight interaction",
+  "source_native_fps": 60,
+  "source_native_width": 1920,
+  "source_native_height": 1080,
+  "logical_viewBox": [
+    1080,
+    608
+  ],
+  "stills": [
+    {
+      "file": "idle.png",
+      "time": 0
+    },
+    {
+      "file": "expanding.png",
+      "time": 2.316667
+    },
+    {
+      "file": "open.png",
+      "time": 3
+    },
+    {
+      "file": "collapsing.png",
+      "time": 5.083333
+    }
+  ]
 }

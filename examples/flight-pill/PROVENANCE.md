@@ -1,21 +1,24 @@
 # Source and rights
 
-- Reference: [pill buttons](https://www.inspora.design/posts/pill-buttons), by [@wherescz](https://x.com/wherescz).
-- Original post: https://x.com/wherescz/status/2100473433897222224
-- Observed footage: https://media.inspora.design/posts/07e91691-4a33-4180-8208-8ababe0f94a0.mp4
-- Inspected on 2026-10-05. 1080 × 608, 30 fps, 40.866667 seconds. This implementation covers the first flight-card interaction only. Delete and payment variants in the source compilation are excluded.
-- Source footage license is unspecified. The source video, screenshots, cursor, poster and other third-party assets are not redistributed.
-- All UI paths, typography layout, flight arc, airplane and animation code in this package were independently authored. System Arial/Helvetica is requested; font software is not bundled. The reference's short interface labels and flight data identify the observed interaction.
-- The implementation and vector artwork are independently authored. No blanket license grant is made on the user’s behalf; see the rights notice in LICENSE. No rights are granted in the source creator’s original footage, design or assets.
+- Reference: [pill buttons](https://www.inspora.design/posts/pill-buttons).
+- Creator: R, currently [@wheresryan22](https://x.com/wheresryan22); the curator identifies the earlier handle @wherescz.
+- Original post: https://x.com/wheresryan22/status/2100473433897222224
+- Original media: https://media.inspora.design/posts/b2909ab7-5353-4fc0-b009-daccd391ced6.mp4
+- Inspected 2026-10-05. Original file: 1920 × 1080, 60 fps, 2448 frames, 40.8 seconds. This reconstruction selects the first complete flight interaction, [0, 6.1) seconds, and renders all 366 corresponding native-cadence frames. Later repetitions and the compilation's deletion/payment examples are outside this case.
+- The source footage has no stated reuse license. No source footage, source frames, poster, or recording cursor is distributed.
+- Interface geometry, airplane, route, icon paths, animation logic and application code are independently authored. Numeric motion tracks were measured from the reference; no reference pixels are used in the demo or previews.
+- Inter 4.001 Regular, Medium, SemiBold and Bold are bundled from the official [Inter project](https://github.com/rsms/inter) and [font distribution](https://rsms.me/inter/). Actual weight-specific font files are loaded rather than allowing medium/semibold to fall back to the regular file. The font is used under its [SIL Open Font License](assets/Inter-LICENSE.txt), preserved unchanged. The source's exact font is not published; Inter was selected and sized against the observed glyphs.
+- No blanket license grant is made on the user’s behalf. The source creator's material is excluded; see LICENSE.
 
-## Observed timing
+## Native-frame reconstruction
 
-The first flight interaction was inspected as a 4 fps contact sheet, full-resolution frames, and 30 fps dark-card boundary measurements. The source cursor was excluded when identifying the shape expansion.
+Early analysis used the curator's 30 fps preview. Comparison with the original revealed a 50 ms preview delay and missing intermediate frames. The final motion follows the original 60 fps PTS, rather than assuming the preview is equivalent.
 
-- 0.000–2.267 s: approximately 155 × 42 px pill centered at (540, 306.5).
-- 2.300 s: 198 px card width. 2.333 s: 262 px. 2.367 s: 342 px. 2.433 s: 410 px. 2.700 s: 454 px.
-- Expanded card: about (312, 150), 456 × 314 px, 27 px corner radius.
-- Details blur/fade in after the expanding dark surface; title moves from the pill to the upper-left without replacement.
-- 2.4–2.7 s: route, airport labels and status settle; plane moves along the first half of the arc.
-- 5.067 s: card begins collapsing; contents fade faster than the surface. By about 5.35 s the pill is restored.
-- This 6.1-second loop returns to the initial still before repeating. Cursor motion and repeated demonstrations in the compilation are omitted.
+- Approximately 2.15–2.22 s: pressed pill briefly contracts.
+- 2.233–2.667 s: the surface expands from its compact centered pill to the full flight card. Measured position/size and title trajectories are interpolated between native-frame observations.
+- Separate metadata, airports, route, lower status, close-button and counter reveals preserve the source's delayed blur staging.
+- Plane and solid route advance together; the landing time uses independently rolling digits.
+- Around 5.0 s: counter/route begin reversing. At 5.05 s the container begins its measured collapse, followed by a short settling tail.
+- The final idle hold returns to the starting geometry for a clean loop.
+
+The complete native-frame audit is summarized in VALIDATION.md and numeric audit files. Source imagery used for comparison is not part of this package.

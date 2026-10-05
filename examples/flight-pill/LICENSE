@@ -1,3 +1,5 @@
 Rights notice
 
-This package contains an independently authored implementation and vector artwork. No blanket license grant is made on the user’s behalf. Source attribution is preserved in PROVENANCE.md. No rights are granted in any source creator’s footage, designs, brands, or assets. Source media is excluded from this package.
+This package contains independently authored implementation code and vector artwork. No blanket license grant is made on the user's behalf. Source attribution is preserved in PROVENANCE.md. No rights are granted in the source creator's footage, designs, brands or assets; reference media is excluded.
+
+The bundled Inter font is third-party font software and retains its own SIL Open Font License in assets/Inter-LICENSE.txt. This notice does not replace or restrict that font license.

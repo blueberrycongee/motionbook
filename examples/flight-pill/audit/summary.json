@@ -1,0 +1,227 @@
+{
+  "frame_count": 366,
+  "mae_median": 1.626244865535147,
+  "mae_max": 4.643198287220026,
+  "bounds_error_max": 4,
+  "bounds_error_p95": 3.0,
+  "worst_frames": [
+    {
+      "frame": 156,
+      "pts": 2.6,
+      "source_box_crop_local": [
+        56,
+        91,
+        805,
+        552
+      ],
+      "replica_box_crop_local": [
+        56,
+        89,
+        807,
+        554
+      ],
+      "bounds_max_abs_error_px": 2,
+      "ui_crop_mae_rgb": 4.643198287220026
+    },
+    {
+      "frame": 159,
+      "pts": 2.65,
+      "source_box_crop_local": [
+        55,
+        89,
+        808,
+        555
+      ],
+      "replica_box_crop_local": [
+        54,
+        88,
+        809,
+        557
+      ],
+      "bounds_max_abs_error_px": 2,
+      "ui_crop_mae_rgb": 4.627796830194528
+    },
+    {
+      "frame": 300,
+      "pts": 5.0,
+      "source_box_crop_local": [
+        54,
+        88,
+        810,
+        557
+      ],
+      "replica_box_crop_local": [
+        54,
+        88,
+        809,
+        557
+      ],
+      "bounds_max_abs_error_px": 1,
+      "ui_crop_mae_rgb": 4.6163760365806406
+    },
+    {
+      "frame": 302,
+      "pts": 5.033333333333333,
+      "source_box_crop_local": [
+        54,
+        88,
+        810,
+        557
+      ],
+      "replica_box_crop_local": [
+        54,
+        88,
+        809,
+        557
+      ],
+      "bounds_max_abs_error_px": 1,
+      "ui_crop_mae_rgb": 4.5979835115864525
+    },
+    {
+      "frame": 292,
+      "pts": 4.866666666666666,
+      "source_box_crop_local": [
+        54,
+        88,
+        810,
+        557
+      ],
+      "replica_box_crop_local": [
+        54,
+        88,
+        809,
+        557
+      ],
+      "bounds_max_abs_error_px": 1,
+      "ui_crop_mae_rgb": 4.549450224753933
+    },
+    {
+      "frame": 291,
+      "pts": 4.85,
+      "source_box_crop_local": [
+        54,
+        88,
+        810,
+        557
+      ],
+      "replica_box_crop_local": [
+        54,
+        88,
+        809,
+        557
+      ],
+      "bounds_max_abs_error_px": 1,
+      "ui_crop_mae_rgb": 4.532760792063861
+    },
+    {
+      "frame": 289,
+      "pts": 4.816666666666666,
+      "source_box_crop_local": [
+        54,
+        88,
+        810,
+        557
+      ],
+      "replica_box_crop_local": [
+        54,
+        88,
+        809,
+        557
+      ],
+      "bounds_max_abs_error_px": 1,
+      "ui_crop_mae_rgb": 4.532075873827792
+    },
+    {
+      "frame": 287,
+      "pts": 4.783333333333333,
+      "source_box_crop_local": [
+        54,
+        88,
+        810,
+        557
+      ],
+      "replica_box_crop_local": [
+        54,
+        88,
+        809,
+        557
+      ],
+      "bounds_max_abs_error_px": 1,
+      "ui_crop_mae_rgb": 4.530326765093389
+    },
+    {
+      "frame": 290,
+      "pts": 4.833333333333333,
+      "source_box_crop_local": [
+        54,
+        88,
+        810,
+        557
+      ],
+      "replica_box_crop_local": [
+        54,
+        88,
+        809,
+        557
+      ],
+      "bounds_max_abs_error_px": 1,
+      "ui_crop_mae_rgb": 4.529778442997753
+    },
+    {
+      "frame": 288,
+      "pts": 4.8,
+      "source_box_crop_local": [
+        54,
+        88,
+        810,
+        557
+      ],
+      "replica_box_crop_local": [
+        54,
+        88,
+        809,
+        557
+      ],
+      "bounds_max_abs_error_px": 1,
+      "ui_crop_mae_rgb": 4.528892505618848
+    }
+  ],
+  "metric_units": "RGB mean absolute error in 0\u2013255 levels, not a fidelity percentage",
+  "crop_native_pixels": [
+    500,
+    178,
+    1420,
+    926
+  ],
+  "source_recording_cursor_included": true,
+  "reviewed_at_utc": "2026-10-05T21:04:16Z",
+  "visual_coverage": {
+    "source_file_frames": 2448,
+    "selected_source_frames": 366,
+    "selected_interval_seconds": [
+      0,
+      6.1
+    ],
+    "replica_frames": 366,
+    "contact_sheets_reviewed": 23,
+    "full_resolution_focus_frames": [
+      139,
+      142,
+      144,
+      150,
+      156,
+      180,
+      300,
+      301,
+      302,
+      303,
+      305,
+      306
+    ]
+  },
+  "source_sha256": "2a7d7b11cf6f7d404ed6701bc6ed7690ab535718d36c3d180cb4d472d04f1e81",
+  "replica_mp4_sha256": "83634a59056ac85e98dc449ff68e6cc5d7a0adfd9d81588fcf70bbe190ab6f46",
+  "scene_js_sha256": "6ccc52373b85e45b8a31da12951d413b5ab49859b03fd4c99a68afc5941ab254",
+  "coverage_note": "All 366 paired native frames inspected after final font/counter correction. Source imagery is local analysis only and excluded from this package.",
+  "runtime": "Offline SVG render and simulated DOM; no actual browser runtime pass."
+}
