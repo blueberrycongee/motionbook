@@ -1,0 +1,1 @@
+{"method":"Offline rendering of the shared browser drawScene function using @napi-rs/canvas; not a browser recording.","logical_pixels":[128,128],"output_pixels":[896,896],"duration_seconds":2.1,"frames":42,"fps":20,"browser_runtime_tested":false,"reference_media_in_deliverable":false}
