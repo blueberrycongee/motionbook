@@ -3,7 +3,7 @@
   "source_package": "ChatGPT 26.930.51102 build 13100",
   "host": "Debian Linux",
   "unit_tests": {
-    "passed": 91,
+    "passed": 95,
     "failed": 0,
     "scope": "Node state/math plus integrated PresentationStack parity against782 independently verified frames and a DOM-double constructor smoke test; not actual browser UI"
   },
@@ -16,15 +16,6 @@
   "macos_build": "not-run; no AppKit SDK or macOS runtime",
   "native_ui_qa": "not-run",
   "pixel_parity": "not-verified",
-  "gif": {
-    "type": "offline deterministic code render; not app recording",
-    "duration_seconds": 15,
-    "size_pixels": [
-      1152,
-      720
-    ],
-    "frames_per_second": 12
-  },
   "limitations": [
     "Native target is Swift/AppKit/Core Animation, not exact original source or the entire Electron bridge",
     "Private CAFilter/CABackdropLayer fog is an explicit approximation",
@@ -46,14 +37,14 @@
     "type": "offline deterministic code render; not app recording",
     "duration_seconds": 21,
     "size_pixels": [
-      1152,
-      720
+      1280,
+      660
     ],
     "frames_per_second": 15
   },
   "native_source": {
     "file": "native/PiPReplica.swift",
-    "sha256": "3fcb0d21bb49a939a5d5af01fa087c94bc8a63bfed1f84f7d4b8bd4457907ce1",
+    "sha256": "f0cfb3fc302261eacc8d02fbfd233e3e849f76f40737123db2ac5717169472c6",
     "validation": "static review only; not compiled or run",
     "build_script_sha256": "34588aafbf13853c9d541035a96fed5fe127d719748f4f16adf1d2a683df33e5",
     "minimum_macos": "13.0",
@@ -121,6 +112,13 @@
     "duration_seconds": 16,
     "gif": "artifacts/snapping/pip-snapping-physics.gif",
     "mp4": "artifacts/snapping/pip-snapping-physics.mp4",
-    "numerical_verification": "independent Python comparison; then integrated stack API regression comparison"
-  }
+    "numerical_verification": "independent Python comparison; then integrated stack API regression comparison",
+    "size_pixels": [
+      1280,
+      560
+    ],
+    "frames_per_second": 30
+  },
+  "presentation_validation": "docs/validation.json",
+  "presentation_edition": "clean effect-only previews"
 }
