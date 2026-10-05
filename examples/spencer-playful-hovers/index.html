@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Playful project hovers</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<main class="scene">
+  <div class="landscape" aria-hidden="true"></div>
+  <section class="sheet" aria-labelledby="work-heading">
+    <div class="work">
+      <header><h1 id="work-heading">Work</h1><p class="disciplines">[BRAND],[PRODUCT],[ENGINEERING]</p></header>
+      <div class="projects" id="projects">
+        <article class="project" data-project="0">
+          <button class="summary" type="button" aria-expanded="false" aria-controls="preview-0"><img class="icon" src="assets/icon-cronicle.svg" alt=""><span class="copy"><span class="name">Cronicle <span class="tags">[B,P,E]</span></span><span class="description">A private personal existential life calendar, reconnecting you to what matters. You'll be glad you kept this.</span></span></button>
+          <div class="fan" id="preview-0" aria-hidden="true"><div class="tiles"><div class="card c0" style="--x:38px;--w:107px;--h:115px;--y:5px;--angle:-13deg;--tilt:-7deg"><img src="assets/life.svg" alt=""></div><div class="card c1" style="--x:126px;--w:161px;--h:110px;--y:9px;--angle:11deg;--tilt:7deg"><img src="assets/lifespan.svg" alt=""></div><div class="card c2" style="--x:279px;--w:107px;--h:110px;--y:6px;--angle:10deg;--tilt:7deg"><img src="assets/painting.svg" alt=""></div><div class="card c3" style="--x:366px;--w:107px;--h:64px;--y:24px;--angle:-12deg;--tilt:-7deg"><img src="assets/plus.svg" alt=""></div></div></div>
+        </article>
+        <article class="project" data-project="1">
+          <button class="summary" type="button" aria-expanded="false" aria-controls="preview-1"><img class="icon" src="assets/icon-memo.svg" alt=""><span class="copy"><span class="name">Memo <span class="tags">[B,P,E]</span></span><span class="description">Connecting your voice with memory. A boost to echoic memory and strong personal connection.</span></span></button>
+          <div class="fan" id="preview-1" aria-hidden="true"><div class="tiles"><div class="card" style="--x:40px;--w:107px;--h:115px;--y:23px;--angle:-13deg;--tilt:-7deg"><img src="assets/dice.svg" alt=""></div><div class="card" style="--x:155px;--w:107px;--h:110px;--y:12px;--angle:-14deg;--tilt:-7deg"><img src="assets/room.svg" alt=""></div><div class="card" style="--x:276px;--w:107px;--h:123px;--y:-4px;--angle:2deg;--tilt:7deg"><img src="assets/red-object.svg" alt=""></div><div class="card" style="--x:372px;--w:107px;--h:110px;--y:6px;--angle:13deg;--tilt:7deg"><img src="assets/forest.svg" alt=""></div></div></div>
+        </article>
+        <article class="project" data-project="2">
+          <button class="summary" type="button" aria-expanded="false" aria-controls="preview-2"><img class="icon" src="assets/icon-origami.svg" alt=""><span class="copy"><span class="name">Origami <span class="tags">[B,P,E]</span></span><span class="description">A return of the personal computer, more fun, more you. There's a hardware sidekick, too.</span></span></button>
+          <div class="fan" id="preview-2" aria-hidden="true"><div class="tiles"><div class="card" style="--x:30px;--w:153px;--h:98px;--y:36px;--angle:-13deg;--tilt:-7deg"><img src="assets/origami.svg" alt=""></div><div class="card" style="--x:185px;--w:146px;--h:122px;--y:2px;--angle:3deg;--tilt:-7deg"><img src="assets/todo.svg" alt=""></div><div class="card" style="--x:346px;--w:153px;--h:241px;--y:24px;--angle:8deg;--tilt:7deg"><img src="assets/window.svg" alt=""></div><div class="card" style="--x:226px;--w:249px;--h:91px;--y:49px;--angle:3deg;--tilt:7deg"><img src="assets/cards.svg" alt=""></div><div class="card" style="--x:270px;--w:170px;--h:29px;--y:16px;--angle:2deg;--tilt:7deg"><img src="assets/personal.svg" alt=""></div></div></div>
+        </article>
+        <article class="project" data-project="3">
+          <button class="summary" type="button" aria-expanded="false" aria-controls="preview-3"><img class="icon" src="assets/icon-apple.svg" alt=""><span class="copy"><span class="name">Apple <span class="tags">[E]</span></span><span class="description">Solving the bottleneck of researchers spending dozens of hours each week manually collecting and processing personnel data.</span></span></button>
+          <div class="fan" id="preview-3" aria-hidden="true"><div class="tiles"><div class="card" style="--x:40px;--w:107px;--h:123px;--y:26px;--angle:-13deg;--tilt:-7deg"><img src="assets/mac-classic.svg" alt=""></div><div class="card" style="--x:145px;--w:79px;--h:123px;--y:14px;--angle:3deg;--tilt:-7deg"><img src="assets/ipod.svg" alt=""></div><div class="card" style="--x:211px;--w:125px;--h:143px;--y:-10px;--angle:-9deg;--tilt:-7deg"><img src="assets/imac.svg" alt=""></div><div class="card" style="--x:335px;--w:153px;--h:108px;--y:12px;--angle:7deg;--tilt:7deg"><img src="assets/laptop.svg" alt=""></div></div></div>
+        </article>
+      </div>
+      <p class="hint">Hover to explore. Tap or press Enter to hold a preview.</p>
+    </div>
+  </section>
+  <footer class="controls"><span class="caption">A small interaction study</span><div><button id="play" type="button" aria-pressed="false"><span aria-hidden="true">▷</span> Play sequence</button><button id="reset" type="button">Reset</button></div></footer>
+  <p class="sr-only" aria-live="polite" id="announcement"></p>
+</main>
+<script src="motion-config.js"></script><script src="motion.js"></script><script src="app.js"></script>
+</body></html>

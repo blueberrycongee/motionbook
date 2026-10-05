@@ -1,0 +1,22 @@
+{
+  "syntax_checks": {
+    "app.js": "passed",
+    "motion.js": "passed"
+  },
+  "motion_model_tests": "v1 state tests and v2 measured-target tests passed",
+  "asset_references": "passed",
+  "svg_xml": "passed",
+  "reference_visual_inspection": "all four live author-site hover states",
+  "original_x_video": "recovered from official public syndication; 782 original frames decoded at 60 fps",
+  "browser_runtime_tests": "not run: existing task-environment browser restrictions; offline render is not browser verification",
+  "offline_previews": "rendered and visually inspected; not browser captures",
+  "external_dependencies_at_runtime": 0,
+  "version": 2,
+  "frame_comparison": "actual source video left, offline replica model right; synchronized 60 fps MP4",
+  "row_motion_benchmark": {
+    "transition_frames": 181,
+    "v1_rms_source_pixels": 13.398,
+    "v2_rms_source_pixels": 1.825
+  },
+  "distribution": "Complete core source and independent SVG artwork; no original media, comparative footage, or preview binaries."
+}

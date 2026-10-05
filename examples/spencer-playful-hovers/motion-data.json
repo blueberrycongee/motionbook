@@ -1,0 +1,338 @@
+{
+  "version": 2,
+  "duration_ms": 500,
+  "angular_frequency": 18.64,
+  "stagger_delay_ms": 0,
+  "bounce": 0,
+  "row_extra_px": 87,
+  "collapsed_fan_height_px": 1,
+  "rows": [
+    {
+      "name": "Cronicle",
+      "cards": [
+        {
+          "hidden": {
+            "x": 46.0,
+            "y": 248.0,
+            "width": 107.0,
+            "height": 100.0,
+            "angle": -13.0,
+            "z": 1
+          },
+          "shown": {
+            "x": 46.0,
+            "y": 11.0,
+            "width": 107.0,
+            "height": 100.0,
+            "angle": -13.0,
+            "z": 1
+          }
+        },
+        {
+          "hidden": {
+            "x": 130.0,
+            "y": 112.0,
+            "width": 161.375,
+            "height": 110.0,
+            "angle": 11.0,
+            "z": 3
+          },
+          "shown": {
+            "x": 130.0,
+            "y": 12.0,
+            "width": 161.375,
+            "height": 110.0,
+            "angle": 11.0,
+            "z": 3
+          }
+        },
+        {
+          "hidden": {
+            "x": 279.0,
+            "y": 128.0,
+            "width": 107.0,
+            "height": 110.0,
+            "angle": 10.0,
+            "z": 2
+          },
+          "shown": {
+            "x": 279.0,
+            "y": 11.0,
+            "width": 107.0,
+            "height": 110.0,
+            "angle": 10.0,
+            "z": 2
+          }
+        },
+        {
+          "hidden": {
+            "x": 367.0,
+            "y": 397.812,
+            "width": 107.0,
+            "height": 64.1875,
+            "angle": -40.0,
+            "z": 1
+          },
+          "shown": {
+            "x": 367.0,
+            "y": 32.8125,
+            "width": 107.0,
+            "height": 64.1875,
+            "angle": -12.0,
+            "z": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Memo",
+      "cards": [
+        {
+          "hidden": {
+            "x": 46.0,
+            "y": 248.0,
+            "width": 107.0,
+            "height": 100.0,
+            "angle": -13.0,
+            "z": 1
+          },
+          "shown": {
+            "x": 46.0,
+            "y": 11.0,
+            "width": 107.0,
+            "height": 100.0,
+            "angle": -13.0,
+            "z": 1
+          }
+        },
+        {
+          "hidden": {
+            "x": 161.0,
+            "y": 112.0,
+            "width": 107.0,
+            "height": 110.0,
+            "angle": -14.0,
+            "z": 1
+          },
+          "shown": {
+            "x": 161.0,
+            "y": 11.0,
+            "width": 107.0,
+            "height": 110.0,
+            "angle": -14.0,
+            "z": 1
+          }
+        },
+        {
+          "hidden": {
+            "x": 268.0,
+            "y": 115.0,
+            "width": 107.0,
+            "height": 123.0,
+            "angle": 2.0,
+            "z": 1
+          },
+          "shown": {
+            "x": 268.0,
+            "y": -25.0,
+            "width": 107.0,
+            "height": 123.0,
+            "angle": 2.0,
+            "z": 1
+          }
+        },
+        {
+          "hidden": {
+            "x": 367.0,
+            "y": 352.0,
+            "width": 107.0,
+            "height": 110.0,
+            "angle": 13.0,
+            "z": 1
+          },
+          "shown": {
+            "x": 375.0,
+            "y": 3.0,
+            "width": 107.0,
+            "height": 110.0,
+            "angle": 13.0,
+            "z": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Origami",
+      "cards": [
+        {
+          "hidden": {
+            "x": 29.0,
+            "y": 250.0,
+            "width": 153.0,
+            "height": 98.0,
+            "angle": -13.0,
+            "z": 4
+          },
+          "shown": {
+            "x": 29.0,
+            "y": 16.0,
+            "width": 153.0,
+            "height": 98.0,
+            "angle": -13.0,
+            "z": 4
+          }
+        },
+        {
+          "hidden": {
+            "x": 178.0,
+            "y": 156.0,
+            "width": 145.844,
+            "height": 122.0,
+            "angle": 3.0,
+            "z": 3
+          },
+          "shown": {
+            "x": 178.0,
+            "y": -25.0,
+            "width": 145.844,
+            "height": 122.0,
+            "angle": 3.0,
+            "z": 3
+          }
+        },
+        {
+          "hidden": {
+            "x": 313.0,
+            "y": 208.047,
+            "width": 161.0,
+            "height": 253.953,
+            "angle": 7.0,
+            "z": 1
+          },
+          "shown": {
+            "x": 340.0,
+            "y": 0.671875,
+            "width": 153.0,
+            "height": 241.328,
+            "angle": 8.0,
+            "z": 1
+          }
+        },
+        {
+          "hidden": {
+            "x": 212.0,
+            "y": 166.0,
+            "width": 248.797,
+            "height": 91.0,
+            "angle": 4.0,
+            "z": 3
+          },
+          "shown": {
+            "x": 212.0,
+            "y": 28.0,
+            "width": 248.797,
+            "height": 91.0,
+            "angle": 3.0,
+            "z": 3
+          }
+        },
+        {
+          "hidden": {
+            "x": 267.0,
+            "y": 191.0,
+            "width": 170.281,
+            "height": 29.0,
+            "angle": 13.0,
+            "z": 3
+          },
+          "shown": {
+            "x": 267.0,
+            "y": -10.0,
+            "width": 170.281,
+            "height": 29.0,
+            "angle": 2.0,
+            "z": 3
+          }
+        }
+      ]
+    },
+    {
+      "name": "Apple",
+      "cards": [
+        {
+          "hidden": {
+            "x": 36.0,
+            "y": 218.0,
+            "width": 107.0,
+            "height": 130.0,
+            "angle": -13.0,
+            "z": 4
+          },
+          "shown": {
+            "x": 36.0,
+            "y": 14.0,
+            "width": 140.0,
+            "height": 161.0,
+            "angle": -13.0,
+            "z": 4
+          }
+        },
+        {
+          "hidden": {
+            "x": 151.0,
+            "y": 168.0,
+            "width": 67.0,
+            "height": 110.0,
+            "angle": 3.0,
+            "z": 3
+          },
+          "shown": {
+            "x": 151.0,
+            "y": 16.0,
+            "width": 67.0,
+            "height": 110.0,
+            "angle": 3.0,
+            "z": 3
+          }
+        },
+        {
+          "hidden": {
+            "x": 209.0,
+            "y": 116.0,
+            "width": 119.0,
+            "height": 122.0,
+            "angle": -9.0,
+            "z": 3
+          },
+          "shown": {
+            "x": 213.0,
+            "y": -18.0,
+            "width": 119.0,
+            "height": 122.0,
+            "angle": -9.0,
+            "z": 3
+          }
+        },
+        {
+          "hidden": {
+            "x": 321.0,
+            "y": 353.422,
+            "width": 153.0,
+            "height": 108.578,
+            "angle": 7.0,
+            "z": 1
+          },
+          "shown": {
+            "x": 331.0,
+            "y": 10.4219,
+            "width": 153.0,
+            "height": 108.578,
+            "angle": 7.0,
+            "z": 1
+          }
+        }
+      ]
+    }
+  ],
+  "source": "Measured live states and original 60 fps clip; independent implementation."
+}
