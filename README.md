@@ -26,7 +26,7 @@
 
 ## Tiny animated SVG
 
-[![Tiny animated SVG](examples/tiny-animated-svg/pro.svg)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/tiny-animated-svg)
+[![Tiny animated SVG](examples/tiny-animated-svg/preview/pro.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/tiny-animated-svg)
 
 ## Playful project hovers
 

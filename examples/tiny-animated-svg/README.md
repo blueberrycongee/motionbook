@@ -1,5 +1,5 @@
 # Tiny animated SVG
 
-[![Tiny animated SVG](pro.svg)](pro.svg)
+[![PRO](preview/pro.gif)](preview/pro.mp4)
 
-[Open demo](index.html) · [Reference](https://www.inspora.design/posts/tiny-animated-svg) · [Technical details](TECHNICAL.md)
+[Demo](index.html) · [SVG](pro.svg) · [Video](preview/pro.mp4) · [Reference](https://www.inspora.design/posts/tiny-animated-svg) · [Technical details](TECHNICAL.md)
