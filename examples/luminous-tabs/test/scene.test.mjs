@@ -1,0 +1,5 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {scene,demoState,transition,DURATION} from '../src/scene.mjs';
+test('observed phases and neutral loop boundary',()=>{assert.deepEqual(demoState(0),{values:[0,0]});assert.deepEqual(demoState(1.5),{values:[1,0]});assert.deepEqual(demoState(4.2),{values:[0,1]});assert.deepEqual(demoState(5.8),{values:[0,0]});assert.deepEqual(demoState(0),demoState(DURATION));});
+test('measured centered underline at transition timestamps',()=>{assert(Math.abs(demoState(.6).values[0]-119/230)<1e-10);assert(Math.abs(demoState(3.5).values[1]-229/343)<1e-10);});
+test('rapid target reversal stays bounded and converges',()=>{let v=[0,0];for(let i=0;i<50;i++)v=transition(v,i%2?[1,0]:[0,1],.016);assert(v.every(x=>x>=0&&x<=1));for(let i=0;i<150;i++)v=transition(v,[0,1],.016);assert.deepEqual(v,[0,1]);assert.deepEqual(transition(v,[1,0],-1),v);});
+test('all rendered frames finite and dependency-free',()=>{for(let i=0;i<180;i++){let s=scene(demoState(i/30));assert(!/NaN|Infinity|<image/.test(s));assert(s.includes('viewBox="0 0 960 864"'));}});

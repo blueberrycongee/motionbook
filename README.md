@@ -35,3 +35,7 @@
 ## Progress squeeze
 
 [![Progress squeeze](examples/progress-squeeze/preview/progress-squeeze.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/progress-squeeze)
+
+## Luminous tabs
+
+[![Luminous tabs](examples/luminous-tabs/preview/luminous-tabs.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/luminous-tabs)
