@@ -20,10 +20,10 @@
   });}
   function tick(now){var t=Math.min(1,(now-started)/duration);values=from.map(function(value,i){return motion.interpolate(value,target[i],t);});paint();if(t<1)frame=requestAnimationFrame(tick);else frame=0;}
   function sync(){cancelAnimationFrame(frame);target=model.targets();from=values.slice();if(media.matches){values=target.slice();paint();frame=0;return;}started=performance.now();frame=requestAnimationFrame(tick);}
-  function stopAuto(){auto=false;clearTimeout(autoTimer);play.setAttribute('aria-pressed','false');play.innerHTML='<span aria-hidden="true">▷</span> Play sequence';}
+  function stopAuto(){auto=false;clearTimeout(autoTimer);}
   function reset(){stopAuto();model.reset();sync();announcement.textContent='All previews closed.';}
   function next(){if(!auto)return;model.activate(step===4?-1:step);sync();step=(step+1)%5;autoTimer=setTimeout(next,step===0?1000:1850);}
-  function startAuto(){stopAuto();if(media.matches){announcement.textContent='Automatic motion is disabled by your reduced-motion preference. Choose a project to show its preview.';return;}auto=true;step=0;play.setAttribute('aria-pressed','true');play.innerHTML='<span aria-hidden="true">Ⅱ</span> Pause sequence';model.reset();next();}
+  function startAuto(){stopAuto();if(media.matches){announcement.textContent='Automatic motion is disabled by your reduced-motion preference. Choose a project to show its preview.';return;}auto=true;step=0;model.reset();next();}
   rows.forEach(function(row,i){
     row.addEventListener('pointerenter',function(event){if(event.pointerType!=='mouse')return;stopAuto();model.hover(i);sync();});
     row.addEventListener('pointerleave',function(event){if(event.pointerType!=='mouse')return;model.leave(i);sync();});
@@ -32,7 +32,6 @@
     buttons[i].addEventListener('click',function(){stopAuto();model.toggle(i);sync();announcement.textContent=model.pinned===i?buttons[i].querySelector('.name').textContent+' preview held.':'Preview closed.';});
     buttons[i].addEventListener('keydown',function(event){if(event.key==='ArrowDown'||event.key==='ArrowUp'){event.preventDefault();buttons[(i+(event.key==='ArrowDown'?1:-1)+rows.length)%rows.length].focus();}});
   });
-  play.addEventListener('click',function(){if(auto)stopAuto();else startAuto();});document.getElementById('reset').addEventListener('click',reset);
   document.addEventListener('keydown',function(event){if(event.key==='Escape')reset();});
   document.addEventListener('visibilitychange',function(){if(document.hidden)stopAuto();});
   media.addEventListener('change',function(){if(media.matches)stopAuto();sync();});

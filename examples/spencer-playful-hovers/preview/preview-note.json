@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "preview_kind": "Offline render of the shared measured motion targets; not browser or native capture",
+  "fps": 24,
+  "frames": 250,
+  "duration_seconds": 10.416666666666666,
+  "comparison_media_included": false,
+  "source": "https://x.com/spenceramarsh/status/2106075554264797619"
+}

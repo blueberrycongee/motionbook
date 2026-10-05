@@ -12,11 +12,21 @@
   "offline_previews": "rendered and visually inspected; not browser captures",
   "external_dependencies_at_runtime": 0,
   "version": 2,
-  "frame_comparison": "actual source video left, offline replica model right; synchronized 60 fps MP4",
   "row_motion_benchmark": {
     "transition_frames": 181,
     "v1_rms_source_pixels": 13.398,
     "v2_rms_source_pixels": 1.825
   },
-  "distribution": "Complete core source and independent SVG artwork; no original media, comparative footage, or preview binaries."
+  "presentation_cleanup": {
+    "visible_editorial_overlays": false,
+    "burned_in_watermark": false,
+    "reference_comparisons_bundled": false,
+    "behavior_models_changed": false
+  },
+  "offline_preview": {
+    "fps": 24,
+    "frames": 250,
+    "mp4_seconds": 10.416666666666666,
+    "gif_seconds": 10.42
+  }
 }

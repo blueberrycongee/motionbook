@@ -28,4 +28,6 @@
 
 [![Tiny animated SVG](examples/tiny-animated-svg/pro.svg)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/tiny-animated-svg)
 
-[Playful project hovers](https://github.com/blueberrycongee/reference-animations/tree/main/examples/spencer-playful-hovers)
+## Playful project hovers
+
+[![Playful project hovers](examples/spencer-playful-hovers/preview/hover-sequence.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/spencer-playful-hovers)
