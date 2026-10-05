@@ -1,0 +1,531 @@
+{
+  "scope": "Static analysis of the official macOS arm64 ChatGPT package. No app execution, sign-in, user sessions, or dynamic behavior verification.",
+  "version": "26.930.51102",
+  "build": "13100",
+  "bundle_id": "com.openai.codex",
+  "package": {
+    "url": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT.dmg",
+    "bytes": 751023238,
+    "sha256": "413f1a29f1968672f866110f99c6c94b3fc4615274aef3f19677b99c960c11ff",
+    "asar_sha256": "a159b8f5b78ed1ba89fc70d5c8448d822a46c4fc2a4a9f18ec348f3cc2f6b8c9",
+    "asar_json_header_sha256": "8141a629ce6ef3a72fe2b5c602104946fe9de2393d3b5b464940d16523571b7f",
+    "asar_header_matches_info_plist": true,
+    "main_file": ".vite/build/main-C7cfj__D.js",
+    "main_file_sha256": "d8d4f45e673efc81a9e3db98fa0fa57908094bf2fd13f73f6b149cf2a3104c2e",
+    "main_asar_absolute_byte_offset": 9087725,
+    "native_file": "Resources/native/sky.node",
+    "native_sha256": "79e17815bc96261804294dce1abacc68b3e1950349943af2fb7629e30d56273f"
+  },
+  "implementation": {
+    "pip_ui": "Objective-C/AppKit native classes PIPStackController, PIPStackWindow, PIPStackContentView, PIPStackItem, PIPStackItemCompletionEffect in sky.node; Core Animation layers and native filters.",
+    "bridge": "Electron main JavaScript invokes sky.node. AppKit host can register a native window handle, anchor rectangles, thread/pet placement and interaction passthrough rectangles.",
+    "computer_content": "Remote-hosted native presentation via CAContext/CALayerHost and an XPC content producer; native service is SkyComputerUseService. Encoded-video delivery to renderer is a separate opt-in subscription path.",
+    "browser_content": "MCP tool-completion screenshot metadata supplies data:image URL, decoded to NSImage/CGImage and displayed as CALayer image. This is not a live WebContentsView moved into PiP.",
+    "no_dedicated_react_css_pip_found": true,
+    "runtime_limit": "Linux cannot execute or visually validate the macOS AppKit/QuartzCore implementation. A Linux browser preview can reproduce observed appearance and recovered timing, but cannot establish native 1:1 fidelity."
+  },
+  "panel": {
+    "source": "sky.node RemoteHostedPIPContentCreateStackPanel at text/file offset 0x31714",
+    "class": "NSPanel",
+    "style_mask": 128,
+    "style_interpretation": "Nonactivating panel",
+    "backing": 2,
+    "defer": false,
+    "background": "clear",
+    "opaque": false,
+    "system_shadow": false,
+    "level": 0,
+    "accepts_mouse_moved": true,
+    "collection_behavior": 264,
+    "collection_interpretation": "Transient (8) + FullScreenAuxiliary (256)",
+    "hides_on_deactivate": false,
+    "movable_by_window_background": false,
+    "released_when_closed": false,
+    "panel_count": 2,
+    "note": "PIPStackWindow creates two panels and two PIPStackContentViews, then follows owner window. Normal-level construction does not imply a conventional always-on-top Electron window."
+  },
+  "image_geometry": {
+    "source": "PIPStackItem image constructor 0x2d904, displaySizeForSourceSize 0x2e01c",
+    "image_constructor_initial_max_display_size": 400,
+    "host_default_max_display_size": 200,
+    "setter_clamp": [
+      1,
+      400
+    ],
+    "nonfinite_fallback": 200,
+    "interactive_resize_clamp": [
+      100,
+      400
+    ],
+    "resize_change_threshold": 0.5,
+    "aspect_formula": "scale=min(maxDisplaySize/sourceWidth,maxDisplaySize/sourceHeight); output=(max(1,sourceWidth*scale),max(1,sourceHeight*scale)); invalid dimensions produce square maxDisplaySize",
+    "contents_gravity": "kCAGravityResizeAspectFill",
+    "image_corner_radius": 8,
+    "image_masks_to_bounds": true,
+    "shadow": {
+      "color": "black",
+      "opacity": 0.16,
+      "radius": 10,
+      "native_y_up_offset": [
+        0,
+        -6
+      ]
+    },
+    "note": "Image corner radius belongs to Browser Use image path. Remote-hosted computer window shape can differ and must not be inferred from this value."
+  },
+  "appearance": {
+    "source": "PIPStackItem appearanceAnimationFromScale... 0x2f050 and visibility/exit callers 0x2ea14/0x2edcc",
+    "scale_endpoints": [
+      0.72,
+      1
+    ],
+    "opacity_endpoints": [
+      0,
+      1
+    ],
+    "blur_endpoints": [
+      18,
+      0
+    ],
+    "spring": {
+      "mass": 1,
+      "stiffness": 185,
+      "damping": 18,
+      "initial_velocity": 0
+    },
+    "enter": {
+      "opacity_seconds": 0.2,
+      "blur_seconds": 0.28,
+      "timing": "kCAMediaTimingFunctionEaseOut"
+    },
+    "exit": {
+      "opacity_seconds": 0.22,
+      "blur_seconds": 0.24,
+      "timing": "kCAMediaTimingFunctionEaseIn"
+    },
+    "group_duration": "max(native spring settlingDuration, blurDuration)",
+    "note": "Use the native spring, not an arbitrarily chosen CSS duration.",
+    "entry_verified_source": "PIPStackItem animateIn0x2e7cc explicitly uses0.72\u21921,0\u21921opacity,18\u21920blur."
+  },
+  "stack": {
+    "visible_item_limit": 5,
+    "limit_source": "PIPStackController visibleStackItemLimit 0x1f328, constant NSNumber integer=5 at 0xa4848",
+    "rest_offset_step": [
+      28,
+      22
+    ],
+    "rest_offset_source": "PIPStackController updateRestOffsetsForAlignment 0x22c68",
+    "alignment_note": "Six anchor alignment values influence centering, signs, and fixed edge. Do not reduce to generic free-floating absolute position.",
+    "motion_default": {
+      "stiffness": 260,
+      "damping": 32
+    },
+    "lead_idle": {
+      "stiffness": 320,
+      "damping": 42
+    },
+    "lead_dragging": {
+      "stiffness": 900,
+      "damping": 55
+    },
+    "nonlead_idle_base": {
+      "stiffness": 150,
+      "damping": 30
+    },
+    "nonlead_dragging_base": {
+      "stiffness": 260,
+      "damping": 32
+    },
+    "nonlead_distance_formula": "k=baseK/(1+0.18*d); c=baseC/(1+0.08*d); d=abs(itemIndex-leadIndex), or d*=1+0.45*d for programmatic moves",
+    "motion_source": "PIPStackController configureMotionSpringsWithLeadItem... 0x24d54"
+  },
+  "interaction": {
+    "drag_threshold_points": 4,
+    "drag_dt_floor_seconds": 0.004166666666666667,
+    "drag_velocity_formula": "0.72 * previousVelocity + 0.28 * ((pointer-previousPointer)/max(dt,1/240))",
+    "drag_source": "PIPStackDragInteraction updateWithPointerScreenPoint 0x2bfb8",
+    "click": "On endDrag, if leader is already first item and hasMoved is false, invoke presentation click handler. Then promote selected item and move stack to nearest anchor using drag velocity.",
+    "click_source": "PIPStackController endDrag 0x1ef48",
+    "resize": "Change maxDisplaySize using vertical pointer delta, sign determined by alignment, clamp 100..400, snap to backing scale. Ignore changes smaller than0.5pt.",
+    "resize_source": "PIPStackResizeInteraction 0x2c164, controller resizeToScreenPoint 0x1e980, applyMaxDisplaySize 0x236c0",
+    "controls": [
+      "Return Picture-in-Picture to Codex",
+      "Send Picture-in-Picture to Pet",
+      "Hide for this chat",
+      "Hide for all active chats"
+    ],
+    "browser_focus": "Native click focuses actual IAB or matching Chrome extension tab. No direct page input in the image PiP is established by this path.",
+    "computer_focus": "Native producer focus/interaction action, separate from browser tab focus. Exact takeover protocol is not established merely from these UI handlers.",
+    "fling": {
+      "source": "PIPStackController nearestTargetAnchorForCurrentAnchor:draggingVelocity:0x20184",
+      "velocity_scale": 0.55,
+      "projection_time_seconds": "clamp(0.18+length(0.55*v)/5000,0.18,0.45)",
+      "projected_point": "currentAnchor+0.55*v*T",
+      "score": "distance(candidate,projected)+crossHostPenalty(180)-0.12*length(0.55*v)*max(0,dot(normalize(candidate-currentAnchor),normalize(v)))",
+      "cross_host_eligibility": "projected point lies in candidate host anchorFrame expanded by120pt",
+      "include_drag_hosts": "hasMoved OR raw velocity magnitude>=120"
+    },
+    "resize_handles": {
+      "size": [
+        14,
+        14
+      ],
+      "location": "Inside all four corners of each visible item",
+      "overlap": "Highest zIndex wins",
+      "hit_to_fixed_alignment": {
+        "bottom-right": 0,
+        "bottom-left": 1,
+        "top-left": 2,
+        "top-right": 3
+      },
+      "source": "resizeHandleRects0x1dd40, presentationIDForResizeHandleAtPoint:alignment0x1e014"
+    },
+    "resize_anchor_lifecycle": {
+      "stack_alignment": "Original stack alignment retained in currentTargetAnchor; never replaced by opposite hit-corner alignment",
+      "fixed_point": "Selected item motion origin + resizeFixedLocalPoint(size,hitAlignment), snapped to backing scale",
+      "center_exception": "When original stack alignment4/5, use that center edge in fixedLocalPoint instead of corner-hit alignment",
+      "release": "Clear resizeInteraction/fixed-point lock, recompute original rest offsets, use idle springs to settle toward original currentTargetAnchor. No nearestTargetAnchor call and no adoption of hit-corner alignment. Center alignment4/5 skips this release reconciliation. Pending host-change layout can be processed separately after release.",
+      "source": "beginResize0x1e638; beginResizeLayoutReconciliation0x22f30; resizeFixedLocalPoint0x230d0; endResize0x1ea30"
+    },
+    "resize_cursor": {
+      "macos_15_plus": "NSCursor frameResizeCursorFromPosition:inDirections:, raw position12 for diagonal0 and6 for diagonal1, direction3",
+      "older_fallback": "Custom diagonal symbol cursor images, hotSpot(12,12)",
+      "alignment_direction_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": -1,
+        "5": -1
+      },
+      "source": "resizeCursorDirectionForAlignment0x1e3a8; resizeCursorAtContentPoint0x30350"
+    }
+  },
+  "browser_state": {
+    "notification": "item/completed",
+    "item_type": "mcpToolCall",
+    "server_whitelist": [
+      "node_repl",
+      "cua_repl"
+    ],
+    "metadata_key": "codex/toolSurface",
+    "surface_kind": "browserUse",
+    "fields": [
+      "backend",
+      "browserId",
+      "browserFamily?",
+      "extensionInstanceId?",
+      "openTabIds?",
+      "sessionEnded?",
+      "screenshot?={tabId,url:data:image/...}"
+    ],
+    "session_key": "JSON.stringify([threadID,browserId])",
+    "presentation_id": "browser:",
+    "presentation_id_suffix": "JSON.stringify([threadID,browserId,tabId])",
+    "cleanup": "sessionEnded, no open tabs, removed tab IDs, turn/completed, thread/archived, thread/closed, thread/deleted",
+    "activity": "Per-thread reference count of active browser sessions. First session activates; last session removal deactivates.",
+    "native_upsert": "upsertBrowserUsePIPContent(presentationID,threadID,imageDataURL,optionalChromeFamilyIconPath)",
+    "native_invalidate": "invalidateBrowserPresentationWithID directly removes image presentation, including on turn completion; it does not use the computer/XPC completed-invalidation deferral.",
+    "source": "main Xre/Zre; sky.node invalidateBrowserPresentationWithID 0x19934",
+    "accepted_backends": [
+      "chrome",
+      "iab",
+      "cdp",
+      "mcpapps"
+    ],
+    "focus_targets": "Only iab gets tab/session mapping; chrome gets mapping only when extensionInstanceId exists. cdp/mcpapps previews have no mapped native browser-focus callback in Xre."
+  },
+  "computer_completion_state": {
+    "main_entry": "completeTurn({threadId,turnId},status): completed calls completeRemoteHostedPIPContentThread; other status calls invalidateRemoteHostedPIPContentTurn",
+    "native_complete": "Marks each not-yet-completed presentation completed and calls showCompletionEffectWithApplicationIcon.",
+    "expiry_seconds": 30,
+    "expiry_source": "sky.node completePresentationsForThreadID 0x18d1c, dispatch_time delta30000000000ns at0x18e44",
+    "invalidation": "XPC invalidatePresentationWithID:withReply queues reply while presentation.completed; it does not immediately remove the completed preview.",
+    "invalidation_source": "sky.node block at0x1a2dc",
+    "ordering_limit": "Browser tool-completion handler and renderer completeTurn IPC are different paths. Their runtime ordering was not executed or established."
+  },
+  "screenshot_measurements_only": {
+    "source_size_pixels": [
+      2048,
+      1830
+    ],
+    "outer_bounds_approx_pixels": [
+      1407,
+      1174,
+      2004,
+      1547
+    ],
+    "outer_size_approx_pixels": [
+      598,
+      374
+    ],
+    "outer_radius_approx_pixels": 34,
+    "mascot_tile_approx_pixels": 120,
+    "completion_badge_approx_pixels": 55,
+    "badge_observed_color": "#4bc48b",
+    "note": "Screenshot does not disclose device scale, version, browser/computer backend, timing, hover controls, or input semantics. These are raster measurements, never recovered CSS values."
+  },
+  "anchors": {
+    "coordinate_system": "Native screen coordinates, y increases upward",
+    "enum": {
+      "0": "top-left",
+      "1": "top-right",
+      "2": "bottom-right",
+      "3": "bottom-left",
+      "4": "top-center",
+      "5": "bottom-center"
+    },
+    "host_defaults": "Only four corners at24pt inset. Explicit host anchors replace fallback and can include center alignments.",
+    "fallback_order": [
+      {
+        "alignment": 3,
+        "point": "(minX+24,minY+24)"
+      },
+      {
+        "alignment": 2,
+        "point": "(maxX-24,minY+24)"
+      },
+      {
+        "alignment": 0,
+        "point": "(minX+24,maxY-24)"
+      },
+      {
+        "alignment": 1,
+        "point": "(maxX-24,maxY-24)"
+      }
+    ],
+    "rest_offsets_native_y_up": {
+      "0": "(28*i,-H-22*i)",
+      "1": "(-W-28*i,-H-22*i)",
+      "2": "(-W-28*i,22*i)",
+      "3": "(28*i,22*i)",
+      "4": "(-W/2,-H-22*i)",
+      "5": "(-W/2,22*i)"
+    },
+    "appearance_anchor": {
+      "0": [
+        0,
+        1
+      ],
+      "1": [
+        1,
+        1
+      ],
+      "2": [
+        1,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        0.5,
+        1
+      ],
+      "5": [
+        0.5,
+        0
+      ]
+    },
+    "source": "anchorsForHost0x1f938; updateRestOffsetsForAlignment0x22c68; currentStackAnchorForAlignment0x24778"
+  },
+  "hover": {
+    "applies_to": "Native generic PIPStackItem path, both browser images and computer remote-hosted content. React sidebar browser gating is separate.",
+    "item_visual": {
+      "overlay_color": "calibrated black",
+      "alpha": 0.06,
+      "compositing_filter": "sourceAtop",
+      "clipped_to_content": true,
+      "toggle": "hidden=!hovered with CATransaction.disableActions=true",
+      "scale_effect": null,
+      "stack_expansion": null,
+      "source": "configureContentLayer0x2deac; setHovered0x2e5e4"
+    },
+    "tracking_options": 1671,
+    "tracking_options_names": [
+      "mouseEnteredAndExited",
+      "mouseMoved",
+      "cursorUpdate",
+      "activeAlways",
+      "inVisibleRect",
+      "enabledDuringMouseDrag"
+    ],
+    "additional_monitors": "Local and global NSEvent mouseMoved mask32; attached only while view has window",
+    "entered_or_moved": "Convert event locationInWindow to content point, updateHoverAtContentPoint, then updateCursorAtContentPoint.",
+    "exited": "Restore arrow unless resizing, then recompute actual current mouse location; do not blindly clear between native content/control panels.",
+    "refresh": "refreshCursorState invalidates cursor rects and recomputes hover in BOTH content views after motion frames. Attaching a view installs monitors/refreshes; detaching ends active resize, removes monitors, clears hover.",
+    "update_algorithm": [
+      "If resizeInteraction exists, return without recalculating.",
+      "Pick presentation using highest zIndex among visible, non-exiting item current-frame rectangles.",
+      "Set control reveal target1 if item hit OR pointer inside controlsHoverFrame while controlsVisible; otherwise0.",
+      "If pointer intersects resize handle, clear hovered control; otherwise use controlIdentifierAtPoint.",
+      "Clear previous item hover, set new item hover."
+    ],
+    "clear": "Set reveal0; clear hovered control and hovered item.",
+    "control_hit_test": "Requires controlsVisible=true and revealProgress>0.001, specific button layer not hidden, and pointer in its true button rectangle.",
+    "view_hit_test": "Reject host interactionPassthroughFrame first; accept resize handle OR item OR visible control; otherwise pass through.",
+    "drag": "Beginning drag clears hovered-control highlight but retains selected item hover. There is no forced control hide in reveal/visibility methods.",
+    "resize": "Resize has priority over control press; beginResize cancels drag/programmatic move, clears control hover, retains resizing-item hover. Hover updates are suspended until resize completes.",
+    "button_press": "Store hit identifier and start point. Motion>=4pt cancels pending button and starts drag at original point. MouseUp fires action only if release hit identifier equals stored identifier.",
+    "controls_above_item": "aboveItem=(visibleStackItemCount>1). With multiple items, controls geometry uses the item whose current frame has greatest maxY, rather than blindly first item.",
+    "controls_docked": "docked=!expandedMotionEnvelope argument; expanded describes drag/resize/motion/settling envelope, not hover enlargement.",
+    "source_files": [
+      "hover-interaction-disassembly.txt",
+      "hover-item-layer-disassembly.txt",
+      "hover-host-disassembly.txt",
+      "hover-input-disassembly.txt",
+      "hover-refresh-disassembly.txt",
+      "controls-placement-caller-disassembly.txt"
+    ],
+    "controls_hover_frame": "Union of visible button rectangles expanded18pt horizontally and10pt vertically, equal to fogShape. Above-item buttons have2pt gap; expanded region overlaps item by8pt. Extra22pt backdrop expansion is not hit/reveal region.",
+    "field_separation": {
+      "layout_visible": "controlsVisible ivar offset506; independent of reveal/opacity",
+      "reveal_target": "controlRevealProgress ivar offset576, stored immediately before opacity animation",
+      "presentation_opacity": "Animated CALayer presentation opacity, used for visual retargeting but not native control hit-test",
+      "reveal_region": "updateHover checks controlsVisible only for controlsHoverFrame, so pointer may reveal controls from hover region while current alpha and target are0",
+      "click_gate": "controlsVisible && storedRevealTarget>0.001 && !buttonLayer.hidden && pointInsideButtonRect; enables immediately at target1 and disables immediately at target0 even during120ms fade",
+      "evidence": "setControlRevealProgress0x29944; controlIdentifierAtPoint0x1d7d4; updateHover0x1d690; native ivar metadata0xae280/0xae2b0"
+    }
+  },
+  "placement": {
+    "enum": {
+      "0": "home",
+      "1": "pinned",
+      "2": "pet"
+    },
+    "string_values": [
+      "home",
+      "pinned",
+      "pet"
+    ],
+    "pet_host_id": "avatar-overlay",
+    "pinned_host_id": "codex-main-thread",
+    "pinned_alignment": 2,
+    "source": "placement0x14494, setPlacement0x14df4, CFString objects0xa3868/0xa3888/0xa38a8",
+    "visibility": "Require shouldShowTask callback true and absence from suppressedThreadIDs. Scope all(1,pet) permits eligible presentations across threads; scope thread requires threadID==activeThreadID and, for home placement, codexHomeAvailable. Pinned does not require home availability."
+  },
+  "host_following": {
+    "role_split": "Content and controls are two sibling NSPanel children of owner. Controls additionally ordered above content by windowNumber.",
+    "attach": "Preserve both frames, detach from previous owner, add both above new owner, match owner.level, restore frames without animation, order controls above content.",
+    "missing_owner": "Detach both and orderOut; never attach to either PiP panel itself.",
+    "notifications": [
+      "NSWindowDidBecomeKey",
+      "NSWindowDidBecomeMain",
+      "NSWindowDidResignKey",
+      "NSWindowDidResignMain",
+      "NSApplicationDidBecomeActive",
+      "NSApplicationDidResignActive",
+      "NSWindowDidMove",
+      "NSWindowDidResize",
+      "NSWindowDidChangeScreen",
+      "NSWindowDidMiniaturize",
+      "NSWindowDidDeminiaturize",
+      "NSWindowWillClose"
+    ],
+    "reaction": "Ignore own two panels. Reconcile current host/owner, attach, layoutForHostChangeAnimated:false. Some scope-all activation paths re-order asynchronously on main queue.",
+    "dom_video": "setHiddenForDOMVideo(true) hides and detaches BOTH native panels, clears owner reference. It does not keep native controls floating over DOM video.",
+    "source": "PIPStackWindow0x3154c/0x31ea4/0x320fc/0x32578/0x31b38"
+  },
+  "motion_integrator": {
+    "source": "RemoteHostedPIPContentStepStackItemMotion0x26090; displayLinkDidFireAtTimestamp0x259fc; startMotionDisplayLink0x25728; startDisplayLink0x25760",
+    "method": "Semi-implicit Euler, no substeps in recovered function",
+    "target": "anchor + restOffset",
+    "error": "target - oldOrigin",
+    "new_velocity": "oldVelocity + dt * (stiffness * error - damping * oldVelocity)",
+    "new_origin": "oldOrigin + dt * newVelocity",
+    "dt": "clamp(frameTimestamp-lastTimestamp,1/120,1/30)",
+    "first_frame": "lastTimestamp initialized with CACurrentMediaTime at display link start; same elapsed clamp, no special1/60",
+    "settled": "hypot(PRE-step error)<=0.5 AND hypot(POST-step velocity)<=2",
+    "on_settled": "Helper only returns boolean; caller does not snap origin to target or zero velocity in ordinary all-settled path. Small residual remains.",
+    "exiting_items": "Exiting motions are also stepped with same helper/dt and included in allSettled.",
+    "motion_stop": "No drag, no programmatic move and allSettled: clear motion flags and apply stationary envelope. Display link stops only when contrast sampling also idle.",
+    "test_vector": {
+      "origin": [
+        99.8,
+        0
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "target": [
+        100,
+        0
+      ],
+      "stiffness": 260,
+      "damping": 32,
+      "dt": 0.016666666666666666,
+      "new_velocity_approx": [
+        0.866666666666679,
+        0
+      ],
+      "new_origin_approx": [
+        99.81444444444445,
+        0
+      ],
+      "settled": true,
+      "note": "Settled retains nonzero residual and velocity."
+    }
+  },
+  "motion_envelope": {
+    "source": "applyMotionFramesExpanded0x26238, key0x26590..0x26754; resizeFrozenEnvelopeForContentEnvelope0x23150; clampEnvelopeToVisibleScreen0x23368; setEnvelopeScreenFrame0x3192c",
+    "content_union": "Union current rendered frames of visible/contributing active items plus exiting items.",
+    "stationary": {
+      "overscan": 66,
+      "formula": "inset(C,-66,-66)",
+      "cache": "clear expanded-size cache",
+      "rounding": "No explicit caller backing snap, clamp or floor"
+    },
+    "expanded_trigger": "dragInteraction!=nil OR programmatic movement active OR !allSettled; active resize also explicitly requests expanded envelope",
+    "expanded_nonresize": {
+      "overscan": 246,
+      "desired_size": "C.size+(492,492)",
+      "size_cache": "Componentwise maximum of desired size and prior expanded cached size; cannot shrink until stationary reset",
+      "origin": "C.center-cachedSize/2",
+      "clamp": "Translate to visibleScreen; never shrink dimensions",
+      "rounding": "Clamp helper snaps origin to backing scale. No explicit size rounding or final origin floor."
+    },
+    "expanded_resize": {
+      "overscan": 246,
+      "freeze": "Compute once and reuse actual applied panel.frame until resize ends",
+      "spread_count": "m=max(visibleStackItemCount+exitingItemCount-1,0)",
+      "width": "max(C.width+492,400+28*m+492)",
+      "height": "max(C.height+492,400+22*m+492)",
+      "fixed_point": "Stored resizeFixedScreenPoint when valid; else C.center",
+      "alignment": "Resize fixed-corner alignment, except original centered stack4/5 overrides",
+      "fx": "left=0,right=1,center=0.5",
+      "bottom_alignments": [
+        2,
+        3,
+        5
+      ],
+      "reserve_rect_origin_x": "F.x-W*fx+246*(2*fx-1)",
+      "reserve_rect_origin_y": "bottom ? F.y-246 : F.y-H+246",
+      "union": "union(reserveRect,inset(C,-246,-246))",
+      "rounding": "Snap origin and max(1,size) to backing scale; clamp origin to visibleScreen (which snaps origin again); final floor(x),floor(y). Cache actual applied panel frame."
+    },
+    "visible_screen_priority": [
+      "contentPanel.screen",
+      "ownerWindow.screen",
+      "NSScreen.mainScreen"
+    ],
+    "clamp_formula": "x=max(screen.minX,min(x,screen.maxX-width)); y=max(screen.minY,min(y,screen.maxY-height)); dimensions unchanged. Oversized envelope resolves to screen min edges.",
+    "backing_snap": "roundToNearestTiesAwayFromZero(value*panel.backingScaleFactor)/panel.backingScaleFactor, ARM frinta at0x1f250. This differs from JavaScript Math.round for negative halves.",
+    "window_application": "Ensure width,height>=1, set both panel frames with display:false,animate:false. No extra application-code rounding at this stage."
+  },
+  "display_link": {
+    "source": "startDisplayLink0x25760; callback0x25808; displayLinkDidRequestFrameAtTimestamp0x258e8; main block0x25994; stopDisplayLinkIfIdle0x258a0",
+    "api": "CVDisplayLinkCreateWithActiveCGDisplays + CVDisplayLinkSetOutputCallback + CVDisplayLinkStart",
+    "callback_timestamp": "inOutputTime.hostTime / CVGetHostClockFrequency(), not inNow and not CACurrentMediaTime per tick",
+    "seed_timestamp": "CACurrentMediaTime initializes lastTimestamp at motion/display-link start",
+    "coalescing": "Atomic pending false-to-true compare/exchange (CASALB acquire-release at0x258f4). If already true, drop callback; do not overwrite accepted timestamp.",
+    "delivery": "Capture accepted timestamp and weak controller in dispatch_async(main).",
+    "main_callback": "If weak controller resolves, release-store pending=false BEFORE checking displayLink exists and CVDisplayLinkIsRunning. Then call displayLinkDidFireAtTimestamp(capturedTimestamp).",
+    "callback_return": "0 / kCVReturnSuccess",
+    "reset": "startDisplayLink and stopMotionDisplayLink also reset pending=false",
+    "keep_running": "motionDisplayLinkNeedsMotion OR controlIconContrastSamplingActive. Hover alone has no third keep-alive reason.",
+    "contrast": "startControlIconContrastSampling0x28e38 sets active and starts same link. stop0x28e4c clears active/requested flags and sample/color timestamps, then stopDisplayLinkIfIdle.",
+    "source_failure_behavior": "Create failure logs and returns. No Timer fallback is visible in recovered native source. A replica fallback must be labeled separately."
+  }
+}

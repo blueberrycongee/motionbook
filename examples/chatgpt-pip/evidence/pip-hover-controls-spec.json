@@ -1,0 +1,213 @@
+{
+  "evidence": {
+    "version": "26.930.51102",
+    "binary": "Contents/Resources/native/sky.node",
+    "kind": "Static native ARM64 disassembly",
+    "units": "native layer coordinates, normally AppKit points",
+    "runtimeVerified": false
+  },
+  "placementEnum": {
+    "0": "home",
+    "1": "pinned",
+    "2": "pet"
+  },
+  "controls": {
+    "hide": {
+      "identifier": "hide",
+      "height": 22,
+      "home": {
+        "visual": "localized Hide text",
+        "fontPointSize": 12,
+        "fontWeight": "NSFontWeightSemibold",
+        "widthFormula": "max(22, ceil(measuredTextWidth) + 16)",
+        "action": "open native hide menu"
+      },
+      "pinnedAndPet": {
+        "visual": "xmark SF Symbol",
+        "symbolPointSize": 14,
+        "symbolWeight": "NSFontWeightHeavy",
+        "symbolScaleEnum": 3,
+        "width": 22,
+        "action": "returnToCodexRequestedHandler; return to home rather than hide"
+      }
+    },
+    "placement": {
+      "identifier": "placement",
+      "width": 22,
+      "height": 22,
+      "visible": "placement != pet",
+      "visual": "pop-out-window-egg@3x.png, with out.to.pet SF Symbol fallback",
+      "fittedGlyphMaximumSize": [
+        16,
+        16
+      ],
+      "customAssetOpticalOffsetNativeY": -1,
+      "action": "sendToPetRequestedHandler"
+    },
+    "horizontalGap": 1,
+    "childIdleOpacity": 0.7,
+    "childHoveredOpacity": 1,
+    "childHoverAnimation": "none; set directly inside a disabled-actions transaction",
+    "hoverScale": "none in these control methods",
+    "zPosition": 100000,
+    "clipsToBounds": false
+  },
+  "geometry": {
+    "inputLeadItemFrame": [
+      "x",
+      "y",
+      "width",
+      "height"
+    ],
+    "normalInside": {
+      "hideOriginNative": [
+        "x + 6",
+        "y + height - 28"
+      ],
+      "hideOriginCSS": [
+        "x + 6",
+        "top + 6"
+      ]
+    },
+    "aboveItem": {
+      "hideOriginNative": [
+        "x - (placement == home ? 8 : 4)",
+        "y + height + 2"
+      ],
+      "hideOriginCSS": [
+        "x - (placement == home ? 8 : 4)",
+        "top - 24"
+      ]
+    },
+    "specialPetDockedOverride": "When docked && currentStackAlignment == 0 && current host presentationScope == 1, hide origin x is replaced by host anchorFrame.maxX converted from screen to controlContentView; y uses the same aboveItem/inside formula.",
+    "placementOriginNative": [
+      "hideX + hideWidth + 1",
+      "hideY"
+    ],
+    "fogShape": "Union of visible control frames expanded by18 horizontally and10 vertically using NSInsetRect(-18,-10)",
+    "fogShapeHeight": 42,
+    "fogShapeCornerRadius": "height / 2 = 21",
+    "backdropFrame": "fogShape expanded another22 on every side",
+    "backdropCornerRadius": 0,
+    "backdropClipsToBounds": false,
+    "maskSourceFrameInBackdrop": "backdrop bounds inset22, equal to fogShape",
+    "hitRects": "Actual hide/placement frames, not the fog backdrop rectangle. Other tracking/reveal region is handled separately by controller.",
+    "aboveItemCondition": "visibleStackItemCount > 1. Multiple cards use the topmost visible item frame by maximum native maxY; single card uses first ordered item. Docked is !expandedMotionEnvelope."
+  },
+  "reveal": {
+    "property": "controlRevealProgress",
+    "clamp": [
+      0,
+      1
+    ],
+    "changeDeadband": 0.001,
+    "animatedLayers": [
+      "controlFogContainerLayer",
+      "hideControlLayer",
+      "placementControlLayer"
+    ],
+    "animationKey": "remoteHostedPIPControlOpacity",
+    "durationSeconds": 0.12,
+    "timingFunction": "kCAMediaTimingFunctionEaseInEaseOut",
+    "startValue": "current presentationLayer.opacity if available, otherwise model-layer opacity",
+    "retargeting": "Set model opacity to target; when animated and delta >=0.001 remove prior opacity animation and add one from current presentation value to target",
+    "visibility": "controlsVisible governs hidden flag. Placement control is additionally hidden for pet. At reveal <=0.001 contrast sampling stops.",
+    "onControlsRemoved": "Set reveal0, hide all control layers, zero control and fog frames, clear tooltip rectangles, clear hovered control identifier",
+    "revealDelay": "No timer in these methods; hover/tracking caller determines reveal target",
+    "dragSuppression": "No drag-specific suppression in setControlRevealProgress/applyControlReveal/updateControlLayerVisibility. Do not confuse paused contrast sampling during motion with hidden controls. Tracking caller owns hover target updates.",
+    "producerGating": "No browser-image versus computer-video gate in these native control methods. React sidebar Browser Use-tab gating is unrelated.",
+    "hitTestUsesTarget": true,
+    "fieldSeparation": "controlsVisible is layout eligibility and does not depend on target/presentation opacity. Expanded hover frame can trigger reveal while target=0 and alpha=0. Hit-test uses stored target>0.001, never animated alpha; click enable/disable is immediate while fade is120ms."
+  },
+  "fog": {
+    "zPosition": 99999,
+    "material": "CABackdropLayer with private CAFilter; there is no constant white CSS background",
+    "macOS26OrNewer": {
+      "backdropFilter": "variableBlur",
+      "inputRadius": 6,
+      "inputFade": true,
+      "inputNormalizeEdges": true,
+      "inputSourceSublayerName": "named rounded mask source",
+      "maskSourceFilter": "gaussianBlur",
+      "maskSourceRadius": 14
+    },
+    "olderMacOS": {
+      "backdropFilter": "gaussianBlur",
+      "inputRadius": 6,
+      "inputNormalizeEdges": true,
+      "mask": "rounded black source layer blurred by gaussianBlur radius14"
+    },
+    "dynamicShadow": {
+      "backdropFilters": [
+        "luminanceCurveMap",
+        "luminanceToAlpha"
+      ],
+      "curveInputValues": [
+        0,
+        -1.75,
+        0.09,
+        2.4
+      ],
+      "curveInputAmount": 1,
+      "inputPremultipliedValues": false,
+      "opacity": 0.12,
+      "mask": "same rounded fog shape blurred by gaussianBlur radius14"
+    },
+    "fallbackWarning": "NSVisualEffectView or CSS backdrop-filter plus a feathered mask is an independent approximation, not equivalent execution of these private compositor filters."
+  },
+  "contrast": {
+    "sampleDimensions": [
+      24,
+      12
+    ],
+    "backingSample": "CGWindowListCreateImage for the rectangle below the controlPanel window, options4 and image options9; control glyphs themselves are excluded",
+    "luminance": "alpha-weighted mean of(0.2126R+0.7152G+0.0722B), after unpremultiplying RGB and clamping to1; ignore pixels with alpha <=0.05",
+    "regularSampleIntervalSeconds": 0.05,
+    "whiteToBlack": "if current whiteAmount >=0.5 and backing luminance >0.74, choose0",
+    "blackToWhite": "if current whiteAmount <0.5 and luminance <0.56, wait until at least0.24s after previous change and require3 qualifying samples; otherwise reset confirmation count",
+    "iconTransitionSeconds": 0.16,
+    "iconTimingFunction": "kCAMediaTimingFunctionEaseInEaseOut",
+    "iconTechnique": "CIColorMatrix RGB vectors zero, alpha preserved, inputBiasVector=(whiteAmount,whiteAmount,whiteAmount,0)",
+    "textTransition": "foreground color set directly",
+    "suspended": "No sampling during motionDisplayLinkNeedsMotion or active resizeInteraction; sampling eligibility also requires valid native windows and nonempty sample frame",
+    "replicaPermissionWarning": "Do not introduce actual desktop screen capture just for demo fidelity; sample only already-authorized input/local demo pixels or use an explicit documented fallback",
+    "confirmationCounter": "Increment only on qualifying dark samples at/after the0.24s dwell. Pre-dwell dark samples, active motion/resize suspension and missing luminance preserve the counter. Nonqualifying threshold samples reset it; successful color changes reset it."
+  },
+  "tooltipsAndMenu": {
+    "mechanism": "NSView addToolTipRect:owner:userData:, normal AppKit timing",
+    "delaySeconds": null,
+    "delayExplanation": "No custom tooltip delay in recovered application code; operating system controls timing",
+    "tooltipRects": "same visible control rectangles",
+    "hideTooltip": "home: hideControlTitle; pinned/pet: closeControlToolTip",
+    "placementTooltip": "placementControlToolTip",
+    "menuTitle": "hideControlTitle",
+    "menuItems": [
+      "hideForTaskMenuTitle",
+      "hideForAllActiveTasksMenuTitle"
+    ],
+    "menuLocation": "hideControlFrame.origin in controlContentView",
+    "menuKeyboardEquivalent": "empty",
+    "menuStyle": "native NSMenu popup; system dismissal/keyboard behavior"
+  },
+  "addresses": {
+    "ensureControlLayers": "0x26e60",
+    "makeControlFogContainerLayer": "0x270c4",
+    "makeControlButtonLayer": "0x27bd4",
+    "addControlIcon": "0x27dd4",
+    "setControlIconColorFilter": "0x287f0",
+    "setControlIconWhiteAmount": "0x289b4",
+    "currentBackingLuminance": "0x28eac",
+    "contrastUpdate": "0x29290",
+    "setHoveredControl": "0x29438",
+    "applyControlReveal": "0x294b4",
+    "opacityAnimationHelper": "0x296f0",
+    "setControlRevealProgress": "0x29908",
+    "updateControlVisibility": "0x29950",
+    "updateControlFrames": "0x29a04",
+    "toolTipAtPoint": "0x1d894",
+    "performControl": "0x1d97c",
+    "showHideMenu": "0x1dac4",
+    "setToolTipRects": "0x30134",
+    "controlsPlacementCaller": "0x26238, relevant call preparation0x26ba4..0x26bf4"
+  }
+}

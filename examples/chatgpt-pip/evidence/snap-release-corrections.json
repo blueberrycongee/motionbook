@@ -1,0 +1,42 @@
+{
+  "edition": "v4",
+  "sourceVersion": "26.930.51102",
+  "meanAnchor": {
+    "formula": "mean(actualOrigin-currentRestOffset) over initialized contributing active items, sampled before promotion",
+    "fallback": "host rest anchor; no host=>zero",
+    "source": "0x2451c; 0x24630..0x246d0"
+  },
+  "releaseImpulse": {
+    "thresholdInclusive": 120,
+    "leadFactor": 0.25,
+    "followerDivisor": "1 + 0.45 * abs(postPromotionIndex-leadIndex)",
+    "operation": "overwrite, not add",
+    "springMode": {
+      "dragging": false,
+      "programmatic": false
+    },
+    "source": "0x2088c..0x209d0"
+  },
+  "heldTarget": {
+    "formula": "currentPointer-grabOffset-currentLeadRestOffset",
+    "grabOffset": "pointer at press minus actual item origin",
+    "movementDeadZone": false,
+    "threshold4Role": "click/drag classification and pressed-control conversion only",
+    "source": "0x1edf0..0x1ee18; 0x23570..0x235fc"
+  },
+  "implementation": [
+    "native/PiPReplica.swift",
+    "src/stack-behavior.mjs",
+    "public/stack-view.js"
+  ],
+  "regressionTests": [
+    "test/snap-parity.test.mjs",
+    "test/stack-view-smoke.test.mjs"
+  ],
+  "limits": [
+    "macOS build/runtime unverified",
+    "off-limit hiding-transition contributors not modeled by this fixture",
+    "browser rendering unverified; Node DOM doubles are not UI QA"
+  ],
+  "frozenV3ArchiveSHA256": "2d45d6408c751e19fd2fd885989aa72696c32a1a4a2b2ac2e7e9f68230152770"
+}

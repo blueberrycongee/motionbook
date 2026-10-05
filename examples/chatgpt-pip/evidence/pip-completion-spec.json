@@ -1,0 +1,149 @@
+{
+  "evidence": {
+    "packageVersion": "26.930.51102",
+    "binary": "Contents/Resources/native/sky.node",
+    "architecture": "Mach-O arm64",
+    "method": "static Objective-C method disassembly; values are native layer units, normally AppKit points",
+    "runtimeVerified": false,
+    "screenshotScaleVerified": false
+  },
+  "classes": [
+    "PIPStackItemCompletionEffect",
+    "CALayer",
+    "CABasicAnimation",
+    "CASpringAnimation",
+    "NSImage",
+    "NSColor"
+  ],
+  "geometry": {
+    "applicationIconFrameSize": [
+      50,
+      50
+    ],
+    "applicationIconFrameOrigin": [
+      "(width - 50) / 2",
+      "(height - 50) / 2"
+    ],
+    "applicationIconImage": "application icon supplied as NSImage, converted to CGImage; transparent padding belongs to input icon",
+    "checkmarkSymbol": "checkmark",
+    "checkmarkSymbolPointSize": 18,
+    "checkmarkBounds": [
+      0,
+      0,
+      18,
+      18
+    ],
+    "fullCheckmarkCenter": [
+      "width / 2",
+      "height / 2"
+    ],
+    "miniCheckmarkCenter": [
+      "width / 2 + 18",
+      "height / 2 - 18"
+    ],
+    "miniCheckmarkScale": 0.5,
+    "badgeBounds": [
+      0,
+      0,
+      17.5,
+      17.5
+    ],
+    "badgeCornerRadius": 8.75,
+    "badgeCenter": [
+      "width / 2 + 18",
+      "height / 2 - 18"
+    ],
+    "coordinateNote": "These formulas are native layer coordinates. In ordinary AppKit y-up coordinates, negative y moves downward. CSS y-down equivalent uses centerY + 18. Verify any flipped host before reuse.",
+    "checkmarkSymbolWeight": "NSFontWeightBold"
+  },
+  "appearance": {
+    "scrim": {
+      "color": "NSColor.blackColor",
+      "compositingFilter": "sourceAtop",
+      "finalOpacity": 0.17
+    },
+    "applicationIcon": {
+      "finalOpacity": 1,
+      "dimMask": "same application CGImage",
+      "fullCheckmarkDimOpacity": 0.65,
+      "miniCheckmarkDimOpacity": 0
+    },
+    "badge": {
+      "nativeNSColorComponents": [
+        0,
+        0.9019607843137255,
+        0.17647058823529413,
+        1
+      ],
+      "arithmeticRGB255": [
+        0,
+        230,
+        45
+      ],
+      "warning": "Native NSColor inputs, not screenshot-sampled RGB or a promise of final display-space color",
+      "shadowColor": "black",
+      "shadowOpacity": 0.8,
+      "shadowRadius": 4
+    },
+    "fullCheckmarkColor": "NSColor.whiteColor",
+    "miniCheckmarkColor": "NSColor colorWithCalibratedWhite:0 alpha:0.5"
+  },
+  "timelineSeconds": [
+    {
+      "at": 0,
+      "state": "applicationIcon",
+      "changes": [
+        "scrim opacity 0 to 0.17",
+        "application-icon opacity 0 to 1"
+      ],
+      "duration": 0.35,
+      "timingFunction": "kCAMediaTimingFunctionEaseOut"
+    },
+    {
+      "at": 1,
+      "state": "fullCheckmark",
+      "changes": [
+        "icon dim opacity 0 to 0.65 over 0.25s",
+        "checkmark opacity 0 to 1 over 0.2s",
+        "white checkmark scale 0.01 to 1 with spring"
+      ]
+    },
+    {
+      "at": 2.5,
+      "state": "miniCheckmark",
+      "changes": [
+        "icon dim opacity 0.65 to 0 over 0.25s",
+        "badge opacity 0 to 1 over 0.2s",
+        "badge position center to lower-right with spring",
+        "badge scale 0.01 to 1 with spring",
+        "checkmark position center to lower-right with spring",
+        "checkmark scale 1 to 0.5 with spring",
+        "checkmark color switches to calibrated black at alpha0.5"
+      ]
+    }
+  ],
+  "spring": {
+    "mass": 1,
+    "stiffness": 170,
+    "damping": 18,
+    "initialVelocity": 0,
+    "duration": "CASpringAnimation.settlingDuration"
+  },
+  "noApplicationIcon": "showInSize skips the one-second app-icon stage and calls showFullCheckmark immediately. The mini-checkmark timer is scheduled only in the icon-present branch; no-icon path stays full-checkmark until stopped.",
+  "cancellation": "stop increments transitionGeneration and removes animations; each scheduled callback checks captured generation before changing state",
+  "addresses": {
+    "initWithApplicationIcon": "0x2c1ac",
+    "showInSize": "0x2c858",
+    "firstTimerCallback": "0x2cba0",
+    "secondTimerCallback": "0x2cc80",
+    "layoutInSize": "0x2ccdc",
+    "showFullCheckmark": "0x2cf4c",
+    "showMiniCheckmark": "0x2d26c",
+    "basicAnimationHelper": "0x2cacc",
+    "springAnimationHelper": "0x2d164",
+    "stop": "0x2d5f4",
+    "checkmarkFontWeightGOT": "0xa0048 → _NSFontWeightBold",
+    "initialFadeTimingFunctionGOT": "0xa0190 → _kCAMediaTimingFunctionEaseOut"
+  },
+  "lifecycleNote": "Computer Use native XPC presentations can retain the completion effect for30s. Browser Use screenshot presentations have a separate removal path that does not defer removal on completed state. Do not impose the30s hold on every browser screenshot."
+}

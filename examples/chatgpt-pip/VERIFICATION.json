@@ -1,0 +1,126 @@
+{
+  "status": "partial-reconstruction-not-1-to-1-complete",
+  "source_package": "ChatGPT 26.930.51102 build 13100",
+  "host": "Debian Linux",
+  "unit_tests": {
+    "passed": 91,
+    "failed": 0,
+    "scope": "Node state/math plus integrated PresentationStack parity against782 independently verified frames and a DOM-double constructor smoke test; not actual browser UI"
+  },
+  "javascript_syntax_checks": "passed",
+  "browser_ui_qa": {
+    "status": "blocked",
+    "local_launch": "Chromium process_singleton_posix.cc:297 socket() failed: Operation not permitted (1)",
+    "supported_cloud_browser": "127.0.0.1:4317/fixture.html net::ERR_BLOCKED_BY_CLIENT"
+  },
+  "macos_build": "not-run; no AppKit SDK or macOS runtime",
+  "native_ui_qa": "not-run",
+  "pixel_parity": "not-verified",
+  "gif": {
+    "type": "offline deterministic code render; not app recording",
+    "duration_seconds": 15,
+    "size_pixels": [
+      1152,
+      720
+    ],
+    "frames_per_second": 12
+  },
+  "limitations": [
+    "Native target is Swift/AppKit/Core Animation, not exact original source or the entire Electron bridge",
+    "Private CAFilter/CABackdropLayer fog is an explicit approximation",
+    "Only authorized fixture image pixels are sampled, not actual desktop backing windows",
+    "No XPC/CAContext remote-hosted content, real video feed or real IAB/Chrome transport",
+    "No macOS build or UI run",
+    "No browser UI run; launch and local cloud browser access blocked",
+    "Offline GIFs and PNGs are not runtime screenshots",
+    "Recovered motion/envelope formulas are unit-tested but not WindowServer-runtime verified",
+    "Off-limit active hiding-transition contributors are not modeled; true removed exits are excluded from snap mean"
+  ],
+  "user_environment": {
+    "codex_work_sessions_used": false,
+    "api_keys_required": false,
+    "scope": "Source-build snapshot before archiving in the separate private reference repository."
+  },
+  "edition": "v4-integrated-source-snap-corrections",
+  "hover_gif": {
+    "type": "offline deterministic code render; not app recording",
+    "duration_seconds": 21,
+    "size_pixels": [
+      1152,
+      720
+    ],
+    "frames_per_second": 15
+  },
+  "native_source": {
+    "file": "native/PiPReplica.swift",
+    "sha256": "3fcb0d21bb49a939a5d5af01fa087c94bc8a63bfed1f84f7d4b8bd4457907ce1",
+    "validation": "static review only; not compiled or run",
+    "build_script_sha256": "34588aafbf13853c9d541035a96fed5fe127d719748f4f16adf1d2a683df33e5",
+    "minimum_macos": "13.0",
+    "scheduler": "CoreVideo CVDisplayLink with output host timestamp and coalesced main-thread delivery; Timer only with explicit opt-in"
+  },
+  "implemented_source_features": [
+    "dual owner-following NSPanel",
+    "source hover controls, menu and tooltips",
+    "50ms contrast sampling with hysteresis",
+    "native anchor selection and fling",
+    "five-item stack with distinct springs",
+    "fourteen-point corner resize",
+    "fixture home/pinned/pet switching",
+    "thread/all scope and suppression",
+    "computer completion deferred invalidation",
+    "source semi-implicit Euler with native timestep bounds and residual settle",
+    "source stationary/expanded/frozen resize envelope mathematics and backing-scale rounding",
+    "CoreVideo display link with native timestamp and pending-frame coalescing",
+    "separate hover layout eligibility, stored reveal target and animated opacity"
+  ],
+  "snap_corrections_integrated": {
+    "edition": "v4",
+    "sourceVersion": "26.930.51102",
+    "meanAnchor": {
+      "formula": "mean(actualOrigin-currentRestOffset) over initialized contributing active items, sampled before promotion",
+      "fallback": "host rest anchor; no host=>zero",
+      "source": "0x2451c; 0x24630..0x246d0"
+    },
+    "releaseImpulse": {
+      "thresholdInclusive": 120,
+      "leadFactor": 0.25,
+      "followerDivisor": "1 + 0.45 * abs(postPromotionIndex-leadIndex)",
+      "operation": "overwrite, not add",
+      "springMode": {
+        "dragging": false,
+        "programmatic": false
+      },
+      "source": "0x2088c..0x209d0"
+    },
+    "heldTarget": {
+      "formula": "currentPointer-grabOffset-currentLeadRestOffset",
+      "grabOffset": "pointer at press minus actual item origin",
+      "movementDeadZone": false,
+      "threshold4Role": "click/drag classification and pressed-control conversion only",
+      "source": "0x1edf0..0x1ee18; 0x23570..0x235fc"
+    },
+    "implementation": [
+      "native/PiPReplica.swift",
+      "src/stack-behavior.mjs",
+      "public/stack-view.js"
+    ],
+    "regressionTests": [
+      "test/snap-parity.test.mjs",
+      "test/stack-view-smoke.test.mjs"
+    ],
+    "limits": [
+      "macOS build/runtime unverified",
+      "off-limit hiding-transition contributors not modeled by this fixture",
+      "browser rendering unverified; Node DOM doubles are not UI QA"
+    ],
+    "frozenV3ArchiveSHA256": "2d45d6408c751e19fd2fd885989aa72696c32a1a4a2b2ac2e7e9f68230152770"
+  },
+  "snap_demo": {
+    "type": "offline source-physics render; not app recording",
+    "duration_seconds": 16,
+    "gif": "artifacts/snapping/pip-snapping-physics.gif",
+    "mp4": "artifacts/snapping/pip-snapping-physics.mp4",
+    "numerical_verification": "independent Python comparison; then integrated stack API regression comparison"
+  }
+}

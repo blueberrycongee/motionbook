@@ -1,0 +1,8 @@
+Reference hover-control resources:
+- pop-out-window-egg@3x.png
+- pop-in-window-egg@3x.png
+Source: official ChatGPT macOS installer 26.930.51102 build 13100,
+Contents/Resources/native/remote-hosted-pip/.
+These two small graphics are reference assets used for the user's requested reconstruction.
+They are not part of the independent implementation's original artwork; rights remain with their owner.
+No proprietary executable or native addon is included.

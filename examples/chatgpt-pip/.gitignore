@@ -1,0 +1,14 @@
+node_modules/
+.build/
+artifacts/frames/
+artifacts/runtime/
+artifacts/*.zip
+artifacts/v3/hover-frames/
+artifacts/snapping/frames/
+artifacts/snapping/qa/
+artifacts/snapping/*-disassembly.txt
+artifacts/snapping/independent-verification.log
+artifacts/snapping/independent-verification.json
+
+# Regenerated full independent comparison; concise summary is versioned.
+artifacts/v4/independent-verification.json

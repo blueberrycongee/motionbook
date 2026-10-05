@@ -1,0 +1,21 @@
+{
+  "name": "native-pip-replica-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent, source-evidenced browser PiP state machine with portable preview and macOS AppKit target",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "capture": "node test/capture.mjs",
+    "mac": "bash native/run-macos.sh",
+    "render": "node test/render-artifacts.mjs"
+  },
+  "engines": {
+    "node": ">=20.11"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1",
+    "sharp": "0.35.4"
+  }
+}
