@@ -1,5 +1,9 @@
 # 参考动画
 
+## Praveen cards
+
+[![Praveen cards](examples/praveen-cards/artifacts/praveen-reconstruction-offline.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/praveen-cards)
+
 ## PiP
 
 [![PiP](examples/chatgpt-pip/artifacts/snapping/snap-state-261.png)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/chatgpt-pip)
