@@ -10,5 +10,7 @@ artifacts/snapping/*-disassembly.txt
 artifacts/snapping/independent-verification.log
 artifacts/snapping/independent-verification.json
 
-# Regenerated full independent comparison; concise summary is versioned.
-artifacts/v4/independent-verification.json
+.clean-work/
+.render-cache/
+
+artifacts/snapping/trajectory-trace.json

@@ -1084,12 +1084,12 @@ final class ReplicaApp: NSObject, NSApplicationDelegate, WKNavigationDelegate {
     }
     private func buildFixture() {
         fixtureWindow = NSWindow(contentRect: CGRect(x: 120, y: 180, width: 1200, height: 600), styleMask: [.titled, .closable, .miniaturizable, .resizable], backing: .buffered, defer: false)
-        fixtureWindow.title = "Local fixture and sidebar host · move or resize to test owner following"; fixtureWindow.isReleasedWhenClosed = false
+        fixtureWindow.title = "PiP"; fixtureWindow.isReleasedWhenClosed = false
         fixtureWindow.minSize = CGSize(width: 760, height: 440)
         fixtureRoot = NSView(frame: CGRect(x: 0, y: 0, width: 1200, height: 600)); fixtureWindow.contentView = fixtureRoot
         sidebar = NSView(frame: CGRect(x: 0, y: 0, width: 240, height: 600)); sidebar.wantsLayer = true
         sidebar.layer?.backgroundColor = NSColor.controlBackgroundColor.cgColor; sidebar.autoresizingMask = [.height]; fixtureRoot.addSubview(sidebar)
-        let label = NSTextField(wrappingLabelWithString: "Sidebar host\n\nMove a preview here using Return to Codex.\n\nThis is an original AppKit fixture. The production React/DOM video path is not reproduced.")
+        let label = NSTextField(wrappingLabelWithString: "")
         label.frame = CGRect(x: 18, y: 370, width: 204, height: 200); label.autoresizingMask = [.minYMargin]
         label.textColor = .secondaryLabelColor; sidebar.addSubview(label)
         web = WKWebView(frame: CGRect(x: 240, y: 0, width: 960, height: 600)); web.autoresizingMask = [.width, .height]
@@ -1097,7 +1097,7 @@ final class ReplicaApp: NSObject, NSApplicationDelegate, WKNavigationDelegate {
     }
     private func buildPet() {
         petWindow = NSWindow(contentRect: CGRect(x: 1040, y: 100, width: 320, height: 280), styleMask: [.titled, .closable], backing: .buffered, defer: false)
-        petWindow.title = "Replica Pet host"; petWindow.isReleasedWhenClosed = false
+        petWindow.title = "Pet"; petWindow.isReleasedWhenClosed = false
         let view = NSView(frame: CGRect(x: 0, y: 0, width: 320, height: 280)); petWindow.contentView = view
         let image = NSImageView(frame: CGRect(x: 124, y: 10, width: 72, height: 72)); image.imageScaling = .scaleProportionallyUpOrDown
         image.image = NSImage(contentsOf: sourceRoot.appendingPathComponent("public/mascot.png")); view.addSubview(image)
@@ -1105,11 +1105,11 @@ final class ReplicaApp: NSObject, NSApplicationDelegate, WKNavigationDelegate {
     }
     private func buildControls() {
         controlsWindow = NSWindow(contentRect: CGRect(x: 30, y: 260, width: 438, height: 720), styleMask: [.titled, .closable, .miniaturizable], backing: .buffered, defer: false)
-        controlsWindow.title = "PiP Replica · AppKit behavior harness"; controlsWindow.isReleasedWhenClosed = false
+        controlsWindow.title = "Controls"; controlsWindow.isReleasedWhenClosed = false
         let root = NSView(frame: CGRect(x: 0, y: 0, width: 438, height: 720)); controlsWindow.contentView = root
-        let heading = NSTextField(labelWithString: "Native PiP behavior fixture"); heading.font = .systemFont(ofSize: 20, weight: .semibold)
+        let heading = NSTextField(labelWithString: ""); heading.font = .systemFont(ofSize: 20, weight: .semibold)
         heading.frame = CGRect(x: 20, y: 677, width: 398, height: 27); root.addSubview(heading)
-        let note = NSTextField(wrappingLabelWithString: "Two normal-level child panels · local screenshots only\nPrivate XPC / CAContext / CAFilter are unsupported.")
+        let note = NSTextField(wrappingLabelWithString: "")
         note.font = .systemFont(ofSize: 11); note.textColor = .secondaryLabelColor; note.frame = CGRect(x: 20, y: 633, width: 398, height: 36); root.addSubview(note)
         threadPicker = NSPopUpButton(frame: CGRect(x: 20, y: 593, width: 398, height: 28)); threadPicker.addItems(withTitles: ["fixture-thread", "second-fixture-thread"])
         threadPicker.target = self; threadPicker.action = #selector(changeThread); root.addSubview(threadPicker)
@@ -1137,7 +1137,7 @@ final class ReplicaApp: NSObject, NSApplicationDelegate, WKNavigationDelegate {
         omitIcon.frame = CGRect(x: 20, y: 158, width: 398, height: 20); root.addSubview(omitIcon)
         summary = NSTextField(wrappingLabelWithString: ""); summary.font = .monospacedSystemFont(ofSize: 11, weight: .regular)
         summary.frame = CGRect(x: 20, y: 114, width: 398, height: 40); root.addSubview(summary)
-        status = NSTextField(wrappingLabelWithString: "Loading the local fixture. No app account or remote computer session is used.")
+        status = NSTextField(wrappingLabelWithString: "Loading…")
         status.font = .systemFont(ofSize: 11); status.textColor = .secondaryLabelColor; status.frame = CGRect(x: 20, y: 18, width: 398, height: 88); root.addSubview(status)
     }
     private func refreshControls() {
@@ -1149,7 +1149,7 @@ final class ReplicaApp: NSObject, NSApplicationDelegate, WKNavigationDelegate {
         summary.stringValue = "\(stack.visible.count) visible / \(count) stored · max \(Int(stack.maximum))pt\n\(stack.placement.rawValue) · \(stack.alignment.title) · \(stack.schedulerDescription)"
     }
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        fixtureReady = true; status.stringValue = "Fixture ready. Snapshot delivery is event-driven. Drag a card to snap; click the front card to focus its source."
+        fixtureReady = true; status.stringValue = "Ready"
     }
     // Prevent this fixture browser from becoming an accidental account/network browser.
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {

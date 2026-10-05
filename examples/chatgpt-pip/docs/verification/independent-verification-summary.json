@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "checks": {
+    "status": "PASS",
+    "framesChecked": 782,
+    "itemsPerFrame": 3,
+    "positionAndVelocityAxesChecked": 9384,
+    "maxPositionError": 2.2737367544323206e-13,
+    "maxVelocityError": 1.2050804798491299e-11,
+    "maxReleaseError": 4.547473508864641e-13,
+    "tolerance": 1e-09,
+    "traceSHA256": "7af5dc2cb13cd190b44b4a13ca4ce0947192b51a48d30fee9be13d3fc53f9a16",
+    "rendererSHA256": "40fd8241fa1f02cffe6edb424da6fecea5bc253628792b25aaf27855830125e3"
+  },
+  "scenarios": {
+    "slow": {
+      "samePointerRelease": [
+        640,
+        417
+      ],
+      "target": {
+        "alignment": 2,
+        "point": [
+          1210,
+          668
+        ]
+      },
+      "filteredReleaseSpeed": 219.63342863782535,
+      "settleSeconds": 1.4333333333333327
+    },
+    "fast": {
+      "samePointerRelease": [
+        640,
+        417
+      ],
+      "target": {
+        "alignment": 0,
+        "point": [
+          70,
+          238
+        ]
+      },
+      "filteredReleaseSpeed": 1769.765770348313,
+      "settleSeconds": 1.4666666666666672
+    }
+  },
+  "v3Caveats": [
+    "Resolved in v4: v3 seeded full raw velocity; current implementation uses thresholded25% and follower attenuation.",
+    "Resolved in v4: current release chooses using mean rendered origins minus rest offsets.",
+    "Resolved in v4: held target tracks below4pt; click classification remains separate."
+  ],
+  "limits": [
+    "Static recovered source plus independently simulated 60 Hz scripted input, not a running macOS recording.",
+    "No pixel parity, live panel/compositor, private transport, cross-host selection, rear-item promotion, resize, or variable refresh-rate runtime validation.",
+    "Video/GIF pixel encoding not reviewed by this numeric check."
+  ],
+  "sourceEvidence": {
+    "endDrag": "0x1eff0..0x1f070: choose from currentStackAnchorOrDefault before promotion; then moveStackToAnchor with interaction velocity",
+    "currentAnchor": "0x24630..0x24658 plus 0x246a4..0x246b4: average(origin-restOffset) of initialized contributing items",
+    "releaseSpringMode": "0x2088c mov w3,#0 and 0x20890 mov w4,#0: dragging=false, programmaticMove=false",
+    "releaseVelocity": "0x208c0..0x208dc: zero if raw speed<120, else 0.25*raw; 0x209a0..0x209d0: follower denominator 1 + 0.45*distance to lead; overwrite, not add",
+    "reindex": "0x1f050..0x1f070 promotes chosen item before move; 0x20820 updates restOffsets; initialized origins are not teleported",
+    "heldTarget": "0x23570..0x235fc: currentPointer-grabOffset-lead.restOffset; movement threshold is not applied here",
+    "integration": "source semi-implicit Euler, error uses pre-step origin, settling tests pre-step error and post-step velocity; 60 Hz within 1/120..1/30 clamp"
+  },
+  "frozenFileSHA256": {
+    "src/stack-behavior.mjs": "b16c17ae873b8e42aaecb6fe2b45cda361749e3c648b791be26c0ff54a8e43e3",
+    "test/fixtures/snap-reference-vector.json": "d0ce625dd49e32fb60808c13ac9ea0481292407cba63042d0df50a3b7621f41f",
+    "native/PiPReplica.swift": "f0cfb3fc302261eacc8d02fbfd233e3e849f76f40737123db2ac5717169472c6"
+  }
+}

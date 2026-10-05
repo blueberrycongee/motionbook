@@ -4,7 +4,7 @@ Does not import the renderer or production math. No user task sessions or app la
 import json, math, hashlib, gzip, base64
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
-HERE=ROOT/"artifacts"/"v4"
+HERE=ROOT/"docs"/"verification"
 HERE.mkdir(parents=True,exist_ok=True)
 FPS=60
 DT=1/FPS
@@ -105,7 +105,7 @@ assert seed_velocity((120,0),0)==(30,0)
 assert math.isclose(seed_velocity((120,0),1)[0],30/1.45)
 assert math.isclose(seed_velocity((120,0),2)[0],30/1.9)
 assert all(abs(x)>0 for x in fast['finalVelocities'][0])
-source_paths=['src/stack-behavior.mjs','evidence/native-pip-contract.json','native/PiPReplica.swift','artifacts/pip-replica-source-v3.zip']
+source_paths=['src/stack-behavior.mjs','test/fixtures/snap-reference-vector.json','native/PiPReplica.swift']
 result={
  'validation':'PASS: independent source-derived Python recurrence and release rules',
  'simulationHz':60,

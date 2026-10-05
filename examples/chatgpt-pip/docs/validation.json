@@ -1,0 +1,168 @@
+{
+  "status": "PASS with runtime verification limitations",
+  "scope": "Presentation-only cleanup of approved v4",
+  "unitTests": {
+    "passed": 95,
+    "failed": 0
+  },
+  "javascriptSyntax": "PASS",
+  "nativeShellSyntax": "PASS",
+  "exactApprovedHistoryMatch": {
+    "slow": true,
+    "fast": true,
+    "simulationFrames": 782
+  },
+  "unchangedBehaviorSHA256": {
+    "src/browser-pip.mjs": "59e14ca2b5c688d2a038cbdbb51678ba61fddb48403bb550fabc87ee698a98fc",
+    "src/hover-behavior.mjs": "609c220226c62809819cb79b304b5f193c764ad4305540c1e4c89b75cd83f80d",
+    "src/native-spec.mjs": "05f6d44005b52d9d53e353520e3272d45e714619d66a1ec69cf1f8a496236220",
+    "src/server.mjs": "df801ed5772c29f5787b4cf1dc2ff99962ebb37219f963cf975e7a264087e205",
+    "src/stack-behavior.mjs": "b16c17ae873b8e42aaecb6fe2b45cda361749e3c648b791be26c0ff54a8e43e3",
+    "public/stack-view.js": "6d4018bccd32e4a5508a7c4c0d8a3900e4aedc72d933e9101334084f0d04332b"
+  },
+  "edgeValidation": {
+    "artifacts/snapping/frames": {
+      "framesChecked": 480,
+      "dimensions": [
+        1280,
+        560
+      ],
+      "allFourEdgesClear": true
+    },
+    "artifacts/v3/hover-frames": {
+      "framesChecked": 315,
+      "dimensions": [
+        1280,
+        660
+      ],
+      "allFourEdgesClear": true
+    }
+  },
+  "media": {
+    "artifacts/snapping/pip-snapping-physics.gif": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "gif",
+          "width": 1280,
+          "height": 560,
+          "r_frame_rate": "30/1",
+          "duration": "16.000000",
+          "nb_frames": "480",
+          "nb_read_frames": "480"
+        }
+      ],
+      "format": {
+        "duration": "16.000000"
+      },
+      "gif": {
+        "frames": 480,
+        "totalMilliseconds": 16000,
+        "frameDelayMilliseconds": [
+          30,
+          40
+        ]
+      }
+    },
+    "artifacts/snapping/pip-snapping-physics.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 560,
+          "r_frame_rate": "30/1",
+          "duration": "16.000000",
+          "nb_frames": "480",
+          "nb_read_frames": "480"
+        }
+      ],
+      "format": {
+        "duration": "16.000000"
+      }
+    },
+    "artifacts/v3/pip-hover-interaction-render.gif": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "gif",
+          "width": 1280,
+          "height": 660,
+          "r_frame_rate": "15/1",
+          "duration": "21.000000",
+          "nb_frames": "315",
+          "nb_read_frames": "315"
+        }
+      ],
+      "format": {
+        "duration": "21.000000"
+      },
+      "gif": {
+        "frames": 315,
+        "totalMilliseconds": 21000,
+        "frameDelayMilliseconds": [
+          60,
+          70
+        ]
+      }
+    },
+    "artifacts/v3/pip-hover-interaction-render.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 660,
+          "r_frame_rate": "15/1",
+          "duration": "21.000000",
+          "nb_frames": "315",
+          "nb_read_frames": "315"
+        }
+      ],
+      "format": {
+        "duration": "21.000000"
+      }
+    }
+  },
+  "independentNumericCheck": {
+    "status": "PASS",
+    "framesChecked": 782,
+    "itemsPerFrame": 3,
+    "positionAndVelocityAxesChecked": 9384,
+    "maxPositionError": 2.2737367544323206e-13,
+    "maxVelocityError": 1.2050804798491299e-11,
+    "maxReleaseError": 4.547473508864641e-13,
+    "tolerance": 1e-09,
+    "traceSHA256": "7af5dc2cb13cd190b44b4a13ca4ce0947192b51a48d30fee9be13d3fc53f9a16",
+    "rendererSHA256": "40fd8241fa1f02cffe6edb424da6fecea5bc253628792b25aaf27855830125e3"
+  },
+  "browserUI": {
+    "status": "BLOCKED",
+    "reason": "Bundled Playwright browser absent; installed system Chromium aborts at process_singleton_posix.cc:297: socket() failed: Operation not permitted (1). No runtime screenshot or browser pass claimed."
+  },
+  "macOSBuild": "NOT RUN: Linux host has no AppKit SDK",
+  "nativePixelParity": "NOT VERIFIED",
+  "mediaProvenance": "Offline SVG/Sharp renders, not native/application/browser captures",
+  "httpSmoke": {
+    "status": "PASS",
+    "routesChecked": 8
+  },
+  "nativeSourceChangeScope": "Only string literal presentation text; normalized code matches approved v4 archive",
+  "tracePackaging": {
+    "format": "gzip + base64",
+    "path": "artifacts/snapping/trajectory-trace.json.gz.b64",
+    "losslessVerified": true,
+    "rawJSONRequired": false,
+    "rawJSONAbsent": true,
+    "packedSHA256": "5aa9516c2b9025105c88161db05c645b7049f5d218452aac26887be4c6924660",
+    "uncompressedSHA256": "7af5dc2cb13cd190b44b4a13ca4ce0947192b51a48d30fee9be13d3fc53f9a16",
+    "validationWithRawJSONAbsent": {
+      "nodeTestsPassed": 95,
+      "independentFramesChecked": 782
+    }
+  }
+}

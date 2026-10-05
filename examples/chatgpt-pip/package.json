@@ -9,7 +9,7 @@
     "test": "node --test test/*.test.mjs",
     "capture": "node test/capture.mjs",
     "mac": "bash native/run-macos.sh",
-    "render": "node test/render-artifacts.mjs"
+    "render": "node test/render-preview.mjs"
   },
   "engines": {
     "node": ">=20.11"

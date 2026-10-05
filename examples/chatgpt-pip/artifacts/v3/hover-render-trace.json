@@ -1,0 +1,388 @@
+[
+  {
+    "at": 0,
+    "phase": 0,
+    "title": "Idle",
+    "state": {
+      "itemID": null,
+      "controlID": null,
+      "reveal": 0,
+      "revealTarget": 0,
+      "tintAlpha": 0,
+      "itemScale": 1,
+      "controlsVisible": true,
+      "buttons": [
+        {
+          "id": "return-home",
+          "frame": {
+            "x": 6,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 0.7
+        },
+        {
+          "id": "send-pet",
+          "frame": {
+            "x": 29,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 0.7
+        }
+      ]
+    }
+  },
+  {
+    "at": 1,
+    "phase": 1,
+    "title": "Pointer enters the image",
+    "state": {
+      "itemID": "front",
+      "controlID": null,
+      "reveal": 0,
+      "revealTarget": 1,
+      "tintAlpha": 0.06,
+      "itemScale": 1,
+      "controlsVisible": true,
+      "buttons": [
+        {
+          "id": "return-home",
+          "frame": {
+            "x": 6,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 0.7
+        },
+        {
+          "id": "send-pet",
+          "frame": {
+            "x": 29,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 0.7
+        }
+      ]
+    }
+  },
+  {
+    "at": 2.533333333333333,
+    "phase": 2,
+    "title": "Hover the return control",
+    "state": {
+      "itemID": "front",
+      "controlID": "return-home",
+      "reveal": 1,
+      "revealTarget": 1,
+      "tintAlpha": 0.06,
+      "itemScale": 1,
+      "controlsVisible": true,
+      "buttons": [
+        {
+          "id": "return-home",
+          "frame": {
+            "x": 6,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 1
+        },
+        {
+          "id": "send-pet",
+          "frame": {
+            "x": 29,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 0.7
+        }
+      ]
+    }
+  },
+  {
+    "at": 4,
+    "phase": 3,
+    "title": "Hover Send to Pet",
+    "state": {
+      "itemID": "front",
+      "controlID": "send-pet",
+      "reveal": 1,
+      "revealTarget": 1,
+      "tintAlpha": 0.06,
+      "itemScale": 1,
+      "controlsVisible": true,
+      "buttons": [
+        {
+          "id": "return-home",
+          "frame": {
+            "x": 6,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 0.7
+        },
+        {
+          "id": "send-pet",
+          "frame": {
+            "x": 29,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 1
+        }
+      ]
+    }
+  },
+  {
+    "at": 5.533333333333333,
+    "phase": 4,
+    "title": "Leave the control group",
+    "state": {
+      "itemID": null,
+      "controlID": null,
+      "reveal": 1,
+      "revealTarget": 0,
+      "tintAlpha": 0,
+      "itemScale": 1,
+      "controlsVisible": true,
+      "buttons": [
+        {
+          "id": "return-home",
+          "frame": {
+            "x": 6,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 0.7
+        },
+        {
+          "id": "send-pet",
+          "frame": {
+            "x": 29,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 0.7
+        }
+      ]
+    }
+  },
+  {
+    "at": 7,
+    "phase": 5,
+    "title": "A second card joins the stack",
+    "state": {
+      "itemID": null,
+      "controlID": "send-pet",
+      "reveal": 0,
+      "revealTarget": 1,
+      "tintAlpha": 0,
+      "itemScale": 1,
+      "controlsVisible": true,
+      "buttons": [
+        {
+          "id": "return-home",
+          "frame": {
+            "x": -4,
+            "y": -24,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 0.7
+        },
+        {
+          "id": "send-pet",
+          "frame": {
+            "x": 19,
+            "y": -24,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 1
+        }
+      ]
+    }
+  },
+  {
+    "at": 9,
+    "phase": 6,
+    "title": "Resize interaction",
+    "state": {
+      "itemID": null,
+      "controlID": "send-pet",
+      "reveal": 1,
+      "revealTarget": 1,
+      "tintAlpha": 0,
+      "itemScale": 1,
+      "controlsVisible": true,
+      "buttons": [
+        {
+          "id": "return-home",
+          "frame": {
+            "x": 6,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 0.7
+        },
+        {
+          "id": "send-pet",
+          "frame": {
+            "x": 29,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 1
+        }
+      ]
+    }
+  },
+  {
+    "at": 11,
+    "phase": 7,
+    "title": "Drag and release",
+    "state": {
+      "itemID": "front",
+      "controlID": null,
+      "reveal": 1,
+      "revealTarget": 1,
+      "tintAlpha": 0.06,
+      "itemScale": 1,
+      "controlsVisible": true,
+      "buttons": [
+        {
+          "id": "return-home",
+          "frame": {
+            "x": 6,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 0.7
+        },
+        {
+          "id": "send-pet",
+          "frame": {
+            "x": 29,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 0.7
+        }
+      ]
+    }
+  },
+  {
+    "at": 14,
+    "phase": 8,
+    "title": "Sidebar placement",
+    "state": {
+      "itemID": "front",
+      "controlID": "hide-menu",
+      "reveal": 1,
+      "revealTarget": 1,
+      "tintAlpha": 0.06,
+      "itemScale": 1,
+      "controlsVisible": true,
+      "buttons": [
+        {
+          "id": "hide-menu",
+          "frame": {
+            "x": 6,
+            "y": 6,
+            "width": 41,
+            "height": 22
+          },
+          "opacity": 1
+        },
+        {
+          "id": "send-pet",
+          "frame": {
+            "x": 48,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 0.7
+        }
+      ]
+    }
+  },
+  {
+    "at": 16.533333333333335,
+    "phase": 9,
+    "title": "Pet placement",
+    "state": {
+      "itemID": "front",
+      "controlID": "return-home",
+      "reveal": 1,
+      "revealTarget": 1,
+      "tintAlpha": 0.06,
+      "itemScale": 1,
+      "controlsVisible": true,
+      "buttons": [
+        {
+          "id": "return-home",
+          "frame": {
+            "x": 6,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 1
+        }
+      ]
+    }
+  },
+  {
+    "at": 18.533333333333335,
+    "phase": 10,
+    "title": "Contrast hysteresis",
+    "state": {
+      "itemID": "front",
+      "controlID": null,
+      "reveal": 1,
+      "revealTarget": 1,
+      "tintAlpha": 0.06,
+      "itemScale": 1,
+      "controlsVisible": true,
+      "buttons": [
+        {
+          "id": "return-home",
+          "frame": {
+            "x": 6,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 0.7
+        },
+        {
+          "id": "send-pet",
+          "frame": {
+            "x": 29,
+            "y": 6,
+            "width": 22,
+            "height": 22
+          },
+          "opacity": 0.7
+        }
+      ]
+    }
+  }
+]
