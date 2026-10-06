@@ -1,6 +1,7 @@
-# Source checkpoints
+# Development checkpoints
 
-- [Life in Weeks · optical r3](027-optical-r3.zip) · [Status and hashes](STATUS.json)
-- [ChatGPT scheduled tasks · UI M02](chatgpt-scheduled-tasks-m02.zip) · [Status and hashes](chatgpt-scheduled-tasks-STATUS.json)
+Remaining development or research snapshots. Status and provenance remain inside each package.
 
-Work in progress. These snapshots are not approved main examples.
+- [chatgpt-scheduled-tasks-m02.zip](chatgpt-scheduled-tasks-m02.zip)
+
+[Completed animation gallery](../../../README.md)

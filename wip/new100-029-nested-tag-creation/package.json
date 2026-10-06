@@ -1,1 +1,0 @@
-{"name":"new100-029-nested-tag-creation-recovery","private":true,"version":"0.1.0","scripts":{"test":"node --test tests/*.test.cjs","start":"python3 -m http.server 8029","render":"node render.cjs"},"devDependencies":{"sharp":"0.35.4"}}

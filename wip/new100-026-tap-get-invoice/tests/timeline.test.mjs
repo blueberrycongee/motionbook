@@ -1,5 +1,0 @@
-import test from'node:test';import assert from'node:assert/strict';
-import{CONTROLS}from'../src/controls.mjs';import{nativeState,demoState,scene,DURATION}from'../src/scene.mjs';
-test('all 831 native poses select their own source timestamp and produce finite SVG',()=>{assert.equal(CONTROLS.length,831);for(const s of CONTROLS){assert.deepEqual(nativeState(s.t),s);const svg=scene(s);assert.ok(svg.startsWith('<svg'));assert.ok(!/NaN|Infinity|undefined/.test(svg),`frame ${s.frame}`);assert.equal((svg.match(/<svg/g)||[]).length,(svg.match(/<\/svg>/g)||[]).length);}});
-test('both closing cycles have separate projecting paper faces',()=>{for(const start of[215,500])for(let k=0;k<9;k++){const f=CONTROLS[start+k].reverseFold;assert.ok(f);assert.equal(f.back.length,4);assert.equal(Boolean(f.front),k!==4);}});
-test('authored tail has a stable closed loop and unique gradient IDs',()=>{assert.deepEqual(demoState(0),demoState(DURATION));assert.deepEqual(demoState(15.3),nativeState(0));const s=scene(demoState(14.8));assert.ok(s.includes('id="reset-paperFill"'));assert.ok(s.includes('url(#reset-paperFill)'));});

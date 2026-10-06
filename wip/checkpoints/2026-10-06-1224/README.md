@@ -1,7 +1,9 @@
-# Work in progress
+# Development checkpoints
 
-- [009-rebuild-wip-001](009-rebuild-wip-001-README.md)
-- [027-front-r5](027-front-r5-README.md)
-- [030-wip-m04](030-wip-m04-README.md)
-- [chatgpt-scheduled-tasks-m05](chatgpt-scheduled-tasks-m05-README.md)
-- [033-m04](033-m04-README.md)
+Remaining development or research snapshots. Status and provenance remain inside each package.
+
+- [009-rebuild-wip-001.zip](009-rebuild-wip-001.zip)
+- [030-wip-m04.zip](030-wip-m04.zip)
+- [chatgpt-scheduled-tasks-m05.zip](chatgpt-scheduled-tasks-m05.zip)
+
+[Completed animation gallery](../../../README.md)

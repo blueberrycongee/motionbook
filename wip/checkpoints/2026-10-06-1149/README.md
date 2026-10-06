@@ -1,7 +1,10 @@
-# Work in progress
+# Development checkpoints
 
-- [030-wip-m03](030-wip-m03-README.md)
-- [032-m02](032-m02-README.md)
-- [chatgpt-scheduled-tasks-m03](chatgpt-scheduled-tasks-m03-README.md)
-- [027-marker-r4](027-marker-r4-README.md)
-- [chatgpt-scheduled-tasks-m04-source](chatgpt-scheduled-tasks-m04-source-README.md)
+Remaining development or research snapshots. Status and provenance remain inside each package.
+
+- [030-wip-m03.zip](030-wip-m03.zip)
+- [032-m02.zip](032-m02.zip)
+- [chatgpt-scheduled-tasks-m03.zip](chatgpt-scheduled-tasks-m03.zip)
+- [chatgpt-scheduled-tasks-m04-source.zip](chatgpt-scheduled-tasks-m04-source.zip)
+
+[Completed animation gallery](../../../README.md)

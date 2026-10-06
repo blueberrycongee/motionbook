@@ -1,5 +1,0 @@
-import{ProgressController}from'./motion.mjs';import{renderScene}from'./scene.mjs';
-const scene=document.querySelector('#scene'),start=document.querySelector('#start'),cancel=document.querySelector('#cancel'),status=document.querySelector('#status');const ctrl=new ProgressController({reducedMotion:matchMedia('(prefers-reduced-motion: reduce)').matches});const now=()=>performance.now()/1000;
-function sync(){const active=ctrl.current==='updating';start.hidden=active;cancel.hidden=!active;status.textContent=active?'Updating':'Ready';}
-start.addEventListener('click',()=>{if(ctrl.activate(now())){sync();cancel.focus({preventScroll:true});}});cancel.addEventListener('click',()=>{if(ctrl.cancel(now())){sync();start.focus({preventScroll:true});}});addEventListener('keydown',e=>{if(e.key==='Escape'&&ctrl.cancel(now())){sync();start.focus({preventScroll:true});}});
-function tick(){const state=ctrl.sample(now());scene.innerHTML=renderScene(now(),{state});sync();requestAnimationFrame(tick)}requestAnimationFrame(tick);

@@ -9,16 +9,5 @@
     "files": 20,
     "status": "WIP; revised visual review and final media pending.",
     "reference_media_included": false
-  },
-  {
-    "id": "029-nested-tag-creation-final-03",
-    "archive": "029-nested-tag-creation-final-03.zip",
-    "archive_bytes": 2494076,
-    "archive_sha256": "3d1b5827da61e0bbcc57adfeb7e81e0f42916090e152542c9e495aef69a01faf",
-    "source_manifest": "MANIFEST.json",
-    "source_manifest_sha256": "41e91fd46fdf90fe2f16022350048fd61f3844eaf600ef9467c0f0db2cfebbea",
-    "files": 39,
-    "status": "WIP; independent final correction review pending.",
-    "reference_media_included": false
   }
 ]

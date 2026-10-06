@@ -1,5 +1,7 @@
-# Source checkpoints
+# Development checkpoints
 
-[Elastic string clock](032-elastic-string-clock-m03.zip) · [Status](STATUS.json)
+Remaining development or research snapshots. Status and provenance remain inside each package.
 
-[Nested tag creation](029-nested-tag-creation-final-03.zip) · [Status](029-STATUS.json)
+- [032-elastic-string-clock-m03.zip](032-elastic-string-clock-m03.zip)
+
+[Completed animation gallery](../../../README.md)
