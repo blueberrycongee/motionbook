@@ -1,0 +1,64 @@
+{
+  "case": "new100-007",
+  "source": {
+    "url": "https://media.inspora.design/posts/1fa28472-c665-4d6d-9ca0-726a1738b332.mp4",
+    "sha256": "50988aaa7855dcf65b339a530eb4b99927027c1ebad6b4bd20e82d3cbeac9ae3",
+    "native_frames": 383,
+    "native_duration_seconds": 16,
+    "alignment": "Exact original ffprobe PTS; zero time offset."
+  },
+  "review": {
+    "reviewer": "/root/replicate_scheduling_paper_motion",
+    "reviewed_at_utc": "2026-10-06T00:04:08.389325+00:00",
+    "original_frames_visually_reviewed": 383,
+    "frame_indices_inclusive": [
+      0,
+      382
+    ],
+    "contact_pages": 22,
+    "authored_closure_frames_visually_reviewed": 72,
+    "manual_review_report_sha256": "baf866989e368d081cbe556644180c2c57abfdf5def2bdb35d01556f481c637f",
+    "native_comparison_report_sha256": "791431706edd4b2db380448428f106752ed3a09b4e5a7afbad38c073dee4febf",
+    "full_resolution_frame_hashes_sha256": "35c6f3ff0f764ddc82b6bf36df5590a6f674332a82b8147a7dc04cb0ffbdc29c",
+    "runtime": "Actual browser runtime not executed; offline visual self-review only.",
+    "correction_delta_report_sha256": "6c62d504c971e1eb170f2cae62ebf39cd7c8a55fc5fcbcf6d764ce4cc56281d3",
+    "corrections": "Ink opacity, measured colored time-line draw-ons, footer-link underlines, and visual-only README. All 383 native pairs and all 72 closure frames were visually re-reviewed."
+  },
+  "payload_sha256": {
+    "scene.js": "9d08a405d18f0081c42d1e4144f18ba349addc2fb038a2f9e49367fe767997fe",
+    "motion-data.js": "b10d902e373ce785282a0ebcb950f6189a784acf9b33286ffaccbb5b6f89e558",
+    "app.js": "3cdcdf02093905304ba2f1f4893043415c62e1c7d97781e5fc9111a391c33444",
+    "index.html": "af0be06d3e12b48180c4636ab7bb85ac17f57030f7027c6efe1095fa9d69873e",
+    "render.cjs": "0110a2bd7f57eb80a2e2949d3d5f1b6ed10f63b60d5f51ff39ae59c5b4fbbed3",
+    "preview/loop.mp4": "81ba44a9b357a0ee612958c0becf0cc0a0c095aea5d58057df25d011fe564ce1",
+    "preview/loop.gif": "c84d8765352f173f15116d678614551f248d64bdc0e76a59320e7ecc313ed653",
+    "assets/StudySans-Regular.ttf": "79df02fca0aaf58bae7990cafb3179a6eaf6cde1c2cacf5af11b67cfa0c569d0",
+    "assets/StudySans-Semibold.ttf": "6f91b7bcc10fab1466905cb14d04e97f245707adde48e7f24d9ac5362f00f186",
+    "assets/StudyHand-Regular.ttf": "52ff1953360ed59b5549254275f440bdff0e70f578792fd7d23f10a08690fdd5",
+    "assets/StudyHand-Semibold.ttf": "09af3ca75fef86daae7c2a399c236647aa5c7218618976eb6e152ae229ffb005",
+    "assets/StudyHand-Bold.ttf": "c369158e390acd19717f0e21adb4a97e3c6dcfb58c58846b7abf0031739dcb97",
+    "assets/Mono.ttf": "54bf827eb99404e8f430c330ad30f063334f637eba0109b6a18d4f566a8e9dd8",
+    "assets/Mono-Bold.ttf": "0d3c03d1b667192f91223660a3163325cf83132662fe4d9f7d6e596bf7a995c2"
+  },
+  "media": {
+    "mp4": {
+      "width": 1080,
+      "height": 1080,
+      "fps": 24,
+      "frames": 456,
+      "duration_seconds": 19
+    },
+    "gif": {
+      "width": 864,
+      "height": 864,
+      "fps": 20,
+      "frames": 380,
+      "duration_seconds": 19
+    }
+  },
+  "loop_rgba_sha256": {
+    "0": "1c97fdf740237cb33acecc7ee07ede5de2404cc39a0f61c08545565d2390808b",
+    "19": "1c97fdf740237cb33acecc7ee07ede5de2404cc39a0f61c08545565d2390808b",
+    "18.958333333333332": "1c97fdf740237cb33acecc7ee07ede5de2404cc39a0f61c08545565d2390808b"
+  }
+}

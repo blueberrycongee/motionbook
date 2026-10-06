@@ -1,0 +1,16 @@
+✔ Button, swipe, filter and escape handlers are wired (4.611788ms)
+✔ Taking over recorded playback clears recorded poses before navigation (1.745854ms)
+✔ Seven meetings cycle forward and backward without stale state (1.128282ms)
+✔ Filters persist through navigation and reset reversibly (0.809792ms)
+✔ Animated swipe exposes a next card, returns to a seamless resting state (0.366553ms)
+✔ All timeline frames stay in finite bounds (4.283122ms)
+✔ Recorded counter timing is independent of dominant paper color and includes the reverse roll (0.480405ms)
+✔ Recorded time underlines draw on after writing and redraw after the reverse (0.42392ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 122.068233
