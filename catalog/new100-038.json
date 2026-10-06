@@ -1,0 +1,15 @@
+{
+  "id": "new100-038",
+  "title": "Fractional slider",
+  "path": "examples/fractional-slider",
+  "source": "https://rauno.me/craft/fractional-slider",
+  "creator": "Rauno Freiberg",
+  "implementation": "Independent SVG scene and drag, wheel and keyboard controls",
+  "preview": "Offline render from shared scene code",
+  "native_frames": 360,
+  "authored_closure_frames": 0,
+  "tests_passed": 10,
+  "independent_visual_review": "passed",
+  "browser_runtime": "not_run",
+  "assets": "Independent vectors; Inter under SIL OFL with notice"
+}

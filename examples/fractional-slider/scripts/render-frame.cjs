@@ -1,0 +1,1 @@
+const fs=require('fs'),path=require('path'),sharp=require('sharp'),Scene=require('../src/scene.js'),Trace=require('../src/trace.js');const i=Number(process.argv[2]);if(!Number.isInteger(i)||i<0||i>359||!process.argv[3])throw Error('Provide native frame index0–359 and output PNG path');sharp(Buffer.from(Scene.render(Trace.frames[i]))).png().toFile(process.argv[3]);
