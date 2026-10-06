@@ -1,0 +1,13 @@
+{
+  "case": "029",
+  "created_at": "2026-10-06T08:51:00Z",
+  "status": "source-only WIP reconstruction; not fidelity approved",
+  "prior_payload_recovered": false,
+  "source_hash_recovered": true,
+  "native_pts_count": 1022,
+  "tests_passed": 7,
+  "browser_runtime": "not executed; prior denial respected",
+  "new_visual_review": "initial frame only; full native sequence pending",
+  "main_index_eligible": false,
+  "contains_reference_media": false
+}
