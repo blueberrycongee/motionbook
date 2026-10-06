@@ -1,0 +1,11 @@
+{
+  "renderer": "offline SVG layers; no browser runtime claim",
+  "frame_count": 1082,
+  "original_frame_count": 1022,
+  "max_pts_error_microseconds": 0,
+  "duration": "23.035000",
+  "complete_decodes": [
+    "loop.mp4",
+    "loop.gif"
+  ]
+}

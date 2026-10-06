@@ -1,0 +1,13 @@
+{
+  "frames": 691,
+  "distinct_rgb_frames": 457,
+  "duration_ms": 23030,
+  "size": [
+    800,
+    832
+  ],
+  "first_last_rgb_identical": true,
+  "first_last_rgb_sha256": "efd1a0dbe49e808d74fd7303df8b825c82dbfa51f0724c3ac4185a03fd27cd22",
+  "sha256": "a24f278a8c7773fb3709f60d12be22db7842e34b74fbef4dc934f4d8d79c4ff8",
+  "generation": "Direct independent native PNG concat, sampled at30fps; no MP4 compression intermediary."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "new100-029",
+  "slug": "nested-tag-creation",
+  "package_revision": "final-03",
+  "manifest_sha256": "41e91fd46fdf90fe2f16022350048fd61f3844eaf600ef9467c0f0db2cfebbea",
+  "independent_review": "cleared_for_publisher",
+  "baseline_native_pairs": 1022,
+  "final_changed_states_reviewed": 711,
+  "enclosing_boundaries": 16,
+  "final_encoded_tail_states_reviewed": 60,
+  "fresh_final_rgba_states": 1082,
+  "tests_passed": 12,
+  "gif_frames": 691,
+  "gif_distinct_frames": 457,
+  "gif_loop": 0,
+  "browser_runtime": "not_run",
+  "readme_browser_playback_verification": "pending",
+  "fidelity_limits": "Independent font and pointer contours, shadows and antialiasing remain; no pixel identity claim."
+}

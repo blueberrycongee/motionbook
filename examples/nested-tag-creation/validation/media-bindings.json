@@ -1,0 +1,26 @@
+{
+  "kind": "Fresh export from independent canonical SVG raster sequence",
+  "mp4": {
+    "sha256": "a65dacabb93779b2e064f9b51f55fd73c8726068a278a67b59ef60cf45491cd9",
+    "frame_count": 1082,
+    "source_native_frames": 1022,
+    "tail_frames": 60,
+    "duration": 23.035,
+    "max_native_pts_error_us": 0,
+    "complete_decode": true
+  },
+  "gif": {
+    "frames": 691,
+    "distinct_rgb_frames": 457,
+    "duration_ms": 23030,
+    "size": [
+      800,
+      832
+    ],
+    "first_last_rgb_identical": true,
+    "first_last_rgb_sha256": "efd1a0dbe49e808d74fd7303df8b825c82dbfa51f0724c3ac4185a03fd27cd22",
+    "sha256": "a24f278a8c7773fb3709f60d12be22db7842e34b74fbef4dc934f4d8d79c4ff8",
+    "generation": "Direct independent native PNG concat, sampled at30fps; no MP4 compression intermediary."
+  },
+  "frame_bindings_sha256": "22537b552d7b5a78e26e6687403cb70a13cba42d3c51a7b5be323209c460d622"
+}

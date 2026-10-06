@@ -144,10 +144,14 @@
 
 [![Life in Weeks](examples/life-in-weeks/preview.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/life-in-weeks)
 
+## macOS Genie
+
+[![macOS Genie](examples/macos-genie/preview/loop.gif)](examples/macos-genie)
+
 ## dot send
 
 [![dot send](examples/chatgpt-dot-send/artifacts/dot-send-study.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/chatgpt-dot-send)
 
-## macOS Genie
+## Nested tag creation
 
-[![macOS Genie](examples/macos-genie/preview/loop.gif)](examples/macos-genie)
+[![Nested tag creation](examples/nested-tag-creation/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/nested-tag-creation)

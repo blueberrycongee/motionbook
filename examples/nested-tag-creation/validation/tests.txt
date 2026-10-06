@@ -1,0 +1,20 @@
+✔ event wiring creates a colored label from keyboard and preserves the search caret (107.787146ms)
+✔ Escape and outside dismissal unwind an interrupted create flow without committing it (13.617071ms)
+✔ reduced motion starts paused and replay resets live changes (2.46961ms)
+✔ custom label uses chosen color and duplicate names are rejected case insensitively (24.714002ms)
+✔ nested color filtering and keyboard wrapping use visible choices (2.076157ms)
+✔ adopting observed state preserves user interactions and escape unwinds the nested menu (1.134928ms)
+✔ the original variable native timestamps are retained (5.066986ms)
+✔ observed sequence changes from filtering to nested creation and selection (2.813125ms)
+✔ the authored tail adopts the matching visible initial selection (3.450893ms)
+✔ SVG frames escape content and remain finite across every native timestamp (110.325682ms)
+✔ the authored tail uses measured endpoints without overlapping label ink (12.150659ms)
+✔ checkbox fill, outline and fading check are independently staged (0.356909ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 458.987574
