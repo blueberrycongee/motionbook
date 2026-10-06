@@ -1,0 +1,7 @@
+{
+  "source_frames": 576,
+  "output_frames": 576,
+  "max_timestamp_difference_seconds": 0.0,
+  "output_last_timestamp": 9.9889,
+  "type": "Offline vector render; 576 native reference sample timestamps plus terminal hold if required by encoder"
+}

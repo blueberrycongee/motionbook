@@ -1,0 +1,15 @@
+{
+  "id": "micro-progress-button",
+  "collection": "supplemental",
+  "new100_counted": false,
+  "accepted_revision": "m02-preview",
+  "accepted_manifest_sha256": "c5134acee70eb95d0496b2efeac5ba708c7b31682d0e05e5006ebeb0c6690868",
+  "publication_manifest_sha256": "bcc63ddeef8bce68a95ba67e070eedcaa925cf68251f0f06989227b5213dc209",
+  "source_and_media_unchanged": true,
+  "documentation_changes": "Compact visual README; run notes separated; accepted manifest retained",
+  "tests_passed": 6,
+  "media_full_decode": "passed",
+  "font": "Nunito with bundled SIL OFL notice",
+  "browser_runtime": "not_run",
+  "readme_browser_playback_verification": "pending"
+}

@@ -1,157 +1,60 @@
 # 参考动画
 
-## Inspora footer
-
-[![Inspora footer](examples/inspora-footer/delivery/footer-preview.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/inspora-footer)
-
-## Praveen cards
-
-[![Praveen cards](examples/praveen-cards/artifacts/praveen-reconstruction-offline.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/praveen-cards)
-
-## PiP
-
-[![PiP](examples/chatgpt-pip/artifacts/snapping/pip-snapping-physics.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/chatgpt-pip)
-
-## Sketcha onboarding
-
-[![Sketcha onboarding](examples/sketcha-onboarding/preview/onboarding-v2.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/sketcha-onboarding)
-
-## Shiba online
-
-[![Shiba online](examples/shiba-online/preview/shiba-online.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/shiba-online)
-
-## Flo composer
-
-[![Flo composer](examples/flo-composer/artifacts/flo-composer-reconstruction.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/flo-composer)
-
-## Tiny animated SVG
-
-[![Tiny animated SVG](examples/tiny-animated-svg/preview/pro.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/tiny-animated-svg)
-
-## Playful project hovers
-
-[![Playful project hovers](examples/spencer-playful-hovers/preview/hover-sequence.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/spencer-playful-hovers)
-
-## Progress squeeze
-
-[![Progress squeeze](examples/progress-squeeze/preview/progress-squeeze.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/progress-squeeze)
-
-## Luminous tabs
-
-[![Luminous tabs](examples/luminous-tabs/preview/luminous-tabs.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/luminous-tabs)
-
-## Flight pill
-
-[![Flight pill](examples/flight-pill/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/flight-pill)
-
-## Document signature
-
-[![Document signature](examples/document-signature/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/document-signature)
-
-## Paperclip transcript
-
-[![Paperclip transcript](examples/paperclip-interaction/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/paperclip-interaction)
-
-## File upload card
-
-[![File upload card](examples/file-upload-card/preview/file-upload-card.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/file-upload-card)
-
-## Meeting Finder
-
-[![Meeting Finder](examples/meeting-finder/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/meeting-finder)
-
-## Invite code reveal
-
-[![Invite code reveal](examples/invite-code-reveal/preview/invite-code-reveal.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/invite-code-reveal)
-
-## Angry sliders
-
-[![Angry sliders](examples/angry-sliders/preview/angry-sliders.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/angry-sliders)
-
-## Expandable tool grid
-
-[![Expandable tool grid](examples/expandable-tool-grid/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/expandable-tool-grid)
-
-## Tactile controller
-
-[![Tactile controller](examples/tactile-controller/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/tactile-controller)
-
-## Ticket dissolve
-
-[![Ticket dissolve](examples/thanos-snap-ticket/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/thanos-snap-ticket)
-
-## Sticky note app
-
-[![Sticky note app](examples/sticky-note-app/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/sticky-note-app)
-
-## Dynamic island streak
-
-[![Dynamic island streak](examples/dynamic-island-streak/preview/dynamic-island-streak.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/dynamic-island-streak)
-
-## Adaptive email sidebar
-
-[![Adaptive email sidebar](examples/adaptive-email-sidebar/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/adaptive-email-sidebar)
-
-## RAG Pipeline
-
-[![RAG Pipeline](examples/rag-pipeline/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/rag-pipeline)
-
-## Morphing braille loader
-
-[![Morphing braille loader](examples/morphing-braille-loader/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/morphing-braille-loader)
-
-## Card details sheet
-
-[![Card details sheet](examples/card-details-sheet/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/card-details-sheet)
-
-## Task card gesture stack
-
-[![Task card gesture stack](examples/task-card-gesture-stack/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/task-card-gesture-stack)
-
-## Customizable glass folder
-
-[![Customizable glass folder](examples/customizable-glass-folder/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/customizable-glass-folder)
-
-## Segmented order-status card
-
-[![Segmented order-status card](examples/order-status-card/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/order-status-card)
-
-## Paid stamp
-
-[![Paid stamp](examples/paid-stamp/preview/paid-stamp.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/paid-stamp)
-
-## Adaptive Precision
-
-[![Adaptive Precision](examples/adaptive-precision/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/adaptive-precision)
-
-## Minimap
-
-[![Minimap](examples/minimap/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/minimap)
-
-## Agent plan
-
-[![Agent plan](examples/agent-plan/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/agent-plan)
-
-## Tap / get invoice
-
-[![Tap / get invoice](examples/tap-get-invoice/preview.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/tap-get-invoice)
-
-## Light Work
-
-[![Light Work](examples/light-work/preview.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/light-work)
-
-## Life in Weeks
-
-[![Life in Weeks](examples/life-in-weeks/preview.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/life-in-weeks)
-
-## macOS Genie
-
-[![macOS Genie](examples/macos-genie/preview/loop.gif)](examples/macos-genie)
-
-## dot send
-
-[![dot send](examples/chatgpt-dot-send/artifacts/dot-send-study.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/chatgpt-dot-send)
-
-## Nested tag creation
-
-[![Nested tag creation](examples/nested-tag-creation/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/nested-tag-creation)
+<table>
+  <tr>
+    <td align="center" width="20%"><a href="examples/inspora-footer/README.md"><img src="examples/inspora-footer/delivery/footer-preview.gif" width="160" alt="Inspora footer"></a><br><a href="examples/inspora-footer/README.md">Inspora footer</a></td>
+    <td align="center" width="20%"><a href="examples/praveen-cards/README.md"><img src="examples/praveen-cards/artifacts/praveen-reconstruction-offline.gif" width="160" alt="Praveen cards"></a><br><a href="examples/praveen-cards/README.md">Praveen cards</a></td>
+    <td align="center" width="20%"><a href="examples/chatgpt-pip/README.md"><img src="examples/chatgpt-pip/artifacts/snapping/pip-snapping-physics.gif" width="160" alt="PiP"></a><br><a href="examples/chatgpt-pip/README.md">PiP</a></td>
+    <td align="center" width="20%"><a href="examples/sketcha-onboarding/README.md"><img src="examples/sketcha-onboarding/preview/onboarding-v2.gif" width="160" alt="Sketcha onboarding"></a><br><a href="examples/sketcha-onboarding/README.md">Sketcha onboarding</a></td>
+    <td align="center" width="20%"><a href="examples/shiba-online/README.md"><img src="examples/shiba-online/preview/shiba-online.gif" width="160" alt="Shiba online"></a><br><a href="examples/shiba-online/README.md">Shiba online</a></td>
+  </tr>
+  <tr>
+    <td align="center" width="20%"><a href="examples/flo-composer/README.md"><img src="examples/flo-composer/artifacts/flo-composer-reconstruction.gif" width="160" alt="Flo composer"></a><br><a href="examples/flo-composer/README.md">Flo composer</a></td>
+    <td align="center" width="20%"><a href="examples/tiny-animated-svg/README.md"><img src="examples/tiny-animated-svg/preview/pro.gif" width="160" alt="Tiny animated SVG"></a><br><a href="examples/tiny-animated-svg/README.md">Tiny animated SVG</a></td>
+    <td align="center" width="20%"><a href="examples/spencer-playful-hovers/README.md"><img src="examples/spencer-playful-hovers/preview/hover-sequence.gif" width="160" alt="Playful project hovers"></a><br><a href="examples/spencer-playful-hovers/README.md">Playful project hovers</a></td>
+    <td align="center" width="20%"><a href="examples/progress-squeeze/README.md"><img src="examples/progress-squeeze/preview/progress-squeeze.gif" width="160" alt="Progress squeeze"></a><br><a href="examples/progress-squeeze/README.md">Progress squeeze</a></td>
+    <td align="center" width="20%"><a href="examples/luminous-tabs/README.md"><img src="examples/luminous-tabs/preview/luminous-tabs.gif" width="160" alt="Luminous tabs"></a><br><a href="examples/luminous-tabs/README.md">Luminous tabs</a></td>
+  </tr>
+  <tr>
+    <td align="center" width="20%"><a href="examples/flight-pill/README.md"><img src="examples/flight-pill/preview/loop.gif" width="160" alt="Flight pill"></a><br><a href="examples/flight-pill/README.md">Flight pill</a></td>
+    <td align="center" width="20%"><a href="examples/document-signature/README.md"><img src="examples/document-signature/preview/loop.gif" width="160" alt="Document signature"></a><br><a href="examples/document-signature/README.md">Document signature</a></td>
+    <td align="center" width="20%"><a href="examples/paperclip-interaction/README.md"><img src="examples/paperclip-interaction/preview/loop.gif" width="160" alt="Paperclip transcript"></a><br><a href="examples/paperclip-interaction/README.md">Paperclip transcript</a></td>
+    <td align="center" width="20%"><a href="examples/file-upload-card/README.md"><img src="examples/file-upload-card/preview/file-upload-card.gif" width="160" alt="File upload card"></a><br><a href="examples/file-upload-card/README.md">File upload card</a></td>
+    <td align="center" width="20%"><a href="examples/meeting-finder/README.md"><img src="examples/meeting-finder/preview/loop.gif" width="160" alt="Meeting Finder"></a><br><a href="examples/meeting-finder/README.md">Meeting Finder</a></td>
+  </tr>
+  <tr>
+    <td align="center" width="20%"><a href="examples/invite-code-reveal/README.md"><img src="examples/invite-code-reveal/preview/invite-code-reveal.gif" width="160" alt="Invite code reveal"></a><br><a href="examples/invite-code-reveal/README.md">Invite code reveal</a></td>
+    <td align="center" width="20%"><a href="examples/angry-sliders/README.md"><img src="examples/angry-sliders/preview/angry-sliders.gif" width="160" alt="Angry sliders"></a><br><a href="examples/angry-sliders/README.md">Angry sliders</a></td>
+    <td align="center" width="20%"><a href="examples/expandable-tool-grid/README.md"><img src="examples/expandable-tool-grid/preview/loop.gif" width="160" alt="Expandable tool grid"></a><br><a href="examples/expandable-tool-grid/README.md">Expandable tool grid</a></td>
+    <td align="center" width="20%"><a href="examples/tactile-controller/README.md"><img src="examples/tactile-controller/preview/loop.gif" width="160" alt="Tactile controller"></a><br><a href="examples/tactile-controller/README.md">Tactile controller</a></td>
+    <td align="center" width="20%"><a href="examples/thanos-snap-ticket/README.md"><img src="examples/thanos-snap-ticket/preview/loop.gif" width="160" alt="Ticket dissolve"></a><br><a href="examples/thanos-snap-ticket/README.md">Ticket dissolve</a></td>
+  </tr>
+  <tr>
+    <td align="center" width="20%"><a href="examples/sticky-note-app/README.md"><img src="examples/sticky-note-app/preview/loop.gif" width="160" alt="Sticky note app"></a><br><a href="examples/sticky-note-app/README.md">Sticky note app</a></td>
+    <td align="center" width="20%"><a href="examples/dynamic-island-streak/README.md"><img src="examples/dynamic-island-streak/preview/dynamic-island-streak.gif" width="160" alt="Dynamic island streak"></a><br><a href="examples/dynamic-island-streak/README.md">Dynamic island streak</a></td>
+    <td align="center" width="20%"><a href="examples/adaptive-email-sidebar/README.md"><img src="examples/adaptive-email-sidebar/preview/loop.gif" width="160" alt="Adaptive email sidebar"></a><br><a href="examples/adaptive-email-sidebar/README.md">Adaptive email sidebar</a></td>
+    <td align="center" width="20%"><a href="examples/rag-pipeline/README.md"><img src="examples/rag-pipeline/preview/loop.gif" width="160" alt="RAG Pipeline"></a><br><a href="examples/rag-pipeline/README.md">RAG Pipeline</a></td>
+    <td align="center" width="20%"><a href="examples/morphing-braille-loader/README.md"><img src="examples/morphing-braille-loader/preview/loop.gif" width="160" alt="Morphing braille loader"></a><br><a href="examples/morphing-braille-loader/README.md">Morphing braille loader</a></td>
+  </tr>
+  <tr>
+    <td align="center" width="20%"><a href="examples/card-details-sheet/README.md"><img src="examples/card-details-sheet/preview/loop.gif" width="160" alt="Card details sheet"></a><br><a href="examples/card-details-sheet/README.md">Card details sheet</a></td>
+    <td align="center" width="20%"><a href="examples/task-card-gesture-stack/README.md"><img src="examples/task-card-gesture-stack/preview/loop.gif" width="160" alt="Task card gesture stack"></a><br><a href="examples/task-card-gesture-stack/README.md">Task card gesture stack</a></td>
+    <td align="center" width="20%"><a href="examples/customizable-glass-folder/README.md"><img src="examples/customizable-glass-folder/preview/loop.gif" width="160" alt="Customizable glass folder"></a><br><a href="examples/customizable-glass-folder/README.md">Customizable glass folder</a></td>
+    <td align="center" width="20%"><a href="examples/order-status-card/README.md"><img src="examples/order-status-card/preview/loop.gif" width="160" alt="Segmented order-status card"></a><br><a href="examples/order-status-card/README.md">Segmented order-status card</a></td>
+    <td align="center" width="20%"><a href="examples/paid-stamp/README.md"><img src="examples/paid-stamp/preview/paid-stamp.gif" width="160" alt="Paid stamp"></a><br><a href="examples/paid-stamp/README.md">Paid stamp</a></td>
+  </tr>
+  <tr>
+    <td align="center" width="20%"><a href="examples/adaptive-precision/README.md"><img src="examples/adaptive-precision/preview/loop.gif" width="160" alt="Adaptive Precision"></a><br><a href="examples/adaptive-precision/README.md">Adaptive Precision</a></td>
+    <td align="center" width="20%"><a href="examples/minimap/README.md"><img src="examples/minimap/preview/loop.gif" width="160" alt="Minimap"></a><br><a href="examples/minimap/README.md">Minimap</a></td>
+    <td align="center" width="20%"><a href="examples/agent-plan/README.md"><img src="examples/agent-plan/preview/loop.gif" width="160" alt="Agent plan"></a><br><a href="examples/agent-plan/README.md">Agent plan</a></td>
+    <td align="center" width="20%"><a href="examples/tap-get-invoice/README.md"><img src="examples/tap-get-invoice/preview.gif" width="160" alt="Tap / get invoice"></a><br><a href="examples/tap-get-invoice/README.md">Tap / get invoice</a></td>
+    <td align="center" width="20%"><a href="examples/light-work/README.md"><img src="examples/light-work/preview.gif" width="160" alt="Light Work"></a><br><a href="examples/light-work/README.md">Light Work</a></td>
+  </tr>
+  <tr>
+    <td align="center" width="20%"><a href="examples/life-in-weeks/README.md"><img src="examples/life-in-weeks/preview.gif" width="160" alt="Life in Weeks"></a><br><a href="examples/life-in-weeks/README.md">Life in Weeks</a></td>
+    <td align="center" width="20%"><a href="examples/macos-genie/README.md"><img src="examples/macos-genie/preview/loop.gif" width="160" alt="macOS Genie"></a><br><a href="examples/macos-genie/README.md">macOS Genie</a></td>
+    <td align="center" width="20%"><a href="examples/chatgpt-dot-send/README.md"><img src="examples/chatgpt-dot-send/artifacts/dot-send-study.gif" width="160" alt="dot send"></a><br><a href="examples/chatgpt-dot-send/README.md">dot send</a></td>
+    <td align="center" width="20%"><a href="examples/nested-tag-creation/README.md"><img src="examples/nested-tag-creation/preview/loop.gif" width="160" alt="Nested tag creation"></a><br><a href="examples/nested-tag-creation/README.md">Nested tag creation</a></td>
+    <td align="center" width="20%"><a href="examples/micro-progress-button/README.md"><img src="examples/micro-progress-button/deliverables/micro-progress-button.gif" width="160" alt="Micro progress button"></a><br><a href="examples/micro-progress-button/README.md">Micro progress button</a></td>
+  </tr>
+</table>

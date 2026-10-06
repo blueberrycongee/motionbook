@@ -1,0 +1,18 @@
+{
+  "reference_frames": 576,
+  "compared_frames": 576,
+  "native_pts_first": 0.0,
+  "native_pts_last": 9.9889,
+  "comparison_type": "Every original native frame compared with independently rendered SVG at its exact timestamp; full pixel MAE and button-only ROI MAE. Not browser validation.",
+  "whole_frame_mae_mean": 1.8677940750296496,
+  "button_roi_mae_mean": 6.338047449368844,
+  "button_roi_mae_p95": 8.670543071161049,
+  "blue_left_abs_error_median_px": 1.0,
+  "blue_left_abs_error_p95_px": 2.0,
+  "limitations": [
+    "Rounded font is the open-source Nunito substitute, not the proprietary reference font.",
+    "Blue internal shading and cursor outline are independent approximations.",
+    "Offline renderer and controller unit tests are verified. Browser interaction has not been validated.",
+    "User preview acceptance is pending."
+  ]
+}

@@ -1,0 +1,157 @@
+[
+  {
+    "path": "index.html",
+    "sha256": "23c79ffed7664687735dd8e9234657baf7a25c0a9a5e3a7996147e69bce97178",
+    "bytes": 1064
+  },
+  {
+    "path": "package.json",
+    "sha256": "469287a624cb2432228b1cc4b55c4bd7081f3c4d91bd3d7f8523c2d14da4825b",
+    "bytes": 265
+  },
+  {
+    "path": "README.md",
+    "sha256": "2d8fe135e08c3dae146f5aa959b55172469fe3e46eb405ba2df257fe861eafcd",
+    "bytes": 358
+  },
+  {
+    "path": "PROVENANCE.md",
+    "sha256": "743e95caac8ae50b38e3407fd784b48ba9c02268128f3d6ba2b2011716e7039b",
+    "bytes": 1584
+  },
+  {
+    "path": "REVIEW.md",
+    "sha256": "b27ab2ea9c2632b04bdd1115b661fbd505504c3e157c30f42702eecbebd29fbc",
+    "bytes": 1905
+  },
+  {
+    "path": "STATUS.json",
+    "sha256": "63a8b167b2eaac95f1443c9d308821616f6e906b9d0a42288f5101bf06dd0b89",
+    "bytes": 356
+  },
+  {
+    "path": "src/lettering-paths.json",
+    "sha256": "bf8979b922dd95875af08bac646155b5b6488ac773627b294de5d91b02f2f41a",
+    "bytes": 19129
+  },
+  {
+    "path": "src/glyphs.mjs",
+    "sha256": "fcbaefd8453b56cf92906f68a9965a4e844a8516fc0907593f5144a0cf156747",
+    "bytes": 19453
+  },
+  {
+    "path": "src/motion.mjs",
+    "sha256": "b72dd6937bc5e756d372a2a34437995a1030fd4ee814a86518d5d54997b912c9",
+    "bytes": 1977
+  },
+  {
+    "path": "src/cursor-timeline.json",
+    "sha256": "d9ef00ec7d8bdb5fb292b4f554afaf54d652f45fc995f669a28cee92f2dd5fe9",
+    "bytes": 10796
+  },
+  {
+    "path": "src/scene.mjs",
+    "sha256": "88413856b7f065bdcf463a5617eecd88e58837f8d8e1f6c8cd89aa74709ef624",
+    "bytes": 4188
+  },
+  {
+    "path": "src/app.mjs",
+    "sha256": "2674b60266b09e535d52ffa8830fe39091e61357bf3386f2eba34da0c5a92604",
+    "bytes": 1021
+  },
+  {
+    "path": "tests/motion.test.mjs",
+    "sha256": "40b7e99ac67047ed90fd576781f7226fa1359d6b40bee0026134d042d6079258",
+    "bytes": 1627
+  },
+  {
+    "path": "tests/app-wiring.test.mjs",
+    "sha256": "1fe6cc56b9e9fc89a93879a752729af8540f816b72f81d5b115009ca55f47644",
+    "bytes": 1322
+  },
+  {
+    "path": "scripts/compare-native.py",
+    "sha256": "d8927b1c090a16e42ccee362ed5cf748c03208ca4d6521c2241c031b06d921c3",
+    "bytes": 2884
+  },
+  {
+    "path": "scripts/build-lettering.py",
+    "sha256": "87c5413351a116101e9ac29238966e6ca7acf3bbdb920bfc1300821a8f4f19d2",
+    "bytes": 1453
+  },
+  {
+    "path": "scripts/bundle.mjs",
+    "sha256": "b1f4118ecb284fbae5035c1eae2d132ec75534ea889c2ab9a754deb42eee3adc",
+    "bytes": 651
+  },
+  {
+    "path": "scripts/render.mjs",
+    "sha256": "810412ecb7cdc2322af40e6a11f9dc148e8caabc94229b9161be433f790a0c4d",
+    "bytes": 2630
+  },
+  {
+    "path": "assets/Nunito-OFL.txt",
+    "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+    "bytes": 4385
+  },
+  {
+    "path": "assets/Nunito.ttf",
+    "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+    "bytes": 276932
+  },
+  {
+    "path": "deliverables/interactive.html",
+    "sha256": "3761de40ef7b336f62e4ac639b667703591661edccdf5d6b53ec20b6824578ba",
+    "bytes": 27437
+  },
+  {
+    "path": "deliverables/poster.png",
+    "sha256": "32e587f211b7b5e31d8603df45d338e50344b27b5bd926493598f5ac86d00a69",
+    "bytes": 36693
+  },
+  {
+    "path": "deliverables/micro-progress-button.gif",
+    "sha256": "f399c183b25f8ad72c54345e68f869f9ed60786b316e4f7a0f7cfd51fcc81430",
+    "bytes": 3227003
+  },
+  {
+    "path": "deliverables/micro-progress-button.mp4",
+    "sha256": "19983e2d0d86f11aca564a7ff9ef34d7b5099bb8bdfe5a960e1561ef4ff47f09",
+    "bytes": 291549
+  },
+  {
+    "path": "evidence/native-timestamps.json",
+    "sha256": "9362d5037f952e58a43957257036a1069a2b9647509eb45ccef6f8bee6bd0280",
+    "bytes": 42733
+  },
+  {
+    "path": "evidence/native-frame-comparison.csv",
+    "sha256": "f96d21cd41d9257fb820b11fb0194370da8d6ce9afc9f34dc1e9e9cb50a23cef",
+    "bytes": 105399
+  },
+  {
+    "path": "evidence/comparison-summary.json",
+    "sha256": "d4dfa0d7f53c9e3de78008cdcbdba9624cb8295b62cbefbe6bb77d15901cc51c",
+    "bytes": 851
+  },
+  {
+    "path": "evidence/test-output.txt",
+    "sha256": "638d97d52b2ff3090a3ad3f46ce680cbaef8672769248296731b6edbfb9c6003",
+    "bytes": 582
+  },
+  {
+    "path": "evidence/deliverable-probe.json",
+    "sha256": "6dbe9b73a00b49648d0245580cbf69031ada6049ad20e4b6f153ba9876a5fa42",
+    "bytes": 309
+  },
+  {
+    "path": "evidence/deliverable-timestamps.json",
+    "sha256": "9362d5037f952e58a43957257036a1069a2b9647509eb45ccef6f8bee6bd0280",
+    "bytes": 42733
+  },
+  {
+    "path": "evidence/timestamp-verification.json",
+    "sha256": "26edae0a9393e05e0beab3781240a21f18a63d79dd1801c29b999349fc69c4e9",
+    "bytes": 246
+  }
+]
