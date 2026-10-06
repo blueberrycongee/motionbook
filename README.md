@@ -131,3 +131,7 @@
 ## Agent plan
 
 [![Agent plan](examples/agent-plan/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/agent-plan)
+
+## Tap / get invoice
+
+[![Tap / get invoice](examples/tap-get-invoice/preview.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/tap-get-invoice)

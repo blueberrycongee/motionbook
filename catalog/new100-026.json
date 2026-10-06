@@ -1,0 +1,19 @@
+{
+  "id": "new100-026",
+  "slug": "tap-get-invoice",
+  "status": "independently reviewed and accepted",
+  "source_manifest_sha256": "f9290a92c5d9a1a52bae6d9c371e1997a1cdd39a48607eb85f7fde5229ebc4ee",
+  "native_frames_reviewed": 831,
+  "tail_frames_reviewed": 105,
+  "final_amount_delta_frames_reviewed": 536,
+  "boundaries_reviewed": 5,
+  "independent_before_after_rgba_frames": 936,
+  "fresh_render_bindings": 87,
+  "tests_passed": 11,
+  "browser_runtime": "not_run",
+  "reviewed_at": "2026-10-06T12:19:00Z",
+  "limits": [
+    "Small font/pen/edge/antialias differences remain.",
+    "Preview is an offline render; no real-browser interaction or performance pass."
+  ]
+}
