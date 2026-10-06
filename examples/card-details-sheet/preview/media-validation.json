@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-10-06T01:53:37.015532+00:00",
+  "mp4": {
+    "width": 1080,
+    "height": 1080,
+    "r_frame_rate": "60/1",
+    "duration": "4.033333",
+    "nb_frames": "242"
+  },
+  "mp4_decode": "passed, ffmpeg exit0",
+  "gif": {
+    "width": 810,
+    "height": 810,
+    "frames": 121,
+    "duration_ms": 4030,
+    "loop": 0,
+    "distinct_decoded_frames": 107,
+    "first_last_mean_channel_difference": 0.2550170197632475
+  },
+  "fresh_still_binding": "preview/still-bindings.json",
+  "preview_kind": "Offline identical-scene SVG rendering; not a browser recording",
+  "scene_sha256": "1612860eaa5d6381fb5c7c7e556df69da6cfdd1552e93c97189aa642b3c8c6e7",
+  "mp4_sha256": "d01d2473dd040e8e25f73a62556288808d7aadc07a414c85b7086abb7f0f3b2a",
+  "gif_sha256": "dfff33bd5acbe39604d0a12bcd4a385f9dd3bca5d1fc18798a504514f6c198cd"
+}

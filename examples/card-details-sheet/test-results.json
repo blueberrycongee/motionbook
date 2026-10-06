@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "242 scene samples with finite geometry",
+    "Native phone/card offset and modal timing",
+    "Measured sharp/blur mixture and closing digit-phase envelopes",
+    "Outgoing pane local frost, transparency and short softening",
+    "Exact static loop endpoints",
+    "Open, close and repeated queued toggle",
+    "Escape holds closed",
+    "Reduced motion",
+    "Clipboard fixture and transient copied state"
+  ],
+  "runtime": "Node VM DOM/event mocks only; real browser runtime unverified."
+}

@@ -1,0 +1,608 @@
+{
+  "reviewer": "/root/replicate_social_motion_cards",
+  "reviewed_at_utc": "2026-10-06T01:54:42.282653+00:00",
+  "status": "self_review_passed_pending_final_binding_review",
+  "source_file": "motion-reference-research/originals/card-details.mp4",
+  "source_sha256": "6c63788d1a872b14972f3e234368ef0d56988511e57107bd68253dbf2a3a0054",
+  "source_dimensions": [
+    1080,
+    1080
+  ],
+  "native_frame_count": 121,
+  "native_frame_ranges_visually_inspected": [
+    [
+      0,
+      120
+    ]
+  ],
+  "native_sampling": "Every original native frame at exact rational i/30, zero source offset.",
+  "native_pts_proof": "motion-batch-100/reports/social-motion-analysis/card-details-native/native-pts-proof.json",
+  "scene_sha256": "1612860eaa5d6381fb5c7c7e556df69da6cfdd1552e93c97189aa642b3c8c6e7",
+  "motion_data_sha256": "c32240ea538016a469daa304860f69b45c33b465a746d02943d420dba30fd2a3",
+  "final_comparison_directory": "motion-batch-100/reports/social-motion-analysis/card-v3-final-delta",
+  "final_page_binding": "motion-batch-100/reports/social-motion-analysis/card-v3-final-delta/binding.json",
+  "review_coverage": {
+    "base_full_sequence": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final",
+    "base_frame_ranges": [
+      [
+        0,
+        120
+      ]
+    ],
+    "final_delta_visually_inspected": [
+      88,
+      99
+    ],
+    "final_delta_review_utc": "2026-10-06T01:53:37Z",
+    "raster_identical_carryforward_count": 115,
+    "changed_frames": [
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+    ],
+    "independent_visual_check": "Publisher inspected all original v2 pairs and final outgoing-pane focus 89\u201398; focused correction passed 2026-10-06T01:48:49Z. Final manifest/media binding still pending."
+  },
+  "revision_scope": [
+    "Local frosted backdrop below outgoing pane",
+    "Separate pane-rectangle transparency and title opacity",
+    "Short outgoing title/handle blur envelope"
+  ],
+  "unchanged_geometry_balance_backdrop": true,
+  "fidelity_limits": [
+    "Small portrait facial detail is independently illustrated.",
+    "Device reflections, material lighting and hand-drawn wordmarks/icons differ in fine contours.",
+    "Bundled Inter substitutes for the unprovided source font.",
+    "Fictional cardholder/card number differ from reference glyph content.",
+    "Fine blur and material rendering varies by renderer."
+  ],
+  "runtime": "Offline SVG/Sharp preview; actual browser runtime unexecuted.",
+  "media_binding": {
+    "checked_at_utc": "2026-10-06T01:53:37.015532+00:00",
+    "mp4": {
+      "width": 1080,
+      "height": 1080,
+      "r_frame_rate": "60/1",
+      "duration": "4.033333",
+      "nb_frames": "242"
+    },
+    "mp4_decode": "passed, ffmpeg exit0",
+    "gif": {
+      "width": 810,
+      "height": 810,
+      "frames": 121,
+      "duration_ms": 4030,
+      "loop": 0,
+      "distinct_decoded_frames": 107,
+      "first_last_mean_channel_difference": 0.2550170197632475
+    },
+    "fresh_still_binding": "preview/still-bindings.json",
+    "preview_kind": "Offline identical-scene SVG rendering; not a browser recording",
+    "scene_sha256": "1612860eaa5d6381fb5c7c7e556df69da6cfdd1552e93c97189aa642b3c8c6e7",
+    "mp4_sha256": "d01d2473dd040e8e25f73a62556288808d7aadc07a414c85b7086abb7f0f3b2a",
+    "gif_sha256": "dfff33bd5acbe39604d0a12bcd4a385f9dd3bca5d1fc18798a504514f6c198cd"
+  },
+  "still_binding_path": "motion-batch-100/implementations/new100-006-card-details-sheet-v3/preview/still-bindings.json",
+  "encoded_gif_contact": "motion-batch-100/reports/social-motion-analysis/card-v3-final-gif-contact.jpg",
+  "encoded_gif_contact_review_utc": "2026-10-06T01:53:58Z",
+  "comparison_file_hashes": [
+    {
+      "path": "motion-batch-100/reports/social-motion-analysis/card-v3-final-delta/binding.json",
+      "sha256": "3acd6ecce4149b7dce5b5ee9e66a6b7364a0a43a36aac3a38e41fad687143ca2"
+    },
+    {
+      "path": "motion-batch-100/reports/social-motion-analysis/card-v3-final-delta/full-90.png",
+      "sha256": "c45d42042a972d4c57b89201f82b257ce33f8a7072ec111127e671c62b1d1329"
+    },
+    {
+      "path": "motion-batch-100/reports/social-motion-analysis/card-v3-final-delta/full-91.png",
+      "sha256": "84ef87606d4996ab76c3b7c03860aa9b73806d9efd1c57fe619c3b1af11567a2"
+    },
+    {
+      "path": "motion-batch-100/reports/social-motion-analysis/card-v3-final-delta/full-92.png",
+      "sha256": "474dc4dd4bb95f7b4271f726132bc1197f914b512d36298f334eb844edf6b4a5"
+    },
+    {
+      "path": "motion-batch-100/reports/social-motion-analysis/card-v3-final-delta/full-93.png",
+      "sha256": "aea56e2ca0b0d702794b058220125821ca79c71912427ad2163ac27fcbf35b20"
+    },
+    {
+      "path": "motion-batch-100/reports/social-motion-analysis/card-v3-final-delta/full-94.png",
+      "sha256": "80a300ae6cdb569874d501cd9ea87ec52ec749db06cea672f982d59878eefc38"
+    },
+    {
+      "path": "motion-batch-100/reports/social-motion-analysis/card-v3-final-delta/full-95.png",
+      "sha256": "1af8a9361b62ca29624bbbf54aa54dc317f4f275f28e81ac4c79d1308f78f820"
+    },
+    {
+      "path": "motion-batch-100/reports/social-motion-analysis/card-v3-final-delta/page-0.jpg",
+      "sha256": "c1cda607f99e98069f00a1647fc2f7fd433b4a2999b7836ee8bca76cca650d3f"
+    },
+    {
+      "path": "motion-batch-100/reports/social-motion-analysis/card-v3-final-delta/page-1.jpg",
+      "sha256": "e39ac3272f19cfc32c656ef9871f51ce1d5f9d4c693dc8c5504842ea91ed8d9f"
+    },
+    {
+      "path": "motion-batch-100/reports/social-motion-analysis/card-v3-final-delta/page-2.jpg",
+      "sha256": "7348323faf73a3dc2b7a820f193f87a5d03939314beaf7a44443e89358d73613"
+    }
+  ],
+  "prior_review": {
+    "reviewer": "/root/replicate_social_motion_cards",
+    "reviewed_at_utc": "2026-10-06T01:25:10Z",
+    "status": "self_review_passed_pending_independent_review",
+    "source_file": "motion-reference-research/originals/card-details.mp4",
+    "source_sha256": "6c63788d1a872b14972f3e234368ef0d56988511e57107bd68253dbf2a3a0054",
+    "source_dimensions": [
+      1080,
+      1080
+    ],
+    "native_frame_count": 121,
+    "native_frame_ranges_visually_inspected": [
+      [
+        0,
+        120
+      ]
+    ],
+    "native_timebase": "1/15360",
+    "native_pts_proof": "motion-batch-100/reports/social-motion-analysis/card-details-native/native-pts-proof.json",
+    "native_sampling": "Every original native frame at exact rational i/30, zero source offset.",
+    "scene_sha256": "53f5632ff682232e661a65639d5a9074f3c58fe6ba0f2878aa3c3d885e18f94c",
+    "motion_data_sha256": "c32240ea538016a469daa304860f69b45c33b465a746d02943d420dba30fd2a3",
+    "final_comparison_directory": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final",
+    "comparison_sheet_count": 21,
+    "final_page_binding": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/binding.json",
+    "full_sequence_review_complete_utc": "2026-10-06T01:25:10Z",
+    "review_coverage": {
+      "native_pairs": 121,
+      "all_pages": [
+        "page-000.jpg",
+        "page-001.jpg",
+        "page-002.jpg",
+        "page-003.jpg",
+        "page-004.jpg",
+        "page-005.jpg",
+        "page-006.jpg",
+        "page-007.jpg",
+        "page-008.jpg",
+        "page-009.jpg",
+        "page-010.jpg",
+        "page-011.jpg",
+        "page-012.jpg",
+        "page-013.jpg",
+        "page-014.jpg",
+        "page-015.jpg",
+        "page-016.jpg",
+        "page-017.jpg",
+        "page-018.jpg",
+        "page-019.jpg",
+        "page-020.jpg"
+      ],
+      "enlarged_focus_frames": [
+        49,
+        51,
+        53,
+        55,
+        90,
+        93,
+        96
+      ],
+      "initial_static_and_sequence_review": "Preserved in prior_review; final revision has separately reviewed complete native coverage."
+    },
+    "revision_scope": {
+      "changes": [
+        "Sharp and fixed-radius blurred dashboard blend during entry/dismissal",
+        "Per-column measured vertical digit offsets during native frames 89\u201398",
+        "Balance sharpness envelope on dismissal"
+      ],
+      "controller_unchanged": true,
+      "all_121_geometry_states_equal_to_prior": true,
+      "raster_note": "The new layer compositing also changes small antialiasing details in static states and blur edge coverage in settled states. All 121 final frames were re-rendered and visually reviewed; no unchanged-frame carryforward is asserted.",
+      "original_frozen_package_preserved": "motion-batch-100/implementations/new100-006-card-details-sheet"
+    },
+    "observations": [
+      "Full-device composition and phone/card/sheet path align closely with original native footage.",
+      "Entry retains sharp avatar, card marks and action controls while the soft component grows.",
+      "Reverse retains a soft component as the sheet leaves; individual digit columns follow their observed staggered vertical phases.",
+      "Closing card balance resolves before the exact static loop hold."
+    ],
+    "fidelity_limits": [
+      "Small portrait facial detail is independently illustrated.",
+      "Device reflections, material lighting and hand-drawn wordmarks/icons differ in fine contours.",
+      "Bundled Inter substitutes for the unprovided source font.",
+      "Fictional cardholder/card number differ from reference glyph content.",
+      "Fine blur and material rendering varies by renderer."
+    ],
+    "runtime": "Actual browser runtime unexecuted. Preview is offline SVG/Sharp rendering, not a browser recording.",
+    "prior_review": {
+      "reviewer": "/root/replicate_social_motion_cards",
+      "reviewed_at_utc": "2026-10-05T23:57:09.911162+00:00",
+      "status": "self_review_passed_pending_independent_review",
+      "source_file": "motion-reference-research/originals/card-details.mp4",
+      "source_sha256": "6c63788d1a872b14972f3e234368ef0d56988511e57107bd68253dbf2a3a0054",
+      "source_dimensions": [
+        1080,
+        1080
+      ],
+      "native_frame_count": 121,
+      "native_frame_ranges_visually_inspected": [
+        [
+          0,
+          120
+        ]
+      ],
+      "native_timebase": "1/15360",
+      "native_pts_proof": "motion-batch-100/reports/social-motion-analysis/card-details-native/native-pts-proof.json",
+      "native_sampling": "Every native frame at exact rational i/30; ffprobe integer timestamps independently verified.",
+      "scene_sha256": "eec7c86e2d9da2a682e52566dda606a510ea5da89c035f02fa34711b8eac8ae2",
+      "motion_data_sha256": "c32240ea538016a469daa304860f69b45c33b465a746d02943d420dba30fd2a3",
+      "final_comparison_directory": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v12",
+      "comparison_sheet_count": 21,
+      "final_page_binding": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v12/binding.json",
+      "review_coverage": {
+        "all_v10_pages_visually_inspected_utc": "2026-10-05T23:49:54Z",
+        "v12_changed_page_rechecked_utc": "2026-10-05T23:55:16Z",
+        "v12_changed_page": 15,
+        "v12_changed_page_inclusive_frames": [
+          90,
+          95
+        ],
+        "unchanged_pages": 20,
+        "page_hashes": [
+          {
+            "page": 0,
+            "final_sha256": "333ab371f810fb32876157d80c6498516c2c342eff4db430db7a851e5e4d102f",
+            "identical_to_v10": true
+          },
+          {
+            "page": 1,
+            "final_sha256": "e593ceb52fb3bd9f8ebc839eb522a33677a31f8ad12044aca281f08436ac7f1b",
+            "identical_to_v10": true
+          },
+          {
+            "page": 2,
+            "final_sha256": "59c52af03dca14edbd370d6ed826c8a9710a1403317779939640412972346d56",
+            "identical_to_v10": true
+          },
+          {
+            "page": 3,
+            "final_sha256": "fe3194afead33e58a89876a525c40210a81928c1cd864bd28e5e08542ff31f22",
+            "identical_to_v10": true
+          },
+          {
+            "page": 4,
+            "final_sha256": "4d288031fa4129dd0e05af2436826a92eb60a225b7db66ce71e4fb81a0afce6f",
+            "identical_to_v10": true
+          },
+          {
+            "page": 5,
+            "final_sha256": "08118b99eb5b9c3e6196410ee9f746fe9c22a759295dcb6531e497ad3ea67fd2",
+            "identical_to_v10": true
+          },
+          {
+            "page": 6,
+            "final_sha256": "33939e0fa3242220e2e2cc7d4a59227312bdd5c68ca2fbb48c795d34973828b0",
+            "identical_to_v10": true
+          },
+          {
+            "page": 7,
+            "final_sha256": "f59a6f15ffe43c73851c0bf8608756c166b879582a522f8f5ec435081786ddd7",
+            "identical_to_v10": true
+          },
+          {
+            "page": 8,
+            "final_sha256": "39964123af460412bb066c9645fd5db0872a3fc86b6e911eeeb97abf3825a03f",
+            "identical_to_v10": true
+          },
+          {
+            "page": 9,
+            "final_sha256": "a3954fe878ef82a8b551d03368a642c927574eb97ea595da8a773876c4f167d1",
+            "identical_to_v10": true
+          },
+          {
+            "page": 10,
+            "final_sha256": "a431e4b6fcd51bdf509403e774ba5511e71eac6fc6e5417cd9901d1f8d741d97",
+            "identical_to_v10": true
+          },
+          {
+            "page": 11,
+            "final_sha256": "d40f5c7f89971f78f0aafac581eb0cfab3a9f63f23a4132df540b177ca14e272",
+            "identical_to_v10": true
+          },
+          {
+            "page": 12,
+            "final_sha256": "ae2ed2152e12a5d2e7b5eb8fd0617c0b684c75c129ab36896968b1290ad8cd6f",
+            "identical_to_v10": true
+          },
+          {
+            "page": 13,
+            "final_sha256": "f0655f4032cc97638ea69977bef19d4864ec12d1232c20b31d3193af5b01cb82",
+            "identical_to_v10": true
+          },
+          {
+            "page": 14,
+            "final_sha256": "c8d36084dbfb73aafe74d3c57ff77635c5021079752d9589622ca953ff547098",
+            "identical_to_v10": true
+          },
+          {
+            "page": 15,
+            "final_sha256": "a89f0652e4ddc245c84b73b2940ddcd45b5a23851657bdcef460baf1bc429814",
+            "identical_to_v10": false
+          },
+          {
+            "page": 16,
+            "final_sha256": "3f59afdb6abfbec964941e910e573978c7f8c07b386fb2fc3019c6e71b8adbc5",
+            "identical_to_v10": true
+          },
+          {
+            "page": 17,
+            "final_sha256": "4c700e9f6c6795ada34e4d7f5bbf51373b049775c89123031a70683b893655ca",
+            "identical_to_v10": true
+          },
+          {
+            "page": 18,
+            "final_sha256": "bd78db54e8085beff34bec66f173aad30b2487f4a12bdfb9cef1befdcc405578",
+            "identical_to_v10": true
+          },
+          {
+            "page": 19,
+            "final_sha256": "71f20634c919d1bcf9464543d1d2e2b1698e12cfdd55e1e2d4da4c8bbc06efdd",
+            "identical_to_v10": true
+          },
+          {
+            "page": 20,
+            "final_sha256": "b09ca1961fc4e63ebe05a953800c1de22b566d313ee12eb0b08c25f148199c6a",
+            "identical_to_v10": true
+          }
+        ]
+      },
+      "full_frame_comparisons": [
+        "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v12/full-frame-0.png",
+        "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v12/full-frame-30.png",
+        "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v12/full-frame-40.png",
+        "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v12/full-frame-49.png",
+        "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v12/full-frame-51.png",
+        "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v12/full-frame-55.png",
+        "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v12/full-frame-60.png",
+        "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v12/full-frame-90.png",
+        "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v12/full-frame-93.png",
+        "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v12/full-frame-96.png"
+      ],
+      "enlarged_final_dismissal_inspected_utc": "2026-10-05T23:55:40Z",
+      "remaining_differences": [
+        "Small portrait facial detail is independently illustrated.",
+        "Device reflections, material lighting and hand-drawn wordmarks/icons differ in fine contours.",
+        "Bundled Inter substitutes for the unprovided source font.",
+        "Fictional cardholder/card number differ from reference glyph content.",
+        "Fine blur and material rendering varies by renderer."
+      ],
+      "runtime": "Offline SVG render and Node VM event tests only; actual browser runtime unexecuted.",
+      "final_gif_inspected_at_utc": "2026-10-05T23:58:18.035609+00:00",
+      "final_gif_contact": "motion-batch-100/reports/social-motion-analysis/card-v12-final-gif-contact.jpg"
+    },
+    "media_binding": {
+      "checked_at_utc": "2026-10-06T01:25:51.317438+00:00",
+      "mp4": {
+        "width": 1080,
+        "height": 1080,
+        "r_frame_rate": "60/1",
+        "duration": "4.033333",
+        "nb_frames": "242"
+      },
+      "mp4_decode": "passed, ffmpeg exit0",
+      "gif": {
+        "width": 810,
+        "height": 810,
+        "frames": 121,
+        "duration_ms": 4030,
+        "loop": 0,
+        "distinct_decoded_frames": 108,
+        "first_last_mean_channel_difference": 0.2520850480109739
+      },
+      "fresh_still_binding": "preview/still-bindings.json",
+      "preview_kind": "Offline identical-scene SVG rendering; not a browser recording",
+      "scene_sha256": "53f5632ff682232e661a65639d5a9074f3c58fe6ba0f2878aa3c3d885e18f94c",
+      "mp4_sha256": "91f9f6350107d7f39321596c8c88892b9cdf25c6b69942937fcead5b4228b861",
+      "gif_sha256": "f16c3def3c2dbdad8f0efb13d9f930edb9b96aa85329ef7196761b672837d239"
+    },
+    "still_binding_path": "motion-batch-100/implementations/new100-006-card-details-sheet-v2/preview/still-bindings.json",
+    "encoded_gif_contact_inspected_at_utc": "2026-10-06T01:26:18Z",
+    "encoded_gif_contact": "motion-batch-100/reports/social-motion-analysis/card-v2-final-gif-contact.jpg",
+    "comparison_file_hashes": [
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/binding.json",
+        "sha256": "d77c6794cbcc6576509419c314ab863eff25c09cfe5cbda71be6b78c64007bd4"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-0.png",
+        "sha256": "d42e0edbccf477c27683a9801048caf2e7ac5281980752529b068a9359bc6cda"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-100.png",
+        "sha256": "6badbab4c8be65d60f11e88ef18cafd97f13c3aee10f9eec04e1f40d0259ba82"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-120.png",
+        "sha256": "a05b51aad2c89861a603193ced019006afd08cf688329c3325594ac75dcf470d"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-30.png",
+        "sha256": "35c619b95877a7b9df3f81ff95b1b5afed7e37a26fe1464a1db9f1ab738b7bd1"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-40.png",
+        "sha256": "87d83065135db917f08b3aa44f38c6adf851baff210a22bca3ed57b60970e731"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-47.png",
+        "sha256": "a231c6301d7d79a1514b96bc938f2783d2f06f44854775417ad3e11296bc1712"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-48.png",
+        "sha256": "2a1f81b1545f25b99afb7fe2ca80788a695ccef097fcbecc955b442a594e09a4"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-49.png",
+        "sha256": "fe49b49ea22f0fcefb62798d5f618af052611154c3d96fea7595d8304615e7aa"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-50.png",
+        "sha256": "cc30c4178ef08bfc8d1a46cf6e3d0ba02c77313ea2e85b06f9a6c34916cf1913"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-51.png",
+        "sha256": "04cdd74ecd8520d1d26e62abeb0f79c3c24a7b4b2adc1b02737f39527f09715e"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-52.png",
+        "sha256": "8c3eb2a7ba1239ef6cacb874ca6ce47c54e4f4446dfb526f4bf93c597212c8cf"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-53.png",
+        "sha256": "2ab9dc77aeec594912ecdb91e87849fce16832e688cd3fc7b3fc9b43ebf5eb7c"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-54.png",
+        "sha256": "3ac2552fa881a4afac22a2b98e2ee06282dc7be09752e7635abbc565a4ed515b"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-55.png",
+        "sha256": "2a2b8c0ab5b53bdc934962a124386ab44fe41b31dbafbb94e13350be865c6386"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-60.png",
+        "sha256": "a876276ec72b6c4aaa446d58fd9167e09bfe758b8fa3acb08e315dae3b5ee541"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-88.png",
+        "sha256": "69ef7118bcd42b91a414fef5289a66c828737054ce0ff3ea1303a50f766a5ff0"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-89.png",
+        "sha256": "219ae9f8395628b0e70cdfda857287ac113a54cd153f322994e1528fce7b2306"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-90.png",
+        "sha256": "45e357610b1b8c2aff1fbc5eb463e10d75f2259b5c7e510b7b96c8358a988cbd"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-91.png",
+        "sha256": "123c321db17019c818127e5a3254443c87e9577bb7dbb201a3fe2a38b045fa8d"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-92.png",
+        "sha256": "9c6764dd027f296d42d97a214ea062720966ccd2cb62e1068b3a129fddd10d31"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-93.png",
+        "sha256": "8e6fccd86e14d6982c5b3c490e1beb4bc70cd1813e2754bace6a4b7ea9c45ad6"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-94.png",
+        "sha256": "8f9690e687dd9e0d0b877737da918437f695ca1f6fa7cb3e90ebec2cc11f2338"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-95.png",
+        "sha256": "3a8c33b0d54b6876d34ac24e5c7a29acfaa75edd82d77db0433794612426ab94"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-96.png",
+        "sha256": "5938ecc49d0a9ae0141a558cfe0a5a71814dabbbc4b3dd48815c791c340afbc6"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-97.png",
+        "sha256": "dfa57bb334d6954720ea8cb8fd571130b8a2ecc4ccd8f6322932794cd41b4724"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/full-frame-98.png",
+        "sha256": "a3a8ca07fde3f9ec43d35ea2752bfce39fdf372424a30750e7d0b4a6fbaf50dd"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-000.jpg",
+        "sha256": "741228d5562ae2b53281bd2eb5e4a1ea443d58f75448e77b7b6ed96d60c541f2"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-001.jpg",
+        "sha256": "aa94b72d5184cb7ed5b12d09942cbf127089182864f29dab6f78057b03421cba"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-002.jpg",
+        "sha256": "ba442353e4d3cc07576be4eb30bf3641b2de94975e663cc2634ef4abf1bc1102"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-003.jpg",
+        "sha256": "edaa0c1f087e9a7a9df9f945da34fa5bd7094de676b33c42b7ba75befdca8491"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-004.jpg",
+        "sha256": "2eb2dc10a291b28e7f4e93bcc1514f60adf127c892b7bb27ad2e9efbb402fca5"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-005.jpg",
+        "sha256": "419061f4cb63d13183693823aff1513a2d98f0c2cf8ddcbcea79cad7bdce5da0"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-006.jpg",
+        "sha256": "dec4e715a626161d68d09699b7de6103ccd1e398b1415dc48e20c28c40bd2b73"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-007.jpg",
+        "sha256": "a0d56f3c24c5b26c021b772da105ca92b0b642300c52eada33880f646ec97e30"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-008.jpg",
+        "sha256": "1287a102216d1c945de18894355a1c04f532da2e65f8cea62d31d97b79ff5f55"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-009.jpg",
+        "sha256": "32e448de4bbd84c2be16ccb197c1a25a6e8ecde80684a97fae818ec13c028851"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-010.jpg",
+        "sha256": "dbce85cc9b53f6ab6067fb762cef3b730c8a1844fe5b74b9b50ab7f8c59c5881"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-011.jpg",
+        "sha256": "30e6f7ee86e974a96b6e326735fe650c1765e8d5f8d8dfad2f35d84c9dcac45e"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-012.jpg",
+        "sha256": "f4d0f827c7d8d7b7e4449af1f7df0d362ff521913be13b18ea33ceca4920bdb4"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-013.jpg",
+        "sha256": "4f1626b5a50c2596ffeb2d14f718dd3de6b70bb0cddbb245be040b165285f9a9"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-014.jpg",
+        "sha256": "8268d7a114ebe800db33be4c77daf06019be2b7c4580c6aee4fba19a7fe968e7"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-015.jpg",
+        "sha256": "9b6e7aac78fdc6ac67e313cbf284dfc26b3c029f7883fe3645bcf46ebc3c5ce8"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-016.jpg",
+        "sha256": "c29edf519f74b7c57bed3242300ac7dfbd54ddc23f5940999369670fbb20e0b5"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-017.jpg",
+        "sha256": "8b46d9faa2271f4982e97fb1d6d48c878624957397841a338bd22fe246955ea2"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-018.jpg",
+        "sha256": "cd3022d43b2d13ef00c189e2c96810837c038c499bdeaff6e68595eaf00bdfa3"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-019.jpg",
+        "sha256": "5ca15851d970369c050e88d23f7abdbd5a574cc02c8ef0f41e1d9d70003750f8"
+      },
+      {
+        "path": "motion-batch-100/reports/social-motion-analysis/card-native-comparison-v2-final/page-020.jpg",
+        "sha256": "eccf99b0d8533d3ec3f0eb17436a8566d89e251c1172eb338e58a073c720c513"
+      }
+    ]
+  }
+}

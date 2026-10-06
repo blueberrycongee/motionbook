@@ -1,0 +1,97 @@
+{
+  "checked_at_utc": "2026-10-06T01:53:35.608Z",
+  "scene_sha256": "1612860eaa5d6381fb5c7c7e556df69da6cfdd1552e93c97189aa642b3c8c6e7",
+  "motion_sha256": "c32240ea538016a469daa304860f69b45c33b465a746d02943d420dba30fd2a3",
+  "checks": [
+    {
+      "name": "idle",
+      "t": 0,
+      "sha256": "17156e7ecc96cd1e2d63ee83112ed057269d261061cc340e8fbc27deb5d050a3",
+      "fresh_binding": true
+    },
+    {
+      "name": "shine",
+      "t": 1.1,
+      "sha256": "bb5fbbe7605bf2a0be80bf4f5fd8908870386d15c9e543ad002fccd9e55970ed",
+      "fresh_binding": true
+    },
+    {
+      "name": "drop",
+      "t": 1.4,
+      "sha256": "461a7ebd470f7eef411af0f847c61498201e7ae80d08331c3464cb0173701cc2",
+      "fresh_binding": true
+    },
+    {
+      "name": "opening",
+      "t": 1.7,
+      "sha256": "7fd7bfcb76d3f8829b0cccd5507e31f7e3008b20574c0c2a8671455a26c6db4f",
+      "fresh_binding": true
+    },
+    {
+      "name": "details",
+      "t": 2.3,
+      "sha256": "11c411ddf0bc49308c26202ea5e6a5e6e657437bd22815bd33e791415a8a9216",
+      "fresh_binding": true
+    },
+    {
+      "name": "dismiss",
+      "t": 3.1,
+      "sha256": "c4257741d89bf477fe0b82a298739a4ee37c598ed54756497930e7b55f19c70c",
+      "fresh_binding": true
+    }
+  ],
+  "all_pass": true,
+  "font_bindings": [
+    {
+      "name": "Inter-Bold.ttf",
+      "sha256": "9448d013c563678be3915aebc9c75558220eb8c1ed7edb589bafff40c41e6902"
+    },
+    {
+      "name": "Inter-Bold.woff2",
+      "sha256": "fa888127b6da015b65569f0351f3b5c391ad928904951f1c20e9f8462a8d95ea"
+    },
+    {
+      "name": "Inter-LICENSE.txt",
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+    },
+    {
+      "name": "Inter-Medium.ttf",
+      "sha256": "824c6172d8c52e285924be64fd1738cf9c3c13b27bd0debd487f9e0df8df6af2"
+    },
+    {
+      "name": "Inter-Medium.woff2",
+      "sha256": "0ff3e94614e1493eb556314fd247ae6c4a85a7783b4cc86be539940cf83f2a48"
+    },
+    {
+      "name": "Inter-Regular.ttf",
+      "sha256": "eb56a2a9fa2302667fc02cdd5261d19850c73d9057a41c34f441aa2d544c27d3"
+    },
+    {
+      "name": "Inter-Regular.woff2",
+      "sha256": "e06f6b1bc553aaea4e4668023ed0ab0a147129c3107f511bc7d03d361b0ae085"
+    },
+    {
+      "name": "Inter-SemiBold.ttf",
+      "sha256": "f4f01c389d8129b2086b87715cf7657cb797f120cc2bad822ae02098d64bf81c"
+    },
+    {
+      "name": "Inter-SemiBold.woff2",
+      "sha256": "5cb7103e4e605989afebc03d989c79201e54b21b5183db33981f70db9178a301"
+    }
+  ],
+  "seams": [
+    {
+      "t": 0,
+      "rgb_sha256": "873f6b80f90ddece7e5a4f82c1fcc0a697882bfbbe01d703f3586db2b2650e61"
+    },
+    {
+      "t": 4.016666666666667,
+      "rgb_sha256": "873f6b80f90ddece7e5a4f82c1fcc0a697882bfbbe01d703f3586db2b2650e61"
+    },
+    {
+      "t": 4.033333333333333,
+      "rgb_sha256": "873f6b80f90ddece7e5a4f82c1fcc0a697882bfbbe01d703f3586db2b2650e61"
+    }
+  ],
+  "seam_equal": true
+}

@@ -99,3 +99,7 @@
 ## Morphing braille loader
 
 [![Morphing braille loader](examples/morphing-braille-loader/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/morphing-braille-loader)
+
+## Card details sheet
+
+[![Card details sheet](examples/card-details-sheet/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/card-details-sheet)
