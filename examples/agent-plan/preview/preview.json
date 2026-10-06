@@ -1,0 +1,13 @@
+{
+  "renderer": "Offline Canvas 2D from the same scene used by the app; not a browser recording",
+  "width": 1080,
+  "height": 882,
+  "fps": 60,
+  "frames": 1200,
+  "duration": 20,
+  "scene_sha256": "2e9c71f1cb1c0b542b11aae11305fc584d8890cd9d47f6b5526d26d243d6bfb2",
+  "motion_data_sha256": "8200d853dfbe8ab8fd4bcd159acbc3d90b3993973d30250f43ca4cb85b592390",
+  "mp4_sha256": "100dc5ec41e2e5af011258897709dfa25fa44c437e5c8143e9e7dcb60f0685f2",
+  "gif_sha256": "839345a14a71b509c6ddfc983ce9633d9e788ce0e731c2b4c4044e3d0d3b00bd",
+  "loop_endpoints_rgba_equal": true
+}
