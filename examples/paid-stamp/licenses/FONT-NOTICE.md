@@ -1,0 +1,1 @@
+Inter glyph outlines are used under the accompanying SIL Open Font License. Source font project: https://github.com/rsms/inter . Regular, Medium, SemiBold and Bold outlines are embedded as vector point data. The source animation's font was not recovered or extracted.

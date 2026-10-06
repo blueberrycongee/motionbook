@@ -1,0 +1,44 @@
+{
+  "reviewed_at_utc": "2026-10-06T03:23:46.159102+00:00",
+  "reviewer": "/root/replicate_inspora_interface_motion",
+  "status": "author_review_passed_pending_independent_gate",
+  "source_native_frames": 523,
+  "replica_native_frames": 523,
+  "reviewed_native_ranges": [
+    [
+      0,
+      522
+    ]
+  ],
+  "authored_tail_frames": 77,
+  "reviewed_tail_ranges": [
+    [
+      523,
+      599
+    ]
+  ],
+  "source_sha256": "77e2b3674c0be59f37953a71e76134fc6569c78a6b75e29eeb2577cbd58391dd",
+  "source_pts": "source-pts.json",
+  "evidence": "All 523 original/final v2 full-frame pairs inspected, plus 16 final enlarged wheel/print poses. All 77 final encoded tail frames were inspected. Exact before/after proof confines all changed pixels to wheel-glyph blur/fade or the projected red print. Source imagery stays outside this package.",
+  "fresh_raster_bindings": 70,
+  "node_tests_passed": 8,
+  "mp4_frames": 600,
+  "gif_frames": 300,
+  "gif_distinct_rgb_frames": 206,
+  "gif_first_last_rgb_identical": true,
+  "browser_runtime": "Not run; prior local Chromium socket and cloud-browser local-URL restrictions respected. DOM stubs and offline shared-scene rendering only.",
+  "remaining_differences": [
+    "Licensed substitute-font contours/weights",
+    "Small print/cat/corner/sole edge differences",
+    "Exact light/shadow falloff and slight gray/tint differences",
+    "Faint final touch-indicator residue and codec antialiasing"
+  ],
+  "diagnostic_warning": "No whole-image percentage claim. The fixed dark threshold fragments the barely emerging rubber rim at frame134; raw maximum is retained. Strong contact geometry reviewed separately.",
+  "revision": 2,
+  "corrections": [
+    "Continuous position-dependent wheel blur and opacity",
+    "Filled projected double-border rings",
+    "Shorter, optically weighted and spaced Inter date lettering",
+    "Measured red print color"
+  ]
+}

@@ -1,0 +1,20 @@
+
+> test
+> node --test tests/*.test.mjs
+
+✔ DOM-stub date drag, cancellation, keyboard, state buttons and local PDF download (259.574212ms)
+✔ every original native frame has finite, independent drawable geometry (18326.98063ms)
+✔ observed phases and authored neutral loop have exact reset states (84.759269ms)
+✔ mark, confirmation, undo, done and next-invoice transitions (0.550713ms)
+✔ date bounds, leap years, statuses, colors and reduced motion (19.820358ms)
+✔ local PDF bytes have valid object offsets and no embedded network action (1.160113ms)
+✔ tap ring compresses, confirmation layers stagger, and final controls rise (0.491943ms)
+✔ wheel optical treatment is continuous through the adjacent-row boundary (0.155394ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 18576.150392

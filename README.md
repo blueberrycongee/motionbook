@@ -115,3 +115,7 @@
 ## Segmented order-status card
 
 [![Segmented order-status card](examples/order-status-card/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/order-status-card)
+
+## Paid stamp
+
+[![Paid stamp](examples/paid-stamp/preview/paid-stamp.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/paid-stamp)

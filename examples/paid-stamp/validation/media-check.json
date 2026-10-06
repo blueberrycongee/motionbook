@@ -1,0 +1,186 @@
+{
+  "mp4": {
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "width": 1080,
+          "height": 720,
+          "coded_width": 1080,
+          "coded_height": 720,
+          "closed_captions": 0,
+          "film_grain": 0,
+          "has_b_frames": 2,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "3:2",
+          "pix_fmt": "yuv420p",
+          "level": 32,
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 1,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "60/1",
+          "time_base": "1/15360",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 153600,
+          "duration": "10.000000",
+          "bit_rate": "755616",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "600",
+          "extradata_size": 47,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "vendor_id": "[0][0][0][0]",
+            "encoder": "Lavc61.19.101 libx264"
+          }
+        }
+      ],
+      "format": {
+        "filename": "motion-batch-100/revisions/new100-025-paid-stamp-v2/preview/paid-stamp.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "10.000000",
+        "size": "952156",
+        "bit_rate": "761724",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf61.7.103"
+        }
+      }
+    },
+    "full_decode_exit_code": 0,
+    "decode_stderr": "",
+    "sha256": "49be622e7deb3dc83a5aa1475c5fec2709688e907d78db4029346457d79156ab"
+  },
+  "gif": {
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "gif",
+          "codec_long_name": "CompuServe GIF (Graphics Interchange Format)",
+          "codec_type": "video",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "width": 810,
+          "height": 540,
+          "coded_width": 810,
+          "coded_height": 540,
+          "closed_captions": 0,
+          "film_grain": 0,
+          "has_b_frames": 0,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "3:2",
+          "pix_fmt": "bgra",
+          "level": -99,
+          "refs": 1,
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "100/3",
+          "time_base": "1/100",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 1000,
+          "duration": "10.000000",
+          "nb_frames": "300",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          }
+        }
+      ],
+      "format": {
+        "filename": "motion-batch-100/revisions/new100-025-paid-stamp-v2/preview/paid-stamp.gif",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "gif",
+        "format_long_name": "CompuServe Graphics Interchange Format (GIF)",
+        "start_time": "0.000000",
+        "duration": "10.000000",
+        "size": "3902132",
+        "bit_rate": "3121705",
+        "probe_score": 100
+      }
+    },
+    "full_decode_exit_code": 0,
+    "decode_stderr": "",
+    "sha256": "6f980ead95e16fc58c1515939b618223c4494f349d1b9547ae6fa907a435ea8b",
+    "frames": 300,
+    "distinct_frames": 206,
+    "duration_ms": 10000,
+    "loop": 0,
+    "first_last_rgb_identical": true
+  },
+  "tail": {
+    "encoded_frames": 77,
+    "indices": [
+      523,
+      599
+    ],
+    "review_sheets": [
+      "motion-batch-100/research/interface/paid-v2-tail-sheets/tail-523-538.jpg",
+      "motion-batch-100/research/interface/paid-v2-tail-sheets/tail-539-554.jpg",
+      "motion-batch-100/research/interface/paid-v2-tail-sheets/tail-555-570.jpg",
+      "motion-batch-100/research/interface/paid-v2-tail-sheets/tail-571-586.jpg",
+      "motion-batch-100/research/interface/paid-v2-tail-sheets/tail-587-599.jpg"
+    ],
+    "claim": "All 77 final encoded tail frames visually inspected in five sheets. Final hold, crossfade/reset and neutral loop are intact.",
+    "visually_reviewed_at_utc": "2026-10-06T03:23:46.159102+00:00"
+  }
+}
