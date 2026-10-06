@@ -75,8 +75,7 @@
   </tr>
   <tr>
     <td align="center" width="33%"><a href="examples/apple-music-lyrics/README.md"><img src="examples/apple-music-lyrics/preview/loop.gif" width="200" alt="Apple Music Lyrics"></a><br><a href="examples/apple-music-lyrics/README.md">Apple Music Lyrics</a></td>
-    <td width="33%"></td>
-    <td width="33%"></td>
+    <td align="center" width="33%"><a href="examples/graph-slider/README.md"><img src="examples/graph-slider/preview/loop.gif" width="200" alt="Graph slider"></a><br><a href="examples/graph-slider/README.md">Graph slider</a></td>
+    <td></td>
   </tr>
 </table>
-

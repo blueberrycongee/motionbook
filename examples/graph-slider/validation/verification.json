@@ -1,0 +1,31 @@
+{
+  "source_sha256": "e186b7ec5a0ce1c97af064720c7e548060e6fa7443fcd6cb73c5f26f5ff2a27a",
+  "visual_comparison": {
+    "native_frames": 552,
+    "full_canvas_pass": true,
+    "enlarged_chart_pass": true,
+    "native_scale_checks": 13,
+    "distinct_time_labels": 61,
+    "authored_tail_frames": 0
+  },
+  "verification": {
+    "freshly_decoded_original_rgb_frames": 552,
+    "fresh_frozen_svg_and_rgba_frames": 552,
+    "stored_final_png_and_rgba_frames": 552,
+    "exact_native_pts_in_mp4": 552,
+    "max_native_pts_error_seconds": 0,
+    "node_and_dom_stub_tests": 7,
+    "full_mp4_and_gif_decodes": true,
+    "gif_frames": 276,
+    "gif_distinct_rgb_states": 226,
+    "gif_duration_ms": 9200,
+    "gif_loop": 0,
+    "gif_endpoints_equal": true,
+    "browser_runtime_tested": false
+  },
+  "limitations": [
+    "Inter glyph contours and spacing, the arrow outline, and compressed stroke/gradient texture differ slightly at enlargement. No pixel-identity or full-image similarity percentage is claimed.",
+    "Offline SVG rendering and DOM stubs validate the shared drawing/state paths, not actual browser execution or performance.",
+    "The video and GIF were fully decoded and their timing/seam checked; the every-frame visual comparison uses the bound native PNG sequence. Live browser playback is a separate check."
+  ]
+}

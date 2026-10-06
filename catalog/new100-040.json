@@ -1,0 +1,13 @@
+{
+  "id": "new100-040",
+  "title": "Graph slider",
+  "path": "examples/graph-slider",
+  "source": "https://rauno.me/craft/graph-slider",
+  "source_author": "Rauno Freiberg",
+  "native_frames_reviewed": 552,
+  "independent_review": "passed",
+  "tests_passed": 7,
+  "browser_runtime": "not_run",
+  "readme_gif_playback": "pending",
+  "manifest_sha256": "ecbb28adf41ff6966ef51f3372f66c3d5083b2749764345658ab4626946271e8"
+}

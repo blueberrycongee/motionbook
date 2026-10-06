@@ -1,0 +1,152 @@
+{
+  "case": "new100-040",
+  "version": "1.0",
+  "validation": "Source comparison and offline media review passed; browser runtime untested",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 291,
+      "sha256": "d763a1650cbe981e7a15f59a4ba9ad0912df8275460f22a080b4fc44820a38c2"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 1189,
+      "sha256": "dcfdc68017e01f350f7dbcec8be69b77c5bea7114ef22243278941259ab0ed8f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 173,
+      "sha256": "4d6e24d43eb466465a3902dd09594d2cd14f0359b21fe7689239e0495e6743f4"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 2954,
+      "sha256": "657037537ca4aca380823d100854d8a78f66bb521578be15adcdacb529ddab78"
+    },
+    {
+      "path": "app.js",
+      "bytes": 2131,
+      "sha256": "9bb517769065b8aedbd40d8dcb4da6c2c12ffb401f8fad5812ebedc78333fe21"
+    },
+    {
+      "path": "assets/Inter-LICENSE.txt",
+      "bytes": 4380,
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+    },
+    {
+      "path": "assets/Inter-Regular.ttf",
+      "bytes": 325388,
+      "sha256": "eb56a2a9fa2302667fc02cdd5261d19850c73d9057a41c34f441aa2d544c27d3"
+    },
+    {
+      "path": "curve.js",
+      "bytes": 2931,
+      "sha256": "6c0717dd717b7fd0ccb9689f18bddd34b0f1d530863fee40f10239bd296cb42e"
+    },
+    {
+      "path": "export.cjs",
+      "bytes": 1164,
+      "sha256": "8fef88262259d54c4d85691ff58b16d286b99cbe8c7c553a5b8f4d029317299a"
+    },
+    {
+      "path": "fonts.conf",
+      "bytes": 230,
+      "sha256": "8d5cbe78d748222b9a17a2b6116ba8433323452bb053b9fde15213dfebe4a51f"
+    },
+    {
+      "path": "index.html",
+      "bytes": 724,
+      "sha256": "85959f05b65678329c4f602fdda42535a2235b86e39709a88632129e86c0bc9a"
+    },
+    {
+      "path": "model.js",
+      "bytes": 681,
+      "sha256": "cbb8a7bdbcdd486191014cb55199c871251be04c00f649a848d4bde4b7b4234a"
+    },
+    {
+      "path": "motion-data.js",
+      "bytes": 82356,
+      "sha256": "5abd0cdb4be1217139a89ecd20ce80158899dcbd574d8ebd5e06c1190cb73ca2"
+    },
+    {
+      "path": "package.json",
+      "bytes": 193,
+      "sha256": "ebd708b748a160b98428a546ea8493cf1c498c3ed99f441aafd1920b03525bc6"
+    },
+    {
+      "path": "preview/full.mp4",
+      "bytes": 259315,
+      "sha256": "9731043b21023ba83830e2601543c79d50731d8de3c1ace1c41c00724d3f53b5"
+    },
+    {
+      "path": "preview/loop.gif",
+      "bytes": 809493,
+      "sha256": "071d5c7939f15a9d27121602203a0f2be1c0583e89bffc6765763b02bc4bceca"
+    },
+    {
+      "path": "render.cjs",
+      "bytes": 978,
+      "sha256": "a3244927fd2e4868d06a245455bca2edc330dde4b7dd02c938fcb6210ebe738d"
+    },
+    {
+      "path": "scene.js",
+      "bytes": 3285,
+      "sha256": "e02b267f9bba5a4ed10260598a8676f126137ecec4bab6d031cda5617c290be9"
+    },
+    {
+      "path": "style.css",
+      "bytes": 787,
+      "sha256": "8dd4e6e0cdeae04a7b9c416413fb0975d045a0a05f04071bdae3ea2a7c46e5b5"
+    },
+    {
+      "path": "tests/dom.test.cjs",
+      "bytes": 1877,
+      "sha256": "ce4c13e726a42955fb826f0ac472cce14af8512f98b3338b91787558704f4a18"
+    },
+    {
+      "path": "tests/scene.test.cjs",
+      "bytes": 1604,
+      "sha256": "166351d0a2eeac6e15e27d73689606bc17b944ce7127d3c41f4f1a2c8c33a3e6"
+    },
+    {
+      "path": "validation/frame-bindings.json",
+      "bytes": 228585,
+      "sha256": "42555cc7ad430fc64098e1a7c132f6762e3c416120008e6985c22a5f134aa6a3"
+    },
+    {
+      "path": "validation/fresh-raster.json",
+      "bytes": 2174,
+      "sha256": "64ecbe8716ba2bf145974d57427a760bdc466967a1b08e18ba34e1f32e1948b1"
+    },
+    {
+      "path": "validation/media-check.json",
+      "bytes": 706,
+      "sha256": "bb187dcb2a78eb5dc340faf8441c6747ac793452ff8edd0a92c95234e6ec704f"
+    },
+    {
+      "path": "validation/pointer-correction.json",
+      "bytes": 304,
+      "sha256": "42cd7a5586b5f7a65232f5be11d700f952243409ab3a57e01b857265bd3b2ebc"
+    },
+    {
+      "path": "validation/render-inputs.json",
+      "bytes": 890,
+      "sha256": "c67a3cd4aa3522ca136d857d1c7e363eb7d52bd6a58a4322a6141af848695bfb"
+    },
+    {
+      "path": "validation/tests.txt",
+      "bytes": 674,
+      "sha256": "ad3c5615530870d9ce5f00af2793e14a1d48bba030275e93465c764b25cf4316"
+    },
+    {
+      "path": "validation/verification.json",
+      "bytes": 1325,
+      "sha256": "923f0e447a2fb1ecea824538f5651fef1942de802a9da232e4e08107a72eaf51"
+    },
+    {
+      "path": "verify.cjs",
+      "bytes": 931,
+      "sha256": "989c9446d20408d15c8117d53201c9554fcb22deb3431815faf77944aa9c0409"
+    }
+  ]
+}

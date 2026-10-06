@@ -1,0 +1,28 @@
+{
+  "mp4": {
+    "width": 1340,
+    "height": 836,
+    "r_frame_rate": "60/1",
+    "duration": "9.200000",
+    "nb_frames": "552"
+  },
+  "source_native_frames": 552,
+  "pts_count": 552,
+  "maximum_pts_error_seconds": 0.0,
+  "full_decode_pass": true,
+  "gif": {
+    "frames": 276,
+    "distinct_rgb_frames": 226,
+    "duration_ms": 9200,
+    "size": [
+      1005,
+      627
+    ],
+    "exact_decoded_endpoint_rgb": true,
+    "endpoint_rgb_sha256": "96fa29ec12bf495e9387b0d5b49c78b975dfdd9008f3c74736dc6d1c37897912"
+  },
+  "hashes": {
+    "full.mp4": "9731043b21023ba83830e2601543c79d50731d8de3c1ace1c41c00724d3f53b5",
+    "loop.gif": "071d5c7939f15a9d27121602203a0f2be1c0583e89bffc6765763b02bc4bceca"
+  }
+}

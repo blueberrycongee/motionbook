@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "path": "scene.js",
+      "sha256": "e02b267f9bba5a4ed10260598a8676f126137ecec4bab6d031cda5617c290be9"
+    },
+    {
+      "path": "curve.js",
+      "sha256": "6c0717dd717b7fd0ccb9689f18bddd34b0f1d530863fee40f10239bd296cb42e"
+    },
+    {
+      "path": "motion-data.js",
+      "sha256": "5abd0cdb4be1217139a89ecd20ce80158899dcbd574d8ebd5e06c1190cb73ca2"
+    },
+    {
+      "path": "fonts.conf",
+      "sha256": "8d5cbe78d748222b9a17a2b6116ba8433323452bb053b9fde15213dfebe4a51f"
+    },
+    {
+      "path": "assets/Inter-Regular.ttf",
+      "sha256": "eb56a2a9fa2302667fc02cdd5261d19850c73d9057a41c34f441aa2d544c27d3"
+    }
+  ],
+  "source": {
+    "file": "rauno-graph-slider-2-original.mp4",
+    "sha256": "e186b7ec5a0ce1c97af064720c7e548060e6fa7443fcd6cb73c5f26f5ff2a27a"
+  },
+  "render": "Sharp0.35.4/libvips offline SVG, one worker thread; not browser capture"
+}

@@ -1,0 +1,15 @@
+✔ hover scrubbing interrupts replay and keyboard remains accessible (13.430212ms)
+✔ reduced motion starts paused and replay releases an interrupted touch (1.467302ms)
+✔ each original timestamp selects the corresponding finite scene (9.292043ms)
+✔ source endpoint holds close the loop without an authored bridge (0.277115ms)
+✔ curve progress is path distance and reaches both endpoints (2.423088ms)
+✔ scrubbing clamps out-of-range values and ignores invalid bounds (0.208456ms)
+✔ keyboard time selection has bounded one-minute steps (0.710631ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 170.195832

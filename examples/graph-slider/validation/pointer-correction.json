@@ -1,0 +1,9 @@
+{
+  "changed_frames": [
+    32,
+    214
+  ],
+  "unchanged_frames": 550,
+  "reason": "White ring fragments misclassified as cursor in numeric detector; enlarged original confirms no arrow at either frame.",
+  "comparison": "Exact SHA-256 over every decoded RGBA frame. No other rendered pixel changed."
+}
