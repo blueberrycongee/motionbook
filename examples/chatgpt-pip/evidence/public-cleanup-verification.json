@@ -1,0 +1,46 @@
+{
+  "original_control_paths_removed": true,
+  "unaffected_files": [
+    {
+      "path": "src/stack-behavior.mjs",
+      "byte_identical": true,
+      "sha256": "b16c17ae873b8e42aaecb6fe2b45cda361749e3c648b791be26c0ff54a8e43e3"
+    },
+    {
+      "path": "src/hover-behavior.mjs",
+      "byte_identical": true,
+      "sha256": "609c220226c62809819cb79b304b5f193c764ad4305540c1e4c89b75cd83f80d"
+    },
+    {
+      "path": "src/native-spec.mjs",
+      "byte_identical": true,
+      "sha256": "05f6d44005b52d9d53e353520e3272d45e714619d66a1ec69cf1f8a496236220"
+    },
+    {
+      "path": "src/browser-pip.mjs",
+      "byte_identical": true,
+      "sha256": "59e14ca2b5c688d2a038cbdbb51678ba61fddb48403bb550fabc87ee698a98fc"
+    },
+    {
+      "path": "artifacts/snapping/pip-snapping-physics.gif",
+      "byte_identical": true,
+      "sha256": "5f7811f00d12f3343002f9dcf4760df48b741054017f044f74d6d5a5bfb658ca"
+    },
+    {
+      "path": "artifacts/snapping/pip-snapping-physics.mp4",
+      "byte_identical": true,
+      "sha256": "b7caab46d7c0c1ff2cda6565dd12e97b825f98d52e7e23b21ad8a23cd9257adb"
+    },
+    {
+      "path": "artifacts/snapping/trajectory-trace.json.gz.b64",
+      "byte_identical": true,
+      "sha256": "5aa9516c2b9025105c88161db05c645b7049f5d218452aac26887be4c6924660"
+    }
+  ],
+  "tests": {
+    "passed": 95,
+    "failed": 0
+  },
+  "native_runtime_tested": false,
+  "preview_type": "offline SVG/Sharp state render"
+}

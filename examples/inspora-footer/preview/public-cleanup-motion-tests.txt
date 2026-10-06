@@ -1,0 +1,15 @@
+PASS {
+  period_seconds: 1.4,
+  speed_pixels_per_second: 36,
+  preview_travel_pixels: 252,
+  max_stance_toe_slip_pixels: 4.547473508864641e-13,
+  max_ground_error_pixels: 0,
+  max_fixed_link_length_error_pixels: 4.884981308350689e-14,
+  explicit_pastern_length_range: [ 5.999999999999957, 6.000000000000049 ],
+  loaded_fore_carpus_degrees: [ 161.1438187731831, 176.99957867477167 ],
+  max_hoof_angular_velocity_discontinuity_degrees_per_second: 0.003404498016834623,
+  max_ik_reach_adjustment: 0,
+  supporting_hooves: [ 2, 3 ],
+  runtime_browser_tested: false,
+  meaning: 'Structural regression checks; not a certification of natural-looking motion.'
+}

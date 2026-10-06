@@ -16,18 +16,18 @@
   },
   {
     "path": "STATUS.json",
-    "bytes": 257,
-    "sha256": "8ce8979951d0e9d8b8e70892b209395ced3613f80688ae75d6abc4d47463f90e"
+    "bytes": 221,
+    "sha256": "d4eaf9275a996a14fb5ffe58e97e6be2bf55a9d389d30e1e431bd16b381a0733"
   },
   {
     "path": "VALIDATION.md",
-    "bytes": 3601,
-    "sha256": "3eecef6663d3106f27a1dbb77cf096bdb2b5f9a4d9a3a4ad465c26556e6a5503"
+    "bytes": 3539,
+    "sha256": "3a526c9c3407a68094f715474cd067f0d21f4857003756a2fe4f7ccd286b3aec"
   },
   {
     "path": "VERIFICATION.json",
-    "bytes": 5529,
-    "sha256": "ea1f372a635c0495ed0ef9ca3f94b3fe2846b1bbaccf4050403a700dae967c12"
+    "bytes": 5458,
+    "sha256": "e523c109dab6b8da3698d91d482b23423a05f38463f70663029685c74a5d77f8"
   },
   {
     "path": "artifacts/space-welcome-60fps.mp4",
@@ -46,8 +46,8 @@
   },
   {
     "path": "evidence/accepted-m02-verification.json",
-    "bytes": 968,
-    "sha256": "44ec4536cfa68cae878ed84a920c67a22e1e79e1b0b67963deb6f416d4b533ab"
+    "bytes": 928,
+    "sha256": "db8f590c35c6ce8c13e865d8d7a1fa34d904829b5124757cd80bce931419b406"
   },
   {
     "path": "evidence/client-fingerprints.json",

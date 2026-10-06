@@ -44,7 +44,7 @@
   },
   "native_source": {
     "file": "native/PiPReplica.swift",
-    "sha256": "f0cfb3fc302261eacc8d02fbfd233e3e849f76f40737123db2ac5717169472c6",
+    "sha256": "38496c9da584aba3c67200f1ce971d7ea391d9db05edb69a413776b827dffac9",
     "validation": "static review only; not compiled or run",
     "build_script_sha256": "34588aafbf13853c9d541035a96fed5fe127d719748f4f16adf1d2a683df33e5",
     "minimum_macos": "13.0",
@@ -120,5 +120,12 @@
     "frames_per_second": 30
   },
   "presentation_validation": "docs/validation.json",
-  "presentation_edition": "clean effect-only previews"
+  "presentation_edition": "clean effect-only previews",
+  "original_artwork_cleanup": {
+    "date": "2026-10-06",
+    "controls": "Two original SVG drawings and 102 \u00d7 102 transparent PNG exports; generated without reference image inputs.",
+    "verification": "evidence/public-cleanup-verification.json",
+    "behavior": "unchanged motion/state modules and snapping artifacts",
+    "hover_previews": "regenerated from replacement icons"
+  }
 }

@@ -3,7 +3,7 @@
   "slug": "nested-tag-creation",
   "package_revision": "final-03",
   "manifest_sha256": "41e91fd46fdf90fe2f16022350048fd61f3844eaf600ef9467c0f0db2cfebbea",
-  "independent_review": "cleared_for_publisher",
+  "independent_review": "completed",
   "baseline_native_pairs": 1022,
   "final_changed_states_reviewed": 711,
   "enclosing_boundaries": 16,

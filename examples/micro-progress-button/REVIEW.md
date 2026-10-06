@@ -8,6 +8,6 @@
 - MP4 and GIF contain only the interaction and intrinsic UI. No explanations, parameters, labels, or watermarks are added. The pointer is independently drawn, with a motion trace derived from the original footage.
 - The preview is an offline render of the same SVG scene used by the interactive HTML. It is not a browser recording. A live-browser pass is still outstanding.
 - The open-source Nunito typeface substitutes for the original proprietary rounded font. Internal blue shading and cursor outlines are independent approximations.
-- User preview acceptance is pending. This case is separate from the numbered collection and is not authorized for main publication.
+- This supplemental case is separate from the numbered collection.
 
 Native comparison values and encoded-timestamp checks are in `evidence/`. Original footage and reference-containing contact sheets are excluded.

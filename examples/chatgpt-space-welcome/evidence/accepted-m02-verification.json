@@ -1,6 +1,6 @@
 {
   "milestone": "m02-preview",
-  "status": "first preview; user review pending",
+  "status": "historical first-preview technical verification",
   "tests": {
     "pass": 19,
     "fail": 0,
@@ -25,7 +25,6 @@
   },
   "browserPlayback": "not attempted; current preview restriction",
   "referenceTiming": "not observed; static screenshot supplied",
-  "mainPublication": "held for user preview review",
   "proprietaryAssetsIncluded": false,
   "knownGaps": [
     "simplified five-person choreography",

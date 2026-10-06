@@ -12,7 +12,6 @@
   "new_native_visual_review": "All 987 native source/replica pairs actually inspected in two full passes, with all later changed frames re-inspected and unchanged rasters bound exactly.",
   "new_browser_runtime": "not_run",
   "new_media_render": "New 20-second MP4 and infinite-loop GIF rendered from the final shared scene; 104 authored tail frames reviewed.",
-  "publication": "Private WIP backup authorized; main requires exact-manifest independent approval",
   "scope": "New independently rebuilt source. Recovered prior previews, if available, are comparison material and do not validate this reconstruction.",
   "original_media_url": "https://media.inspora.design/posts/97f6f169-609b-4634-b5db-b7a58bd1cef2.mp4",
   "original_media_access": {
@@ -23,7 +22,6 @@
     "duration": 18.266667,
     "pts_last": 18.25
   },
-  "immediate_dependency": "Independent binding of final frozen bytes after focused visual clearance",
   "checkpoint_at_utc": "2026-10-06T11:31:00Z",
   "new_state_tests": {
     "passed": 9,

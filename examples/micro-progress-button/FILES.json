@@ -11,8 +11,8 @@
   },
   {
     "path": "REVIEW.md",
-    "sha256": "b27ab2ea9c2632b04bdd1115b661fbd505504c3e157c30f42702eecbebd29fbc",
-    "bytes": 1905
+    "sha256": "e814891f2670d9f9bb83890e6022eeef69d382e24faf18894398196313a35fb9",
+    "bytes": 1839
   },
   {
     "path": "RUNNING.md",
@@ -21,8 +21,8 @@
   },
   {
     "path": "STATUS.json",
-    "sha256": "63a8b167b2eaac95f1443c9d308821616f6e906b9d0a42288f5101bf06dd0b89",
-    "bytes": 356
+    "sha256": "a938f55db0e0a54b5e44213259fc4b2da410f81b7cbb06157f89c31a9ac0cd7f",
+    "bytes": 321
   },
   {
     "path": "assets/Nunito-OFL.txt",
@@ -61,8 +61,8 @@
   },
   {
     "path": "evidence/comparison-summary.json",
-    "sha256": "d4dfa0d7f53c9e3de78008cdcbdba9624cb8295b62cbefbe6bb77d15901cc51c",
-    "bytes": 851
+    "sha256": "fd07926fe3feaadbd448ac74e3c80ce21e7eafe5fecc5f5429a24c95d2901678",
+    "bytes": 808
   },
   {
     "path": "evidence/deliverable-probe.json",
