@@ -1,0 +1,9 @@
+{
+  "tests": 9,
+  "nativeFrames": 282,
+  "closingFrames": 30,
+  "freshRGBAStates": 312,
+  "browserRuntime": "unverified",
+  "renderer": "offline SVG/Sharp",
+  "durationSeconds": 10.4
+}

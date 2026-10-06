@@ -1,0 +1,15 @@
+{
+  "id": "new100-030",
+  "title": "File toss",
+  "path": "examples/file-toss",
+  "source": "https://www.inspora.design/posts/7-6",
+  "source_author": "Nils Eller",
+  "native_frames_reviewed": 282,
+  "authored_closure_frames": 30,
+  "independent_review": "passed",
+  "tests_passed": 9,
+  "external_image_assets": [],
+  "browser_runtime": "not_run",
+  "readme_gif_playback": "pending",
+  "source_manifest_sha256": "dd79f2028f5132b67c9b9bc3aaae88a359f7348299c74ce14cc2714f15e776b4"
+}
