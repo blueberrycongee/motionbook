@@ -1,0 +1,13 @@
+{
+  "id": "supplemental-marcelo-portfolio-ribbon",
+  "title": "Portfolio ribbon",
+  "path": "examples/marcelo-portfolio-ribbon",
+  "source_url": "https://x.com/MarceloDesignX/status/2107307188343742937",
+  "implementation": "Independent Canvas geometry and original generated/redrawn artwork",
+  "preview": "preview/loop.gif",
+  "video": "preview/loop.mp4",
+  "tests": 12,
+  "browser_runtime": "not_run",
+  "new100_counted": false,
+  "manifest_sha256": "d46dd58da1b56b949ee164d279339b4e1ac21960ffb9b1146c28e2d8f11ae94b"
+}

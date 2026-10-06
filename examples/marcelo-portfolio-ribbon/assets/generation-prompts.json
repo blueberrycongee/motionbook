@@ -1,0 +1,22 @@
+[
+  [
+    "portrait-red",
+    "Use case: photorealistic-natural. Asset type: original square gallery photography. Generate a new editorial studio portrait, no reference image. A fictional young adult woman with a sculptural chin-length black bob, almost side profile looking left, black high-neck jacket, cropped chest-up. Vibrant vermilion orange-red flat studio backdrop. Deep cinematic shadow, fine realistic hair, skin texture, rim-light from left. Head fills 70 percent of the square, top of hair nearly touching upper edge. Restrained luxe fashion magazine art direction. No type, logos, watermark, borders or extra panels. A new person, not a known celebrity."
+  ],
+  [
+    "portrait-crimson",
+    "Use case: photorealistic-natural. Asset type: original square gallery photography. Generate a new editorial studio portrait, no reference image. Fictional East Asian adult man with close-cropped black hair and strong cheekbones, black turtleneck, three-quarter profile looking down and left, head and top of shoulders on right two thirds of frame. Deep flat crimson red background. Low key lighting with dramatic warm sidelight from upper left, realistic pores and subtle film grain. Head fills much of image and slightly crops at upper and right edges. No text, logo, watermark, borders or extra panels. New person, not celebrity."
+  ],
+  [
+    "portrait-cobalt",
+    "Use case: photorealistic-natural. Asset type: original square gallery photography. Generate a new editorial studio portrait, no reference image. Fictional Black adult man with dense short natural curls in side profile facing right, neck and shoulders at bottom, dramatic deep near-black silhouette with electric blue rim-light catching his cheek, nose and curls. Saturated electric cobalt blue to cyan luminous flat background. Premium cinematic studio portrait with realistic skin and hair detail. Profile head fills most of frame, hair close to upper edge. No typography, logos, watermark, border or extra panels. Original person not a known celebrity."
+  ],
+  [
+    "sphere-cobalt",
+    "Use case: stylized-concept. Asset type: original square gallery artwork, no reference image. A large beautifully realistic transparent solid cobalt-blue glass sphere on a low glossy dark-blue square plinth in a near-black midnight-blue studio. Brilliant cyan caustics arc through the bottom left interior, delicate thin electric blue curved refraction lines around the circular outline, strong cobalt rim highlights and almost black core. Sphere centered horizontally, diameter 78 percent of image, lower tangent around 80 percent of image height, top at 3 percent. Plinth occupies lower 20 percent. Rich high-contrast physically rendered optics and precise glass reflections. No words, symbols, logos, watermark, border or extra panels."
+  ],
+  [
+    "sculpture-chrome",
+    "Use case: stylized-concept. Asset type: original square gallery artwork, no reference image. Monochrome studio photograph of a brushed-metal kinetic sculpture. A single wide very thin elliptical silver disc angled diagonally from upper left to lower right, with a raised tapered convex cone at its center, supported between two small polished steel ovoids along a diagonal vertical axis. Black charcoal background. Circular brushed machining grooves on silver disc; beautiful bright central specular highlight and graded dark metallic edge. Disc fills 85 percent width, upper ovoid around center x, y=12 percent; lower ovoid around center x,y=88 percent. Restrained industrial fine-art photograph with realistic brushed metal. No type, logo, watermark, border or extra panels."
+  ]
+]

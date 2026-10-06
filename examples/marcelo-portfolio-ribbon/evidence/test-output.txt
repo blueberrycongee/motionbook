@@ -1,0 +1,20 @@
+✔ application event wiring loads local assets and handles interrupted / repeated gestures (41.572835ms)
+✔ all 679 native reference times are represented and monotonic (3.642444ms)
+✔ every native frame has finite ordered curved edges and a valid panel width (7.346877ms)
+✔ frame interpolation reproduces native geometry exactly (2.574862ms)
+✔ periodic ribbon has no out-of-range texture indices in either direction (3.437967ms)
+✔ left and right boundary geometry agrees across one complete wrap (0.414249ms)
+✔ drag interruption and repeated pointerdown do not leave dragging stuck (0.33567ms)
+✔ release momentum decays, reverse wheel overrides direction (0.601406ms)
+✔ reduced motion allows input without coasting or wave displacement (0.130478ms)
+✔ large time gaps are clamped and long sessions remain bounded (0.326829ms)
+✔ all ten visual sources are local, separate original assets (2.321545ms)
+✔ live deformation is finite for excessive input velocities (0.780206ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 230.263664

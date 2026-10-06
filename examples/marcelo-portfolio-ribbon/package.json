@@ -1,0 +1,1 @@
+{"name":"curved-portfolio-ribbon","version":"0.1.0","private":true,"type":"module","scripts":{"test":"node --test tests/*.test.mjs","render":"node scripts/render.mjs","assets":"node scripts/build-posters.mjs","start":"python3 -m http.server 4189 --bind 127.0.0.1"},"devDependencies":{"@napi-rs/canvas":"0.1.100"}}
