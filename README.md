@@ -87,3 +87,7 @@
 ## Dynamic island streak
 
 [![Dynamic island streak](examples/dynamic-island-streak/preview/dynamic-island-streak.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/dynamic-island-streak)
+
+## Adaptive email sidebar
+
+[![Adaptive email sidebar](examples/adaptive-email-sidebar/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/adaptive-email-sidebar)
