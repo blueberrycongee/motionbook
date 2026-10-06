@@ -1,0 +1,24 @@
+[
+  {
+    "id": "chatgpt-scheduled-tasks-m08-alignment-source",
+    "archive": "chatgpt-scheduled-tasks-m08-alignment-source.zip",
+    "archive_bytes": 112217,
+    "archive_sha256": "f19a840739d1675dc6bcfbec6ce83f5f483698a8d496aa3f22f8597015193b5a",
+    "source_manifest": "FILES.sha256",
+    "source_manifest_sha256": "edcc09ee28a68798dfd152a1be23215dbf8b5055045a4480672e42f416a7bb60",
+    "files": 58,
+    "status": "WIP; alignment and native subprofile research continues. Main publication held.",
+    "reference_media_included": false
+  },
+  {
+    "id": "039-foundation-r1",
+    "archive": "039-foundation-r1.zip",
+    "archive_bytes": 12536,
+    "archive_sha256": "55cb77d4bcafff657c62133a0320b6ec7c7e48666a4194eb2ddbb03ff731d133",
+    "source_manifest": "MANIFEST.json",
+    "source_manifest_sha256": "23f813e5c66aa9a6cef69e1adc4ba9ef0db238349fbc5763d8f59b83c3842a07",
+    "files": 14,
+    "status": "WIP; incomplete foundation, no main promotion.",
+    "reference_media_included": false
+  }
+]

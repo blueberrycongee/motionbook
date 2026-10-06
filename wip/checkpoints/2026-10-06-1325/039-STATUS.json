@@ -1,0 +1,11 @@
+{
+  "id": "039-foundation-r1",
+  "archive": "039-foundation-r1.zip",
+  "archive_bytes": 12536,
+  "archive_sha256": "55cb77d4bcafff657c62133a0320b6ec7c7e48666a4194eb2ddbb03ff731d133",
+  "source_manifest": "MANIFEST.json",
+  "source_manifest_sha256": "23f813e5c66aa9a6cef69e1adc4ba9ef0db238349fbc5763d8f59b83c3842a07",
+  "files": 14,
+  "status": "WIP; incomplete foundation, no main promotion.",
+  "reference_media_included": false
+}
