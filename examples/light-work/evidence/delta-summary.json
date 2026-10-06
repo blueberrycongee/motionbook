@@ -1,0 +1,19 @@
+{
+  "baseline": "milestones/new100-033-light-work-m03",
+  "baselineManifestSHA256": "3515ace7a23229d8996e980979d9eabd003c499f90302284b6da8b2b6accd5c2",
+  "resolution": [
+    752,
+    750
+  ],
+  "total": 1140,
+  "changed": 1140,
+  "unchanged": 0,
+  "unionChangedBounds": [
+    79,
+    0,
+    674,
+    393
+  ],
+  "allPixelsOutsideUnionByteIdentical": true,
+  "recordsSHA256": "37d03ea65e8047fc451b0d849cc3381fa6d816ecad29f980e75eebd5495a8e11"
+}

@@ -1,0 +1,17 @@
+✔ hover enters and reverses without snapping (21.478615ms)
+✔ leaving the card resets the switch and lighting (1.341051ms)
+✔ rapid switches settle to the final requested state (0.625592ms)
+✔ independent light and switch states render finite SVG (26.232143ms)
+✔ native timing keeps the original missing sample and all 1031 states (0.98735ms)
+✔ source switch turns on and resets during exit (0.657251ms)
+✔ authored closure joins the initial state without a jump (2.547826ms)
+✔ all native and tail states have bounded finite values (522.905959ms)
+✔ manual hover advances all four border strokes and reverses safely (0.952812ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1256.464281

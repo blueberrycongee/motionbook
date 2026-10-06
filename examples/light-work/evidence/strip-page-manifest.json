@@ -1,0 +1,386 @@
+[
+  {
+    "file": "strip-pages/strip-0000-0023.jpg",
+    "gridFrames": [
+      0,
+      23
+    ],
+    "SHA256": "38d2787f94df12d4f6898736aff16c94eee3131ff7a825ebe794dbbc8944de6a"
+  },
+  {
+    "file": "strip-pages/strip-0024-0047.jpg",
+    "gridFrames": [
+      24,
+      47
+    ],
+    "SHA256": "60f3165ca01a1ef4cc61393fbae13c16a08e99ca2b2f7a250fa945abb4503a97"
+  },
+  {
+    "file": "strip-pages/strip-0048-0071.jpg",
+    "gridFrames": [
+      48,
+      71
+    ],
+    "SHA256": "63f5208ed9869e2e539d0af224b0e68c08ea02c733a22b5bcb015883957d9788"
+  },
+  {
+    "file": "strip-pages/strip-0072-0095.jpg",
+    "gridFrames": [
+      72,
+      95
+    ],
+    "SHA256": "35a4ddcdc69b57cd884db6c85b2b236638b1b7eea769e9c61a331ed220a4cbcc"
+  },
+  {
+    "file": "strip-pages/strip-0096-0119.jpg",
+    "gridFrames": [
+      96,
+      119
+    ],
+    "SHA256": "e4af929f4af09926cc2fa407d3789fc24b4ba23b428c12d0174a621a6471e4b9"
+  },
+  {
+    "file": "strip-pages/strip-0120-0143.jpg",
+    "gridFrames": [
+      120,
+      143
+    ],
+    "SHA256": "bfd20774bb75fe30024222ed74ef8df5ecba8d42778737f52fe44e95716fa5f1"
+  },
+  {
+    "file": "strip-pages/strip-0144-0167.jpg",
+    "gridFrames": [
+      144,
+      167
+    ],
+    "SHA256": "d8760754fece8213516176aa25c7ec1f9eff2c6ea7677d1181cf6732ae47a508"
+  },
+  {
+    "file": "strip-pages/strip-0168-0191.jpg",
+    "gridFrames": [
+      168,
+      191
+    ],
+    "SHA256": "a6081e3de2a783cbaa885578698def66bff1cf69d2be2625424bb861dc568aa3"
+  },
+  {
+    "file": "strip-pages/strip-0192-0215.jpg",
+    "gridFrames": [
+      192,
+      215
+    ],
+    "SHA256": "7af29a320576d2c1165ab03f4b35af280029c2bf9c1fd640f11cc83f320d3f4d"
+  },
+  {
+    "file": "strip-pages/strip-0216-0239.jpg",
+    "gridFrames": [
+      216,
+      239
+    ],
+    "SHA256": "31b9d2f584e10e3fe58cc23c87860ab2227d14a4ba38cd6adb03132cee040839"
+  },
+  {
+    "file": "strip-pages/strip-0240-0263.jpg",
+    "gridFrames": [
+      240,
+      263
+    ],
+    "SHA256": "494b859e7b2415ca29a24381a1d3df0239b9f02e3201f3f780759b44720dc356"
+  },
+  {
+    "file": "strip-pages/strip-0264-0287.jpg",
+    "gridFrames": [
+      264,
+      287
+    ],
+    "SHA256": "30dd345374fc54cac0ce60c09ea73d3f4d3c2bd85bcfc388dbf6296d48c5f6ed"
+  },
+  {
+    "file": "strip-pages/strip-0288-0311.jpg",
+    "gridFrames": [
+      288,
+      311
+    ],
+    "SHA256": "5460ca9db764d4b35a14a46c7706a434ab1c705672a7096b4f4bab3156cfb78b"
+  },
+  {
+    "file": "strip-pages/strip-0312-0335.jpg",
+    "gridFrames": [
+      312,
+      335
+    ],
+    "SHA256": "4f119ec29553d2a1e2065787339498b77bc38a58fef6a6ef245baea9b5802b84"
+  },
+  {
+    "file": "strip-pages/strip-0336-0359.jpg",
+    "gridFrames": [
+      336,
+      359
+    ],
+    "SHA256": "70e538cb5395c78b51d10a0eb4661ec74a813ac5640ae21a2cb0f664374c788e"
+  },
+  {
+    "file": "strip-pages/strip-0360-0383.jpg",
+    "gridFrames": [
+      360,
+      383
+    ],
+    "SHA256": "a4daa202bf1f171e841fc57ae95abde4b81dbf65e4229d09e6e829d51d20435f"
+  },
+  {
+    "file": "strip-pages/strip-0384-0407.jpg",
+    "gridFrames": [
+      384,
+      407
+    ],
+    "SHA256": "23620bd53b20c15d24827ec39936ad2005aa4117f3317d2ab5bd86d2a6dfdc56"
+  },
+  {
+    "file": "strip-pages/strip-0408-0431.jpg",
+    "gridFrames": [
+      408,
+      431
+    ],
+    "SHA256": "ae16b84403e46ef6b25518fac9652fe6a5ec31724c9191d2273272986f0d37fa"
+  },
+  {
+    "file": "strip-pages/strip-0432-0455.jpg",
+    "gridFrames": [
+      432,
+      455
+    ],
+    "SHA256": "adf6e4118b2dc55c575aff844e9ac60cbe41a9463ea065cc5064dfcc7d34f1a3"
+  },
+  {
+    "file": "strip-pages/strip-0456-0479.jpg",
+    "gridFrames": [
+      456,
+      479
+    ],
+    "SHA256": "91f916175fa90d8ec850986d42829e010e6d4bc7b0a08bbd3c3ce0b839936aa1"
+  },
+  {
+    "file": "strip-pages/strip-0480-0503.jpg",
+    "gridFrames": [
+      480,
+      503
+    ],
+    "SHA256": "c5a2e0dd34becf8daa04eec249842ab95e6a06d51c49549a14a3cd5ed0d4669e"
+  },
+  {
+    "file": "strip-pages/strip-0504-0527.jpg",
+    "gridFrames": [
+      504,
+      527
+    ],
+    "SHA256": "db1c02d228fb4a469f92676e55870abebf2535c18c110dbe66af7f4dd4a18ab6"
+  },
+  {
+    "file": "strip-pages/strip-0528-0551.jpg",
+    "gridFrames": [
+      528,
+      551
+    ],
+    "SHA256": "56c293138e3e9c37c4d66262c3327a7cb1d31aea8f9683e69ce8cbcb7750148d"
+  },
+  {
+    "file": "strip-pages/strip-0552-0575.jpg",
+    "gridFrames": [
+      552,
+      575
+    ],
+    "SHA256": "d6e08716d784336a57c03f66cd4cba2c9f27e5a25e9c5243f58306754952835e"
+  },
+  {
+    "file": "strip-pages/strip-0576-0599.jpg",
+    "gridFrames": [
+      576,
+      599
+    ],
+    "SHA256": "6942c3c14c1342b70686a2c88d21dd94242796a2f2a57eb081fabbf8d361f553"
+  },
+  {
+    "file": "strip-pages/strip-0600-0623.jpg",
+    "gridFrames": [
+      600,
+      623
+    ],
+    "SHA256": "1218b625135aebd0d56d448a096c320303e51e176af2647b6572c980535c8aed"
+  },
+  {
+    "file": "strip-pages/strip-0624-0647.jpg",
+    "gridFrames": [
+      624,
+      647
+    ],
+    "SHA256": "e8cc82a7a7dc4b4d6a42936f978414a50b15e049a25b483d224d7b61b2b6c387"
+  },
+  {
+    "file": "strip-pages/strip-0648-0671.jpg",
+    "gridFrames": [
+      648,
+      671
+    ],
+    "SHA256": "17ad606a95a4b994e9fdbe881c55cc6a6ae7f7c30daf172f14718ae2bfdf949b"
+  },
+  {
+    "file": "strip-pages/strip-0672-0695.jpg",
+    "gridFrames": [
+      672,
+      695
+    ],
+    "SHA256": "21c5ccb5acec07a856f0335deec7eb62f3195a70327e364667fdb5fa8eb5d9ea"
+  },
+  {
+    "file": "strip-pages/strip-0696-0719.jpg",
+    "gridFrames": [
+      696,
+      719
+    ],
+    "SHA256": "46c4103e837148874aebb5df85d9a7438384068ad0c172c838b233943da3893a"
+  },
+  {
+    "file": "strip-pages/strip-0720-0743.jpg",
+    "gridFrames": [
+      720,
+      743
+    ],
+    "SHA256": "0c9b130352911d6a91ece1b8e7258b900d2ab87ed6d97bef366f7d5029bce446"
+  },
+  {
+    "file": "strip-pages/strip-0744-0767.jpg",
+    "gridFrames": [
+      744,
+      767
+    ],
+    "SHA256": "da01d6dac2e835114f0959011cd0cacd7610a216615e6df7e0b541552fcf6b9a"
+  },
+  {
+    "file": "strip-pages/strip-0768-0791.jpg",
+    "gridFrames": [
+      768,
+      791
+    ],
+    "SHA256": "9da1ba7c44d4e04fd9b4148bd1d96f0bb09a39f6d7da162dbae876a630ef7f35"
+  },
+  {
+    "file": "strip-pages/strip-0792-0815.jpg",
+    "gridFrames": [
+      792,
+      815
+    ],
+    "SHA256": "8e654de263b78a442296007439a01aa4ba042dc0b79a3f2a9e09f8ae276de6af"
+  },
+  {
+    "file": "strip-pages/strip-0816-0839.jpg",
+    "gridFrames": [
+      816,
+      839
+    ],
+    "SHA256": "6a1081dff16f160f5c804b1690304be4db5f9d7a958d920afc6b89590b5d4844"
+  },
+  {
+    "file": "strip-pages/strip-0840-0863.jpg",
+    "gridFrames": [
+      840,
+      863
+    ],
+    "SHA256": "1ff3ff7d8e60cabd3d93afe6013c28511b5da21bed98ac949dbd956c23b677b1"
+  },
+  {
+    "file": "strip-pages/strip-0864-0887.jpg",
+    "gridFrames": [
+      864,
+      887
+    ],
+    "SHA256": "add1ce8ffb0cbcf79209c470ffc3859fa78972d3e46ee75640e6e88765d91061"
+  },
+  {
+    "file": "strip-pages/strip-0888-0911.jpg",
+    "gridFrames": [
+      888,
+      911
+    ],
+    "SHA256": "aed4eb12395dc7e0c5e9bc63ea434117d2223282d90271d9effd9bc3442d8390"
+  },
+  {
+    "file": "strip-pages/strip-0912-0935.jpg",
+    "gridFrames": [
+      912,
+      935
+    ],
+    "SHA256": "edb54fe194fc3b12f7096118bec01467e5d1b66e3b0acb040384d213a90005f1"
+  },
+  {
+    "file": "strip-pages/strip-0936-0959.jpg",
+    "gridFrames": [
+      936,
+      959
+    ],
+    "SHA256": "fb953cdeef038c663ebb9530d069e4dac4cd04aa1d8ee4da16d66042a7f3c61f"
+  },
+  {
+    "file": "strip-pages/strip-0960-0983.jpg",
+    "gridFrames": [
+      960,
+      983
+    ],
+    "SHA256": "e6124f46671238019d2387bc0bb5d4882ab65284ac5c222317e00ea809be1ef5"
+  },
+  {
+    "file": "strip-pages/strip-0984-1007.jpg",
+    "gridFrames": [
+      984,
+      1007
+    ],
+    "SHA256": "855dbfd919234496660528d6933d7cf5c054dcf3158f733cd30ea39d7b6ec0e5"
+  },
+  {
+    "file": "strip-pages/strip-1008-1031.jpg",
+    "gridFrames": [
+      1008,
+      1031
+    ],
+    "SHA256": "4f05d51bb9437b59cbf305deae93d3a043af54b01ee0a760cf3231e328598985"
+  },
+  {
+    "file": "strip-pages/strip-1032-1055.jpg",
+    "gridFrames": [
+      1032,
+      1055
+    ],
+    "SHA256": "3cae3c358b5aed585b84a0a29ba59df1517ef7aeb221e1f9c4ed95b07318a1a1"
+  },
+  {
+    "file": "strip-pages/strip-1056-1079.jpg",
+    "gridFrames": [
+      1056,
+      1079
+    ],
+    "SHA256": "f5ccae5738ccfa6d54dfc7a22d378d6fa3a169d6bef2650582d94acc110b5c51"
+  },
+  {
+    "file": "strip-pages/strip-1080-1103.jpg",
+    "gridFrames": [
+      1080,
+      1103
+    ],
+    "SHA256": "33c7373ba14303109a16aa50c445f41ed557aae6cff85a68fc5eac088d536e2e"
+  },
+  {
+    "file": "strip-pages/strip-1104-1127.jpg",
+    "gridFrames": [
+      1104,
+      1127
+    ],
+    "SHA256": "811edd8d40ba81e1c530016e58890a425066ed7ce4811135b293418b4c239ad5"
+  },
+  {
+    "file": "strip-pages/strip-1128-1139.jpg",
+    "gridFrames": [
+      1128,
+      1139
+    ],
+    "SHA256": "514c1f69d2c7b776d037de9616a1ba4e2204fab8356a22ff3936583966415cd7"
+  }
+]

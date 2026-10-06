@@ -1,0 +1,45 @@
+{
+  "id": "new100-033",
+  "candidate": "v19 / milestone m04",
+  "reviewer": "replicate_social_motion_cards",
+  "reviewCompletedUTC": "2026-10-06T12:26:00.296203+00:00",
+  "sourceSHA256": "5972a51bc83e0bc0795a9cf72cd0a36aa30333eae16eca0752a2549b2e316753",
+  "sourceFrameRange": [
+    0,
+    1030
+  ],
+  "baselineFullCompositionReview": "All1031 native pairs plus108tail states of immutable m03 were inspected by owner and independently by distinct reviewer.",
+  "finalEmitterGridFramesInspected": [
+    0,
+    1139
+  ],
+  "finalEmitterNativeFramesInspected": [
+    0,
+    1030
+  ],
+  "finalEmitterTailFramesInspected": [
+    1032,
+    1139
+  ],
+  "finalEmitterSheets": 48,
+  "nativeFullCompositionFocus": [
+    0,
+    500,
+    775,
+    1021
+  ],
+  "fullNativeRastersForEveryEmitterCrop": true,
+  "finalIndependentVisualMessage": "Distinct reviewer inspected every final native full-frame pair and all108tail states, reporting no remaining material hold. Final fresh raster/hash binding pending.",
+  "findings": [
+    "The corrected upper luminous band remains through each fade.",
+    "Lower halo follows source brightness more closely across all four lighting cycles.",
+    "No new timing or compositing hold appeared in the complete emitter sequence."
+  ],
+  "limits": [
+    "Small edge-step and late rim differences remain.",
+    "Sparse upper-beam alpha compositing deltas versus m03 are at most3gray levels, all explicitly measured.",
+    "All pixels below preview row393 remain byte-identical to m03.",
+    "Offline SVG rendering; actual browser execution unverified."
+  ],
+  "ownerVerdict": "Final correction ready for independent immutable binding and publication verification."
+}

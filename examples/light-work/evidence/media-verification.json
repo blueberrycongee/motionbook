@@ -1,0 +1,53 @@
+{
+  "mp4": {
+    "stream": {
+      "width": 752,
+      "height": 750,
+      "r_frame_rate": "60/1",
+      "duration": "19.000000",
+      "nb_frames": "1140"
+    },
+    "frames": 1140,
+    "nativeFramesPreserved": 1031,
+    "maxNativePTSErrorSeconds": 0.0,
+    "interpolatedMissingSample": [
+      {
+        "i": 55,
+        "nativeFrame": null,
+        "t": 0.9166666666666666,
+        "kind": "interpolated-missing-sample",
+        "rgbSHA256": "6d85eea32c4c5bf827b10dc09875d206c468969fc7983b8257e96ea7d5f99992",
+        "png": "0055.png"
+      }
+    ],
+    "authoredTailFrames": 108
+  },
+  "gif": {
+    "frames": 570,
+    "distinctFrames": 427,
+    "durationMs": 19000,
+    "firstLastRGBEqual": true
+  },
+  "decodes": {
+    "preview.mp4": {
+      "sha256": "0ea0a10b989766b59f3ad085085ccda68b3e9e343415701619d0a144bb674dd2",
+      "bytes": 427065,
+      "fullDecode": true,
+      "stderr": ""
+    },
+    "preview.gif": {
+      "sha256": "8c9decdcc26251367605b901df215fa6f51448fb352595b970168013344e28f7",
+      "bytes": 3345538,
+      "fullDecode": true,
+      "stderr": ""
+    }
+  },
+  "seam": {
+    "firstLastRGBEqual": true,
+    "sha256": "51d4e4e74f9e31c45eea9ed130a539ff4a9031b5efe3cc42a30ded53b981e63b"
+  },
+  "sourceSHA256": "5972a51bc83e0bc0795a9cf72cd0a36aa30333eae16eca0752a2549b2e316753",
+  "freshBindings": 18,
+  "allFreshBindingsMatch": true,
+  "renderer": "Offline SVG/Sharp rendering; browser execution unverified."
+}
