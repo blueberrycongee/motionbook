@@ -1,0 +1,14 @@
+{
+  "name": "chatgpt-space-motion-study",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "test": "node --test test/*.test.mjs",
+    "render": "node scripts/render.mjs"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.100"
+  }
+}

@@ -68,7 +68,7 @@
   </tr>
   <tr>
     <td align="center" width="33%"><a href="examples/micro-progress-button/README.md"><img src="examples/micro-progress-button/deliverables/micro-progress-button.gif" width="200" alt="Micro progress button"></a><br><a href="examples/micro-progress-button/README.md">Micro progress button</a></td>
-    <td width="33%"></td>
+    <td align="center" width="33%"><a href="examples/chatgpt-space-welcome/README.md"><img src="examples/chatgpt-space-welcome/artifacts/space-welcome.gif" width="200" alt="ChatGPT Space"></a><br><a href="examples/chatgpt-space-welcome/README.md">ChatGPT Space</a></td>
     <td width="33%"></td>
   </tr>
 </table>

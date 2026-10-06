@@ -1,0 +1,1 @@
+Independent educational animation reconstruction. The implementation and original vector artwork in this directory were authored for this study. No original ChatGPT bundle, proprietary artwork or font is distributed. Product names remain the property of their respective owners. Not affiliated with or endorsed by OpenAI.

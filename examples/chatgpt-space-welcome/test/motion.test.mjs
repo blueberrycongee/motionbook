@@ -1,0 +1,17 @@
+import test from'node:test';import assert from'node:assert/strict';
+import{createRng,StarField,cardPose,starCount,bezier,springValue,limitedVelocity,smoother,typedText,editProgress,sceneOpacity,travelDuration}from'../src/motion.mjs';
+test('Park-Miller seed and count bounds',()=>{const a=createRng(),b=createRng();for(let i=0;i<100;i++)assert.equal(a(),b());assert.equal(starCount(1440,900),6821);assert.equal(starCount(1,1),1000);assert.equal(starCount(8000,8000),11000);});
+test('deterministic field state',()=>{const a=new StarField(800,600),b=new StarField(800,600);for(let i=0;i<120;i++){a.step(1/60);b.step(1/60);}assert.deepEqual(a.stars,b.stars);});
+test('delta cap prevents big hidden-tab jump',()=>{const a=new StarField(800,600),b=new StarField(800,600);a.step(1);b.step(.04);assert.deepEqual(a.stars,b.stars);});
+test('pointer repulsion is bounded and click strengthens it',()=>{const a=new StarField(800,600),b=new StarField(800,600);let s=a.stars[10];const p={active:true,x:s.sx-25,y:s.sy};for(let i=0;i<60;i++){a.step(1/60,p);b.step(1/60,{...p,down:true});}assert.ok(Math.abs(b.stars[10].ox)>Math.abs(a.stars[10].ox));assert.ok(Math.abs(b.stars[10].ox)<100);});
+test('warp resets offsets, is idempotent and creates streaks',()=>{const a=new StarField(800,600);a.step(1/60);a.beginWarp();assert.equal(a.warp,0);a.step(.02);a.beginWarp();assert.equal(a.warp,.02);for(let i=0;i<20;i++)a.step(.02);assert.ok(a.stars.some(s=>s.trail<1));});
+test('reduced motion freezes particles and does not warp',()=>{const a=new StarField(800,600);a.step(0);const before=a.stars.map(s=>[s.x,s.y,s.z]);a.step(.04,{active:true,x:200,y:200},false);assert.deepEqual(a.stars.map(s=>[s.x,s.y,s.z]),before);assert.equal(a.time,0);});
+test('all card floats close at thirteen seconds',()=>{for(let i=0;i<4;i++){const a=cardPose(i,1440,900,0),b=cardPose(i,1440,900,13);assert.deepEqual(a,b);}});
+test('responsive sample visibility honors source cutoffs',()=>{assert.equal(cardPose(0,540,900,0).visible,false);assert.equal(cardPose(0,541,900,0).visible,true);assert.equal(cardPose(0,900,460,0).visible,false);assert.equal(cardPose(0,900,461,0).visible,true);});
+test('card disperse reaches source endpoint',()=>{const a=cardPose(0,1440,900,0,2);assert.equal(a.opacity,0);assert.ok(a.x<0);});
+test('release spring converges, preserves initial position',()=>{assert.equal(springValue(40,800,0),40);assert.ok(Math.abs(springValue(40,800,10))<.01);});
+test('release velocity limited to 1200',()=>{const v=limitedVelocity(3000,4000);assert.ok(Math.abs(Math.hypot(v.x,v.y)-1200)<.00001);});
+test('travel timing follows distance and caps',()=>{assert.equal(travelDuration(0,0),.38);assert.equal(travelDuration(10000,0),1);});
+test('text selection and typing thresholds',()=>{assert.equal(editProgress(.21,4).selected,false);assert.equal(editProgress(.22,4).selected,true);assert.equal(editProgress(.7,4).typing,true);assert.equal(typedText('Hello world',1),'Hello world');assert.equal(typedText('你好',0),'');});
+test('copy fade and delayed scene exit endpoints',()=>{assert.ok(sceneOpacity(.7,null)>.999);assert.equal(sceneOpacity(9,1.65),1);assert.ok(sceneOpacity(9,2.35)<.000001);});
+test('cubic timing endpoints and monotonicity',()=>{let last=-1;for(let i=0;i<=100;i++){const n=bezier(i/100,.55,.02,.95,.7);assert.ok(n>=last);last=n;}assert.equal(smoother(0),0);assert.equal(smoother(1),1);});

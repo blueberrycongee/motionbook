@@ -1,0 +1,25 @@
+{
+  "id": "chatgpt-space-welcome",
+  "collection": "supplemental",
+  "new100_counted": false,
+  "revision": "m02-preview",
+  "accepted_manifest_sha256": "84b163c99fa47feb0a151d7418496769633326ece653c5fdffa8c49643179dc0",
+  "publication_manifest_sha256": "8b3a05ef3fe8558dab74991ff7ccf083e9962dba5ed099e521fc44277cc64ab1",
+  "tests_passed": 19,
+  "source_unchanged": true,
+  "accepted_mp4_unchanged": true,
+  "gif_delivery_derivative": {
+    "size": [
+      400,
+      310
+    ],
+    "frames": 360,
+    "duration_ms": 18000,
+    "frame_durations_identical": true,
+    "loop": 0
+  },
+  "optional_stills_omitted": true,
+  "browser_runtime": "not_run",
+  "readme_playback_verification": "pending",
+  "fidelity_limits_retained_in": "examples/chatgpt-space-welcome/VALIDATION.md"
+}

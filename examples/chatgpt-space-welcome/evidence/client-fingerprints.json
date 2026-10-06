@@ -1,0 +1,27 @@
+{
+  "product": "ChatGPT macOS",
+  "version": "26.930.61225",
+  "build": 13232,
+  "inspectionDate": "2026-10-06",
+  "modules": [
+    {
+      "path": "webview/assets/onboarding-24926115a4d5.js",
+      "sha256": "3ccd71a98c706a55916822da081cf3c49be947f08bce2de53aaa061f32407997",
+      "bytes": 52776
+    },
+    {
+      "path": "webview/assets/onboarding-b3ffc57d6c15.css",
+      "sha256": "21c81e387257fd96a2891886cdbdeb2cbb0a350c58761cbac0e3fdcc66a64b2b",
+      "bytes": 14266
+    },
+    {
+      "path": "webview/assets/introduction-state-3cf2f00f0b6d.js",
+      "sha256": "def0bad5cf16dbe7bca5eaeaa11e68d9f22cf3cae4aa5d482e7634ccb51f16b2",
+      "bytes": 2512
+    }
+  ],
+  "target": "Space introduction / welcome overlay",
+  "runtimeObserved": false,
+  "reference": "User-provided static screenshot; composition only",
+  "distributionPolicy": "Do not redistribute inspected modules or bundled artwork"
+}

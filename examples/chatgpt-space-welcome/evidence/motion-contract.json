@@ -1,0 +1,121 @@
+{
+  "basis": "Static read-only inspection of official macOS package; screenshot composition corroborated",
+  "source": "webview/assets/onboarding-24926115a4d5.js and onboarding-b3ffc57d6c15.css",
+  "route": {
+    "path": "/space?tab=suggested",
+    "entryState": "showSpaceIntroduction",
+    "gates": "Space feature enabled; account identity matches; onboarding state allows introduction",
+    "runtime": "Not observed; no account or actual Space accessed"
+  },
+  "starfield": {
+    "renderer": "Canvas 2D",
+    "rng": {
+      "algorithm": "Park-Miller",
+      "seed": 42,
+      "multiplier": 16807,
+      "modulus": 2147483647
+    },
+    "count": "clamp(round(width*height/190),1000,11000)",
+    "deltaCapSeconds": 0.04,
+    "idleDepthSpeed": 0.006,
+    "zInitial": [
+      0.45,
+      3.25
+    ],
+    "zRecycleBelow": 0.12,
+    "zRecycleTo": 3.15,
+    "pointerRadiusPx": 190,
+    "pointerStrength": 54,
+    "pointerDownMultiplier": 1.8,
+    "parallaxSpanPx": 12,
+    "parallaxFollowRate": 2,
+    "repulsionFollowRate": 7,
+    "releaseFollowRate": 2.8,
+    "warpSeconds": 1.5,
+    "warpExponent": 2.5,
+    "warpDepthSpeedAddition": 6.2,
+    "trailDelaySeconds": 0.12,
+    "glowCanvasSize": 64,
+    "maxDPR": 2,
+    "adaptiveReduction": "Original monitors slow frames over 1000ms; 25% slow time starts 600ms faint-star fade and caps DPR at 1. Not yet implemented in m01."
+  },
+  "cards": {
+    "floatSeconds": 13,
+    "floatTiming": "ease-in-out",
+    "floatDelaySeconds": [
+      0,
+      -4,
+      -8,
+      -6
+    ],
+    "floatEndpoints": [
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        5,
+        -15,
+        1.2
+      ]
+    ],
+    "scale": 1.5,
+    "compactScale": 1.25,
+    "exitSeconds": 1.1,
+    "exitTiming": [
+      0.55,
+      0.02,
+      0.95,
+      0.7
+    ],
+    "exitOpacitySeconds": 0.55,
+    "exitOpacityDelaySeconds": 0.15,
+    "releaseSpring": {
+      "stiffness": 6.76,
+      "damping": 3.432,
+      "restDelta": 0.4,
+      "restSpeed": 2,
+      "velocityLimit": 1200
+    },
+    "keyboardNudgePx": 24,
+    "keyboardTossVelocity": [
+      580,
+      -500
+    ]
+  },
+  "copy": {
+    "headingPx": 44,
+    "headingLineHeightPx": 52,
+    "maxWidthPx": 840,
+    "descriptionMaxWidthPx": 530,
+    "buttonMarginTopPx": 36,
+    "exitSeconds": 0.4,
+    "exitTiming": "ease-in",
+    "exitBlurPx": 7,
+    "exitScale": 0.94
+  },
+  "wholeScene": {
+    "enterSeconds": 0.7,
+    "exitDelaySeconds": 1.65,
+    "exitSeconds": 0.7,
+    "easing": "Not explicitly specified at caller; demo assumes standard easeInOut."
+  },
+  "collaboration": {
+    "travel": "quintic smoothstep",
+    "travelSeconds": "0.38 + min(0.62, distance/1700)",
+    "followTimeConstantSeconds": 0.09,
+    "jobSelectionAge": 0.22,
+    "jobTypingAge": 0.7,
+    "jobTextDurations": [
+      2.1,
+      2.9,
+      3.5,
+      4.3
+    ],
+    "jobAfterHoldSeconds": 0.35,
+    "collaboratorExchangeEarliestSeconds": 5.8,
+    "m01Status": "Reduced deterministic edit-loop fixture. Full five-person task assignment and collision hysteresis are not exact."
+  },
+  "independentAssets": "All example imagery redrawn with original procedural vector artwork. Official photographs, illustration, font and source excluded."
+}
