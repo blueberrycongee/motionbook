@@ -4,6 +4,8 @@ UI animations & micro-interactions recreated in code, with GIF previews. 高质�
 
 基于公开演示独立复现的 UI 动效与交互研究。原作者与参考链接见各示例说明；字体等第三方组件保留各自许可。详见[来源、署名与权利说明](ATTRIBUTION.md)。
 
+[Agent skill](skills/motionbook/SKILL.md)
+
 <table>
   <tr>
     <td align="center" width="33%"><a href="examples/inspora-footer/README.md"><img src="examples/inspora-footer/delivery/footer-preview.gif" width="200" alt="Inspora footer"></a><br><a href="examples/inspora-footer/README.md">Inspora footer</a></td>
