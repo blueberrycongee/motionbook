@@ -1,0 +1,1 @@
+import{scene}from'./scene.mjs';const art=document.querySelector('#art'),age=document.querySelector('#age');const draw=()=>art.innerHTML=scene({weeks:Math.round(Number(age.value)*52)});age.addEventListener('input',draw);draw();

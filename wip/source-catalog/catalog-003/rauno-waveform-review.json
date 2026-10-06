@@ -1,0 +1,191 @@
+{
+  "slug": "rauno-waveform",
+  "title": "Minimap",
+  "author": "Rauno Freiberg",
+  "author_x": "https://x.com/raunofreiberg",
+  "source_page": "https://rauno.me/craft/minimap",
+  "footage_url": "https://cdn.rauno.me/waveform.mp4#t=0.01",
+  "sha256": "11b9af977f783f54c3d68d40d9ea096e32b8e663a4e86f88efa9c67f4997f721",
+  "frame_count": 480,
+  "original_size": [
+    1258,
+    644
+  ],
+  "native_pts_path": "pts.json",
+  "fresh_visual_review": {
+    "complete": true,
+    "reviewed_ranges": [
+      [
+        0,
+        479
+      ]
+    ],
+    "full_resolution_keys": [
+      0,
+      50,
+      303
+    ],
+    "method": "Every native original frame inspected in12 ordered full-canvas contact sheets at300px wide; three native-resolution keys. No fps resampling.",
+    "checked_at_utc": "2026-10-06T09:05:57.880162+00:00"
+  },
+  "recommendation": "Clean drawable candidate. Local height wave travels along49 stationary vertical lines as pointer traverses and leaves/reenters; pure geometry, no source image dependency.",
+  "assignment": "Unassigned",
+  "geometry": {
+    "tick_count": 49,
+    "x_centers": "204.5 +18*i, i=0..48; each source tick occupies two integer pixel columns",
+    "black_tick_indices": [
+      4,
+      11,
+      23,
+      31,
+      41
+    ],
+    "initial_gray_tick_y_extent": [
+      308,
+      343
+    ],
+    "initial_black_tick_y_extent": [
+      296,
+      343
+    ],
+    "initial_gray_rgb_approx": [
+      179,
+      179,
+      179
+    ],
+    "initial_black_rgb_approx": [
+      25,
+      25,
+      25
+    ],
+    "background_rgb_approx": [
+      250,
+      250,
+      250
+    ],
+    "red_playhead_x_approx": 186.5,
+    "red_playhead_top_approx": 232,
+    "red_down_triangle_tip_y_approx": 227,
+    "red_playhead_bottom": "clipped at644px canvas bottom",
+    "confidence": "Static anchors measured directly from native frame0. Tick heights change over time; x positions visibly remain fixed. Colors approximate because source is compressed."
+  },
+  "observations": [
+    {
+      "frames": [
+        0,
+        17
+      ],
+      "pts": [
+        "0.000000",
+        "0.316667"
+      ],
+      "behavior": "Static initial ticks and fixed red playhead. Black pointer enters from right."
+    },
+    {
+      "frames": [
+        18,
+        178
+      ],
+      "pts": [
+        "0.333333",
+        "3.116667"
+      ],
+      "behavior": "Pointer traverses right to left across tick field. Nearby bars grow into a moving hump; adjacent bars briefly shorten into shallow troughs. Peaks lag/settle subtly after pointer movement. Five black accent ticks keep their color."
+    },
+    {
+      "frames": [
+        179,
+        203
+      ],
+      "pts": [
+        "3.133333",
+        "3.550000"
+      ],
+      "behavior": "Pointer exits to left; expanded bars relax and shallow wave dissipates to baseline."
+    },
+    {
+      "frames": [
+        204,
+        217
+      ],
+      "pts": [
+        "3.566667",
+        "3.783333"
+      ],
+      "behavior": "Pointer changes direction and reapproaches left edge; no red playhead motion."
+    },
+    {
+      "frames": [
+        218,
+        304
+      ],
+      "pts": [
+        "3.800000",
+        "5.300000"
+      ],
+      "behavior": "Second traversal left to right, recreating moving hump and trailing/leading troughs. Near303height peaks strongly as pointer sits below the field."
+    },
+    {
+      "frames": [
+        305,
+        344
+      ],
+      "pts": [
+        "5.316667",
+        "6.000000"
+      ],
+      "behavior": "Pointer leaves downward; height wave contracts back to baseline with settling. Pointer travels below field."
+    },
+    {
+      "frames": [
+        345,
+        397
+      ],
+      "pts": [
+        "6.016667",
+        "6.916667"
+      ],
+      "behavior": "Pointer reenters near right-middle, generating another hump and holding briefly around same horizontal area."
+    },
+    {
+      "frames": [
+        398,
+        439
+      ],
+      "pts": [
+        "6.933333",
+        "7.650000"
+      ],
+      "behavior": "Third traversal continues right-middle to left, then exits left."
+    },
+    {
+      "frames": [
+        440,
+        459
+      ],
+      "pts": [
+        "7.666667",
+        "8.000000"
+      ],
+      "behavior": "Residual bump settles to baseline and pointer moves out of view."
+    },
+    {
+      "frames": [
+        460,
+        479
+      ],
+      "pts": [
+        "8.016667",
+        "8.350000"
+      ],
+      "behavior": "Final static ticks and unchanged red playhead."
+    }
+  ],
+  "limits": [
+    "Do not animate tick x positions or call this horizontal magnification: native keys confirm fixed18px spacing. Motion is height deformation.",
+    "No clicking, playback advancement, dragging or audio playback is shown; do not invent those actions as source behavior.",
+    "All traversals form one distinct example.",
+    "Individual X post URL not verified. Public author page/video are primary provenance; author X profile is included.",
+    "Reference originals/crops are local-analysis only; no source redistribution license identified."
+  ]
+}
