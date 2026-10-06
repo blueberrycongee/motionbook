@@ -1,0 +1,19 @@
+{
+  "id": "new100-037",
+  "slug": "minimap",
+  "decision": "accepted",
+  "source_snapshot_manifest_sha256": "d74f7058970a78769dc2bc2ac7e004fde79f4ae17b2cc1f0fd941428b6628430",
+  "independent_review": {
+    "native_frames": 480,
+    "authored_bridge_poses": 6,
+    "fresh_rgba_bindings": 486,
+    "tests_passed": 11,
+    "source_pts_exact": true,
+    "double_duration_gaps": 22,
+    "media_decodes_passed": true,
+    "gif_seam_matches": true
+  },
+  "browser_runtime": "not_run",
+  "reviewed_at": "2026-10-06",
+  "note": "The bundled STATUS.md records the frozen pre-publication checkpoint; this acceptance supersedes its pending-review status."
+}

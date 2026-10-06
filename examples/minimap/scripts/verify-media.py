@@ -1,0 +1,9 @@
+from pathlib import Path
+from PIL import Image
+import json,subprocess,hashlib,numpy as np,sys
+R=Path(__file__).resolve().parents[1];expected=json.load(open(R/'evidence/native-timestamps.json'));result={}
+for name in ['full.mp4','loop.gif']:
+ p=R/'preview'/name;probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_entries','stream=codec_name,width,height,nb_frames,r_frame_rate,avg_frame_rate','-show_entries','format=duration','-of','json',str(p)]));subprocess.run(['ffmpeg','-v','error','-i',str(p),'-f','null','-'],check=True);result[name]={'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'bytes':p.stat().st_size,'ffprobe':probe,'full_decode_passed':True}
+p=R/'preview/full.mp4';f=json.loads(subprocess.check_output(['ffprobe','-v','error','-select_streams','v:0','-show_frames','-show_entries','frame=best_effort_timestamp_time','-of','json',str(p)]))['frames'];actual=[float(x['best_effort_timestamp_time']) for x in f];assert len(actual)==len(expected),(len(actual),len(expected));error=max(abs(a-b) for a,b in zip(actual,expected));assert error<.000002,error
+result['native_pts_verification']={'frame_count':len(expected),'every_frame_matched':True,'maximum_error_seconds':error,'no_cfr_retiming':True}
+g=Image.open(R/'preview/loop.gif');first=np.asarray(g.convert('RGB')).astype(float);g.seek(g.n_frames-1);last=np.asarray(g.convert('RGB')).astype(float);result['loop_seam']={'first_last_mae_0_255':float(abs(first-last).mean()),'first_last_max_channel_error':float(abs(first-last).max()),'frames':g.n_frames,'added_bridge_seconds':float(sys.argv[1]) if len(sys.argv)>1 else 0,'bridge_is_original_source_motion':False};result['all_media_decode_successfully']=True;result['contains_original_pixels']=False;(R/'evidence/media-verification.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))

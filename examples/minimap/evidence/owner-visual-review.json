@@ -1,0 +1,35 @@
+{
+  "role": "implementation owner; not final independent reviewer",
+  "reviewed_at_utc": "2026-10-06T10:26:00Z",
+  "native_frames": 480,
+  "reviewed_ranges": [
+    [
+      0,
+      479
+    ]
+  ],
+  "source_review": "Every original native frame inspected in 12 ordered full-canvas contact sheets, with full-resolution keys 0,50,70,120,250,303,350,399,435.",
+  "final_pair_review": "Every final native source/replica pair inspected in 12 ordered full-canvas comparison sheets; key pairs and clipped cursor exit were checked at full resolution.",
+  "verified_features": [
+    "49 stationary tick x positions and five dark accents",
+    "height hump and overshoot/trough motion during all traversals",
+    "downward pointer exit and reentry",
+    "fixed red playhead/triangle through the complete sequence",
+    "all 22 VFR double gaps and native endpoint duration retained",
+    "own vector pointer, including partially clipped exit poses",
+    "no source pixels redistributed"
+  ],
+  "corrections": [
+    "Recovered cursor-occluded tick extents from the opposite visible half.",
+    "Rejected disconnected compression specks when measuring unoccluded tick lengths.",
+    "Aligned the independent cursor vector using its own ink bounds, including clipped left-edge poses."
+  ],
+  "remaining_differences": [
+    "Subpixel thin-line antialiasing and compressed-reference texture.",
+    "The independent cursor path/shadow can differ in contour from the source.",
+    "Live spring behavior is an independent approximation; native replay is measured."
+  ],
+  "real_browser_execution": false,
+  "independent_final_review": "pending",
+  "similarity_percentage": null
+}

@@ -1,0 +1,140 @@
+{
+  "native_frames_compared": 480,
+  "reviewed_time_span": [
+    0,
+    8.35
+  ],
+  "native_pts_used": true,
+  "source_vfr_gaps_preserved": true,
+  "resolution": [
+    1258,
+    644
+  ],
+  "renderer": "offline SVG raster, not browser execution",
+  "reference_pixels_redistributed": false,
+  "canvas_mae_mean": 0.07337714375,
+  "field_roi_mae_mean": 0.17737263125,
+  "worst_field_frames": [
+    {
+      "frame": 298,
+      "pts_seconds": 5.2,
+      "canvas_mae_0_255": 0.087835,
+      "field_roi_mae_0_255": 0.235588,
+      "max_channel_error": 178,
+      "pixels_over_32": 331
+    },
+    {
+      "frame": 358,
+      "pts_seconds": 6.233333,
+      "canvas_mae_0_255": 0.088475,
+      "field_roi_mae_0_255": 0.231722,
+      "max_channel_error": 157,
+      "pixels_over_32": 296
+    },
+    {
+      "frame": 302,
+      "pts_seconds": 5.266667,
+      "canvas_mae_0_255": 0.086358,
+      "field_roi_mae_0_255": 0.230886,
+      "max_channel_error": 161,
+      "pixels_over_32": 283
+    },
+    {
+      "frame": 400,
+      "pts_seconds": 6.966667,
+      "canvas_mae_0_255": 0.088161,
+      "field_roi_mae_0_255": 0.230723,
+      "max_channel_error": 152,
+      "pixels_over_32": 352
+    },
+    {
+      "frame": 404,
+      "pts_seconds": 7.033333,
+      "canvas_mae_0_255": 0.088161,
+      "field_roi_mae_0_255": 0.230723,
+      "max_channel_error": 152,
+      "pixels_over_32": 325
+    },
+    {
+      "frame": 296,
+      "pts_seconds": 5.15,
+      "canvas_mae_0_255": 0.085764,
+      "field_roi_mae_0_255": 0.228992,
+      "max_channel_error": 203,
+      "pixels_over_32": 322
+    },
+    {
+      "frame": 301,
+      "pts_seconds": 5.25,
+      "canvas_mae_0_255": 0.085638,
+      "field_roi_mae_0_255": 0.228591,
+      "max_channel_error": 145,
+      "pixels_over_32": 294
+    },
+    {
+      "frame": 294,
+      "pts_seconds": 5.116667,
+      "canvas_mae_0_255": 0.085148,
+      "field_roi_mae_0_255": 0.227031,
+      "max_channel_error": 169,
+      "pixels_over_32": 311
+    },
+    {
+      "frame": 421,
+      "pts_seconds": 7.333333,
+      "canvas_mae_0_255": 0.086496,
+      "field_roi_mae_0_255": 0.225421,
+      "max_channel_error": 220,
+      "pixels_over_32": 278
+    },
+    {
+      "frame": 398,
+      "pts_seconds": 6.933333,
+      "canvas_mae_0_255": 0.086443,
+      "field_roi_mae_0_255": 0.225252,
+      "max_channel_error": 152,
+      "pixels_over_32": 292
+    },
+    {
+      "frame": 119,
+      "pts_seconds": 2.1,
+      "canvas_mae_0_255": 0.08409,
+      "field_roi_mae_0_255": 0.224662,
+      "max_channel_error": 209,
+      "pixels_over_32": 337
+    },
+    {
+      "frame": 406,
+      "pts_seconds": 7.066667,
+      "canvas_mae_0_255": 0.086015,
+      "field_roi_mae_0_255": 0.223888,
+      "max_channel_error": 172,
+      "pixels_over_32": 310
+    },
+    {
+      "frame": 414,
+      "pts_seconds": 7.2,
+      "canvas_mae_0_255": 0.085931,
+      "field_roi_mae_0_255": 0.22362,
+      "max_channel_error": 231,
+      "pixels_over_32": 251
+    },
+    {
+      "frame": 434,
+      "pts_seconds": 7.566667,
+      "canvas_mae_0_255": 0.085484,
+      "field_roi_mae_0_255": 0.222124,
+      "max_channel_error": 210,
+      "pixels_over_32": 337
+    },
+    {
+      "frame": 245,
+      "pts_seconds": 4.266667,
+      "canvas_mae_0_255": 0.08359,
+      "field_roi_mae_0_255": 0.222069,
+      "max_channel_error": 226,
+      "pixels_over_32": 245
+    }
+  ],
+  "warning": "Raw error statistics are not a fidelity percentage or pass. Background pixels dilute full-canvas error; all native frames require visual comparison."
+}

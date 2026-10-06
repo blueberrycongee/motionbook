@@ -1,0 +1,23 @@
+
+> new100-037-minimap@0.1.0 test
+> node --test tests/*.test.cjs
+
+✔ app pointer entry, leave and reentry wire to model (18.071147ms)
+✔ keyboard Escape and Reset clear live deformation (2.042899ms)
+✔ replay seek, scrub and return to live do not leave stale state (6.917545ms)
+✔ 49 stationary ticks and five accent lines (1.475668ms)
+✔ pointer proximity grows local heights but preserves x positions (5.956804ms)
+✔ leaving the field settles back to baseline (8.430174ms)
+✔ reentry, out-of-bounds, and reset stay finite (13.570478ms)
+✔ red playhead remains fixed and scene contains no raster asset (1.211784ms)
+✔ every native VFR time is retained, including 22 double gaps (2.294682ms)
+✔ all 480 states contain 49 finite, fixed-position vector ticks (34.783551ms)
+✔ traversals, downward exit and final rest are represented (0.263256ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 270.733924

@@ -1,0 +1,61 @@
+{
+  "full.mp4": {
+    "sha256": "ee90bc606c9795149e218a290cb257b754643a42df2bc5af16518028396acb03",
+    "bytes": 101793,
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1258,
+          "height": 644,
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "14400/251",
+          "nb_frames": "480"
+        }
+      ],
+      "format": {
+        "duration": "8.366667"
+      }
+    },
+    "full_decode_passed": true
+  },
+  "loop.gif": {
+    "sha256": "258d425399620163195bb8b6646db5fcafb420aba464e744f54b1defc0cfb90c",
+    "bytes": 465753,
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "gif",
+          "width": 1006,
+          "height": 515,
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "100/3",
+          "nb_frames": "254"
+        }
+      ],
+      "format": {
+        "duration": "8.460000"
+      }
+    },
+    "full_decode_passed": true
+  },
+  "native_pts_verification": {
+    "frame_count": 480,
+    "every_frame_matched": true,
+    "maximum_error_seconds": 0.0,
+    "no_cfr_retiming": true
+  },
+  "loop_seam": {
+    "first_last_mae_0_255": 0.0,
+    "first_last_max_channel_error": 0.0,
+    "frames": 254,
+    "added_bridge_seconds": 0.1,
+    "bridge_is_original_source_motion": false
+  },
+  "all_media_decode_successfully": true,
+  "contains_original_pixels": false
+}

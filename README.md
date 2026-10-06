@@ -123,3 +123,7 @@
 ## Adaptive Precision
 
 [![Adaptive Precision](examples/adaptive-precision/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/adaptive-precision)
+
+## Minimap
+
+[![Minimap](examples/minimap/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/minimap)

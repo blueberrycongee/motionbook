@@ -1,0 +1,7 @@
+{
+  "executed_successfully": false,
+  "passed": false,
+  "shared_environment_prerequisite": "Chromium headless startup with explicit writable user-data directory failed during this work session: socket() failed: Operation not permitted.",
+  "this_demo_executed_in_browser": false,
+  "offline_and_mock_dom_tests_are_not_browser_evidence": true
+}

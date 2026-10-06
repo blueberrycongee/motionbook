@@ -1,0 +1,198 @@
+{
+  "id": "new100-037",
+  "milestone": "m02",
+  "files": [
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "3d9eac061d5ec66e21881f17202afcca38a42916c506daeb91360cb0f3a03364",
+      "bytes": 1017
+    },
+    {
+      "path": "README.md",
+      "sha256": "63a1ebeb958bb9a17a0795b9437367b359521aa8044fcd2551dec080fd69b75e",
+      "bytes": 343
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "dd0489c10c6e44e0b0e3ae8af82ee9db9b5355ed387dce996a195d30cf98aec0",
+      "bytes": 822
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "45fcfbd6499d926a8900140ab407c2d86a5712e57455cfcb91a969b42f03882b",
+      "bytes": 3357
+    },
+    {
+      "path": "app.js",
+      "sha256": "82a2e2ac272f8a56f755ce7b143108d549d67b3767229dbba6586117f69a186f",
+      "bytes": 2066
+    },
+    {
+      "path": "evidence/all-frame-comparison.csv",
+      "sha256": "dc285c4e0a377a8f0165e7c07143ff93a4e6aececb2afea28a650a18610f4559",
+      "bytes": 18310
+    },
+    {
+      "path": "evidence/browser-status.json",
+      "sha256": "a85e03d68b44347bd877c39478d5cb816f257aa44096f9eba9f6b0ee00e8b94c",
+      "bytes": 345
+    },
+    {
+      "path": "evidence/comparison-summary.json",
+      "sha256": "9c8ba0a4271304b798077c5206703b08afc6767d57800ce4ccb2448057b6c745",
+      "bytes": 3519
+    },
+    {
+      "path": "evidence/frame-bindings.json",
+      "sha256": "26b2ac9d5780f8615940703f82b338fed660909e76acd192847c477e05d5fed0",
+      "bytes": 117825
+    },
+    {
+      "path": "evidence/measured-trace.json",
+      "sha256": "efa77913ba4453bda4655bf3f81f8ec09e7924a7a91c04fd61e92eb3d62be656",
+      "bytes": 151211
+    },
+    {
+      "path": "evidence/media-verification.json",
+      "sha256": "b9e0db3967b4dc806dea1c2ceb35446efbf0fc2350d8a3daecf6ec9a2bd4b110",
+      "bytes": 1463
+    },
+    {
+      "path": "evidence/native-timestamps.json",
+      "sha256": "e5576ac3f29d444771628767a29492a777533669d3736c7e029e078c67fe4361",
+      "bytes": 3593
+    },
+    {
+      "path": "evidence/owner-visual-review.json",
+      "sha256": "8717f964e5023e9019e0e061bf19d14e3fd13e6f7835b47df0874d7f781e9517",
+      "bytes": 1660
+    },
+    {
+      "path": "evidence/tests.txt",
+      "sha256": "4a7809e634cfaef236d42f7f996f08f74fbbba2d3d0612586b7cf5eff86f93d8",
+      "bytes": 971
+    },
+    {
+      "path": "index.html",
+      "sha256": "8fe293a1df950e27457ac4a5298c151053d86d94e035f14882089044daf4d67a",
+      "bytes": 1042
+    },
+    {
+      "path": "package.json",
+      "sha256": "8ff6e67fc2ccab7c302923d31bf61a5b963a49b3ed2970e639c0709e10bf9dc5",
+      "bytes": 356
+    },
+    {
+      "path": "preview/full.mp4",
+      "sha256": "ee90bc606c9795149e218a290cb257b754643a42df2bc5af16518028396acb03",
+      "bytes": 101793
+    },
+    {
+      "path": "preview/initial.png",
+      "sha256": "389cebb93ad14cfb5e0826505c0a8f23f381cab924711041afce0d9587ab76eb",
+      "bytes": 20039
+    },
+    {
+      "path": "preview/loop.gif",
+      "sha256": "258d425399620163195bb8b6646db5fcafb420aba464e744f54b1defc0cfb90c",
+      "bytes": 465753
+    },
+    {
+      "path": "preview/peak.png",
+      "sha256": "5a75ea277f2c76fec2f92770f6373b2b17b7952f2fb3d022407f497103011bc0",
+      "bytes": 22324
+    },
+    {
+      "path": "scripts/browser-smoke.cjs",
+      "sha256": "461f3155259da144422a1c911355e1cd8a870ee372c3e37d0a4cae316d616d79",
+      "bytes": 1528
+    },
+    {
+      "path": "scripts/compare.py",
+      "sha256": "a5a3baaac31b63c1e024689b2e13c297544076fb4395f5adf0172c4f79193cbc",
+      "bytes": 2050
+    },
+    {
+      "path": "scripts/compile-trace.py",
+      "sha256": "62c98074f87f1c505dd22b521fff8dbcbb3d4e7b5054cf055f5f0ca5f6a4e395",
+      "bytes": 689
+    },
+    {
+      "path": "scripts/concat.py",
+      "sha256": "ef318d3ac242e20d494d5d34121d41ede22e018411fea182331448c59f526497",
+      "bytes": 669
+    },
+    {
+      "path": "scripts/fit-clipped-cursor.cjs",
+      "sha256": "7003ea2a077670c37c08e13bd32a73d422569dc483094941c7a0ef0240bf2d11",
+      "bytes": 1532
+    },
+    {
+      "path": "scripts/loop.cjs",
+      "sha256": "fa0f011d1b376aa3d7499d1538b3963d2b959ae45775eb48dc67e699289a4807",
+      "bytes": 1103
+    },
+    {
+      "path": "scripts/measure.py",
+      "sha256": "99692b1a8f34427b8a11f2e1e3090407b7869338280620f72a433c792ebc7c35",
+      "bytes": 1897
+    },
+    {
+      "path": "scripts/refine-cursor.py",
+      "sha256": "a353c2b3cfb6fa225cd4d38f71d0334c744eaa61b68ccf021b7e4ab3d38b1dd4",
+      "bytes": 963
+    },
+    {
+      "path": "scripts/refine-ticks.py",
+      "sha256": "42cd82011fd8c75bf5f49fbd7b225e3d809a9dffd942f17130cd790378ba7c97",
+      "bytes": 1272
+    },
+    {
+      "path": "scripts/render.cjs",
+      "sha256": "06231338accbe58e9026348d599b328a2f08c5ef2daa202801767e0790234e25",
+      "bytes": 922
+    },
+    {
+      "path": "scripts/verify-media.py",
+      "sha256": "33dbc4ad825a7e331a9ac8b107d2885762a729addd519844364b892560a2031b",
+      "bytes": 1856
+    },
+    {
+      "path": "src/model.js",
+      "sha256": "20b51d948212d30670f408db45052f4d1ea1f147dc92f1aea37b0451b24547ba",
+      "bytes": 1163
+    },
+    {
+      "path": "src/scene.js",
+      "sha256": "139c5eb93bbf29bc8bf3733760ecfc0fec383bd7ad2a0f19e3d09d3d0ed1e66f",
+      "bytes": 1320
+    },
+    {
+      "path": "src/trace.js",
+      "sha256": "136dc0b241e52d82db972bc9dbef8894c0e4662747a6ad3d7e11178fffb2d50d",
+      "bytes": 151624
+    },
+    {
+      "path": "style.css",
+      "sha256": "e4f8f3c1cf5b233e654ef7725fe6454a532061def37943d1e17dd37cbe779f86",
+      "bytes": 763
+    },
+    {
+      "path": "tests/app.test.cjs",
+      "sha256": "66254c558b9a89cff557683e9a0d900e3fde2f1d1c78d09849f7dfade8978cbe",
+      "bytes": 1751
+    },
+    {
+      "path": "tests/model.test.cjs",
+      "sha256": "e70072be65c5f1d63e681bafa323ad80254bf9f648b0eca0da5881f31d6c00a4",
+      "bytes": 1455
+    },
+    {
+      "path": "tests/trace.test.cjs",
+      "sha256": "336fefc26fe7daca164fd5bb28f8e723542faf17ed89b80c2a358b0e44b440c5",
+      "bytes": 1288
+    }
+  ],
+  "status": "Review candidate; 11 tests pass; all480 native pairs owner-viewed and RGBA/source hashes bound; full MP4 exact VFR PTS verified; both media decode; independent review and real browser execution pending",
+  "contains_original_pixels": false
+}
