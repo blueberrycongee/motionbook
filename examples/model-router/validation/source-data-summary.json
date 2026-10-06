@@ -1,0 +1,28 @@
+{
+  "reference_url": "https://www.inspora.design/posts/model-router",
+  "original_media_url": "https://media.inspora.design/posts/0bafe420-76c6-4f09-ac17-ebb3c4ef0714.mp4",
+  "source_sha256": "f76d21c21660ee2420283446f11cb2dea90e401fd157cb1e7207207d983bf00d",
+  "native_count": 1142,
+  "exact_pts": true,
+  "source_overview_frames_reviewed": 1142,
+  "price_request_rows": 1142,
+  "endpoint_rate_rows": 1142,
+  "endpoint_change_cells_reviewed": 40,
+  "allocation_transition_rows_reviewed": 134,
+  "status_transition_states": 226,
+  "selector_roll_states": 32,
+  "footer_roll_states": 83,
+  "cursor_types": [
+    "arrow",
+    "hand",
+    "ibeam"
+  ],
+  "measured_curve_region_rms_native_pixels": 0.198043,
+  "authored_return_seconds": 2,
+  "full_replica_pair_review": "1142 full-canvas and graph pairs; every changed late-hover state; 120 authored return states",
+  "full_media_validation": "See media-check.json",
+  "browser_executed": false,
+  "reference_pixels_in_package": false,
+  "export_frames": 1262,
+  "route_label_alpha_measured_frames": 1142
+}

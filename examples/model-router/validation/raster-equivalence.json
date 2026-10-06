@@ -1,0 +1,52 @@
+{
+  "kind": "Offline raster equivalence; not source fidelity or browser execution",
+  "inputs": {
+    "scene.js": "a07f84c8e016441263aa8216c1a841a538786770dd3040227b4a66c0bcb3fb7a",
+    "model.js": "eb2b6840be0bd72a6391102b44d0de150af5903d6e462c10dfbdf975e963a96e",
+    "motion-data.js": "4e6298d4506452ec51f0ec658d35123c7c4cc3f7d4c2c714b35ba2dd8c0cd3e5",
+    "pointer.js": "96e1759246f611703acd8d26f0af05e906008a53fcf5ff7cfcd99135308cf6a1",
+    "raster.cjs": "e3786425f080d44aa540ae0d1874f5b695684ad346858af937b77c56ff7a6134"
+  },
+  "frames": [
+    {
+      "index": 0,
+      "pts": 0,
+      "differentPixels": 0,
+      "maxChannelDifference": 0,
+      "optimizedRGBA": "2fc71815c540460acff9f7769d14b3ae6f7c2417f92c88a5551f4d0cfbfa7ff5",
+      "fullRGBA": "2fc71815c540460acff9f7769d14b3ae6f7c2417f92c88a5551f4d0cfbfa7ff5"
+    },
+    {
+      "index": 755,
+      "pts": 13.243333,
+      "differentPixels": 0,
+      "maxChannelDifference": 0,
+      "optimizedRGBA": "1976a60c40c424bafd414c09a77a46aa6e2dcd49f10efc48b7d7148d37179b5c",
+      "fullRGBA": "1976a60c40c424bafd414c09a77a46aa6e2dcd49f10efc48b7d7148d37179b5c"
+    },
+    {
+      "index": 836,
+      "pts": 14.665,
+      "differentPixels": 0,
+      "maxChannelDifference": 0,
+      "optimizedRGBA": "52e41bcc6cfe3c7eb32640d6189dc50a5a10c4daea665d055743351934b0446a",
+      "fullRGBA": "52e41bcc6cfe3c7eb32640d6189dc50a5a10c4daea665d055743351934b0446a"
+    },
+    {
+      "index": 895,
+      "pts": 15.698333,
+      "differentPixels": 3,
+      "maxChannelDifference": 1,
+      "optimizedRGBA": "d54645303f49584d7ad95123d50dcaa02012e95a55a6adde8da9ec30e27464dc",
+      "fullRGBA": "3cf98783936f3c48bf0797740a65d52d703db0990c17cdd98fd59b7431367954"
+    },
+    {
+      "index": 1071,
+      "pts": 18.785,
+      "differentPixels": 3,
+      "maxChannelDifference": 1,
+      "optimizedRGBA": "a46d757435235a2935cea6cc522d18027e33c244e0610844d94766d341552260",
+      "fullRGBA": "1bb0f6f1bbe4a2fe222203affb8dbd0670ebcc84150150a83056a6b7c0645eaf"
+    }
+  ]
+}

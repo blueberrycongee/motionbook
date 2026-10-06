@@ -87,4 +87,9 @@ UI animations & micro-interactions recreated in code, with GIF previews. 高质�
     <td align="center" width="33%"><a href="examples/file-toss/README.md"><img src="examples/file-toss/preview/loop.gif" width="200" alt="File toss"></a><br><a href="examples/file-toss/README.md">File toss</a></td>
     <td align="center" width="33%"><a href="examples/spring-code-input/README.md"><img src="examples/spring-code-input/preview/spring-code-input.gif" width="200" alt="Spring code input"></a><br><a href="examples/spring-code-input/README.md">Spring code input</a></td>
   </tr>
+  <tr>
+    <td align="center" width="33%"><a href="examples/model-router/README.md"><img src="examples/model-router/preview/loop.gif" width="200" alt="Model router"></a><br><a href="examples/model-router/README.md">Model router</a></td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>

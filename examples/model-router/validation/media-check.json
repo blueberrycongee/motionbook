@@ -1,0 +1,26 @@
+{
+  "sourceCount": 1142,
+  "authoredCount": 120,
+  "encodedCount": 1262,
+  "maximumTimestampErrorTicks": 0,
+  "mp4": {
+    "sha256": "41833118b1f1f3a87bcb2475c6a43056def7c2d8c6614267d5b87ad169b0cfd9",
+    "bytes": 4244864,
+    "probe": {
+      "width": 3024,
+      "height": 1896,
+      "duration": "22.031667",
+      "nb_frames": "1262"
+    }
+  },
+  "gif": {
+    "sha256": "44db60ae1f68411180016931d0de983b70ca49c5a3e434870d20d11716372ba1",
+    "bytes": 3230816,
+    "frames": 661,
+    "distinctRGBFrames": 659,
+    "durationMilliseconds": 22030,
+    "firstLastRGBEqual": true
+  },
+  "fullMediaDecode": true,
+  "browserExecuted": false
+}

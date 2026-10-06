@@ -1,0 +1,7 @@
+(function(root,factory){if(typeof module==='object')module.exports=factory();else root.RouterPointer=factory();})(globalThis,function(){
+  'use strict';
+  const arrow='M4 4Q4 3.6 4.8 4.4L20.8 19Q21.6 20 20 20H14L18.7 30.8Q19.2 32 17.8 32.6L16.1 33.1Q15 33.5 14.5 32.2L10 21.8L5.4 26.5Q4 27.8 4 25.7Z';
+  const hand='M14 4C11 3.6 10 6 10.7 10L14 27L9 22C5 19 2 21 4.5 25.5L14 38C18 41.5 23 43 29 40.5C34 37.5 36.5 31 35 25V23C35 19 30.5 18.5 29.5 24V20C29.5 16 25 15 24 21V19C24 15 19.5 14.5 18.5 20L17.3 9C17 5.5 16.5 4 14 4Z';
+  function render(p){if(!p)return'';const [x,y]=p.bbox_origin;const beam='M4 7Q7 7 9 10Q11 7 13 7M9 10V34M4 37Q7 37 9 34Q11 37 13 37';const art=p.kind==='ibeam'?`<path d="${beam}" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/><path d="${beam}" fill="none" stroke="#111" stroke-width="1.7" stroke-linecap="round"/>`:p.kind==='hand'?`<path d="${hand}" fill="#fff" stroke="#111" stroke-width="1.9" stroke-linejoin="round"/><path d="M16 25l1 9M22 25v9M28 25l-1 9" fill="none" stroke="#dededb" stroke-width="2.2" stroke-linecap="round"/>`:`<path d="${arrow}" fill="#080808" stroke="#fff" stroke-width="3" stroke-linejoin="round"/><path d="${arrow}" fill="#080808"/>`;return`<g transform="translate(${x/2} ${y/2}) scale(.5)"><defs><filter id="pointerShadow" x="-50%" y="-50%" width="200%" height="210%"><feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#111" flood-opacity=".28"/></filter></defs><g filter="url(#pointerShadow)">${art}</g></g>`;}
+  return{render};
+});

@@ -1,0 +1,7 @@
+{
+  "command": "node --test tests/*.test.cjs",
+  "passed": 14,
+  "failed": 0,
+  "browserExecuted": false,
+  "kind": "Model, transition and mocked DOM tests"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "new100-041",
+  "title": "Model router",
+  "path": "examples/model-router",
+  "source": "https://www.inspora.design/posts/model-router",
+  "creator": "https://x.com/disarto_max/status/2106420376548815238",
+  "implementation": "Independent SVG scene, procedural artwork and local interaction model",
+  "preview": "Offline render from shared scene code",
+  "native_frames": 1142,
+  "authored_closure_frames": 120,
+  "tests_passed": 14,
+  "independent_visual_review": "passed",
+  "browser_runtime": "not_run",
+  "assets": "Independent vectors; Inter and Geist Mono under SIL OFL with notices"
+}
