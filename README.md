@@ -111,3 +111,7 @@
 ## Customizable glass folder
 
 [![Customizable glass folder](examples/customizable-glass-folder/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/customizable-glass-folder)
+
+## Segmented order-status card
+
+[![Segmented order-status card](examples/order-status-card/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/order-status-card)

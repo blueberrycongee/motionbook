@@ -1,0 +1,14 @@
+{
+  "kind": "Offline rendering of the shared SVG scene; not a browser recording",
+  "frames": 330,
+  "fps": 60,
+  "duration": 5.5,
+  "width": 2880,
+  "height": 2160,
+  "original_frames": 305,
+  "original_pts_used": true,
+  "authored_tail_frames": 25,
+  "gif_fps": 30,
+  "threads": 2,
+  "method": "Isolated32-frame raster chunks, standalone MP4 encode, bounded two-pass GIF palette"
+}

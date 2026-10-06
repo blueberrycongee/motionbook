@@ -1,0 +1,10 @@
+(function(){'use strict';const S=window.OrderScene,art=document.getElementById('art'),status=document.getElementById('status'),pref=window.matchMedia('(prefers-reduced-motion: reduce)'),starts=[52,112,172,232],stops=[111,171,231,291];let reduced=pref.matches,playing=!reduced,epoch=performance.now(),offset=reduced?90/60:0,selected=0,stop=null;
+function time(now){let t=offset+(playing?(now-epoch)/1000:0);if(stop!==null&&t>=stop){t=stop;offset=t;playing=false;stop=null;}return t;}
+function choose(k){selected=Math.max(0,Math.min(3,k));epoch=performance.now();offset=(reduced?starts[selected]+38:starts[selected])/60;playing=!reduced;stop=playing?stops[selected]/60:null;status.textContent=S.TEXT[selected][0];}
+function replay(){epoch=performance.now();offset=reduced?90/60:0;selected=0;stop=null;playing=!reduced;status.textContent='Order progress restarted';}
+function toggle(){const now=performance.now();offset=time(now);epoch=now;playing=!playing&&!reduced;stop=null;}
+for(let k=0;k<4;k++)document.getElementById('step'+k).addEventListener('click',()=>choose(k));
+document.addEventListener('keydown',e=>{if(e.key.toLowerCase()==='r')replay();if(e.key===' '){e.preventDefault();toggle();}if(e.key==='ArrowRight'){e.preventDefault();choose((selected+1)%4);}if(e.key==='ArrowLeft'){e.preventDefault();choose((selected+3)%4);}if(e.key==='Escape'){offset=time(performance.now());playing=false;stop=null;}});
+pref.addEventListener?.('change',e=>{offset=time(performance.now());epoch=performance.now();reduced=e.matches;if(reduced){playing=false;stop=null;choose(selected);}});
+function paint(now){const t=time(now);art.innerHTML=S.svg(t);window.requestAnimationFrame(paint);}window.OrderDemo={choose,replay,toggle,getState:()=>({reduced,playing,selected,time:time(performance.now()),stop})};if(document.fonts?.ready)document.fonts.ready.then(()=>{epoch=performance.now();paint(epoch);});else paint(epoch);
+})();

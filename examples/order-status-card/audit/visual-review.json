@@ -1,0 +1,17 @@
+{
+  "reviewed_at": "2026-10-06T02:31:27.939661+00:00",
+  "original_frames": 305,
+  "native_pairs_reviewed": 305,
+  "tail_frames_reviewed": 25,
+  "final_changed_frames_reviewed": 36,
+  "fresh_bindings": 330,
+  "exact_first_last_rgb_seam": true,
+  "review_method": "All 305 original/native pairs and 25 tail frames were inspected in the prior complete pass. This focused correction re-inspected every one of 36 changed native pairs and eight enclosing boundary pairs in six native-pixel delta sheets. All 330 final states were freshly rasterized; 294 other native/tail frames match the prior reviewed RGBA exactly. The change is confined to badge contour/halo pixels.",
+  "remaining_differences": [
+    "The source font is unknown. Licensed Liberation Sans is optically fitted but fine glyph contours and rasterization differ.",
+    "The independent pot, parcel, bicycle, hand and paw paths retain small curve and glow differences.",
+    "Procedurally authored paper grain has different microstructure from the original.",
+    "Scalar edge/color/opacity measurements contain video compression and threshold uncertainty; they are not recovered CSS.",
+    "All observed motion is retained, with a 25-frame authored re-arm tail. Actual browser runtime remains untested."
+  ]
+}
