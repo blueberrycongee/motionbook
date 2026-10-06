@@ -1,0 +1,14 @@
+{
+  "id": "catalog",
+  "title": "Source catalog",
+  "revision": "004",
+  "archive": "catalog-004.zip",
+  "archive_bytes": 15884,
+  "archive_sha256": "05f3567eb9288e9c02c2b8b8ff2101ac7b86af91c0ef7559de037568f70f5656",
+  "archive_git_blob_sha1": "e486b2bbbad697a1a78b7234d0cb358b65f514ac",
+  "payload_files": 10,
+  "original_manifest_file": "FILES.sha256.json",
+  "original_manifest_sha256": "7e673f82c98adabad2b5119771ad5ea963b119892801665cb3f00f0602792442",
+  "status": "source provenance only",
+  "reference_media_included": false
+}
