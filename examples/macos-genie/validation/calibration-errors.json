@@ -1,0 +1,52 @@
+{
+  "minimize": {
+    "training_and_test_rows": {
+      "n": 47532,
+      "median_abs_px": 0.2531770548358736,
+      "p95_abs_px": 0.7257135754139141,
+      "rms_px": 0.38167485525961103,
+      "max_abs_px": 4.639561045067921
+    },
+    "held_out_every_fifth_row": {
+      "n": 9494,
+      "median_abs_px": 0.25290012281675445,
+      "p95_abs_px": 0.7192743678662967,
+      "rms_px": 0.38168454475626523,
+      "max_abs_px": 4.416176812330377
+    },
+    "geometry": "Fixed global cosine and fixed source intercepts, per-frame independent edge amplitudes; last16px above Dock and rounded corners excluded when enough rows exist."
+  },
+  "restore": {
+    "all_raw_rows": {
+      "n": 13050,
+      "median_abs_px": 0.12198318717054235,
+      "p80_abs_px": 0.241342259494013,
+      "p95_abs_px": 0.44347980626990585,
+      "rms_px": 2.136853688213758
+    },
+    "robust_inliers_abs_residual_le_2px": {
+      "n": 12748,
+      "median_abs_px": 0.11903490716453646,
+      "p80_abs_px": 0.23008658353674039,
+      "p95_abs_px": 0.37385303653028357,
+      "rms_px": 0.19352593076457822
+    },
+    "outlier_count_abs_residual_gt_2px": 302,
+    "held_out_every_fifth_scanline_all_raw": {
+      "n": 2614,
+      "median_abs_px": 0.12067128582531517,
+      "p80_abs_px": 0.24018339907067912,
+      "p95_abs_px": 0.44635987456826526,
+      "rms_px": 2.23679503548082
+    },
+    "held_out_robust_inliers_abs_residual_le_2px": {
+      "n": 2551,
+      "median_abs_px": 0.11776798846705105,
+      "p80_abs_px": 0.22964418878234483,
+      "p95_abs_px": 0.3735319210214243,
+      "rms_px": 0.19901353834217975
+    },
+    "inlier_note": "Inlier subsets use residual-based rejection and are explicitly not independent accuracy estimates. All-raw statistics retain text/corner/codec edge-detection mistakes."
+  },
+  "warning": "Spatial fit on measured reference frames. Held-out rows do not establish temporal fidelity between recordings or current macOS behavior; outliers retained in all-raw statistics. Rounded corners, shadow, Dock blending and hidden sheet are not exact."
+}

@@ -1,0 +1,14 @@
+{
+  "name": "macos-genie-study",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent two-stage scanline reconstruction of the macOS Genie minimize effect",
+  "scripts": {
+    "start": "node src/server.cjs",
+    "test": "node --test test/*.test.cjs",
+    "render": "node render.cjs",
+    "render:stills": "node render.cjs --stills"
+  },
+  "devDependencies": { "@napi-rs/canvas": "0.1.100" },
+  "engines": { "node": ">=20" }
+}

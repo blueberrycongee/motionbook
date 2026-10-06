@@ -143,3 +143,7 @@
 ## Life in Weeks
 
 [![Life in Weeks](examples/life-in-weeks/preview.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/life-in-weeks)
+
+## macOS Genie
+
+[![macOS Genie](examples/macos-genie/preview/loop.gif)](examples/macos-genie)

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f6f1">
+  <meta name="description" content="An independent interactive study of the classic macOS Genie window-minimizing animation.">
+  <link rel="icon" href="data:,">
+  <title>Genie — an interaction study</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="src/calibration-data.js"></script>
+  <script defer src="src/calibrated.js"></script>
+  <script defer src="src/motion.js"></script>
+  <script defer src="src/scene.js"></script>
+  <script defer src="src/app.js"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="heading"><span class="eyebrow"><span class="spark">✦</span> THE INTERACTION ARCHIVE <span class="edition">/ 034</span></span><h1>A little desktop magic.</h1><p>The classic Genie effect. A window, finding its way home.</p></div>
+      <span class="tag">macOS · motion study</span>
+    </header>
+    <section class="stage" aria-label="Interactive desktop demonstration" aria-describedby="instructions">
+      <canvas id="scene" width="1080" height="680" aria-label="A Field Notes window that bends and flows into the Dock. Use the controls below to minimize or restore it." role="img"></canvas>
+      <button id="window-minimize" class="hit traffic" aria-label="Minimize Field Notes window" title="Minimize"></button>
+      <button id="dock-restore" class="hit dock-hit" aria-label="Restore Field Notes from Dock" title="Restore Field Notes"></button>
+      <div id="loading">Preparing the desktop…</div>
+    </section>
+    <section class="controls" aria-label="Animation controls">
+      <div class="primary-controls"><button id="toggle" class="primary"><span aria-hidden="true">↙</span><span id="toggle-label">Minimize</span></button><button id="replay" class="secondary"><span aria-hidden="true">↻</span> Replay</button></div>
+      <div class="settings"><label class="check"><input id="slow" type="checkbox"><span>Slow motion</span></label><label class="check"><input id="loop" type="checkbox"><span>Loop</span></label><label class="check"><input id="reduce" type="checkbox"><span>Reduce motion</span></label></div>
+    </section>
+    <section class="inspector" aria-label="Motion inspector">
+      <label for="progress">Explore the curve <output id="percent" for="progress">0%</output></label><input type="range" id="progress" min="0" max="1000" step="1" value="0" aria-label="Animation progress" aria-valuetext="0 percent, open"><span id="phase" aria-hidden="true">Open</span>
+    </section>
+    <footer><p id="instructions">Click the yellow window button or press <kbd>Space</kbd> to minimize. <kbd>Esc</kbd> brings it back.</p><p><a href="PROVENANCE.md">Reference &amp; making of</a><span class="sep">↗</span> Independently recreated</p></footer>
+    <p id="status" class="sr-only" role="status" aria-live="polite">Window open</p>
+    <p id="motion-note" class="motion-note" hidden>Reduced motion is on. Window changes are instant; automatic playback is disabled.</p>
+    <noscript><p>This interactive demo needs JavaScript. You can still <a href="preview/loop.mp4">watch the video preview</a>.</p></noscript>
+  </main>
+</body>
+</html>
