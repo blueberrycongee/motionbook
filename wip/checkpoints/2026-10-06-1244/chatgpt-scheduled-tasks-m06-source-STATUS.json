@@ -1,0 +1,11 @@
+{
+  "id": "chatgpt-scheduled-tasks-m06-source",
+  "archive": "chatgpt-scheduled-tasks-m06-source.zip",
+  "archive_bytes": 89756,
+  "archive_sha256": "ac727292a53e6a9596bd8c0056c213411a32511ca8fcade97e963eb1dd8840bd",
+  "source_manifest": "FILES.sha256",
+  "source_manifest_sha256": "b79f52f75e83144835b321ec234003ce4cb7f1db811d4f6e161c886c33711939",
+  "files": 49,
+  "status": "WIP; independent clearance pending. Scheduled previews precede latest source changes.",
+  "reference_media_included": false
+}
