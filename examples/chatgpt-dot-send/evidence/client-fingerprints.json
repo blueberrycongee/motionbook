@@ -1,0 +1,45 @@
+{
+  "inspectedAt": "2026-10-06",
+  "officialDistribution": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT.dmg",
+  "version": "26.930.61225",
+  "build": "13232",
+  "installerSha256": "3e61b9226a30ba928dd9d724a76710e89af5ab81dcf105868d60f9a46df92f75",
+  "inspection": "static only; official assets excluded",
+  "files": [
+    {
+      "name": "room-view-18605f996314.js",
+      "bytes": 22573,
+      "sha256": "0963bd3843990910d0be00fc78b581c208fe76b40049425338d510adaffd4c62"
+    },
+    {
+      "name": "native-room-13c100147056.js",
+      "bytes": 98452,
+      "sha256": "56c2e4bd3fabe9c3796ee88317a3141d4f361fc5300aeffa1878af33f48cf281"
+    },
+    {
+      "name": "composer-controls-9c50a390b732.js",
+      "bytes": 190683,
+      "sha256": "8a6b0556c0408f49ebd1a21779faee7f6119816d527c7336bbe51a7dfd282c95"
+    },
+    {
+      "name": "app-initial-69cd8dbddec5.js",
+      "bytes": 11173718,
+      "sha256": "8c11b76e960300895e8a3dde8b2613f87c92ed226b58173aa73ceaff9cd2b604"
+    },
+    {
+      "name": "app-shared-122c56612a72.js",
+      "bytes": 7778898,
+      "sha256": "a800cb8a356a0d7c61820cb29ed4478d30f8a73f4c7c0d9d19e035b0ffa91926"
+    },
+    {
+      "name": "app-initial-341eb5dd9ad5.css",
+      "bytes": 231186,
+      "sha256": "b9602ce3f1d278f45bb058f5004c769a741b43acb08b987aec3ae57781fc709f"
+    },
+    {
+      "name": "native-room-595c144a4c1f.css",
+      "bytes": 1423,
+      "sha256": "cd74a2b22cc052d0af7e6cf903268d17acf9ae2de2a78c8fa3ba4c9fa7ecf3ba"
+    }
+  ]
+}

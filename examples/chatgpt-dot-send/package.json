@@ -1,0 +1,17 @@
+{
+  "name": "dot-send-r3",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "start": "python3 -m http.server 4178 --bind 127.0.0.1",
+    "render": "node scripts/render.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "sharp": "0.35.4"
+  }
+}
