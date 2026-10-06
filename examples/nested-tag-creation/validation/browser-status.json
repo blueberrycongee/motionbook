@@ -1,0 +1,4 @@
+{
+  "tested": false,
+  "reason": "Local Chromium launch and local-site browser access were previously denied; no bypass or renewed launch attempted. Offline SVG and mocked DOM only."
+}
