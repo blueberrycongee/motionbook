@@ -1,0 +1,33 @@
+{
+  "id": "apple-music-lyrics",
+  "slug": "apple-music-lyrics",
+  "title": "Apple Music Lyrics",
+  "status": "accepted revision; 56 automated checks passed; browser QA not run",
+  "reference": "https://tv.apple.com/us/movie/how-to-use-apple-music-sing/umc.cmc.3xdggtxhj5zdymvim87orptzm",
+  "version_label": "2023 Apple Music Sing official iPhone tutorial; exact iOS and app build unknown",
+  "demo": "examples/apple-music-lyrics/index.html",
+  "preview": "examples/apple-music-lyrics/preview/loop.gif",
+  "video": "examples/apple-music-lyrics/preview/loop.mp4",
+  "provenance": "examples/apple-music-lyrics/PROVENANCE.md",
+  "validation": "examples/apple-music-lyrics/VALIDATION.md",
+  "fidelity_review": "examples/apple-music-lyrics/FIDELITY.md",
+  "preview_renderer": "Offline Sharp/librsvg rasterization of shared runtime SVG; not screen recording",
+  "playback_rate": 1,
+  "source_fps": "30000/1001",
+  "source_crop": {
+    "x": 1240,
+    "y": 78,
+    "width": 438,
+    "height": 926
+  },
+  "source_sha256": "e5769cae0b17e66f8266c0fb6feebab8b0ef46e9348c7d46c7a22a316d33e9e3",
+  "observed_frames": 115,
+  "accepted_geometric_observations": 1161,
+  "final_fit": "all-point native-PTS replay; same-point residual is not independent accuracy",
+  "reviewed_at": "2026-10-06",
+  "note": "Original text/artwork; source panel is measured geometry only, no original pixels or song text. Supplemental manual/reverse/reduced-motion model. Publication scope: this lyrics example, its catalog entry, and root preview index only.",
+  "tests_passed": 56,
+  "highlight_revision": "native per-frame brightness field, feather and onset gain; single-painted explicitly scaled glyphs",
+  "highlight_review": "examples/apple-music-lyrics/preview/highlight-review/highlight-review-0.25x.gif",
+  "delivery_gif": "Lossless delta encoding; all decoded RGBA frames and timing preserved"
+}

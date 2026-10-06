@@ -1,0 +1,1 @@
+{"name":"apple-music-lyrics-motion-study","version":"1.0.0","private":true,"description":"Evidence-bound Apple Music lyric line scrolling study with original text","scripts":{"start":"node src/server.cjs","test":"node --test test/*.test.cjs","render":"node tools/render.cjs"},"devDependencies":{"sharp":"0.35.4"},"engines":{"node":">=20"}}

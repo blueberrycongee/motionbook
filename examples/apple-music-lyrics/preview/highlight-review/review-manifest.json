@@ -1,0 +1,1701 @@
+{
+  "schemaVersion": 1,
+  "purpose": "0.25× diagnostic highlight close-up; not native-speed preview",
+  "renderMethod": "Exact old and new scene.render(motion.referenceAt(sourcePTS)) raster crops. Numeric source field ribbons omit all source glyphs, lyrics and source pixels.",
+  "source": {
+    "sha256": "e5769cae0b17e66f8266c0fb6feebab8b0ef46e9348c7d46c7a22a316d33e9e3",
+    "timeBase": "1/30000",
+    "firstFrame": 548,
+    "lastFrameInclusive": 614,
+    "sourceBytesVerified": true,
+    "ptsVerification": "Direct source probing agrees with every stored fit PTS"
+  },
+  "sourceFit": {
+    "sha256": "3ac1e9f66f2e4b43723427db58daf90e9d775afa80925d3e2e242fed97d67140",
+    "field": "darkOffset + gain * clamp((front50 - x)/feather + 0.5,0,1). darkOffset is endpoint/background calibration drift; replica normally uses gain*ramp only. frontDataInterval brackets >=0.6 and <=0.4 field samples without inventing observations in ink gaps.",
+    "uncertainty": "Engineering uncertainty, not statistical CI. ±3 crop px for settled, well-sampled ramp; ≥8px for censored onset/tail. Report inferred extrapolated edges separately from data bounds. Events bracketed between 33.3667ms samples. Gain+front+width can be underdetermined at very first visible ink, and terminal width unidentifiable once all ink lit.",
+    "diagramConventions": "Below-detection fields are shown dark for clarity; this does not establish exactly zero source brightness. Complete fields are shown fully lit without claiming a terminal edge or width."
+  },
+  "core": {
+    "src/app.js": "d2fb1549765b96e4de66ebcc99e1c1aadaace7ff444da5925af4a17b5a00035d",
+    "src/calibration-data.js": "9167faa5b83e7651e463c88e21f19a92e17ea274d901677195e600076760cfdf",
+    "src/motion.js": "33c241b9946440889b9821704f755eceaa4ca11cee95c5f95f875fceb43987b8",
+    "src/scene.js": "d8ef0fb03accb37630ee3800d36c19ca1e5274e87976ef786e22689b87e94060",
+    "src/server.cjs": "4be117d05ff74bc50250aec3c1a1719f07a903aee6eee8707f16ee6805dd86d5",
+    "assets/fonts.conf": "97773f260dbfc2fd8ae9bd62cf5d8c3e7d6e7cb609c31c8b9859889553f4f863",
+    "assets/Inter-Bold.ttf": "9448d013c563678be3915aebc9c75558220eb8c1ed7edb589bafff40c41e6902",
+    "assets/Inter-LICENSE.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+    "assets/Inter-Regular.ttf": "eb56a2a9fa2302667fc02cdd5261d19850c73d9057a41c34f441aa2d544c27d3"
+  },
+  "baselineCore": {
+    "src/motion.js": "25da280e8ef6a49d9df694a899350869ad39e8354a76a65f2ca2ac81ceabf043",
+    "src/scene.js": "ec5c4c29dd545d4e9bd3fa643dfd90f15b5cd04d283c32e466f8ee71a1d5435e",
+    "src/calibration-data.js": "8fff0d4bf85bcf89f000573b5d6a820bfd1c6533186786955f2b97ba1be78ddd"
+  },
+  "harness": {
+    "tools/render-highlight-review.cjs": "eeea243d33594813a120388e72cde4cf9f76d39e6c81d472f7f68a4fd0da32e6",
+    "tools/render.cjs": "1d45f008644314c7677354f697d8727b77446cc4ebd5d1cfa0323c88b97cb8bf"
+  },
+  "crop": {
+    "left": 28,
+    "top": 230,
+    "width": 348,
+    "height": 100,
+    "outputWidth": 435,
+    "outputHeight": 125
+  },
+  "timing": {
+    "playbackRate": 0.25,
+    "nativeSourceFrameDuration": 0.03336666666666667,
+    "reviewFrameDuration": 0.13346666666666668,
+    "sourceDurationSeconds": 2.2355666666666667,
+    "idealReviewDurationSeconds": 8.942266666666667,
+    "sourceFrameCount": 67,
+    "sourcePtsUnchanged": true,
+    "syntheticFrames": 0,
+    "duplicatedFrames": 0,
+    "gifDelayCentiseconds": [
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      13,
+      14,
+      13,
+      14,
+      13,
+      13
+    ],
+    "gifMaximumBoundaryErrorSeconds": 0.004933333333337231,
+    "gifDurationErrorSeconds": -0.002266666666667305,
+    "mp4": {
+      "width": 1468,
+      "height": 478,
+      "timeBase": "1/30000",
+      "frameRate": "7500/1001",
+      "durationSeconds": 8.942267,
+      "decodedFrameCount": 67,
+      "audioStreams": 0,
+      "completeDecodeSha256": "f7d40a83299cfbe560f7dcfc81e08ceedd76a5f8e322cab2dae89a0b04f352f5",
+      "packets": [
+        {
+          "pts_time": "0.000000",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "0.533867",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "0.266933",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "0.133467",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "0.400400",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "1.067733",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "0.800800",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "0.667333",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "0.934267",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "1.468133",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "1.201200",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "1.334667",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "2.002000",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "1.735067",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "1.601600",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "1.868533",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "2.535867",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "2.268933",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "2.135467",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "2.402400",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "3.069733",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "2.802800",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "2.669333",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "2.936267",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "3.603600",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "3.336667",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "3.203200",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "3.470133",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "4.137467",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "3.870533",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "3.737067",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "4.004000",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "4.671333",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "4.404400",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "4.270933",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "4.537867",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "5.205200",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "4.938267",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "4.804800",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "5.071733",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "5.739067",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "5.472133",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "5.338667",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "5.605600",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "6.272933",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "6.006000",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "5.872533",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "6.139467",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "6.806800",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "6.539867",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "6.406400",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "6.673333",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "7.340667",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "7.073733",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "6.940267",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "7.207200",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "7.607600",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "7.474133",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "8.141467",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "7.874533",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "7.741067",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "8.008000",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "8.675333",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "8.408400",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "8.274933",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "8.541867",
+          "duration_time": "0.133467"
+        },
+        {
+          "pts_time": "8.808800",
+          "duration_time": "0.133467"
+        }
+      ]
+    },
+    "gif": {
+      "width": 1468,
+      "height": 478,
+      "timeBase": "1/100",
+      "frameRate": "15/2",
+      "durationSeconds": 8.94,
+      "decodedFrameCount": 67,
+      "audioStreams": 0,
+      "completeDecodeSha256": "bdafd852aeb850fc73ad58ae91930bc2bf6092a491c43e357706e0b6edd26d4d",
+      "packets": [
+        {
+          "pts_time": "0.000000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "0.130000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "0.270000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "0.400000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "0.530000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "0.670000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "0.800000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "0.930000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "1.070000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "1.200000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "1.330000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "1.470000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "1.600000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "1.740000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "1.870000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "2.000000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "2.140000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "2.270000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "2.400000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "2.540000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "2.670000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "2.800000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "2.940000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "3.070000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "3.200000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "3.340000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "3.470000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "3.600000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "3.740000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "3.870000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "4.000000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "4.140000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "4.270000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "4.400000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "4.540000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "4.670000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "4.800000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "4.940000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "5.070000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "5.210000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "5.340000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "5.470000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "5.610000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "5.740000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "5.870000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "6.010000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "6.140000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "6.270000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "6.410000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "6.540000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "6.670000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "6.810000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "6.940000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "7.070000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "7.210000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "7.340000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "7.470000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "7.610000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "7.740000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "7.870000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "8.010000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "8.140000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "8.270000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "8.410000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "8.540000",
+          "duration_time": "0.140000"
+        },
+        {
+          "pts_time": "8.680000",
+          "duration_time": "0.130000"
+        },
+        {
+          "pts_time": "8.810000",
+          "duration_time": "0.130000"
+        }
+      ]
+    }
+  },
+  "frames": [
+    {
+      "pts": 548548,
+      "time": 18.284933333333335,
+      "index": 0,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000000.png",
+      "sourcePts": 548548,
+      "sourceTime": 18.284933333333335,
+      "oldSceneSha256": "06e491352da56e4080d76fd751e5886c29b016b1434154687c4813f1e9517f6b",
+      "newSceneSha256": "c49c34bd3163d9a1c51bf3cffb6a21910f5d59239abb9c5f7f1613175a33aaa1",
+      "reviewRasterSha256": "3184089e6e73cec55be7dd16ba65ff09e6f270266e3d5e3ef3480c1af9c00fc2",
+      "reviewPts": 0,
+      "reviewTime": 0
+    },
+    {
+      "pts": 549549,
+      "time": 18.3183,
+      "index": 1,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000001.png",
+      "sourcePts": 549549,
+      "sourceTime": 18.3183,
+      "oldSceneSha256": "5acad85697037868bb09e09944ab483354670c098e99c8bfc1f525aa2edd65ab",
+      "newSceneSha256": "4557999fa91babe0d161b6e4a1712c4280660672b0cfa8dbe790dd1d388d0d07",
+      "reviewRasterSha256": "50a6fb9a4bd2ddd40ec6c436fdcca7b3d5077fdc4ff515ee3cff989fab8a3240",
+      "reviewPts": 4004,
+      "reviewTime": 0.13346666666666668
+    },
+    {
+      "pts": 550550,
+      "time": 18.351666666666667,
+      "index": 2,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000002.png",
+      "sourcePts": 550550,
+      "sourceTime": 18.351666666666667,
+      "oldSceneSha256": "82b1f013d4ce24730f4be3bdf8cd084667e9c671fa3c2bfaadea81ed2a74470b",
+      "newSceneSha256": "f39dfb54798761085ff581a6296bab101c80d53e1c05fb0327db7d8c115c4b58",
+      "reviewRasterSha256": "80fc6b65433776359068927dd6c37d16472e3eb035b2a1c0222803fbf57ab6ff",
+      "reviewPts": 8008,
+      "reviewTime": 0.26693333333333336
+    },
+    {
+      "pts": 551551,
+      "time": 18.385033333333332,
+      "index": 3,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000003.png",
+      "sourcePts": 551551,
+      "sourceTime": 18.385033333333332,
+      "oldSceneSha256": "f14c339ec88883b2d437641a94411b21ced4148b0746c5f997867b4ca610f5b5",
+      "newSceneSha256": "b1cda30ace4280d9d6bddf8f49f81ea5e5d137fe1b6ae177f1240a0af0e7f613",
+      "reviewRasterSha256": "396df6379fc743d3cff2fa15d3ed63ebfc57f8d1d0f18a6c6601c20338ad4407",
+      "reviewPts": 12012,
+      "reviewTime": 0.4004
+    },
+    {
+      "pts": 552552,
+      "time": 18.4184,
+      "index": 4,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000004.png",
+      "sourcePts": 552552,
+      "sourceTime": 18.4184,
+      "oldSceneSha256": "0ee9ed9837d207261bf8372ee0f2f22821c88ea449a44584abc3506db728bf5b",
+      "newSceneSha256": "a1de0668a59840922e7234bb466817e5a6e7bc556568e739f51b267c30153e20",
+      "reviewRasterSha256": "9d21e8495564d3a9d7815a092334070d90e4ce50fea05d81f6ec94ea53075b76",
+      "reviewPts": 16016,
+      "reviewTime": 0.5338666666666667
+    },
+    {
+      "pts": 553553,
+      "time": 18.451766666666668,
+      "index": 5,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000005.png",
+      "sourcePts": 553553,
+      "sourceTime": 18.451766666666668,
+      "oldSceneSha256": "a247ec88f64f3ed097044eb10f113c992324030dc76344c351220fcd497e451a",
+      "newSceneSha256": "eaf4a0e1acf99ede368f7d1dd45306967404de22732392a5bb0c49035c4ef242",
+      "reviewRasterSha256": "42d67a4cd9d5929372d48d4c2cbba46c4643836ce22769f513fbfe9151b74c34",
+      "reviewPts": 20020,
+      "reviewTime": 0.6673333333333333
+    },
+    {
+      "pts": 554554,
+      "time": 18.485133333333334,
+      "index": 6,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000006.png",
+      "sourcePts": 554554,
+      "sourceTime": 18.485133333333334,
+      "oldSceneSha256": "3ecd43b7f0105479e55fbf20213ae42e3f0aec0d148d8af4d16685db89075a1f",
+      "newSceneSha256": "df241b82f9fd5e3856416a3c528e9b853f2cbc24b65d4b56ee1b696878654efd",
+      "reviewRasterSha256": "2001c114b2c6e26adfa8005cb9f75e44083f1851f234ec45ebe7bc4e563ab3b5",
+      "reviewPts": 24024,
+      "reviewTime": 0.8008
+    },
+    {
+      "pts": 555555,
+      "time": 18.5185,
+      "index": 7,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000007.png",
+      "sourcePts": 555555,
+      "sourceTime": 18.5185,
+      "oldSceneSha256": "0ccee81668776b640ed6b825f7517ec1908b9d227ed6576c45cc6361fc085fdd",
+      "newSceneSha256": "bb86d3eac2f6986e285722d2ac07c28159466b1edffffa6464efef106f00d33a",
+      "reviewRasterSha256": "f2df9b2390bc356f7f88ea825c52076f3c38abd7a75785820c87440d87130dee",
+      "reviewPts": 28028,
+      "reviewTime": 0.9342666666666667
+    },
+    {
+      "pts": 556556,
+      "time": 18.551866666666665,
+      "index": 8,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000008.png",
+      "sourcePts": 556556,
+      "sourceTime": 18.551866666666665,
+      "oldSceneSha256": "7d4c415613c2c9cc041a0d2c2de7eadc927ef5aed2d37589cb81933e8024892f",
+      "newSceneSha256": "495707587a3e876c9cafbc09f233335cc3f70a089b39fe1dab97ab590078df77",
+      "reviewRasterSha256": "03a3f5c16425394bbdf555f5e827e2588ffffde5bbf9ac501e175ca201e0d660",
+      "reviewPts": 32032,
+      "reviewTime": 1.0677333333333334
+    },
+    {
+      "pts": 557557,
+      "time": 18.585233333333335,
+      "index": 9,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000009.png",
+      "sourcePts": 557557,
+      "sourceTime": 18.585233333333335,
+      "oldSceneSha256": "acd0e3930221c052870e57406d48da5ad740f696fc4d31a122aa9c5ad63a751f",
+      "newSceneSha256": "d7e78510fcc0d92eac1025c69f0b5de70e771e6332f42310cbc6e9de715920b6",
+      "reviewRasterSha256": "21f315729b548b9326d7d9cb92f754270906b76c059bc525d120400de3566b2f",
+      "reviewPts": 36036,
+      "reviewTime": 1.2012
+    },
+    {
+      "pts": 558558,
+      "time": 18.6186,
+      "index": 10,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000010.png",
+      "sourcePts": 558558,
+      "sourceTime": 18.6186,
+      "oldSceneSha256": "e16aea8c33f3583c0aea7389050d742e1113760cfa7205f4bae7c77c64e62094",
+      "newSceneSha256": "f98d5c43a821b162c3e2097d38734b81d409063a4803c6eb76340a8215c62e4d",
+      "reviewRasterSha256": "7104cb276d0ea9c28214d3e213ed3a85eff58448bf9617cbc58359c1329ebe0b",
+      "reviewPts": 40040,
+      "reviewTime": 1.3346666666666667
+    },
+    {
+      "pts": 559559,
+      "time": 18.651966666666667,
+      "index": 11,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000011.png",
+      "sourcePts": 559559,
+      "sourceTime": 18.651966666666667,
+      "oldSceneSha256": "92b2df8611193538659f12aa19c4506420446eeb92fd239a873e5e03725cbe0d",
+      "newSceneSha256": "341a65370c4ceffde38f207db9a2f3faf5a348d94633d7e052e0c9e867a56fe5",
+      "reviewRasterSha256": "71fa84386d38035f60a9be4c774af9ab08f0d4624f1ba58c729a18dc3b63f878",
+      "reviewPts": 44044,
+      "reviewTime": 1.4681333333333333
+    },
+    {
+      "pts": 560560,
+      "time": 18.685333333333332,
+      "index": 12,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000012.png",
+      "sourcePts": 560560,
+      "sourceTime": 18.685333333333332,
+      "oldSceneSha256": "3e964f7cff9d9f72e88806c238938ef123433313231d2e662c488cae59a7a4e4",
+      "newSceneSha256": "bf64b574807acd71207bfb717b689abea5649de010dd30e3d86c5582b1cf1970",
+      "reviewRasterSha256": "1b95abebf11b9de7ff05768edef908fabcbb95437f102149b6e69c35afc6e6ca",
+      "reviewPts": 48048,
+      "reviewTime": 1.6016
+    },
+    {
+      "pts": 561561,
+      "time": 18.7187,
+      "index": 13,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000013.png",
+      "sourcePts": 561561,
+      "sourceTime": 18.7187,
+      "oldSceneSha256": "06a2f6243ff4abf2f69a9fb8eaa603035222fd2ba27d1e7c6ad9673bd8cc9ea6",
+      "newSceneSha256": "33ec7e303e9a43ac3370574d06a555e77c7b9c8f4a70ea8f4f034986feeba568",
+      "reviewRasterSha256": "bed1ecce8e74cba990ec457ede000f96438220afb32828d152f9475a11c4fe99",
+      "reviewPts": 52052,
+      "reviewTime": 1.7350666666666668
+    },
+    {
+      "pts": 562562,
+      "time": 18.752066666666668,
+      "index": 14,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000014.png",
+      "sourcePts": 562562,
+      "sourceTime": 18.752066666666668,
+      "oldSceneSha256": "16fe07caae293e7fcad59590fc36a58bcc8498c8964207218cbc3bb816dc97d6",
+      "newSceneSha256": "e6f034a7aa7b35967af71c413e07e6a54c243bf1670c779e8881614b797d1a79",
+      "reviewRasterSha256": "56bd31b0bdff887b2ef8533c817b913ff71b23af11d4f0f5c9f6f88f7d229c90",
+      "reviewPts": 56056,
+      "reviewTime": 1.8685333333333334
+    },
+    {
+      "pts": 563563,
+      "time": 18.785433333333334,
+      "index": 15,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000015.png",
+      "sourcePts": 563563,
+      "sourceTime": 18.785433333333334,
+      "oldSceneSha256": "de4cc84b2f854aaf38e567cceea0ace8d5809f81782c63d2801878bd3b94609c",
+      "newSceneSha256": "4de48a5d1349e06711df02a85915f5b4fe525d0cd5229d0a060817aa54b99236",
+      "reviewRasterSha256": "a88210f234feece2b9d5948b830a0f899a96555f0c27d091a4554c2fd9d879af",
+      "reviewPts": 60060,
+      "reviewTime": 2.002
+    },
+    {
+      "pts": 564564,
+      "time": 18.8188,
+      "index": 16,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000016.png",
+      "sourcePts": 564564,
+      "sourceTime": 18.8188,
+      "oldSceneSha256": "68328a7561ab10883d45ffcd5a306630e81fcbde25ec6b1e9eaf5e28655b6b22",
+      "newSceneSha256": "395f6d86a7c9f6680b0a6dacafd82029890e88ce63675631f21bb8a10cc6da1e",
+      "reviewRasterSha256": "1a19553b11cd4de91abb02bae1fec47f242149c849aafa0e56cc50b5312e7117",
+      "reviewPts": 64064,
+      "reviewTime": 2.135466666666667
+    },
+    {
+      "pts": 565565,
+      "time": 18.852166666666665,
+      "index": 17,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000017.png",
+      "sourcePts": 565565,
+      "sourceTime": 18.852166666666665,
+      "oldSceneSha256": "e6fd31415efb53ae78dd6c504641a6f768d99597e0c996881554bdc0f83d48b9",
+      "newSceneSha256": "7a16971b56f490ca88b5da074e2ce1e0512999cc4692ea0ea6f82e58e5997038",
+      "reviewRasterSha256": "755f65f72a4b0b52651f4af0c709f76561187cabe81f71d796aa77c231617ea3",
+      "reviewPts": 68068,
+      "reviewTime": 2.2689333333333335
+    },
+    {
+      "pts": 566566,
+      "time": 18.885533333333335,
+      "index": 18,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000018.png",
+      "sourcePts": 566566,
+      "sourceTime": 18.885533333333335,
+      "oldSceneSha256": "4de962323cc94d124559c623c1f9a5653b140f83dd536c5411a9b41a8e8b6d45",
+      "newSceneSha256": "5f0097250ca2a9fdc8e425c6383064f8c5f34f47a16ec499b2c31f24b2a93050",
+      "reviewRasterSha256": "7203a1ae1c43d6f9770d719df92f2f022201c474100ac1c5060285c8aade90f9",
+      "reviewPts": 72072,
+      "reviewTime": 2.4024
+    },
+    {
+      "pts": 567567,
+      "time": 18.9189,
+      "index": 19,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000019.png",
+      "sourcePts": 567567,
+      "sourceTime": 18.9189,
+      "oldSceneSha256": "4d7cb0b02835b9523e5e375551b17e1131f5468e47e95c4be1daaed1d4c058a1",
+      "newSceneSha256": "cd31f6d9f31ec466935a6226c1826e8027d1c804206a293619fe313624060507",
+      "reviewRasterSha256": "bfec2ea1bf99bb7dd742f5f0b8cd690b20866fdc33b54f0e1554c8f595e2ab5a",
+      "reviewPts": 76076,
+      "reviewTime": 2.5358666666666667
+    },
+    {
+      "pts": 568568,
+      "time": 18.952266666666667,
+      "index": 20,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000020.png",
+      "sourcePts": 568568,
+      "sourceTime": 18.952266666666667,
+      "oldSceneSha256": "3a559b22003841844908a9d74c0e273b924e069bbdcae8c5b175e7a1303b7236",
+      "newSceneSha256": "95ca233b04586bf8c2248866aae31a8dc74ede999d4323b363b1924557ee2c77",
+      "reviewRasterSha256": "2c51b1bc55a548b6ba471b2ba3b2afbfe1de3f129ccac1bf3fa8e4ae7d3971d0",
+      "reviewPts": 80080,
+      "reviewTime": 2.6693333333333333
+    },
+    {
+      "pts": 569569,
+      "time": 18.985633333333332,
+      "index": 21,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000021.png",
+      "sourcePts": 569569,
+      "sourceTime": 18.985633333333332,
+      "oldSceneSha256": "23ef8e7602ec04ef521b37ff333ebbaea4e0a90250b8af02360f70ec812394b4",
+      "newSceneSha256": "6aef863f47faf42528e2c2ef47ad83030ae3eb647e5bea8c5aa55079eba2574f",
+      "reviewRasterSha256": "8aae38e10e4f53e40642b7fde9c7a9b048b22e572b83b0e075bf28fddf7f2d67",
+      "reviewPts": 84084,
+      "reviewTime": 2.8028
+    },
+    {
+      "pts": 570570,
+      "time": 19.019,
+      "index": 22,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000022.png",
+      "sourcePts": 570570,
+      "sourceTime": 19.019,
+      "oldSceneSha256": "9961bc77d1ab55d0a82481edb6859427b6c853d97bb7a40db8941f0ff3bcd962",
+      "newSceneSha256": "197f7efcfc4f82acdb8af0cd15a399ff0c72defd1b8c61779d64d9cc87dae282",
+      "reviewRasterSha256": "4d28b1f5d4355c6e13f62faac334e0cdff923a4a2da83243c97286364ea11ff3",
+      "reviewPts": 88088,
+      "reviewTime": 2.9362666666666666
+    },
+    {
+      "pts": 571571,
+      "time": 19.052366666666668,
+      "index": 23,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000023.png",
+      "sourcePts": 571571,
+      "sourceTime": 19.052366666666668,
+      "oldSceneSha256": "485227c4dcf77bfd8f887017237baa0e68449ac7fc523c874de68f3c9cfdb4e5",
+      "newSceneSha256": "39ed4dda68ffad269b9db7cb19025143d8d75aa688876ca425a8de3e517deb48",
+      "reviewRasterSha256": "997346ce3bd46bbeacbd89c99fe5bfd83cc1a75a94460e4abfa946351c4289e0",
+      "reviewPts": 92092,
+      "reviewTime": 3.069733333333333
+    },
+    {
+      "pts": 572572,
+      "time": 19.085733333333334,
+      "index": 24,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000024.png",
+      "sourcePts": 572572,
+      "sourceTime": 19.085733333333334,
+      "oldSceneSha256": "6531a910632a9f44f382f725fe2e80c690d25c61b648923339ffcf51f79669a8",
+      "newSceneSha256": "e2d2db94cb4bf2826c616a370dc1da52a2e19171335cf8eba36b32a29ae24f73",
+      "reviewRasterSha256": "254258c0af823f1d9fdc063912794440acb20c02905e31acf4f8a1422f612f3d",
+      "reviewPts": 96096,
+      "reviewTime": 3.2032
+    },
+    {
+      "pts": 573573,
+      "time": 19.1191,
+      "index": 25,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000025.png",
+      "sourcePts": 573573,
+      "sourceTime": 19.1191,
+      "oldSceneSha256": "48a9f152ecaf3d20683ea8a2411074b3b60c03d3a6305d6a8d7de03cde3220aa",
+      "newSceneSha256": "5fa3988c4d2bc48c0981c74a1e58b0ab41675aef613e9bf7c0ef792b8235dade",
+      "reviewRasterSha256": "82292357d29c8a3f57b196e4c96da5f0156346db66226435d5ff3c2f04c95f65",
+      "reviewPts": 100100,
+      "reviewTime": 3.3366666666666664
+    },
+    {
+      "pts": 574574,
+      "time": 19.152466666666665,
+      "index": 26,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000026.png",
+      "sourcePts": 574574,
+      "sourceTime": 19.152466666666665,
+      "oldSceneSha256": "362b8a2a94daa7f247306526cdbd4c11e7870d465b2f9b6c1d5a03d53deba203",
+      "newSceneSha256": "4e5c64e10342c96d204e04afbc7631f22a2e5aa53fa19682efa1a985dc906bd1",
+      "reviewRasterSha256": "e004921416882b6b615140eecb6a9cc53532a3f9f5ea1ca15c078defd94df8c6",
+      "reviewPts": 104104,
+      "reviewTime": 3.4701333333333335
+    },
+    {
+      "pts": 575575,
+      "time": 19.185833333333335,
+      "index": 27,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000027.png",
+      "sourcePts": 575575,
+      "sourceTime": 19.185833333333335,
+      "oldSceneSha256": "040dbe2a9fed178c4633a6dceb0571527372c57eda6e9f252e9c309365b93dd4",
+      "newSceneSha256": "dfaa86a26ee2a0a7ff81219d057bc7fb29b8d95c8fcd178b2bccb67d759c90a5",
+      "reviewRasterSha256": "ab84e58baf6e444dfafed2e421ae1fe8971a8aadeb0358f063ffb51dc0f60b79",
+      "reviewPts": 108108,
+      "reviewTime": 3.6036
+    },
+    {
+      "pts": 576576,
+      "time": 19.2192,
+      "index": 28,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000028.png",
+      "sourcePts": 576576,
+      "sourceTime": 19.2192,
+      "oldSceneSha256": "3e47fec215d5ebfc7ea8ca96f89dfd3572d6b9bd679d5b2b759807bab1e92cfc",
+      "newSceneSha256": "6260484c820e0cf34672297124396d4d526287ca76e6bb360c16df925fe9c262",
+      "reviewRasterSha256": "32aeebf8ae1a407d8181b15a04f24a3d9e939ed7401cd1f3e47aee8e4b12820d",
+      "reviewPts": 112112,
+      "reviewTime": 3.7370666666666668
+    },
+    {
+      "pts": 577577,
+      "time": 19.252566666666667,
+      "index": 29,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000029.png",
+      "sourcePts": 577577,
+      "sourceTime": 19.252566666666667,
+      "oldSceneSha256": "551d3c2552f2d5e5e54e7372f51b69a5a397066e724d945f824411e0a7b4538a",
+      "newSceneSha256": "af78868c75f6fe60141e6a873a768a474a27ddd4972043719e0a0b778d3f1f55",
+      "reviewRasterSha256": "d73a3dedf017682842b6cdab963730b1ca9c99b18dd1b62374e49964bb54c80e",
+      "reviewPts": 116116,
+      "reviewTime": 3.8705333333333334
+    },
+    {
+      "pts": 578578,
+      "time": 19.285933333333332,
+      "index": 30,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000030.png",
+      "sourcePts": 578578,
+      "sourceTime": 19.285933333333332,
+      "oldSceneSha256": "9b175ac2db7742aed14732589003693a11a53279bdc3dff7301ff694582ae351",
+      "newSceneSha256": "11d9046ec48c2a6e3f08527093936f6dab441a1bfb76abb305a438b9ab4f1809",
+      "reviewRasterSha256": "6c918ed591d3325257ba0dcb99ed41e9feb2c03763532d6647f96366e03e8185",
+      "reviewPts": 120120,
+      "reviewTime": 4.004
+    },
+    {
+      "pts": 579579,
+      "time": 19.3193,
+      "index": 31,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000031.png",
+      "sourcePts": 579579,
+      "sourceTime": 19.3193,
+      "oldSceneSha256": "fab5fa40b85a849ddd20098ee26b19feca51f767fa79561f9633108a138091a5",
+      "newSceneSha256": "cd1efd1b7c3cd015b3f9702f0b267651c2bc1b8806c5c41273944e1a510a9c64",
+      "reviewRasterSha256": "5869d7b46989c9e47f2ef818645ef4acb4e6b858c828e4180c47436a9bc7ed44",
+      "reviewPts": 124124,
+      "reviewTime": 4.137466666666667
+    },
+    {
+      "pts": 580580,
+      "time": 19.352666666666668,
+      "index": 32,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000032.png",
+      "sourcePts": 580580,
+      "sourceTime": 19.352666666666668,
+      "oldSceneSha256": "1daaf995669360456704bcf73ae550f36d713a079b41ab81dc5f299f4b384a99",
+      "newSceneSha256": "103eb0a50a595225fd0717c66da017f262672f923ad35f2a29fefb205e144c38",
+      "reviewRasterSha256": "a2a09f1314d8029ab8e56d6ea2702f4a422b72fa034b055fc94924829ed01590",
+      "reviewPts": 128128,
+      "reviewTime": 4.270933333333334
+    },
+    {
+      "pts": 581581,
+      "time": 19.386033333333334,
+      "index": 33,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000033.png",
+      "sourcePts": 581581,
+      "sourceTime": 19.386033333333334,
+      "oldSceneSha256": "2ef6caf47eb8a1382226164da7cb5d64ab5062eb443bac576628637e50d7c0cd",
+      "newSceneSha256": "6af4e8334a58a414e57986f014769b2ec6b35fe0a8f7a22708d0f39c9678f51d",
+      "reviewRasterSha256": "74ec0495fa2b7848c71f89f3fe75027687f378ca92db61e7deade337e1cef7d0",
+      "reviewPts": 132132,
+      "reviewTime": 4.4044
+    },
+    {
+      "pts": 582582,
+      "time": 19.4194,
+      "index": 34,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000034.png",
+      "sourcePts": 582582,
+      "sourceTime": 19.4194,
+      "oldSceneSha256": "db9050f5d3f728d074f44bf1279e7b21c40a9524fa70dbe9ecc69ddc2685928b",
+      "newSceneSha256": "dd4953ba612745bb6a754b4356e7cb74a42fe09647880c4f6391544d44df5e77",
+      "reviewRasterSha256": "92aeecd0fbe7a3b5bd1abf8d4bbdcd89789e4b89de8acd83561dd1b1896e39f4",
+      "reviewPts": 136136,
+      "reviewTime": 4.537866666666667
+    },
+    {
+      "pts": 583583,
+      "time": 19.452766666666665,
+      "index": 35,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000035.png",
+      "sourcePts": 583583,
+      "sourceTime": 19.452766666666665,
+      "oldSceneSha256": "bddfd32ce0ad20654702b6424f60fa21978973c8c3ffe15a823ffe8d20effa58",
+      "newSceneSha256": "b79a776c76577e8c03e3c53666b976b409a28a8f9a5baa4b2156e62fccfa205d",
+      "reviewRasterSha256": "450238f7abe1a5c0c10f7082783dd2b2eb4aceacd33f31c5fb82527662dd2c06",
+      "reviewPts": 140140,
+      "reviewTime": 4.671333333333333
+    },
+    {
+      "pts": 584584,
+      "time": 19.486133333333335,
+      "index": 36,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000036.png",
+      "sourcePts": 584584,
+      "sourceTime": 19.486133333333335,
+      "oldSceneSha256": "3c95810b9ab44cce3c1925115785627edeaed376666807b404e941bccf1b017d",
+      "newSceneSha256": "7b0bddf09f416bbaea6c000107378e996a8915fb5886df02aa791951aa522dce",
+      "reviewRasterSha256": "f256c90b0e59c7c4457c30c824454c5cafbeec5252ae1ff307a86443712db9a9",
+      "reviewPts": 144144,
+      "reviewTime": 4.8048
+    },
+    {
+      "pts": 585585,
+      "time": 19.5195,
+      "index": 37,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000037.png",
+      "sourcePts": 585585,
+      "sourceTime": 19.5195,
+      "oldSceneSha256": "61bf62ae48f1e87c1a6297c79bb3cf3b612a17a2004f9eb5abcc1a521c51b98e",
+      "newSceneSha256": "9d125a96253a28138d436e6fcbc2e29e20b7ddc08a268765f61d36952bfb67dd",
+      "reviewRasterSha256": "80941bec17a1417ac5945348a7547c1f3780e4a414fa3191894e3f75e4a80c04",
+      "reviewPts": 148148,
+      "reviewTime": 4.938266666666666
+    },
+    {
+      "pts": 586586,
+      "time": 19.552866666666667,
+      "index": 38,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000038.png",
+      "sourcePts": 586586,
+      "sourceTime": 19.552866666666667,
+      "oldSceneSha256": "93cb27b90fcf6444bbc0176a03176d3cc740fa643df60e31a94cec5a602b718c",
+      "newSceneSha256": "b7630916fd932902692075e75719315ec25b6c53871cbd6d450c6053715b7103",
+      "reviewRasterSha256": "255f992e81354e0c00ed0253227884fc1460013132e137fa9741071f3ff7d3fa",
+      "reviewPts": 152152,
+      "reviewTime": 5.071733333333333
+    },
+    {
+      "pts": 587587,
+      "time": 19.586233333333332,
+      "index": 39,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000039.png",
+      "sourcePts": 587587,
+      "sourceTime": 19.586233333333332,
+      "oldSceneSha256": "dfc5e6c99863d48bc7facbcf0ce68850fcfcde4b481ea554f60ba275aa21e908",
+      "newSceneSha256": "9b9c5bff57e24e1d70e1ed4f18c369baf6581264b67eb0e6167c5cbdec40e538",
+      "reviewRasterSha256": "45bb34fe79c3107b585993ae9d99c146ae5e09e103b10480b8eef59b24b8c8f7",
+      "reviewPts": 156156,
+      "reviewTime": 5.2052
+    },
+    {
+      "pts": 588588,
+      "time": 19.6196,
+      "index": 40,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000040.png",
+      "sourcePts": 588588,
+      "sourceTime": 19.6196,
+      "oldSceneSha256": "1c98f143da03940831c3e2a87958c3aa6b7c8791fe56eef35b3273443ca3a800",
+      "newSceneSha256": "3f10f67daa6d8457381c3447dfab29389ce6b1c74249229394945ebfae5bb5b0",
+      "reviewRasterSha256": "33eda2e006ef17706c9aa9b3d083d943664e62a65922fd6ecc8e0d9451127096",
+      "reviewPts": 160160,
+      "reviewTime": 5.338666666666667
+    },
+    {
+      "pts": 589589,
+      "time": 19.652966666666668,
+      "index": 41,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000041.png",
+      "sourcePts": 589589,
+      "sourceTime": 19.652966666666668,
+      "oldSceneSha256": "febf862d03a5e9cc6920bb8d5479f7e20a4ecd7bc742e3f7cbb8b2d3fbc86e3b",
+      "newSceneSha256": "1eec02097b6933c03dfe9c25fcb7c77e98bf6082af010d972a063f4f1c053d77",
+      "reviewRasterSha256": "265ce855e966b0f936d5803aadb6faf0291ee20e198db718c9b670bbede6c5ec",
+      "reviewPts": 164164,
+      "reviewTime": 5.472133333333334
+    },
+    {
+      "pts": 590590,
+      "time": 19.686333333333334,
+      "index": 42,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000042.png",
+      "sourcePts": 590590,
+      "sourceTime": 19.686333333333334,
+      "oldSceneSha256": "32abfd17ee40814d219799eb8d913e13b118492690133b3985435831e685b5f9",
+      "newSceneSha256": "6c776595d171fe7cf8598717be7617b65c7afef2c7bb50edcaf0e94dc6e166f5",
+      "reviewRasterSha256": "3cb73d91bbca9cdd2867c45b27e950d2630044d99d83a6f86bdd2895a6bb0453",
+      "reviewPts": 168168,
+      "reviewTime": 5.6056
+    },
+    {
+      "pts": 591591,
+      "time": 19.7197,
+      "index": 43,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000043.png",
+      "sourcePts": 591591,
+      "sourceTime": 19.7197,
+      "oldSceneSha256": "f1799e826364a2b2878de86273ad957253cf4d868024847fe196a51e3bdca034",
+      "newSceneSha256": "2ecae67ba9207ac623cab001a787a3c561d03dc0a01ff77480e5d39ceeed8550",
+      "reviewRasterSha256": "f2eaef2227261b2faf7ff2adfd8652d372801ccda5f355f99c48f326905f6dd2",
+      "reviewPts": 172172,
+      "reviewTime": 5.739066666666667
+    },
+    {
+      "pts": 592592,
+      "time": 19.753066666666665,
+      "index": 44,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000044.png",
+      "sourcePts": 592592,
+      "sourceTime": 19.753066666666665,
+      "oldSceneSha256": "3cdb5e57f727d176f5f00f0216bd51e3b14768d7b3042b2708d974496cc2feca",
+      "newSceneSha256": "7321c31150975b5a298a90bc19e9d82d30f3ccea9373c4d9ad5b1af94cac77d8",
+      "reviewRasterSha256": "5baf251c9e13118df43941ce1cb5850d0031e194cc843f1abd8c0cacfa518b16",
+      "reviewPts": 176176,
+      "reviewTime": 5.872533333333333
+    },
+    {
+      "pts": 593593,
+      "time": 19.786433333333335,
+      "index": 45,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000045.png",
+      "sourcePts": 593593,
+      "sourceTime": 19.786433333333335,
+      "oldSceneSha256": "49bac67843ad34399013f0f397f0ffda5c5ee504325ece9251275b20f63ee918",
+      "newSceneSha256": "e2a69867c57b763cefc655dc303252b14d33802b5e4df0792c4f2f3af7df1fb6",
+      "reviewRasterSha256": "3007937c979ceb783644c6a1746ae4da9435e9951626d62253c026730dab7595",
+      "reviewPts": 180180,
+      "reviewTime": 6.006
+    },
+    {
+      "pts": 594594,
+      "time": 19.8198,
+      "index": 46,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000046.png",
+      "sourcePts": 594594,
+      "sourceTime": 19.8198,
+      "oldSceneSha256": "a678dcba2c26cbbe5ba002cc4717845c04663347da484169822ff86ed2ee37da",
+      "newSceneSha256": "ace78fb8c31b033bbc6ca5e2806d3a146bc5ec28ed2f2dc6ad1ea52796d32f3b",
+      "reviewRasterSha256": "1244775be0a07fad82455640bd85a5bbc161babe7e60f7f247054c8f1bd3769d",
+      "reviewPts": 184184,
+      "reviewTime": 6.139466666666666
+    },
+    {
+      "pts": 595595,
+      "time": 19.853166666666667,
+      "index": 47,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000047.png",
+      "sourcePts": 595595,
+      "sourceTime": 19.853166666666667,
+      "oldSceneSha256": "03db271085ec54d1f0767d50558949d7263d25eeda041e02cb9cf6a85089655b",
+      "newSceneSha256": "e7a327899deae673368a7397d0685860c967cc1d5a9172089399c71a6f047085",
+      "reviewRasterSha256": "db532f1b454c937bff0ee9ea3de0bc6345de2df9097d3d1a639a94dd52bf05e3",
+      "reviewPts": 188188,
+      "reviewTime": 6.2729333333333335
+    },
+    {
+      "pts": 596596,
+      "time": 19.886533333333333,
+      "index": 48,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000048.png",
+      "sourcePts": 596596,
+      "sourceTime": 19.886533333333333,
+      "oldSceneSha256": "03c201bc951121e4a8908c62d9d0b8b263a1849a6ab21d99aac608f2d493bbb1",
+      "newSceneSha256": "28289fc971c31f7e7802876ccb98f5eacc455c9e9eefef717595bd4e87e7218e",
+      "reviewRasterSha256": "108acc82c99439837768cb7344e214b2e1eabba5d64a86bad5d067c4eabbd7a8",
+      "reviewPts": 192192,
+      "reviewTime": 6.4064
+    },
+    {
+      "pts": 597597,
+      "time": 19.9199,
+      "index": 49,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000049.png",
+      "sourcePts": 597597,
+      "sourceTime": 19.9199,
+      "oldSceneSha256": "7026f5dfae2b0a3e6943234cebd1bdccfa96c1273aca208b8fec3f0e63279702",
+      "newSceneSha256": "5c2a258200f648e1bd8a690fa5bbd56a55b83c061a4bab8bb5f2bbf539bd6bae",
+      "reviewRasterSha256": "3c4eae4b0c507466e63dcf221abef636e6e8c83270900d14d6358e63bce289ed",
+      "reviewPts": 196196,
+      "reviewTime": 6.539866666666667
+    },
+    {
+      "pts": 598598,
+      "time": 19.953266666666668,
+      "index": 50,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000050.png",
+      "sourcePts": 598598,
+      "sourceTime": 19.953266666666668,
+      "oldSceneSha256": "7d639aaa83643339686082cb13f3b2b6b61a45ee4f06f59398358ce88ddb5c78",
+      "newSceneSha256": "ff7dec0140a407b6830ed31264c62c06d185ba1e14a423245230916efe34f187",
+      "reviewRasterSha256": "4b2346e612b923c35749ba0ddc4f9a47fee22884465365be50dfda9203043281",
+      "reviewPts": 200200,
+      "reviewTime": 6.673333333333333
+    },
+    {
+      "pts": 599599,
+      "time": 19.986633333333334,
+      "index": 51,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000051.png",
+      "sourcePts": 599599,
+      "sourceTime": 19.986633333333334,
+      "oldSceneSha256": "58f929b83e95700b71461a39d09c7999ee34d467516cedb957c5290d8d483387",
+      "newSceneSha256": "96b4eb6d96dbcf504c2aeaebb319461632c9a5d3cc2f6c60777656a4d1624cb9",
+      "reviewRasterSha256": "4be1eeac261a94c316fb4133b74402726ef370ec8817a933f2e9a2086d2aaf70",
+      "reviewPts": 204204,
+      "reviewTime": 6.8068
+    },
+    {
+      "pts": 600600,
+      "time": 20.02,
+      "index": 52,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000052.png",
+      "sourcePts": 600600,
+      "sourceTime": 20.02,
+      "oldSceneSha256": "6dbe07a46b92c74a704dae3a6edd735c548b47be086b9c821406fac59e9209b9",
+      "newSceneSha256": "c80cd89544d28e22ff65846fbbfb8f6c105aab74308f13b523f2dd78b26a5e67",
+      "reviewRasterSha256": "25e8c6bc67f71bf79a3380571b38bdf83c70ddbe5580c55d829b12ce3dbd2fff",
+      "reviewPts": 208208,
+      "reviewTime": 6.940266666666667
+    },
+    {
+      "pts": 601601,
+      "time": 20.053366666666665,
+      "index": 53,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000053.png",
+      "sourcePts": 601601,
+      "sourceTime": 20.053366666666665,
+      "oldSceneSha256": "88b34e8a5c15788ae3253c5557f47c53139e7efe8a77e0ccf8a2914fca389d74",
+      "newSceneSha256": "4ae5e328db8a332e8346f651afd6f6694d52bed07a29ed8185b62952a90d18ce",
+      "reviewRasterSha256": "4190cca37ea148da051abf31c1e8bb058e3c830cd05fb8dfb5061d8b60d3eb2c",
+      "reviewPts": 212212,
+      "reviewTime": 7.073733333333333
+    },
+    {
+      "pts": 602602,
+      "time": 20.086733333333335,
+      "index": 54,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000054.png",
+      "sourcePts": 602602,
+      "sourceTime": 20.086733333333335,
+      "oldSceneSha256": "af3f9bd0abb5302d0e6016c57c60b8367dcefc037e4f7ced697fe99c1b0137d8",
+      "newSceneSha256": "d0f15af9298abbc3af5881b21d8c1497a63c26dd598fcc0bcca620f72e8e6498",
+      "reviewRasterSha256": "4ed340f10b9b65180c106a854f5bccaa22eb8043f74621dea5517024c22efc61",
+      "reviewPts": 216216,
+      "reviewTime": 7.2072
+    },
+    {
+      "pts": 603603,
+      "time": 20.1201,
+      "index": 55,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000055.png",
+      "sourcePts": 603603,
+      "sourceTime": 20.1201,
+      "oldSceneSha256": "4f6ad74d811925d28ed5bb9c60dc391748af7206091275dc0f433213ad996b0d",
+      "newSceneSha256": "5eddb491bd67dc89cdb01534886f4c6c2718075779793d57342a1db058b1c8c5",
+      "reviewRasterSha256": "e9cb517a8d6e6f124c6f4c7fad8c7f71a9c2abdbe2f9a5916269065d1e921d49",
+      "reviewPts": 220220,
+      "reviewTime": 7.3406666666666665
+    },
+    {
+      "pts": 604604,
+      "time": 20.153466666666667,
+      "index": 56,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000056.png",
+      "sourcePts": 604604,
+      "sourceTime": 20.153466666666667,
+      "oldSceneSha256": "40e6983a4846d9b1a419bfd4c1d4c75eec9febad5a61a588feebe813f0294950",
+      "newSceneSha256": "f67a59fae71c1e43b6515765f6c37cbde9346e25217bc53c160793397bf6cf2d",
+      "reviewRasterSha256": "9ecc40df98d4e8254d998acca3d2333b84e60292fccd42a1f47c8df8301b3e76",
+      "reviewPts": 224224,
+      "reviewTime": 7.4741333333333335
+    },
+    {
+      "pts": 605605,
+      "time": 20.186833333333333,
+      "index": 57,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000057.png",
+      "sourcePts": 605605,
+      "sourceTime": 20.186833333333333,
+      "oldSceneSha256": "938382162043892985ff1c1bd0eb5c7eb3e779dc423b4d4d193606ad92c45724",
+      "newSceneSha256": "20a374fbfc1e1493aeafd9149268e6fbbcba32f57bdeb3deb48ef48777317505",
+      "reviewRasterSha256": "40ec0a84e680ed2d99db05b07be0f820f427c8e1bef33e7a9d20763735021920",
+      "reviewPts": 228228,
+      "reviewTime": 7.6076
+    },
+    {
+      "pts": 606606,
+      "time": 20.2202,
+      "index": 58,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000058.png",
+      "sourcePts": 606606,
+      "sourceTime": 20.2202,
+      "oldSceneSha256": "9b501ee33385af8228a1231c03e2d9d908813fbc86b48c1da85470b758449314",
+      "newSceneSha256": "77931b0c1c4da52bc8da7733af63ce8d4e7067d9f1e1ef90ce711ed0266e0bf8",
+      "reviewRasterSha256": "12bb0d2b9cce932694e0fdc3eab9f914d927aa48a8891965041dc9b630ce7cc9",
+      "reviewPts": 232232,
+      "reviewTime": 7.741066666666667
+    },
+    {
+      "pts": 607607,
+      "time": 20.253566666666668,
+      "index": 59,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000059.png",
+      "sourcePts": 607607,
+      "sourceTime": 20.253566666666668,
+      "oldSceneSha256": "3801889b8b2f83c33c6ce0776449c162e4c413acd5b40d1b8f93f520d7e0d2b1",
+      "newSceneSha256": "bb6fc832d14177680200c0823f6a355efafd6eee2e1a02266042e8100446a19a",
+      "reviewRasterSha256": "8750c5303ffdb7e900c797239388fe7a42958e0dfff9b5f4833f71d9175e2238",
+      "reviewPts": 236236,
+      "reviewTime": 7.874533333333333
+    },
+    {
+      "pts": 608608,
+      "time": 20.286933333333334,
+      "index": 60,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000060.png",
+      "sourcePts": 608608,
+      "sourceTime": 20.286933333333334,
+      "oldSceneSha256": "80c9b214a24644fad28ee10ac486dc4178dae74da4a969a266b862f84e0e059a",
+      "newSceneSha256": "fd747a2a6b9fd6a6d0ddd9c644d548bfc1e7a8dde514a49730724429c6a67b94",
+      "reviewRasterSha256": "b9a12072ebb170514092e36bd0e9709aa8dcf851aaa6fdabae41869461352dea",
+      "reviewPts": 240240,
+      "reviewTime": 8.008
+    },
+    {
+      "pts": 609609,
+      "time": 20.3203,
+      "index": 61,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000061.png",
+      "sourcePts": 609609,
+      "sourceTime": 20.3203,
+      "oldSceneSha256": "500fe635765c5808dcd5436e768e68a7e62e872075267da41941af724c7eb0bf",
+      "newSceneSha256": "8384607c6d0dccbadbcde36a38bcc3ceb780b2cce1616cde56b02a5b229e9139",
+      "reviewRasterSha256": "a3367b9224a8131de59910d6e2a63166aeaff9d37f523c0b6f0ecbef3d24bfee",
+      "reviewPts": 244244,
+      "reviewTime": 8.141466666666666
+    },
+    {
+      "pts": 610610,
+      "time": 20.353666666666665,
+      "index": 62,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000062.png",
+      "sourcePts": 610610,
+      "sourceTime": 20.353666666666665,
+      "oldSceneSha256": "b747449b95701f5a371e2e1f4103078f85d05b56073e41b4c3524a5bf23b7610",
+      "newSceneSha256": "2b860028caa40b38882ad07492222e39c070a9fec3153874582ff55457460316",
+      "reviewRasterSha256": "a7eaeddf705a52dbb1d5dab3a5b7f235caf44b21d1fa03313e5bd0b02045ef3c",
+      "reviewPts": 248248,
+      "reviewTime": 8.274933333333333
+    },
+    {
+      "pts": 611611,
+      "time": 20.387033333333335,
+      "index": 63,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000063.png",
+      "sourcePts": 611611,
+      "sourceTime": 20.387033333333335,
+      "oldSceneSha256": "aa76c6ad30dc5690b2f9dcce090db30c0e5e08ce7aa43d32640f5bc4370dae33",
+      "newSceneSha256": "c924aff8f0536be401a2068ec58d509b87c085eea0cd8572d5e14843f0301886",
+      "reviewRasterSha256": "757f157c1e8e5514c11a804a67ab1aeb78d127464577ce2fb75f78e43ae41290",
+      "reviewPts": 252252,
+      "reviewTime": 8.4084
+    },
+    {
+      "pts": 612612,
+      "time": 20.4204,
+      "index": 64,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000064.png",
+      "sourcePts": 612612,
+      "sourceTime": 20.4204,
+      "oldSceneSha256": "a57eb225512ed4f16235d94f25dbdafc9cd841cabff11ae30ee0a2158fa1ddde",
+      "newSceneSha256": "dc9ca4b0e98153c5d33d9aac9039cdc60befcc14b64e398e31fc0a518a242b90",
+      "reviewRasterSha256": "47b6b79c304f9cd178ca1713371d40e853def63488d0ea550224edd7b1893560",
+      "reviewPts": 256256,
+      "reviewTime": 8.541866666666667
+    },
+    {
+      "pts": 613613,
+      "time": 20.453766666666667,
+      "index": 65,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000065.png",
+      "sourcePts": 613613,
+      "sourceTime": 20.453766666666667,
+      "oldSceneSha256": "955c6bfb12793ce4cfe9f05cae024501793ad5ed6e2d208d89368d52f6c6f405",
+      "newSceneSha256": "db972202ab8527c93cb4b901bb0a5d016a44b951ca579b31f71d200306da00af",
+      "reviewRasterSha256": "40a5dd030bed88cf8840d02fb5a5ec12957e65d74e765fdf85bb850e323693a1",
+      "reviewPts": 260260,
+      "reviewTime": 8.675333333333333
+    },
+    {
+      "pts": 614614,
+      "time": 20.487133333333333,
+      "index": 66,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000066.png",
+      "sourcePts": 614614,
+      "sourceTime": 20.487133333333333,
+      "oldSceneSha256": "8094adb3aaee45c6e364637744c79bd8d1ece253896b89e19a0c3908b5b30ac5",
+      "newSceneSha256": "10c6337a865dc3f8fd31e5c240361a83491721bd572a15a7d2505cf8b99480ee",
+      "reviewRasterSha256": "bd7b00e954a2d6c8a783043afa880acef1f7e5321acc5315840015a4c97d2adc",
+      "reviewPts": 264264,
+      "reviewTime": 8.8088
+    }
+  ],
+  "outputs": {
+    "highlight-review-0.25x.gif": "8cda135d3034d2d3a509e3cbb81553ff769ad4d97e18582c14277e24d23fbc3d",
+    "highlight-review-0.25x.mp4": "94269341aafbe246c0764776d7a9cf1316272a299045157ebd80d1e577cb527e",
+    "poster.png": "7104cb276d0ea9c28214d3e213ed3a85eff58448bf9617cbc58359c1329ebe0b"
+  }
+}

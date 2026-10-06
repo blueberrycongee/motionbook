@@ -1,0 +1,69 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> apple-music-lyrics-motion-study@1.0.0 test
+> node --test test/*.test.cjs
+
+✔ runtime initializes one persistent SVG and patches existing line nodes (20.789515ms)
+✔ scrub seeks absolute source seconds immediately and pauses playback (8.699367ms)
+✔ manual takeover at zero displacement preserves every visible line field (12.360401ms)
+✔ manual scroll displacement is scale independent and ignores secondary pointers (14.35612ms)
+✔ non-primary and non-left-button pointers cannot acquire lyric-scroll ownership (2.164599ms)
+✔ wheel pixel, line, and page units create bounded manual inspection and can resume following (18.840812ms)
+✔ pointer cancellation and lost capture release ownership and return to follow (14.573267ms)
+✔ mode commands during pointer capture do not strand later input (50.60535ms)
+✔ idle paused frames stop requesting RAF and repeated controls never multiply RAF (7.539726ms)
+✔ hidden-page and bfcache clocks do not consume elapsed hidden time (15.62147ms)
+✔ visibility freeze preserves an in-progress follow-return clock as well as playback (17.536913ms)
+✔ Space toggles once, key repeats do nothing, arrows seek and pause, and Escape follows (10.003376ms)
+✔ reduced-motion startup prevents autoplay/replay/reverse but permits explicit still-frame seeking (3.329828ms)
+✔ live reduced motion pauses playback, snaps a pending return, and does not auto-resume when disabled (7.571964ms)
+✔ SVG has unique attributes, unique IDs, and no nonfinite transform serialization (2.653146ms)
+✔ independent line geometry and appearance channels affect scene attributes (2.007882ms)
+✔ all retained source highlight samples correspond to distinct original integer PTS (1.183377ms)
+✔ highlight sampling and reverse seeking are independent of evaluation order at every source frame (60.804722ms)
+✔ zero and full sweep endpoints reveal none and all of each authored row ink (1596.531401ms)
+✔ increasing sweep progress produces a nested raster mask on narrow and wide authored rows (2203.74312ms)
+✔ equal dim and lit alpha paints each glyph once, including antialiased edges (740.551019ms)
+✔ authored ink actually follows target width in the offline renderer (768.599995ms)
+✔ quarter-speed review preserves the complete native frame set and quantizes only presentation time (2.359964ms)
+✔ new field measurements retain all four row records at every original source PTS, including censoring (0.945228ms)
+✔ each partial sweep stays inside the measured or explicitly censored source-center interval (2.929283ms)
+✔ source-frame jumps are bounded by adjacent measured intervals, without a global velocity cap (10.275035ms)
+✔ fitted spatial feather is supported by same-frame residual comparison, rather than added as temporal easing (1.784415ms)
+✔ forward field fluctuations stay within the per-line negative steps actually measured in source pixels (13.075915ms)
+✔ the late B2 partial-field hold retains its measured range and does not replay the old threshold reversal (1.244009ms)
+✔ the first source-supported B1 field is visible before the old near-white threshold would trigger (0.360284ms)
+✔ recorded review timelines reject missing original frames and conflicting source clocks (4.475198ms)
+✔ final slow review binds every source frame to the unchanged old/new scenes and verified output bytes (40.114335ms)
+✔ rational source timelines preserve integer PTS without assuming rounded 30 fps (1.880349ms)
+✔ the shared scene has deterministic offline raster pixels and declared source bounds (271.18031ms)
+✔ authored text is escaped before it enters the SVG scene (0.82172ms)
+✔ final preview manifest binds the current scene, controller, assets, and output bytes (33.380589ms)
+✔ line activation uses exact half-open boundaries, gaps, and final termination (0.984837ms)
+✔ timed span progress clamps at exact boundaries and does not leak into adjacent spans (0.511342ms)
+✔ piecewise sampling retains every native-time knot and independent channels (1.179791ms)
+✔ reference states are fresh, order independent, and do not mutate calibration data (4.604904ms)
+✔ every authored track has sorted finite samples and evaluates its own observations (32.026448ms)
+✔ all line transforms remain finite under dense, reverse, and irregular timeline sampling (41.067267ms)
+✔ seek forward, backward, and exact source endpoints ignores previous sampling history (1.711635ms)
+✔ playback is analytically anchored and independent of callback cadence (5.552045ms)
+✔ pause freezes media time and resumption starts at the held frame (0.833398ms)
+✔ rate reversal preserves current pose and subsequently samples the earlier absolute time (0.619716ms)
+✔ both playback directions clamp at their endpoint and stop their frame clock (0.390489ms)
+✔ the exclusive timeline end holds the last visible source frame instead of blanking lyrics (0.308236ms)
+✔ zero-delta manual takeover preserves the current pose while playback time keeps running (1.189947ms)
+✔ manual cancel and follow resume start continuously and finish at the current media pose (0.972148ms)
+✔ follow return is independently evaluated rather than numerically integrated (2.74171ms)
+✔ interruption of follow return preserves every line and repeated resume commands stay continuous (0.980971ms)
+✔ seek during manual/return mode clears displaced poses and resumes source following (0.850855ms)
+✔ freeze/thaw preserves both playback and in-progress follow-return clocks (0.838556ms)
+✔ reduced motion removes blur and snaps follow return without stranded animation (1.212421ms)
+✔ invalid commands throw before corrupting state and alternating interruptions stay finite (15.519827ms)
+ℹ tests 56
+ℹ suites 0
+ℹ pass 56
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5543.747194

@@ -1,0 +1,35 @@
+{
+  "harnessSha256": "1d45f008644314c7677354f697d8727b77446cc4ebd5d1cfa0323c88b97cb8bf",
+  "testSha256": "3b9bc3f99e6a6c0d4742152ea97c5fb91649e18c82a859fba38949a883f0e16e",
+  "results": [
+    {
+      "name": "Rational source PTS preserved; malformed timeline rejected",
+      "passed": true
+    },
+    {
+      "name": "Native 30000/1001 fps rendering, deterministic pixels, silent full-media decode and GIF timing",
+      "passed": true,
+      "frames": 30,
+      "durationSeconds": 1.001,
+      "gifDurationErrorSeconds": -0.0009999999999998899,
+      "maxGifBoundaryErrorSeconds": 0.004266666666666419
+    },
+    {
+      "name": "Native 25/1 fps rendering, deterministic pixels, silent full-media decode and GIF timing",
+      "passed": true,
+      "frames": 25,
+      "durationSeconds": 1.0000000000000002,
+      "gifDurationErrorSeconds": -2.220446049250313e-16,
+      "maxGifBoundaryErrorSeconds": 3.3306690738754696e-16
+    },
+    {
+      "name": "Native 24/1 fps rendering, deterministic pixels, silent full-media decode and GIF timing",
+      "passed": true,
+      "frames": 24,
+      "durationSeconds": 0.9999999999999996,
+      "gifDurationErrorSeconds": 4.440892098500626e-16,
+      "maxGifBoundaryErrorSeconds": 0.0050000000000002265
+    }
+  ],
+  "allPassed": true
+}

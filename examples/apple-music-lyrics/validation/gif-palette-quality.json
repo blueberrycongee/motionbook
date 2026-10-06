@@ -1,0 +1,43 @@
+{
+  "chosen": "Full-frame global palette with Sierra2_4a error diffusion",
+  "method": "Five decoded GIF frames (indices0,28,38,57,114) compared with corresponding original shared-scene PNGs in nontransparent area; RGB MAE in 8-bit levels. Background diagnostic region x360:410,y200:800.",
+  "candidates": {
+    "diff-sierra": {
+      "bytes": 14763222,
+      "meanRGBMAE": 0.9449064593384471,
+      "meanBgMAE": 1.9405444444444444
+    },
+    "full-sierra": {
+      "bytes": 14850046,
+      "meanRGBMAE": 0.6183666622040854,
+      "meanBgMAE": 0.5847333333333333
+    },
+    "full-bayer": {
+      "bytes": 17278962,
+      "meanRGBMAE": 0.8111133148549413,
+      "meanBgMAE": 0.8512555555555557
+    }
+  },
+  "visualFinding": "Full-frame palette removes bright background speckle cluster visible with diff-only palette; file size changes by less than1%. Bayer candidate was larger with higher sampled RGB error.",
+  "finalGifSha256": "910abc97389df32b5075f0914cf9902d01e936790b3f45e2a32ea1fb8f56def0",
+  "transparency": {
+    "verifiedFrames": [
+      0,
+      28,
+      38,
+      114
+    ],
+    "transparentCornerAlpha": 0,
+    "storedTransparentPaletteColor": [
+      0,
+      255,
+      0
+    ],
+    "note": "Green RGB belongs to the fully transparent palette entry, not visible rendered green. Proper alpha composite on dark background was inspected.",
+    "mp4DecodedCornerRGB": [
+      0,
+      0,
+      0
+    ]
+  }
+}

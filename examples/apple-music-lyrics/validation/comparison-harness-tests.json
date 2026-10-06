@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tests": [
+    "Nested measurement frame normalization",
+    "Rejected observations retained with null residuals",
+    "Ink-box bottom is distinguished from baseline",
+    "Exact rectangle IoU",
+    "Original text fields excluded from geometric SVG"
+  ],
+  "harnessSha256": "e677e8ca043d956b866a67dde6c3cca2f761e5d15fd003479218078055fc948c",
+  "testSha256": "f5731ea2baa71c6f49077d42733763c79978fdc2c1370daabc78bfb7caa3f0b7"
+}

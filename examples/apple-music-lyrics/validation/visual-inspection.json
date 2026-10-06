@@ -1,0 +1,34 @@
+{
+  "scope": "Human-like visual inspection of offline shared-scene PNGs; no browser or native-device test",
+  "sceneSha256": "ec5c4c29dd545d4e9bd3fa643dfd90f15b5cd04d283c32e466f8ee71a1d5435e",
+  "calibrationSha256": "8fff0d4bf85bcf89f000573b5d6a820bfd1c6533186786955f2b97ba1be78ddd",
+  "inspected": [
+    "First/middle/last shared-scene raster composite",
+    "12-pair source-geometry/model-geometry contact sheet",
+    "8-step normal UI transition contact sheet"
+  ],
+  "transitionSourceFrameIndices": [
+    523,
+    526,
+    529,
+    532,
+    535,
+    538,
+    541,
+    544
+  ],
+  "transitionContactSheet": {
+    "file": "normal-transition-contact-sheet.png",
+    "sha256": "1644ee064d38235c7cc43d9ba05f5a0b5f52d0c4ee0a6f612229291d6a7e8d8c"
+  },
+  "findings": [
+    "Original prose is legible in focused rows; blurred following rows and top occlusion mask are present",
+    "No missing-glyph boxes or visible viewport clipping faults observed",
+    "Geometry comparison contains anonymous line IDs and rectangles only; no source lyric glyphs or images",
+    "Measured upward movement and per-block temporal offset are visible across the transition sequence"
+  ],
+  "limitations": [
+    "Static frame inspection does not establish perceived animation smoothness in a particular GIF viewer",
+    "Original fonts, background and lyric glyphs are intentionally different; no perceptual-accuracy percentage is claimed"
+  ]
+}
