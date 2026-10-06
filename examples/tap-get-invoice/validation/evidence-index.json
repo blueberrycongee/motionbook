@@ -1,0 +1,775 @@
+{
+  "reference_images_retained_locally_only": true,
+  "items": [
+    {
+      "file": "pairs-026-r3/000-015.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "9dd31797b5b1dd35aaad36e32ea93797ce1bbc70bdd2e90c065a2283199b8267"
+    },
+    {
+      "file": "pairs-026-r3/016-031.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "47bb1534e68988797d7dc3fea7a7cad2f19dd1dfb07a2c3a6c3cab870996e71d"
+    },
+    {
+      "file": "pairs-026-r3/032-047.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "53dcd44df86ca631db721bf7e0f75a16040319ac791122d83b6f00e06b261e35"
+    },
+    {
+      "file": "pairs-026-r3/048-063.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "78cdf63fa43930c8ca70aca70f4db1d461cd1c9ddc65098e7b81b4187159dffa"
+    },
+    {
+      "file": "pairs-026-r3/064-079.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "1cc1804d74bae4f177d18789ebc64f879b9e8fe5e3e18b4970c960021bdb3df6"
+    },
+    {
+      "file": "pairs-026-r3/080-095.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "fb70cade6382ce3fbfa47929ffc6a5d032d93b836acb3bbcd393fdf87f4bdc24"
+    },
+    {
+      "file": "pairs-026-r3/096-111.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "640a410f305d7c8103a4e63636e58823fd28765ce02683f027bbd2fe695c6a78"
+    },
+    {
+      "file": "pairs-026-r3/112-127.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "79d3ce69aa4cc47d94437eaacc0ba2dced37b5764d3a359207ba3186f6d20c67"
+    },
+    {
+      "file": "pairs-026-r3/128-143.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "3c83b2e863077bbc0d044eef7fae5f81dbd7c39064e95dda9b7bb43a47424028"
+    },
+    {
+      "file": "pairs-026-r3/144-159.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "2c35466a025acca0863c63989935de7a4f622e5e9bac8167f9c437c56b751e12"
+    },
+    {
+      "file": "pairs-026-r3/160-175.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "dad0f25cc1fb9db774d54b151060e6cabf6d80c99d9a572d953fdeeb7fe0b79a"
+    },
+    {
+      "file": "pairs-026-r3/176-191.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "5f24ba73da0d3e4532187859d74444efc97759ea908b67009343ea2d2258a5ec"
+    },
+    {
+      "file": "pairs-026-r3/192-207.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "2b808cae8da8d87d85cd5251612647caa855f692e82d509d25ae096648b7f8ea"
+    },
+    {
+      "file": "pairs-026-r3/208-223.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "fc6b73a735cf9ad1b3d74382e9d1445a25d30428d7a6f6ba9b4b5d3b16e54432"
+    },
+    {
+      "file": "pairs-026-r3/224-239.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "9eeda62870aef69771d66b1cfe48a2146cb9e78aa042af24e0bc35cf38153c5a"
+    },
+    {
+      "file": "pairs-026-r3/240-255.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "0ec0fb2db59bb965f0cbdfbde851169635039e22339640c0839dddf02f7b22ac"
+    },
+    {
+      "file": "pairs-026-r3/256-271.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "1d055c07b77f2d3840f123b873700282679f1cce939e26616181efbfdfe73034"
+    },
+    {
+      "file": "pairs-026-r3/272-287.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "7e3766059b54b92fdf4be471cfb10244aa2c3887d86e05bdd4a00d710e1ccf95"
+    },
+    {
+      "file": "pairs-026-r3/288-303.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "344a90ad9774ff16556c4dfcf70e69f05d9c2c2158d23f210ba62e2faebfad81"
+    },
+    {
+      "file": "pairs-026-r3/304-319.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "846d33513524ab79643dcc31a1ed90d016653b3a1bd93c3f9ae8591fded9efaa"
+    },
+    {
+      "file": "pairs-026-r3/320-335.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "9c4d80920515dcd40f7836a1e125c63b0190c7ea3e6a5a3a36d972bb39eaba35"
+    },
+    {
+      "file": "pairs-026-r3/336-351.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "a7b9c0c644b5a9b148975532bf5fe6df384a0d537248d559b73745340195fab6"
+    },
+    {
+      "file": "pairs-026-r3/352-367.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "2126f72975aaf14438051d479cb6ee14a67e6d9c74e5944d5967329967810f8a"
+    },
+    {
+      "file": "pairs-026-r3/368-383.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "eedf8ae8b8e3e10288f2111aa4d608b26cf69aa9ff585218c58c4fc19db4b7d0"
+    },
+    {
+      "file": "pairs-026-r3/384-399.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "7c211b4b722434f2b0c3bcbedcca1a7d22efd9f1c15bbbeb020e094e9ec3e040"
+    },
+    {
+      "file": "pairs-026-r3/400-415.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "0ad044228de596d559b885105df9029ca0b14cfe9ce2be867ae91494ca6cc955"
+    },
+    {
+      "file": "pairs-026-r3/416-431.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "3d76c7c12d091da2f6a913e526952510fcaee0f12dd72817f5d01387a3505369"
+    },
+    {
+      "file": "pairs-026-r3/432-447.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "165b1c7c5c82222c27c3eb19f5348324c5549123b3e3a3a06d36152c1f5bbb2b"
+    },
+    {
+      "file": "pairs-026-r3/448-463.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "207fe2b31a8e171cea4ad2997426996bd8a76e77137266e6baac82e966b7a33d"
+    },
+    {
+      "file": "pairs-026-r3/464-479.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "95755ccbb9b2501acd820658f1215c7467d2b26d2ec73ac6e3fa9097c69d8b9c"
+    },
+    {
+      "file": "pairs-026-r3/480-495.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "8b188347c2967327de2a48acd21da0594f62cbf27bbaf2c0ee1bc31c5d48e0a9"
+    },
+    {
+      "file": "pairs-026-r3/496-511.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "85812495919e2407e7ea77e38ea6e4c2d78980992d291ff63f6f47c3a09f50c8"
+    },
+    {
+      "file": "pairs-026-r3/512-527.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "20dfc10dc73bcb2da510a04a49edcf908d200629824df7e32b61a8140aacab2d"
+    },
+    {
+      "file": "pairs-026-r3/528-543.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "c1bd468ad1047043e5cc3314dc42dc4f66869169cbf0df096dbfefd860d602b8"
+    },
+    {
+      "file": "pairs-026-r3/544-559.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "c4c56668aa0d82596c4aaf5651db6321059352d10881ce9ae0b57dbc322c6c1b"
+    },
+    {
+      "file": "pairs-026-r3/560-575.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "5536ba74dafb8c2964f1d7629a26e5add9074c966ce607756cdc00c3e634eb1e"
+    },
+    {
+      "file": "pairs-026-r3/576-591.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "526b783070fdd174f97cb010ce79346a13cd177b089009efea04fd43046f4202"
+    },
+    {
+      "file": "pairs-026-r3/592-607.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "da962ade018d77fed72e2ea2d605a73ac0a93c8c0094f1bde2fe77cd66c17a48"
+    },
+    {
+      "file": "pairs-026-r3/608-623.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "47176de45875c5b15f1c550532d6cfb43b6fb7daf54564fb25110d2b9291f977"
+    },
+    {
+      "file": "pairs-026-r3/624-639.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "4399525360bbd61cc07ad38d3c8bef62a887981c7059d56662b885d39d976f5e"
+    },
+    {
+      "file": "pairs-026-r3/640-655.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "92c8be4b9b0c65debd9b759de7551aa08e432e8d6b7e7f7825809d1ad87cf007"
+    },
+    {
+      "file": "pairs-026-r3/656-671.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "fe5415416244c426dd9a584ef9f4516d7b9cdad0b9ebcd2d48bebb510f613486"
+    },
+    {
+      "file": "pairs-026-r3/672-687.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "790ae91b8339a8e0e9199e59cd404c8ba547917292bd4b10ab2a06d5d79a6452"
+    },
+    {
+      "file": "pairs-026-r3/688-703.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "abffe1b42299bb22e0e9373a38e377db73dfe1f62e3adfb4113be5da49154c18"
+    },
+    {
+      "file": "pairs-026-r3/704-719.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "2e63b11ba3352112bd6ccf9d677e6b54c7e5dda106bef2a0309dc73fd8bc8c48"
+    },
+    {
+      "file": "pairs-026-r3/720-735.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "fea77828640b84bcb3a846297bfd9cbb755d7596dcda50cd4ce188b1bfacd2c0"
+    },
+    {
+      "file": "pairs-026-r3/736-751.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "24952742ce7bfd04d17ee045c04de092c05e9056cc32f4b5e3c8874265498e17"
+    },
+    {
+      "file": "pairs-026-r3/752-767.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "7ffad322a6524ffb1b018666d3924aa6ba91187a416ccb7058e758f5411a3989"
+    },
+    {
+      "file": "pairs-026-r3/768-783.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "a8bc9078f74a377cc173cf463805145c92d41ea9473366ca0d0490ce7dd74d18"
+    },
+    {
+      "file": "pairs-026-r3/784-799.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "85451576f7ef0dcd3c443f878ecdd7425d968f768451ba7a02aff088d3437c19"
+    },
+    {
+      "file": "pairs-026-r3/800-815.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "b0456a26ed72933c99eb8623f37b166b72155be00abafd6dab2a3b40b0823797"
+    },
+    {
+      "file": "pairs-026-r3/816-830.jpg",
+      "kind": "full source / baseline pairs",
+      "sha256": "2af641d3191d4dca10d7eb04daf3f500691d2289afb907cb00366277c2a03829"
+    },
+    {
+      "file": "pairs-026-r5/000-015.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "9dd31797b5b1dd35aaad36e32ea93797ce1bbc70bdd2e90c065a2283199b8267"
+    },
+    {
+      "file": "pairs-026-r5/016-031.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "47bb1534e68988797d7dc3fea7a7cad2f19dd1dfb07a2c3a6c3cab870996e71d"
+    },
+    {
+      "file": "pairs-026-r5/032-047.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "53dcd44df86ca631db721bf7e0f75a16040319ac791122d83b6f00e06b261e35"
+    },
+    {
+      "file": "pairs-026-r5/048-063.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "78cdf63fa43930c8ca70aca70f4db1d461cd1c9ddc65098e7b81b4187159dffa"
+    },
+    {
+      "file": "pairs-026-r5/064-079.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "1cc1804d74bae4f177d18789ebc64f879b9e8fe5e3e18b4970c960021bdb3df6"
+    },
+    {
+      "file": "pairs-026-r5/080-095.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "b0c589f40daa24f88f116a18eb7529118745913050d2cab46b5662baa5837c63"
+    },
+    {
+      "file": "pairs-026-r5/096-111.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "282566e54450ad6ab4d2585bdcb3731ff4701a2a25432c4135f6633c256de4c0"
+    },
+    {
+      "file": "pairs-026-r5/112-127.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "b8ba4e84836b5d61b10558a74fa7d8a3205e25b1c18c201c29de71d5b6c63b19"
+    },
+    {
+      "file": "pairs-026-r5/128-143.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "f2ff7382223cc88f6bdf919f64834cf7614aa73e6c0190da008a462f4b0f1e79"
+    },
+    {
+      "file": "pairs-026-r5/144-159.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "76d605e32721a76fecc0d4cc3264bb14f4435173881e1c1b8fbc6b7f19334277"
+    },
+    {
+      "file": "pairs-026-r5/160-175.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "1527c395d6cae16691b735940c82620e83e9c42524a7f27e9d96305309e78d52"
+    },
+    {
+      "file": "pairs-026-r5/176-191.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "83d5762261486632f7e58f29632745eb197e0da626fa93d0d1d3415ea7dd81a8"
+    },
+    {
+      "file": "pairs-026-r5/192-207.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "2aecdca4ad78c980677b0b1a6d5f1968349d9db470e521ae2b855685e09995da"
+    },
+    {
+      "file": "pairs-026-r5/208-223.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "fc6b73a735cf9ad1b3d74382e9d1445a25d30428d7a6f6ba9b4b5d3b16e54432"
+    },
+    {
+      "file": "pairs-026-r5/224-239.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "9eeda62870aef69771d66b1cfe48a2146cb9e78aa042af24e0bc35cf38153c5a"
+    },
+    {
+      "file": "pairs-026-r5/240-255.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "0ec0fb2db59bb965f0cbdfbde851169635039e22339640c0839dddf02f7b22ac"
+    },
+    {
+      "file": "pairs-026-r5/256-271.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "1d055c07b77f2d3840f123b873700282679f1cce939e26616181efbfdfe73034"
+    },
+    {
+      "file": "pairs-026-r5/272-287.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "7e3766059b54b92fdf4be471cfb10244aa2c3887d86e05bdd4a00d710e1ccf95"
+    },
+    {
+      "file": "pairs-026-r5/288-303.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "344a90ad9774ff16556c4dfcf70e69f05d9c2c2158d23f210ba62e2faebfad81"
+    },
+    {
+      "file": "pairs-026-r5/304-319.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "846d33513524ab79643dcc31a1ed90d016653b3a1bd93c3f9ae8591fded9efaa"
+    },
+    {
+      "file": "pairs-026-r5/320-335.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "9c4d80920515dcd40f7836a1e125c63b0190c7ea3e6a5a3a36d972bb39eaba35"
+    },
+    {
+      "file": "pairs-026-r5/336-351.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "a7b9c0c644b5a9b148975532bf5fe6df384a0d537248d559b73745340195fab6"
+    },
+    {
+      "file": "pairs-026-r5/352-367.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "2126f72975aaf14438051d479cb6ee14a67e6d9c74e5944d5967329967810f8a"
+    },
+    {
+      "file": "pairs-026-r5/368-383.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "eedf8ae8b8e3e10288f2111aa4d608b26cf69aa9ff585218c58c4fc19db4b7d0"
+    },
+    {
+      "file": "pairs-026-r5/384-399.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "7c211b4b722434f2b0c3bcbedcca1a7d22efd9f1c15bbbeb020e094e9ec3e040"
+    },
+    {
+      "file": "pairs-026-r5/400-415.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "5c2d695d15776490ca7659ed451892bc34d03ac98e39c675b23e1960e1dd98d2"
+    },
+    {
+      "file": "pairs-026-r5/416-431.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "fc9f448eab9ed513b60177d7d8b9bddebe1d194a000a317cf543dcd929d74020"
+    },
+    {
+      "file": "pairs-026-r5/432-447.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "c46cc702eae6bd180e37db8e3a792164564c4607064c92eab4a39a7c524899b5"
+    },
+    {
+      "file": "pairs-026-r5/448-463.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "950a2d4a38fe3d8ff2d0cc611614723237c4a71c760abac76b09557b7478ad3c"
+    },
+    {
+      "file": "pairs-026-r5/464-479.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "39856b7c6a891ebce40b680c4be497782971893521daed4fcda654a84246721b"
+    },
+    {
+      "file": "pairs-026-r5/480-495.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "c4086ba582c46ae35bce701a286c2516bb4806f400f96252b0f8b5bce4a048df"
+    },
+    {
+      "file": "pairs-026-r5/496-511.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "85812495919e2407e7ea77e38ea6e4c2d78980992d291ff63f6f47c3a09f50c8"
+    },
+    {
+      "file": "pairs-026-r5/512-527.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "20dfc10dc73bcb2da510a04a49edcf908d200629824df7e32b61a8140aacab2d"
+    },
+    {
+      "file": "pairs-026-r5/528-543.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "c1bd468ad1047043e5cc3314dc42dc4f66869169cbf0df096dbfefd860d602b8"
+    },
+    {
+      "file": "pairs-026-r5/544-559.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "c4c56668aa0d82596c4aaf5651db6321059352d10881ce9ae0b57dbc322c6c1b"
+    },
+    {
+      "file": "pairs-026-r5/560-575.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "5536ba74dafb8c2964f1d7629a26e5add9074c966ce607756cdc00c3e634eb1e"
+    },
+    {
+      "file": "pairs-026-r5/576-591.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "526b783070fdd174f97cb010ce79346a13cd177b089009efea04fd43046f4202"
+    },
+    {
+      "file": "pairs-026-r5/592-607.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "da962ade018d77fed72e2ea2d605a73ac0a93c8c0094f1bde2fe77cd66c17a48"
+    },
+    {
+      "file": "pairs-026-r5/608-623.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "47176de45875c5b15f1c550532d6cfb43b6fb7daf54564fb25110d2b9291f977"
+    },
+    {
+      "file": "pairs-026-r5/624-639.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "4399525360bbd61cc07ad38d3c8bef62a887981c7059d56662b885d39d976f5e"
+    },
+    {
+      "file": "pairs-026-r5/640-655.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "92c8be4b9b0c65debd9b759de7551aa08e432e8d6b7e7f7825809d1ad87cf007"
+    },
+    {
+      "file": "pairs-026-r5/656-671.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "fe5415416244c426dd9a584ef9f4516d7b9cdad0b9ebcd2d48bebb510f613486"
+    },
+    {
+      "file": "pairs-026-r5/672-687.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "790ae91b8339a8e0e9199e59cd404c8ba547917292bd4b10ab2a06d5d79a6452"
+    },
+    {
+      "file": "pairs-026-r5/688-703.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "b8fa0aa9b99e0e7d1db94d1210da6d50635e5c324fb39078127232c0101febca"
+    },
+    {
+      "file": "pairs-026-r5/704-719.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "0def04cf63493705f2881be28f72d6b4b1bd892d9bd765eb802aae6f287d4c7d"
+    },
+    {
+      "file": "pairs-026-r5/720-735.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "48b50e5a926210fc4c5286c9437195ae16d63e40ae9c73f29fc78dccc056fb0c"
+    },
+    {
+      "file": "pairs-026-r5/736-751.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "b4e2b2154e9b256811d33e02e352b2a8b80e5a518e8ef4966101cfebe21845f5"
+    },
+    {
+      "file": "pairs-026-r5/752-767.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "31b7e95ee003120745ac18f124b604b3f35dd839c1756a5a099bd9c2aa018e4a"
+    },
+    {
+      "file": "pairs-026-r5/768-783.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "66fea05bb3c391f0f6a2b6a5fffceae280a43525bb7ec80db886d2eb25f5182f"
+    },
+    {
+      "file": "pairs-026-r5/784-799.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "d9657d38856dfa58defcc6c39eab3a5296251e34187a5e6833fafce7c432af06"
+    },
+    {
+      "file": "pairs-026-r5/800-815.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "36659f156ef3fadd7031e190549394f2d97ebf36788b57b7d6111e814037e8e9"
+    },
+    {
+      "file": "pairs-026-r5/816-830.jpg",
+      "kind": "full source / final pairs",
+      "sha256": "da163274be99e5bd3262a227a7cf0cf23b606bd6d8f29b003f12adfc92c585e7"
+    },
+    {
+      "file": "pen-026-r5-pairs/000-031.jpg",
+      "kind": "all final changed native pairs, enlarged",
+      "sha256": "285c5cc98ba1486b04e9627b44b76d390a7ed1ed3b588bc3b056887580e6b62c"
+    },
+    {
+      "file": "pen-026-r5-pairs/032-063.jpg",
+      "kind": "all final changed native pairs, enlarged",
+      "sha256": "8a8759aa1763b3c1ad37fdf29838ea904f491cbbabead154d636d651ae33fe52"
+    },
+    {
+      "file": "pen-026-r5-pairs/064-095.jpg",
+      "kind": "all final changed native pairs, enlarged",
+      "sha256": "f9d0889f6e8bedb1ed31296de815480112c6d45ec27a260ab5af70f7fdcd71dd"
+    },
+    {
+      "file": "pen-026-r5-pairs/096-127.jpg",
+      "kind": "all final changed native pairs, enlarged",
+      "sha256": "51718bf025f1f58159ba15ba439a37e4da3d859e4481f89711baaee68eadb486"
+    },
+    {
+      "file": "pen-026-r5-pairs/128-159.jpg",
+      "kind": "all final changed native pairs, enlarged",
+      "sha256": "a62a019201f48ee569fbac391deb6ecc860e8d5078e101aedd3be042ef42b326"
+    },
+    {
+      "file": "pen-026-r5-pairs/160-191.jpg",
+      "kind": "all final changed native pairs, enlarged",
+      "sha256": "14272c2b086fa108095840034b745d78d581bdfc63aea52de4a32ad831fa99a2"
+    },
+    {
+      "file": "pen-026-r5-pairs/192-223.jpg",
+      "kind": "all final changed native pairs, enlarged",
+      "sha256": "aabf905b69c68252846aa874c45e6cdb29034937e589b0a83c8b2ba1dc7d0a17"
+    },
+    {
+      "file": "pen-026-r5-pairs/224-255.jpg",
+      "kind": "all final changed native pairs, enlarged",
+      "sha256": "05ead2408443e63ef53d84c39d9ff791e009c01f44794e2caf56c9e3118baa0d"
+    },
+    {
+      "file": "pen-026-r5-pairs/256-287.jpg",
+      "kind": "all final changed native pairs, enlarged",
+      "sha256": "e6fc96ee6422eaf1e73742f9057049632a84266a76f8ba1575d6850388bafee5"
+    },
+    {
+      "file": "pen-026-r5-pairs/288-319.jpg",
+      "kind": "all final changed native pairs, enlarged",
+      "sha256": "7cc1648205e25538cd756ad07d137803995a8a6e8a3eeeed2ae659cb83d9b425"
+    },
+    {
+      "file": "pen-026-r5-pairs/320-328.jpg",
+      "kind": "all final changed native pairs, enlarged",
+      "sha256": "d474bb49be4435e012dc0b3663ad12936604217d26359ced3c2ddcd17fc7f797"
+    },
+    {
+      "file": "tail-026-r5-sheets/831-846.jpg",
+      "kind": "all final encoded tail frames",
+      "sha256": "d04be1c869a09be4b4f1663ee1ad8e188ed7d42da7f823f33ed0e7c1790b52c3"
+    },
+    {
+      "file": "tail-026-r5-sheets/847-862.jpg",
+      "kind": "all final encoded tail frames",
+      "sha256": "c8da15cd403ab51526295ce2837f2de3d6852855342ba9a45daac23314c9ea15"
+    },
+    {
+      "file": "tail-026-r5-sheets/863-878.jpg",
+      "kind": "all final encoded tail frames",
+      "sha256": "8cb0e71adb5027e501d6a8b5b8d400b053e258849e62289a51921fcd930e02b8"
+    },
+    {
+      "file": "tail-026-r5-sheets/879-894.jpg",
+      "kind": "all final encoded tail frames",
+      "sha256": "3abf33766805bbefdd0fe53ee3bdcf2896fac13f29be2b0f80e76b0bab085b15"
+    },
+    {
+      "file": "tail-026-r5-sheets/895-910.jpg",
+      "kind": "all final encoded tail frames",
+      "sha256": "fcf9d67873d39f33c47e3ac3ef3c242602a51caccc2a15592b95e3cd000dc769"
+    },
+    {
+      "file": "tail-026-r5-sheets/911-926.jpg",
+      "kind": "all final encoded tail frames",
+      "sha256": "2ff673ca39f828116d90091ac9bebe6ec2bdf5ef44a4b7a9d2c0f25d1161fd2e"
+    },
+    {
+      "file": "tail-026-r5-sheets/927-935.jpg",
+      "kind": "all final encoded tail frames",
+      "sha256": "8195fa027396d821edb88a970689e1681ecf878d01ce5dfebd387da3fb0870b3"
+    },
+    {
+      "file": "amount-026-r6-pairs/000-023.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "9c86388351d0b41c243513f431a126e3362e12c4a3d79b2ead7c4bc79ec8b4b4"
+    },
+    {
+      "file": "amount-026-r6-pairs/024-047.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "e423627797003bbf123fb64eea80eb2635a35e5476e71b06cc2b6ca3d7a41992"
+    },
+    {
+      "file": "amount-026-r6-pairs/048-071.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "cab943651f6c744c6a46914688f0865fc3abac5d19a941ff7aa7cf0df86ff0b9"
+    },
+    {
+      "file": "amount-026-r6-pairs/072-095.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "b0ca4f6f4f99cae06ed98cc1dc2c9ece7c9a7d77b1f674f8095de55c7152b571"
+    },
+    {
+      "file": "amount-026-r6-pairs/096-119.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "83d374a294cd24c65edc86588e3040cf20b10477adcdb34bae096634fd2832a4"
+    },
+    {
+      "file": "amount-026-r6-pairs/120-143.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "d669b0f449883c0fde8130087cf64797ec11328fb4660029be3aeccf56c8b326"
+    },
+    {
+      "file": "amount-026-r6-pairs/144-167.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "60980fa7e7718e7884461d932b4f0873688861f1cc3f004a9b0b401d8976f65d"
+    },
+    {
+      "file": "amount-026-r6-pairs/168-191.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "082a8b12f6beccdea3569a2accd2cb4847de8dad457aafe1187d6e2849236cc1"
+    },
+    {
+      "file": "amount-026-r6-pairs/192-215.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "c402f65f4a4d80f190f987731976687e519b57b8b3f0ffa6e19a0ed59c3de19a"
+    },
+    {
+      "file": "amount-026-r6-pairs/216-239.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "f166d17997434a8c8192ec7233e620fe8dd5581ae39be6408770dd09243b49c0"
+    },
+    {
+      "file": "amount-026-r6-pairs/240-263.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "ded77911dd586efc863954cd8dbe4a73fe9a9772dac88393f85aeca7977b5811"
+    },
+    {
+      "file": "amount-026-r6-pairs/264-287.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "a8db6f966bb0c31f627b89a6118e8ab2a5af34c2d0b3eea025aa0df7842ae0d7"
+    },
+    {
+      "file": "amount-026-r6-pairs/288-311.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "ca4a074d870a8c6fce65bcdacee97cfbdac81b178cf897596e511004f6d4da33"
+    },
+    {
+      "file": "amount-026-r6-pairs/312-335.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "b95ca84f69eb59f1c7da929f6075443f96c7c93102e544a493851356631a9856"
+    },
+    {
+      "file": "amount-026-r6-pairs/336-359.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "ce2ccda41941afac3b4729f1059895934c4fb146c9fd4a426faa05db6176707a"
+    },
+    {
+      "file": "amount-026-r6-pairs/360-383.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "de5fa598bafff0fd19cdc45003469e563b8d66e97a519bf5578228112eb7aeb8"
+    },
+    {
+      "file": "amount-026-r6-pairs/384-407.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "5d95a709123de253a137320bdc0013e0349ba74b160c0858c07ad780e0fbdd37"
+    },
+    {
+      "file": "amount-026-r6-pairs/408-431.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "27693dcf263b414f1892a00b533382ab1aef44c9bd57727c7bc672f16397107c"
+    },
+    {
+      "file": "amount-026-r6-pairs/432-455.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "f44ff7f3102dcbb6979135118917bdeaa22f808e588e15db53bdcde0c697ead2"
+    },
+    {
+      "file": "amount-026-r6-pairs/456-479.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "94aa098763c69eca7fa41ebe33779d5167da966a78d7fb5b017ebf062e993125"
+    },
+    {
+      "file": "amount-026-r6-pairs/480-503.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "13d625c11e684a5d88f641124d99ef689a9743eb82a45b7e892f793152b4273d"
+    },
+    {
+      "file": "amount-026-r6-pairs/504-527.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "b9367636ba01e7bcd37456d59733696a20decd882eeb02f3703c573789b49459"
+    },
+    {
+      "file": "amount-026-r6-pairs/528-535.jpg",
+      "kind": "all 536 changed native amount-region pairs; original left, final right",
+      "sha256": "0bc5b7245043016220cc4e2447002d973ae7b2295a22912ffafdc684b5816da9"
+    },
+    {
+      "file": "tail-026-r6-sheets/831-846.jpg",
+      "kind": "all 105 final encoded tail frames",
+      "sha256": "64f808a9e0e2447ad6293cc848793775c97112517455546e3435e952001b0c0c"
+    },
+    {
+      "file": "tail-026-r6-sheets/847-862.jpg",
+      "kind": "all 105 final encoded tail frames",
+      "sha256": "a223d62bfe9223f278561bc7e16f875b6b74f591afd13f05fd9d12569d7386c7"
+    },
+    {
+      "file": "tail-026-r6-sheets/863-878.jpg",
+      "kind": "all 105 final encoded tail frames",
+      "sha256": "1f5c20197e0c9383e9b1c45a027dfb45a376361f76e6ca340d87523ff2f3b500"
+    },
+    {
+      "file": "tail-026-r6-sheets/879-894.jpg",
+      "kind": "all 105 final encoded tail frames",
+      "sha256": "86e83b31ab14dfc72380ed76b57104c252d5c0d16479d22647d6869f490f8745"
+    },
+    {
+      "file": "tail-026-r6-sheets/895-910.jpg",
+      "kind": "all 105 final encoded tail frames",
+      "sha256": "61c061023cc03daf284fb709ca0b561e4b7d173a61987bf6e18af6ab870428e2"
+    },
+    {
+      "file": "tail-026-r6-sheets/911-926.jpg",
+      "kind": "all 105 final encoded tail frames",
+      "sha256": "1a8fd4061a765ab0296346b0b7e74f7168edb4381079acbc80686cf864494878"
+    },
+    {
+      "file": "tail-026-r6-sheets/927-935.jpg",
+      "kind": "all 105 final encoded tail frames",
+      "sha256": "d0c943fd4b3e08bf8ed27096c4a581dac98039fabd0aa952853f5dde0d409983"
+    },
+    {
+      "file": "amount-026-r6/boundaries.jpg",
+      "kind": "enlarged and boundary review",
+      "sha256": "964bbe8c39472b2cab478f56cbece6c3a701908869e066c8389b25b16bc8f98e"
+    },
+    {
+      "file": "amount-026-r6/native-price-pairs.png",
+      "kind": "enlarged and boundary review",
+      "sha256": "fe9a85acbe3fc7027326ab61f27ea6690f694736def401aa03c42a4af42a402f"
+    }
+  ]
+}

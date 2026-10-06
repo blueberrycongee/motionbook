@@ -1,0 +1,23 @@
+{
+  "mp4": {
+    "frames": 936,
+    "width": 824,
+    "height": 720,
+    "fps": 60,
+    "duration_seconds": 15.6,
+    "silent": true,
+    "full_decode_passed": true,
+    "sha256": "cdaa92d220e90a9076c1fc0aa6683ca00b11f25088fbc957f33b6d3279f6d7ea"
+  },
+  "gif": {
+    "frames": 468,
+    "width": 618,
+    "height": 540,
+    "duration_seconds": 15.6,
+    "loop": 0,
+    "distinct_rgb_frames": 307,
+    "first_last_rgb_identical": true,
+    "all_frames_decoded": true,
+    "sha256": "c9cc878ead333575cf863da2316123fbe043436203e7c064696c00ebd4830bc9"
+  }
+}

@@ -1,0 +1,19 @@
+✔ DOM bindings keep reduced-motion open, Escape and replay stationary (216.647961ms)
+✔ Escape on the initial replay pose remains closed on the next animation tick (54.194754ms)
+✔ projective plane preserves all four corners and geometric stroke prefixes (3.016934ms)
+✔ licensed glyph subsets draw actual invoice text with finite geometry (17.70626ms)
+✔ repeated and interrupted open/close commands settle predictably (2.647964ms)
+✔ reduced motion uses immediate stable states (0.308623ms)
+✔ local illustrative PDF has valid byte offsets and no external actions (0.795479ms)
+✔ Escape on the recorded closed pose stays closed (0.21911ms)
+✔ all 831 native poses select their own source timestamp and produce finite SVG (29870.262079ms)
+✔ both closing cycles have separate projecting paper faces (1.616458ms)
+✔ authored tail has a stable closed loop and unique gradient IDs (68.642725ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 30344.904652
