@@ -1,0 +1,47 @@
+{
+  "checkpoint": "Fresh Rauno source retrieval and native reviews",
+  "sources": [
+    {
+      "slug": "rauno-radial-menu-3",
+      "title": "Radial Menu",
+      "author": "Rauno Freiberg",
+      "author_x": "https://x.com/raunofreiberg",
+      "source_page": "https://rauno.me/craft/radial-menu",
+      "footage_url": "https://cdn.rauno.me/radial-menu-3.mp4#t=0.01",
+      "sha256": "b20ef592ea7f66e0d9e08f65588f4ca57481a00785cb683d38472fd479d17a9e",
+      "frame_count": 595,
+      "footage_verified_at_utc": "2026-10-06T08:58:49.097541+00:00",
+      "source_license": "Unknown; source footage not included",
+      "assigned_id": "new100-034",
+      "scout_review": "Assigned owner performs source audit; scout inspected key60 only"
+    },
+    {
+      "slug": "rauno-adaptive-precision-5",
+      "title": "Adaptive Precision",
+      "author": "Rauno Freiberg",
+      "author_x": "https://x.com/raunofreiberg",
+      "source_page": "https://rauno.me/craft/adaptive-precision",
+      "footage_url": "https://cdn.rauno.me/adaptive-precision-5.mp4#t=0.01",
+      "sha256": "d49016e7d842465da62295ca5cec3daeeadd4961bf44f6a384cbb87cfd1d2914",
+      "frame_count": 622,
+      "footage_verified_at_utc": "2026-10-06T08:58:49.098009+00:00",
+      "source_license": "Unknown; source footage not included",
+      "assigned_id": null,
+      "scout_review": "All original native frames inspected; see bundled review"
+    },
+    {
+      "slug": "rauno-vanish-input",
+      "title": "Vanish Input",
+      "author": "Rauno Freiberg",
+      "author_x": "https://x.com/raunofreiberg",
+      "source_page": "https://rauno.me/craft/vanish-input",
+      "footage_url": "https://cdn.rauno.me/vanish-input.mp4#t=0.01",
+      "sha256": "bfbf33776def45a11309f1af46289d1c93f92308b3da77e3bfcd7c59f767b99e",
+      "frame_count": 702,
+      "footage_verified_at_utc": "2026-10-06T08:58:49.099036+00:00",
+      "source_license": "Unknown; source footage not included",
+      "assigned_id": null,
+      "scout_review": "All original native frames inspected; see bundled review"
+    }
+  ]
+}

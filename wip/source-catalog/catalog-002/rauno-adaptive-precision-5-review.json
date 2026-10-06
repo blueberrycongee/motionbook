@@ -1,0 +1,228 @@
+{
+  "slug": "rauno-adaptive-precision-5",
+  "title": "Adaptive Precision",
+  "author": "Rauno Freiberg",
+  "author_x": "https://x.com/raunofreiberg",
+  "source_page": "https://rauno.me/craft/adaptive-precision",
+  "footage_url": "https://cdn.rauno.me/adaptive-precision-5.mp4#t=0.01",
+  "sha256": "d49016e7d842465da62295ca5cec3daeeadd4961bf44f6a384cbb87cfd1d2914",
+  "frame_count": 622,
+  "original_size": [
+    1318,
+    812
+  ],
+  "native_pts_path": "pts.json",
+  "fresh_visual_review": {
+    "complete": true,
+    "reviewed_ranges": [
+      [
+        0,
+        621
+      ]
+    ],
+    "full_resolution_keys": [
+      0,
+      65,
+      322
+    ],
+    "method": "Every original frame inspected in ordered full-canvas contact sheets at300px wide; three native-resolution key frames inspected. No fps resampling. Fine per-frame text/geometry still requires implementation-owner comparison.",
+    "checked_at_utc": "2026-10-06T08:55:11.146117+00:00"
+  },
+  "assignment": "Unassigned; root tentatively holds035 for next allocation, no replica count",
+  "observations": [
+    {
+      "frames": [
+        0,
+        43
+      ],
+      "pts": [
+        "0.000000",
+        "0.716667"
+      ],
+      "behavior": "Gray pointer disk on right travels toward the1PM row, stretches into a wide rounded bar, then becomes a thin horizontal insertion guide. Calendar has1\u20135PM rows."
+    },
+    {
+      "frames": [
+        44,
+        59
+      ],
+      "pts": [
+        "0.733333",
+        "0.983333"
+      ],
+      "behavior": "Blue outlined press ring appears, grows and begins a downward drag while the horizontal guide follows with lag."
+    },
+    {
+      "frames": [
+        60,
+        104
+      ],
+      "pts": [
+        "1.000000",
+        "1.733333"
+      ],
+      "behavior": "Blue event block grows downward from1PM; text advances in15-minute steps to3PM. Title New Event is clipped until height becomes sufficient. Pointer/guide positions remain independent of snapping text."
+    },
+    {
+      "frames": [
+        105,
+        119
+      ],
+      "pts": [
+        "1.750000",
+        "1.983333"
+      ],
+      "behavior": "Event and press ring fade away on release; thin gray guide remains."
+    },
+    {
+      "frames": [
+        120,
+        162
+      ],
+      "pts": [
+        "2.000000",
+        "2.700000"
+      ],
+      "behavior": "Guide moves downward from3PM to4PM. New press ring appears around148 and moves upward."
+    },
+    {
+      "frames": [
+        163,
+        233
+      ],
+      "pts": [
+        "2.716667",
+        "3.883333"
+      ],
+      "behavior": "Second block grows upward from4PM. Label first3:30PM\u20134PM, then3:15PM\u20134PM. Top boundary and guide track smoothly with spring-like settling; text remains quantized."
+    },
+    {
+      "frames": [
+        234,
+        270
+      ],
+      "pts": [
+        "3.900000",
+        "4.500000"
+      ],
+      "behavior": "Release fades event and ring. Gray insertion guide slides upward toward3PM."
+    },
+    {
+      "frames": [
+        271,
+        288
+      ],
+      "pts": [
+        "4.516667",
+        "4.800000"
+      ],
+      "behavior": "Third press ring appears at3PM and begins downward movement."
+    },
+    {
+      "frames": [
+        289,
+        321
+      ],
+      "pts": [
+        "4.816667",
+        "5.350000"
+      ],
+      "behavior": "Thin3PM\u20133:15PM block appears below3PM. New Event stays clipped in the short interval."
+    },
+    {
+      "frames": [
+        322,
+        332
+      ],
+      "pts": [
+        "5.366667",
+        "5.533333"
+      ],
+      "behavior": "Drag crosses its starting point; interval briefly reads3PM\u20133PM, bar stays visibly rounded at minimum height rather than disappearing."
+    },
+    {
+      "frames": [
+        333,
+        418
+      ],
+      "pts": [
+        "5.550000",
+        "6.966667"
+      ],
+      "behavior": "Block reverses and grows above3PM through2:45,2:30,2:15,2PM,1:45,1:30. Ring and guide continue to lead the smoothed event boundary."
+    },
+    {
+      "frames": [
+        419,
+        440
+      ],
+      "pts": [
+        "6.983333",
+        "7.333333"
+      ],
+      "behavior": "Release fades block, guide travels downward again."
+    },
+    {
+      "frames": [
+        441,
+        455
+      ],
+      "pts": [
+        "7.350000",
+        "7.583333"
+      ],
+      "behavior": "Fourth press ring appears near3:15PM."
+    },
+    {
+      "frames": [
+        456,
+        509
+      ],
+      "pts": [
+        "7.600000",
+        "8.483333"
+      ],
+      "behavior": "Fourth event grows downward from3:15PM to5PM, changing duration in15-minute steps and revealing New Event as height increases."
+    },
+    {
+      "frames": [
+        510,
+        564
+      ],
+      "pts": [
+        "8.500000",
+        "9.400000"
+      ],
+      "behavior": "Event/ring fade. Guide holds at5PM, then begins moving right."
+    },
+    {
+      "frames": [
+        565,
+        592
+      ],
+      "pts": [
+        "9.416667",
+        "9.866667"
+      ],
+      "behavior": "Thin guide shrinks through rounded wide bar back into a circular pointer as it exits right."
+    },
+    {
+      "frames": [
+        593,
+        621
+      ],
+      "pts": [
+        "9.883333",
+        "10.350000"
+      ],
+      "behavior": "Gray disk moves slightly downward outside the grid and rests; source ends without returning to the exact initial pointer position."
+    }
+  ],
+  "distinctness": "Cursor disk morphs into an insertion guide and event grows in either direction across a zero-duration crossing. Treat all four drags as one example. Clean original vector/type reconstruction feasible; lower visual spectacle than printer/Ringwriter.",
+  "limits": [
+    "Do not infer an off-axis precision interaction: the observed clip demonstrates vertical calendar-event creation; no horizontal distance-to-precision mapping is shown.",
+    "This is not the existing scheduler009: it has no suggestion panel/conflicts or scheduled confirmation, and demonstrates pointer-to-guide morph and reverse interval growth.",
+    "Individual X post URL not verified; author-hosted page and video are primary sources.",
+    "No license for source footage/graphics identified; keep originals and crops out of published implementation. Independently draw all UI."
+  ]
+}

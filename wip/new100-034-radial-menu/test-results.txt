@@ -1,0 +1,13 @@
+✔ all six sector directions and inner dead zone resolve (1.487031ms)
+✔ rotation takes the short route across the angular seam (0.170226ms)
+✔ press, rotate and release select the intended item (0.57657ms)
+✔ repeated openings reset stale sector selection (0.129028ms)
+✔ full presentation SVG remains finite across angular states (3.728801ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 177.751366
