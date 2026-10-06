@@ -83,3 +83,7 @@
 ## Sticky note app
 
 [![Sticky note app](examples/sticky-note-app/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/sticky-note-app)
+
+## Dynamic island streak
+
+[![Dynamic island streak](examples/dynamic-island-streak/preview/dynamic-island-streak.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/dynamic-island-streak)

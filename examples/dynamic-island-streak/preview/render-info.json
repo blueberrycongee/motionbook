@@ -1,0 +1,52 @@
+{
+  "renderer": "sharp/librsvg from the same original parametric SVG scene used by the interactive demo",
+  "browser_capture": false,
+  "source_media_embedded": false,
+  "mp4_size": [
+    1144,
+    720
+  ],
+  "gif_size": [
+    858,
+    540
+  ],
+  "fps": 60,
+  "frames": 840,
+  "duration_seconds": 14,
+  "source_frames": 800,
+  "source_duration_seconds": 13.333333,
+  "tail": "Neutral hold and authored pointer re-entry fade from13.4\u201313.75s for a clean14s loop",
+  "type": "Inter Medium digit and tooltip outlines under SIL OFL; system-font caption and weekday labels",
+  "versions": {
+    "aom": "3.15.0",
+    "archive": "3.8.9",
+    "cairo": "1.18.4",
+    "cgif": "0.5.3",
+    "exif": "0.6.26",
+    "expat": "2.8.3",
+    "ffi": "3.8.0",
+    "fontconfig": "2.18.3",
+    "freetype": "2.14.3",
+    "fribidi": "1.0.16",
+    "glib": "2.89.4",
+    "harfbuzz": "14.3.1",
+    "heif": "1.23.2",
+    "highway": "1.4.0",
+    "imagequant": "2.4.1",
+    "lcms": "2.19.1",
+    "mozjpeg": "0826579",
+    "pango": "1.58.2",
+    "pixman": "0.46.4",
+    "png": "1.6.58",
+    "proxy-libintl": "0.5",
+    "rsvg": "2.62.91",
+    "tiff": "4.7.2",
+    "uhdr": "2.0.2",
+    "vips": "8.18.6",
+    "webp": "1.6.0",
+    "xml2": "2.15.3",
+    "zlib-ng": "2.3.3",
+    "sharp": "0.35.4"
+  },
+  "revision": "v2: native counter clip/blur and weekday-dot transition corrections; 64 changed native frames"
+}

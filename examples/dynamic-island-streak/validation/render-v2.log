@@ -1,0 +1,5 @@
+
+> dynamic-island-streak-study@1.0.0 render
+> node src/render.mjs
+
+Rendered 840 full-resolution SVG frames and looping GIF/MP4.

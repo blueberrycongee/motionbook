@@ -1,0 +1,19 @@
+
+> dynamic-island-streak-study@1.0.0 test
+> node --test test/*.test.mjs
+
+✔ DOM-stub activation, accessible labels, hover, keyboard reset and motion preference (32.679014ms)
+✔ native roll corrections preserve the upper loop, blur and day-marker sequence (3.197109ms)
+✔ all800 exact native states are finite and drawn without image assets (60.515188ms)
+✔ source count/celebration phases and clean loop are retained (3.371824ms)
+✔ rapid reversals preserve instantaneous capsule geometry (0.795932ms)
+✔ count bounds, replay, mode changes and hover are deterministic (2.174094ms)
+✔ reduced motion toggles immediately and invalid clock deltas stay finite (0.571273ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 179.495219
