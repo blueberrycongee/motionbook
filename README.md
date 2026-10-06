@@ -135,3 +135,7 @@
 ## Tap / get invoice
 
 [![Tap / get invoice](examples/tap-get-invoice/preview.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/tap-get-invoice)
+
+## Light Work
+
+[![Light Work](examples/light-work/preview.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/light-work)

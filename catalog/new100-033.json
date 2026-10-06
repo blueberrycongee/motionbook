@@ -1,0 +1,14 @@
+{
+  "id": "new100-033",
+  "slug": "light-work",
+  "status": "independently reviewed and accepted",
+  "source_manifest_sha256": "e5a5a7a1f6b5fe8cd02a950caf50ad124120c6693b2a8bcf6a4ecd2a3ba14b7f",
+  "native_frames_reviewed": 1031,
+  "tail_frames_reviewed": 108,
+  "fresh_rgb_states": 1140,
+  "enlarged_emitter_checks": 11,
+  "tests_passed": 9,
+  "browser_runtime": "not_run",
+  "reviewed_at": "2026-10-06T12:32:20Z",
+  "note": "This acceptance receipt supersedes pending-review status captured in the frozen package. Fine font/material/antialias differences remain."
+}
