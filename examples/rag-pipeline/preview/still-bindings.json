@@ -1,0 +1,52 @@
+{
+  "scene_sha256": "c4af31449018e3f4523e230c315c18a2ac23902853fa1b60644238683e82564c",
+  "native_track_sha256": "7236e49696f46a41180700910e0e97b4edb49c37ffcfe94e593da03acc6e120c",
+  "embedding_track_sha256": "6f75778f9724bb22500ba60b960d63c2deba4b183f12011f1fe5d122be775dd0",
+  "checks": [
+    {
+      "file": "query.png",
+      "time": 1.1,
+      "fresh_sha256": "37395a87fd729368e65abe9a33161310994d7bec4de54a8ee4cb5eef93538517",
+      "saved_sha256": "37395a87fd729368e65abe9a33161310994d7bec4de54a8ee4cb5eef93538517",
+      "exact_byte_match": true
+    },
+    {
+      "file": "embed.png",
+      "time": 3.8,
+      "fresh_sha256": "973d261cef6f2feffbcfa826da9e5c17f5bc8b637829c6e50a374b2ff72b6bbc",
+      "saved_sha256": "973d261cef6f2feffbcfa826da9e5c17f5bc8b637829c6e50a374b2ff72b6bbc",
+      "exact_byte_match": true
+    },
+    {
+      "file": "retrieve.png",
+      "time": 6.5,
+      "fresh_sha256": "ce0cbb0a9b5d41cbf5952f5a3d3487edcf8d2231f536265c4dfd9af97243df4b",
+      "saved_sha256": "ce0cbb0a9b5d41cbf5952f5a3d3487edcf8d2231f536265c4dfd9af97243df4b",
+      "exact_byte_match": true
+    },
+    {
+      "file": "assemble.png",
+      "time": 10.4,
+      "fresh_sha256": "fba8575b9860158ed8e900a751469ca104c0312f9f8f3dd553990da756c6562d",
+      "saved_sha256": "fba8575b9860158ed8e900a751469ca104c0312f9f8f3dd553990da756c6562d",
+      "exact_byte_match": true
+    },
+    {
+      "file": "stream.png",
+      "time": 13.1,
+      "fresh_sha256": "eaa4bb46a78071fad29904563c2408a313b4f4a3b497747c5f694805a0d7a8d2",
+      "saved_sha256": "eaa4bb46a78071fad29904563c2408a313b4f4a3b497747c5f694805a0d7a8d2",
+      "exact_byte_match": true
+    },
+    {
+      "file": "complete.png",
+      "time": 16.5,
+      "fresh_sha256": "8b3e3c9c0fd8ad9c8a4a16c730c98e5e2313090a9fe6cabd23bc06c094bbe252",
+      "saved_sha256": "8b3e3c9c0fd8ad9c8a4a16c730c98e5e2313090a9fe6cabd23bc06c094bbe252",
+      "exact_byte_match": true
+    }
+  ],
+  "exact_svg_loop_endpoint": true,
+  "handoff_track_sha256": "66ed6f8450a19f5772891579fbee2ee544bf9737b27899670f8ec43ee72b7c1c",
+  "footer_dot_track_sha256": "7af12972f4d6e67bc9bcdba5c3f7ffc66bc7f72b5274829fe8b9a6a58cac18e0"
+}

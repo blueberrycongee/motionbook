@@ -91,3 +91,7 @@
 ## Adaptive email sidebar
 
 [![Adaptive email sidebar](examples/adaptive-email-sidebar/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/adaptive-email-sidebar)
+
+## RAG Pipeline
+
+[![RAG Pipeline](examples/rag-pipeline/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/rag-pipeline)

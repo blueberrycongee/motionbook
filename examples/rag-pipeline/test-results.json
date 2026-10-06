@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "935 native-PTS scene samples with finite SVG and bounded geometry",
+    "Counter independence from active phase",
+    "Exact loop endpoints",
+    "Replay and repeated restart",
+    "Escape holds Ready",
+    "Reset control",
+    "Reduced motion instantly settles",
+    "Immediate button-content handoffs at reset and completion",
+    "935 measured radial dot samples"
+  ],
+  "runtime": "Node VM DOM/event mocks. No real browser runtime verification."
+}

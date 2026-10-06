@@ -1,0 +1,21 @@
+{
+  "mp4": {
+    "width": 1080,
+    "height": 852,
+    "r_frame_rate": "60/1",
+    "duration": "19.350000",
+    "nb_frames": "1161"
+  },
+  "gif": {
+    "width": 864,
+    "height": 682,
+    "frames": 581,
+    "duration_ms": 19360,
+    "loop": 0,
+    "distinct_decoded_frames": 473,
+    "first_last_mean_channel_difference": 0.1658532004634155
+  },
+  "full_decode": "passed",
+  "preview_kind": "Offline SVG scene render, not browser capture",
+  "checked_at_utc": "2026-10-06T00:53:54.722187+00:00"
+}
