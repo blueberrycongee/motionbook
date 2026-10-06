@@ -95,3 +95,7 @@
 ## RAG Pipeline
 
 [![RAG Pipeline](examples/rag-pipeline/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/rag-pipeline)
+
+## Morphing braille loader
+
+[![Morphing braille loader](examples/morphing-braille-loader/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/morphing-braille-loader)

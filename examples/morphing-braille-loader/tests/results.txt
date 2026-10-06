@@ -1,0 +1,16 @@
+✔ Input, create, color and asynchronous completion update the picker (12.13283ms)
+✔ Search and new-label flow is bounded and reversible (6.877701ms)
+✔ Stale completions are rejected after back or reset (0.560267ms)
+✔ Selecting an existing label toggles without duplication (0.952529ms)
+✔ Recorded search keeps the observed ranking and outgoing matches (0.454637ms)
+✔ Recorded header opens with Red and does not control the retained panel width (0.457762ms)
+✔ The fading tag is not mistaken for the incoming dot grid (0.140603ms)
+✔ Recorded geometry remains finite through the original and authored closure (7.20767ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 128.714047

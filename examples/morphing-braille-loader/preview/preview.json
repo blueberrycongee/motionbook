@@ -1,0 +1,11 @@
+{
+  "kind": "Offline Canvas 2D render; same scene.js as browser, not a browser capture",
+  "renderer": "@napi-rs/canvas",
+  "width": 1080,
+  "height": 1028,
+  "fps": 60,
+  "frames": 840,
+  "duration": 14,
+  "gifFps": 20,
+  "loop": "Scene state returns exactly to initial state at duration"
+}

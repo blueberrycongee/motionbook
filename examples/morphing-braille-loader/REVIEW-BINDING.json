@@ -1,0 +1,73 @@
+{
+  "case": "new100-018",
+  "source": {
+    "url": "https://media.inspora.design/posts/5b19f6dd-f337-4b72-813c-36ed98ae19d6.mp4",
+    "sha256": "7077850ae61b7f0c0ed4c4c2e39ad54db5f57a819e59ece3bce7d21f876a7e47",
+    "native_frames": 661,
+    "native_duration_seconds": 11.016667,
+    "alignment": "Exact original ffprobe PTS, zero offset."
+  },
+  "review": {
+    "reviewer": "/root/replicate_scheduling_paper_motion",
+    "reviewed_at_utc": "2026-10-06T01:38:40.612859+00:00",
+    "original_frames_visually_reviewed": 661,
+    "frame_indices_inclusive": [
+      0,
+      660
+    ],
+    "contact_pages": 37,
+    "authored_closure_frames_visually_reviewed": 179,
+    "closure_review_native_overlap": 1,
+    "manual_review_report_sha256": "ed71daa6df964df4af8d5ca642d6b0d1d990a330a7ad1fb93d7c592d3e6000f8",
+    "native_comparison_report_sha256": "6422ae3130a0d27a85963390735b12f3c0ddac085140e701dbbb93d5cd651961",
+    "full_resolution_frame_hashes_sha256": "3b44474cdf52149dc7af667f669356a42b6bbcadba99bbc29bad17cf7fab6cf9",
+    "correction_delta_report_sha256": "f3f24ade381871417c27bbc15df252d7f76b348314d06d71b1dbb6da460fcd02",
+    "closure_binding_sha256": "ab43d35e5cd5b84fed2fd4a8f40eec1b02b720f98015bbfc5037d5cc4d5734db",
+    "runtime": "Actual browser runtime not executed; offline visual self-review only.",
+    "code_scope_sha256": "267b2ce828f763c36fd4f576cca92a3b509f4f4807ca7d45b3d0894fd1492f31",
+    "final_correction_changed_frames_reinspected": 80,
+    "final_correction_unchanged_frames": 581,
+    "corrections": "Balanced16-sample raster shutter and per-character Creating-to-Created suffix collapse/fade."
+  },
+  "payload_sha256": {
+    "scene.js": "3cfe41e77a018daad5faa525ee5150051dac83ecac7e3721a32c61030796a812",
+    "motion-data.js": "8616469e8a84e9176224687bea8ae31834a16f2a0895d97d1c725c4ff6e1670c",
+    "app.js": "78f92d446ee359a6f9f9216688c1a6167f63844c2c6fc9947a02af363213419d",
+    "index.html": "daad9be6517b0c4c83e4aed9184f5f2028f19d1ff352d4c26c2df16018cb7e1b",
+    "render.cjs": "e98077d96506afced2209524924a819d67df4eb4932fc59ab2ea84341576c26c",
+    "preview/loop.mp4": "355d88f011254e7b1666f9c7e1fa74acb248443283b165f353fbff67ed40fef6",
+    "preview/loop.gif": "a495f9b6761fed5421dbd4f83de5d4ca176e3f69d5c346cd199a23ba7df6aa5a",
+    "assets/StudySans-Semibold.ttf": "6f91b7bcc10fab1466905cb14d04e97f245707adde48e7f24d9ac5362f00f186",
+    "assets/Mono.ttf": "54bf827eb99404e8f430c330ad30f063334f637eba0109b6a18d4f566a8e9dd8",
+    "assets/StudySans-Regular.ttf": "79df02fca0aaf58bae7990cafb3179a6eaf6cde1c2cacf5af11b67cfa0c569d0"
+  },
+  "media": {
+    "mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1080,
+          "height": 1028,
+          "r_frame_rate": "60/1",
+          "nb_read_frames": "840"
+        }
+      ],
+      "format": {
+        "duration": "14.000000"
+      }
+    },
+    "gif": {
+      "width": 864,
+      "height": 822,
+      "frames": 280,
+      "loop": 0,
+      "duration_seconds": 14
+    }
+  },
+  "loop_endpoint_RGBA": {
+    "0": "e22ef8091134639afd632774bebf40fdee6ef75046d64ba3e5a08e90e757c77b",
+    "14": "e22ef8091134639afd632774bebf40fdee6ef75046d64ba3e5a08e90e757c77b",
+    "13.983333333333333": "e22ef8091134639afd632774bebf40fdee6ef75046d64ba3e5a08e90e757c77b"
+  }
+}
