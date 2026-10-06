@@ -107,3 +107,7 @@
 ## Task card gesture stack
 
 [![Task card gesture stack](examples/task-card-gesture-stack/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/task-card-gesture-stack)
+
+## Customizable glass folder
+
+[![Customizable glass folder](examples/customizable-glass-folder/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/customizable-glass-folder)

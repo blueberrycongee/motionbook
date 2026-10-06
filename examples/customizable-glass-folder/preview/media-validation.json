@@ -1,0 +1,24 @@
+{
+  "mp4": {
+    "width": 1080,
+    "height": 1080,
+    "r_frame_rate": "60/1",
+    "duration": "12.000000",
+    "nb_frames": "720"
+  },
+  "gif": {
+    "width": 810,
+    "height": 810,
+    "frames": 360,
+    "duration_ms": 12000,
+    "loop": 0,
+    "distinct_decoded_frames": 315,
+    "first_last_mean_channel_difference": 0.035667327135091194
+  },
+  "full_decode": "passed",
+  "preview_kind": "Offline SVG scene render, not browser capture",
+  "checked_at_utc": "2026-10-06T02:02:28.754575+00:00",
+  "scene_sha256": "203315b3f40a58bbf3859830106b536c183c408c45e657e2dd4455580d8c1853",
+  "mp4_sha256": "49a1b41e7d36a734769ea583698d87395a028a19946069db89ba5d14c87482cd",
+  "gif_sha256": "3ecdfd21606a10a501ea3cdb24e26fa5234f646bcfe07a3bed32c53dd5d3f311"
+}

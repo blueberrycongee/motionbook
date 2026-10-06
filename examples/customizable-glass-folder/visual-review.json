@@ -1,0 +1,110 @@
+{
+  "reviewer": "/root/replicate_social_motion_cards",
+  "reviewed_at_utc": "2026-10-06T02:09:39.385177+00:00",
+  "status": "self_review_passed_pending_independent_review",
+  "source_file": "motion-reference-research/media/folder-interaction.mp4",
+  "source_sha256": "62d63071dcadb50a1d923b7a1ee8828c9b25de83a419cf3118ad3848ac486936",
+  "source_dimensions": [
+    2880,
+    2880
+  ],
+  "native_frames": 651,
+  "source_ranges_visually_inspected": [
+    [
+      0,
+      650
+    ]
+  ],
+  "final_pair_ranges_visually_inspected": [
+    [
+      0,
+      650
+    ]
+  ],
+  "final_pair_review_completed_at_utc": "2026-10-06T02:03:55Z",
+  "authored_tail_ranges_visually_inspected": [
+    [
+      651,
+      719
+    ]
+  ],
+  "authored_tail_review_completed_at_utc": "2026-10-06T02:08:48Z",
+  "native_pts_proof": "motion-batch-100/reports/social-motion-analysis/glass-folder-native/native-pts-proof.json",
+  "final_comparison_directory": "motion-batch-100/reports/social-motion-analysis/glass-native-comparison-v2-final",
+  "all_frame_binding": "motion-batch-100/reports/social-motion-analysis/glass-native-comparison-v2-final/binding.json",
+  "comparison_sheet_count": 55,
+  "tail_sheet_count": 18,
+  "whole_frame_comparisons": [
+    0,
+    48,
+    95,
+    99,
+    100,
+    103,
+    108,
+    120,
+    140,
+    155,
+    175,
+    204,
+    206,
+    208,
+    230,
+    253,
+    280,
+    297,
+    300,
+    310,
+    320,
+    321,
+    350,
+    389,
+    396,
+    410,
+    430,
+    456,
+    480,
+    563,
+    575,
+    590,
+    610,
+    650,
+    668,
+    687,
+    713
+  ],
+  "scene_sha256": "203315b3f40a58bbf3859830106b536c183c408c45e657e2dd4455580d8c1853",
+  "native_data_sha256": "f7b022bbca1f5b051282b7f8d0c0024cd91603713cc62000f8d60bdcf8559752",
+  "media": {
+    "loop.mp4": "49a1b41e7d36a734769ea583698d87395a028a19946069db89ba5d14c87482cd",
+    "loop.gif": "3ecdfd21606a10a501ea3cdb24e26fa5234f646bcfe07a3bed32c53dd5d3f311"
+  },
+  "final_encoded_contact": "motion-batch-100/reports/social-motion-analysis/glass-v2-final-gif-contact.jpg",
+  "encoded_contact_reviewed_at_utc": "2026-10-06T02:08:48Z",
+  "corrections": [
+    "Fitted separate menu opacity and creation opacity instead of a single crossfade.",
+    "Corrected paper lift, hover weight/gradient, selected text bounds and caret position.",
+    "Removed source-pointer contamination from the initial blue edge-color measurements.",
+    "Replaced renderer-incompatible normalized dash lengths with explicit numeric arc lengths.",
+    "Fitted every forward/reverse stroke-tip phase, including the late trailing curl.",
+    "Replaced the double back-panel outline with a broad clipped highlight, rounded luminous rim and short tab highlight.",
+    "Fitted the front lower-edge material profile to the source; added the selected label\u2019s rounded white outline on frames 297\u2013320."
+  ],
+  "remaining_differences": [
+    "The glass uses independently authored SVG gradients and blurred highlights, not the unknown original optical material.",
+    "Inter is the licensed substitute font; small glyph and menu-icon details differ.",
+    "Source cursor overlays are omitted.",
+    "The 10.95\u201311.55 second closing crossfade is an authored loop tail, not a source action."
+  ],
+  "runtime": "Offline SVG renders and Node event mocks only; actual browser rendering unverified.",
+  "prior_frozen_review": {
+    "package": "motion-batch-100/implementations/new100-014-customizable-glass-folder",
+    "manifest_sha256": "f352e24ad70dd793130522b6eb5a6fb370a97801fc72681fcd74ad2aeb3d95cc",
+    "review_path": "motion-batch-100/implementations/new100-014-customizable-glass-folder/visual-review.json",
+    "independent_findings": "All 651 native pairs tracked closely; back-panel broad highlight/rim and selected-field outline required this separate revision."
+  },
+  "revision_scope": {
+    "all_720_motion_states_identical_to_prior_freeze": true,
+    "changes": "Static material model and short selected-label outline only; no timeline, controller, stroke or geometry movement."
+  }
+}

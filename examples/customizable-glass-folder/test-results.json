@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": [
+    "720 finite full-scene samples and bounded geometry",
+    "Exact SVG loop endpoints",
+    "Selected text retains rounded white editing outline",
+    "Measured create, rename, draw and reverse-draw phases",
+    "User-supplied labels are XML escaped",
+    "Creation and rename commit/cancel event paths",
+    "Palette recoloring and captured freehand draw/erase",
+    "Keyboard drawing and Escape-held reset",
+    "Reduced motion settles interaction state immediately",
+    "Numeric arc lengths and monotonic source-aligned drawing/erasure"
+  ],
+  "runtime": "Node VM DOM/event mocks only. No actual browser runtime execution."
+}
