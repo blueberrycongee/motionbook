@@ -1,0 +1,27 @@
+{
+  "title": "Frame Study",
+  "author": "Original UI demonstration text",
+  "provenance": "Authored test fixture. All timestamps are deliberate test inputs, never Apple measurements or recovered musical timing.",
+  "timeUnit": "seconds",
+  "duration": 31,
+  "lines": [
+    {"id":"a","begin":0.6,"end":3.6,"agent":"v1","text":"A small circle waits","spans":[{"text":"A small ","begin":0.6,"end":1.35},{"text":"circle ","begin":1.55,"end":2.15},{"text":"waits","begin":2.15,"end":3.6}]},
+    {"id":"b","begin":3.6,"end":6.8,"agent":"v1","text":"The next frame comes into view","spans":[{"text":"The next ","begin":3.6,"end":4.45},{"text":"frame ","begin":4.45,"end":5.05},{"text":"comes ","begin":5.15,"end":5.5},{"text":"into view","begin":5.5,"end":6.8}]},
+    {"id":"c","begin":7.45,"end":11.4,"agent":"v1","text":"A narrow column holds three measured rows","spans":[{"text":"A narrow ","begin":7.45,"end":8.1},{"text":"column ","begin":8.1,"end":8.85},{"text":"holds ","begin":8.95,"end":9.35},{"text":"three ","begin":9.35,"end":9.9},{"text":"measured ","begin":9.9,"end":10.5},{"text":"rows","begin":10.5,"end":11.4}]},
+    {"id":"d","begin":11.4,"end":14.9,"agent":"v1","text":"Movement settles here","spans":[{"text":"Move","begin":11.4,"end":11.85},{"text":"ment ","begin":11.85,"end":12.35},{"text":"settles ","begin":12.35,"end":13.1},{"text":"here","begin":13.1,"end":14.9}]},
+    {"id":"e","begin":15.2,"end":19.2,"agent":"v2","text":"A second voice enters from the other side","spans":[{"text":"A second ","begin":15.2,"end":16.15},{"text":"voice ","begin":16.15,"end":16.9},{"text":"enters ","begin":16.9,"end":17.65},{"text":"from the ","begin":17.75,"end":18.2},{"text":"other side","begin":18.2,"end":19.2}],"backgroundVocals":[{"text":"Another layer","begin":16.4,"end":18.1,"spans":[{"text":"Another ","begin":16.4,"end":17.05},{"text":"layer","begin":17.05,"end":18.1}]}]},
+    {"id":"f","begin":18.8,"end":22.3,"agent":"v1","text":"These two moments overlap","spans":[{"text":"These two ","begin":18.8,"end":19.5},{"text":"moments ","begin":19.5,"end":20.55},{"text":"overlap","begin":20.55,"end":22.3}]},
+    {"id":"g","begin":25,"end":28.1,"agent":"v1","text":"The pause has its own space","spans":[{"text":"The pause ","begin":25,"end":26},{"text":"has its ","begin":26,"end":26.8},{"text":"own space","begin":26.8,"end":28.1}]},
+    {"id":"h","begin":28.1,"end":30.7,"agent":"v1","text":"Return to the first frame","spans":[{"text":"Return ","begin":28.1,"end":28.8},{"text":"to the ","begin":28.8,"end":29.3},{"text":"first frame","begin":29.3,"end":30.7}]}
+  ],
+  "testCases": [
+    {"name":"phrase-granularity","at":1.0,"check":"The first span contains multiple words; do not split into uniform per-word durations."},
+    {"name":"timing-gap-within-line","at":1.45,"check":"No span is actively progressing between 1.35 and 1.55. The presentation policy is explicit, not a fabricated measured behavior."},
+    {"name":"potential-wrapping","at":9.0,"check":"Text wrapping is layout dependent. A semantic line can have multiple visual rows; maintain one timing identity."},
+    {"name":"split-token","at":12.0,"check":"The second portion of Movement is active; text concatenation must preserve the original word with no inserted space."},
+    {"name":"backing-vocals","at":17.1,"check":"Background and main vocals have independent span clocks."},
+    {"name":"overlap","at":19.0,"check":"Two lines are active. A single-active-index model must not erase the overlapping line."},
+    {"name":"inter-line-silence","at":23.5,"check":"No vocal span is active. The next-line focus/placeholder behavior is a labeled demo policy unless measured from reference."},
+    {"name":"seek-backward","from":29.6,"to":8.35,"check":"Recompute all states from absolute media time without residual progress."}
+  ]
+}

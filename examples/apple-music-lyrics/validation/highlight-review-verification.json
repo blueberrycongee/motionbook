@@ -1,0 +1,33 @@
+{
+  "gifFrameCount": 67,
+  "uniqueDecodedFrames": 67,
+  "durationCountsMilliseconds": {
+    "130": 44,
+    "140": 23
+  },
+  "durationSeconds": 8.94,
+  "loop": 0,
+  "gifVsPngMeanAbsoluteRgbError": 0.19787388346423568,
+  "worstFrameMeanAbsoluteRgbError": 0.2065120525653742,
+  "worstFrameP99RgbError": 3,
+  "dimensions": [
+    1468,
+    478
+  ],
+  "sourcePtsExactlySequential": true,
+  "reviewPtsExactlyQuarterSpeed": true,
+  "files": {
+    "highlight-review-0.25x.gif": 1192940,
+    "highlight-review-0.25x.mp4": 250374,
+    "poster.png": 156493
+  },
+  "portableSourceBytesRequired": false,
+  "portableSourceBytesVerified": false,
+  "portableFramesIdentical": true,
+  "portableOutputHashesIdentical": true,
+  "portableOutputHashes": {
+    "highlight-review-0.25x.gif": "8cda135d3034d2d3a509e3cbb81553ff769ad4d97e18582c14277e24d23fbc3d",
+    "highlight-review-0.25x.mp4": "94269341aafbe246c0764776d7a9cf1316272a299045157ebd80d1e577cb527e",
+    "poster.png": "7104cb276d0ea9c28214d3e213ed3a85eff58448bf9617cbc58359c1329ebe0b"
+  }
+}

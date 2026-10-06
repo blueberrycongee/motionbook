@@ -1,0 +1,1108 @@
+{
+  "sourceSha256Matches": true,
+  "sourcePtsExactlyEqual": true,
+  "sourceFrameCount": 115,
+  "sourceFrameRange": [
+    500,
+    614
+  ],
+  "sourcePtsRange": [
+    500500,
+    614614
+  ],
+  "sourcePtsStep": 1001,
+  "sourceTimeBase": "1/30000",
+  "nativeDuration": 3.837166666666675,
+  "gifDuration": 3.83,
+  "gifFrameCount": 115,
+  "mp4FrameCount": 115,
+  "delayCountCentiseconds": {
+    "3": 77,
+    "4": 38
+  },
+  "allGifDelaysCentiseconds": [
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    3,
+    3
+  ],
+  "delayMismatches": [
+    {
+      "index": 114,
+      "actualCentiseconds": 3,
+      "expectedCentiseconds": 4
+    }
+  ],
+  "maximumGifFrameBoundaryErrorSeconds": 0.00496666666666612,
+  "completeGifRegenerationMatches": true,
+  "regeneratedFrameHashMismatches": [],
+  "frameRasterUniqueness": 115,
+  "lines": [
+    {
+      "id": "A1",
+      "first": {
+        "y": 239.9981,
+        "highlight": 0.9963,
+        "opacity": 0.5,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "last": {
+        "y": 181.6514,
+        "highlight": 0.9963,
+        "opacity": 0.06,
+        "litOpacity": 0.12,
+        "visible": false
+      },
+      "loopReset": {
+        "deltaY": 58.3467,
+        "deltaHighlight": 0,
+        "visibilityChange": true
+      },
+      "largestInternalHighlightSteps": [
+        {
+          "frame": 501,
+          "time": 16.7167,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.0005000000000165983
+        },
+        {
+          "frame": 502,
+          "time": 16.750066666666665,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.0001999999999782176
+        },
+        {
+          "frame": 503,
+          "time": 16.783433333333335,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -9.999999997489795e-05
+        },
+        {
+          "frame": 504,
+          "time": 16.8168,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.0003999999999848569
+        },
+        {
+          "frame": 505,
+          "time": 16.850166666666667,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.0002000000000066393
+        },
+        {
+          "frame": 506,
+          "time": 16.883533333333332,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.0003999999999848569
+        }
+      ],
+      "largestInternalYStep": {
+        "frame": 527,
+        "time": 17.584233333333334,
+        "deltaHighlight": 0,
+        "deltaClipWidthPx": 0,
+        "deltaY": -22.9238
+      }
+    },
+    {
+      "id": "A2",
+      "first": {
+        "y": 283.9985,
+        "highlight": 1,
+        "opacity": 0.5,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "last": {
+        "y": 178.1932,
+        "highlight": 1,
+        "opacity": 0.06,
+        "litOpacity": 0.12,
+        "visible": false
+      },
+      "loopReset": {
+        "deltaY": 105.80529999999999,
+        "deltaHighlight": 0,
+        "visibilityChange": true
+      },
+      "largestInternalHighlightSteps": [
+        {
+          "frame": 501,
+          "time": 16.7167,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -9.999999997489795e-05
+        },
+        {
+          "frame": 502,
+          "time": 16.750066666666665,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.0006000000000199179
+        },
+        {
+          "frame": 503,
+          "time": 16.783433333333335,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.0007999999999697138
+        },
+        {
+          "frame": 504,
+          "time": 16.8168,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.0009000000000014552
+        },
+        {
+          "frame": 505,
+          "time": 16.850166666666667,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.0003999999999564352
+        },
+        {
+          "frame": 506,
+          "time": 16.883533333333332,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.0003000000000383807
+        }
+      ],
+      "largestInternalYStep": {
+        "frame": 528,
+        "time": 17.6176,
+        "deltaHighlight": 0,
+        "deltaClipWidthPx": 0,
+        "deltaY": -24.472499999999997
+      }
+    },
+    {
+      "id": "A3",
+      "first": {
+        "y": 328.5372,
+        "highlight": 0.8198005294652387,
+        "opacity": 0.5,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "last": {
+        "y": 181.7821,
+        "highlight": 0.9965,
+        "opacity": 0.06,
+        "litOpacity": 0.12,
+        "visible": false
+      },
+      "loopReset": {
+        "deltaY": 146.75509999999997,
+        "deltaHighlight": -0.17669947053476132,
+        "visibilityChange": true
+      },
+      "largestInternalHighlightSteps": [
+        {
+          "frame": 501,
+          "time": 16.7167,
+          "deltaHighlight": 0.052999470534761284,
+          "deltaClipWidthPx": 15.528844866685063,
+          "deltaY": -0.07579999999995835
+        },
+        {
+          "frame": 503,
+          "time": 16.783433333333335,
+          "deltaHighlight": 0.02120024675078369,
+          "deltaClipWidthPx": 6.211672297979646,
+          "deltaY": -0.04800000000000182
+        },
+        {
+          "frame": 506,
+          "time": 16.883533333333332,
+          "deltaHighlight": 0.021200211786095546,
+          "deltaClipWidthPx": 6.211662053325995,
+          "deltaY": -0.031799999999975626
+        },
+        {
+          "frame": 508,
+          "time": 16.950266666666668,
+          "deltaHighlight": 0.014199858143275623,
+          "deltaClipWidthPx": 4.160558435979738,
+          "deltaY": -0.024499999999989086
+        },
+        {
+          "frame": 509,
+          "time": 16.983633333333334,
+          "deltaHighlight": 0.01410017682140996,
+          "deltaClipWidthPx": 4.1313518086731165,
+          "deltaY": -0.02019999999998845
+        },
+        {
+          "frame": 507,
+          "time": 16.9169,
+          "deltaHighlight": 0.014099859142266635,
+          "deltaClipWidthPx": 4.131258728684145,
+          "deltaY": -0.023099999999999454
+        }
+      ],
+      "largestInternalYStep": {
+        "frame": 528,
+        "time": 17.6176,
+        "deltaHighlight": 0,
+        "deltaClipWidthPx": 0,
+        "deltaY": -24.511400000000037
+      }
+    },
+    {
+      "id": "A4",
+      "first": {
+        "y": 378.1701,
+        "highlight": 0,
+        "opacity": 0.5,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "last": {
+        "y": 183.7914,
+        "highlight": 0.9744,
+        "opacity": 0.06,
+        "litOpacity": 0.12,
+        "visible": false
+      },
+      "loopReset": {
+        "deltaY": 194.37869999999998,
+        "deltaHighlight": -0.9744,
+        "visibilityChange": true
+      },
+      "largestInternalHighlightSteps": [
+        {
+          "frame": 518,
+          "time": 17.283933333333334,
+          "deltaHighlight": 0.3590010239657919,
+          "deltaClipWidthPx": 17.232049150358012,
+          "deltaY": -0.04569999999995389
+        },
+        {
+          "frame": 520,
+          "time": 17.350666666666665,
+          "deltaHighlight": 0.3333966693639153,
+          "deltaClipWidthPx": 16.003040129467934,
+          "deltaY": -0.05709999999999127
+        },
+        {
+          "frame": 521,
+          "time": 17.384033333333335,
+          "deltaHighlight": 0.1795033306360847,
+          "deltaClipWidthPx": 8.616159870532066,
+          "deltaY": -0.04989999999997963
+        },
+        {
+          "frame": 519,
+          "time": 17.3173,
+          "deltaHighlight": 0.1024989760342081,
+          "deltaClipWidthPx": 4.919950849641989,
+          "deltaY": -0.045400000000029195
+        },
+        {
+          "frame": 501,
+          "time": 16.7167,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.002200000000016189
+        },
+        {
+          "frame": 502,
+          "time": 16.750066666666665,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.0015000000000213731
+        }
+      ],
+      "largestInternalYStep": {
+        "frame": 528,
+        "time": 17.6176,
+        "deltaHighlight": 0,
+        "deltaClipWidthPx": 0,
+        "deltaY": -25.300299999999993
+      }
+    },
+    {
+      "id": "B1",
+      "first": {
+        "y": 446.0282,
+        "highlight": 0,
+        "opacity": 0.26,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "last": {
+        "y": 240.4183,
+        "highlight": 0.9926,
+        "opacity": 0.5,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "loopReset": {
+        "deltaY": 205.60990000000004,
+        "deltaHighlight": -0.9926,
+        "visibilityChange": false
+      },
+      "largestInternalHighlightSteps": [
+        {
+          "frame": 558,
+          "time": 18.6186,
+          "deltaHighlight": 0.2073979280926096,
+          "deltaClipWidthPx": 30.280097501521002,
+          "deltaY": -0.039500000000003865
+        },
+        {
+          "frame": 564,
+          "time": 18.8188,
+          "deltaHighlight": 0.1703982977193078,
+          "deltaClipWidthPx": 24.878151467018924,
+          "deltaY": -0.066599999999994
+        },
+        {
+          "frame": 559,
+          "time": 18.651966666666667,
+          "deltaHighlight": 0.1555984455699783,
+          "deltaClipWidthPx": 22.717373053216832,
+          "deltaY": -0.059299999999979036
+        },
+        {
+          "frame": 560,
+          "time": 18.685333333333332,
+          "deltaHighlight": 0.14810281215971155,
+          "deltaClipWidthPx": 21.623010575317878,
+          "deltaY": -0.06690000000000396
+        },
+        {
+          "frame": 561,
+          "time": 18.7187,
+          "deltaHighlight": 0.12589874227031017,
+          "deltaClipWidthPx": 18.381216371465285,
+          "deltaY": -0.05539999999999168
+        },
+        {
+          "frame": 562,
+          "time": 18.752066666666668,
+          "deltaHighlight": 0.11109889012098062,
+          "deltaClipWidthPx": 16.22043795766318,
+          "deltaY": -0.07030000000000314
+        }
+      ],
+      "largestInternalYStep": {
+        "frame": 530,
+        "time": 17.684333333333335,
+        "deltaHighlight": 0,
+        "deltaClipWidthPx": 0,
+        "deltaY": -24.842399999999998
+      }
+    },
+    {
+      "id": "B2",
+      "first": {
+        "y": 489.0367,
+        "highlight": 0,
+        "opacity": 0.26,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "last": {
+        "y": 284.5456,
+        "highlight": 0.5972,
+        "opacity": 0.5,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "loopReset": {
+        "deltaY": 204.49110000000002,
+        "deltaHighlight": -0.5972,
+        "visibilityChange": false
+      },
+      "largestInternalHighlightSteps": [
+        {
+          "frame": 569,
+          "time": 18.985633333333332,
+          "deltaHighlight": 0.03470020878912246,
+          "deltaClipWidthPx": 10.236561592791125,
+          "deltaY": -0.03820000000001755
+        },
+        {
+          "frame": 608,
+          "time": 20.286933333333334,
+          "deltaHighlight": 0.03130010389506577,
+          "deltaClipWidthPx": 9.233530649044411,
+          "deltaY": -0.019300000000043838
+        },
+        {
+          "frame": 604,
+          "time": 20.153466666666667,
+          "deltaHighlight": 0.031199688314802854,
+          "deltaClipWidthPx": 9.203908052866836,
+          "deltaY": -0.003999999999962256
+        },
+        {
+          "frame": 597,
+          "time": 19.9199,
+          "deltaHighlight": 0.031199688314802798,
+          "deltaClipWidthPx": 9.203908052866822,
+          "deltaY": -0.026199999999960255
+        },
+        {
+          "frame": 574,
+          "time": 19.152466666666665,
+          "deltaHighlight": 0.027799722280494446,
+          "deltaClipWidthPx": 8.200918072745864,
+          "deltaY": -0.059799999999995634
+        },
+        {
+          "frame": 599,
+          "time": 19.986633333333334,
+          "deltaHighlight": 0.024300381614568323,
+          "deltaClipWidthPx": 7.168612576297662,
+          "deltaY": -0.012299999999981992
+        }
+      ],
+      "largestInternalYStep": {
+        "frame": 530,
+        "time": 17.684333333333335,
+        "deltaHighlight": 0,
+        "deltaClipWidthPx": 0,
+        "deltaY": -24.616800000000012
+      }
+    },
+    {
+      "id": "B3",
+      "first": {
+        "y": 533.0034,
+        "highlight": 0,
+        "opacity": 0.26,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "last": {
+        "y": 331.3646,
+        "highlight": 0,
+        "opacity": 0.5,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "loopReset": {
+        "deltaY": 201.63880000000006,
+        "deltaHighlight": 0,
+        "visibilityChange": false
+      },
+      "largestInternalHighlightSteps": [
+        {
+          "frame": 501,
+          "time": 16.7167,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.023300000000062937
+        },
+        {
+          "frame": 502,
+          "time": 16.750066666666665,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.02250000000003638
+        },
+        {
+          "frame": 503,
+          "time": 16.783433333333335,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.006399999999985084
+        },
+        {
+          "frame": 504,
+          "time": 16.8168,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.005599999999958527
+        },
+        {
+          "frame": 505,
+          "time": 16.850166666666667,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.002200000000016189
+        },
+        {
+          "frame": 506,
+          "time": 16.883533333333332,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.006900000000086948
+        }
+      ],
+      "largestInternalYStep": {
+        "frame": 530,
+        "time": 17.684333333333335,
+        "deltaHighlight": 0,
+        "deltaClipWidthPx": 0,
+        "deltaY": -24.683400000000006
+      }
+    },
+    {
+      "id": "B4",
+      "first": {
+        "y": 577.0057,
+        "highlight": 0,
+        "opacity": 0.26,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "last": {
+        "y": 376.1287,
+        "highlight": 0,
+        "opacity": 0.5,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "loopReset": {
+        "deltaY": 200.87700000000007,
+        "deltaHighlight": 0,
+        "visibilityChange": false
+      },
+      "largestInternalHighlightSteps": [
+        {
+          "frame": 501,
+          "time": 16.7167,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.004400000000032378
+        },
+        {
+          "frame": 502,
+          "time": 16.750066666666665,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.014000000000010004
+        },
+        {
+          "frame": 503,
+          "time": 16.783433333333335,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.008800000000064756
+        },
+        {
+          "frame": 504,
+          "time": 16.8168,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.017800000000079308
+        },
+        {
+          "frame": 505,
+          "time": 16.850166666666667,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.016400000000089676
+        },
+        {
+          "frame": 506,
+          "time": 16.883533333333332,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.002100000000041291
+        }
+      ],
+      "largestInternalYStep": {
+        "frame": 530,
+        "time": 17.684333333333335,
+        "deltaHighlight": 0,
+        "deltaClipWidthPx": 0,
+        "deltaY": -24.453299999999956
+      }
+    },
+    {
+      "id": "C1",
+      "first": {
+        "y": 649.0195,
+        "highlight": 0,
+        "opacity": 0.275,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "last": {
+        "y": 446.1247,
+        "highlight": 0,
+        "opacity": 0.325,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "loopReset": {
+        "deltaY": 202.89479999999998,
+        "deltaHighlight": 0,
+        "visibilityChange": false
+      },
+      "largestInternalHighlightSteps": [
+        {
+          "frame": 501,
+          "time": 16.7167,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.10040000000003602
+        },
+        {
+          "frame": 502,
+          "time": 16.750066666666665,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.037900000000036016
+        },
+        {
+          "frame": 503,
+          "time": 16.783433333333335,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.07539999999994507
+        },
+        {
+          "frame": 504,
+          "time": 16.8168,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.022699999999986176
+        },
+        {
+          "frame": 505,
+          "time": 16.850166666666667,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.020199999999931606
+        },
+        {
+          "frame": 506,
+          "time": 16.883533333333332,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.010699999999928878
+        }
+      ],
+      "largestInternalYStep": {
+        "frame": 532,
+        "time": 17.751066666666667,
+        "deltaHighlight": 0,
+        "deltaClipWidthPx": 0,
+        "deltaY": -25.49560000000008
+      }
+    },
+    {
+      "id": "C2",
+      "first": {
+        "y": 692.915,
+        "highlight": 0,
+        "opacity": 0.275,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "last": {
+        "y": 490.2453,
+        "highlight": 0,
+        "opacity": 0.325,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "loopReset": {
+        "deltaY": 202.66969999999998,
+        "deltaHighlight": 0,
+        "visibilityChange": false
+      },
+      "largestInternalHighlightSteps": [
+        {
+          "frame": 501,
+          "time": 16.7167,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.10040000000003602
+        },
+        {
+          "frame": 502,
+          "time": 16.750066666666665,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.048800000000028376
+        },
+        {
+          "frame": 503,
+          "time": 16.783433333333335,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.010800000000017462
+        },
+        {
+          "frame": 504,
+          "time": 16.8168,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.023800000000051114
+        },
+        {
+          "frame": 505,
+          "time": 16.850166666666667,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.0024000000000796717
+        },
+        {
+          "frame": 506,
+          "time": 16.883533333333332,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.009500000000002728
+        }
+      ],
+      "largestInternalYStep": {
+        "frame": 532,
+        "time": 17.751066666666667,
+        "deltaHighlight": 0,
+        "deltaClipWidthPx": 0,
+        "deltaY": -25.59159999999997
+      }
+    },
+    {
+      "id": "C3",
+      "first": {
+        "y": 736.9367,
+        "highlight": 0,
+        "opacity": 0.275,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "last": {
+        "y": 534.1197,
+        "highlight": 0,
+        "opacity": 0.325,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "loopReset": {
+        "deltaY": 202.817,
+        "deltaHighlight": 0,
+        "visibilityChange": false
+      },
+      "largestInternalHighlightSteps": [
+        {
+          "frame": 501,
+          "time": 16.7167,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.08280000000002019
+        },
+        {
+          "frame": 502,
+          "time": 16.750066666666665,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.023099999999999454
+        },
+        {
+          "frame": 503,
+          "time": 16.783433333333335,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.12260000000003402
+        },
+        {
+          "frame": 504,
+          "time": 16.8168,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.03290000000004056
+        },
+        {
+          "frame": 505,
+          "time": 16.850166666666667,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.0009000000000014552
+        },
+        {
+          "frame": 506,
+          "time": 16.883533333333332,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.014599999999973079
+        }
+      ],
+      "largestInternalYStep": {
+        "frame": 532,
+        "time": 17.751066666666667,
+        "deltaHighlight": 0,
+        "deltaClipWidthPx": 0,
+        "deltaY": -25.520399999999995
+      }
+    },
+    {
+      "id": "D1",
+      "first": {
+        "y": 808.1542,
+        "highlight": 0,
+        "opacity": 0.2,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "last": {
+        "y": 605.0471,
+        "highlight": 0,
+        "opacity": 0.24,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "loopReset": {
+        "deltaY": 203.10709999999995,
+        "deltaHighlight": 0,
+        "visibilityChange": false
+      },
+      "largestInternalHighlightSteps": [
+        {
+          "frame": 501,
+          "time": 16.7167,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.04979999999989104
+        },
+        {
+          "frame": 502,
+          "time": 16.750066666666665,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.053500000000099135
+        },
+        {
+          "frame": 503,
+          "time": 16.783433333333335,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.05600000000004002
+        },
+        {
+          "frame": 504,
+          "time": 16.8168,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.02359999999998763
+        },
+        {
+          "frame": 505,
+          "time": 16.850166666666667,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.025599999999940337
+        },
+        {
+          "frame": 506,
+          "time": 16.883533333333332,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.013599999999996726
+        }
+      ],
+      "largestInternalYStep": {
+        "frame": 532,
+        "time": 17.751066666666667,
+        "deltaHighlight": 0,
+        "deltaClipWidthPx": 0,
+        "deltaY": -26.268300000000067
+      }
+    },
+    {
+      "id": "D2",
+      "first": {
+        "y": 850.905,
+        "highlight": 0,
+        "opacity": 0.2,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "last": {
+        "y": 648.1695,
+        "highlight": 0,
+        "opacity": 0.24,
+        "litOpacity": 1,
+        "visible": true
+      },
+      "loopReset": {
+        "deltaY": 202.7355,
+        "deltaHighlight": 0,
+        "visibilityChange": false
+      },
+      "largestInternalHighlightSteps": [
+        {
+          "frame": 501,
+          "time": 16.7167,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.02909999999997126
+        },
+        {
+          "frame": 502,
+          "time": 16.750066666666665,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.19460000000003674
+        },
+        {
+          "frame": 503,
+          "time": 16.783433333333335,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.011899999999968713
+        },
+        {
+          "frame": 504,
+          "time": 16.8168,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": 0.06899999999995998
+        },
+        {
+          "frame": 505,
+          "time": 16.850166666666667,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.07479999999998199
+        },
+        {
+          "frame": 506,
+          "time": 16.883533333333332,
+          "deltaHighlight": 0,
+          "deltaClipWidthPx": 0,
+          "deltaY": -0.10320000000001528
+        }
+      ],
+      "largestInternalYStep": {
+        "frame": 532,
+        "time": 17.751066666666667,
+        "deltaHighlight": 0,
+        "deltaClipWidthPx": 0,
+        "deltaY": -26.349500000000035
+      }
+    }
+  ],
+  "runtimeBehavior": "Controller.tick clamps at end and sets playing=false; GIF NETSCAPE loop extension is 0 (forever), so only the GIF adds an end-to-start reset.",
+  "bounds": "Runtime end state at 20.5205 renders identically to export frame 614 at 20.4871333; the source segment is standard end-exclusive [500,615), so no source frame or terminal pose is missing.",
+  "gifDecodedFrameUniqueness": 115,
+  "gifAdjacentDuplicateIndices": [],
+  "gifInfiniteLoop": true,
+  "runtimeEndpointSvgEqualsLastExportedFrame": true
+}

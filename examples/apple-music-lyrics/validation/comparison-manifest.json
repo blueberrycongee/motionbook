@@ -1,0 +1,3961 @@
+{
+  "schemaVersion": 1,
+  "comparisonKind": "Copyright-safe geometric proxy, measured source boxes versus exact shared motion-core boxes; no source imagery or lyric text is included",
+  "source": {
+    "sha256": "e5769cae0b17e66f8266c0fb6feebab8b0ef46e9348c7d46c7a22a316d33e9e3",
+    "width": 1920,
+    "height": 1080,
+    "timeBase": "1/30000",
+    "frameRate": "30000/1001",
+    "crop": {
+      "x": 1240,
+      "y": 78,
+      "width": 438,
+      "height": 926
+    }
+  },
+  "measurement": {
+    "sha256": "d2f3bb19f7124b6d1c6c4747689cd406e6c5801716d927a6acda19a2785f18fa",
+    "protocol": {
+      "description": "Independent per-physical-line normalized high-pass template match at every original source frame. Crop geometry is measured in displayed video pixels, not iPhone logical points. Fixed template widths/heights locate the glyph patch; they are not remeasured dynamic ink bounds.",
+      "yKind": "padded glyph-template top; bottom_proxy is not an actual typographic baseline",
+      "templateGaussianRadiusPx": 2,
+      "searchRadiusPx": 27,
+      "subpixel": "Quadratic peak-position estimate inside an observed frame, never a temporal in-between frame",
+      "spatialUncertainty": "Conservative +/-2px B/C and early A; +/-3px soft D. These are engineering uncertainty bounds, not statistical confidence intervals. Compression, defocus, and word-highlight intensity can bias shape matching.",
+      "temporalUncertainty": "33.3667ms native-frame interval. Event onset is bracketed between native samples; no evidence for120Hz or sub-frame timing.",
+      "manualValidation": "Listed keyframes inspected, complete track continuity reviewed; manual_valid=null means not individually inspected, not invalid. Alternate templates were seeded after motion and tracked backward.",
+      "split": "Even source frames designated calibration; odd source frames designated temporal holdout. Fit models only on calibration. This is within-sequence temporal holdout, not an independent device/clip test.",
+      "interpolation": null,
+      "motionModel": null,
+      "copyright": "All exported frames are geometry only; no song text, artwork, audio, or source image pixels."
+    }
+  },
+  "core": {
+    "src/app.js": "d2fb1549765b96e4de66ebcc99e1c1aadaace7ff444da5925af4a17b5a00035d",
+    "src/calibration-data.js": "9167faa5b83e7651e463c88e21f19a92e17ea274d901677195e600076760cfdf",
+    "src/motion.js": "33c241b9946440889b9821704f755eceaa4ca11cee95c5f95f875fceb43987b8",
+    "src/scene.js": "d8ef0fb03accb37630ee3800d36c19ca1e5274e87976ef786e22689b87e94060",
+    "src/server.cjs": "4be117d05ff74bc50250aec3c1a1719f07a903aee6eee8707f16ee6805dd86d5",
+    "assets/fonts.conf": "97773f260dbfc2fd8ae9bd62cf5d8c3e7d6e7cb609c31c8b9859889553f4f863",
+    "assets/Inter-Bold.ttf": "9448d013c563678be3915aebc9c75558220eb8c1ed7edb589bafff40c41e6902",
+    "assets/Inter-LICENSE.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+    "assets/Inter-Regular.ttf": "eb56a2a9fa2302667fc02cdd5261d19850c73d9057a41c34f441aa2d544c27d3"
+  },
+  "harness": {
+    "tools/render.cjs": "1d45f008644314c7677354f697d8727b77446cc4ebd5d1cfa0323c88b97cb8bf",
+    "tools/build-comparison.cjs": "e677e8ca043d956b866a67dde6c3cca2f761e5d15fd003479218078055fc948c"
+  },
+  "timing": {
+    "playbackRate": 1,
+    "sourceTimeBase": "1/30000",
+    "frameCount": 115,
+    "nativeFrameDuration": 0.03336666666666667,
+    "firstPts": 500500,
+    "lastPts": 614614,
+    "firstTime": 16.683333333333334,
+    "lastTime": 20.487133333333333,
+    "durationSeconds": 3.837166666666675,
+    "mp4": {
+      "width": 924,
+      "height": 1032,
+      "timeBase": "1/30000",
+      "frameRate": "30000/1001",
+      "durationSeconds": 3.837167,
+      "decodedFrameCount": 115,
+      "audioStreams": 0,
+      "completeDecodeSha256": "ffce6ef6a7d97b911c9794cfbb0a88d5fa247a3292e759543416738e995c2df0",
+      "packets": [
+        {
+          "pts_time": "0.000000",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.100100",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.033367",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.066733",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.200200",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.133467",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.166833",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.300300",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.233567",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.266933",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.400400",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.333667",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.367033",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.500500",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.433767",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.467133",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.633967",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.567233",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.533867",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.600600",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.734067",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.667333",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.700700",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.800800",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.767433",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.834167",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.867533",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.900900",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.934267",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "0.967633",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.001000",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.034367",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.067733",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.101100",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.134467",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.167833",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.201200",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.234567",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.267933",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.301300",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.334667",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.368033",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.401400",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.434767",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.468133",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.501500",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.534867",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.568233",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.601600",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.634967",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.668333",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.701700",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.735067",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.768433",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.801800",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.835167",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.868533",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.901900",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.935267",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "1.968633",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.002000",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.102100",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.035367",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.068733",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.168833",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.135467",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.202200",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.235567",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.268933",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.302300",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.335667",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.369033",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.402400",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.435767",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.502500",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.469133",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.602600",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.535867",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.569233",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.669333",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.635967",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.702700",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.736067",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.769433",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.802800",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.936267",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.869533",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.836167",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.902900",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "2.969633",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.003000",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.103100",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.036367",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.069733",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.136467",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.236567",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.169833",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.203200",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.336667",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.269933",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.303300",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.370033",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.403400",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.503500",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.436767",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.470133",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.603600",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.536867",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.570233",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.636967",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.670333",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.770433",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.703700",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.737067",
+          "duration_time": "0.033367"
+        },
+        {
+          "pts_time": "3.803800",
+          "duration_time": "0.033367"
+        }
+      ]
+    },
+    "gif": {
+      "width": 924,
+      "height": 1032,
+      "timeBase": "1/100",
+      "frameRate": "30/1",
+      "durationSeconds": 3.83,
+      "decodedFrameCount": 115,
+      "audioStreams": 0,
+      "completeDecodeSha256": "2f0d653423ad2f3223c7945650b31a55cf3d5e6b89799438707a8c83e712e65b",
+      "packets": [
+        {
+          "pts_time": "0.000000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.030000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "0.070000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.100000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.130000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "0.170000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.200000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.230000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "0.270000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.300000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.330000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "0.370000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.400000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.430000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "0.470000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.500000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.530000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "0.570000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.600000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.630000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "0.670000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.700000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.730000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "0.770000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.800000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.830000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "0.870000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.900000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "0.930000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "0.970000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.000000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.030000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "1.070000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.100000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.130000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "1.170000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.200000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.230000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "1.270000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.300000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.330000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "1.370000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.400000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.430000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "1.470000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.500000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.530000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "1.570000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.600000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.630000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "1.670000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.700000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "1.740000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.770000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.800000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "1.840000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.870000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.900000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "1.940000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "1.970000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.000000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "2.040000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.070000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.100000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "2.140000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.170000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.200000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "2.240000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.270000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.300000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "2.340000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.370000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.400000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "2.440000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.470000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.500000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "2.540000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.570000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.600000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "2.640000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.670000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.700000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "2.740000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.770000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.800000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "2.840000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.870000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.900000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "2.940000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "2.970000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "3.000000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "3.040000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "3.070000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "3.100000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "3.140000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "3.170000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "3.200000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "3.240000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "3.270000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "3.300000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "3.340000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "3.370000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "3.400000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "3.440000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "3.470000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "3.500000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "3.540000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "3.570000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "3.600000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "3.640000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "3.670000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "3.700000",
+          "duration_time": "0.040000"
+        },
+        {
+          "pts_time": "3.740000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "3.770000",
+          "duration_time": "0.030000"
+        },
+        {
+          "pts_time": "3.800000",
+          "duration_time": "0.030000"
+        }
+      ]
+    },
+    "gifQuantization": {
+      "unitSeconds": 0.01,
+      "policy": "Native source 1× playback; only mandatory integer-centisecond GIF timing quantization is applied",
+      "expectedRoundedDelaysCentiseconds": [
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4
+      ],
+      "actualDelaysCentiseconds": [
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3
+      ],
+      "durationErrorSeconds": -0.007166666666674981,
+      "maximumFrameBoundaryErrorSeconds": 0.00496666666666612
+    }
+  },
+  "frames": [
+    {
+      "pts": 500500,
+      "time": 16.683333333333334,
+      "index": 0,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000000.png",
+      "sourceGeometryRasterSha256": "1e8d981047f01262d4f1f5e7db370b01c2bd4b96fd4c8289cc83089d95ca1ec5",
+      "replicaGeometryRasterSha256": "339369967549897f76772af90a4265d35426bcaec367db085ab5d482a37fb498",
+      "pairRasterSha256": "361935021ade6cb6467ecfe2c6feae26f82d7adf978a1c8d086adef1aba59a0b"
+    },
+    {
+      "pts": 501501,
+      "time": 16.7167,
+      "index": 1,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000001.png",
+      "sourceGeometryRasterSha256": "b81c52942cf330fa33c7310788587f163e2ac93eb8e50a8643786fb6f42cf212",
+      "replicaGeometryRasterSha256": "a684391b2ab3b723da8e771c7b92950db0058538de9fa1b27adeb5b622f60944",
+      "pairRasterSha256": "126067c9eb561b1a5eaa178c0325913e2d041fce02491c28c37082393afcc857"
+    },
+    {
+      "pts": 502502,
+      "time": 16.750066666666665,
+      "index": 2,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000002.png",
+      "sourceGeometryRasterSha256": "30fee45834a7433dcadf36716e7a024724d3b415132ba74e71449d251bd2e514",
+      "replicaGeometryRasterSha256": "d219fe874ff0c2d8405e66094582a3dde297398ed7361fb58edabeda5d6c1cf3",
+      "pairRasterSha256": "9ccd85ab7482f3ee90522b3b8054b72826977608d1b9631921c60087d2584435"
+    },
+    {
+      "pts": 503503,
+      "time": 16.783433333333335,
+      "index": 3,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000003.png",
+      "sourceGeometryRasterSha256": "d52ea3c42c631066bda86d22e11a13ea04048bfebdb6c5c6de5558d0031b76fc",
+      "replicaGeometryRasterSha256": "533ac4fe5bea271f7ef6ef0081df61dd7329aaba26f1f96b68a71d3af17165a8",
+      "pairRasterSha256": "87619defd0354130ead80618d49e1415df1381324f13431b5291683123b12c70"
+    },
+    {
+      "pts": 504504,
+      "time": 16.8168,
+      "index": 4,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000004.png",
+      "sourceGeometryRasterSha256": "bb230cca096d92c5b536ba892a755da489fdd47b44a137426b3f73ad042680c6",
+      "replicaGeometryRasterSha256": "8a2f88908d0f1dccda40618f8a6aff9cf5f73a330ca0de4d73ec88615fcb57da",
+      "pairRasterSha256": "c7aacaf5350440c2791743dca9835b08be0fb0dabcca32890f6a388521b0c5fd"
+    },
+    {
+      "pts": 505505,
+      "time": 16.850166666666667,
+      "index": 5,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000005.png",
+      "sourceGeometryRasterSha256": "eec263c6aa3991089c1f9b78f88e42a25961332318e7cd9488f812580f2f6714",
+      "replicaGeometryRasterSha256": "fe5bcc94db2b51d5e09c059421ed5b58fcb32196c4431c158b3c84666579a8fc",
+      "pairRasterSha256": "9ce3050010eb61d80322d4ac0d7b329c50363b6fe90ac3f182444a64c6309a5d"
+    },
+    {
+      "pts": 506506,
+      "time": 16.883533333333332,
+      "index": 6,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000006.png",
+      "sourceGeometryRasterSha256": "e7289410a5f37e8b6a7bc3d6921a4f24f30605a07dfb7ef116ae40700b8f8980",
+      "replicaGeometryRasterSha256": "184beb99518d37b46687090f00dd76a3abc8666848aa8302d9029f0428a53253",
+      "pairRasterSha256": "b538a0259d1fa2dc0221d56ce2dbbc611143e14c7de4401d8848575e557338ad"
+    },
+    {
+      "pts": 507507,
+      "time": 16.9169,
+      "index": 7,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000007.png",
+      "sourceGeometryRasterSha256": "b8852b686cdcedf6c2998abd5af659772b614596e4774d2dc3d4b14e21ff161d",
+      "replicaGeometryRasterSha256": "cdb709330ed0b2881d45956ba5f05a2c1d5aa9893b917eea821d9fc1275343ca",
+      "pairRasterSha256": "ba32106e368e5d53834c1843a9be51aa83939a89096f729a52f13fa8f796cddb"
+    },
+    {
+      "pts": 508508,
+      "time": 16.950266666666668,
+      "index": 8,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000008.png",
+      "sourceGeometryRasterSha256": "6a5ae0cf9040eb4ae270de3f79323d88e59469fe9cf78e748e56e917f74a9b97",
+      "replicaGeometryRasterSha256": "5c05c325944ada7ea9c8a2d6ab220907757d5dc60c7810697d398a7d7bd4404c",
+      "pairRasterSha256": "9fbf19c0d5d337650e18d8e621f9b2d60be91caacd05e826eaab40aebfd8834f"
+    },
+    {
+      "pts": 509509,
+      "time": 16.983633333333334,
+      "index": 9,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000009.png",
+      "sourceGeometryRasterSha256": "6b0e0602883d8b79653aaf95d3183177294ac9aee311f8f314003aa1ef1afc1c",
+      "replicaGeometryRasterSha256": "9c6666534c6395d3c41ec55ae901c053bfbf9a166ff5e44dd6cdc65f26f369f3",
+      "pairRasterSha256": "13dca6cbac2bc9136465e628561e4640f946c9945bce05300cd3e2d73bce5f33"
+    },
+    {
+      "pts": 510510,
+      "time": 17.017,
+      "index": 10,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000010.png",
+      "sourceGeometryRasterSha256": "4c411759f1b86603ba2ad0606a5dd0faf638b83fe1391d09f7742eae88a3061a",
+      "replicaGeometryRasterSha256": "a8d2a845675bdfcb5a5e2c5d9288fd0588536c37d4ff80f5c991ad3fedce92f0",
+      "pairRasterSha256": "6ac351406e3adabd091b8cbf5976b55f926bbfc30773dd5f498366380c292d94"
+    },
+    {
+      "pts": 511511,
+      "time": 17.050366666666665,
+      "index": 11,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000011.png",
+      "sourceGeometryRasterSha256": "5dc03ac6910ee90d2499b4592bed3044c8a36b81aaa2102cf6a17ec1d4947a6a",
+      "replicaGeometryRasterSha256": "48a022149735592a17d49841f77c167d5d19ae8ed7e5c409495896c85f94cc2e",
+      "pairRasterSha256": "f287d803309c2d929d1fe4d0227c539b6b3c751b9ffca58ac390568b360b1ece"
+    },
+    {
+      "pts": 512512,
+      "time": 17.083733333333335,
+      "index": 12,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000012.png",
+      "sourceGeometryRasterSha256": "052a54ee27d56faa8fb7376b5c60b4146dfe5d2dde05c7a99ce041c901adc9b8",
+      "replicaGeometryRasterSha256": "b2f58c12ef25882395079823f465de6dab3fcdd728f7e79d197b14120d2bf6d1",
+      "pairRasterSha256": "094e94df3f443065b9e2a99c7bb58e9297a2b4d4a89463a626b064f87dbba0ed"
+    },
+    {
+      "pts": 513513,
+      "time": 17.1171,
+      "index": 13,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000013.png",
+      "sourceGeometryRasterSha256": "e954d8b5d039bdd80a70a1665d05bcb4168b58e8f578d89b9b52f27ed5b2d635",
+      "replicaGeometryRasterSha256": "a872478ed8787f14ae299e358f9d8abde574b8a1912c98208302fc1aacae9e5c",
+      "pairRasterSha256": "e011d9c2a321c710e4fd7816da06d2ada9910426c4851b34b649a4b5d29fe99c"
+    },
+    {
+      "pts": 514514,
+      "time": 17.150466666666667,
+      "index": 14,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000014.png",
+      "sourceGeometryRasterSha256": "5cb02ba70d2aa003822f415226e7ff784b926c520dadea9c064ef32564b8801a",
+      "replicaGeometryRasterSha256": "4c8d19625413d825b319338a18cfa17d2773965c2230dd773b1c7132f98fd4af",
+      "pairRasterSha256": "34fc63853e82d450dfc1acb0ed0ba4ec064b27001cca69fd5b099b779712332e"
+    },
+    {
+      "pts": 515515,
+      "time": 17.183833333333332,
+      "index": 15,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000015.png",
+      "sourceGeometryRasterSha256": "d66429cb54277354d8b4661a958b4312b2a5835a1867a690d236f212c2bd3d28",
+      "replicaGeometryRasterSha256": "2ee6f329b332c0149c0da49036940e0f8e2ec6afbaada2150058d6a771315902",
+      "pairRasterSha256": "026970df94695ea385ee5cc64a646c1587842cb27b2457d4a08ae6472b6713b6"
+    },
+    {
+      "pts": 516516,
+      "time": 17.2172,
+      "index": 16,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000016.png",
+      "sourceGeometryRasterSha256": "9d7599fbf9d184d280b92778f8e6c810f10da7451e5fdef6a8c20eececd82010",
+      "replicaGeometryRasterSha256": "98f70dee675bcff6bda53578fdcfe5099946dc3d6950788e3c359a224ca2daab",
+      "pairRasterSha256": "3f979baf5d0b5e4f66d93a9318d4d261d9d3006e5ddade46ee544708d6244d76"
+    },
+    {
+      "pts": 517517,
+      "time": 17.250566666666668,
+      "index": 17,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000017.png",
+      "sourceGeometryRasterSha256": "79d79a5720fafd8285b6f792563562fcbbcbdddb300a065645b3447736964986",
+      "replicaGeometryRasterSha256": "a472c023762a6b32325385b16a593d54d00fe1bbeb129b9eaf66c35596c50426",
+      "pairRasterSha256": "08bed3ab2a77c37112fa19c9c158fe5c7b95e38db4a24a7b5f5383da0c8110c2"
+    },
+    {
+      "pts": 518518,
+      "time": 17.283933333333334,
+      "index": 18,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000018.png",
+      "sourceGeometryRasterSha256": "f8047bca74c52b1818ee8ffc7694e50216bb41ccd002a2eb47d2393a5b41d734",
+      "replicaGeometryRasterSha256": "cb82ddc85ee4f0f7d78e38f471ac026889147d8b0d1a5d0003faf3a15298e301",
+      "pairRasterSha256": "da3807f1ea60b64842c1eb0199c7affa4db3eece136f9392b1d8b01693de841c"
+    },
+    {
+      "pts": 519519,
+      "time": 17.3173,
+      "index": 19,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000019.png",
+      "sourceGeometryRasterSha256": "cceff94f7e3811303b9c418236cb58d3f4c109fb2732e011386d8b6123f7f355",
+      "replicaGeometryRasterSha256": "9b9d9abada564f471caefab5e010b0eed6af3e1b426d09fe9b1f28a9f264eeda",
+      "pairRasterSha256": "f0203e7bcb86a03e63feb7a06a4808f0f0e76c0253b2f54ed236f105cf133abf"
+    },
+    {
+      "pts": 520520,
+      "time": 17.350666666666665,
+      "index": 20,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000020.png",
+      "sourceGeometryRasterSha256": "ab76bedf2956cff4ee02a0f10427a7d67ee590806f076bfa8debc9b31b8043a1",
+      "replicaGeometryRasterSha256": "8ac00d41cc581e577bbad54e84ee24c12fa28770dd9dd609d36d1894fabd1fe8",
+      "pairRasterSha256": "d49e4ccffd525882195b72121353fc3ddd6b9cb17d0866971db9e18c5e16a140"
+    },
+    {
+      "pts": 521521,
+      "time": 17.384033333333335,
+      "index": 21,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000021.png",
+      "sourceGeometryRasterSha256": "274255e332757e6bd8311601e4b6a52ba3e417e2f9e7422be090157f59fe9e2c",
+      "replicaGeometryRasterSha256": "466cb9516c676b7bf8c14513513b1c87a62dfa3a316dc9225efcebced331c0bc",
+      "pairRasterSha256": "037a6c2c0ef1064d0b3605af4e57460ff940dde7c678e8218f8814337cd641e2"
+    },
+    {
+      "pts": 522522,
+      "time": 17.4174,
+      "index": 22,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000022.png",
+      "sourceGeometryRasterSha256": "cb2fab944066a60ef5b3f45acc5dc40a786b80c7396771f1a67ad1af4dbc0346",
+      "replicaGeometryRasterSha256": "b47931395db0f473b4ac5e28ae3f83daca8f2e8da45e527b956948566f29710e",
+      "pairRasterSha256": "182ea8bd14ac5bceb843b8f765ef293fcfa76fa82e9ce11768071d9090787997"
+    },
+    {
+      "pts": 523523,
+      "time": 17.450766666666667,
+      "index": 23,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000023.png",
+      "sourceGeometryRasterSha256": "a49ffa487871e8ed5611d5d7caae452a2b679d82d1a664055185812cbfeab61b",
+      "replicaGeometryRasterSha256": "0595677fd324c2524586a696fc57d6e26096973f9e81f41606e1508feabafa57",
+      "pairRasterSha256": "de5c4ae129be83f56b78c636856bb7998c2a370f1931b6b118e1d05d8c6ae8e4"
+    },
+    {
+      "pts": 524524,
+      "time": 17.484133333333332,
+      "index": 24,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000024.png",
+      "sourceGeometryRasterSha256": "a8c34bbd3954f6d4f45b5d4ac4ae24ae7e20fbf1eecde56e7c4f5e26518f58c1",
+      "replicaGeometryRasterSha256": "f5b1cb4441401d9a229cc40fe95d0c25a946298c8e63837bd7b12dddde96bf41",
+      "pairRasterSha256": "94c1f0f3ed5bb48f2a2caebf0cb78a2fc4e5a5243cb27930d5d694143d816238"
+    },
+    {
+      "pts": 525525,
+      "time": 17.5175,
+      "index": 25,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000025.png",
+      "sourceGeometryRasterSha256": "f6580a2f7fd69b8e8752679bb6ff72219aa8c12fed27976a9afb83b30ac45a5e",
+      "replicaGeometryRasterSha256": "bf62e532eb2119b0487642cf4068e742550dcd86cb43c6afba08ae3981a60fca",
+      "pairRasterSha256": "14fe5d97e51c6fa76151d63ca5efb3e70a4162493bf6d67d2183e6ccd99eca65"
+    },
+    {
+      "pts": 526526,
+      "time": 17.550866666666668,
+      "index": 26,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000026.png",
+      "sourceGeometryRasterSha256": "5bb1ce3a559fa8fb4951c99da5e9b23667d49ab404109836e4f0e7299f6bc479",
+      "replicaGeometryRasterSha256": "ce89401d114ed3cf82b4877cc904d58eb22307b8e2bee4bae0db2462f2bec065",
+      "pairRasterSha256": "e779ceef89f1505d8968aa15aabbafa8868bfe7216596fbcc46e547b65d55a37"
+    },
+    {
+      "pts": 527527,
+      "time": 17.584233333333334,
+      "index": 27,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000027.png",
+      "sourceGeometryRasterSha256": "d04f08c85472e06e092325a3ba364eb67c747abaa4adf59534be555740f9cc3e",
+      "replicaGeometryRasterSha256": "afe5ac107ad8a6777d1f82b259638d35fb96d35752b05d112fd09721a18e8dec",
+      "pairRasterSha256": "375c451ec850624d40c58edc7977efe2904db1534e6993061ebe5d48199af251"
+    },
+    {
+      "pts": 528528,
+      "time": 17.6176,
+      "index": 28,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000028.png",
+      "sourceGeometryRasterSha256": "01a23ab5b019d832f3c4fc323dea30d6ea42bc2797df720d1486346d6695254d",
+      "replicaGeometryRasterSha256": "b6245b3bdab825221dda6e02e852245aa86cc04e4804dc7094a9791af90bc91e",
+      "pairRasterSha256": "c8d89df02fd48ad6f5673109104880cd38c5fcb82c8b450c21f6c8fdddb572bf"
+    },
+    {
+      "pts": 529529,
+      "time": 17.650966666666665,
+      "index": 29,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000029.png",
+      "sourceGeometryRasterSha256": "9e888828d9dd09ea98bd8fab32c18e5d8289de16e628aed6dffb1a85f9e67c0d",
+      "replicaGeometryRasterSha256": "0b92748238ec90d9296985aa469fa5bce79a870b621fe4282353dfca026110b6",
+      "pairRasterSha256": "71f6197867462b58757dd85b806bad70fdee552d37465b3e0f8b45245885833e"
+    },
+    {
+      "pts": 530530,
+      "time": 17.684333333333335,
+      "index": 30,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000030.png",
+      "sourceGeometryRasterSha256": "16de40fc2ec2660c7dd4b113f0d8c9fc8a8496207fee50ae2e5a1e41ade09734",
+      "replicaGeometryRasterSha256": "d74399cd47aee94e01755b72d5b11f7852aadcb058ad85eff044166dfc41315e",
+      "pairRasterSha256": "a3051215ad0523b2610aa4c61b31c8dd7f4346dcdb7a18d88d22b8844ba36473"
+    },
+    {
+      "pts": 531531,
+      "time": 17.7177,
+      "index": 31,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000031.png",
+      "sourceGeometryRasterSha256": "e90e85c1c03c4347c293b599e917083fbc90778ca16d60566fc618b70cfddea5",
+      "replicaGeometryRasterSha256": "610f603492d75979d8a76921d971c4637558ac7553632e75306d1af37a504de6",
+      "pairRasterSha256": "6dfd78f2c454db6b1d7d4056d42a57239e74e79db3e02cf71382881eacce5762"
+    },
+    {
+      "pts": 532532,
+      "time": 17.751066666666667,
+      "index": 32,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000032.png",
+      "sourceGeometryRasterSha256": "8989cb37f7f58eb73e4148030606445a861798b6a4cd29594e0f7922a96bd5d9",
+      "replicaGeometryRasterSha256": "9889872ebb552ba402d1d9e52a93a60dd068535535761cbc5b0e57c0aa3844b0",
+      "pairRasterSha256": "ad8a93d85a9017b714195ff22a60b478d8c4d3621e18f82f7d97d54451863341"
+    },
+    {
+      "pts": 533533,
+      "time": 17.784433333333332,
+      "index": 33,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000033.png",
+      "sourceGeometryRasterSha256": "badd7febf0a94b0f2f62b059e4e1f80e3e4119f8dbb1f4b3907a2d9632d95941",
+      "replicaGeometryRasterSha256": "a0b19706b5a5020aa117ab25e7f33930828d9eb63ade0bbefbac65c1187289fd",
+      "pairRasterSha256": "ca72eda49cf5b76e767e021d7a1cdb7bb6e8215ea33df817d17bd1091e2e1e1e"
+    },
+    {
+      "pts": 534534,
+      "time": 17.8178,
+      "index": 34,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000034.png",
+      "sourceGeometryRasterSha256": "6159b24282ca80a094380b5ae35e64cf1956b899e7225efdda79e393dd84084c",
+      "replicaGeometryRasterSha256": "572521a15541830b51e59b53922c0a5c90c45123da6d074ac8223018a4fb6988",
+      "pairRasterSha256": "30c96659d020f44ee940dc18584a1bcc226fefca67448fff0ff4c670d397d454"
+    },
+    {
+      "pts": 535535,
+      "time": 17.851166666666668,
+      "index": 35,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000035.png",
+      "sourceGeometryRasterSha256": "9b5dc568b720f05ea7fd915641aa87a17fcb5b9a4130c64c116146768d9b6d11",
+      "replicaGeometryRasterSha256": "b92c5d2e1cfb3899ccc27264bdca8f898ce63938d47a005ba3816510e3955c6f",
+      "pairRasterSha256": "17c979642d477cd68ca82a2ee4b182d5479fcc916d6e0ab1e1655a22004f3204"
+    },
+    {
+      "pts": 536536,
+      "time": 17.884533333333334,
+      "index": 36,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000036.png",
+      "sourceGeometryRasterSha256": "18112cdfe45d35cdccf72b0b13ba8fd6f997b31f89ac5a19471ab6cb2deacf38",
+      "replicaGeometryRasterSha256": "17458b5f46bd73475a1c22b59beadb0169e9ea36bcf02b3b4355107eb67b4a2b",
+      "pairRasterSha256": "e65033ccf94d67aa413801643a2d86b3806b6148cd9fa81a35c3db04394c6e66"
+    },
+    {
+      "pts": 537537,
+      "time": 17.9179,
+      "index": 37,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000037.png",
+      "sourceGeometryRasterSha256": "9c8098447fed6f94598309ec771d528cb3c2d3a124969a25c99f97e6a2b3da38",
+      "replicaGeometryRasterSha256": "1c1c60d2732161c7984d69ac24bf729e69243c9573a83ec41ac7c984717b7dfb",
+      "pairRasterSha256": "b777cfb7bd146ff115562cb6b10eed8593330dc16c47eafca0bf76c990e11a10"
+    },
+    {
+      "pts": 538538,
+      "time": 17.951266666666665,
+      "index": 38,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000038.png",
+      "sourceGeometryRasterSha256": "68914268da6fd8074acebe620e9a2c5d234c5b4f0a0f37683eca5f78fbfd47af",
+      "replicaGeometryRasterSha256": "308848e75619b7a9968f4bf815b8014309cd6fdbce7697c2c39e09ce06be7c75",
+      "pairRasterSha256": "948ea4036cdbaf72095b1a68df6928c5b287d912d55f81380b392866481676e2"
+    },
+    {
+      "pts": 539539,
+      "time": 17.984633333333335,
+      "index": 39,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000039.png",
+      "sourceGeometryRasterSha256": "d0625d7867082597161215a6a63dbe7fabf79c554dc36080e3c0855a2a975b58",
+      "replicaGeometryRasterSha256": "614d85695d909147a992f79baeffb06af5f9030dab239045c405750ff4bca7f9",
+      "pairRasterSha256": "9be2aebe836de59cffb60478eb8517b99db6ba4ae53a375d8c9575f196870cf8"
+    },
+    {
+      "pts": 540540,
+      "time": 18.018,
+      "index": 40,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000040.png",
+      "sourceGeometryRasterSha256": "fd97b6e8ed8bfcbee430252d1ca09425505d3e0e6f5423c3888c2ff6eb1d3e45",
+      "replicaGeometryRasterSha256": "46c3886e899b99359222f9910f3cb344b315ec62ce1db97c92406b5eb041a325",
+      "pairRasterSha256": "c067c9151a3d6b4b5ba60699f087c2ebd19ca30ab283a8606bba0a496bdc8d16"
+    },
+    {
+      "pts": 541541,
+      "time": 18.051366666666667,
+      "index": 41,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000041.png",
+      "sourceGeometryRasterSha256": "9af399b31b590ad805307c9134372a009fe4c62387d616d68b2823d3aad0671e",
+      "replicaGeometryRasterSha256": "5a57c63e60268ed010a5788b0a1b9c363259b14d007547961a9e802b7b689dac",
+      "pairRasterSha256": "1b3e9ba884b74425f8d91e193ca2b88d05c74da28bebc1adbaf1767d7b96f3b8"
+    },
+    {
+      "pts": 542542,
+      "time": 18.084733333333332,
+      "index": 42,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000042.png",
+      "sourceGeometryRasterSha256": "9e0da761fc4599c4ef3d19933cd7139b18f491499111f165fe8feda0312a3064",
+      "replicaGeometryRasterSha256": "e74143d452a6cc4ccbdc8f628ab9577071e5b980a547432e5a7c329eea3d6321",
+      "pairRasterSha256": "3d71e13fd2e129ea9855eeac00af9e646cfe7ccc7218d14db3dbcbd7b27c1d40"
+    },
+    {
+      "pts": 543543,
+      "time": 18.1181,
+      "index": 43,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000043.png",
+      "sourceGeometryRasterSha256": "f7064f9989d1b1d334e6154e64ed1f3959cc0af473770c2fe45cfc8c448b133c",
+      "replicaGeometryRasterSha256": "b5d3a67cefedcc4307aa2b323208b2088f23d67fbcefdda620389a92d092c222",
+      "pairRasterSha256": "198a76df0c5860b1d9c7d6a721afff9aa14b9725baa545035ad85764287ab599"
+    },
+    {
+      "pts": 544544,
+      "time": 18.151466666666668,
+      "index": 44,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000044.png",
+      "sourceGeometryRasterSha256": "edb04dd7c105ab0e4ac376b7cbd79c06cefe4b0c95afd6392475eab8fea81f50",
+      "replicaGeometryRasterSha256": "0fc10d8811a2c78f00bc793642be51db4687f1d7238cb86e23c405a1d5fcdefb",
+      "pairRasterSha256": "bb805920fb2700a9a462f0b60cff354bef24bddceb19ec512d055872aeb118ff"
+    },
+    {
+      "pts": 545545,
+      "time": 18.184833333333334,
+      "index": 45,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000045.png",
+      "sourceGeometryRasterSha256": "ffc796e054ff37617f498052dbe385e54f834636c63847e9b02cf45efb308b9c",
+      "replicaGeometryRasterSha256": "257e5187c98f3df52de4e3245ae3c34710299b4a28365d290332962c15e6b8bd",
+      "pairRasterSha256": "42e4a105787411ec5e072dd84b41c07d3e03d0c04238c5e844b991aa9ac8d79b"
+    },
+    {
+      "pts": 546546,
+      "time": 18.2182,
+      "index": 46,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000046.png",
+      "sourceGeometryRasterSha256": "d29774ee4f0fbb55b40760be672b75a1bd0b005710409242d33f0e39f879e841",
+      "replicaGeometryRasterSha256": "f1d690079f1468a982dab165db34571f1e3fd1b33865e669e145d3fe7208781f",
+      "pairRasterSha256": "9caf00d5590a3ae71c949d2ddc872c2524709724f865e9d744bd4bd38066e2d3"
+    },
+    {
+      "pts": 547547,
+      "time": 18.251566666666665,
+      "index": 47,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000047.png",
+      "sourceGeometryRasterSha256": "1bda4aa18d364041485ec84f6bad6b637280ea62bd0d3daaf18d3e5ad1020523",
+      "replicaGeometryRasterSha256": "0be3c084a9662cce66e5a6ee5639c574497ba3445171989ec267a429d4c49b56",
+      "pairRasterSha256": "f7a0bac988cffbcd5a68e41d20aa75b7fb2f048cfdc279b98f49241b4bba3cc6"
+    },
+    {
+      "pts": 548548,
+      "time": 18.284933333333335,
+      "index": 48,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000048.png",
+      "sourceGeometryRasterSha256": "be4c042b2b93a8fcf7cb9c384e98131bcb97c3a8432c3f9311d1b3a573db7cbc",
+      "replicaGeometryRasterSha256": "42dc465e6c7bb408ec6c12a53b2b611dac362f85036d56c2db13633565708161",
+      "pairRasterSha256": "3ea71be314fb164881341acdf5b0dfeeae0d14e3f74d6738cf5db6f5194732d5"
+    },
+    {
+      "pts": 549549,
+      "time": 18.3183,
+      "index": 49,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000049.png",
+      "sourceGeometryRasterSha256": "96d0fc05c8db11dc29de5d9c9f28c53af1fb45caf98c3bf06f91201bf4eaae7f",
+      "replicaGeometryRasterSha256": "56fc20adf1ec69bb20fd5dfd6d67fb5d3f1b98aa6284897cfff908d7f8f1114b",
+      "pairRasterSha256": "675297a7053023d87defd53900fe61ba890bc185612464090409cdbd94a81601"
+    },
+    {
+      "pts": 550550,
+      "time": 18.351666666666667,
+      "index": 50,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000050.png",
+      "sourceGeometryRasterSha256": "7d734e91dbee4c254699f9e708ec3c7cdb2bd1ee4971eafdc25f8f3e7cc6f757",
+      "replicaGeometryRasterSha256": "8b7b2562468befea9257e34f0294c973cfa557cb3ae504a38fef55a38533f261",
+      "pairRasterSha256": "4ed5a707b67e5006d141e3756d788f6dc82a23d869404a9302370a82f1173ff8"
+    },
+    {
+      "pts": 551551,
+      "time": 18.385033333333332,
+      "index": 51,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000051.png",
+      "sourceGeometryRasterSha256": "087561800911b2b4f94f715389ebfd4da20adeff8e0ecfb98151732169d5b75e",
+      "replicaGeometryRasterSha256": "2c070ae708645a6a25a42c91afcd2baa008fff27651829e4199b812c0505c705",
+      "pairRasterSha256": "69bd04a7407e7f6ea1c0190fa34b1848c44b13fad364ae65f80f271b155502ed"
+    },
+    {
+      "pts": 552552,
+      "time": 18.4184,
+      "index": 52,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000052.png",
+      "sourceGeometryRasterSha256": "0a4b43f6c55ba6479ba6b2ba46ba0bfe6806363a9cb669a411c370f6708d41c8",
+      "replicaGeometryRasterSha256": "f8f8a004beb774351b8d340af348987987bea67e35a233568a9086d6cf93fc46",
+      "pairRasterSha256": "d1450d249ac75525cb4e7270f8b6ea7db14a28fbc96b8cdc7492f8e5b0af6e24"
+    },
+    {
+      "pts": 553553,
+      "time": 18.451766666666668,
+      "index": 53,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000053.png",
+      "sourceGeometryRasterSha256": "c62064c288828901a0a16f19b42f3ee1718b0af3331d61e23c0c20b542b6ca00",
+      "replicaGeometryRasterSha256": "882ade1ea94ea6847cc18ac523025fefdc8f63fa0216cc4b675b89468a99de70",
+      "pairRasterSha256": "70dd0e40e363a7ced5d4090e3160e2552cc35424e01566ab95f4bf40e7136c0c"
+    },
+    {
+      "pts": 554554,
+      "time": 18.485133333333334,
+      "index": 54,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000054.png",
+      "sourceGeometryRasterSha256": "8ed55a80dd37414dd75725b01f7d6d25b2b8b7336f33377208ed3741cff0d7a1",
+      "replicaGeometryRasterSha256": "b4f0da8765b3825d2ca5e2f2480a81e8973b672f2a0dcc11a753237fc5681538",
+      "pairRasterSha256": "9eddd4aa8b1c222d716db9962420f46547d76379f6147716e36e3e1f742295ce"
+    },
+    {
+      "pts": 555555,
+      "time": 18.5185,
+      "index": 55,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000055.png",
+      "sourceGeometryRasterSha256": "e5a405a262144a14af6087201aad2098a01cec0ddbc923bdbe9b1b24bb20cf67",
+      "replicaGeometryRasterSha256": "d4ed25a2cb871749540c8ce2f5702c9053c4e1824ad864d1cf319e24b8deda9a",
+      "pairRasterSha256": "d2770a98027de25c3fd96d4bb7c5a12cd6c43fb4553467832c30e876c4a1695b"
+    },
+    {
+      "pts": 556556,
+      "time": 18.551866666666665,
+      "index": 56,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000056.png",
+      "sourceGeometryRasterSha256": "293422f0d784d63c92bfb64ee5ee17b1c31e0e87b664a464c41e358f0e3ca8e0",
+      "replicaGeometryRasterSha256": "d1bdafa16f3780c22a1a35d932be1f3e32a44ab35a84e49d2618b6fd3441250c",
+      "pairRasterSha256": "f0f1cafc02eaf49c6cf32c2f03bc6ea3e9eac2c3fa5de7fe68fbe5dac80458a5"
+    },
+    {
+      "pts": 557557,
+      "time": 18.585233333333335,
+      "index": 57,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000057.png",
+      "sourceGeometryRasterSha256": "f212c51f4ad815b6da30f226aa5a0019c7d5815312bdb61c0dd739353e1762cf",
+      "replicaGeometryRasterSha256": "f69377aaac42bed1b373b0069d6c45c0b4c0d68379c0ded4938a2fd993d5f8b9",
+      "pairRasterSha256": "64e18590f895c7705e6103a796a92995f9ed67586ad81dfda5489533d9f82152"
+    },
+    {
+      "pts": 558558,
+      "time": 18.6186,
+      "index": 58,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000058.png",
+      "sourceGeometryRasterSha256": "09adad12960463e1519621e05266d95ce45a505e8cac4fce327593fca8459429",
+      "replicaGeometryRasterSha256": "77cf98b355770bffb4279b19ccb9c38b3403ee8fd01a4ca43fb31815f7c552c1",
+      "pairRasterSha256": "5876605e23ce09b04f0bb8246257c8cd5b0c7bd23d49918c76cccb82a0ead9be"
+    },
+    {
+      "pts": 559559,
+      "time": 18.651966666666667,
+      "index": 59,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000059.png",
+      "sourceGeometryRasterSha256": "b2c2d79f3e2c21d96c64f5f06713d676c049226dd93e1151d950b7ca3f198de5",
+      "replicaGeometryRasterSha256": "5fa18f38d71ded4d26f37ecae994a1bafa8f97add18e7b669ec8ceb6323cbc5e",
+      "pairRasterSha256": "45a21ed9ebbd85f58d5ac9e93ba8fbb47053e83db5f3c9698159c24965f1d50c"
+    },
+    {
+      "pts": 560560,
+      "time": 18.685333333333332,
+      "index": 60,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000060.png",
+      "sourceGeometryRasterSha256": "71cab8da1014a7944506dbba1bc8806079e0130c76fc2f8acd3673d7efe5be5b",
+      "replicaGeometryRasterSha256": "996998d123a16c1802d0d2823707eddedd7db218c65223301ffc29f9cbe9fbd0",
+      "pairRasterSha256": "fa919c1d46b9399de113be29812c0fed7efb68ada97b94328599f71512ff08ae"
+    },
+    {
+      "pts": 561561,
+      "time": 18.7187,
+      "index": 61,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000061.png",
+      "sourceGeometryRasterSha256": "b9c04df5a86a7cc8dd81d47e14a8aa5f81681828422a110ac4417b118b7821a8",
+      "replicaGeometryRasterSha256": "3ac1c6471e72347ccd341e43a95072850799a29eaa5b4c3892d09386aeaf1623",
+      "pairRasterSha256": "de41b01c2a356fa624072521c8a12ba899092f93aadb00370bd8749683144b88"
+    },
+    {
+      "pts": 562562,
+      "time": 18.752066666666668,
+      "index": 62,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000062.png",
+      "sourceGeometryRasterSha256": "1d9dcaf90606917854bf9a0c59716a105c06bd3615670ce7810de0018755765f",
+      "replicaGeometryRasterSha256": "4e16a04f3a61635547a19de102ca4d0603d07f7c869703daaf4ba738e3641db0",
+      "pairRasterSha256": "506d74855a41c820937dd0a56de3b1d784ae39fc3a3980582ca586bcc0fed1fb"
+    },
+    {
+      "pts": 563563,
+      "time": 18.785433333333334,
+      "index": 63,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000063.png",
+      "sourceGeometryRasterSha256": "a7b6b07559f258a3c478789ab8eb29b771b08e4c49f8906d490cdb9f88cb87db",
+      "replicaGeometryRasterSha256": "c96512217e1a9efb953f373ee9043f8f69f715b2b15fc672502f0b2a520626e6",
+      "pairRasterSha256": "2063f3d4135fb4a81fd86a41b9b3a175c147956573aeda63bf6cf953716f098b"
+    },
+    {
+      "pts": 564564,
+      "time": 18.8188,
+      "index": 64,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000064.png",
+      "sourceGeometryRasterSha256": "08cc7ce16cb78099b2cf0068dd3fab8dc60e11f32295884b075517df2a318aff",
+      "replicaGeometryRasterSha256": "ea29f1236af7d0d47cf2f3d7d217dcfb0d5fb4cc44ef510b41b2ab2127ef0fc7",
+      "pairRasterSha256": "70eff20698c28a93f8af5fcde7185c1de4fb883414f16a5a0cd30701cef6b9b6"
+    },
+    {
+      "pts": 565565,
+      "time": 18.852166666666665,
+      "index": 65,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000065.png",
+      "sourceGeometryRasterSha256": "5d1dc143b88a2960facd685608aa83a7caaa5716f81000e94ef66e81e2f182db",
+      "replicaGeometryRasterSha256": "c6d41fffa7ee32538baf1f4729b476e227a6464ed723e886aae1fef39bfd2795",
+      "pairRasterSha256": "f2c4ffe9874567f1855bd5a7ac915abc185410c8415bd211b3b3e514bb7728fa"
+    },
+    {
+      "pts": 566566,
+      "time": 18.885533333333335,
+      "index": 66,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000066.png",
+      "sourceGeometryRasterSha256": "b733f6a3874c3a114add47092ec563d33fd08ae7aee00836488ec297c0e3e064",
+      "replicaGeometryRasterSha256": "38b889d8ecd0277b34ce835ea1e5d26b54c013e731255a3ac98a247692e8b2a3",
+      "pairRasterSha256": "597e11a8370623e9bc6ff6fbc0cf0f92251b003207970927b9b08721460d9e02"
+    },
+    {
+      "pts": 567567,
+      "time": 18.9189,
+      "index": 67,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000067.png",
+      "sourceGeometryRasterSha256": "e099a14ffd3310675a214fb2f912a2f071df56b5d9848b3ddbb9adfed7535a99",
+      "replicaGeometryRasterSha256": "476bf3c0054ef109af83b8fad2a460874ae1d3518298189dc480bfbe2271524a",
+      "pairRasterSha256": "eb2c5f655370f541d76991f0695ea20916ed9809d8afde5c2fed5b08f1e9a875"
+    },
+    {
+      "pts": 568568,
+      "time": 18.952266666666667,
+      "index": 68,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000068.png",
+      "sourceGeometryRasterSha256": "eef483e59c82aaff77b076b0b499f620a145176716f105b00f6017bbae4cdb35",
+      "replicaGeometryRasterSha256": "dbc11193e2dce17374b6146364b390064c5e2cf8f286f6cca3fa142ca43f7dc3",
+      "pairRasterSha256": "8628abe65401c325d234f54944c2c3bf0c1ab166a38762fbe5265480870a1391"
+    },
+    {
+      "pts": 569569,
+      "time": 18.985633333333332,
+      "index": 69,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000069.png",
+      "sourceGeometryRasterSha256": "30062133354d71df7008c75a91f23dcd6d749d31dc807d0ea88b47045beaeb01",
+      "replicaGeometryRasterSha256": "0d6b512b0c79c7d717fc691c1dcc797324e2ba9818a425b45025861dda1a1e75",
+      "pairRasterSha256": "4faec6cb028d470225eb89ffc5e901227c7ae8d198d4c5b31216cf2a8adba164"
+    },
+    {
+      "pts": 570570,
+      "time": 19.019,
+      "index": 70,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000070.png",
+      "sourceGeometryRasterSha256": "95814076476a0de4ee59335acdbcc657711f89545480b1b7840bde5d6bece6dd",
+      "replicaGeometryRasterSha256": "94304be8a68d536f7fb6808fe3045269d54239c807ddf6e598772449639e1a97",
+      "pairRasterSha256": "b7c198f5bf5413bb10527bbb9ecf2a5337df81e7d6ad1a7f8b44adb0c68fade8"
+    },
+    {
+      "pts": 571571,
+      "time": 19.052366666666668,
+      "index": 71,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000071.png",
+      "sourceGeometryRasterSha256": "8429e14f53044478db96ba85d991526fa7eaf50dbf8aec369eabca6e36872c42",
+      "replicaGeometryRasterSha256": "4267ffd9762cffe756619cc540f4fa51e1fe962f65e990c736b037093c109027",
+      "pairRasterSha256": "e52d9d6a4b1057063f47fd6d8c98c6cc1c9bb14dd0eda5149d21acba035a6b48"
+    },
+    {
+      "pts": 572572,
+      "time": 19.085733333333334,
+      "index": 72,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000072.png",
+      "sourceGeometryRasterSha256": "ec5b06df02d3a98b14f33abad372f247f66c6afee2f42540bc8b639ded2a08b4",
+      "replicaGeometryRasterSha256": "510a377bf58bfeffa0c2ab01c01209312ad91f3eb808cb1fe1f25bd877e4e784",
+      "pairRasterSha256": "dc26f60cd54f3a982c49a06b200d25de48b0d65f078cac767558fc62a8e83e1b"
+    },
+    {
+      "pts": 573573,
+      "time": 19.1191,
+      "index": 73,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000073.png",
+      "sourceGeometryRasterSha256": "a740bf13018d1ef8f3f55642ba75b2cbf50c233ed7803cae6f028bbdef90c039",
+      "replicaGeometryRasterSha256": "8ed0f0e0d980e64b1bb2afba30bf7d342abb87d8b5fcd44b6d7bcd730400e8a9",
+      "pairRasterSha256": "290a640a9df7bacabc8dca4a92d18aaa3b82584a99971d8a58d4900ef5af3432"
+    },
+    {
+      "pts": 574574,
+      "time": 19.152466666666665,
+      "index": 74,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000074.png",
+      "sourceGeometryRasterSha256": "d50df82574724d412957ca420651b57633ddf78838863e584dafa235c492cc6a",
+      "replicaGeometryRasterSha256": "f52ec6b70322aa2d326dfaf9f97346c4abfd08fd0b1d580699d932f77fb20bd6",
+      "pairRasterSha256": "1067c7f1b34dcdacd2e0c37f0d84d356adc4b99c307678f5076c71883c98761e"
+    },
+    {
+      "pts": 575575,
+      "time": 19.185833333333335,
+      "index": 75,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000075.png",
+      "sourceGeometryRasterSha256": "b2918a108e1a455eba53ef7f956df99e318dce4cbef0da5a92bbb96348334c1e",
+      "replicaGeometryRasterSha256": "43e561cf6473711d806a2554b88cba78e21fa9da843665b9ce527ffa23ed6ccb",
+      "pairRasterSha256": "c3e558e89fe5bb6061c1c930a98240bb6ac819c133ec6332184c6f69111f3cf7"
+    },
+    {
+      "pts": 576576,
+      "time": 19.2192,
+      "index": 76,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000076.png",
+      "sourceGeometryRasterSha256": "57741ad27bff4e08fb714b75a5a226101a4f92befba0ed55ca5a6b89c3c73853",
+      "replicaGeometryRasterSha256": "e5d4b7edcc1655ecbbb97c062d5c7446e63a6fd45f4554ae7f07a8839d52b3cc",
+      "pairRasterSha256": "b6c0d257353825c334ad0845f5e6eca08b621af613e6f150a3f0f84fd13ffce1"
+    },
+    {
+      "pts": 577577,
+      "time": 19.252566666666667,
+      "index": 77,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000077.png",
+      "sourceGeometryRasterSha256": "681c417f4ff0189db3d10e2f9c5d8f57d8e5a438f685a07497823d0f2f497493",
+      "replicaGeometryRasterSha256": "cf0d312ce22d740d34d453685414a8323027d36e50e34869d8be4db60c6068ff",
+      "pairRasterSha256": "2fbe75c6d56213cc4af06c10d30fe3818bde33a8d547875d4619a19b918c2285"
+    },
+    {
+      "pts": 578578,
+      "time": 19.285933333333332,
+      "index": 78,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000078.png",
+      "sourceGeometryRasterSha256": "3bf11e3473346380995c53b4d6f97f2a525fd1f1fb70b8d54ce6293140950f25",
+      "replicaGeometryRasterSha256": "f557bb395acfa630c0296323a0ebb88b52e56173094518ec0010604b3075dbf4",
+      "pairRasterSha256": "3b2de1b7d5db468a876ba6d1d9c9135bc976980a009cd3f81bcad4ded02d4006"
+    },
+    {
+      "pts": 579579,
+      "time": 19.3193,
+      "index": 79,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000079.png",
+      "sourceGeometryRasterSha256": "2c7973d3ef9e3d13c6f93c8482f7d8f5c4df3dbef549ce82e6b8109ce0815497",
+      "replicaGeometryRasterSha256": "8bd9178abbc05e71f1917e6f88d092b667f00c4b1f88b30b723521bbc27f3efb",
+      "pairRasterSha256": "0bf9a329568aa5989597cdd6095d44369b5789077a23893ce85932dc8c3764f5"
+    },
+    {
+      "pts": 580580,
+      "time": 19.352666666666668,
+      "index": 80,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000080.png",
+      "sourceGeometryRasterSha256": "0a82bb4670fb3c3ec07aa2e8c0b94b79d1dcaf95291124bc0beb672dd0177fd4",
+      "replicaGeometryRasterSha256": "af2add3d5ddec89ea8c16a44aa9130752c0e9111a2b079b0b1a52a6791bb7a4a",
+      "pairRasterSha256": "67fb70c3f5faf6c08d032afb144fb2b68ad5164c6b0eae391a19d9e45d4460e3"
+    },
+    {
+      "pts": 581581,
+      "time": 19.386033333333334,
+      "index": 81,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000081.png",
+      "sourceGeometryRasterSha256": "827d699198a0ea646a5a2a910d81bc4624d99610353a42b1639754f9da380506",
+      "replicaGeometryRasterSha256": "76017d7ac438f5866e517a858528ea72c992ef43676aea7aff5898ea7c894b6c",
+      "pairRasterSha256": "c7a37cd99e95e90c7b8772393ec613ce9955d436b49dcc8dfc580a309a9ab89f"
+    },
+    {
+      "pts": 582582,
+      "time": 19.4194,
+      "index": 82,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000082.png",
+      "sourceGeometryRasterSha256": "70d38d495be8ab4fda7e7966fa22e4c03b1c494c1d32286ffbf03e5ac11e0f8c",
+      "replicaGeometryRasterSha256": "2194c5ec554a99db97cca1e66c86a20474974f188b2b7131661b52e31c1fad1d",
+      "pairRasterSha256": "81b0d69577688e1568ec86cf60c4773644956d2a8af1fbb8ce6d5ce96b4ec300"
+    },
+    {
+      "pts": 583583,
+      "time": 19.452766666666665,
+      "index": 83,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000083.png",
+      "sourceGeometryRasterSha256": "b3b00b9a4771d30988c2fbdfd7715c616728473aa5482ea509712f2f2808c0c5",
+      "replicaGeometryRasterSha256": "15d6dc76a6e6121adf30eb176a8885995dc266f08d7bbd43d29ec7caaaa35df4",
+      "pairRasterSha256": "eef269a022c60e23a1a7928533903b2e5e566c93243d256d5363513fe107f8f6"
+    },
+    {
+      "pts": 584584,
+      "time": 19.486133333333335,
+      "index": 84,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000084.png",
+      "sourceGeometryRasterSha256": "5ac2ac5e374c429c40a2bc995bcfd22d116d0e0b167309b22dc817d10eb0dbe9",
+      "replicaGeometryRasterSha256": "93be386a5bb7dbeded6a031b5a61f8abfe18fd98f5a9fcfffb645908ccfc277c",
+      "pairRasterSha256": "fc6a94d88f48e5ad46003faff32bf030adb505e62e86c8d8441aed63f47033fa"
+    },
+    {
+      "pts": 585585,
+      "time": 19.5195,
+      "index": 85,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000085.png",
+      "sourceGeometryRasterSha256": "06b97938c493abcef9ca4fe5fd67eb1633c91b783428a2745e641865b249e3d4",
+      "replicaGeometryRasterSha256": "6cde05da3db067ebd69fe3781197eff9ccd197cc655b73a186e1251213228e01",
+      "pairRasterSha256": "f10e948916b2c199e63042d154fcfefd6eb78e839542860202fbb648193c0915"
+    },
+    {
+      "pts": 586586,
+      "time": 19.552866666666667,
+      "index": 86,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000086.png",
+      "sourceGeometryRasterSha256": "c10479b1115fa136a57c0e47fc8cd5779106b7ac7e348593631c9566bf981dc4",
+      "replicaGeometryRasterSha256": "901c292b56f12823fe29102fb73f2030da8d1e5ae52accc96899b3156e4b6559",
+      "pairRasterSha256": "7bff30b36a2b4677f7ffc8d02e69d9128df0485f5df3af360d00648a0fd862d8"
+    },
+    {
+      "pts": 587587,
+      "time": 19.586233333333332,
+      "index": 87,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000087.png",
+      "sourceGeometryRasterSha256": "a87b2946709a8e03190df41b17d950f4c98f3537df7c7cf0b144d4f024aaa4bb",
+      "replicaGeometryRasterSha256": "29eac39f636ffa147616d08a395b7b7eb6f8b1ef34887700bfd64cdb93f25ec6",
+      "pairRasterSha256": "b19e6c998fe208eab5998364c75bf45f7fff473fd4c825cf3c60a39225ecd98c"
+    },
+    {
+      "pts": 588588,
+      "time": 19.6196,
+      "index": 88,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000088.png",
+      "sourceGeometryRasterSha256": "5cc37f7e12753bd6efdc5c44c6149ebc22d3a91a6bafb37acfa6bf7cb1059f43",
+      "replicaGeometryRasterSha256": "ba4b796bb45bb24dd8631d5386f6afc778d4a21c2e78b6478eaa29003ca2bad0",
+      "pairRasterSha256": "ee837d3567172b0d2771aedb92fae859f3ba6020b61808934e1b44d2791ae1e3"
+    },
+    {
+      "pts": 589589,
+      "time": 19.652966666666668,
+      "index": 89,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000089.png",
+      "sourceGeometryRasterSha256": "468b0d88ba179333b7acfa2395e8c600bda07dfd228a2ec92da4971b25e1c10a",
+      "replicaGeometryRasterSha256": "0c4820d48b70dd0696db06148071e32d877da6a82a9fb16f0d4d5ccd9f85ccc7",
+      "pairRasterSha256": "1f9b9225d3603c8f8678be7c3dbcd6a31748c9364381e14a27ac14213fa5537b"
+    },
+    {
+      "pts": 590590,
+      "time": 19.686333333333334,
+      "index": 90,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000090.png",
+      "sourceGeometryRasterSha256": "b06e5893c1c3c3ffaae87669501cdd8abe66b56894c7b03bc73fa64eef117966",
+      "replicaGeometryRasterSha256": "ee7a1560d4ee51be8b6315af18b0a75e047b406137ce97d6315aaf973ece18da",
+      "pairRasterSha256": "66c1230eafd7fdc0bd4a19f6f9c3a53c28ca66090bd3f301cba23432b0549784"
+    },
+    {
+      "pts": 591591,
+      "time": 19.7197,
+      "index": 91,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000091.png",
+      "sourceGeometryRasterSha256": "26af3af76c71b3d4ce9d79543cc531ae80c61b56674fbcd5c2a184c57dc2864f",
+      "replicaGeometryRasterSha256": "68605318dd9507308d6c10b0fa6961bf416afffdb209308b22825febdab2ddaf",
+      "pairRasterSha256": "12c76fe50872ed94c0f6d02cb0b2bdde24c352eecc2c0f48fdd1da9938639b34"
+    },
+    {
+      "pts": 592592,
+      "time": 19.753066666666665,
+      "index": 92,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000092.png",
+      "sourceGeometryRasterSha256": "45db2a189a276c94d26b8fd3f7a1ac058fdedae7b4828b367ad906a2a6601a87",
+      "replicaGeometryRasterSha256": "32df218f47e8d9c3898a32c0585193f0bb7c5a31cccafd28a42d9f1a600aaf04",
+      "pairRasterSha256": "806bc098dcb945716ce6780feef0e582e9894650356762444feed434652c8f94"
+    },
+    {
+      "pts": 593593,
+      "time": 19.786433333333335,
+      "index": 93,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000093.png",
+      "sourceGeometryRasterSha256": "a145028066c36775d9b3c848a116b24d6fe156013d3589189cab64c2e3ed845b",
+      "replicaGeometryRasterSha256": "5fed735f9a70bb31e015f407758016f82e3aa9f1b4ef2b4c450e0416c4d89b16",
+      "pairRasterSha256": "30fb14eccdbd482d801285020c109eb528975de5a09436b6e5d48943dfccd1a9"
+    },
+    {
+      "pts": 594594,
+      "time": 19.8198,
+      "index": 94,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000094.png",
+      "sourceGeometryRasterSha256": "66bac03e746d73cc46cb2bfa649bf062e40c8bfde04442c58caf9ca884add001",
+      "replicaGeometryRasterSha256": "6dbc7e2cea31de9fdaa7de014104aa979c6f6a8f2b8a65ea7058416a682f0334",
+      "pairRasterSha256": "dbd4ad31b848b5ed1adcdbed5819371b8c9221efd27f984b7c15703cad2f87e3"
+    },
+    {
+      "pts": 595595,
+      "time": 19.853166666666667,
+      "index": 95,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000095.png",
+      "sourceGeometryRasterSha256": "2c9ca07a1f25234d78cc79c8ca1a7e70ae8a6bbf33980ee3fea7334b448eefe4",
+      "replicaGeometryRasterSha256": "8b2fc5337ced7623ead131b477a5118016b34b7780c439e06a9f23c80be4a04b",
+      "pairRasterSha256": "e615737581cc49dffa6892e9c9cc0a2f27a119be089cf3c888f02c12ffb23a64"
+    },
+    {
+      "pts": 596596,
+      "time": 19.886533333333333,
+      "index": 96,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000096.png",
+      "sourceGeometryRasterSha256": "496c4e7eceee566b881a9c27a3a444deff44f584467f268aa97861e6cd8923e1",
+      "replicaGeometryRasterSha256": "06e3af504b101c274310586c4edaba57cdad8f3fdf486b655e7bf152c94dadff",
+      "pairRasterSha256": "95431ef8f1bb50c939305fe4c60eac8c6cfeecccc624e638b0b2fcc5ae452720"
+    },
+    {
+      "pts": 597597,
+      "time": 19.9199,
+      "index": 97,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000097.png",
+      "sourceGeometryRasterSha256": "f976a5c7e333f3adfe4e3476b73d5c019a7f4bd3497a48d6735075869e844579",
+      "replicaGeometryRasterSha256": "d1369f4faf58d8886567f15f609696b8480819fbf6f866518276b5ca63c49d5f",
+      "pairRasterSha256": "909be9925bf5daa43ce978363a5177909f4b51dac5d33705f39761407677fb8b"
+    },
+    {
+      "pts": 598598,
+      "time": 19.953266666666668,
+      "index": 98,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000098.png",
+      "sourceGeometryRasterSha256": "bab8294dcba7c69bc402e7b8703b978f5266913dded5e8e5143696cfb26f27ff",
+      "replicaGeometryRasterSha256": "57dd2d36d522a34f97cb654b11d46a4119690010d7f15bfe772acd2348d41071",
+      "pairRasterSha256": "43297cd849cb61339f8e319625de86cd0e5eba95d8ddfeba2dde38701435e475"
+    },
+    {
+      "pts": 599599,
+      "time": 19.986633333333334,
+      "index": 99,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000099.png",
+      "sourceGeometryRasterSha256": "ecc4ffc9ff0e82663f66ffd62c8c9fe4cc7c3c16ad3f573d120b9476a7a45398",
+      "replicaGeometryRasterSha256": "4955c8566ce4daf4db1637af6b8da5116b24373bdf28038fff1db5bdea8d405c",
+      "pairRasterSha256": "2a74d786d488ae378b7eb0c132a492bfa5bb9fcd7f9d7037125b429266ba598f"
+    },
+    {
+      "pts": 600600,
+      "time": 20.02,
+      "index": 100,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000100.png",
+      "sourceGeometryRasterSha256": "d76a4f995052e05be9ea04871720edbc0fee6d0b1e4f6da86b3c28dd8089b1ac",
+      "replicaGeometryRasterSha256": "2a849fba35c61efd060eb2f0797e57b3e62c75f0a82d0bbcfa81bc8deaabf063",
+      "pairRasterSha256": "10cf985c0501f14304fc17806ab813a4802c456f98a7b6e465657668fde950e1"
+    },
+    {
+      "pts": 601601,
+      "time": 20.053366666666665,
+      "index": 101,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000101.png",
+      "sourceGeometryRasterSha256": "6b9908eee5f11cc884a4e66956a96002d6d532902a23bdcf4d872e444f911d08",
+      "replicaGeometryRasterSha256": "23a69391ebf76898b16c0d4b563de5c0a8f14cfff4bb0b9a6fa6e04001d50a9b",
+      "pairRasterSha256": "ea1530a5882a8033551396674644d0c0e4aeffcf7440d649aad6e11d9a13ec27"
+    },
+    {
+      "pts": 602602,
+      "time": 20.086733333333335,
+      "index": 102,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000102.png",
+      "sourceGeometryRasterSha256": "155640f82e2c3fc1ac9334ddf41ba5fe2976ed3750b262ef4dab9239dad4e63b",
+      "replicaGeometryRasterSha256": "259a196833ba6f2e8d0dd31b9b77450141b9864de434aa903b1e9bd903996768",
+      "pairRasterSha256": "9e780366df3901e787a7cc46cb22f99156d172f72ed7b360952ebdae25d28b37"
+    },
+    {
+      "pts": 603603,
+      "time": 20.1201,
+      "index": 103,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000103.png",
+      "sourceGeometryRasterSha256": "3cf10c2f3d39729fc87ed3c3abc91ee071a906d1dec54da408ef1a9a16200913",
+      "replicaGeometryRasterSha256": "540f4773f28a4a97bf067dea55e5a373f8fe94cbff3a27d7b98e8626de159061",
+      "pairRasterSha256": "b65d45d5aafef910403a7ae178599f8236222c9de40f444ee87f05a45c7b0997"
+    },
+    {
+      "pts": 604604,
+      "time": 20.153466666666667,
+      "index": 104,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000104.png",
+      "sourceGeometryRasterSha256": "e3c7e27a8e47c8b1724dc9b32819ad6e89e7f50419385f6bd70bdbfe91264f81",
+      "replicaGeometryRasterSha256": "d3ad0303e4d50e739e25b83f188cc289c72e3e9049e0e54a2723619b2034237f",
+      "pairRasterSha256": "23051bae1b4fbd1896d4d1e4477a9fef4d6898382210126be12552c5b1e567c4"
+    },
+    {
+      "pts": 605605,
+      "time": 20.186833333333333,
+      "index": 105,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000105.png",
+      "sourceGeometryRasterSha256": "9234f311e39b1f6818a6f9c741266587b1dd066bb7986b896df9182d2cd75c62",
+      "replicaGeometryRasterSha256": "eedbb6575ce44accff68ac8287bf33ebe03018e2824af5828abc9792ea3fba51",
+      "pairRasterSha256": "74c1df28151a3d2bc9d60a2e6b4c9c4c1efcd2a6b8448cafff8e6ebb8b77c002"
+    },
+    {
+      "pts": 606606,
+      "time": 20.2202,
+      "index": 106,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000106.png",
+      "sourceGeometryRasterSha256": "a7363476f9c5ed178715ec3d94c9d0bc77e2c01a691754ece768482cb386310d",
+      "replicaGeometryRasterSha256": "835c576c7745fbd73eca9ade5b89183577915892a3e14cd473989efad271beca",
+      "pairRasterSha256": "ee8ba7b790940b352da129473b0d7124845c455e799abf269b4345d48a275ca4"
+    },
+    {
+      "pts": 607607,
+      "time": 20.253566666666668,
+      "index": 107,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000107.png",
+      "sourceGeometryRasterSha256": "18220a846c16dd8af6fdc7fa0041929fd3b1d5abfbaa11350416cb31e37da4be",
+      "replicaGeometryRasterSha256": "df10e60425eb36e3187eba79f6be450b4e2dd37250ac06a22e71c1d3e105ff5d",
+      "pairRasterSha256": "96c7f731f37ae908ed35e72453136a602207d5fbefcd46f9380ca1557f0144d8"
+    },
+    {
+      "pts": 608608,
+      "time": 20.286933333333334,
+      "index": 108,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000108.png",
+      "sourceGeometryRasterSha256": "a28e1e2e1edb3cedb06208a7aca0fdfd9a3e049d4bac45ffb0d509fcca6335eb",
+      "replicaGeometryRasterSha256": "c0b36dfd33beeb673c57f96d8ef0242f8ec01688358a54997fcc6bbee3a6c690",
+      "pairRasterSha256": "da7953bcdb15ee50e7278879b8f7e89b0a8726f7c295b05d19d8e28fc9256334"
+    },
+    {
+      "pts": 609609,
+      "time": 20.3203,
+      "index": 109,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000109.png",
+      "sourceGeometryRasterSha256": "874145a97b7c57f5cc592e0e0ecdd9c90cbf8ec6ff2638927ebe4378b4be60d7",
+      "replicaGeometryRasterSha256": "75add578a949431492cf61c7f464d0d1c57dcf8525215f4abd09b7d1b5c80da0",
+      "pairRasterSha256": "4542bd3d8dbe976eef7a4c32af99cd6353224196135f8898e181cbfb80118d83"
+    },
+    {
+      "pts": 610610,
+      "time": 20.353666666666665,
+      "index": 110,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000110.png",
+      "sourceGeometryRasterSha256": "1b6dfc9a1d1b35bf2da9c52d1eca3601df7034f02c7d75c8a160475035565459",
+      "replicaGeometryRasterSha256": "c89061d01f76f6d9113c8f4ae36e5bddd331842330594cef0be76364b96ced9d",
+      "pairRasterSha256": "3299be1ed95db113ce10624194040ab8622d9ed7a4469d1e1d43a36718ae478c"
+    },
+    {
+      "pts": 611611,
+      "time": 20.387033333333335,
+      "index": 111,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000111.png",
+      "sourceGeometryRasterSha256": "00c855983e830200c44777f9dae648a3631f6d329521cc87cefe1e6aa5dca0ef",
+      "replicaGeometryRasterSha256": "c4bb4c82d2988633ecb56e42d6c0bb916d7d1e122b30e4255c51bf3c8e25dc40",
+      "pairRasterSha256": "0333636b4558382af058bca0080e2c1bb4eac20d4ff462c7c808dd15f332e347"
+    },
+    {
+      "pts": 612612,
+      "time": 20.4204,
+      "index": 112,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000112.png",
+      "sourceGeometryRasterSha256": "a4cd2485b99a263a741c38c05e4ef271e02dd695db1acee8d81d96ed3e578fb8",
+      "replicaGeometryRasterSha256": "9f7061c7c11f3b6a70c49d4b40e823fdbb4577f5da0029e0ee2663c7c2a9ac01",
+      "pairRasterSha256": "aba4524bb29a0ee11c1934d17d86da9d1868ffa94031223bffbe6a4f0ead0ea0"
+    },
+    {
+      "pts": 613613,
+      "time": 20.453766666666667,
+      "index": 113,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000113.png",
+      "sourceGeometryRasterSha256": "63b73095eda99364980afac1bc878fd38a96da2404f663495f7dd0290d2ba287",
+      "replicaGeometryRasterSha256": "a01248123ec14954bfc367e468ba71f70abc1c59a0149ae8aef61cd36b5a9ac5",
+      "pairRasterSha256": "cfa699f3c49705a77054899d2a3af59473f187bde5d86a0186e6b44f149ffca2"
+    },
+    {
+      "pts": 614614,
+      "time": 20.487133333333333,
+      "index": 114,
+      "duration": 0.03336666666666667,
+      "timeBase": "1/30000",
+      "file": "000114.png",
+      "sourceGeometryRasterSha256": "b4a96152811113c6472c04b8e0bb17939603c79cd6f31758e9a6cebcb67f02c3",
+      "replicaGeometryRasterSha256": "0eba73360273a921bc4e763af41711565aa83b0872997554a9bb3c5245ec79f7",
+      "pairRasterSha256": "bbb526f895397dc9940262a6f3b7e8e228bea325f888c0d9cca60345e3ff9f72"
+    }
+  ],
+  "coverage": {
+    "sourceFrames": 115,
+    "framesWithMeasurements": 115,
+    "minimumMeasuredLines": 9,
+    "rows": [
+      {
+        "pts": 500500,
+        "measuredLines": 13
+      },
+      {
+        "pts": 501501,
+        "measuredLines": 13
+      },
+      {
+        "pts": 502502,
+        "measuredLines": 13
+      },
+      {
+        "pts": 503503,
+        "measuredLines": 13
+      },
+      {
+        "pts": 504504,
+        "measuredLines": 13
+      },
+      {
+        "pts": 505505,
+        "measuredLines": 13
+      },
+      {
+        "pts": 506506,
+        "measuredLines": 13
+      },
+      {
+        "pts": 507507,
+        "measuredLines": 13
+      },
+      {
+        "pts": 508508,
+        "measuredLines": 13
+      },
+      {
+        "pts": 509509,
+        "measuredLines": 13
+      },
+      {
+        "pts": 510510,
+        "measuredLines": 13
+      },
+      {
+        "pts": 511511,
+        "measuredLines": 13
+      },
+      {
+        "pts": 512512,
+        "measuredLines": 13
+      },
+      {
+        "pts": 513513,
+        "measuredLines": 13
+      },
+      {
+        "pts": 514514,
+        "measuredLines": 13
+      },
+      {
+        "pts": 515515,
+        "measuredLines": 13
+      },
+      {
+        "pts": 516516,
+        "measuredLines": 13
+      },
+      {
+        "pts": 517517,
+        "measuredLines": 13
+      },
+      {
+        "pts": 518518,
+        "measuredLines": 13
+      },
+      {
+        "pts": 519519,
+        "measuredLines": 13
+      },
+      {
+        "pts": 520520,
+        "measuredLines": 13
+      },
+      {
+        "pts": 521521,
+        "measuredLines": 13
+      },
+      {
+        "pts": 522522,
+        "measuredLines": 13
+      },
+      {
+        "pts": 523523,
+        "measuredLines": 13
+      },
+      {
+        "pts": 524524,
+        "measuredLines": 13
+      },
+      {
+        "pts": 525525,
+        "measuredLines": 13
+      },
+      {
+        "pts": 526526,
+        "measuredLines": 13
+      },
+      {
+        "pts": 527527,
+        "measuredLines": 13
+      },
+      {
+        "pts": 528528,
+        "measuredLines": 12
+      },
+      {
+        "pts": 529529,
+        "measuredLines": 12
+      },
+      {
+        "pts": 530530,
+        "measuredLines": 11
+      },
+      {
+        "pts": 531531,
+        "measuredLines": 11
+      },
+      {
+        "pts": 532532,
+        "measuredLines": 10
+      },
+      {
+        "pts": 533533,
+        "measuredLines": 10
+      },
+      {
+        "pts": 534534,
+        "measuredLines": 10
+      },
+      {
+        "pts": 535535,
+        "measuredLines": 10
+      },
+      {
+        "pts": 536536,
+        "measuredLines": 9
+      },
+      {
+        "pts": 537537,
+        "measuredLines": 9
+      },
+      {
+        "pts": 538538,
+        "measuredLines": 9
+      },
+      {
+        "pts": 539539,
+        "measuredLines": 9
+      },
+      {
+        "pts": 540540,
+        "measuredLines": 9
+      },
+      {
+        "pts": 541541,
+        "measuredLines": 9
+      },
+      {
+        "pts": 542542,
+        "measuredLines": 9
+      },
+      {
+        "pts": 543543,
+        "measuredLines": 9
+      },
+      {
+        "pts": 544544,
+        "measuredLines": 9
+      },
+      {
+        "pts": 545545,
+        "measuredLines": 9
+      },
+      {
+        "pts": 546546,
+        "measuredLines": 9
+      },
+      {
+        "pts": 547547,
+        "measuredLines": 9
+      },
+      {
+        "pts": 548548,
+        "measuredLines": 9
+      },
+      {
+        "pts": 549549,
+        "measuredLines": 9
+      },
+      {
+        "pts": 550550,
+        "measuredLines": 9
+      },
+      {
+        "pts": 551551,
+        "measuredLines": 9
+      },
+      {
+        "pts": 552552,
+        "measuredLines": 9
+      },
+      {
+        "pts": 553553,
+        "measuredLines": 9
+      },
+      {
+        "pts": 554554,
+        "measuredLines": 9
+      },
+      {
+        "pts": 555555,
+        "measuredLines": 9
+      },
+      {
+        "pts": 556556,
+        "measuredLines": 9
+      },
+      {
+        "pts": 557557,
+        "measuredLines": 9
+      },
+      {
+        "pts": 558558,
+        "measuredLines": 9
+      },
+      {
+        "pts": 559559,
+        "measuredLines": 9
+      },
+      {
+        "pts": 560560,
+        "measuredLines": 9
+      },
+      {
+        "pts": 561561,
+        "measuredLines": 9
+      },
+      {
+        "pts": 562562,
+        "measuredLines": 9
+      },
+      {
+        "pts": 563563,
+        "measuredLines": 9
+      },
+      {
+        "pts": 564564,
+        "measuredLines": 9
+      },
+      {
+        "pts": 565565,
+        "measuredLines": 9
+      },
+      {
+        "pts": 566566,
+        "measuredLines": 9
+      },
+      {
+        "pts": 567567,
+        "measuredLines": 9
+      },
+      {
+        "pts": 568568,
+        "measuredLines": 9
+      },
+      {
+        "pts": 569569,
+        "measuredLines": 9
+      },
+      {
+        "pts": 570570,
+        "measuredLines": 9
+      },
+      {
+        "pts": 571571,
+        "measuredLines": 9
+      },
+      {
+        "pts": 572572,
+        "measuredLines": 9
+      },
+      {
+        "pts": 573573,
+        "measuredLines": 9
+      },
+      {
+        "pts": 574574,
+        "measuredLines": 9
+      },
+      {
+        "pts": 575575,
+        "measuredLines": 9
+      },
+      {
+        "pts": 576576,
+        "measuredLines": 9
+      },
+      {
+        "pts": 577577,
+        "measuredLines": 9
+      },
+      {
+        "pts": 578578,
+        "measuredLines": 9
+      },
+      {
+        "pts": 579579,
+        "measuredLines": 9
+      },
+      {
+        "pts": 580580,
+        "measuredLines": 9
+      },
+      {
+        "pts": 581581,
+        "measuredLines": 9
+      },
+      {
+        "pts": 582582,
+        "measuredLines": 9
+      },
+      {
+        "pts": 583583,
+        "measuredLines": 9
+      },
+      {
+        "pts": 584584,
+        "measuredLines": 9
+      },
+      {
+        "pts": 585585,
+        "measuredLines": 9
+      },
+      {
+        "pts": 586586,
+        "measuredLines": 9
+      },
+      {
+        "pts": 587587,
+        "measuredLines": 9
+      },
+      {
+        "pts": 588588,
+        "measuredLines": 9
+      },
+      {
+        "pts": 589589,
+        "measuredLines": 9
+      },
+      {
+        "pts": 590590,
+        "measuredLines": 9
+      },
+      {
+        "pts": 591591,
+        "measuredLines": 9
+      },
+      {
+        "pts": 592592,
+        "measuredLines": 9
+      },
+      {
+        "pts": 593593,
+        "measuredLines": 9
+      },
+      {
+        "pts": 594594,
+        "measuredLines": 9
+      },
+      {
+        "pts": 595595,
+        "measuredLines": 9
+      },
+      {
+        "pts": 596596,
+        "measuredLines": 9
+      },
+      {
+        "pts": 597597,
+        "measuredLines": 9
+      },
+      {
+        "pts": 598598,
+        "measuredLines": 9
+      },
+      {
+        "pts": 599599,
+        "measuredLines": 9
+      },
+      {
+        "pts": 600600,
+        "measuredLines": 9
+      },
+      {
+        "pts": 601601,
+        "measuredLines": 9
+      },
+      {
+        "pts": 602602,
+        "measuredLines": 9
+      },
+      {
+        "pts": 603603,
+        "measuredLines": 9
+      },
+      {
+        "pts": 604604,
+        "measuredLines": 9
+      },
+      {
+        "pts": 605605,
+        "measuredLines": 9
+      },
+      {
+        "pts": 606606,
+        "measuredLines": 9
+      },
+      {
+        "pts": 607607,
+        "measuredLines": 9
+      },
+      {
+        "pts": 608608,
+        "measuredLines": 9
+      },
+      {
+        "pts": 609609,
+        "measuredLines": 9
+      },
+      {
+        "pts": 610610,
+        "measuredLines": 9
+      },
+      {
+        "pts": 611611,
+        "measuredLines": 9
+      },
+      {
+        "pts": 612612,
+        "measuredLines": 9
+      },
+      {
+        "pts": 613613,
+        "measuredLines": 9
+      },
+      {
+        "pts": 614614,
+        "measuredLines": 9
+      }
+    ]
+  },
+  "keyframes": [
+    {
+      "pts": 500500,
+      "time": 16.683333333333334,
+      "file": "paired-keyframes/500500.png"
+    },
+    {
+      "pts": 510510,
+      "time": 17.017,
+      "file": "paired-keyframes/510510.png"
+    },
+    {
+      "pts": 521521,
+      "time": 17.384033333333335,
+      "file": "paired-keyframes/521521.png"
+    },
+    {
+      "pts": 531531,
+      "time": 17.7177,
+      "file": "paired-keyframes/531531.png"
+    },
+    {
+      "pts": 541541,
+      "time": 18.051366666666667,
+      "file": "paired-keyframes/541541.png"
+    },
+    {
+      "pts": 552552,
+      "time": 18.4184,
+      "file": "paired-keyframes/552552.png"
+    },
+    {
+      "pts": 562562,
+      "time": 18.752066666666668,
+      "file": "paired-keyframes/562562.png"
+    },
+    {
+      "pts": 573573,
+      "time": 19.1191,
+      "file": "paired-keyframes/573573.png"
+    },
+    {
+      "pts": 583583,
+      "time": 19.452766666666665,
+      "file": "paired-keyframes/583583.png"
+    },
+    {
+      "pts": 593593,
+      "time": 19.786433333333335,
+      "file": "paired-keyframes/593593.png"
+    },
+    {
+      "pts": 604604,
+      "time": 20.153466666666667,
+      "file": "paired-keyframes/604604.png"
+    },
+    {
+      "pts": 614614,
+      "time": 20.487133333333333,
+      "file": "paired-keyframes/614614.png"
+    }
+  ],
+  "evaluation": "All-point reconstruction residuals; no independent held-out validation is claimed",
+  "geometry": {
+    "all": {
+      "observations": 1495,
+      "fields": {
+        "x": {
+          "count": 1161,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "y": {
+          "count": 1161,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "w": {
+          "count": 1161,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "h": {
+          "count": 1161,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "bottom": {
+          "count": 1161,
+          "mae": 3.769976961483391e-15,
+          "rmse": 1.8651728599132814e-14,
+          "maxAbsolute": 1.1368683772161603e-13,
+          "p95Absolute": 0
+        },
+        "opacity": {
+          "count": 0,
+          "mae": null,
+          "rmse": null,
+          "maxAbsolute": null,
+          "p95Absolute": null
+        },
+        "scale": {
+          "count": 0,
+          "mae": null,
+          "rmse": null,
+          "maxAbsolute": null,
+          "p95Absolute": null
+        },
+        "highlight": {
+          "count": 0,
+          "mae": null,
+          "rmse": null,
+          "maxAbsolute": null,
+          "p95Absolute": null
+        }
+      }
+    },
+    "calibration": {
+      "observations": 1495,
+      "fields": {
+        "x": {
+          "count": 1161,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "y": {
+          "count": 1161,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "w": {
+          "count": 1161,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "h": {
+          "count": 1161,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "bottom": {
+          "count": 1161,
+          "mae": 3.769976961483391e-15,
+          "rmse": 1.8651728599132814e-14,
+          "maxAbsolute": 1.1368683772161603e-13,
+          "p95Absolute": 0
+        },
+        "opacity": {
+          "count": 0,
+          "mae": null,
+          "rmse": null,
+          "maxAbsolute": null,
+          "p95Absolute": null
+        },
+        "scale": {
+          "count": 0,
+          "mae": null,
+          "rmse": null,
+          "maxAbsolute": null,
+          "p95Absolute": null
+        },
+        "highlight": {
+          "count": 0,
+          "mae": null,
+          "rmse": null,
+          "maxAbsolute": null,
+          "p95Absolute": null
+        }
+      }
+    }
+  },
+  "geometryByLine": {
+    "A1": {
+      "x": {
+        "count": 28,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "y": {
+        "count": 28,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "w": {
+        "count": 28,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "h": {
+        "count": 28,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "bottom": {
+        "count": 28,
+        "mae": 1.2180732613030288e-14,
+        "rmse": 2.6313389860563104e-14,
+        "maxAbsolute": 5.684341886080802e-14,
+        "p95Absolute": 5.684341886080802e-14
+      },
+      "opacity": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "scale": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "highlight": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      }
+    },
+    "A2": {
+      "x": {
+        "count": 30,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "y": {
+        "count": 30,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "w": {
+        "count": 30,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "h": {
+        "count": 30,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "bottom": {
+        "count": 30,
+        "mae": 1.8947806286936005e-15,
+        "rmse": 1.0378140918593053e-14,
+        "maxAbsolute": 5.684341886080802e-14,
+        "p95Absolute": 0
+      },
+      "opacity": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "scale": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "highlight": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      }
+    },
+    "A3": {
+      "x": {
+        "count": 32,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "y": {
+        "count": 32,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "w": {
+        "count": 32,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "h": {
+        "count": 32,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "bottom": {
+        "count": 32,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "opacity": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "scale": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "highlight": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      }
+    },
+    "A4": {
+      "x": {
+        "count": 36,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "y": {
+        "count": 36,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "w": {
+        "count": 36,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "h": {
+        "count": 36,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "bottom": {
+        "count": 36,
+        "mae": 1.578983857244667e-15,
+        "rmse": 9.473903143468002e-15,
+        "maxAbsolute": 5.684341886080802e-14,
+        "p95Absolute": 0
+      },
+      "opacity": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "scale": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "highlight": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      }
+    },
+    "B1": {
+      "x": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "y": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "w": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "h": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "bottom": {
+        "count": 115,
+        "mae": 1.0380102574582333e-14,
+        "rmse": 2.4290749648068404e-14,
+        "maxAbsolute": 5.684341886080802e-14,
+        "p95Absolute": 5.684341886080802e-14
+      },
+      "opacity": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "scale": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "highlight": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      }
+    },
+    "B2": {
+      "x": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "y": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "w": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "h": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "bottom": {
+        "count": 115,
+        "mae": 4.942905987896349e-15,
+        "rmse": 2.3705344353524512e-14,
+        "maxAbsolute": 1.1368683772161603e-13,
+        "p95Absolute": 0
+      },
+      "opacity": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "scale": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "highlight": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      }
+    },
+    "B3": {
+      "x": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "y": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "w": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "h": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "bottom": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "opacity": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "scale": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "highlight": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      }
+    },
+    "B4": {
+      "x": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "y": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "w": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "h": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "bottom": {
+        "count": 115,
+        "mae": 9.885811975792698e-16,
+        "rmse": 1.0601352280904323e-14,
+        "maxAbsolute": 1.1368683772161603e-13,
+        "p95Absolute": 0
+      },
+      "opacity": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "scale": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "highlight": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      }
+    },
+    "C1": {
+      "x": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "y": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "w": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "h": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "bottom": {
+        "count": 115,
+        "mae": 9.885811975792698e-16,
+        "rmse": 1.0601352280904323e-14,
+        "maxAbsolute": 1.1368683772161603e-13,
+        "p95Absolute": 0
+      },
+      "opacity": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "scale": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "highlight": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      }
+    },
+    "C2": {
+      "x": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "y": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "w": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "h": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "bottom": {
+        "count": 115,
+        "mae": 1.6805880358847588e-14,
+        "rmse": 4.371049522855123e-14,
+        "maxAbsolute": 1.1368683772161603e-13,
+        "p95Absolute": 1.1368683772161603e-13
+      },
+      "opacity": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "scale": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "highlight": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      }
+    },
+    "C3": {
+      "x": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "y": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "w": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "h": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "bottom": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "opacity": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "scale": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "highlight": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      }
+    },
+    "D1": {
+      "x": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "y": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "w": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "h": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "bottom": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "opacity": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "scale": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "highlight": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      }
+    },
+    "D2": {
+      "x": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "y": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "w": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "h": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "bottom": {
+        "count": 115,
+        "mae": 0,
+        "rmse": 0,
+        "maxAbsolute": 0,
+        "p95Absolute": 0
+      },
+      "opacity": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "scale": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      },
+      "highlight": {
+        "count": 0,
+        "mae": null,
+        "rmse": null,
+        "maxAbsolute": null,
+        "p95Absolute": null
+      }
+    }
+  },
+  "splitValidation": {
+    "holdoutObservations": 0,
+    "holdoutUsedAsKnots": [],
+    "calibrationAvailable": true
+  },
+  "pixels": {
+    "method": "Both panels re-rendered from boxes using identical colors before per-channel RGB MAE; this is geometric proxy error, not source-image or perceptual similarity",
+    "meanFrameMAE": 0
+  },
+  "limitations": [
+    "Source panel is a neutral geometric proxy. It preserves only independently recorded positions and box dimensions, not the original Apple typography, UI, blur, colors or lyric text.",
+    "Only lines observed at the exact frame PTS are drawn and compared. Empty source panels indicate unavailable measurements, never a perfect match.",
+    "Template-box bottom is a proxy, not an identified font baseline. Template x, width and height are fixed seeds; their zero residuals do not establish independent accuracy.",
+    "Offline media verifies deterministic shared-core output and native timing, not browser appearance, event wiring or native Apple implementation.",
+    "Replacement original prose has different glyph widths; the normal UI preview is not a song-lyric facsimile.",
+    "Residuals to calibration knots are reconstruction residuals; independent accuracy requires separate withheld data.",
+    "GIF time is rounded to centiseconds; silent MP4 preserves the source frame cadence."
+  ],
+  "copyright": "No source video, source raster, readable song lyrics, original album artwork or audio is copied into these deliverables.",
+  "outputs": {
+    "COMPARISON.md": "80654ccc8f5ccb72912c8c89bd496d216fe799db03b03c803222fd6532be23d5",
+    "geometric-raster-differences.csv": "8de8e5b7facc34891ec2d996622fa1de35a0fadea72670ea6c5f872bee393c8b",
+    "geometry-residuals.csv": "26ab4bae525c4fad7db135fcefd3fd17f695df4213a8f861d10a01ecc7034f91",
+    "geometry-residuals.json": "a1e57b4f3ae44dafda7fb31bfbc64817fbeba6190436e85de733e7faae72f234",
+    "paired-keyframes/500500.png": "361935021ade6cb6467ecfe2c6feae26f82d7adf978a1c8d086adef1aba59a0b",
+    "paired-keyframes/510510.png": "6ac351406e3adabd091b8cbf5976b55f926bbfc30773dd5f498366380c292d94",
+    "paired-keyframes/521521.png": "037a6c2c0ef1064d0b3605af4e57460ff940dde7c678e8218f8814337cd641e2",
+    "paired-keyframes/531531.png": "6dfd78f2c454db6b1d7d4056d42a57239e74e79db3e02cf71382881eacce5762",
+    "paired-keyframes/541541.png": "1b3e9ba884b74425f8d91e193ca2b88d05c74da28bebc1adbaf1767d7b96f3b8",
+    "paired-keyframes/552552.png": "d1450d249ac75525cb4e7270f8b6ea7db14a28fbc96b8cdc7492f8e5b0af6e24",
+    "paired-keyframes/562562.png": "506d74855a41c820937dd0a56de3b1d784ae39fc3a3980582ca586bcc0fed1fb",
+    "paired-keyframes/573573.png": "290a640a9df7bacabc8dca4a92d18aaa3b82584a99971d8a58d4900ef5af3432",
+    "paired-keyframes/583583.png": "eef269a022c60e23a1a7928533903b2e5e566c93243d256d5363513fe107f8f6",
+    "paired-keyframes/593593.png": "30fb14eccdbd482d801285020c109eb528975de5a09436b6e5d48943dfccd1a9",
+    "paired-keyframes/604604.png": "23051bae1b4fbd1896d4d1e4477a9fef4d6898382210126be12552c5b1e567c4",
+    "paired-keyframes/614614.png": "bbb526f895397dc9940262a6f3b7e8e228bea325f888c0d9cca60345e3ff9f72",
+    "paired-keyframes.png": "21659091ff7a54e2d7b5202e104367d2398b6df4f0d1991b74f14daf7a8ce546",
+    "source-vs-replica-geometry.gif": "d1b133c3363532bf184dcf0141be2925cbaa5748a47c6db66c81d5ad070381ba",
+    "source-vs-replica-geometry.mp4": "da9ad57c2cc37fb3f06c93a6734b34943e6ccc3ecd0b240dc559b3a4e3053ecb"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "source": {
+    "title": "How to Use Apple Music Sing",
+    "url": "https://tv.apple.com/us/movie/how-to-use-apple-music-sing/umc.cmc.3xdggtxhj5zdymvim87orptzm",
+    "releaseDate": "2023-01-19",
+    "width": 1920,
+    "height": 1080,
+    "crop": {
+      "x": 1240,
+      "y": 78,
+      "width": 438,
+      "height": 926
+    },
+    "fps": "30000/1001",
+    "timeBase": "1/30000",
+    "sha256": "e5769cae0b17e66f8266c0fb6feebab8b0ef46e9348c7d46c7a22a316d33e9e3",
+    "start": 16.683333333333334,
+    "end": 20.487133333333333,
+    "endExclusive": 20.5205,
+    "nativeFrameIntervalSeconds": 0.03336666666666667,
+    "versionLimit": "Official tutorial published January 2023; iPhone14Pro-style editorial screen. Exact OS/app build unknown."
+  },
+  "events": [
+    {
+      "block_id": "A",
+      "onsetThresholdPx": 2,
+      "onsetBracketSeconds": [
+        17.450766666666667,
+        17.484133333333332
+      ],
+      "firstDetectedSourceFrame": 524,
+      "physicalRows": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "nativeFrameResolutionSeconds": 0.03336666666666667,
+      "settling": "unmeasurable: outgoing rows become occluded by header before finish",
+      "overshoot": "unmeasurable after occlusion"
+    },
+    {
+      "block_id": "B",
+      "onsetThresholdPx": 2,
+      "onsetBracketSeconds": [
+        17.5175,
+        17.550866666666668
+      ],
+      "firstDetectedSourceFrame": 526,
+      "physicalRows": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "nativeFrameResolutionSeconds": 0.03336666666666667,
+      "steadyDisplacementPx": -202.26479556860116,
+      "steadyReferenceLocalFrames": [
+        200,
+        210
+      ],
+      "overshootPx": 4.028199869229496,
+      "minimumAtSeconds": 18.1181,
+      "minimumSourceFrame": 543,
+      "settlingTolerancePx": 2,
+      "settlingBracketSeconds": [
+        18.284933333333335,
+        18.3183
+      ],
+      "observedSettlingDurationBoundsSeconds": [
+        0.7340666666666671,
+        0.8008000000000024
+      ],
+      "settlingDefinition": "All remaining observed samples through frame210 within +/-2px of median steady offset; not exact zero velocity"
+    },
+    {
+      "block_id": "C",
+      "onsetThresholdPx": 2,
+      "onsetBracketSeconds": [
+        17.550866666666668,
+        17.584233333333334
+      ],
+      "firstDetectedSourceFrame": 527,
+      "physicalRows": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "nativeFrameResolutionSeconds": 0.03336666666666667,
+      "steadyDisplacementPx": -202.96810336490387,
+      "steadyReferenceLocalFrames": [
+        200,
+        210
+      ],
+      "overshootPx": 4.042310149887612,
+      "minimumAtSeconds": 18.184833333333334,
+      "minimumSourceFrame": 545,
+      "settlingTolerancePx": 2,
+      "settlingBracketSeconds": [
+        18.3183,
+        18.351666666666667
+      ],
+      "observedSettlingDurationBoundsSeconds": [
+        0.7340666666666671,
+        0.8007999999999988
+      ],
+      "settlingDefinition": "All remaining observed samples through frame210 within +/-2px of median steady offset; not exact zero velocity"
+    },
+    {
+      "block_id": "D",
+      "onsetThresholdPx": 2,
+      "onsetBracketSeconds": [
+        17.6176,
+        17.650966666666665
+      ],
+      "firstDetectedSourceFrame": 529,
+      "physicalRows": [
+        "D1",
+        "D2"
+      ],
+      "nativeFrameResolutionSeconds": 0.03336666666666667,
+      "steadyDisplacementPx": -203.0208230154633,
+      "steadyReferenceLocalFrames": [
+        200,
+        210
+      ],
+      "overshootPx": 4.059449736236445,
+      "minimumAtSeconds": 18.2182,
+      "minimumSourceFrame": 546,
+      "settlingTolerancePx": 2,
+      "settlingBracketSeconds": [
+        18.351666666666667,
+        18.385033333333332
+      ],
+      "observedSettlingDurationBoundsSeconds": [
+        0.7007000000000012,
+        0.767433333333333
+      ],
+      "settlingDefinition": "All remaining observed samples through frame210 within +/-2px of median steady offset; not exact zero velocity"
+    }
+  ],
+  "alternateSeedChecks": [
+    {
+      "line_id": "B1",
+      "max_alternate_seed_disagreement_px": 0.14739497478109342,
+      "motion_window_max_disagreement_px": 0.08267990334724118
+    },
+    {
+      "line_id": "B2",
+      "max_alternate_seed_disagreement_px": 0.14202703426161634,
+      "motion_window_max_disagreement_px": 0.14202703426161634
+    },
+    {
+      "line_id": "B3",
+      "max_alternate_seed_disagreement_px": 0.09293925467437703,
+      "motion_window_max_disagreement_px": 0.09293925467437703
+    },
+    {
+      "line_id": "B4",
+      "max_alternate_seed_disagreement_px": 0.13075708283201948,
+      "motion_window_max_disagreement_px": 0.13075708283201948
+    },
+    {
+      "line_id": "C1",
+      "max_alternate_seed_disagreement_px": 0.13557963332414147,
+      "motion_window_max_disagreement_px": 0.13557963332414147
+    },
+    {
+      "line_id": "C2",
+      "max_alternate_seed_disagreement_px": 0.14913416277966007,
+      "motion_window_max_disagreement_px": 0.08209790909450021
+    },
+    {
+      "line_id": "C3",
+      "max_alternate_seed_disagreement_px": 0.1588170071815398,
+      "motion_window_max_disagreement_px": 0.1588170071815398
+    },
+    {
+      "line_id": "D1",
+      "max_alternate_seed_disagreement_px": 1.0449039047327915,
+      "motion_window_max_disagreement_px": 1.0449039047327915
+    },
+    {
+      "line_id": "D2",
+      "max_alternate_seed_disagreement_px": 0.49048474635316097,
+      "motion_window_max_disagreement_px": 0.4529453012649469
+    }
+  ],
+  "importantFindings": [
+    "There is a delayed cascade between lyric blocks. Wrapped physical sublines inside a block do not show separately resolvable large onset staggers at29.97fps.",
+    "B physical rows do not behave as a perfectly rigid block: relative glyph offsets spread by roughly4px from first to fourth row during activation. Font/scale/internal layout is not uniquely identified.",
+    "C provides the clearest small overshoot: about4px beyond the eventual offset followed by a return. This does not identify Apple spring constants.",
+    "Outgoing A is clipped/hidden by the header; its final path is unknown and must not be filled in as measured data."
+  ],
+  "modelFit": null
+}

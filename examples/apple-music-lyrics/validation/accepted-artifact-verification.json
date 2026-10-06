@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "previewManifestSha256": "75234ea09654b99db8c5556951ed466a53dabd8f97762ff425e803a684e76e19",
+  "comparisonBinding": {
+    "comparisonManifestSha256": "6f7d790e55c1e4b5b797e5a60f8b60b817a660154c3e32d9d4a83ab086a142ad",
+    "sourceSha256": "e5769cae0b17e66f8266c0fb6feebab8b0ef46e9348c7d46c7a22a316d33e9e3",
+    "coverage": 115
+  },
+  "core": {
+    "src/app.js": "d2fb1549765b96e4de66ebcc99e1c1aadaace7ff444da5925af4a17b5a00035d",
+    "src/calibration-data.js": "9167faa5b83e7651e463c88e21f19a92e17ea274d901677195e600076760cfdf",
+    "src/motion.js": "33c241b9946440889b9821704f755eceaa4ca11cee95c5f95f875fceb43987b8",
+    "src/scene.js": "d8ef0fb03accb37630ee3800d36c19ca1e5274e87976ef786e22689b87e94060",
+    "src/server.cjs": "4be117d05ff74bc50250aec3c1a1719f07a903aee6eee8707f16ee6805dd86d5",
+    "assets/fonts.conf": "97773f260dbfc2fd8ae9bd62cf5d8c3e7d6e7cb609c31c8b9859889553f4f863",
+    "assets/Inter-Bold.ttf": "9448d013c563678be3915aebc9c75558220eb8c1ed7edb589bafff40c41e6902",
+    "assets/Inter-LICENSE.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+    "assets/Inter-Regular.ttf": "eb56a2a9fa2302667fc02cdd5261d19850c73d9057a41c34f441aa2d544c27d3"
+  },
+  "sharedSceneSvgFramesVerified": 115,
+  "deterministicRasterChecks": [
+    {
+      "pts": 500500,
+      "sha256": "0ec536f967f89c9bf38f6426e268a7999de04cd0d2967affe297e21fcd4bce4b"
+    },
+    {
+      "pts": 557557,
+      "sha256": "115cd1245a6fd664c29763b628602af1c46ab2d2f4975ce7e32fcb8ebb86cdcd"
+    },
+    {
+      "pts": 614614,
+      "sha256": "8ff8c031593c3b25b9e98a8f9f8a7cebcb48e37619a858d98fd928be5cdf619a"
+    }
+  ],
+  "mediaChecks": [
+    {
+      "file": "preview/loop.mp4",
+      "decodedFrameCount": 115,
+      "audioStreams": 0,
+      "durationSeconds": 3.837167
+    },
+    {
+      "file": "preview/loop.gif",
+      "decodedFrameCount": 115,
+      "audioStreams": 0,
+      "durationSeconds": 3.83
+    },
+    {
+      "file": "source-vs-replica-geometry.mp4",
+      "decodedFrameCount": 115,
+      "audioStreams": 0,
+      "durationSeconds": 3.837167
+    },
+    {
+      "file": "source-vs-replica-geometry.gif",
+      "decodedFrameCount": 115,
+      "audioStreams": 0,
+      "durationSeconds": 3.83
+    }
+  ],
+  "sourceMediaBytesPresent": false,
+  "scope": "Offline deterministic SVG/PNG checks and complete MP4/GIF media decode. This does not verify browser events or claim pixel identity with Apple source.",
+  "verifierSha256": "51c58a18781f307987cc88eafa56656a54add161fc7e5423b609ca150a31431b"
+}

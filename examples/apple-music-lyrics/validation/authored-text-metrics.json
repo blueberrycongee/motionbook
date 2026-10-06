@@ -1,0 +1,136 @@
+{
+  "method": "Untransformed bundled Inter glyph alpha bounding interval in shared Sharp/librsvg renderer, threshold alpha>0. Browser font raster may differ by antialiasing; explicit affine x scale is supported in both.",
+  "fontSha256": "9448d013c563678be3915aebc9c75558220eb8c1ed7edb589bafff40c41e6902",
+  "rows": {
+    "A1": {
+      "text": "Let this line rise",
+      "fontSize": 36,
+      "weight": 700,
+      "inkLeft": 2,
+      "inkRight": 275,
+      "inkWidth": 273,
+      "inkTop": -28,
+      "inkBottom": 1
+    },
+    "A2": {
+      "text": "into focus,",
+      "fontSize": 36,
+      "weight": 700,
+      "inkLeft": 2,
+      "inkRight": 184,
+      "inkWidth": 182,
+      "inkTop": -28,
+      "inkBottom": 7
+    },
+    "A3": {
+      "text": "then let the page",
+      "fontSize": 36,
+      "weight": 700,
+      "inkLeft": 0,
+      "inkRight": 294,
+      "inkWidth": 294,
+      "inkTop": -27,
+      "inkBottom": 8
+    },
+    "A4": {
+      "text": "go",
+      "fontSize": 36,
+      "weight": 700,
+      "inkLeft": 1,
+      "inkRight": 44,
+      "inkWidth": 43,
+      "inkTop": -20,
+      "inkBottom": 8
+    },
+    "B1": {
+      "text": "One line",
+      "fontSize": 36,
+      "weight": 700,
+      "inkLeft": 1,
+      "inkRight": 143,
+      "inkWidth": 142,
+      "inkTop": -28,
+      "inkBottom": 1
+    },
+    "B2": {
+      "text": "moves into view",
+      "fontSize": 36,
+      "weight": 700,
+      "inkLeft": 2,
+      "inkRight": 284,
+      "inkWidth": 282,
+      "inkTop": -28,
+      "inkBottom": 1
+    },
+    "B3": {
+      "text": "and holds focus",
+      "fontSize": 36,
+      "weight": 700,
+      "inkLeft": 1,
+      "inkRight": 279,
+      "inkWidth": 278,
+      "inkTop": -28,
+      "inkBottom": 1
+    },
+    "B4": {
+      "text": "for a moment",
+      "fontSize": 36,
+      "weight": 700,
+      "inkLeft": 0,
+      "inkRight": 233,
+      "inkWidth": 233,
+      "inkTop": -28,
+      "inkBottom": 1
+    },
+    "C1": {
+      "text": "Keep a little room",
+      "fontSize": 36,
+      "weight": 700,
+      "inkLeft": 2,
+      "inkRight": 302,
+      "inkWidth": 300,
+      "inkTop": -28,
+      "inkBottom": 8
+    },
+    "C2": {
+      "text": "between the lines",
+      "fontSize": 36,
+      "weight": 700,
+      "inkLeft": 2,
+      "inkRight": 310,
+      "inkWidth": 308,
+      "inkTop": -28,
+      "inkBottom": 1
+    },
+    "C3": {
+      "text": "to breathe",
+      "fontSize": 36,
+      "weight": 700,
+      "inkLeft": 0,
+      "inkRight": 179,
+      "inkWidth": 179,
+      "inkTop": -27,
+      "inkBottom": 1
+    },
+    "D1": {
+      "text": "Let it rest",
+      "fontSize": 36,
+      "weight": 700,
+      "inkLeft": 2,
+      "inkRight": 163,
+      "inkWidth": 161,
+      "inkTop": -28,
+      "inkBottom": 1
+    },
+    "D2": {
+      "text": "one step at a time",
+      "fontSize": 36,
+      "weight": 700,
+      "inkLeft": 1,
+      "inkRight": 309,
+      "inkWidth": 308,
+      "inkTop": -28,
+      "inkBottom": 8
+    }
+  }
+}

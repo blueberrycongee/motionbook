@@ -1,0 +1,45 @@
+{
+  "interpretation": "Thresholded image events, not TTML timestamps. Native temporal granularity33.3667ms plus image threshold uncertainty.",
+  "events": [
+    {
+      "line_id": "A1",
+      "first_thresholded_white_source_pts": 13.246567,
+      "first_97percent_front_source_pts": 13.847167
+    },
+    {
+      "line_id": "A2",
+      "first_thresholded_white_source_pts": 14.047367,
+      "first_97percent_front_source_pts": 15.048367
+    },
+    {
+      "line_id": "A3",
+      "first_thresholded_white_source_pts": 15.849167,
+      "first_97percent_front_source_pts": 16.950267
+    },
+    {
+      "line_id": "A4",
+      "first_thresholded_white_source_pts": 17.283933,
+      "first_97percent_front_source_pts": 17.384033
+    },
+    {
+      "line_id": "B1",
+      "first_thresholded_white_source_pts": 18.6186,
+      "first_97percent_front_source_pts": 18.852167
+    },
+    {
+      "line_id": "B2",
+      "first_thresholded_white_source_pts": 18.985633,
+      "first_97percent_front_source_pts": 21.354667
+    },
+    {
+      "line_id": "B3",
+      "first_thresholded_white_source_pts": 21.454767,
+      "first_97percent_front_source_pts": 21.888533
+    },
+    {
+      "line_id": "B4",
+      "first_thresholded_white_source_pts": 21.955267,
+      "first_97percent_front_source_pts": null
+    }
+  ]
+}
