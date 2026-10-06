@@ -12,7 +12,6 @@
   "limitations": [
     "Rounded font is the open-source Nunito substitute, not the proprietary reference font.",
     "Blue internal shading and cursor outline are independent approximations.",
-    "Offline renderer and controller unit tests are verified. Browser interaction has not been validated.",
-    "User preview acceptance is pending."
+    "Offline renderer and controller unit tests are verified. Browser interaction has not been validated."
   ]
 }

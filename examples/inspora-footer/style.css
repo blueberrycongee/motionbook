@@ -4,9 +4,7 @@ html,body { margin:0; min-height:100%; }
 body { background:var(--blue); color:var(--ink); font-family:"Times New Roman",Times,"Liberation Serif",serif; }
 main { min-height:100svh; display:flex; align-items:center; }
 .footer { width:100%; position:relative; container-type:inline-size; aspect-ratio:1671/941; overflow:hidden; isolation:isolate; }
-.sky { position:absolute; inset:0; z-index:-2; display:flex; flex-direction:column; overflow:hidden; pointer-events:none; }
-.sky-strip { flex:0 0 auto; height:6.1cqw; width:100%; overflow:hidden; position:relative; }
-.sky-strip img { display:block; width:100%; height:auto; max-width:none; }
+.sky { position:absolute; inset:0; z-index:-2; pointer-events:none; background:var(--blue) url("assets/original-blue-paper.svg") repeat; background-size:512px 512px; }
 .landscape { position:absolute; bottom:0; width:100%; height:39.54%; overflow:hidden; z-index:-1; pointer-events:none; }
 .landscape > svg { position:absolute; width:100%; height:auto; bottom:0; display:block; }
 .columns { position:absolute; top:12.43%; left:7.06%; width:87.88%; display:grid; grid-template-columns:26.43% 16.34% 16.62% 19.98% 20.63%; font-size:1.3166cqw; }
@@ -46,8 +44,7 @@ button:hover svg { transform:translateX(2px); }
 @media (max-width:1100px) {
   main { align-items:stretch; }
   .footer { aspect-ratio:auto; min-height:100svh; padding:42px 28px 0; display:flex; flex-direction:column; }
-  .sky-strip { height:6.1cqw; }
-  .columns { position:relative; top:auto; left:auto; width:auto; display:grid; grid-template-columns:1fr 1fr; gap:32px 20px; font-size:16px; }
+    .columns { position:relative; top:auto; left:auto; width:auto; display:grid; grid-template-columns:1fr 1fr; gap:32px 20px; font-size:16px; }
   .brand-column { grid-column:1/-1; }
   .brand { font-size:45px; gap:16px; }
   .compass { width:48px; height:54px; margin-left:-5px; }

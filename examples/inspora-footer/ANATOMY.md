@@ -32,4 +32,4 @@ Relative to the 4.8-unit cannon, the upper forearm is about 2.3×, the carpus ab
 
 The current real-video-informed rig replaces the earlier joint solution. It has explicit pastern articulation, near-straight supporting forelegs, smoother toe-off, and a split rider response. See `GAIT-REFERENCE.md` for the current implementation and checks.
 
-The clean previews have no added titles, captions or watermarks. They are offline renders of actual SVG/JavaScript, not browser recordings. The desert artwork remains borrowed from the original footer reference.
+The clean previews have no added titles, captions or watermarks. They are offline renders of actual SVG/JavaScript, not browser recordings. The desert and blue-paper artwork are independently recreated procedural SVG assets; see PROVENANCE.md.

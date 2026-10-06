@@ -28,7 +28,7 @@ Python analysis scripts additionally use Pillow, NumPy, and SciPy. They read loc
 - Verified: the source's four drag cycles, reverse growth, quarter-hour labels, zero-duration crossing, fades, pointer exit, and complete original canvas are represented.
 - Verified: model tests and offline rendering. These do not prove browser DOM or pointer-capture behavior.
 - Unverified: real browser execution. Chromium startup was attempted using an explicit writable user-data directory and failed with `socket() failed: Operation not permitted`. No claim of a browser pass is made.
-- Unverified: independent final fidelity acceptance. This case stays on the private WIP branch until that separate review passes.
+- Fidelity limits: licensed font substitution, antialiasing, compression, and the independently inferred live-response model may differ from the reference.
 
 ## Media contract
 

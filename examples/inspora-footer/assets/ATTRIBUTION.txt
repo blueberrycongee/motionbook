@@ -1,5 +1,9 @@
-Reference background artwork: Pranav / @PranavOriginals
+Reference design: Pranav / @PranavOriginals, featured by Inspora
 https://www.inspora.design/posts/footer-section
 https://x.com/PranavOriginals/status/2105346116388868364
-Asset: https://media.inspora.design/posts/889b9627-92d4-4a09-8755-0379c9eb3df5.webp
-The PNG is a lossless conversion of the same WebP. No reuse/publication license was visible for this artwork; no license grant is implied by this private archive.
+
+The reference author retains rights in the original design and artwork. Credit does not imply endorsement or a license to reuse the original.
+
+This revision distributes original replacement landscape and paper artwork only. original-desert.svg and original-blue-paper.svg are generated from original code and a fixed random seed by scripts/draw-desert.mjs. No original photograph, illustration, crop, tracing, texture sample, or image pixels are embedded. horse-scene.svg retains the independently authored v6 horse/rider vectors and places them over the original replacement landscape.
+
+No font binary is bundled. The UI uses system serif fonts.

@@ -13,6 +13,5 @@
     "material_holds_resolved": true
   },
   "browser_runtime": "not_run",
-  "reviewed_at": "2026-10-06",
-  "note": "The bundled STATUS.md records the frozen pre-publication checkpoint; this acceptance supersedes its pending-review status."
+  "reviewed_at": "2026-10-06"
 }

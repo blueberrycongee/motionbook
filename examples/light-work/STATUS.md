@@ -1,5 +1,5 @@
-# Review candidate m04
+# Validation status
 
-Newly reconstructed source and previews with the emitter correction. The owner inspected every final native emitter pair and all108tail states. Independent visual review of all1031full-frame native pairs and108tail states reported no remaining material hold; final immutable raster/hash verification is pending.
+This revision includes the emitter correction documented in VALIDATION.md. The source review covered 1,031 native frames and 108 authored tail states. The previews are offline SVG renders; real browser behavior and exact pixel parity are not established.
 
-This frozen candidate can be backed up on the private WIP branch. Publication and remote verification are required before it counts as finished. Earlier checkpoints remain unchanged.
+See SOURCE.md, RIGHTS.md, VALIDATION.md, and the numerical evidence for methods, font licensing, and remaining limits.

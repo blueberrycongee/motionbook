@@ -9,6 +9,5 @@
   "enlarged_emitter_checks": 11,
   "tests_passed": 9,
   "browser_runtime": "not_run",
-  "reviewed_at": "2026-10-06T12:32:20Z",
-  "note": "This acceptance receipt supersedes pending-review status captured in the frozen package. Fine font/material/antialias differences remain."
+  "reviewed_at": "2026-10-06T12:32:20Z"
 }

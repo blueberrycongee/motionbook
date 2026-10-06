@@ -1,6 +1,6 @@
 {
   "milestone": "m02-preview",
-  "status": "accepted first preview; repository GIF is a delivery derivative",
+  "status": "offline-render verification",
   "tests": {
     "pass": 19,
     "fail": 0,
@@ -25,7 +25,6 @@
   },
   "browserPlayback": "application runtime unverified; README playback checked separately",
   "referenceTiming": "not observed; static screenshot supplied",
-  "mainPublication": "authorized",
   "proprietaryAssetsIncluded": false,
   "knownGaps": [
     "simplified five-person choreography",

@@ -1,7 +1,7 @@
 // Clean-room AppKit/Core Animation replica target. Not compiled on the Linux host.
 // Native constants were recovered from sky.node 26.930.51102; this is original source.
 // Deliberately contains no proprietary native binary, app account, or real desktop capture.
-// The optional tiny pop-out reference PNG is separately attributed by the parent project.
+// The small window-to-companion control is independently authored vector artwork.
 // Public fog and local-image contrast input remain documented approximations. Recovered motion
 // and envelope equations are implemented below; native rendering/runtime parity is unverified.
 import AppKit
@@ -1063,7 +1063,7 @@ final class ReplicaApp: NSObject, NSApplicationDelegate, WKNavigationDelegate {
         appMenu.addItem(withTitle: "Quit PiP Replica", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
         appItem.submenu = appMenu; menu.addItem(appItem); NSApp.mainMenu = menu
         buildFixture(); buildPet(); buildControls()
-        if let reference = NSImage(contentsOf: sourceRoot.appendingPathComponent("public/assets/pop-out-window-egg@3x.png")) {
+        if let reference = NSImage(contentsOf: sourceRoot.appendingPathComponent("public/assets/window-to-companion@3x.png")) {
             stack.controlView.petImage = reference
         }
         stack.hosts = [

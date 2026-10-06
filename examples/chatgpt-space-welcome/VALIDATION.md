@@ -10,7 +10,7 @@ Independent reconstruction of the Space welcome animation in the supplied screen
 
 The clean 18-second offline preview covers star twinkle and depth drift, floating work samples, editable selections, procedural collaborator labels, pointer repulsion, a spring-return card toss, and Continue-triggered star warp. The MP4 is 1440×1116 at 60 fps. The accepted GIF is a 20 fps viewing copy (800×620). The repository uses a 400×310 delivery derivative to fit upload limits. All 360 frames and their 50 ms durations are retained, for the same 18-second sequence; scaling and palette compression affect fine pixels. The accepted full-resolution MP4 is unchanged. No explanatory overlays or watermarks appear.
 
-This is an offline Canvas 2D render of the same scene implementation used by the demo. It is **not a browser capture or a recording of ChatGPT**. The user accepted this exact first candidate for publication; the fidelity limits below remain.
+This is an offline Canvas 2D render of the same scene implementation used by the demo. It is **not a browser capture or a recording of ChatGPT**. The fidelity limits below remain.
 
 ## Run
 
