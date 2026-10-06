@@ -1,4 +1,4 @@
-# 参考动画
+# Motionbook
 
 UI animations & micro-interactions recreated in code, with GIF previews. 高质量 UI 动效、微交互与交互设计复刻合集。
 
