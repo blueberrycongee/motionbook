@@ -1,0 +1,17 @@
+
+> new100-037-minimap@0.1.0 test
+> node --test tests/*.test.cjs
+
+✔ 49 stationary ticks and five accent lines (1.386939ms)
+✔ pointer proximity grows local heights but preserves x positions (17.324576ms)
+✔ leaving the field settles back to baseline (13.144654ms)
+✔ reentry, out-of-bounds, and reset stay finite (22.406453ms)
+✔ red playhead remains fixed and scene contains no raster asset (2.886473ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 413.325789

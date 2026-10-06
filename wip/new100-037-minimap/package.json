@@ -1,0 +1,1 @@
+{"name":"new100-037-minimap","private":true,"version":"0.1.0","scripts":{"start":"python3 -m http.server 8037","test":"node --test tests/*.test.cjs","render":"node scripts/render.cjs"},"devDependencies":{"sharp":"0.35.4"}}
