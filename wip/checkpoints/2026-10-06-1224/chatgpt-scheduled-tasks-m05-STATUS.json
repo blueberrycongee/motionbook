@@ -1,0 +1,11 @@
+{
+  "id": "chatgpt-scheduled-tasks-m05",
+  "archive": "chatgpt-scheduled-tasks-m05.zip",
+  "archive_bytes": 1094171,
+  "archive_sha256": "f9723264696a77a04bc624ca7aed23941a5099f808c7b3ccb793ccd214f86776",
+  "source_manifest": "FILES.sha256",
+  "source_manifest_sha256": "9e0a7fa9855b8ebb32f07b3bad05a4170eb85c228a8a63869aae405a561679e4",
+  "files": 47,
+  "status": "Incomplete WIP; not cleared for main/index",
+  "reference_media_included": false
+}

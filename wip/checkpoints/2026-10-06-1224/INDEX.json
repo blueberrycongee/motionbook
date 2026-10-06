@@ -1,0 +1,57 @@
+[
+  {
+    "id": "009-rebuild-wip-001",
+    "archive": "009-rebuild-wip-001.zip",
+    "archive_bytes": 969446,
+    "archive_sha256": "5dcaf3f402c59dab09e56570521ea4a7639729162c26288966da28fd3fa61360",
+    "source_manifest": "FILES.sha256",
+    "source_manifest_sha256": "aba2bd375da3986fc35eeae3cdf87487fcfd51345be1322a9201245bfaa4f4e6",
+    "files": 28,
+    "status": "Incomplete WIP; not cleared for main/index",
+    "reference_media_included": false
+  },
+  {
+    "id": "027-front-r5",
+    "archive": "027-front-r5.zip",
+    "archive_bytes": 420214,
+    "archive_sha256": "c30a927cd723443c9d5b71822eae74b1bc0784e62f7f02617a7e3c30daf3af80",
+    "source_manifest": "FILES.sha256",
+    "source_manifest_sha256": "295a3b0e1e518bd9856d9d4debcc2c5faef4c5b0abc15b1c5592a777c24f701c",
+    "files": 30,
+    "status": "Incomplete WIP; not cleared for main/index",
+    "reference_media_included": false
+  },
+  {
+    "id": "030-wip-m04",
+    "archive": "030-wip-m04.zip",
+    "archive_bytes": 520623,
+    "archive_sha256": "71c775ddebe6b638d6371d7e8a44bd8ec49d4100d2754936d53967dcb329fb93",
+    "source_manifest": "MANIFEST.json",
+    "source_manifest_sha256": "56b48cfcaa91d5db0adce61b14f538aa19e667a75c68197c1c6ae09fb2206e28",
+    "files": 21,
+    "status": "Incomplete WIP; not cleared for main/index",
+    "reference_media_included": false
+  },
+  {
+    "id": "chatgpt-scheduled-tasks-m05",
+    "archive": "chatgpt-scheduled-tasks-m05.zip",
+    "archive_bytes": 1094171,
+    "archive_sha256": "f9723264696a77a04bc624ca7aed23941a5099f808c7b3ccb793ccd214f86776",
+    "source_manifest": "FILES.sha256",
+    "source_manifest_sha256": "9e0a7fa9855b8ebb32f07b3bad05a4170eb85c228a8a63869aae405a561679e4",
+    "files": 47,
+    "status": "Incomplete WIP; not cleared for main/index",
+    "reference_media_included": false
+  },
+  {
+    "id": "033-m04",
+    "archive": "033-m04.zip",
+    "archive_bytes": 4386788,
+    "archive_sha256": "e8bd21b551a4b6cf73d0d848869a2858a40ab2a50575fdee6ddb23f0283c9c29",
+    "source_manifest": "MANIFEST.json",
+    "source_manifest_sha256": "e5a5a7a1f6b5fe8cd02a950caf50ad124120c6693b2a8bcf6a4ecd2a3ba14b7f",
+    "files": 40,
+    "status": "WIP checkpoint; final independent binding in progress at packaging",
+    "reference_media_included": false
+  }
+]
