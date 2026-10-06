@@ -1,0 +1,11 @@
+{
+  "id": "027-marker-r4",
+  "archive": "027-marker-r4.zip",
+  "archive_bytes": 409376,
+  "archive_sha256": "8a284821840a7b153c6b12ed9dc4863876bb182de90a47901270a4b1018e85d3",
+  "source_manifest": "FILES.sha256",
+  "source_manifest_sha256": "3a9523b376b9358798d1d04d86c37718f9c32bca298bcc4bc5750a8856b62949",
+  "files": 28,
+  "status": "WIP only; independent quality clearance is pending",
+  "reference_media_included": false
+}

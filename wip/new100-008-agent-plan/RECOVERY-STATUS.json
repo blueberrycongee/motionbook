@@ -1,0 +1,36 @@
+{
+  "case": "new100-008",
+  "status": "runnable_wip_checkpoint_002",
+  "started_at_utc": "2026-10-06T08:44:00Z",
+  "reference_page": "https://www.inspora.design/posts/agent-plan",
+  "original_post": "https://x.com/jeetnirnejak/status/2051294751694192794",
+  "expected_original_sha256": "0ca61f600ce09ba0f16d6d3fdadc8e8cb61acda0afbc654392eb5c84ccd298cb",
+  "expected_original_frames": 987,
+  "expected_original_duration": 18.266667,
+  "prior_local_manifest": "fae1cb4ddfa2509f293a542c493c102900672e8db7a1d7d700d18371b9b2b70a",
+  "prior_manifest_restored": false,
+  "new_native_visual_review": "Partial: initial pass native frames 0\u201359 plus four enlarged states; corrections made afterwards. Full fresh native review pending.",
+  "new_browser_runtime": "not_run",
+  "new_media_render": "Five fresh stills; final GIF/MP4 pending. Earlier WIP working media excluded from this checkpoint.",
+  "publication": "Private WIP only; main/index pending final independent review",
+  "scope": "New independently rebuilt source. Recovered prior previews, if available, are comparison material and do not validate this reconstruction.",
+  "original_media_url": "https://media.inspora.design/posts/97f6f169-609b-4634-b5db-b7a58bd1cef2.mp4",
+  "original_media_access": {
+    "status": "recovered",
+    "route": "Documented downloadMedia after normal public playback in the dot cloud browser",
+    "sha256": "0ca61f600ce09ba0f16d6d3fdadc8e8cb61acda0afbc654392eb5c84ccd298cb",
+    "native_frames": 987,
+    "duration": 18.266667,
+    "pts_last": 18.25,
+    "receipt": "../../sources/media/agent-plan-probe.json"
+  },
+  "immediate_dependency": "Fresh all-native-frame visual analysis and rebuilt rendering validation",
+  "checkpoint_at_utc": "2026-10-06T10:05:00Z",
+  "new_state_tests": {
+    "passed": 9,
+    "failed": 0,
+    "state": 6,
+    "actual_dom_adapter": 3
+  },
+  "new_prior_output_visual_review": "Five recovered prior stills and a coarse 80-frame overview inspected; three newly rendered stills inspected. No complete frame review claimed."
+}

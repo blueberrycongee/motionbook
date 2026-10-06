@@ -1,0 +1,11 @@
+{
+  "id": "chatgpt-scheduled-tasks-m08-alignment-source",
+  "archive": "chatgpt-scheduled-tasks-m08-alignment-source.zip",
+  "archive_bytes": 112217,
+  "archive_sha256": "f19a840739d1675dc6bcfbec6ce83f5f483698a8d496aa3f22f8597015193b5a",
+  "source_manifest": "FILES.sha256",
+  "source_manifest_sha256": "edcc09ee28a68798dfd152a1be23215dbf8b5055045a4480672e42f416a7bb60",
+  "files": 58,
+  "status": "WIP; alignment and native subprofile research continues. Main publication held.",
+  "reference_media_included": false
+}

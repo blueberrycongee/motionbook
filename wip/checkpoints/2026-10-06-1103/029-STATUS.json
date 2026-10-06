@@ -1,0 +1,14 @@
+{
+  "id": "029",
+  "title": "Nested tag creation",
+  "revision": "final-02",
+  "archive": "029-final-02.zip",
+  "archive_bytes": 2823584,
+  "archive_sha256": "bc63833ba7ec0164c66b675ca3e9968689f0812938d951783623a7484a1a300b",
+  "archive_git_blob_sha1": "d04ea2007ab675f720f1b41fa6cf991873fb9ff6",
+  "payload_files": 38,
+  "original_manifest_file": "MANIFEST.json",
+  "original_manifest_sha256": "99774089cad6a1035b7d84db037ab2ce9ac93b15ac014d5271ce03547c597630",
+  "status": "WIP backup; not an accepted main example",
+  "reference_media_included": false
+}

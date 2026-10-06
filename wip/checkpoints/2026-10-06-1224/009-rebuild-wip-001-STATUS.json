@@ -1,0 +1,11 @@
+{
+  "id": "009-rebuild-wip-001",
+  "archive": "009-rebuild-wip-001.zip",
+  "archive_bytes": 969446,
+  "archive_sha256": "5dcaf3f402c59dab09e56570521ea4a7639729162c26288966da28fd3fa61360",
+  "source_manifest": "FILES.sha256",
+  "source_manifest_sha256": "aba2bd375da3986fc35eeae3cdf87487fcfd51345be1322a9201245bfaa4f4e6",
+  "files": 28,
+  "status": "Incomplete WIP; not cleared for main/index",
+  "reference_media_included": false
+}

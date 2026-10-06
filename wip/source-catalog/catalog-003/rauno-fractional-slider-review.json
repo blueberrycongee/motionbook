@@ -1,0 +1,175 @@
+{
+  "slug": "rauno-fractional-slider",
+  "title": "Fractional Slider",
+  "author": "Rauno Freiberg",
+  "author_x": "https://x.com/raunofreiberg",
+  "source_page": "https://rauno.me/craft/fractional-slider",
+  "footage_url": "https://cdn.rauno.me/fractional-slider.mp4#t=0.01",
+  "sha256": "d44f6f9e56f7f5dc974576acd4853176f078f1000347ad810e45bb7769d3ea1c",
+  "frame_count": 360,
+  "original_size": [
+    1344,
+    460
+  ],
+  "native_pts_path": "pts.json",
+  "fresh_visual_review": {
+    "complete": true,
+    "reviewed_ranges": [
+      [
+        0,
+        359
+      ]
+    ],
+    "full_resolution_keys": [
+      0,
+      140,
+      246
+    ],
+    "method": "Every original native frame inspected in9 ordered full-canvas contact sheets at300px wide, plus three native-resolution keys. No fps resampling.",
+    "checked_at_utc": "2026-10-06T09:17:56.736552+00:00"
+  },
+  "assignment": "Unassigned",
+  "recommendation": "Clean drawable signed-number ruler with fine fractional scrubbing, soft edge fade, selected blue range and animated return to zero. More reconstructable than wallpaper-backed Precision Slider. Treat this as one example.",
+  "observations": [
+    {
+      "frames": [
+        0,
+        22
+      ],
+      "pts": [
+        "0.000000",
+        "0.366667"
+      ],
+      "behavior": "Ruler centered at0 with fixed white point below. Pointer enters from above/left and changes to horizontal bidirectional resize cursor below the ruler."
+    },
+    {
+      "frames": [
+        23,
+        82
+      ],
+      "pts": [
+        "0.383333",
+        "1.366667"
+      ],
+      "behavior": "Blue press ring appears and pointer moves right. Ruler translates right, placing increasingly negative numbers under the fixed center point. Blue marks fill the interval between center selection and0."
+    },
+    {
+      "frames": [
+        83,
+        109
+      ],
+      "pts": [
+        "1.383333",
+        "1.816667"
+      ],
+      "behavior": "Press ring fades and pointer returns leftward while negative ruler position briefly holds near\u221240."
+    },
+    {
+      "frames": [
+        110,
+        156
+      ],
+      "pts": [
+        "1.833333",
+        "2.600000"
+      ],
+      "behavior": "Ruler continues toward the\u221290 endpoint while pointer remains near the same x position. Finite left endpoint moves from far left to the fixed center point; space left of\u221290 becomes blank. Exact input cause of this segment is not visible."
+    },
+    {
+      "frames": [
+        157,
+        187
+      ],
+      "pts": [
+        "2.616667",
+        "3.116667"
+      ],
+      "behavior": "Endpoint\u221290 holds at center, selected marks to its right remain blue."
+    },
+    {
+      "frames": [
+        188,
+        244
+      ],
+      "pts": [
+        "3.133333",
+        "4.066667"
+      ],
+      "behavior": "Ruler moves rapidly left from negative endpoint, across0, into positive values. Blue range moves to the left of the selected point. Labels vary in opacity with horizontal fade envelope."
+    },
+    {
+      "frames": [
+        245,
+        279
+      ],
+      "pts": [
+        "4.083333",
+        "4.650000"
+      ],
+      "behavior": "Positive value settles near+55 while pointer approaches center under the ruler."
+    },
+    {
+      "frames": [
+        280,
+        305
+      ],
+      "pts": [
+        "4.666667",
+        "5.083333"
+      ],
+      "behavior": "Two press rings appear around the stationary cursor; ruler rapidly returns toward0. This is consistent with a double-click reset but the exact trigger requires prototype verification."
+    },
+    {
+      "frames": [
+        306,
+        335
+      ],
+      "pts": [
+        "5.100000",
+        "5.583333"
+      ],
+      "behavior": "Press ring fades and ruler finishes easing to0. Blue interval contracts and disappears."
+    },
+    {
+      "frames": [
+        336,
+        359
+      ],
+      "pts": [
+        "5.600000",
+        "5.983333"
+      ],
+      "behavior": "Final ruler centered at0, fixed white point; pointer remains lower-right of center."
+    }
+  ],
+  "geometry_notes": {
+    "range_visible_across_sequence": [
+      -90,
+      90
+    ],
+    "major_label_interval": 5,
+    "minor_tick_interval": 1,
+    "nominal_minor_spacing_px": 15,
+    "major_tick_initial_y": [
+      214,
+      245
+    ],
+    "minor_tick_initial_y": [
+      230,
+      245
+    ],
+    "fixed_center_point_approx": [
+      672,
+      284
+    ],
+    "point_radius_px_approx": 4,
+    "initial_zero_label_center_x_approx": 671,
+    "confidence": "Manual native-resolution anchors, approximate2px. No confirmed endpoint overshoot; do not invent elastic bouncing."
+  },
+  "limits": [
+    "No external wallpaper or photo source dependency. All marks, labels, cursor/rings and fading can be independently drawn.",
+    "Exact motion must preserve time sequence including endpoint hold and late reset, not just a generic draggable ruler.",
+    "Individual X post URL not verified; source is author-hosted page and original video.",
+    "No source-asset redistribution license identified. Keep original footage/crops local-analysis only."
+  ]
+}

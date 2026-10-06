@@ -1,0 +1,9 @@
+{
+  "executed_successfully": false,
+  "passed": false,
+  "attempt": "Chromium headless launch with explicit /tmp writable user-data directory",
+  "blocker": "FATAL process_singleton_posix.cc: socket() failed: Operation not permitted",
+  "offline_render_is_not_browser_evidence": true,
+  "model_and_mock_dom_tests_are_not_browser_evidence": true,
+  "next_verification": "Serve index.html and run scripts/browser-smoke.cjs in a permitted browser environment."
+}

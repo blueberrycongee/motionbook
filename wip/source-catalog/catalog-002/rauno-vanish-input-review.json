@@ -1,0 +1,219 @@
+{
+  "slug": "rauno-vanish-input",
+  "title": "Vanish Input",
+  "author": "Rauno Freiberg",
+  "author_x": "https://x.com/raunofreiberg",
+  "source_page": "https://rauno.me/craft/vanish-input",
+  "footage_url": "https://cdn.rauno.me/vanish-input.mp4#t=0.01",
+  "sha256": "bfbf33776def45a11309f1af46289d1c93f92308b3da77e3bfcd7c59f767b99e",
+  "frame_count": 702,
+  "original_size": [
+    954,
+    574
+  ],
+  "native_pts_path": "pts.json",
+  "fresh_visual_review": {
+    "complete": true,
+    "reviewed_ranges": [
+      [
+        0,
+        701
+      ]
+    ],
+    "full_resolution_keys": [
+      98,
+      112,
+      560
+    ],
+    "method": "Every original frame visually inspected in18 ordered full-canvas contact sheets at300px wide, plus3 native-resolution particle keys. No fps resampling.",
+    "checked_at_utc": "2026-10-06T08:58:49.095235+00:00"
+  },
+  "assignment": "Unassigned conditional candidate; root tentatively holds036 but has not assigned an owner",
+  "observations": [
+    {
+      "frames": [
+        0,
+        13
+      ],
+      "pts": [
+        "0.000000",
+        "0.216667"
+      ],
+      "behavior": "Focused dark search field and placeholder, blue caret blinks."
+    },
+    {
+      "frames": [
+        14,
+        97
+      ],
+      "pts": [
+        "0.233333",
+        "1.616667"
+      ],
+      "behavior": "First three-word phrase is typed, left aligned, no submit button in field."
+    },
+    {
+      "frames": [
+        98,
+        134
+      ],
+      "pts": [
+        "1.633333",
+        "2.233333"
+      ],
+      "behavior": "Return-key overlay appears below field. Rightmost glyphs break into many small white particles, then a right-to-left front consumes the remaining text; particles jitter and spread horizontally/rightward while fading. Search icon, input boundary and caret remain."
+    },
+    {
+      "frames": [
+        135,
+        155
+      ],
+      "pts": [
+        "2.250000",
+        "2.583333"
+      ],
+      "behavior": "Empty field hold with caret; Return overlay holds."
+    },
+    {
+      "frames": [
+        156,
+        201
+      ],
+      "pts": [
+        "2.600000",
+        "3.350000"
+      ],
+      "behavior": "Second phrase typed. Return overlay fades/shrinks during typing."
+    },
+    {
+      "frames": [
+        202,
+        234
+      ],
+      "pts": [
+        "3.366667",
+        "3.900000"
+      ],
+      "behavior": "Second right-to-left particle wipe. Return overlay returns."
+    },
+    {
+      "frames": [
+        235,
+        252
+      ],
+      "pts": [
+        "3.916667",
+        "4.200000"
+      ],
+      "behavior": "Empty field and caret hold."
+    },
+    {
+      "frames": [
+        253,
+        325
+      ],
+      "pts": [
+        "4.216667",
+        "5.416667"
+      ],
+      "behavior": "Third phrase typed, overlay fades."
+    },
+    {
+      "frames": [
+        326,
+        364
+      ],
+      "pts": [
+        "5.433333",
+        "6.066667"
+      ],
+      "behavior": "Third particle wipe, same direction and thin vertical envelope."
+    },
+    {
+      "frames": [
+        365,
+        382
+      ],
+      "pts": [
+        "6.083333",
+        "6.366667"
+      ],
+      "behavior": "Empty field hold."
+    },
+    {
+      "frames": [
+        383,
+        461
+      ],
+      "pts": [
+        "6.383333",
+        "7.683333"
+      ],
+      "behavior": "Fourth phrase typed; initially caret ends after text."
+    },
+    {
+      "frames": [
+        462,
+        538
+      ],
+      "pts": [
+        "7.700000",
+        "8.966667"
+      ],
+      "behavior": "Keyboard visualizer shows Command then Command+Left. Caret jumps to the START of existing phrase and blinks there; text is not deleted by the shortcut. Keyboard overlay then fades."
+    },
+    {
+      "frames": [
+        539,
+        574
+      ],
+      "pts": [
+        "8.983333",
+        "9.566667"
+      ],
+      "behavior": "Return-key visualizer appears and fourth wipe still runs RIGHT TO LEFT despite caret staying at the START. This late state is important."
+    },
+    {
+      "frames": [
+        575,
+        600
+      ],
+      "pts": [
+        "9.583333",
+        "10.000000"
+      ],
+      "behavior": "Empty field with caret and Return overlay."
+    },
+    {
+      "frames": [
+        601,
+        621
+      ],
+      "pts": [
+        "10.016667",
+        "10.350000"
+      ],
+      "behavior": "Placeholder fades back in while Return overlay fades/scales out."
+    },
+    {
+      "frames": [
+        622,
+        701
+      ],
+      "pts": [
+        "10.366667",
+        "11.683333"
+      ],
+      "behavior": "Final empty focused field; caret continues blinking. No fifth submission."
+    }
+  ],
+  "recommendation": "Conditional: high-quality programmable glyph-to-particle deletion, but the recorded sample text is a12-word lyric excerpt. Use independently written preview text; this changes literal source text matching and must be accepted explicitly by coordinator before assigning.",
+  "limits": [
+    "Do not reproduce the complete recorded song lyric in code/docs/previews. Independently written phrases can match the four-cycle interaction and approximate line widths.",
+    "Particle motion is independent glyph sampling plus short horizontal jitter/fade; no source raster or point texture should be copied.",
+    "Four submits constitute one example, not four variants.",
+    "The final Command+Left and start-caret submission must be included, not cut off after first dissolve.",
+    "No per-post X URL verified; public author page and author-hosted footage are primary provenance.",
+    "Source footage remains local analysis only; no redistribution license identified."
+  ]
+}

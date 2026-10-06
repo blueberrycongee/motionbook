@@ -1,0 +1,14 @@
+{
+  "id": "038",
+  "title": "Fractional Slider",
+  "revision": "m01",
+  "archive": "038-m01.zip",
+  "archive_bytes": 174763,
+  "archive_sha256": "613f83142cf0e9e19d235fa5571efd1659d519601b944b4a3cd7658d755bc6ce",
+  "archive_git_blob_sha1": "963990fa92f70bfe096ff4304a182471ad0c7d9d",
+  "payload_files": 20,
+  "original_manifest_file": "MANIFEST.json",
+  "original_manifest_sha256": "f53fa094a16b4697c9fe10710da6de3404ba5c20c80ed6a15ca471801f61a020",
+  "status": "WIP backup; not an accepted main example",
+  "reference_media_included": false
+}

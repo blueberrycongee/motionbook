@@ -1,0 +1,435 @@
+{
+  "observed_page": "https://rauno.me/craft",
+  "author": "https://x.com/raunofreiberg",
+  "verified_at_utc": "2026-10-06T08:49:00Z",
+  "inspection_status": "DOM media inventory only; no fresh visual coverage yet",
+  "items": [
+    {
+      "height": 2160,
+      "page": "https://historyofsoftware.org/",
+      "title": "History of Software Design",
+      "url": "https://cdn.rauno.me/history.mp4#t=0.01",
+      "width": 3840
+    },
+    {
+      "height": 1080,
+      "title": "DD Illustrations",
+      "url": "https://cdn.rauno.me/dd-illustrations.mp4#t=0.01",
+      "width": 1920
+    },
+    {
+      "height": 1080,
+      "page": "https://devouringdetails.com/",
+      "title": "Devouring Details",
+      "url": "https://cdn.rauno.me/dd-compressed.mp4#t=0.01",
+      "width": 1920
+    },
+    {
+      "height": 460,
+      "title": "Inline Conversion",
+      "url": "https://cdn.rauno.me/inline-conversion.mp4#t=0.01",
+      "width": 1334
+    },
+    {
+      "height": 1304,
+      "title": "Toolbar Morph",
+      "url": "https://cdn.rauno.me/toolbar-cmdk.mp4#t=0.01",
+      "width": 1548
+    },
+    {
+      "height": 720,
+      "page": "https://vercel.com/security",
+      "title": "X-Ray Interaction",
+      "url": "https://cdn.rauno.me/security.mp4#t=0.01",
+      "width": 992
+    },
+    {
+      "height": 672,
+      "title": "Blur Reveal",
+      "url": "https://cdn.rauno.me/blur-reveal.mp4#t=0.01",
+      "width": 1448
+    },
+    {
+      "height": 800,
+      "title": "Word Lookup",
+      "url": "https://cdn.rauno.me/word-lookup.mp4#t=0.01",
+      "width": 1176
+    },
+    {
+      "height": 1080,
+      "title": "SwiftUI Dock",
+      "url": "https://cdn.rauno.me/dock-drag.mp4#t=0.01",
+      "width": 1920
+    },
+    {
+      "height": 1742,
+      "title": "SwiftUI MercuryOS",
+      "url": "https://cdn.rauno.me/mercury.mp4#t=0.01",
+      "width": 2094
+    },
+    {
+      "height": 840,
+      "page": "https://rauno.me/craft/exclusion-tabs",
+      "title": "Exclusion Tabs",
+      "url": "https://cdn.rauno.me/exclusion-tabs-dark.mp4#t=0.01",
+      "width": 1344
+    },
+    {
+      "height": 574,
+      "page": "https://rauno.me/craft/vanish-input",
+      "title": "Vanish Input",
+      "url": "https://cdn.rauno.me/vanish-input.mp4#t=0.01",
+      "width": 954
+    },
+    {
+      "height": 922,
+      "page": "https://rauno.me/craft/wheel-input",
+      "title": "Wheel Input",
+      "url": "https://cdn.rauno.me/wheel-input-3.mp4#t=0.01",
+      "width": 1302
+    },
+    {
+      "height": 1080,
+      "title": "Preview Comments",
+      "url": "https://cdn.rauno.me/preview-comments.mp4#t=0.01",
+      "width": 1388
+    },
+    {
+      "height": 432,
+      "page": "https://rauno.me/craft/vercel-footer",
+      "title": "Vercel Footer",
+      "url": "https://cdn.rauno.me/vercel-footer-2.mp4#t=0.01",
+      "width": 1280
+    },
+    {
+      "height": 1080,
+      "title": "Browser History",
+      "url": "https://cdn.rauno.me/browser-history-3.mp4#t=0.01",
+      "width": 1646
+    },
+    {
+      "height": 480,
+      "title": "Gooey Shader",
+      "url": "https://cdn.rauno.me/gooey.mp4#t=0.01",
+      "width": 480
+    },
+    {
+      "height": 480,
+      "title": "Tangerine Shader",
+      "url": "https://cdn.rauno.me/peach.mp4#t=0.01",
+      "width": 480
+    },
+    {
+      "height": 418,
+      "title": "Signatures",
+      "url": "https://cdn.rauno.me/signatures.mp4#t=0.01",
+      "width": 1300
+    },
+    {
+      "height": 556,
+      "title": "Animated Typing",
+      "url": "https://cdn.rauno.me/animated-typing.mp4#t=0.01",
+      "width": 1658
+    },
+    {
+      "height": 562,
+      "title": "Blurred Icons",
+      "url": "https://cdn.rauno.me/blur-icons.mp4#t=0.01",
+      "width": 812
+    },
+    {
+      "height": 720,
+      "title": "User Interface Gallery",
+      "url": "https://cdn.rauno.me/uig.mp4#t=0.01",
+      "width": 1018
+    },
+    {
+      "height": 272,
+      "title": "Input",
+      "url": "https://cdn.rauno.me/input.mp4#t=0.01",
+      "width": 794
+    },
+    {
+      "height": 720,
+      "title": "Hold Enter to confirm",
+      "url": "https://cdn.rauno.me/enter-to-confirm.mp4#t=0.01",
+      "width": 1084
+    },
+    {
+      "height": 1080,
+      "page": "https://devouringdetails.com/system",
+      "title": "DD System",
+      "url": "https://cdn.rauno.me/system.mp4#t=0.01",
+      "width": 1920
+    },
+    {
+      "height": 1080,
+      "page": "https://devouringdetails.com/",
+      "title": "Testimonials",
+      "url": "https://cdn.rauno.me/testimonials.mp4#t=0.01",
+      "width": 1792
+    },
+    {
+      "height": 1554,
+      "title": "Sidebar",
+      "url": "https://cdn.rauno.me/sidebar.mp4#t=0.01",
+      "width": 2052
+    },
+    {
+      "height": 652,
+      "title": "Spatial Tooltip",
+      "url": "https://cdn.rauno.me/spatial-tooltip.mp4#t=0.01",
+      "width": 1452
+    },
+    {
+      "height": 740,
+      "title": "Staggered Text",
+      "url": "https://cdn.rauno.me/staggered-text.mp4#t=0.01",
+      "width": 1410
+    },
+    {
+      "height": 640,
+      "page": "https://rauno.me/craft/logo-carousel",
+      "title": "Logo Carousel",
+      "url": "https://cdn.rauno.me/logo-carousel.mp4#t=0.01",
+      "width": 1566
+    },
+    {
+      "height": 1440,
+      "title": "Wheel Interface",
+      "url": "https://cdn.rauno.me/wheel.mp4#t=0.01",
+      "width": 1932
+    },
+    {
+      "height": 1851,
+      "title": "SwiftUI Video Scrubber",
+      "url": "https://cdn.rauno.me/seek.mp4#t=0.01",
+      "width": 2160
+    },
+    {
+      "height": 2206,
+      "title": "SwiftUI Radial Menu",
+      "url": "https://cdn.rauno.me/ios-radial-menu.mp4#t=0.01",
+      "width": 2078
+    },
+    {
+      "height": 836,
+      "page": "https://rauno.me/craft/graph-slider",
+      "title": "Graph Slider",
+      "url": "https://cdn.rauno.me/graph-slider-2.mp4#t=0.01",
+      "width": 1340
+    },
+    {
+      "height": 812,
+      "page": "https://rauno.me/craft/adaptive-precision",
+      "title": "Adaptive Precision",
+      "url": "https://cdn.rauno.me/adaptive-precision-5.mp4#t=0.01",
+      "width": 1318
+    },
+    {
+      "height": 862,
+      "page": "https://rauno.me/craft/radial-menu",
+      "title": "Radial Menu",
+      "url": "https://cdn.rauno.me/radial-menu-3.mp4#t=0.01",
+      "width": 1920
+    },
+    {
+      "height": 1080,
+      "title": "⌘K Breadcrumbs",
+      "url": "https://cdn.rauno.me/cmdk-breadcrumbs.mp4#t=0.01",
+      "width": 1454
+    },
+    {
+      "height": 1884,
+      "title": "Cryptic List",
+      "url": "https://cdn.rauno.me/cryptic-list.mp4#t=0.01",
+      "width": 1920
+    },
+    {
+      "height": 1336,
+      "title": "Vercel Homepage",
+      "url": "https://cdn.rauno.me/vercel-home.mp4#t=0.01",
+      "width": 2046
+    },
+    {
+      "height": 480,
+      "title": "Mirror Shader",
+      "url": "https://cdn.rauno.me/stripes.mp4#t=0.01",
+      "width": 480
+    },
+    {
+      "height": 960,
+      "title": "Design Details",
+      "url": "https://cdn.rauno.me/design.mp4#t=0.01",
+      "width": 1604
+    },
+    {
+      "height": 720,
+      "title": "Focus Reading",
+      "url": "https://cdn.rauno.me/focus-reading.mp4#t=0.01",
+      "width": 1166
+    },
+    {
+      "height": 474,
+      "title": "Microinteractions I",
+      "url": "https://cdn.rauno.me/buttons1.mp4#t=0.01",
+      "width": 926
+    },
+    {
+      "height": 720,
+      "title": "Arc Teaser",
+      "url": "https://cdn.rauno.me/arc-promo.mp4#t=0.01",
+      "width": 900
+    },
+    {
+      "height": 720,
+      "title": "Theme Motion",
+      "url": "https://cdn.rauno.me/theme-motion.mp4#t=0.01",
+      "width": 872
+    },
+    {
+      "height": 800,
+      "title": "Animated Checkboxes",
+      "url": "https://cdn.rauno.me/checkbox.mp4#t=0.01",
+      "width": 800
+    },
+    {
+      "height": 810,
+      "title": "Countdown",
+      "url": "https://cdn.rauno.me/countdown.mp4#t=0.01",
+      "width": 1280
+    },
+    {
+      "height": 1100,
+      "title": "Vercel Agent",
+      "url": "https://cdn.rauno.me/pix1.mp4#t=0.01",
+      "width": 1688
+    },
+    {
+      "height": 1682,
+      "title": "Combobox",
+      "url": "https://cdn.rauno.me/combobox.mp4#t=0.01",
+      "width": 2694
+    },
+    {
+      "height": 1080,
+      "title": "Showreel",
+      "url": "https://cdn.rauno.me/dd-cm.mp4#t=0.01",
+      "width": 1920
+    },
+    {
+      "height": 612,
+      "title": "Next.js Dev Tools",
+      "url": "https://cdn.rauno.me/next-badge.mp4#t=0.01",
+      "width": 1066
+    },
+    {
+      "height": 688,
+      "title": "Gooey Tooltip",
+      "url": "https://cdn.rauno.me/gooey-tooltip.mp4#t=0.01",
+      "width": 1076
+    },
+    {
+      "height": 644,
+      "page": "https://rauno.me/craft/minimap",
+      "title": "Minimap",
+      "url": "https://cdn.rauno.me/waveform.mp4#t=0.01",
+      "width": 1258
+    },
+    {
+      "height": 1260,
+      "page": "https://rauno.me/run",
+      "title": "Running Diary",
+      "url": "https://cdn.rauno.me/run4.mp4#t=0.01",
+      "width": 1822
+    },
+    {
+      "height": 864,
+      "title": "SwiftUI Bezel Dock",
+      "url": "https://cdn.rauno.me/bezels2.mp4#t=0.01",
+      "width": 2288
+    },
+    {
+      "height": 1080,
+      "title": "SwiftUI Screenshot Capture",
+      "url": "https://cdn.rauno.me/screenshot.mp4#t=0.01",
+      "width": 1101
+    },
+    {
+      "height": 460,
+      "page": "https://rauno.me/craft/fractional-slider",
+      "title": "Fractional Slider",
+      "url": "https://cdn.rauno.me/fractional-slider.mp4#t=0.01",
+      "width": 1344
+    },
+    {
+      "height": 846,
+      "page": "https://rauno.me/craft/precision-slider",
+      "title": "Precision Slider",
+      "url": "https://cdn.rauno.me/precision-slider.mp4#t=0.01",
+      "width": 1920
+    },
+    {
+      "height": 730,
+      "page": "https://rauno.me/craft/flashlight-tabs",
+      "title": "Flashlight Tabs",
+      "url": "https://cdn.rauno.me/flashlight.mp4#t=0.01",
+      "width": 1368
+    },
+    {
+      "height": 720,
+      "page": "https://rauno.me/craft/copy-paste",
+      "title": "Copy & Paste",
+      "url": "https://cdn.rauno.me/copy-paste.mp4#t=0.01",
+      "width": 1152
+    },
+    {
+      "height": 480,
+      "title": "Flume Shader",
+      "url": "https://cdn.rauno.me/flume.mp4#t=0.01",
+      "width": 480
+    },
+    {
+      "height": 0,
+      "title": "Sticky Video",
+      "url": "https://cdn.rauno.me/yt.mp4#t=0.01",
+      "width": 0
+    },
+    {
+      "height": 702,
+      "title": "Visual Writing",
+      "url": "https://cdn.rauno.me/visual-writing.mp4#t=0.01",
+      "width": 1280
+    },
+    {
+      "height": 514,
+      "title": "Microinteractions II",
+      "url": "https://cdn.rauno.me/buttons2.mp4#t=0.01",
+      "width": 740
+    },
+    {
+      "height": 720,
+      "title": "Website Presentation",
+      "url": "https://cdn.rauno.me/website-presentation.mp4#t=0.01",
+      "width": 926
+    },
+    {
+      "height": 720,
+      "title": "Liquid Swipe",
+      "url": "https://cdn.rauno.me/liquid-swipe.mp4#t=0.01",
+      "width": 886
+    },
+    {
+      "height": 720,
+      "title": "Command Menu",
+      "url": "https://cdn.rauno.me/cmdk-ultra.mp4#t=0.01",
+      "width": 1056
+    },
+    {
+      "height": 780,
+      "title": "Browser History",
+      "url": "https://cdn.rauno.me/browser-history.mp4#t=0.01",
+      "width": 1280
+    }
+  ]
+}

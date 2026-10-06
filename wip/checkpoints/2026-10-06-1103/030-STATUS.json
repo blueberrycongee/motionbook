@@ -1,0 +1,14 @@
+{
+  "id": "030",
+  "title": "File toss",
+  "revision": "wip-m02",
+  "archive": "030-wip-m02.zip",
+  "archive_bytes": 507243,
+  "archive_sha256": "ca7ce59b6314499de4c16c4886bb218036c38de1eaeb3e41aec7eb1d4fd51974",
+  "archive_git_blob_sha1": "dabb0f066b80b7b2d3621860ed26c2bb1b472b0b",
+  "payload_files": 20,
+  "original_manifest_file": "MANIFEST.json",
+  "original_manifest_sha256": "98e3768c9b5683f179301c7868e25461a7f9cdc2da2ffd50ddffb3f1a94fec18",
+  "status": "WIP backup; not an accepted main example",
+  "reference_media_included": false
+}

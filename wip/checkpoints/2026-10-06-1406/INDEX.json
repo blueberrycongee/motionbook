@@ -1,0 +1,24 @@
+[
+  {
+    "id": "009-rebuild-wip-002",
+    "archive": "009-rebuild-wip-002.zip",
+    "archive_bytes": 1151393,
+    "archive_sha256": "9c23facbb0e4b5417fe61e8af1a8f7c30944e45c9b0df90003ab540c8befa87a",
+    "source_manifest": "FILES.sha256",
+    "source_manifest_sha256": "44e960d99efe187868dac90e4e12895bfa1e2d8c29c3dc07597c97f1fcdb2a95",
+    "files": 30,
+    "status": "WIP; complete visual review and final media pending.",
+    "reference_media_included": false
+  },
+  {
+    "id": "040-graph-slider-m01",
+    "archive": "040-graph-slider-m01.zip",
+    "archive_bytes": 184836,
+    "archive_sha256": "4529b0236e036dd3bf0e00ffc0fd7122c9497ad46b0643eaba305957e60c388f",
+    "source_manifest": "MANIFEST.json",
+    "source_manifest_sha256": "2ec9e6d8be64a2ffab1054139b89859bc7b830457f008d8de4f2578fca195d3f",
+    "files": 19,
+    "status": "WIP; complete visual review and final media pending.",
+    "reference_media_included": false
+  }
+]

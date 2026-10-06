@@ -1,0 +1,4 @@
+import test from'node:test';import assert from'node:assert/strict';import{TOTAL,cell,stageForWeek,stateAt,scene}from'../src/scene.mjs';import{COUNTS}from'../src/counts.mjs';
+test('all 445 source counts stay within 90 years and preserve known rests',()=>{assert.equal(COUNTS.length,445);for(const n of COUNTS)assert.ok(Number.isInteger(n)&&n>=0&&n<=TOTAL);assert.equal(COUNTS[0],1456);assert.equal(COUNTS[25],0);assert.equal(COUNTS[217],411);assert.equal(COUNTS[444],3006);});
+test('column-major 90 by 52 geometry and stage boundaries are explicit',()=>{assert.equal(cell(0).x,cell(51).x);assert.ok(cell(52).x>cell(51).x);assert.equal(cell(52).y,cell(0).y);assert.deepEqual([259,260,935,936,3379,3380].map(stageForWeek),[0,1,1,2,2,3]);});
+test('initial, zero and retirement scenes produce finite independently authored SVG',()=>{for(const i of[0,25,170])assert.ok(!/NaN|Infinity|undefined/.test(scene(stateAt(i))));});

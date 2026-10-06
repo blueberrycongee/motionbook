@@ -1,0 +1,139 @@
+{
+  "frames_compared": 622,
+  "coverage": [
+    0,
+    621
+  ],
+  "native_pts_used": true,
+  "resolution": [
+    1318,
+    812
+  ],
+  "reference_pixels_redistributed": false,
+  "renderer": "offline SVG raster via sharp/librsvg; not browser execution",
+  "metric_warning": "Raw error diagnostics are not a fidelity percentage or pass gate. Background pixels dilute whole-canvas error. Contact sheets require visual review.",
+  "canvas_mae_mean": 0.26753729581993574,
+  "roi_mae_mean": 0.4639836768488745,
+  "worst_roi_frames": [
+    {
+      "frame": 465,
+      "pts_seconds": 7.75,
+      "canvas_mae_0_255": 0.582934,
+      "content_roi_mae_0_255": 1.042466,
+      "max_channel_error": 255,
+      "pixels_over_32": 7158
+    },
+    {
+      "frame": 466,
+      "pts_seconds": 7.766667,
+      "canvas_mae_0_255": 0.580365,
+      "content_roi_mae_0_255": 1.037822,
+      "max_channel_error": 255,
+      "pixels_over_32": 7122
+    },
+    {
+      "frame": 467,
+      "pts_seconds": 7.783333,
+      "canvas_mae_0_255": 0.560511,
+      "content_roi_mae_0_255": 1.001928,
+      "max_channel_error": 255,
+      "pixels_over_32": 7074
+    },
+    {
+      "frame": 468,
+      "pts_seconds": 7.8,
+      "canvas_mae_0_255": 0.557285,
+      "content_roi_mae_0_255": 0.996096,
+      "max_channel_error": 255,
+      "pixels_over_32": 6974
+    },
+    {
+      "frame": 70,
+      "pts_seconds": 1.166667,
+      "canvas_mae_0_255": 0.538455,
+      "content_roi_mae_0_255": 0.939881,
+      "max_channel_error": 255,
+      "pixels_over_32": 6659
+    },
+    {
+      "frame": 68,
+      "pts_seconds": 1.133333,
+      "canvas_mae_0_255": 0.530666,
+      "content_roi_mae_0_255": 0.9258,
+      "max_channel_error": 255,
+      "pixels_over_32": 6452
+    },
+    {
+      "frame": 69,
+      "pts_seconds": 1.15,
+      "canvas_mae_0_255": 0.526478,
+      "content_roi_mae_0_255": 0.918227,
+      "max_channel_error": 255,
+      "pixels_over_32": 6522
+    },
+    {
+      "frame": 462,
+      "pts_seconds": 7.7,
+      "canvas_mae_0_255": 0.511395,
+      "content_roi_mae_0_255": 0.913137,
+      "max_channel_error": 255,
+      "pixels_over_32": 6382
+    },
+    {
+      "frame": 71,
+      "pts_seconds": 1.183333,
+      "canvas_mae_0_255": 0.523395,
+      "content_roi_mae_0_255": 0.912654,
+      "max_channel_error": 255,
+      "pixels_over_32": 6601
+    },
+    {
+      "frame": 395,
+      "pts_seconds": 6.583333,
+      "canvas_mae_0_255": 0.501291,
+      "content_roi_mae_0_255": 0.895073,
+      "max_channel_error": 255,
+      "pixels_over_32": 6579
+    },
+    {
+      "frame": 469,
+      "pts_seconds": 7.816667,
+      "canvas_mae_0_255": 0.501288,
+      "content_roi_mae_0_255": 0.894865,
+      "max_channel_error": 255,
+      "pixels_over_32": 6332
+    },
+    {
+      "frame": 393,
+      "pts_seconds": 6.55,
+      "canvas_mae_0_255": 0.498363,
+      "content_roi_mae_0_255": 0.889781,
+      "max_channel_error": 255,
+      "pixels_over_32": 6576
+    },
+    {
+      "frame": 463,
+      "pts_seconds": 7.716667,
+      "canvas_mae_0_255": 0.494918,
+      "content_roi_mae_0_255": 0.883351,
+      "max_channel_error": 255,
+      "pixels_over_32": 6278
+    },
+    {
+      "frame": 73,
+      "pts_seconds": 1.216667,
+      "canvas_mae_0_255": 0.506555,
+      "content_roi_mae_0_255": 0.882211,
+      "max_channel_error": 255,
+      "pixels_over_32": 6505
+    },
+    {
+      "frame": 509,
+      "pts_seconds": 8.483333,
+      "canvas_mae_0_255": 0.496493,
+      "content_roi_mae_0_255": 0.881974,
+      "max_channel_error": 233,
+      "pixels_over_32": 6315
+    }
+  ]
+}

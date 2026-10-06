@@ -1,0 +1,24 @@
+[
+  {
+    "id": "030-final-01",
+    "archive": "030-final-01.zip",
+    "archive_bytes": 1744895,
+    "archive_sha256": "6de088272a186fd743290810d2dffbc297e6f1c9bebaf95d72fbfc2497d0eaaf",
+    "source_manifest": "MANIFEST.json",
+    "source_manifest_sha256": "496ed23fcdda11a04ed90e96af2399237fa7a984fd34e6b6781b071bd8e21c34",
+    "files": 35,
+    "status": "WIP; independent fidelity review pending.",
+    "reference_media_included": false
+  },
+  {
+    "id": "chatgpt-scheduled-tasks-m07-native-review",
+    "archive": "chatgpt-scheduled-tasks-m07-native-review.zip",
+    "archive_bytes": 6252359,
+    "archive_sha256": "4679292933a8fccad415049c36cbcc3d86a68d9366d521fff9f25edb5afd99ca",
+    "source_manifest": "FILES.sha256",
+    "source_manifest_sha256": "05b663419916412bb93f6ea8852821553a7663052870770ccda6b1bfb129274d",
+    "files": 67,
+    "status": "WIP; user requested further alignment and interaction corrections. Main publication held.",
+    "reference_media_included": false
+  }
+]

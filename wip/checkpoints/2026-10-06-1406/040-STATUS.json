@@ -1,0 +1,11 @@
+{
+  "id": "040-graph-slider-m01",
+  "archive": "040-graph-slider-m01.zip",
+  "archive_bytes": 184836,
+  "archive_sha256": "4529b0236e036dd3bf0e00ffc0fd7122c9497ad46b0643eaba305957e60c388f",
+  "source_manifest": "MANIFEST.json",
+  "source_manifest_sha256": "2ec9e6d8be64a2ffab1054139b89859bc7b830457f008d8de4f2578fca195d3f",
+  "files": 19,
+  "status": "WIP; complete visual review and final media pending.",
+  "reference_media_included": false
+}

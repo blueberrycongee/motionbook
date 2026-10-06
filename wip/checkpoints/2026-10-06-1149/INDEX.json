@@ -1,0 +1,57 @@
+[
+  {
+    "id": "030-wip-m03",
+    "archive": "030-wip-m03.zip",
+    "archive_bytes": 508671,
+    "archive_sha256": "359ed64e1f97733c80143e42b49efee45adaf406975a5a93e92bb9e81ae5bcaa",
+    "source_manifest": "MANIFEST.json",
+    "source_manifest_sha256": "a07a3da65419ad5607ca08c3e94888382cdf8a9bb58b376025a7261541968924",
+    "files": 20,
+    "status": "WIP only; independent quality clearance is pending",
+    "reference_media_included": false
+  },
+  {
+    "id": "032-m02",
+    "archive": "032-m02.zip",
+    "archive_bytes": 1572171,
+    "archive_sha256": "a05d493b52071837dc7d745cea9d17e6096748974059f2ad018cb19a003f3ee7",
+    "source_manifest": "MANIFEST.json",
+    "source_manifest_sha256": "c2018100768eaa19fdbc398adc93996ec3331e2ac9d8efdb3f8ed8c0b5112309",
+    "files": 22,
+    "status": "WIP only; independent quality clearance is pending",
+    "reference_media_included": false
+  },
+  {
+    "id": "chatgpt-scheduled-tasks-m03",
+    "archive": "chatgpt-scheduled-tasks-m03.zip",
+    "archive_bytes": 2319100,
+    "archive_sha256": "79d579de95b25874e54c56ae1ec1c179c14aa442be762072d97d4edb21aac8cb",
+    "source_manifest": "FILES.sha256",
+    "source_manifest_sha256": "ea134a14603b5c3a6d39013d28d851450dcb5586a0679018b4c643c377dbeda4",
+    "files": 34,
+    "status": "WIP only; independent quality clearance is pending",
+    "reference_media_included": false
+  },
+  {
+    "id": "027-marker-r4",
+    "archive": "027-marker-r4.zip",
+    "archive_bytes": 409376,
+    "archive_sha256": "8a284821840a7b153c6b12ed9dc4863876bb182de90a47901270a4b1018e85d3",
+    "source_manifest": "FILES.sha256",
+    "source_manifest_sha256": "3a9523b376b9358798d1d04d86c37718f9c32bca298bcc4bc5750a8856b62949",
+    "files": 28,
+    "status": "WIP only; independent quality clearance is pending",
+    "reference_media_included": false
+  },
+  {
+    "id": "chatgpt-scheduled-tasks-m04-source",
+    "archive": "chatgpt-scheduled-tasks-m04-source.zip",
+    "archive_bytes": 57287,
+    "archive_sha256": "224b3bfe81f8a687aa7e50220ee84db10f1624499ec96d3438c2f62a66509384",
+    "source_manifest": "FILES.sha256",
+    "source_manifest_sha256": "6e669516064fceced809cbf212e272b0bdb5db3b71eaacab47addc2629c9e070",
+    "files": 33,
+    "status": "WIP only; independent quality clearance is pending",
+    "reference_media_included": false
+  }
+]

@@ -1,0 +1,1 @@
+{"name":"new100-030-file-toss","private":true,"version":"0.1.0","scripts":{"start":"python3 -m http.server 8030","test":"node --test tests/*.test.cjs","render":"node render.cjs"},"devDependencies":{"sharp":"0.35.4"}}

@@ -1,0 +1,10 @@
+{
+  "case": "029",
+  "created_at": "2026-10-06T09:32:00Z",
+  "status": "source-only WIP; not fidelity approved",
+  "tests_passed": 7,
+  "browser_runtime": "not executed; prior denial respected",
+  "new_visual_review": "full native comparison pending",
+  "main_index_eligible": false,
+  "contains_reference_media": false
+}

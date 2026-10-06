@@ -1,0 +1,6 @@
+const assert=require('node:assert/strict'),test=require('node:test'),S=require('./scene');
+test('all displayed city and time characters are drawable',()=>{for(const city of S.cities)for(const row of S.rows(city[0]))for(const s of row)for(const ch of s)assert.ok(S.font[ch]);for(const p of Object.values(S.font)){assert.equal(p.length,7);assert.ok(p.every(r=>/^[01]{5}$/.test(r)));}});
+test('diagonal reveal resolves exactly to the requested city',()=>{for(let r=0;r<5;r++)for(let c=0;c<20;c++)assert.equal(S.glyph('A',r,c,3),'A');assert.equal(S.glyph('A',4,19,0),' ');});
+test('city replacement changes only the final board row',()=>{const a=S.rows('Tokyo'),b=S.rows('San Francisco');assert.deepEqual(a.slice(0,4),b.slice(0,4));assert.deepEqual(b[4],['06:28','SAN FRANCISCO']);});
+test('search is case-insensitive and handles no matches',()=>{assert.equal(S.filtered('SAN').length,5);assert.equal(S.filtered('no-such-city').length,0);});
+test('deterministic SVG supports both theme endpoints',()=>{assert.equal(S.svg(.4),S.svg(.4));assert.ok(S.svg(2,{light:true}).includes('rgb(235,235,235)'));assert.ok(S.svg(2).includes('rgb(23,23,23)'));assert.ok(!/NaN|undefined/.test(S.svg(.6,{search:true,query:'san',controls:true})));});

@@ -1,0 +1,11 @@
+{
+  "id": "chatgpt-scheduled-tasks-m07-native-review",
+  "archive": "chatgpt-scheduled-tasks-m07-native-review.zip",
+  "archive_bytes": 6252359,
+  "archive_sha256": "4679292933a8fccad415049c36cbcc3d86a68d9366d521fff9f25edb5afd99ca",
+  "source_manifest": "FILES.sha256",
+  "source_manifest_sha256": "05b663419916412bb93f6ea8852821553a7663052870770ccda6b1bfb129274d",
+  "files": 67,
+  "status": "WIP; user requested further alignment and interaction corrections. Main publication held.",
+  "reference_media_included": false
+}

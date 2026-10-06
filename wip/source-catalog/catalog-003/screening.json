@@ -1,0 +1,32 @@
+{
+  "rauno-wheel-input-3": {
+    "status": "overview-only-defer-priority",
+    "native_frames": 390,
+    "reason": "3D-like numeric date wheels with momentum; external pastel desktop wallpaper. Drawable in principle but adds third calendar-related example, less distinctive than current candidates."
+  },
+  "rauno-waveform": {
+    "status": "fully-native-reviewed",
+    "review": "native-audit/rauno-waveform/review.json",
+    "native_frames": 480
+  },
+  "rauno-copy-paste": {
+    "status": "overview-only-defer-assets",
+    "native_frames": 246,
+    "reason": "Photo shrinks into clipboard pointer proxy, then grows into new dropzone. Source photograph prevents faithful independent asset match; do not copy it."
+  },
+  "rauno-graph-slider-2": {
+    "status": "overview-only-candidate",
+    "native_frames": 552,
+    "reason": "Clean line/area graph thumb follows data curve while tooltip time changes. Drawable, lower motion distinctiveness than fractional ruler; full review pending."
+  },
+  "rauno-fractional-slider": {
+    "status": "fully-native-reviewed",
+    "review": "native-audit/rauno-fractional-slider/review.json",
+    "native_frames": 360
+  },
+  "rauno-precision-slider": {
+    "status": "overview-only-defer-assets",
+    "native_frames": 470,
+    "reason": "Slider expands on pointer interaction but full-frame presentation includes complex purple metallic desktop wallpaper; avoid another reconstruction burden."
+  }
+}

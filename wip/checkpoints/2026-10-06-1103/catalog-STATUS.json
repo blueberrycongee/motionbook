@@ -1,0 +1,14 @@
+{
+  "id": "catalog",
+  "title": "Source catalog",
+  "revision": "004-paths-sanitized",
+  "archive": "catalog-004.zip",
+  "archive_bytes": 15881,
+  "archive_sha256": "c17541491650a579d7383a7afeb9cbd0f5cbceeb46699aaecf48cfef5e151111",
+  "archive_git_blob_sha1": "63e018fc71f0e687c26b6b52ef4684acae475d40",
+  "payload_files": 10,
+  "original_manifest_file": "FILES.sha256.json",
+  "original_manifest_sha256": "5df87a7e4cdb5f69afb652259986c290cba5b52c805e09fc93fb428b9447dfd7",
+  "status": "source provenance only; analysis workspace paths removed, no reference media added",
+  "reference_media_included": false
+}

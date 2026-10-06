@@ -1,0 +1,11 @@
+{
+  "id": "032-m02",
+  "archive": "032-m02.zip",
+  "archive_bytes": 1572171,
+  "archive_sha256": "a05d493b52071837dc7d745cea9d17e6096748974059f2ad018cb19a003f3ee7",
+  "source_manifest": "MANIFEST.json",
+  "source_manifest_sha256": "c2018100768eaa19fdbc398adc93996ec3331e2ac9d8efdb3f8ed8c0b5112309",
+  "files": 22,
+  "status": "WIP only; independent quality clearance is pending",
+  "reference_media_included": false
+}

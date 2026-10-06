@@ -1,0 +1,11 @@
+{
+  "id": "chatgpt-scheduled-tasks-m04-source",
+  "archive": "chatgpt-scheduled-tasks-m04-source.zip",
+  "archive_bytes": 57287,
+  "archive_sha256": "224b3bfe81f8a687aa7e50220ee84db10f1624499ec96d3438c2f62a66509384",
+  "source_manifest": "FILES.sha256",
+  "source_manifest_sha256": "6e669516064fceced809cbf212e272b0bdb5db3b71eaacab47addc2629c9e070",
+  "files": 33,
+  "status": "WIP only; independent quality clearance is pending",
+  "reference_media_included": false
+}

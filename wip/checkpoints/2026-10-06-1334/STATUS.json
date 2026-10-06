@@ -1,0 +1,11 @@
+{
+  "id": "032-elastic-string-clock-m03",
+  "archive": "032-elastic-string-clock-m03.zip",
+  "archive_bytes": 1580034,
+  "archive_sha256": "45e33c27f1d26e695e28fb39ea3b45a4d6890f55682f156380fe6057690567c4",
+  "source_manifest": "MANIFEST.json",
+  "source_manifest_sha256": "325bde490bd963710bf051e5499e45533d96029d09d35d52bb0036d629e33e54",
+  "files": 20,
+  "status": "WIP; revised visual review and final media pending.",
+  "reference_media_included": false
+}

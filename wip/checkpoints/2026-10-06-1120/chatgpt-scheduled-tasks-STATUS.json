@@ -1,0 +1,11 @@
+{
+  "id": "chatgpt-scheduled-tasks",
+  "status": "incomplete UI checkpoint; previews and independent review pending",
+  "archive": "chatgpt-scheduled-tasks-m02.zip",
+  "archive_sha256": "036cd5c3e7929206135c95b72a3df1c5e8d2d066e73665cf6c8913204ec70684",
+  "archive_bytes": 31227,
+  "source_manifest_sha256": "3336c318f6e63cc3f9903895efa7127bbe35eea96b3dc9e0e92789d3afa33576",
+  "files": 20,
+  "reference_media_included": false,
+  "part_of_new100": false
+}
