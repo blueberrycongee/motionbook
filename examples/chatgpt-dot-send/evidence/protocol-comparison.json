@@ -1,0 +1,98 @@
+{
+  "method": "Isolated pure-function and mock-DOM protocol instrumentation of the fingerprinted public client; no application/account/network execution. All fixtures are synthetic.",
+  "checks": "Compare the independent r3 model to actual generated animation tracks for identical synthetic rectangles, CSS zoom and computed corner radii.",
+  "runtimeVisualEquivalence": false,
+  "cases": [
+    {
+      "distanceCSS": 24,
+      "cssZoom": 1,
+      "bodyWidthCSS": 96,
+      "bubbleWidthCSS": 96,
+      "maxSpringSampleDifference": 0,
+      "startTranslationError": 0,
+      "squishError": 0,
+      "leftCapTranslationError": 0,
+      "centerFinalScaleError": 0,
+      "trackDurationsMatch": true,
+      "sourceTracksHaveSynchronizedStart": true
+    },
+    {
+      "distanceCSS": 46,
+      "cssZoom": 1,
+      "bodyWidthCSS": 96,
+      "bubbleWidthCSS": 96,
+      "maxSpringSampleDifference": 0,
+      "startTranslationError": 0,
+      "squishError": 0,
+      "leftCapTranslationError": 0,
+      "centerFinalScaleError": 0,
+      "trackDurationsMatch": true,
+      "sourceTracksHaveSynchronizedStart": true
+    },
+    {
+      "distanceCSS": 80,
+      "cssZoom": 1,
+      "bodyWidthCSS": 120,
+      "bubbleWidthCSS": 120,
+      "maxSpringSampleDifference": 0,
+      "startTranslationError": 0,
+      "squishError": 0,
+      "leftCapTranslationError": 0,
+      "centerFinalScaleError": 0,
+      "trackDurationsMatch": true,
+      "sourceTracksHaveSynchronizedStart": true
+    },
+    {
+      "distanceCSS": 92,
+      "cssZoom": 1,
+      "bodyWidthCSS": 156,
+      "bubbleWidthCSS": 156,
+      "maxSpringSampleDifference": 0,
+      "startTranslationError": 0,
+      "squishError": 0,
+      "leftCapTranslationError": 0,
+      "centerFinalScaleError": 0,
+      "trackDurationsMatch": true,
+      "sourceTracksHaveSynchronizedStart": true
+    },
+    {
+      "distanceCSS": 240,
+      "cssZoom": 1,
+      "bodyWidthCSS": 240,
+      "bubbleWidthCSS": 240,
+      "maxSpringSampleDifference": 0,
+      "startTranslationError": 0,
+      "squishError": 0,
+      "leftCapTranslationError": 0,
+      "centerFinalScaleError": 0,
+      "trackDurationsMatch": true,
+      "sourceTracksHaveSynchronizedStart": true
+    },
+    {
+      "distanceCSS": 92,
+      "cssZoom": 2,
+      "bodyWidthCSS": 156,
+      "bubbleWidthCSS": 156,
+      "maxSpringSampleDifference": 0,
+      "startTranslationError": 0,
+      "squishError": 0,
+      "leftCapTranslationError": 0,
+      "centerFinalScaleError": 0,
+      "trackDurationsMatch": true,
+      "sourceTracksHaveSynchronizedStart": true
+    },
+    {
+      "distanceCSS": 92,
+      "cssZoom": 1,
+      "bodyWidthCSS": 156,
+      "bubbleWidthCSS": 120,
+      "maxSpringSampleDifference": 0,
+      "startTranslationError": 0,
+      "squishError": 0,
+      "leftCapTranslationError": 0,
+      "centerFinalScaleError": 0,
+      "trackDurationsMatch": true,
+      "sourceTracksHaveSynchronizedStart": true
+    }
+  ]
+}

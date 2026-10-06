@@ -1,0 +1,14 @@
+{
+  "id": "chatgpt-dot-send",
+  "collection": "supplemental",
+  "new100_counted": false,
+  "revision": "r3",
+  "approval": "User accepted the delivered r3 and requested publication under the repository rules",
+  "manifest_sha256": "3e45a2662a3372b556f83a6d8fb0ff7c2cff0bffcf70e066e872fb7663f277ec",
+  "standalone_tests_passed": 37,
+  "accepted_media_bytes_preserved": true,
+  "rewired_renderer_frames_identical": 441,
+  "application_browser_runtime": "not_run",
+  "index_role": "Video preview player; independently runnable renderer and model included",
+  "readme_browser_playback_verification": "pending"
+}

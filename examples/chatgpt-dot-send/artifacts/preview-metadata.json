@@ -1,0 +1,18 @@
+{
+  "type": "independent-offline-render",
+  "browserCapture": false,
+  "fps": 60,
+  "durationSeconds": 7.35,
+  "cssWidth": 360,
+  "cssHeight": 480,
+  "renderScale": 2,
+  "width": 720,
+  "height": 960,
+  "technicalOverlayText": false,
+  "source": "revisions/r3/scripts/scene.mjs",
+  "scenes": [
+    "single-line send",
+    "multiline send"
+  ],
+  "verifiedOriginalApp": false
+}

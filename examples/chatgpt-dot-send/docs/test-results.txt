@@ -1,0 +1,49 @@
+
+> dot-send-r3@0.3.0 test
+> node --test test/*.test.mjs
+
+✔ verified default durations (6.610097ms)
+✔ start aligns composer right and top when body fits (0.984377ms)
+✔ tall message aligns composer bottom (0.723697ms)
+✔ spring is normalized to 600 ms (0.657715ms)
+✔ width morph is complete by 190 ms (0.516442ms)
+✔ width curve is not simple linear (0.329715ms)
+✔ compression reaches its specified size at one third (0.353171ms)
+✔ size factor follows both message dimensions (0.587881ms)
+✔ scale clamp prevents pathological skinny collapse (2.55514ms)
+✔ receipt waits 800 ms, not network completion (0.99597ms)
+✔ zoom compensation preserves CSS motion (3.174005ms)
+✔ zero distance remains finite and critically damped (0.621402ms)
+✔ damping changes with travel distance (0.573979ms)
+✔ spring curve has 60 rounded CSS samples (1.185538ms)
+✔ reduced motion is instantaneous and does not retain hold (0.706003ms)
+✔ existing-row correction ends at 190 ms (0.28825ms)
+✔ invalid zoom is rejected (1.068061ms)
+✔ body and bubble are measured independently (4.810727ms)
+✔ body squish still uses body dimensions (0.539926ms)
+✔ three-piece center ratio matches source track capture (0.622351ms)
+✔ narrower bubble changes only its morph measurement (1.875441ms)
+✔ CSS zoom corrects dimensions and seam overlap (4.792943ms)
+✔ video scale never enters plan geometry (2.208651ms)
+✔ rectangular bodies clamp corner radius like CSS (0.746188ms)
+✔ travel and squish stay independent WAAPI tracks (0.405054ms)
+✔ shape/text lock cleanup is 190 ms, body lock is 800 ms (0.873091ms)
+✔ source padding, line height and radius are used (0.332106ms)
+✔ consecutive self messages group within 30 minutes (0.178762ms)
+✔ grouped message gap is 4 CSS px (0.452655ms)
+✔ last message sits 32 CSS px above composer (0.515666ms)
+✔ spacing transition has partial jump then 220 ms change (0.251462ms)
+✔ multiline destination moves with ongoing normal layout (0.237223ms)
+✔ new message starts at captured composer text edge (0.228102ms)
+✔ old-row FLIP has no jump at the first visible send frame (0.233275ms)
+✔ net old-row motion incorporates grouped row and footer shrink (0.209774ms)
+✔ all generated frames remain finite (23.568766ms)
+✔ visible video contains no explanatory labels (1.279143ms)
+ℹ tests 37
+ℹ suites 0
+ℹ pass 37
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 312.24291
