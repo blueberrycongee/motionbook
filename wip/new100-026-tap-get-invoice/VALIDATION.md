@@ -1,9 +1,7 @@
-# Current checkpoint validation
+# Reconstruction checkpoint status
 
-The five Node tests cover projective corner mapping, finite font geometry, partial polyline lengths, all 831 native timestamp selections / finite SVG construction, separate reverse-fold paper faces, and reset-tail identity. These are model / renderer checks, not browser execution.
+All 831 native poses and 105 authored hold/reset poses have been rendered afresh with Sharp/librsvg. Full pair review is in progress; native frames 0–191 have been inspected so far, plus 28 paper/lip keyframes and 23 enlarged pen comparisons. Paper timing and the reverse-fold projecting faces are close at these reviewed points. The pen study still has visible start-position and return-loop timing differences; refinement is ongoing. This is not a final freeze.
 
-28 selected native-time SVGs were freshly rendered with Sharp/librsvg. Source/replica comparisons were inspected for frames 0, 17, 24, 29, 34, 39, 45, 130, 205, 210, 215–223 and 500–508. The reverse-fold projecting lip is separately modeled; pointer overlap was excluded from the right-edge fit. Broad unfolding structure and focused small-paper contours are close at those selected points.
+Node tests cover projective corner mapping, finite font geometry, geometric stroke prefixes, all 831 source timestamps and SVG construction, separate reverse paper faces, loop reset identity, repeated/interrupted open/close commands, reduced motion, Escape while already closed, and PDF byte offsets. Browser runtime and performance have not been tested in this environment. Earlier browser security restrictions remain respected.
 
-This checkpoint is incomplete. Pen marks and recorded pointer tracks are absent. Full every-frame visual review, animation media exports and independent final review have not been performed on this new reconstruction. Font, icon and fine shadow differences still need full-size review. Native browser interaction / performance testing has not been run; earlier environment security restrictions are being respected.
-
-Run `npm test`. To serve, run `npm start` and open http://127.0.0.1:4173 . Use Replay to restart the current recorded sequence. The recorded sequence is 13.888 seconds; the demo includes a hold and authored reset through 15.6 seconds.
+Run `npm test`. Serve with `npm start`, open http://127.0.0.1:4173 . Get invoice takes control, Escape or an outside click closes, Replay or R restarts the recorded sequence. Download PDF produces a local illustrative document without network requests. The full demo is 15.6 seconds, including an authored hold/reset tail.
