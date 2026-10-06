@@ -1,0 +1,11 @@
+{
+  "name": "elastic-string-clock",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test test.cjs",
+    "render": "node scripts/render.cjs",
+    "verify": "node scripts/verify-raster.cjs"
+  },
+  "devDependencies": {"sharp": "0.35.4"}
+}

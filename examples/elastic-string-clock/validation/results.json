@@ -1,0 +1,28 @@
+{
+  "modelTests": 9,
+  "nativeFrames": 1021,
+  "authoredClosingFrames": 179,
+  "previewStates": 1200,
+  "nativeResolutionPoses": 16,
+  "media": {
+    "mp4": {
+      "sha256": "6d33bd258b43f896ef842383d4dad022f3a9f2cb65275702a3ee2e47ad152060",
+      "frames": 1200,
+      "nativePTSError": 0.0,
+      "width": 864,
+      "height": 540,
+      "duration": 20.0,
+      "completeDecode": "passed"
+    },
+    "gif": {
+      "sha256": "bcf3742310c50ca6b424d04941ce03098b6408aba0ac5ae8d02949ac2c46015a",
+      "frames": 600,
+      "distinctDecodedImages": 562,
+      "durationSeconds": 20.0,
+      "decodedEndpointsEqual": true,
+      "completeDecode": "passed"
+    },
+    "renderer": "Offline independent SVG/Sharp, not browser capture"
+  },
+  "browserExecution": "unverified"
+}

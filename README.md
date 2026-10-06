@@ -80,4 +80,9 @@ UI animations & micro-interactions recreated in code, with GIF previews. 高质�
     <td align="center" width="33%"><a href="examples/graph-slider/README.md"><img src="examples/graph-slider/preview/loop.gif" width="200" alt="Graph slider"></a><br><a href="examples/graph-slider/README.md">Graph slider</a></td>
     <td align="center" width="33%"><a href="examples/ringwriter/README.md"><img src="examples/ringwriter/preview/loop.gif" width="200" alt="Ringwriter"></a><br><a href="examples/ringwriter/README.md">Ringwriter</a></td>
   </tr>
+  <tr>
+    <td align="center" width="33%"><a href="examples/elastic-string-clock/README.md"><img src="examples/elastic-string-clock/preview.gif" width="200" alt="Elastic string clock"></a><br><a href="examples/elastic-string-clock/README.md">Elastic string clock</a></td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>

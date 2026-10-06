@@ -1,0 +1,13 @@
+{
+  "id": "new100-032",
+  "title": "Elastic String Clock",
+  "path": "examples/elastic-string-clock",
+  "native_frames_reviewed": 1021,
+  "authored_closure_frames": 179,
+  "independent_review": "passed",
+  "tests_passed": 9,
+  "external_image_assets": [],
+  "browser_runtime": "not_run",
+  "readme_gif_playback": "pending",
+  "source_manifest_sha256": "7b5b6003a1e6c44aa47db0f6cf75844bcfdf6401743d4bcd40318a94f5ed289d"
+}
