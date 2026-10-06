@@ -1,0 +1,40 @@
+{
+  "loop": {
+    "gif": {
+      "width": 864,
+      "height": 544,
+      "frames": 202,
+      "duration_seconds": 4.04
+    },
+    "mp4": {
+      "codec_name": "h264",
+      "width": 1080,
+      "height": 680,
+      "r_frame_rate": "60/1",
+      "nb_frames": "242",
+      "duration": "4.033333"
+    },
+    "decode": "passed",
+    "source_hashes": "matched",
+    "loop_seam": "identical",
+    "minimize_seconds": 0.5,
+    "restore_seconds": 0.5333333333333333,
+    "playback_speed": 1
+  },
+  "slow-motion": {
+    "mp4": {
+      "codec_name": "h264",
+      "width": 1080,
+      "height": 680,
+      "r_frame_rate": "60/1",
+      "nb_frames": "428",
+      "duration": "7.133333"
+    },
+    "decode": "passed",
+    "source_hashes": "matched",
+    "loop_seam": "identical",
+    "minimize_seconds": 2,
+    "restore_seconds": 2.1333333333333333,
+    "playback_speed": 0.25
+  }
+}

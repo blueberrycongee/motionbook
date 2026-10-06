@@ -1,0 +1,46 @@
+✔ adapter initializes and does not schedule idle animation frames (6.559495ms)
+✔ yellow button minimizes, transfers focus, and Dock restores (3.227374ms)
+✔ button reversal keeps position and a single scheduled frame (2.185781ms)
+✔ Space shortcut avoids form controls and key-repeat; Escape restores (2.925709ms)
+✔ scrub updates visual/accessibility outputs and cancels replay (1.434947ms)
+✔ system reduced motion snaps endpoints and disables replay/loop/scrub (1.573847ms)
+✔ live system preference cancels animation without a jump to an intermediate pose (1.780209ms)
+✔ explicit reduce-motion preference snaps and exposes explanatory note (1.461377ms)
+✔ visibility pause cancels frame and resumes from same pose (1.984097ms)
+✔ loop checkbox cycles until unchecked and settles with no idle frames (9.048415ms)
+✔ static pose URL is safe, clamped and ignored for system reduced motion (3.672075ms)
+✔ manual reduce-motion choice survives OS on/off changes (1.319423ms)
+✔ Minimize button after 25 percent scrub minimizes (1.393704ms)
+✔ open geometry matches source; closed sheet is hidden behind Dock (1.565344ms)
+✔ dense mesh stays finite, positive, ordered, in bounds (16.930768ms)
+✔ first phase bends lower rows while top and height remain fixed (0.260183ms)
+✔ deformation is continuous across the stage boundaries (0.289026ms)
+✔ minimize and restore settle exactly with no overshoot (0.697733ms)
+✔ rapid reversal preserves the displayed pose, then reverses (6.531544ms)
+✔ repeated minimize is idempotent (0.158379ms)
+✔ speed change keeps pose and slow motion takes longer (0.225571ms)
+✔ replay completes once and returns to manual open state (0.428788ms)
+✔ loop continues until an explicit manual action stops it (0.670071ms)
+✔ reduced motion snaps, cancels loops and prevents replay (0.240043ms)
+✔ scrubbing clamps and cancels automatic playback (0.253724ms)
+✔ render loop seams match and all poses are valid (1.621599ms)
+✔ large elapsed times are capped; hidden-tab resume cannot teleport (0.179741ms)
+✔ state actions do not mutate the prior state (0.151649ms)
+✔ toggle direction after scrubbing matches the visible button label (0.409858ms)
+✔ sheet remains full height even after it flows behind Dock (0.114944ms)
+✔ equal time intervals have accelerated then decelerated displacement (0.149856ms)
+✔ normal preview and runtime use exactly the same motion clock (0.823283ms)
+✔ normal transition is 500ms and slow study is explicitly four times slower (0.290639ms)
+✔ restore top arrives early, leaving the final third for lateral release (0.146942ms)
+✔ calibrated samples use actual encoded timestamps, including gaps (0.221795ms)
+✔ measured funnel mouth narrows then widens during minimize (0.093531ms)
+✔ interrupting calibrated directions preserves the entire visible pose (0.563722ms)
+✔ restore corridor stays finite, positive and ordered through all sampled times (7.976697ms)
+ℹ tests 38
+ℹ suites 0
+ℹ pass 38
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 131.634291

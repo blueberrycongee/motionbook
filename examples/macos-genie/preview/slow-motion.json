@@ -1,0 +1,33 @@
+{
+  "renderer": "@napi-rs/canvas 0.1.100; the same scene and geometry as the browser, not a screen recording",
+  "width": 1080,
+  "height": 680,
+  "fps": 60,
+  "frames": 428,
+  "seconds": 7.133333333333333,
+  "transition_seconds": 2,
+  "restore_seconds": 2.1333333333333333,
+  "playback_speed": 0.25,
+  "timing": "same advanceProgress() clock as browser runtime",
+  "sources": [
+    {
+      "path": "src/calibration-data.js",
+      "sha256": "a6a42fa2fb739f6eb501a4716815bd55dbb8c6b5ec3584b6f701edc14e304834"
+    },
+    {
+      "path": "src/calibrated.js",
+      "sha256": "65abb75d6800659d07c3f21250d84ae90009f1604b6d3579aff933d12c629b1f"
+    },
+    {
+      "path": "src/motion.js",
+      "sha256": "f8fba9e5ce767ccbf39d7130bf5b105b7c53f63cd2a48838fc9d248192769bd5"
+    },
+    {
+      "path": "src/scene.js",
+      "sha256": "d49c0b603278a3d2bdb718ef861d562aad3549855d0c05b6294a00a88c116b18"
+    }
+  ],
+  "loop_seam_identical": true,
+  "mp4_sha256": "2a242ca4b63149de5e74100f62118685241885d3680db00651c582b754a3aa09",
+  "gif_sha256": "47e5f9080d0ac43461ad4da67a1805c84a75b110f2806c0d80a4e482ae40b185"
+}
