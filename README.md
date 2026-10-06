@@ -127,3 +127,7 @@
 ## Minimap
 
 [![Minimap](examples/minimap/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/minimap)
+
+## Agent plan
+
+[![Agent plan](examples/agent-plan/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/agent-plan)

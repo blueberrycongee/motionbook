@@ -1,0 +1,14 @@
+{
+  "id": "new100-008",
+  "slug": "agent-plan",
+  "status": "independently reviewed and accepted",
+  "source_manifest_sha256": "324a0d4650f6f6c2c5d2a46848edd71d96eaacb520a1a4c37cb758a4d442b37b",
+  "reviewed_native_frames": 987,
+  "reviewed_tail_frames": 104,
+  "final_delta_frames": 28,
+  "fresh_final_raster_bindings": 1091,
+  "tests_passed": 9,
+  "browser_runtime": "not_run",
+  "reviewed_at": "2026-10-06T11:38:46Z",
+  "note": "This acceptance receipt supersedes the pending-review status recorded when the frozen reconstruction was packaged."
+}
