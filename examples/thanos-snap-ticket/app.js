@@ -1,0 +1,9 @@
+'use strict';
+const stage=document.getElementById('stage'),button=document.getElementById('toggle'),reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+let start=performance.now(),manual=null,transition=null,requested=null,cameraTime=0;
+const duration=s=>s.to===1?34/24:31/24;
+button.addEventListener('click',()=>{const now=performance.now(),clock=(now-start)/1000,s=manual||Scene.state(clock);if(manual===null)cameraTime=reduce?0:clock;requested=1-(requested===null?s.to:requested);if(transition===null){if(s.from!==s.to){manual={...s};transition=now-s.p*duration(s)*1000;}else{manual={from:s.to,to:requested,p:0};transition=now;}}});
+addEventListener('keydown',e=>{if(e.key==='Escape'){if(manual===null)cameraTime=reduce?0:(performance.now()-start)/1000;manual={from:0,to:0,p:0};transition=null;requested=0;}});
+function frame(now){if(manual&&transition!==null){manual.p=reduce?1:Math.min(1,(now-transition)/(duration(manual)*1000));if(manual.p===1){manual={from:manual.to,to:manual.to,p:0};transition=null;if(requested!==null&&requested!==manual.to){manual={from:manual.to,to:requested,p:0};transition=now;}}}const clock=manual?cameraTime:reduce?0:(now-start)/1000,s=manual||Scene.state(clock);stage.innerHTML=Scene.svg(clock,ASSETS,PARTICLES,s);const rect=Scene.buttonBounds(clock);Object.assign(button.style,{left:rect.x/10+'%',top:rect.y/10+'%',width:rect.width/10+'%',height:rect.height/10+'%'});button.setAttribute('aria-label',s.to?'Hide ticket':'Show ticket');button.setAttribute('aria-pressed',String(s.to===1));requestAnimationFrame(frame);}
+const begin=()=>{start=performance.now();requestAnimationFrame(frame);};
+if(document.fonts&&document.fonts.load)Promise.all(['400 16px Inter','500 16px Inter','600 19px Inter'].map(f=>document.fonts.load(f))).then(()=>document.fonts.ready).then(begin).catch(begin);else begin();

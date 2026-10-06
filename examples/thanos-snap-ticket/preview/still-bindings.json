@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-10-05T23:39:49.043Z",
+  "scene_sha256": "6e4b43d00ae19cb63a0cf550d201bac5257e81a0c03690a3da287ef8a13e1aec",
+  "particles_sha256": "c094e9734c0314a25b799a57c44fbd476558e48b03cef34eabc208dbe965a053",
+  "checks": [
+    {
+      "name": "idle",
+      "t": 0,
+      "sha256": "b0dd760a3bd4cb59b9eb0ca57962cce3397b89c33b1f9a54564fe1c0deff4ff3",
+      "fresh_binding": true
+    },
+    {
+      "name": "dissolve",
+      "t": 1.72,
+      "sha256": "c244ee0570922b76fec14f97b5f9f8050aeedd76cef9ca2416edcb9139070be7",
+      "fresh_binding": true
+    },
+    {
+      "name": "reform",
+      "t": 2.1,
+      "sha256": "2dc0fc97e304848bb7b367827f9a5b31d20b279a61abd8c0b76c36928c034bc7",
+      "fresh_binding": true
+    },
+    {
+      "name": "ticket",
+      "t": 3,
+      "sha256": "4054dbe221ea98bc64eca6935311e368b0b2857bcad5630a90b9c68f304a85c3",
+      "fresh_binding": true
+    },
+    {
+      "name": "return",
+      "t": 5.3,
+      "sha256": "b5891d94852301f680c056ad5bd48d749d7ef2eb1beb359ddc0c078d955f01f5",
+      "fresh_binding": true
+    }
+  ],
+  "exact_first_last_svg": true
+}

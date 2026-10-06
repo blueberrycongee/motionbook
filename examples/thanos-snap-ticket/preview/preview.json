@@ -1,0 +1,10 @@
+{
+  "kind": "Offline SVG render of identical scene.js scene function, not a browser capture",
+  "fps": 60,
+  "frames": 680,
+  "duration": 11.333333333333334,
+  "width": 1000,
+  "height": 1000,
+  "gif_fps": 30,
+  "loop": "First and last states identical"
+}

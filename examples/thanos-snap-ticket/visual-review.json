@@ -1,0 +1,97 @@
+{
+  "reviewed_at_utc": "2026-10-05T23:33:48Z",
+  "reviewer": "/root/replicate_social_motion_cards",
+  "source_file": "motion-reference-research/thanos-snap-ticket.mp4",
+  "source_sha256": "128cc51c4a33afaa3b5f66e001c938db936e8d19455de2f3bce80a2ca7c2ffe2",
+  "source_dimensions": [
+    2000,
+    2000
+  ],
+  "native_frame_count": 271,
+  "native_frame_ranges_visually_inspected": [
+    [
+      0,
+      270
+    ]
+  ],
+  "actual_pts": true,
+  "final_comparison_directory": "motion-batch-100/reports/social-motion-analysis/ticket-native-reverse-v16",
+  "comparison_sheet_count": 23,
+  "prior_enlarged_roi_review": {
+    "directory": "motion-batch-100/reports/social-motion-analysis/ticket-native-roi-v4",
+    "native_ranges": [
+      [
+        0,
+        270
+      ]
+    ],
+    "later_changes": "Static surfaces/icons/center-line alignment and authored particle sampling density were corrected, followed by a fresh all-271-frame full-device review."
+  },
+  "final_enlarged_roi_directory": "motion-batch-100/reports/social-motion-analysis/ticket-native-roi-v6",
+  "full_frame_comparisons": [
+    "motion-batch-100/reports/social-motion-analysis/ticket-native-roi-v6/full-frame-0.png",
+    "motion-batch-100/reports/social-motion-analysis/ticket-native-roi-v6/full-frame-40.png",
+    "motion-batch-100/reports/social-motion-analysis/ticket-native-roi-v6/full-frame-80.png",
+    "motion-batch-100/reports/social-motion-analysis/ticket-native-roi-v6/full-frame-130.png",
+    "motion-batch-100/reports/social-motion-analysis/ticket-native-reverse-v16/full-frame-111.png",
+    "motion-batch-100/reports/social-motion-analysis/ticket-native-reverse-v16/full-frame-120.png",
+    "motion-batch-100/reports/social-motion-analysis/ticket-native-reverse-v16/full-frame-130.png",
+    "motion-batch-100/reports/social-motion-analysis/ticket-native-reverse-v16/full-frame-140.png",
+    "motion-batch-100/reports/social-motion-analysis/ticket-native-reverse-v16/full-frame-231.png",
+    "motion-batch-100/reports/social-motion-analysis/ticket-native-reverse-v16/full-frame-240.png",
+    "motion-batch-100/reports/social-motion-analysis/ticket-native-reverse-v16/full-frame-250.png",
+    "motion-batch-100/reports/social-motion-analysis/ticket-native-reverse-v16/full-frame-260.png"
+  ],
+  "scene_sha256": "6e4b43d00ae19cb63a0cf550d201bac5257e81a0c03690a3da287ef8a13e1aec",
+  "train_scene_sha256": "15deb6ee02a749d39afdb0ff5480831c271d4acaf03536321283619c67a2ba59",
+  "particles_sha256": "c094e9734c0314a25b799a57c44fbd476558e48b03cef34eabc208dbe965a053",
+  "assets_sha256": "fbc4e160dd1dd00707ae424f6d7881f056ba9e6b1aeee250ea431147aac35807",
+  "status": "independent_motion_review_passed_pending_final_media_binding",
+  "remaining_differences": [
+    "Independent vector train illustration has different small blossom contours, reflections and carriage surface detail.",
+    "Source font is unavailable; bundled Inter faces closely approximate it.",
+    "Dummy QR is independent decorative content. Seeded particle positions differ while matching the overall front, drift and timing.",
+    "Recorded touch overlays are omitted."
+  ],
+  "runtime": "Offline SVG raster review; no browser-runtime pass.",
+  "base_full_device_review_directory": "motion-batch-100/reports/social-motion-analysis/ticket-native-comparison-v7",
+  "final_changed_range_review": {
+    "directory": "motion-batch-100/reports/social-motion-analysis/ticket-native-reverse-v16",
+    "ranges": [
+      [
+        111,
+        142
+      ],
+      [
+        231,
+        262
+      ]
+    ],
+    "native_frames_inspected": 64,
+    "sheets": 6,
+    "revision_binding": "motion-batch-100/reports/social-motion-analysis/ticket-native-reverse-v16/revision-binding.json",
+    "summary": "60 native SVGs changed versus preserved v2; 211 are exactly unchanged. All 64 enclosing pairs were inspected again, including every changed native frame."
+  },
+  "combined_review_coverage": {
+    "native_ranges": [
+      [
+        0,
+        270
+      ]
+    ],
+    "native_count": 271,
+    "base_full_device_review": "All 271 v7 pairs",
+    "changed_frame_review": "All 64 reverse-range v16 pairs, containing every one of the 60 changed SVGs; v2 and its prior v7/v10 coverage remain preserved."
+  },
+  "prior_reverse_review": {
+    "directory": "motion-batch-100/reports/social-motion-analysis/ticket-native-reverse-v10",
+    "status": "Rejected by independent reviewer for a dense rectangular QR particle envelope. Preserved v2 remains unpublished."
+  },
+  "independent_review": {
+    "reviewer": "/root/publish_private_animation_reference",
+    "at_utc": "2026-10-05T23:35:17Z",
+    "coverage": "All 271 prior full-device pairs and all 64 focused v16 enclosing pairs",
+    "finding": "The rectangular QR column is gone; the wider lifted envelope and upper/right drift now follow the source closely. Proceed with final export/binding.",
+    "publication": "Pending; no files uploaded at this review point."
+  }
+}

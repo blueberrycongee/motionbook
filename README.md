@@ -75,3 +75,7 @@
 ## Tactile controller
 
 [![Tactile controller](examples/tactile-controller/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/tactile-controller)
+
+## Ticket dissolve
+
+[![Ticket dissolve](examples/thanos-snap-ticket/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/thanos-snap-ticket)

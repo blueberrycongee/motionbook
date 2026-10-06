@@ -1,0 +1,12 @@
+{
+  "name": "thanos-snap-ticket",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node test.cjs",
+    "render": "node render.cjs"
+  },
+  "devDependencies": {
+    "sharp": "0.35.4"
+  }
+}

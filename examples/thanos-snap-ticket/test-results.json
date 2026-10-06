@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checks": [
+    "Both source show/hide cycles and stable holds",
+    "680 finite camera/state/hit-area samples",
+    "46 shared-scene SVG samples",
+    "Exact loop equality",
+    "Repeated clicks and latest-target queue",
+    "Interrupted automatic transition completion",
+    "Escape",
+    "Reduced motion",
+    "Font-load gate present"
+  ],
+  "particles": [
+    2473,
+    4933
+  ],
+  "runtime": "Node VM event mocks; no real browser runtime verification"
+}
