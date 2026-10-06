@@ -1,0 +1,13 @@
+✔ all displayed city and time characters are drawable (2.49091ms)
+✔ diagonal reveal resolves exactly to the requested city (0.239305ms)
+✔ city replacement changes only the final board row (0.881759ms)
+✔ search is case-insensitive and handles no matches (0.20532ms)
+✔ deterministic SVG supports both theme endpoints (3.795108ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 209.322208
