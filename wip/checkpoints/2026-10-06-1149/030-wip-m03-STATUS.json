@@ -1,0 +1,11 @@
+{
+  "id": "030-wip-m03",
+  "archive": "030-wip-m03.zip",
+  "archive_bytes": 508671,
+  "archive_sha256": "359ed64e1f97733c80143e42b49efee45adaf406975a5a93e92bb9e81ae5bcaa",
+  "source_manifest": "MANIFEST.json",
+  "source_manifest_sha256": "a07a3da65419ad5607ca08c3e94888382cdf8a9bb58b376025a7261541968924",
+  "files": 20,
+  "status": "WIP only; independent quality clearance is pending",
+  "reference_media_included": false
+}
