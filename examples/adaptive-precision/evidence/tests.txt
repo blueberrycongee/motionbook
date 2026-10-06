@@ -1,0 +1,28 @@
+
+> new100-035-adaptive-precision@0.1.0 test
+> node --test tests/*.test.cjs
+
+✔ app wiring: captured drag releases and reports an interval (20.556135ms)
+✔ app wiring: replay interruption cancels an unfinished drag (1.146568ms)
+✔ app wiring: cancellation, capture loss, keyboard Escape, reset (1.159695ms)
+✔ app wiring: exact native seek produces SVG and does not embed media (2.838743ms)
+✔ quarter-hour quantization and bounds (5.306129ms)
+✔ reverse intervals and zero crossing (0.195499ms)
+✔ downward drag, release, repeated reverse drag (3.658422ms)
+✔ outside press and cancel do not commit (0.213267ms)
+✔ guide morph returns to disk and state remains finite (1.824698ms)
+✔ scene is clean independent vector markup (0.994929ms)
+✔ crossing the anchor preserves the in-progress event (0.826531ms)
+✔ every native frame and exact timestamp is represented (5.201775ms)
+✔ all frame geometry is finite and all scenes are independent vectors (18.110568ms)
+✔ all four drags and the zero crossing exist (0.836596ms)
+✔ source endpoints differ; clean-loop bridge must be explicit (1.48478ms)
+✔ growth text lines are independently fitted and release strokes narrow (0.343668ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 322.483684

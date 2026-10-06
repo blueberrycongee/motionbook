@@ -1,0 +1,29 @@
+{
+  "reviewer_role": "implementation owner; not independent final reviewer",
+  "reviewed_at_utc": "2026-10-06T10:22:00Z",
+  "native_frames": 622,
+  "reviewed_ranges": [
+    [
+      0,
+      621
+    ]
+  ],
+  "source_review_method": "All 16 ordered original full-canvas contact sheets inspected; native-resolution keys also inspected.",
+  "comparison_review_method": "All 622 m02 pairs were owner-viewed. The m03 correction regenerates and numerically compares all 622 pairs; owner focus inspection covers 68, 465, 207, 395, 111, 240, 427, and 516. The independent reviewer has resolved the focused material holds; final immutable full-sequence review is pending.",
+  "source_time_mapping": "Exact native presentation timestamps; no sampled-only pass.",
+  "observations": [
+    "Complete full-canvas layout retained.",
+    "All four drags, reverse interval growth, zero crossing, release fades, and cursor exit are represented.",
+    "Refined guide bounds after finding 4-pixel codec-related measurement offsets.",
+    "Text is independently rendered with a declared Inter substitute; narrow initial and zero-crossing cards clip the full-sized label rather than squashing glyphs.",
+    "Ring underlay and faint card-overlap stroke are independently composited approximations."
+  ],
+  "remaining_differences": [
+    "Inter glyph outlines remain a declared substitute, with independent per-line layout fitting.",
+    "Minor compression and subpixel contour texture differ.",
+    "Browser execution is unverified; live-model equivalence to undisclosed author code is not claimed."
+  ],
+  "independent_acceptance": "pending",
+  "browser_execution": "blocked; not passed",
+  "similarity_percentage": null
+}

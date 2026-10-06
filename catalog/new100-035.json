@@ -1,0 +1,18 @@
+{
+  "id": "new100-035",
+  "slug": "adaptive-precision",
+  "decision": "accepted",
+  "source_snapshot_manifest_sha256": "ee40e358197410348727b0d95c0209af6047917b489aa0f5c8fc543d0b25da88",
+  "independent_review": {
+    "native_frames": 622,
+    "authored_bridge_poses": 50,
+    "fresh_rgba_bindings": 672,
+    "tests_passed": 16,
+    "source_pts_exact": true,
+    "media_decodes_passed": true,
+    "material_holds_resolved": true
+  },
+  "browser_runtime": "not_run",
+  "reviewed_at": "2026-10-06",
+  "note": "The bundled STATUS.md records the frozen pre-publication checkpoint; this acceptance supersedes its pending-review status."
+}
