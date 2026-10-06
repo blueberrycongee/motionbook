@@ -83,6 +83,6 @@ UI animations & micro-interactions recreated in code, with GIF previews. 高质�
   <tr>
     <td align="center" width="33%"><a href="examples/elastic-string-clock/README.md"><img src="examples/elastic-string-clock/preview.gif" width="200" alt="Elastic string clock"></a><br><a href="examples/elastic-string-clock/README.md">Elastic string clock</a></td>
     <td align="center" width="33%"><a href="examples/file-toss/README.md"><img src="examples/file-toss/preview/loop.gif" width="200" alt="File toss"></a><br><a href="examples/file-toss/README.md">File toss</a></td>
-    <td></td>
+    <td align="center" width="33%"><a href="examples/spring-code-input/README.md"><img src="examples/spring-code-input/preview/spring-code-input.gif" width="200" alt="Spring code input"></a><br><a href="examples/spring-code-input/README.md">Spring code input</a></td>
   </tr>
 </table>

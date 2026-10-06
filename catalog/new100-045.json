@@ -1,0 +1,14 @@
+{
+  "id": "new100-045",
+  "title": "Spring code input",
+  "path": "examples/spring-code-input",
+  "source": "https://x.com/sucodeee/status/2107420636113191248",
+  "implementation": "Independent Canvas scene and local interaction",
+  "preview": "Offline render from shared scene code",
+  "native_frames": 499,
+  "authored_closure_frames": 60,
+  "tests_passed": 15,
+  "independent_visual_review": "passed",
+  "browser_runtime": "not_run",
+  "assets": "Independent vectors; Liberation Sans Bold under SIL OFL, notice retained"
+}

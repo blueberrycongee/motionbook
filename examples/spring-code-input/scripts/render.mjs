@@ -1,0 +1,13 @@
+import{createRequire}from'node:module';const require=createRequire(import.meta.url);const{createCanvas,GlobalFonts}=require('@napi-rs/canvas');
+import fs from'node:fs/promises';import path from'node:path';import{spawnSync}from'node:child_process';import{frameAt,loopFrameAt,DURATION,LOOP_DURATION}from'../src/timeline.mjs';import{CONTROLS}from'../src/motion-data.mjs';import{drawScene}from'../src/scene.mjs';
+const root=new URL('..',import.meta.url).pathname;GlobalFonts.registerFromPath(path.join(root,'assets/LiberationSans-Bold.ttf'),'StudySans');const c=createCanvas(1494,1018),g=c.getContext('2d');const out=path.join(root,'preview'),frames=path.join(root,'.rendered');await fs.mkdir(frames,{recursive:true});await fs.mkdir(out,{recursive:true});
+const TIMES=[...CONTROLS.map(c=>c[0]),...Array.from({length:60},(_,i)=>DURATION+i/60)];
+const keys=process.argv.includes('--keys'),encodeOnly=process.argv.includes('--encode-only'),indexes=encodeOnly?[]:keys?[0,19,24,30,39,59,89,145,159,164,176,195,228,240,250,266,300,350,378,386,400,444,450,460,475,498]:TIMES.map((_,i)=>i);
+for(const i of indexes){drawScene(g,loopFrameAt(TIMES[i]));await fs.writeFile(path.join(frames,`${String(i+1).padStart(4,'0')}.png`),c.toBuffer('image/png'));if(i%100===0)console.log(i);}
+await fs.copyFile(path.join(frames,'0001.png'),path.join(out,'poster.png'));if(keys)process.exit();
+function ff(args){const r=spawnSync('ffmpeg',['-hide_banner','-loglevel','error','-threads','1','-y',...args],{stdio:'inherit'});if(r.status)throw new Error(`ffmpeg failed ${r.status}`);}
+const pts=TIMES.map(t=>Math.round(t*60000));let expression='1000*N';for(let i=1;i<pts.length;i++){const extra=pts[i]-pts[i-1]-1000;if(extra)expression+=`+${extra}*gte(N,${i})`;}
+ff(['-framerate','60','-i',path.join(frames,'%04d.png'),'-vf',`settb=1/60000,setpts='${expression}'`,'-frames:v',String(TIMES.length),'-fps_mode','vfr','-enc_time_base','1/60000','-video_track_timescale','60000','-c:v','libx264','-threads','1','-bf','0','-crf','17','-pix_fmt','yuv420p',path.join(frames,'encoded.mp4')]);
+ff(['-i',path.join(frames,'encoded.mp4'),'-c','copy','-bsf:v',"setts=duration='if(eq(N,558),1000,DURATION)'",'-movflags','+faststart',path.join(out,'spring-code-input.mp4')]);
+ff(['-framerate','60','-i',path.join(frames,'%04d.png'),'-filter_complex_threads','1','-filter_complex',`settb=1/60000,setpts='${expression}',fps=30,scale=747:509,split[a][b];[a]palettegen=stats_mode=diff[p];[b][p]paletteuse=dither=sierra2_4a`,'-loop','0',path.join(out,'spring-code-input.gif')]);
+console.log('Rendered 499 source-timed frames and 60 authored closure frames, MP4 and GIF.');
