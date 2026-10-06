@@ -1,5 +1,5 @@
-# Source-only milestone 01
+# Recovery milestone m02
 
-The complete original source has been recovered and freshly inspected. This first implementation independently draws the card, feather, projected shadow, light volume and chrome switch, with functional hover, toggle and exit-reset behavior.
+Newly reconstructed source code, not restored unpublished files. The original reference has been recovered and its complete native sequence inspected. The demo now has exact source timestamps, a fitted lighting/toggle/tooltip sequence and an authored loop tail. It is still a fidelity candidate with known material and border-motion gaps.
 
-It is not fidelity-approved. The lighting profile, shadow blur, texture, typography, exact native timeline and cursor still need source-aligned refinement. No GIF or MP4 is included or claimed. This milestone belongs only on the private WIP branch and is excluded from the accepted index and completion count.
+This checkpoint is for a private WIP branch. It is not approved for the finished-example index or the completed count. No original footage, reference crops or copied artwork are included.

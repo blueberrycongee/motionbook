@@ -2,8 +2,10 @@
 
 Serve this directory with `python3 -m http.server 4173` and open `http://localhost:4173` in a Canvas-capable browser. Approve or skip steps, undo decisions, approve all, run the local simulation, or start a new plan. Escape resets an interrupted run. Reduced-motion preference starts in manual mode.
 
-The initial checkpoint passes JavaScript syntax checks and six local state tests with `node --test tests/*.test.cjs`. These cover decisions, undo, disabled Run, execution of the approved queue, interruption, repeated use, recorded-to-manual takeover, and loop state.
+This checkpoint passes nine tests with `node --test tests/*.test.cjs`. Six test local state. Three execute the actual DOM adapter against a controlled DOM interface and exercise button clicks, disabled Run, undo, reset, a second complete run, Escape interruption, autoplay takeover and replay. They do not test browser rendering.
 
-Preview generation uses the pinned `@napi-rs/canvas` development dependency and FFmpeg: `node --expose-gc render.cjs`. The current checkpoint has only an initial visual comparison to recovered prior output. Complete frame review, encoded media validation and independent review are pending. Original creator footage is not currently available locally.
+The original creator footage is recovered and its SHA-256 verified. Card and row geometry, pointer positions and spinner angles were measured at all 987 original timestamps. The first rendered native comparison pass exposed a title-detection error during row handoff; template correlation corrected it. The outgoing details now slide, fade and clip independently of title motion. The first 60 native pairs and four full-size pairs were visually inspected during this iteration. That is partial review, not approval of the complete sequence. Complete native visual review, final encoded media validation and independent review remain pending.
 
-Actual browser runtime not executed in this validation; preview rendered offline from shared scene code. DOM-event adapter tests do not establish browser rendering/performance. This checkpoint currently has pure-state tests; DOM-adapter coverage is still pending.
+Five stills were regenerated from this checkpoint source. Its final GIF and MP4 have not been rendered. Older working media is excluded from this checkpoint. Preview generation uses the pinned `@napi-rs/canvas` development dependency and FFmpeg: `node --expose-gc render.cjs`.
+
+Actual browser runtime not executed in this validation; preview rendered offline from shared scene code. DOM-event adapter tests do not establish browser rendering/performance.

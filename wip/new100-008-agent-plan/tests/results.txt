@@ -1,14 +1,17 @@
-✔ Approval, skipping and undo retain independent step decisions (2.328215ms)
-✔ Run without approval is disabled and leaves review intact (2.706054ms)
-✔ A local run executes only the approved queue and then resets (0.686637ms)
-✔ Reset interrupts execution and a new run starts from its own queue (0.334726ms)
-✔ Recorded playback can be taken over without retaining visual-only flags (0.692114ms)
-✔ Timeline closes exactly and contains decision, run and result phases (0.559406ms)
-ℹ tests 6
+✔ Actual DOM click handlers support approval, skipping, undo, a local run and reset (155.521803ms)
+✔ A second complete run and Escape interruption do not keep stale DOM controls (132.780971ms)
+✔ Autoplay takeover uses the visible state, and replay releases manual state (17.462094ms)
+✔ Approval, skipping and undo retain independent step decisions (45.36713ms)
+✔ Run without approval is disabled and leaves review intact (6.367443ms)
+✔ A local run executes only the approved queue and then resets (21.836841ms)
+✔ Reset interrupts execution and a new run starts from its own queue (8.803909ms)
+✔ Recorded playback can be taken over without retaining visual-only flags (3.983356ms)
+✔ Timeline closes exactly and contains decision, run and result phases (10.63974ms)
+ℹ tests 9
 ℹ suites 0
-ℹ pass 6
+ℹ pass 9
 ℹ fail 0
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 317.077579
+ℹ duration_ms 1702.147553
