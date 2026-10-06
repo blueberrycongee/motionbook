@@ -1,0 +1,26 @@
+
+> chatgpt-scheduled-tasks-study@0.1.0 test
+> node --test test/*.test.mjs
+
+✔ create, edit, pause, resume and delete preserve isolated local state (31.80121ms)
+✔ canceling a draft makes no mutation (1.638733ms)
+✔ invalid fields cannot save (1.268683ms)
+✔ malformed calendar date returns validation error rather than throwing (1.595979ms)
+✔ daily schedule uses task time zone (1.887201ms)
+✔ weekday schedule skips the weekend (3.264824ms)
+✔ spring-forward nonexistent wall time is skipped (5.676594ms)
+✔ fall-back ambiguity returns both instants in chronological order (5.262472ms)
+✔ monthly day 31 skips short months; end date is inclusive (2.871356ms)
+✔ one-time task must be future and completes after simulated run (9.066089ms)
+✔ repeated run click is idempotent; removed task cannot be resurrected by completion (0.693258ms)
+✔ run history and unread state survive storage round-trip (4.312319ms)
+✔ corrupt storage and quota error do not crash the client (2.24328ms)
+✔ status filtering and text search combine (0.752591ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 281.044207
