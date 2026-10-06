@@ -1,0 +1,29 @@
+{
+  "reviewer_role": "implementation owner; not independent final reviewer",
+  "reviewed_at_utc": "2026-10-06T09:42:00Z",
+  "native_frames": 622,
+  "reviewed_ranges": [
+    [
+      0,
+      621
+    ]
+  ],
+  "source_review_method": "All 16 ordered original full-canvas contact sheets inspected; native-resolution keys also inspected.",
+  "comparison_review_method": "All 16 final ordered full-canvas original/replica contact sheets inspected, covering every native frame. Full-resolution checks included frames 0, 61, 62, 63, 65, 166, 180, 207, 322, 395, 456, 457, 490 and 585.",
+  "source_time_mapping": "Exact native presentation timestamps; no sampled-only pass.",
+  "observations": [
+    "Complete full-canvas layout retained.",
+    "All four drags, reverse interval growth, zero crossing, release fades, and cursor exit are represented.",
+    "Refined guide bounds after finding 4-pixel codec-related measurement offsets.",
+    "Text is independently rendered with a declared Inter substitute; narrow initial and zero-crossing cards clip the full-sized label rather than squashing glyphs.",
+    "Ring underlay and faint card-overlap stroke are independently composited approximations."
+  ],
+  "remaining_differences": [
+    "Inter font metrics and antialiasing differ from the source.",
+    "Very faint ring release tails and some transitional text clipping differ.",
+    "Offline replay validates measured geometry, not browser runtime or exact equivalence of the live spring model to undisclosed author code."
+  ],
+  "independent_acceptance": "pending",
+  "browser_execution": "blocked; not passed",
+  "similarity_percentage": null
+}
