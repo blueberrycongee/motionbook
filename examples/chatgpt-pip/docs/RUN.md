@@ -33,3 +33,7 @@ npm run render
 The renderer generates local fixture images and the existing snap/hover sequences, then encodes their GIF and MP4 files. Generated frame directories are ignored by Git.
 
 The packaged snap trajectory is gzip-compressed and base64-encoded. Tests read it directly; no extraction or raw JSON file is required.
+
+## Original control artwork
+
+`node scripts/draw-control-icons.mjs` regenerates the independent SVG and 3× PNG controls without reading reference images. After changing an icon, rerun `node test/render-hover-v3.mjs`, then the normal preview encoding workflow.

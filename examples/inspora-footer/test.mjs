@@ -19,7 +19,9 @@ const document={
 };
 let timer=0;const liveTimers=new Map();
 vm.runInNewContext(fs.readFileSync(new URL('./app.js',import.meta.url),'utf8'),{document,setTimeout(fn){liveTimers.set(++timer,fn);return timer},clearTimeout(id){liveTimers.delete(id)}});
-assert.equal(sky.children.length,80);assert(sky.children.every(x=>x.children[0].src==='assets/reference-artwork.webp'));
+assert.equal(sky.children.length,0); // Original procedural sky is a CSS background.
+assert(fs.readFileSync(new URL('./style.css',import.meta.url),'utf8').includes('assets/original-blue-paper.svg'));
+assert(!fs.readFileSync(new URL('./index.html',import.meta.url),'utf8').includes('reference-artwork'));
 assert(form.fire('submit').prevented);assert.equal(email.attributes['aria-invalid'],'true');assert(email.focused);assert.match(status.textContent,/valid email/);
 email.fire('input');assert.equal(status.textContent,'');assert(!email.attributes['aria-invalid']);
 email.validity.valid=true;assert(form.fire('submit').prevented);assert.match(status.textContent,/no email was sent/);assert(!email.attributes['aria-invalid']);

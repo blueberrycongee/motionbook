@@ -4,7 +4,7 @@ import {HoverController,ContrastController,controlGeometry}from'../src/hover-beh
 import {advanceSpring,motionSpring,resizeDisplaySize,chooseTargetAnchor,nativeRestOffset}from'../src/stack-behavior.mjs';
 const require=createRequire(import.meta.url),sharp=require('sharp'),root=path.resolve(import.meta.dirname,'..'),dir=path.join(root,'artifacts/v3');await fs.mkdir(path.join(dir,'hover-frames'),{recursive:true});
 const png=await fs.readFile(path.join(root,'public/fixtures/initial.png')),image='data:image/png;base64,'+png.toString('base64');
-const petPNG=await fs.readFile(path.join(root,'public/assets/pop-out-window-egg@3x.png')),pet='data:image/png;base64,'+petPNG.toString('base64');
+const petPNG=await fs.readFile(path.join(root,'public/assets/window-to-companion@3x.png')),pet='data:image/png;base64,'+petPNG.toString('base64');
 const text=(x,y,s,size=14,color='#334a3b',extra='')=>`<text x="${x}" y="${y}" font-family="Arial,DejaVu Sans,sans-serif" font-size="${size}" fill="${color}" ${extra}>${s.replaceAll('&','&amp;').replaceAll('<','&lt;')}</text>`;
 const svg=b=>`<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="660" viewBox="0 100 1280 660"><defs><filter id="shadow" x="-30%" y="-40%" width="160%" height="200%"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-opacity=".16"/></filter><filter id="fog"><feGaussianBlur stdDeviation="5"/></filter><filter id="white"><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/></filter></defs>${b}</svg>`;
 const zoom=1.6,fps=15,duration=21,hover=new HoverController({now:()=>0}),contrast=new ContrastController({now:()=>0});let priorPhase=-1;const trace=[];

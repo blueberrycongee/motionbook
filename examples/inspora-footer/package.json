@@ -1,0 +1,13 @@
+{
+  "name": "independent-desert-footer-study",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Original procedural engraving with the accepted v6 horse motion",
+  "scripts": {
+    "draw": "node scripts/draw-desert.mjs",
+    "test": "node test.mjs && node test-motion.mjs",
+    "render": "node scripts/render-preview.mjs && bash scripts/encode-previews.sh"
+  },
+  "engines": { "node": ">=20.11" },
+  "devDependencies": { "sharp": "0.35.4" }
+}

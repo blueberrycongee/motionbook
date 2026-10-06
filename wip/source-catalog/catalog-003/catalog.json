@@ -37,7 +37,7 @@
         "status": "assigned; allocation only, not completion"
       },
       "local_original": {
-        "path": "/workspace/shared/animation-recovery/sources/media/1-39-original.mp4",
+        "path": "analysis-inputs/1-39-original.mp4",
         "sha256": "56d32ae6dab9a5b6f0eab26df1f235ac77549f3ee351fa6b895bfd65884810e7",
         "frames": 1021,
         "historical_hash_match": true
@@ -169,7 +169,7 @@
         "status": "assigned; allocation only, not completion"
       },
       "local_original": {
-        "path": "/workspace/shared/animation-recovery/sources/media/agent-plan-original.mp4",
+        "path": "analysis-inputs/agent-plan-original.mp4",
         "sha256": "0ca61f600ce09ba0f16d6d3fdadc8e8cb61acda0afbc654392eb5c84ccd298cb",
         "frames": 987,
         "historical_hash_match": true
@@ -211,7 +211,7 @@
         "status": "assigned; allocation only, not completion"
       },
       "local_original": {
-        "path": "/workspace/shared/animation-recovery/sources/media/airport-matrix-time-original.mp4",
+        "path": "analysis-inputs/airport-matrix-time-original.mp4",
         "sha256": "e42426cde53e80a68d77cb0fe676aae0b81d23469e8a61df505bec92906f8153",
         "frames": 1094,
         "historical_hash_match": true
@@ -288,7 +288,7 @@
         "status": "assigned; allocation only, not completion"
       },
       "local_original": {
-        "path": "/workspace/shared/animation-recovery/sources/media/rauno-adaptive-precision-5-original.mp4",
+        "path": "analysis-inputs/rauno-adaptive-precision-5-original.mp4",
         "sha256": "d49016e7d842465da62295ca5cec3daeeadd4961bf44f6a384cbb87cfd1d2914",
         "frames": 622,
         "historical_hash_match": null
@@ -311,7 +311,7 @@
         "status": "unassigned"
       },
       "local_original": {
-        "path": "/workspace/shared/animation-recovery/sources/media/rauno-copy-paste-original.mp4",
+        "path": "analysis-inputs/rauno-copy-paste-original.mp4",
         "sha256": "e1876820e830711e5821909113bba78a461d0cc2c7ac96652c00ce2d70914e1a",
         "frames": 246,
         "historical_hash_match": null
@@ -334,7 +334,7 @@
         "status": "unassigned"
       },
       "local_original": {
-        "path": "/workspace/shared/animation-recovery/sources/media/rauno-fractional-slider-original.mp4",
+        "path": "analysis-inputs/rauno-fractional-slider-original.mp4",
         "sha256": "d44f6f9e56f7f5dc974576acd4853176f078f1000347ad810e45bb7769d3ea1c",
         "frames": 360,
         "historical_hash_match": null
@@ -357,7 +357,7 @@
         "status": "unassigned"
       },
       "local_original": {
-        "path": "/workspace/shared/animation-recovery/sources/media/rauno-graph-slider-2-original.mp4",
+        "path": "analysis-inputs/rauno-graph-slider-2-original.mp4",
         "sha256": "e186b7ec5a0ce1c97af064720c7e548060e6fa7443fcd6cb73c5f26f5ff2a27a",
         "frames": 552,
         "historical_hash_match": null
@@ -380,7 +380,7 @@
         "status": "unassigned"
       },
       "local_original": {
-        "path": "/workspace/shared/animation-recovery/sources/media/rauno-precision-slider-original.mp4",
+        "path": "analysis-inputs/rauno-precision-slider-original.mp4",
         "sha256": "107783f95eaca931ce1be425a953806a4c259ad497c0a1a60a42085f6aaccca1",
         "frames": 470,
         "historical_hash_match": null
@@ -403,7 +403,7 @@
         "status": "assigned; allocation only, not completion"
       },
       "local_original": {
-        "path": "/workspace/shared/animation-recovery/sources/media/rauno-radial-menu-3-original.mp4",
+        "path": "analysis-inputs/rauno-radial-menu-3-original.mp4",
         "sha256": "b20ef592ea7f66e0d9e08f65588f4ca57481a00785cb683d38472fd479d17a9e",
         "frames": 595,
         "historical_hash_match": null
@@ -426,7 +426,7 @@
         "status": "unassigned"
       },
       "local_original": {
-        "path": "/workspace/shared/animation-recovery/sources/media/rauno-vanish-input-original.mp4",
+        "path": "analysis-inputs/rauno-vanish-input-original.mp4",
         "sha256": "bfbf33776def45a11309f1af46289d1c93f92308b3da77e3bfcd7c59f767b99e",
         "frames": 702,
         "historical_hash_match": null
@@ -449,7 +449,7 @@
         "status": "unassigned"
       },
       "local_original": {
-        "path": "/workspace/shared/animation-recovery/sources/media/rauno-waveform-original.mp4",
+        "path": "analysis-inputs/rauno-waveform-original.mp4",
         "sha256": "11b9af977f783f54c3d68d40d9ea096e32b8e663a4e86f88efa9c67f4997f721",
         "frames": 480,
         "historical_hash_match": null
@@ -472,7 +472,7 @@
         "status": "unassigned"
       },
       "local_original": {
-        "path": "/workspace/shared/animation-recovery/sources/media/rauno-wheel-input-3-original.mp4",
+        "path": "analysis-inputs/rauno-wheel-input-3-original.mp4",
         "sha256": "5d5dac67336fef5039c5ff026b87b4cb3c534f96e0a999d7256d6be39a560dbe",
         "frames": 390,
         "historical_hash_match": null

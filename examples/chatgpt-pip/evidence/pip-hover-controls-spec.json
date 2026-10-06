@@ -36,13 +36,14 @@
       "width": 22,
       "height": 22,
       "visible": "placement != pet",
-      "visual": "pop-out-window-egg@3x.png, with out.to.pet SF Symbol fallback",
+      "visual": "Independent window-to-companion@3x.png, with out.to.pet SF Symbol fallback",
       "fittedGlyphMaximumSize": [
         16,
         16
       ],
       "customAssetOpticalOffsetNativeY": -1,
-      "action": "sendToPetRequestedHandler"
+      "action": "sendToPetRequestedHandler",
+      "assetProvenance": "Original vector geometry in scripts/draw-control-icons.mjs; 34 CSS px, rasterized at 3\u00d7; replaces the proprietary reference image without changing controls or timing."
     },
     "horizontalGap": 1,
     "childIdleOpacity": 0.7,
