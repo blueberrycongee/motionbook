@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import{scenePoint,slotPosition,grid}from'../src/geometry.mjs';
+test('pointer coordinates scale with a resized square scene and reject zero-size layout',()=>{assert.deepEqual(scenePoint(250,350,{left:50,top:150,width:400,height:400}),{x:864,y:864});assert.equal(scenePoint(0,0,{left:0,top:0,width:0,height:0}),null)});
+test('ring wrap is continuous and invalid coordinates cannot enter the renderer',()=>{for(const r of grid.rings){const a=slotPosition(r,0),b=slotPosition(r,r.N);assert.ok(Math.hypot(a.x-b.x,a.y-b.y)<1e-8)}assert.throws(()=>slotPosition(grid.rings[0],NaN),TypeError)});

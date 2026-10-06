@@ -1,0 +1,16 @@
+{
+  "id": "new100-039",
+  "title": "Ringwriter",
+  "path": "examples/ringwriter",
+  "source": "https://www.inspora.design/posts/1-60",
+  "source_author": "Edoardo Lunardi",
+  "native_frames_reviewed": 486,
+  "authored_closure_frames": 72,
+  "independent_review": "passed",
+  "tests_passed": 11,
+  "implementation": "Independent Canvas vectors, scalar motion tracks and licensed font outlines",
+  "external_image_assets": [],
+  "browser_runtime": "not_run",
+  "readme_gif_playback": "pending",
+  "source_manifest_sha256": "3259153d94635acd7e95c0486c8bed74d8ee0ec918b389b0bf158cc3f76cf1bd"
+}

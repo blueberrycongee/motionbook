@@ -78,6 +78,6 @@ UI animations & micro-interactions recreated in code, with GIF previews. 高质�
   <tr>
     <td align="center" width="33%"><a href="examples/apple-music-lyrics/README.md"><img src="examples/apple-music-lyrics/preview/loop.gif" width="200" alt="Apple Music Lyrics"></a><br><a href="examples/apple-music-lyrics/README.md">Apple Music Lyrics</a></td>
     <td align="center" width="33%"><a href="examples/graph-slider/README.md"><img src="examples/graph-slider/preview/loop.gif" width="200" alt="Graph slider"></a><br><a href="examples/graph-slider/README.md">Graph slider</a></td>
-    <td></td>
+    <td align="center" width="33%"><a href="examples/ringwriter/README.md"><img src="examples/ringwriter/preview/loop.gif" width="200" alt="Ringwriter"></a><br><a href="examples/ringwriter/README.md">Ringwriter</a></td>
   </tr>
 </table>

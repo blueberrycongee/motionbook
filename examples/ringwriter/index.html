@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ringwriter</title>
+  <style>
+    html, body { margin: 0; background: #1f1f1f; color: #ddd; font: 14px system-ui; }
+    canvas { display: block; width: min(100vw, 100vh); height: auto; margin: auto; touch-action: none; cursor: none; }
+    canvas:focus-visible { outline: 2px solid #888; outline-offset: -2px; }
+    button { position: fixed; bottom: 14px; left: 14px; border: 1px solid #7775; background: #252525d9; color: #ddd; padding: 8px 13px; border-radius: 9px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <canvas width="1728" height="1728" tabindex="0" aria-label="Ringwriter. Click and hold or hold Space to contract the text rings; release to send a wave outward."></canvas>
+  <button data-replay>Replay</button>
+  <script type="module" src="./src/main.mjs"></script>
+</body>
+</html>
