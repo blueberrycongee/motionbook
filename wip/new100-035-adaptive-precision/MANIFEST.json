@@ -1,0 +1,82 @@
+{
+  "id": "new100-035",
+  "milestone": "m01",
+  "files": [
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "3d48b88dd4f2bc026eafad54820a7b27f4515a7d7a161280aedca5877e87f275",
+      "bytes": 1295
+    },
+    {
+      "path": "README.md",
+      "sha256": "5a60c50656d5b3b4278b76bbf4fd308c016c74963a47e1dfd6c31175843cdc21",
+      "bytes": 862
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "6ff9ea39565a33097d97b0232ca841db3fc01596bbeb5e7a787821498930e0ab",
+      "bytes": 672
+    },
+    {
+      "path": "app.js",
+      "sha256": "e2b65d2f534bd5785a3d608c4d8796adab66f0f58f319cc0d5377faaa68f90f2",
+      "bytes": 2596
+    },
+    {
+      "path": "assets/Inter-LICENSE.txt",
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "bytes": 4380
+    },
+    {
+      "path": "assets/Inter-Medium.ttf",
+      "sha256": "824c6172d8c52e285924be64fd1738cf9c3c13b27bd0debd487f9e0df8df6af2",
+      "bytes": 330452
+    },
+    {
+      "path": "assets/Inter-Regular.ttf",
+      "sha256": "eb56a2a9fa2302667fc02cdd5261d19850c73d9057a41c34f441aa2d544c27d3",
+      "bytes": 325388
+    },
+    {
+      "path": "index.html",
+      "sha256": "425c03472efff3ee4463f26e514e440bd1b017ee48a3e08aed540f593e154388",
+      "bytes": 1184
+    },
+    {
+      "path": "package.json",
+      "sha256": "c377939aff156b0910e1caea322ed58dcc26cabf0dd25a13d0cef6c15e54d9c7",
+      "bytes": 234
+    },
+    {
+      "path": "scripts/measure.py",
+      "sha256": "1727c6298a7f7f2b6d8546f8b3e832d70853c988258c343f4d4830e3fcbe7179",
+      "bytes": 2843
+    },
+    {
+      "path": "src/model.js",
+      "sha256": "8923412052ee136bfe4f6849e657dac028f1c16c694d5ba7c17742b20e78c64c",
+      "bytes": 2734
+    },
+    {
+      "path": "src/scene.js",
+      "sha256": "d76c314cfaccff5cc3f73342f51b0aa80d01f4f220158e936e32a55883e49a42",
+      "bytes": 1870
+    },
+    {
+      "path": "src/trace.js",
+      "sha256": "b25e0a31dcc1bebec1ad0bbd41553e3bc8ef2f05f7ce93341990141150079172",
+      "bytes": 169
+    },
+    {
+      "path": "style.css",
+      "sha256": "710fda421de3476568f09e5e67020c78572a62b3e80f83a540e608b5b966f4be",
+      "bytes": 1033
+    },
+    {
+      "path": "tests/model.test.cjs",
+      "sha256": "4fa218cc1acf0583e6973eb70fbfe22e3f8e43941e5887f304add7945e2c10ac",
+      "bytes": 1910
+    }
+  ],
+  "status": "Source-only WIP; 6 model tests passed; replay trace and media pending; browser not executed; not accepted"
+}

@@ -1,0 +1,12 @@
+✔ hover enters and reverses without snapping (6.055881ms)
+✔ leaving the card resets the switch and lighting (1.277992ms)
+✔ rapid switches settle to the final requested state (3.162519ms)
+✔ independent light and switch states render finite SVG (1.006208ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 622.317391

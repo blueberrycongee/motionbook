@@ -1,0 +1,5 @@
+const test=require('node:test'),assert=require('node:assert/strict'),C=require('./controller'),S=require('./scene');
+test('hover enters and reverses without snapping',()=>{const s=C.create();C.enter(s);C.step(s);assert.ok(s.light>0&&s.light<1);for(let i=0;i<100;i++)C.step(s);assert.ok(s.light>.999);C.leave(s);for(let i=0;i<100;i++)C.step(s);assert.ok(s.light<.001);});
+test('leaving the card resets the switch and lighting',()=>{const s=C.create();C.toggle(s);C.enter(s);for(let i=0;i<100;i++)C.step(s);C.leave(s);for(let i=0;i<100;i++)C.step(s);assert.equal(s.enabled,false);assert.ok(s.toggle<.001&&s.light<.001);});
+test('rapid switches settle to the final requested state',()=>{const s=C.create();for(let i=0;i<25;i++){C.toggle(s);C.step(s);}assert.equal(s.enabled,true);for(let i=0;i<100;i++)C.step(s);assert.ok(s.toggle>.999);});
+test('independent light and switch states render finite SVG',()=>{for(const light of [0,.5,1])for(const toggle of [0,.5,1])assert.ok(!/NaN|undefined/.test(S.svg({light,toggle,tip:1})));});
