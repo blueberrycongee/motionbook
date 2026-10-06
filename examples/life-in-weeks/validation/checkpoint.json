@@ -1,0 +1,11 @@
+{
+  "case": "new100-027",
+  "milestone": "complete-r6",
+  "created_utc": "2026-10-06T12:32:14.040720+00:00",
+  "state": "complete author-reviewed candidate; independent review and publication pending",
+  "tests_passed": 11,
+  "source_frames": 445,
+  "tail_frames": 59,
+  "original_media_included": false,
+  "browser_runtime": "not_executed"
+}

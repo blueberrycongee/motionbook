@@ -1,0 +1,1079 @@
+{
+  "images_retained_locally_only": true,
+  "items": [
+    {
+      "file": "pairs-027-r9/000-007.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "970538245885fb6281a8fe7b3ca8d0fa57dae44fdcdad56c0c5639c08ff7128d"
+    },
+    {
+      "file": "pairs-027-r9/008-015.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "5df0391818fae802c5d1651e446296bea6ae858d3d8203c108ba776a76fb041c"
+    },
+    {
+      "file": "pairs-027-r9/016-023.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "a0fd3cd175f4d78895e25c2f375012c0bb1f8e2d364fb258fc577715a25daa36"
+    },
+    {
+      "file": "pairs-027-r9/024-031.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "2eb810bae3e024b59c7c8f909e458cbe581c346582c402dc91c2ca842c0a8524"
+    },
+    {
+      "file": "pairs-027-r9/032-039.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "ff3c35116bd1164f750b896a6b1e60e34af22829d2839a09d9c7d770a7bdeea8"
+    },
+    {
+      "file": "pairs-027-r9/040-047.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "b2509421ad5463db93d145ad183992939cae5ba83f0a91a3280b081c7b364316"
+    },
+    {
+      "file": "pairs-027-r9/048-055.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "70d826d6541aa013f8735d8818136ce78fa60259738319aa64b8a3621ee9a697"
+    },
+    {
+      "file": "pairs-027-r9/056-063.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "a165ea23902a9a302ae5311ba452e158394961851935de39b6d0380de43386e7"
+    },
+    {
+      "file": "pairs-027-r9/064-071.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "8c531df5d65770971af4e32a36d64fc6646f87efdf9eae0a539cb8a7b90448fb"
+    },
+    {
+      "file": "pairs-027-r9/072-079.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "04700886aeebc478a73f4d5cdd9c08913b0b956013cff29af51e7656ad3e8ec5"
+    },
+    {
+      "file": "pairs-027-r9/080-087.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "24eba1f2347f7feb792c2efb665ebb24000e3ebc21a22a251caa685f79dea642"
+    },
+    {
+      "file": "pairs-027-r9/088-095.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "9dfb2299cab8ed323350858634564ae74a91d0cc45021eb2b60c56cc91e70b29"
+    },
+    {
+      "file": "pairs-027-r9/096-103.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "85f5447be30af808c9369ea5ac0037ddcb88d874575e2e9f84e3f100d8526eaa"
+    },
+    {
+      "file": "pairs-027-r9/104-111.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "bf48b9bfe8bd3e5e506f1eebe91043ec9108be8469a1981e9f0910dd07354492"
+    },
+    {
+      "file": "pairs-027-r9/112-119.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "1dc9ea462a13cac380d1154366a1344cc183e669dffac0f908b763e1be69f30d"
+    },
+    {
+      "file": "pairs-027-r9/120-127.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "93d6101bebd17822490488b933f19733dddb4754950f7c994c69c0ced16bee23"
+    },
+    {
+      "file": "pairs-027-r9/128-135.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "70153f264a2c4afcdbdf39b135c63b37dfe02773f627e613009362cc69ae50d2"
+    },
+    {
+      "file": "pairs-027-r9/136-143.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "0d7b508540df6ae01992c0723a33bdb7141f5790f6a12d40ee87ecca50479800"
+    },
+    {
+      "file": "pairs-027-r9/144-151.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "d2b5eadc9d10dc3c4c35d54ac79370ec3a29936f3a7c9bf1dc3314ef7f5c064e"
+    },
+    {
+      "file": "pairs-027-r9/152-159.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "416086cf9c06cba7f0d21c9184b4e464d28943155d534f815adf3fc8f9b4d927"
+    },
+    {
+      "file": "pairs-027-r9/160-167.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "791c1ab9143198f4033f8e051e43ae800417248df93b0f60692b7da01c35fa24"
+    },
+    {
+      "file": "pairs-027-r9/168-175.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "058627e67efc5da1a81ab4869767922e6b02dacf46c9517b00297460dc243bf2"
+    },
+    {
+      "file": "pairs-027-r9/176-183.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "e65ba0f6b20f970e8818738f0ea33eab17187e24322c442e8ba3e9ee058b9df3"
+    },
+    {
+      "file": "pairs-027-r9/184-191.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "343fe7ba97956742dfaf97840d22d94ef09b3136f13776f2a0d956986dee1a97"
+    },
+    {
+      "file": "pairs-027-r9/192-199.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "423abc55b522a4654c77e93bbe0563c1770b7923ce69d38ea1a8cbfcb8ca0030"
+    },
+    {
+      "file": "pairs-027-r9/200-207.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "c1487b147365e6c1d6abed0316f56d9b2e0ad1a50e1c0325ce2dc17bcaffc991"
+    },
+    {
+      "file": "pairs-027-r9/208-215.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "c1c80bfe0688b80e96bdb3dffb353a7fda084812cdf7affe93f6a41859b1b852"
+    },
+    {
+      "file": "pairs-027-r9/216-223.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "8ff745d5847a4fe6e74244b598551df171e24e49752f5f898c1d6ac19c60f23a"
+    },
+    {
+      "file": "pairs-027-r9/224-231.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "c078ac1732f2d878427730816c667fd8a3e41c834568f06bfe9ff8b71655fdb4"
+    },
+    {
+      "file": "pairs-027-r9/232-239.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "57be42023526ef9cea7a48a41fb3455b56b906845d6a1088c1f3879ddf177a7b"
+    },
+    {
+      "file": "pairs-027-r9/240-247.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "645e1e5834cd5144a4901c07a92dd2e5978e77d4d25ae5256f366f0ebeb5a20b"
+    },
+    {
+      "file": "pairs-027-r9/248-255.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "fb485cc74edec2512cd7b2b96ddc032c0eca8915b5edbf50516ed7d07a0537d4"
+    },
+    {
+      "file": "pairs-027-r9/256-263.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "e07549a651c12c398b245f35ecc7a6eaaf850e9ab832bcc98e01910dbc50c27c"
+    },
+    {
+      "file": "pairs-027-r9/264-271.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "9361a0c224ca6651023d5f27cc3e639cc934aff251220b3baed2fc673f256e1d"
+    },
+    {
+      "file": "pairs-027-r9/272-279.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "7c7b0a68eff5f2788bc2aab29691ac7a2fcfa5cefca395327b805377629fa2a0"
+    },
+    {
+      "file": "pairs-027-r9/280-287.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "0dfdeae5039debd6984f595ded81d161f043b018b0d61ea84c9b2b8150fc3262"
+    },
+    {
+      "file": "pairs-027-r9/288-295.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "2d24ab4c110bc7b4f324808637c90d224a528f972230072dbf6590a4c16b8b44"
+    },
+    {
+      "file": "pairs-027-r9/296-303.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "54e0714ae05b0ae80c016a2f8908c6f064a061f305a2578ccd9d53fd0c953d0b"
+    },
+    {
+      "file": "pairs-027-r9/304-311.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "02a94d67222540fe5a65475fbeecab7b0e42a74bf8e059c60602830f03ed976e"
+    },
+    {
+      "file": "pairs-027-r9/312-319.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "76485421716e5ae5d376d0c0d10c45430622b7c129acd9f8d217b16f710db89f"
+    },
+    {
+      "file": "pairs-027-r9/320-327.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "b2ff9b4eb0adf0602319191e357b60cca7abaa455bfd273e78dec2d3853f5e34"
+    },
+    {
+      "file": "pairs-027-r9/328-335.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "83f52c86ab5af9ccdda63f26c3b37a11a26323437f56dd75301d5d7cf74cd661"
+    },
+    {
+      "file": "pairs-027-r9/336-343.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "e36a7917b810ff848e2dc1676145fe6f9efee2390204620e130830a3d4761417"
+    },
+    {
+      "file": "pairs-027-r9/344-351.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "8b8ba3c79f628ab3c2edf1ea582ae0b918d540a13aac53ac8ac1c13739e8a851"
+    },
+    {
+      "file": "pairs-027-r9/352-359.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "8452fbd6ffd4376df292625679838f890a4560ed81e88779d704450e542dc174"
+    },
+    {
+      "file": "pairs-027-r9/360-367.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "ef68c8a9ac362f578e3ffcd829f17eef150192598f76852e2f0ac192f19402c6"
+    },
+    {
+      "file": "pairs-027-r9/368-375.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "46b488c1f5791c9094826ea98c3d27827a753ff97379e82f9623746762bf8bbe"
+    },
+    {
+      "file": "pairs-027-r9/376-383.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "c8513f1b1d2c6d6581d9756f9e32a4aa64d9de02b654ebd177dc43d57c31e90a"
+    },
+    {
+      "file": "pairs-027-r9/384-391.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "f9d899dc440343f3c3dd7e400d616d31fe459349814c6bd51e72d17db682f2ce"
+    },
+    {
+      "file": "pairs-027-r9/392-399.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "d1f76909d3022b4e9757f09bc25d20261746c5954bb0afe7eecc92c6275976bb"
+    },
+    {
+      "file": "pairs-027-r9/400-407.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "73d92cd773819cb7d55b940bff9718c192930ae2bb31587575141af9c87bf97a"
+    },
+    {
+      "file": "pairs-027-r9/408-415.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "b0a7ff624e4dd856617d5da7b54d7f67edadbc9f1ee3575cca79c84efbde75e7"
+    },
+    {
+      "file": "pairs-027-r9/416-423.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "01a11957f598b00763feb322b56480e0c9a883d1dbdd2e42a5a461a66a62300f"
+    },
+    {
+      "file": "pairs-027-r9/424-431.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "f3a0ef55f7d749c7d33dda8782d1fef006c0448de581059b6f604732d77b8c7b"
+    },
+    {
+      "file": "pairs-027-r9/432-439.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "18336bd8c273412c3c448b2d5df6d7459e84ef47986d6edf91da699dce9b6154"
+    },
+    {
+      "file": "pairs-027-r9/440-444.jpg",
+      "kind": "all original / baseline full scenes",
+      "author_visually_inspected": true,
+      "sha256": "f3f910d23197d85aadbdd2bed9120c491c9e48293829e477d38b3c763b42242b"
+    },
+    {
+      "file": "details-027-r9/000-019.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "8805f51964b3345636ba1986c3036bae844d2b8a4ef80cc3f96ac77a245ff9c7"
+    },
+    {
+      "file": "details-027-r9/020-039.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "8a657b448f24a075d733bdbec0d893d383f04c348805d7003ff6fd6a3cb4f16c"
+    },
+    {
+      "file": "details-027-r9/040-059.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "4829cd57c039d42a484aeed050864a96e6133b8327622432cd4266061cbc2f21"
+    },
+    {
+      "file": "details-027-r9/060-079.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "3055c0c3b05fa9e0db36be98ef01edb632d76ef4ff42880ff00afb1c1014829d"
+    },
+    {
+      "file": "details-027-r9/080-099.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "cbd1dfe40f78db361e2065e066c2e09fd0a9f681906d3620c7d071899b414ad7"
+    },
+    {
+      "file": "details-027-r9/100-119.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "d82fe61cb09e1d941b34243d457850efc421148216740d84449386a12177d9fa"
+    },
+    {
+      "file": "details-027-r9/120-139.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "2b105bd3314b7b3315854a42587a232799480933052855d70ba908963db5a84b"
+    },
+    {
+      "file": "details-027-r9/140-159.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "fa1ea03fc354f5c9d424f832c47e6da4dae9e773eb2759c46973efbdd202b7df"
+    },
+    {
+      "file": "details-027-r9/160-179.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "33db4db538378ef4de22172fbfcbe58ae49b91bc6c028b0fdfa79c28735cb0c4"
+    },
+    {
+      "file": "details-027-r9/180-199.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "b5bbb1082fed33e060935a100aa36c16eb529914634a9eeb4858b5803385712a"
+    },
+    {
+      "file": "details-027-r9/200-219.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "c08dbf7f048948767eda45cac901814d0a8d59a63384b41d632d9982eecd7243"
+    },
+    {
+      "file": "details-027-r9/220-239.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "92dc10eda1b65e4d57d4c12657a12770ff4f840c7a2e34d941158e07740e7286"
+    },
+    {
+      "file": "details-027-r9/240-259.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "31f5e7647665ce9f30207bf463704a79141724c3afca1eb14a863c1e3cd2f12d"
+    },
+    {
+      "file": "details-027-r9/260-279.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "82347174f4c9e5aa76ef0a527afe2ea17703310d84bb53ed5cccf60ea72aa65f"
+    },
+    {
+      "file": "details-027-r9/280-299.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "7bb37454915044578bfae5b4b2f90d1d5b52d7e6287272cb414dcec4d54afb14"
+    },
+    {
+      "file": "details-027-r9/300-319.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "4ac42b8acfd58c971013076e8c80487c6b2ea18cf5703fc4a6e3b935207efba6"
+    },
+    {
+      "file": "details-027-r9/320-339.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "dfb386fc1e42ce13764bd6e2c172f45f35e8598722289842be578e94983cfe40"
+    },
+    {
+      "file": "details-027-r9/340-359.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "ca8ea5e0c1128ad6004ba40695f3f61eefd215a67d12589c8cebb1ab76d9c89a"
+    },
+    {
+      "file": "details-027-r9/360-379.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "37564e4ecc66c5ba7dd14fd7354dd2794d96591aa83aa03c72658a8419f4fd6d"
+    },
+    {
+      "file": "details-027-r9/380-399.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "4687f41feccdf7785c64db87ccee2393bc252a4a14b2b131a96cff2936a97db5"
+    },
+    {
+      "file": "details-027-r9/400-419.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "5c2520ae9d700bcb07447efc74f53def6cc9d72e684d624d88832cde15555899"
+    },
+    {
+      "file": "details-027-r9/420-439.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "22e67e3e05c5703ff76943b1c4e444448006e0f5349d2af8f7b401a890c5a790"
+    },
+    {
+      "file": "details-027-r9/440-444.jpg",
+      "kind": "all original / baseline enlarged marker, counter and age pill",
+      "author_visually_inspected": true,
+      "sha256": "d27eb9b7440c62790a848968bdd3d34e9fb136d33617862f607dcfcc5a844af3"
+    },
+    {
+      "file": "pairs-027-r10/000-007.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "c7ce5e1847bfff62893e3a32a53cc1f1aac6da64b105eb8d8c09e1c9c668469f"
+    },
+    {
+      "file": "pairs-027-r10/008-015.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "e4b1a1b1fe7db40dd7688463104ca2a4f7483862564c34f09fae4c6e15059c93"
+    },
+    {
+      "file": "pairs-027-r10/016-023.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "4886bdbd9ab8effbdf4d0783c3988f11e1ac4f5d20979b4dcaa87928df698203"
+    },
+    {
+      "file": "pairs-027-r10/024-031.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "c156122b53a1614be0424fd953e2a2421fe712592935f41d07fa989b16cd7ee0"
+    },
+    {
+      "file": "pairs-027-r10/032-039.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "e1d7b539f7bc728828a59d85cc9a1dfe5c79eae9d3c88702847522af2a33bcd1"
+    },
+    {
+      "file": "pairs-027-r10/040-047.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "217cc71ce84f34e5c94ad8d0b58d12cc565bee436f2eb98cae7953e40e0da1ae"
+    },
+    {
+      "file": "pairs-027-r10/048-055.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "77114a44912505d3f3762b83984a8db2ca6615d72864dcb3573822432000d252"
+    },
+    {
+      "file": "pairs-027-r10/056-063.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "0a249806a2ee8339ffd4804679481578c761d22fb9b01aae5f4542fc766101e4"
+    },
+    {
+      "file": "pairs-027-r10/064-071.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "2ee1bdbfde4824b4860bb168a06d9c96e4e6eb6b14a2051f46802db326e65fb6"
+    },
+    {
+      "file": "pairs-027-r10/072-079.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "4c206d2ee99ef6753917910d2b43c49e38616b97f47024249b8bb4a34da3f620"
+    },
+    {
+      "file": "pairs-027-r10/080-087.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "3408f22c8a9cca93b9f4c62cc2728c36bd8a65e48a8b95874349f1c5779160b5"
+    },
+    {
+      "file": "pairs-027-r10/088-095.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "fbf492daa66965ed1ec187c51231b9545667a931f25af91e9a76defdd405040a"
+    },
+    {
+      "file": "pairs-027-r10/096-103.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "06ab7dbb3ed4fabcea6817cfc2d719168305eca9f9fe137f6fdaf908e46fe834"
+    },
+    {
+      "file": "pairs-027-r10/104-111.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "c4f67f0074f08b9761285809fd6482fe2720b664ba40419f0a8ffd592b46ff2b"
+    },
+    {
+      "file": "pairs-027-r10/112-119.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "0fdd7812ebae60e54abb1853ecf288782afd14b286b26c3bc3959a6191737cec"
+    },
+    {
+      "file": "pairs-027-r10/120-127.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "a76c3c98fd236b02bde02405d2b4494e3c7e5e85059e9b53504b56b467e87eda"
+    },
+    {
+      "file": "pairs-027-r10/128-135.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "eeacca570304c666fe36501cd92b583b6152e961b95c3a231858d5c2dc70d91e"
+    },
+    {
+      "file": "pairs-027-r10/136-143.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "36c1850343ebdbbb17cda940217c1e11efce76375edcb9fb12edc9b0b6e6ba05"
+    },
+    {
+      "file": "pairs-027-r10/144-151.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "4c10f93d29aba3bc2a44bfb786790dd8f00665e5195ec1d9be828b78b03c1da7"
+    },
+    {
+      "file": "pairs-027-r10/152-159.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "4ca03bde6559a8eeab99c9d696ded854c0fd67d5b59fa786d5b659784e1e1bd5"
+    },
+    {
+      "file": "pairs-027-r10/160-167.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "dd323db83dee2024fd3bb4e38518750dd88f8bfcdcfc0c52e6afa803e6a72d09"
+    },
+    {
+      "file": "pairs-027-r10/168-175.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "e9bfd0e7cb55f1a844afb602382101ac7e6d2cedcd372f0067e9c0fb55416b2b"
+    },
+    {
+      "file": "pairs-027-r10/176-183.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "9f87c1868c24d714ca223c2f6f37efc9c7808a0791a7b773b1ac8f9b19bb9c15"
+    },
+    {
+      "file": "pairs-027-r10/184-191.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "9d42045e62e1aed5df51b4ca0256b53d81ff4a3612938a58e3c1221cfc01d3ff"
+    },
+    {
+      "file": "pairs-027-r10/192-199.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "99e0b71a185cd3b7e87795c2671ff05e579f755495b329969a8dbb1ab657a41a"
+    },
+    {
+      "file": "pairs-027-r10/200-207.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "ddcae92ea4e76777d52511f3db66124f999f1b70eb75642be98526bc80a099b7"
+    },
+    {
+      "file": "pairs-027-r10/208-215.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "7465901f32cc6c63f450488fbfde23b2becd0ff24135d853bec056dc217f8921"
+    },
+    {
+      "file": "pairs-027-r10/216-223.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "13450837e12385ece9f7e1c0cab3537eeb6fb1d9e82ee4eb8cc3c9514f93121a"
+    },
+    {
+      "file": "pairs-027-r10/224-231.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "8ab3184ff8897dc3f4fac7e23e5e1b39f8500a30601446e47884aa619321ba87"
+    },
+    {
+      "file": "pairs-027-r10/232-239.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "e8c41f37033fbbc091a227f32f27bc3d5d1558189ff04ab37882eaa2f8da60f0"
+    },
+    {
+      "file": "pairs-027-r10/240-247.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "35b9120f301244007cfcad73244b2a77a2dafa8aec5aaaec1d99c067b6542c40"
+    },
+    {
+      "file": "pairs-027-r10/248-255.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "b9af6fb1b544c567369e1044546450b5159c1c9fabd357bd7cd6f7ecd358a8e0"
+    },
+    {
+      "file": "pairs-027-r10/256-263.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "0dce86878e8e9c4455d95c5fdf90291f0d4038b5834dd68ed0e492658c02d6a6"
+    },
+    {
+      "file": "pairs-027-r10/264-271.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "66d446813dbbce759d3ada0dae48200996f033dbe1cf95d45a05045245182205"
+    },
+    {
+      "file": "pairs-027-r10/272-279.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "79d1c7394c701f19b0498c1e4e0cd3ea54cc0f19cefa06ba16b80198664d6c93"
+    },
+    {
+      "file": "pairs-027-r10/280-287.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "913c7a8c89b8dc1784b8f02f015401f5874a8a76125989034aa352f861cf91fe"
+    },
+    {
+      "file": "pairs-027-r10/288-295.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "c9358b4e4b6dde0180844a03089531f38c834f97fc10952e0b487f2b8dc4a26c"
+    },
+    {
+      "file": "pairs-027-r10/296-303.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "adedabaedd906a620206ccb18f6c5f953b1db822dff7561370364e754ef7d39b"
+    },
+    {
+      "file": "pairs-027-r10/304-311.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "d589abc173e97cde89a75f1df73bc72061d8213c1191f53ec7935aea78a23c6d"
+    },
+    {
+      "file": "pairs-027-r10/312-319.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "339c029872c05a48bd67ee77f05f46c14900f22993a64fa985b8ea0a28203c50"
+    },
+    {
+      "file": "pairs-027-r10/320-327.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "376a3e1636ce17c1ef441472c610296b5259cdfa808a02202f56c238531be26b"
+    },
+    {
+      "file": "pairs-027-r10/328-335.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "0cb1e9ace1dc3eef1ab73c25b7a6b82535e9ee7c01bffb9576adb5dc674f972b"
+    },
+    {
+      "file": "pairs-027-r10/336-343.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "bdca700e9552be1b87444f0b2ab53518ff03aeb1cff0eb3dcfb169ffb5191543"
+    },
+    {
+      "file": "pairs-027-r10/344-351.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "33a1c2c5dd17e79833f2d6f356d1f14deb2c4af8c19d794b52bb0e50c315b738"
+    },
+    {
+      "file": "pairs-027-r10/352-359.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "d00d2baed10b9694e550917f090004ec1afdfb18d81c609cae17cd937a5fb0d4"
+    },
+    {
+      "file": "pairs-027-r10/360-367.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "3dcdd19797a82577eb80bbd2a5610fbda1156347b6e5c2affe435a85c98df489"
+    },
+    {
+      "file": "pairs-027-r10/368-375.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "3c408a6d6be50cc8126a932c52902b52af3d4d7b46c0dd0ba50d03468b79c555"
+    },
+    {
+      "file": "pairs-027-r10/376-383.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "3716ec6ae33e40bff0e0b13fe1938c5d4952f5d056e508c18a3252b4fee0bb0d"
+    },
+    {
+      "file": "pairs-027-r10/384-391.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "9d87266c509698632cee084e07ef6d6ed08ad259391206caeebfece4f4dbef64"
+    },
+    {
+      "file": "pairs-027-r10/392-399.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "e591addabd3b132a8b3ef744a6a8175cb68c61c3e4b0fee951baa2676c2c8bae"
+    },
+    {
+      "file": "pairs-027-r10/400-407.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "83bbf2a2f7386f5a69dc62f1d858edec387c9aacef163faeccabc38643769c9c"
+    },
+    {
+      "file": "pairs-027-r10/408-415.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "831006b4e5104fea1c4a9b88c46336292fb81c6b24fa9d9c7322c757d00c9480"
+    },
+    {
+      "file": "pairs-027-r10/416-423.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "7e2abaa2a44be6ade284af459861310e7d5048c92c6aae9e44289ace9f456408"
+    },
+    {
+      "file": "pairs-027-r10/424-431.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "ebfc294eca59237cfe0af3f1baa1af74a810b837f445f29c430824d65293fb74"
+    },
+    {
+      "file": "pairs-027-r10/432-439.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "a121c7fe9a17da1768056ac395eb6ccc798caa4f561fa4df6367aab8469f0eb3"
+    },
+    {
+      "file": "pairs-027-r10/440-444.jpg",
+      "kind": "all final full-scene pairs available for independent review",
+      "author_visually_inspected": false,
+      "sha256": "631edc6ae0f8a8ffdbd862b4dbdba9178236505e9e0eb5783ff6214ec1980dac"
+    },
+    {
+      "file": "changed-027-r10/000-007.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "c570c7e4f81df4156ca5059510e55842f69dfa8ffe9bfb6b240155b48140f08f"
+    },
+    {
+      "file": "changed-027-r10/008-015.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "66f5ec44ee3b35eb3363670a001e8340f9c527d4bcc2c02c4c19811473a35237"
+    },
+    {
+      "file": "changed-027-r10/016-023.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "159e59f1efc8cd527319bcdf81186cb96b663755e0a3744877c388ec314a117d"
+    },
+    {
+      "file": "changed-027-r10/024-031.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "a3db23d5c898ba7c50759612850c7f0f00e3bbf6c1445ae37c26a91d31ccbfd7"
+    },
+    {
+      "file": "changed-027-r10/032-039.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "988e147390b9f354d0f65864d087926e916cc23abf7e475c95db223d047f7708"
+    },
+    {
+      "file": "changed-027-r10/040-047.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "18170ab6242c91642d55d106b90d5fb45cac978239bacc48e938a5b2e433a4ea"
+    },
+    {
+      "file": "changed-027-r10/048-055.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "7bb99c13bc0cf47c3d31475bf56b6a293c10656ddecc00b9ebcb96c4fb2fdb00"
+    },
+    {
+      "file": "changed-027-r10/056-063.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "26ae2131cb9426822465e911fb14a0a57d406b147c7440422b5469681af17e54"
+    },
+    {
+      "file": "changed-027-r10/064-071.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "cc959c126b0cbfa878e918d8cb90644b6c541919609eceb076863189c4dd6342"
+    },
+    {
+      "file": "changed-027-r10/072-079.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "73edc00d36e746c46ada46279e57cd1bbc95fb19b962c8fe33253a183c860597"
+    },
+    {
+      "file": "changed-027-r10/080-087.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "b73d7d5440176c8e0fed758380a8da0f0adedcf7913e25c00d82c06921767332"
+    },
+    {
+      "file": "changed-027-r10/088-095.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "fde202f02bb2cc89669cfab354b376791e432aa597f95458f96feb86901f055a"
+    },
+    {
+      "file": "changed-027-r10/096-103.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "e6df4c47a5840ec93927261141152df75a1e8384c00bf158705ddefa2ac8331d"
+    },
+    {
+      "file": "changed-027-r10/104-111.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "7b74b9c80eca698dea3912150a86d4b24adc12dae420584ecc6fb1b24a30f9b5"
+    },
+    {
+      "file": "changed-027-r10/112-119.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "977fda3c7e3852c8d8aad2b076ee837d95ccbc1b84ed572b21c4f4f1c0e6116c"
+    },
+    {
+      "file": "changed-027-r10/120-127.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "03be8a861878fa859cbdb5b9a442885924cffa225ca68da828a6be1f9e02b9b6"
+    },
+    {
+      "file": "changed-027-r10/128-135.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "0668ee50bcde979bedb59d0eeee388ece13940c415cacbc0c5fcfe72e5f6d983"
+    },
+    {
+      "file": "changed-027-r10/136-143.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "65c2fcac401cfafd7875d2142c0fb3b5eab96aa31d836915e41c75cc7383a631"
+    },
+    {
+      "file": "changed-027-r10/144-151.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "f6942b577aa80d6959822136ff05b5074af9e51683ed2eba4b1f16c3153631ec"
+    },
+    {
+      "file": "changed-027-r10/152-159.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "8bbbcc4269488af565ff47fddec3d9e49fba374e20ce313c72d62567cc8fa020"
+    },
+    {
+      "file": "changed-027-r10/160-167.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "90c2aec1e6ba46ff3b823a43a8b378d967e78ce3fd886937d378c00ecf922e52"
+    },
+    {
+      "file": "changed-027-r10/168-175.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "dd45d7b360449c717ce043019104e0fe47a84b661e409ad8eae1b4ab9b2679f2"
+    },
+    {
+      "file": "changed-027-r10/176-183.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "40406a0e7466931abd681a9961ac4bf991a2240b02f18364acaf4c7ee8a3fb17"
+    },
+    {
+      "file": "changed-027-r10/184-191.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "ab01a8a6a5e04e00ad74b292a2e4cfff1f4091eb58d1767a62f3b9936a768b65"
+    },
+    {
+      "file": "changed-027-r10/192-199.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "786cd30b9091b64d8db220113e5213f75e4374c15df5c7bad30e6ef9e709c6d0"
+    },
+    {
+      "file": "changed-027-r10/200-207.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "a845ded7adec280ae4c74cfeee1a2b325695853c3da6d373bd6a4177ab7c318b"
+    },
+    {
+      "file": "changed-027-r10/208-215.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "cc41fb0a2186fa1d60bf81129fc3fedee738b84fabee377c89c9743b08833827"
+    },
+    {
+      "file": "changed-027-r10/216-223.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "1a1ade4cf2870a7b675971ae144d752fed03e2ae0911165f3cb70195103c55b8"
+    },
+    {
+      "file": "changed-027-r10/224-231.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "b818fb61d028b9495f0a94a9f1793b063ed0209f01bfa2cce40d668790ae6316"
+    },
+    {
+      "file": "changed-027-r10/232-239.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "2d9a494948ce76dca62b8eee0ec4e2c2c1dbd6198da5129d41caa39d539cdb4c"
+    },
+    {
+      "file": "changed-027-r10/240-245.jpg",
+      "kind": "all final changed native regions, complete bounds with proportional scale labels",
+      "author_visually_inspected": true,
+      "sha256": "2a0a96a635d579917483c83692b4d297d10376af94398299392bf7c9df8fcc37"
+    },
+    {
+      "file": "life-r10-front-pairs/00.jpg",
+      "kind": "17 native-pixel source / baseline / final focus comparisons",
+      "author_visually_inspected": true,
+      "sha256": "1def65e824ca20febe6f4b43c49e53e6058688c7119848f268e0c7d886ea9cc5"
+    },
+    {
+      "file": "life-r10-front-pairs/02.jpg",
+      "kind": "17 native-pixel source / baseline / final focus comparisons",
+      "author_visually_inspected": true,
+      "sha256": "8bb80ae495671a5512b4aae65654ddb9f57e336ded5c6bd3efcb74576e10b79f"
+    },
+    {
+      "file": "life-r10-front-pairs/04.jpg",
+      "kind": "17 native-pixel source / baseline / final focus comparisons",
+      "author_visually_inspected": true,
+      "sha256": "5d8e125b19813e28d46cf1fb7976cc43d98d0348c5ce3787174bc031b9939861"
+    },
+    {
+      "file": "life-r10-front-pairs/06.jpg",
+      "kind": "17 native-pixel source / baseline / final focus comparisons",
+      "author_visually_inspected": true,
+      "sha256": "f27a6259c8f5e22016d079568dcf6bef1316f08ff2e793b065cc34f45efd88c9"
+    },
+    {
+      "file": "life-r10-front-pairs/08.jpg",
+      "kind": "17 native-pixel source / baseline / final focus comparisons",
+      "author_visually_inspected": true,
+      "sha256": "a3d282c8a513d5ac79e07b85a16192351ecddef30365d4a809373777f2ea0dba"
+    },
+    {
+      "file": "life-r10-front-pairs/10.jpg",
+      "kind": "17 native-pixel source / baseline / final focus comparisons",
+      "author_visually_inspected": true,
+      "sha256": "e6a77aa5da6e2a494e5131edf239b4db91593edddfce43a3e96aafce64d416ef"
+    },
+    {
+      "file": "life-r10-front-pairs/12.jpg",
+      "kind": "17 native-pixel source / baseline / final focus comparisons",
+      "author_visually_inspected": true,
+      "sha256": "3218a36c994d95b581032afb7359fc1df462efdb161e163f433710edb16deeca"
+    },
+    {
+      "file": "life-r10-front-pairs/14.jpg",
+      "kind": "17 native-pixel source / baseline / final focus comparisons",
+      "author_visually_inspected": true,
+      "sha256": "0ee07473c9b54c67556a0ad5d120dfdcecba47ba8147d002379c39438d9adf2c"
+    },
+    {
+      "file": "life-r10-front-pairs/16.jpg",
+      "kind": "17 native-pixel source / baseline / final focus comparisons",
+      "author_visually_inspected": true,
+      "sha256": "46e16c39a50b3af253e19c420a56f0c8823f4718072439ce7bc955ac29fc64c7"
+    },
+    {
+      "file": "tail-027-r10-sheets/445-460.jpg",
+      "kind": "all 59 final encoded tail frames",
+      "author_visually_inspected": true,
+      "sha256": "b4f6120b1a9f0e8e0bbe312fe3ad7edb0c16fe9434d99d812732f178a8eddc7e"
+    },
+    {
+      "file": "tail-027-r10-sheets/461-476.jpg",
+      "kind": "all 59 final encoded tail frames",
+      "author_visually_inspected": true,
+      "sha256": "cd65e1c2855b2567bb93584a67aed8c91a7692efb5e32cd8864a460b3f9c5176"
+    },
+    {
+      "file": "tail-027-r10-sheets/477-492.jpg",
+      "kind": "all 59 final encoded tail frames",
+      "author_visually_inspected": true,
+      "sha256": "e4e6e063253c8f400a79c31236445309de1d1d6ebeee2e589f3ac38c2c433cc7"
+    },
+    {
+      "file": "tail-027-r10-sheets/493-503.jpg",
+      "kind": "all 59 final encoded tail frames",
+      "author_visually_inspected": true,
+      "sha256": "07876ea3080d8578e6aa3ad04c09a4d2ba9a530664e5b3ff090b421a7fc71388"
+    }
+  ]
+}

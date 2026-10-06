@@ -139,3 +139,7 @@
 ## Light Work
 
 [![Light Work](examples/light-work/preview.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/light-work)
+
+## Life in Weeks
+
+[![Life in Weeks](examples/life-in-weeks/preview.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/life-in-weeks)

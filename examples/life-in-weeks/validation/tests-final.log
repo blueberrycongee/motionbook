@@ -1,0 +1,19 @@
+✔ the reduced-motion slider and replay update the rendered view and live summary (440.615329ms)
+✔ dragging interrupts recorded playback and the R shortcut restarts it (2401.667131ms)
+✔ all original frames preserve explicit current-cell and pointer states (1.447047ms)
+✔ the whole native clip and authored reset loop select deterministically (1.341015ms)
+✔ interrupted range motion stays bounded and reaches both endpoints (11.494728ms)
+✔ reduced motion applies direct age values without an animation (0.314815ms)
+✔ interrupting a source fade preserves its complete row profiles at the handoff (0.400453ms)
+✔ interrupting a pulse retains its marker geometry and label ink at the handoff (0.230477ms)
+✔ all 445 source counts stay within 90 years and preserve known rests (6.237607ms)
+✔ column-major 90 by 52 geometry and stage boundaries are explicit (1.061197ms)
+✔ initial, zero and retirement scenes produce finite independently authored SVG (131.280887ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3205.412989

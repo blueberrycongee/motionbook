@@ -1,0 +1,15 @@
+{
+  "id": "new100-027",
+  "slug": "life-in-weeks",
+  "package_revision": "complete-r6",
+  "manifest_sha256": "2ee6dde890b2969c1141fa18e1db18d225346fd28c916e8d40afbd8c4b8cfdf8",
+  "independent_review": "passed with recorded fine rendering limits",
+  "reviewed_native_frames": 445,
+  "reviewed_tail_frames": 59,
+  "fresh_raster_bindings": 504,
+  "tests_passed": 11,
+  "application_browser_runtime": "not_run",
+  "readme_browser_playback_verification": "pending",
+  "source_attribution": "examples/life-in-weeks/PROVENANCE.md",
+  "frozen_status_note": "The original package status records its handoff stage; this record adds the completed independent review."
+}
