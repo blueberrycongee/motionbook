@@ -103,3 +103,7 @@
 ## Card details sheet
 
 [![Card details sheet](examples/card-details-sheet/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/card-details-sheet)
+
+## Task card gesture stack
+
+[![Task card gesture stack](examples/task-card-gesture-stack/preview/loop.gif)](https://github.com/blueberrycongee/reference-animations/tree/main/examples/task-card-gesture-stack)

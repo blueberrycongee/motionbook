@@ -1,0 +1,1 @@
+{"name":"task-card-gesture-stack","private":true,"version":"1.0.0","scripts":{"test":"node test.cjs","render":"node render.cjs"},"description":"Independently drawn native-timed task card gesture study"}

@@ -1,0 +1,18 @@
+{
+  "reviewed_at": "2026-10-06T01:54:53.035094+00:00",
+  "original_frames": 348,
+  "native_pairs_reviewed": 348,
+  "tail_frames_reviewed": 24,
+  "changed_frames_reviewed": 88,
+  "boundary_frames_reviewed": 10,
+  "fresh_bindings": 16,
+  "exact_first_last_rgb_seam": true,
+  "review_method": "All 348 native pairs and 24 tail frames were reviewed in the prior complete pass. For this focused revision all 88 changed native pairs and 10 enclosing boundary pairs were re-inspected in 13 delta sheets, with enlarged transition checks. Exact RGB equality carries the prior review forward for all other 260 native and 24 tail frames. Sixteen fresh final-scene renders match the reviewed native pixels.",
+  "remaining_differences": [
+    "Source font is unknown. Independently fitted Inter/Liberation Serif retain small glyph-contour and antialiasing differences.",
+    "Hand-drawn symbols, low-contrast shadow contours and subpixel softness differ slightly at enlarged scale.",
+    "Measured bounds and opacity/blur fits contain compression/threshold uncertainty; original CSS is not known.",
+    "All observed motion is retained; the final24-frame neutral hold is authored. Actual browser runtime remains untested.",
+    "The source middle completion line has a small remaining left-to-right softness variation during its exit."
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "checked_at_utc": "2026-10-06T01:54:53.035094+00:00",
+  "logic": {
+    "command": "node test.cjs",
+    "status": "passed",
+    "stdout": "PASS: 372 native/tail scene states, four card phases, completion and reset, exact modulo seam, pointer drag, four dismissals, restart, keyboard controls, Escape freeze and reduced-motion DOM stubs. No real browser runtime test.\n"
+  },
+  "media": {
+    "mp4": {
+      "sha256": "9d56d5bd1e790ec39124fbc787d56bef344807bd95bfb6000cb8ac58b07521bb",
+      "full_decode_exit_code": 0,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 960,
+            "height": 720,
+            "r_frame_rate": "60/1",
+            "duration": "6.200000",
+            "nb_frames": "372"
+          }
+        ]
+      }
+    },
+    "gif": {
+      "sha256": "a2bc21fcd8952fa759325c45a4e708ce4434eeb70e4d236a10a8e857868ba752",
+      "full_decode_exit_code": 0,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 960,
+            "height": 720,
+            "r_frame_rate": "30/1",
+            "duration": "6.200000",
+            "nb_frames": "186"
+          }
+        ]
+      },
+      "frames": 186,
+      "duration_ms": 6200,
+      "distinct_frames": 161,
+      "loop": 0
+    }
+  },
+  "fresh_stills": {
+    "rows": [
+      {
+        "frame": 0,
+        "t": 0,
+        "match": true,
+        "fresh_rgb_sha256": "5f34ec0e29c57b01710e3585c2e18d1279939328c46527b88dfadba529437571",
+        "reviewed_rgb_sha256": "5f34ec0e29c57b01710e3585c2e18d1279939328c46527b88dfadba529437571"
+      },
+      {
+        "frame": 28,
+        "t": 0.466667,
+        "match": true,
+        "fresh_rgb_sha256": "cc22cb4afa2f61e41bd8a28f5e0a3ef3de434210e180f15b78f29ab6fed6ae01",
+        "reviewed_rgb_sha256": "cc22cb4afa2f61e41bd8a28f5e0a3ef3de434210e180f15b78f29ab6fed6ae01"
+      },
+      {
+        "frame": 35,
+        "t": 0.583333,
+        "match": true,
+        "fresh_rgb_sha256": "4c90307e7ae207dd5ff735efcd8b94693e617252287b989b0d587dce824db4ec",
+        "reviewed_rgb_sha256": "4c90307e7ae207dd5ff735efcd8b94693e617252287b989b0d587dce824db4ec"
+      },
+      {
+        "frame": 44,
+        "t": 0.733333,
+        "match": true,
+        "fresh_rgb_sha256": "32942fb0b3c3d2b0ba04cd9117f75b0a1b16e48e70cdcd62df4693d2033f001f",
+        "reviewed_rgb_sha256": "32942fb0b3c3d2b0ba04cd9117f75b0a1b16e48e70cdcd62df4693d2033f001f"
+      },
+      {
+        "frame": 98,
+        "t": 1.633333,
+        "match": true,
+        "fresh_rgb_sha256": "69e461ed2da3f09eb29d32748d9bb86f3d016256e8b6c66ef6f13e8a8a8085da",
+        "reviewed_rgb_sha256": "69e461ed2da3f09eb29d32748d9bb86f3d016256e8b6c66ef6f13e8a8a8085da"
+      },
+      {
+        "frame": 107,
+        "t": 1.783333,
+        "match": true,
+        "fresh_rgb_sha256": "f3940f81a6f147039666fef1135b392367f96a22ce43edfa40270b78439663fc",
+        "reviewed_rgb_sha256": "f3940f81a6f147039666fef1135b392367f96a22ce43edfa40270b78439663fc"
+      },
+      {
+        "frame": 170,
+        "t": 2.833333,
+        "match": true,
+        "fresh_rgb_sha256": "83520a42774e5c030660d0867be1918f042a0523fef22b9b44945c068284a23f",
+        "reviewed_rgb_sha256": "83520a42774e5c030660d0867be1918f042a0523fef22b9b44945c068284a23f"
+      },
+      {
+        "frame": 181,
+        "t": 3.016667,
+        "match": true,
+        "fresh_rgb_sha256": "3ad0f4dc38cf0e791a399547cbb9e97418bdef21abaef35869b9ed6af54401f8",
+        "reviewed_rgb_sha256": "3ad0f4dc38cf0e791a399547cbb9e97418bdef21abaef35869b9ed6af54401f8"
+      },
+      {
+        "frame": 306,
+        "t": 5.1,
+        "match": true,
+        "fresh_rgb_sha256": "7aaa4e0dfa83e64c058d3228885b70c0521fb82c50f60abf266c8a3fa41739f1",
+        "reviewed_rgb_sha256": "7aaa4e0dfa83e64c058d3228885b70c0521fb82c50f60abf266c8a3fa41739f1"
+      },
+      {
+        "frame": 310,
+        "t": 5.166667,
+        "match": true,
+        "fresh_rgb_sha256": "0f00bb7aa42af7d3e79c5029c34f9499603b1f8da8b2ffa1e9fa45c44a219bdd",
+        "reviewed_rgb_sha256": "0f00bb7aa42af7d3e79c5029c34f9499603b1f8da8b2ffa1e9fa45c44a219bdd"
+      },
+      {
+        "frame": 314,
+        "t": 5.233333,
+        "match": true,
+        "fresh_rgb_sha256": "d49edb818d73727a908830152587c711fae755ac9c1ec38c68974d16b9d6793f",
+        "reviewed_rgb_sha256": "d49edb818d73727a908830152587c711fae755ac9c1ec38c68974d16b9d6793f"
+      },
+      {
+        "frame": 316,
+        "t": 5.266667,
+        "match": true,
+        "fresh_rgb_sha256": "2bcedf0baebb9f7a731301d1fcc09baa9e7dc08f7099098bcb01ef1102629a4c",
+        "reviewed_rgb_sha256": "2bcedf0baebb9f7a731301d1fcc09baa9e7dc08f7099098bcb01ef1102629a4c"
+      },
+      {
+        "frame": 329,
+        "t": 5.483333,
+        "match": true,
+        "fresh_rgb_sha256": "00c321f444b3f566dd61869fe96b9b822ecd077520433ff1012d753e0ce9dc4a",
+        "reviewed_rgb_sha256": "00c321f444b3f566dd61869fe96b9b822ecd077520433ff1012d753e0ce9dc4a"
+      },
+      {
+        "frame": 338,
+        "t": 5.633333,
+        "match": true,
+        "fresh_rgb_sha256": "de9170155b89b07dec75b4af64e47cc5d0cfdb47132a27d0632d04d700d1a9ad",
+        "reviewed_rgb_sha256": "de9170155b89b07dec75b4af64e47cc5d0cfdb47132a27d0632d04d700d1a9ad"
+      },
+      {
+        "frame": 347,
+        "t": 5.783333,
+        "match": true,
+        "fresh_rgb_sha256": "5f34ec0e29c57b01710e3585c2e18d1279939328c46527b88dfadba529437571",
+        "reviewed_rgb_sha256": "5f34ec0e29c57b01710e3585c2e18d1279939328c46527b88dfadba529437571"
+      },
+      {
+        "frame": 371,
+        "t": 6.183333333333334,
+        "match": true,
+        "fresh_rgb_sha256": "5f34ec0e29c57b01710e3585c2e18d1279939328c46527b88dfadba529437571",
+        "reviewed_rgb_sha256": "5f34ec0e29c57b01710e3585c2e18d1279939328c46527b88dfadba529437571"
+      }
+    ],
+    "all_passed": true,
+    "method": "Fresh offline SVG rasterization with final package fonts and scene; exact RGB comparison, not browser validation"
+  },
+  "runtime": {
+    "status": "not_run",
+    "environment": "Offline Sharp/librsvg and simulated DOM only; local Chromium launch and local-site browser access were denied and not bypassed.",
+    "evidence": []
+  },
+  "limitations": [
+    "No real-browser runtime validation. Offline SVG previews are not browser recordings."
+  ]
+}
