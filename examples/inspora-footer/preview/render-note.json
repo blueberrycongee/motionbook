@@ -1,14 +1,15 @@
 {
-  "revision": 6,
-  "reference": "Modern real-horse videos, including mounted side view at 82\u201389s in the public Horses Inside Out walk video",
-  "motion_origin": "Newly authored, not recovered or copied video frames",
+  "revision": 7,
+  "motion_revision": 6,
+  "motion_origin": "Newly authored motion retained byte-identically from accepted v6",
   "preview_seconds": 7,
   "fps": 20,
   "frames": 140,
   "camera": "fixed",
   "forward_travel_pixels": 252,
-  "final_video_frames_visually_inspected": 28,
   "visual_auxiliary_labels": false,
   "browser_runtime_tested": false,
-  "artwork": "Desert and sky texture borrowed from original reference; horse/rider vector paths authored"
+  "renderer": "Deterministic offline SVG/Sharp render; HTML/CSS desktop typesetting translated to SVG",
+  "artwork": "Original procedurally authored blue paper, engraved desert, hills, grass, stones, and retained authored horse/rider. No reference image inputs.",
+  "artwork_generator": "scripts/draw-desert.mjs"
 }

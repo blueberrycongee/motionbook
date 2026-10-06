@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-06",
+  "asset_generation": "Original deterministic vectors; generator reads no image or reference inputs",
+  "borrowed_artwork_files_removed": true,
+  "borrowed_embeds_removed": true,
+  "original_asset_svg_contains_no_image_elements": true,
+  "accepted_v6_horse_rider_subtree_byte_identical": true,
+  "accepted_v6_motion_module_byte_identical": true,
+  "source_baseline_checked_against_remote_tree": "10808517f6973169a75a41738d7502421e56a864",
+  "source_hashes": {
+    "assets/original-desert.svg": "fbb3136fde7b804de39cf4c41815ec74abb6f5ffc133a712b73b732057e9f209",
+    "assets/original-blue-paper.svg": "b44a83dc7a0b9da17915ae8eb4595bbb0b4588bd02d235699103d35685b3d9d8",
+    "horse-motion.js": "d4e843297eb6ebed8e0fbb8c913bb5cd9b19218d61ad2a431a25dd8854a3ec7a"
+  },
+  "form_and_link_tests": "passed",
+  "motion_regressions": "passed; see public-cleanup-motion-tests.txt",
+  "preview_encoding": {
+    "delivery/footer-preview.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1004,
+          "height": 566,
+          "r_frame_rate": "20/1",
+          "nb_frames": "140"
+        }
+      ],
+      "format": {
+        "duration": "7.000000"
+      }
+    },
+    "delivery/horse-detail.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1230,
+          "height": 316,
+          "r_frame_rate": "20/1",
+          "nb_frames": "140"
+        }
+      ],
+      "format": {
+        "duration": "7.000000"
+      }
+    }
+  },
+  "decoded_frames_visually_checked_seconds": [
+    0,
+    1.4,
+    2,
+    6.5
+  ],
+  "visual_auxiliary_labels": false,
+  "browser_runtime_tested": false,
+  "browser_blocker": "Chromium local process launch failed because socket() is not permitted in this environment"
+}

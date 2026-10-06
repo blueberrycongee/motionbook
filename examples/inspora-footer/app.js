@@ -1,18 +1,5 @@
 (() => {
-  const sky = document.querySelector('.sky');
-  // Reuse only the text-free top strip of the reference for its paper texture.
-  // The lower illustration is separately clipped by CSS. All visible UI is HTML.
-  for (let i = 0; i < 80; i++) {
-    const slice = document.createElement('div');
-    slice.className = 'sky-strip';
-    const image = document.createElement('img');
-    image.src = 'assets/reference-artwork.webp';
-    image.alt = '';
-    image.width = 1671;
-    image.height = 941;
-    slice.append(image);
-    sky.append(slice);
-  }
+  // The blue paper is an original procedural SVG applied by CSS.
   const form = document.querySelector('#newsletter');
   const email = document.querySelector('#email');
   const status = document.querySelector('#form-status');

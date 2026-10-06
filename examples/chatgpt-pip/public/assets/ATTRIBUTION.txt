@@ -1,8 +1,5 @@
-Reference hover-control resources:
-- pop-out-window-egg@3x.png
-- pop-in-window-egg@3x.png
-Source: official ChatGPT macOS installer 26.930.51102 build 13100,
-Contents/Resources/native/remote-hosted-pip/.
-These two small graphics are reference assets used for the user's requested reconstruction.
-They are not part of the independent implementation's original artwork; rights remain with their owner.
-No proprietary executable or native addon is included.
+Original control artwork
+
+window-to-companion.svg and companion-to-window.svg, and their @3x.png exports, were independently authored for this reconstruction in October 2026. The vector geometry is fully specified in scripts/draw-control-icons.mjs. It does not read, trace, sample, or embed any third-party image. The original simple companion silhouette is not an OpenAI mascot.
+
+Interaction reference: OpenAI ChatGPT macOS 26.930.51102 build 13100. OpenAI retains rights in its product, name, and original design. The two previously extracted control PNGs have been removed and are not distributed in this revision. Credit is not a claim of endorsement or a license to the reference.
