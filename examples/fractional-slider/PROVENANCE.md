@@ -1,11 +1,7 @@
-# Provenance
+# Source and rights
 
-- [Fractional Slider](https://rauno.me/craft/fractional-slider), Rauno Freiberg.
-- Author: https://x.com/raunofreiberg
-- Primary footage: https://cdn.rauno.me/fractional-slider.mp4#t=0.01
-- SHA-256: `d44f6f9e56f7f5dc974576acd4853176f078f1000347ad810e45bb7769d3ea1c`
-- Original canvas: 1344 × 460; 360 native frames over 6 seconds.
+Reference: [Fractional Slider](https://rauno.me/craft/fractional-slider) by [Rauno Freiberg](https://x.com/raunofreiberg); [original footage](https://cdn.rauno.me/fractional-slider.mp4#t=0.01).
 
-All ruler marks, labels, fade, selection range, cursor and press rings are independently drawn vectors. No source screenshots, extracted pixel assets or original footage are embedded or redistributed. Inter is a licensed SIL OFL substitute; see assets/Inter-LICENSE.txt.
+Ruler marks, labels, fades, selection, pointer and press rings are independently drawn vectors. No original footage or source pixels are distributed. Inter is a substitute under the [SIL Open Font License](assets/Inter-LICENSE.txt).
 
-The reference shows signed ruler movement, a −90 endpoint hold, a positive sweep, and a late return to zero with two press indicators. The author’s primary page explicitly offers scroll or drag. The exact input deltas in the stationary-pointer segment and the reset gesture shown in the recording are not independently proven. Live wheel and double-click reset are independently implemented demonstration controls. The recorded replay includes scalar per-tick color changes and optical font placement; it contains no source pixel arrays.
+The author offers scroll or drag. Exact recorded input deltas and the reset gesture are not established; live wheel handling and double-click reset are authored demo controls.

@@ -1,3 +1,7 @@
 # Fractional Slider
 
-[Checkpoint ZIP](038-m01.zip) · [Status and hashes](038-STATUS.json)
+[Source archive](038-m01.zip)
+
+
+
+For current examples, use the [purpose index](../../../catalog/README.md).

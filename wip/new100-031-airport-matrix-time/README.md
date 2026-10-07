@@ -1,11 +1,9 @@
-# Airport matrix time · source-only WIP
+# Airport matrix time
 
-[Open source](index.html) · [Run and validation](VALIDATION.md) · [Reference](SOURCE.md) · [Rights](RIGHTS.md) · [Recovery status](STATUS.md)
+[源码](index.html) · [运行](VALIDATION.md) · [参考](SOURCE.md) · [许可](RIGHTS.md) · [未完成项](STATUS.md)
 
-The recoverable clock board now includes keyboard/pointer city search, accessible hit targets, reversible light/dark transitions, reduced motion and idle render shutdown. 18 Node tests pass.
+点阵世界时钟，支持城市搜索、键盘选择和明暗主题切换。可借用搜索与局部行替换的交互。
 
-Original footage is currently unavailable (HTTP 403), so exact motion completion and all-native-frame comparison remain blocked. This WIP is not an accepted showcase entry. The watch/splash sequence and several pictured controls are unfinished.
+仍是近似实现，尚未完成原片校准和浏览器验证。
 
-![Four authored source states; offline renders, not original or browser evidence](evidence/authored-states.png)
-
-Run `node --test test.cjs app.test.cjs`. The browser entry point has no dependency or build step. The optional offline snapshot script uses `sharp`.
+![点阵、搜索与主题状态预览](evidence/authored-states.png)

@@ -1,64 +1,45 @@
 ---
 name: motionbook
-description: "Find and adapt Motionbook UI motion references by purpose: components, interface workflows, landing-page fragments, creative motion and playful experiments. Use when choosing interaction inspiration, explaining what makes a reference useful, or implementing a selected effect in an app."
+description: "Find, explain, and adapt Motionbook UI references by the user's problem, using the smallest useful interaction or visual part."
 ---
 
 # Motionbook
 
-Use [Motionbook](https://github.com/blueberrycongee/motionbook) as a searchable implementation reference. Preserve the user's target stack, interaction requirements and existing application conventions.
+Use [Motionbook](https://github.com/blueberrycongee/motionbook) to solve the interaction problem, not to copy an entire example by default.
 
-## Choose the requested outcome
+## Choose the scope
 
-| Request | Work and stopping point |
-| --- | --- |
-| Find references | Retrieve relevant candidates; explain what to borrow, tradeoffs and evidence limits. Return links and a recommendation. Do not start implementation. |
-| Explain an effect | Inspect the selected implementation and evidence; describe its state flow and motion using the interaction specification below. Do not edit the target application. |
-| Integrate an effect | Inspect the reference and target, write a compact interaction specification, implement, then verify the specified behavior in the target runtime. |
+- **Find references:** recommend a few relevant parts, explain their value and limits, then stop.
+- **Explain:** inspect the selected source and describe its states, motion and input handling. Do not edit the target.
+- **Integrate:** preserve the target stack and conventions, adapt the smallest useful part, and test it. Recreate a full screen only when requested.
 
-Infer the route from the request; these are not commands the user must memorize. Keep a clear chosen direction. When an authorized design exploration has an unresolved choice that would materially change the interaction, compare two small runnable variants in an isolated scratch directory, preferably behind one switcher. Exercise both, explain the tradeoff and recommend a direction before production integration. Do not require prototypes for an already selected effect or a reference-only request.
+## Search by behavior
 
-## Retrieve by the user's problem
-
-Use this skill for finding and adapting references, not only for exact recreations. First identify the target task, the smallest interaction needed, the target stack and whether expressive motion serves that task. Preserve the user's choice of full-screen recreation when explicitly requested.
-
-The bundled [catalog](references/catalog.json) describes every published study in Chinese and English search vocabulary. Read [the classification contract](references/taxonomy.md) when distinguishing kinds or maintaining entries. Search without loading every example or downloading media:
+The bundled [catalog](references/catalog.json) contains Chinese and English task vocabulary. No media download is needed for discovery.
 
 ```sh
 python3 <skill-directory>/scripts/search.py "标签 创建"
-python3 <skill-directory>/scripts/search.py "slider" --fit everyday
+python3 <skill-directory>/scripts/search.py "portfolio hover"
 python3 <skill-directory>/scripts/search.py "progress" --capability reduced-motion
-python3 <skill-directory>/scripts/search.py --kind landing-page
-python3 <skill-directory>/scripts/search.py "弹弓" --fit playful --json
 ```
 
-This is keyword retrieval, not semantic search. Translate a long request into a few Chinese or English behavior terms; retry shorter terms when no result matches. English matches whole words (with a small set of plural aliases); Chinese supports substring terms. Do not fill an empty result with an unrelated effect. Filters are optional. Everyday studies win only relevance ties; explicitly seek playful or brand studies when the user wants them.
+Translate long requests into short behavior terms. Search ranks matches to any known term; a result does not satisfy every constraint automatically. Shorten or rephrase an empty query rather than substituting an unrelated effect.
 
-Reduced-motion phrases (English or Chinese) and `--capability reduced-motion` require an explicitly inspected source branch. Capability indexing is deliberately partial: a missing match means unindexed or unverified, not that the entire library lacks the behavior. An indexed branch is source evidence only; inspect input wiring and test it in the target runtime. Treat keyboard, focus, async failure, touch and other requirements as constraints to inspect, not guarantees inferred from a keyword match.
+Use optional `--kind` and `--fit` filters from the [taxonomy](references/taxonomy.md). Everyday, brand and playful describe intent. A playful control is not a default business control; a page fragment is not a complete landing page. Explicit playful intent should remain playful.
 
-Shortlist a few candidates and explain the specific reason for choosing: information hierarchy, state feedback, spatial continuity, material treatment, expressive motion or a classic interaction pattern. Use `extract` to define what to borrow and `avoid` to identify tradeoffs. Follow `source_anchors` to the exact file, symbol and checked line for the smallest implementation slice. Each anchor includes its purpose and a unique literal match so maintainers can detect a stale location. Read that function plus its needed imports/callers; an anchor is a reading entry point, not a self-contained copy/paste recipe. A playful component should not become a default business control. A landing-page fragment must not be described as a complete website.
+Read `why`, `extract`, `use_when` and `avoid`. Prefer `matched_source_anchors` for a specific subpart: starfield queries need the background, not Space's cards; advanced-settings queries need the editor, not Automation's task list. Reduced-motion filtering applies to the selected anchors. Its partial index marks an inspected source branch, not all accessibility requirements.
 
-For humans, the repository's [purpose index](https://github.com/blueberrycongee/motionbook/blob/main/catalog/README.md) accompanies its root visual gallery. A local checkout is optional for discovery. Resolve catalog paths against that checkout or `https://github.com/blueberrycongee/motionbook/blob/main/`; they are not files bundled inside the installed skill. Open only the chosen example's README, preview and evidence, then obtain its implementation if adaptation requires it. Use available GitHub tooling or ordinary repository access; the skill does not depend on a particular connector. If a preview cannot be inspected, describe the evidence limit rather than claiming visual quality.
+## Inspect and adapt
 
-The bundled catalog is a snapshot. When an entry has moved or a new example is expected, check the current repository. The `wip/` ledger distinguishes prototypes, source-only candidates and historical archives. Do not recommend these as validated implementations.
+1. Open only the chosen example's README, relevant preview, source and validation/rights notes. Catalog paths resolve against a checkout or the repository URL, not the installed skill directory. Check the current repository if the snapshot is stale; `wip/` is not a validated implementation collection.
+2. Follow each anchor's file, symbol, line and purpose. Read needed imports and callers; a function may depend on sampled data or surrounding input code. Keep measured behavior separate from authored demo extensions.
+3. Write a compact [interaction specification](references/interaction-spec.md): purpose, states, timing/geometry, inputs and observable checks. Link consequential parameters to source; label estimates.
+4. Adapt geometry to the target layout. Preserve keyboard/touch access, focus and reduced motion. Connect progress, cancellation and completion to real business state rather than demonstration timers.
 
-## Read only what the adaptation needs
+Implement independently without copying original reference code or assets; use verified CC0 replacement images and keep fonts’ actual licenses. An inspected source branch or offline GIF is not runtime validation.
 
-Follow that example's **Source/Reference** and **Run & validation** links. Filenames vary: provenance may be in `PROVENANCE.md`, `SOURCE.md` or `RIGHTS.md`, and run instructions usually live in `VALIDATION.md`. Read its license notices before copying or adapting code or assets; repository availability and attribution do not imply a blanket license.
+## Verify and deliver
 
-Inspect the selected example's package and entrypoint, then the relevant scene, timing, state model and input adapter. Some examples share one renderer between playback and live interaction; others have a separate preview renderer. Determine which implementation actually drives the target behavior. Load large sampled traces only when the requested replay or measured timing needs them.
+Run the target's relevant checks and exercise the requested behavior, including meaningful interruption, reversal, cancellation, failure and narrow-layout cases. Compare motion and hierarchy at a consistent scale; require pixel equality only for an exact recreation.
 
-For explanations and integrations, use [the interaction specification](references/interaction-spec.md) to record the behavior and its verification scenarios. Keep it inline for small tasks; create a separate artifact only when useful or requested. Distinguish measured reference behavior from authored demo extensions or closing frames. Use parameters supported by the selected source; do not assume one spring or duration works for every example.
-
-## Adapt to the application
-
-Implement the behavior in the user's stack. Keep state transitions and input handling separate from visual rendering where that helps integration. Recreate geometry and motion responsively rather than copying reference-canvas coordinates without accounting for the target layout.
-
-Honor the target's keyboard, pointer, touch and reduced-motion behavior. Avoid importing the source video's pixels, proprietary code or unrelated assets. Independently drawn or procedural artwork is suitable; an external replacement needs a verified license compatible with the intended use and its required attribution. Fonts and dependencies keep their actual licenses and notices, which may differ from CC0. Preserve original creator attribution and disclose meaningful substitutions.
-
-## Verify the implemented result
-
-Run the target project's relevant checks and exercise the interaction specification's scenarios in an available, permitted runtime. Preserve repeatable evidence: the start state, actions, expected and observed results, runtime and capture/log paths. Compare the visible result at a consistent scale with the chosen Motionbook example, then fix material differences. For adaptations, judge the agreed behavior, hierarchy and spatial continuity under the target layout; do not impose pixel equality across different fonts, sizes or platforms. Use a fixed visual baseline when exact reproduction is requested.
-
-A rendered GIF or MP4 demonstrates an exported sequence. Seeing that image animate on GitHub verifies playback. Neither establishes that the application's input handling, browser layout or native runtime works. Report separately what was executed, what was rendered offline and what remains untested; name a concrete runtime blocker when one exists.
-
-Deliver the integrated source and a concise account of the selected reference, adaptations and checks. If a preview is requested, generate it from the adapted implementation and identify whether it is a runtime recording or offline render. Follow the user's existing publication scope; using this skill alone does not authorize installation, deployment or repository writes.
+Return the chosen reference, the part borrowed, adaptations and checks. Distinguish executed runtime behavior from offline output and blocked checks. Reference-only requests need no implementation, prototype or publication. This skill does not authorize repository writes or deployment.

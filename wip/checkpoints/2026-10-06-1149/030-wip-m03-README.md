@@ -1,5 +1,7 @@
 # 030-wip-m03
 
-[Source checkpoint](030-wip-m03.zip) · [Status and hashes](030-wip-m03-STATUS.json)
+[Source archive](030-wip-m03.zip)
 
-Incomplete study. This checkpoint is not an accepted main example.
+
+
+For current examples, use the [purpose index](../../../catalog/README.md).

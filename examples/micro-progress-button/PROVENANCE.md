@@ -1,11 +1,7 @@
-# Provenance
+# Source and rights
 
-Reference: https://x.com/withAnimationUI/status/2107359197511692380
-Author: withAnimation, @withAnimationUI.
-Observed on 2026-10-06. Official X syndication identified the exact MP4. The available 720×720 variant has 576 native frames over 10.005933 seconds; full actual reference footage was inspected before implementation. The 960 variant returned HTTP 403; 320, 540, and 720 variants returned HTTP 200 without altered credentials or client identity.
+Reference: [withAnimation / @withAnimationUI](https://x.com/withAnimationUI/status/2107359197511692380).
 
-All delivered visual output is independently drawn SVG and JavaScript, including icon, glass-like silhouette, progress gradient and pointer. Rounded lettering is rendered as vector outlines from the open-source Nunito font (Google Fonts; SIL Open Font License 1.1, included in assets/Nunito-OFL.txt), with no proprietary font assets. No original reference pixels, screenshots, videos, or artwork are embedded in the demo or source package. The original work remains the creator's. This is a private interaction study, not an assertion of ownership of the referenced design.
+SVG geometry, progress gradient, pointer and code are independently authored. No original footage, screenshots, pixels or artwork are included; the reference design remains the creator's work.
 
-The reference demonstrates Update → Updating with an attached cancel button → Cancel, three times. The standalone UI adds an eight-second simulated completion reset so the demo never remains busy indefinitely. No real update operation is performed. Native reference files and screenshot contact sheets are local inspection-only and excluded from all publication packages.
-
-Nunito source: https://github.com/google/fonts/tree/main/ofl/nunito ; downloaded directly from the official repository, weight 775, outline build script included.
+Rounded lettering uses weight-775 outlines from [Nunito in Google Fonts](https://github.com/google/fonts/tree/main/ofl/nunito), under the [SIL Open Font License](assets/Nunito-OFL.txt). The outline-build script is included.

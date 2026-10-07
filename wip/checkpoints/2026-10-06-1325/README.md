@@ -1,5 +1,9 @@
-# Source checkpoints
+# Source archive
 
-[Native automation M08](chatgpt-scheduled-tasks-m08-alignment-source.zip) · [Status](STATUS.json)
+[Native automation M08](chatgpt-scheduled-tasks-m08-alignment-source.zip)
 
-[Ringwriter foundation](039-foundation-r1.zip) · [Status](039-STATUS.json)
+[Ringwriter foundation](039-foundation-r1.zip)
+
+
+
+For current examples, use the [purpose index](../../../catalog/README.md).

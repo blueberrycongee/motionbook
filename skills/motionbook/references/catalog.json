@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "repository": "https://github.com/blueberrycongee/motionbook",
-  "basis": "Editorial adaptation guidance from checked-in source and validation notes; not a new visual or runtime acceptance.",
+  "basis": "Editorial reference guidance; see each example for rights and runtime evidence.",
   "entries": [
     {
       "slug": "adaptive-email-sidebar",
@@ -209,10 +209,10 @@
       "values": [
         "information-architecture"
       ],
-      "why": "任务列表、筛选、详情与保存规则分层，适合研究管理界面",
-      "extract": "列表到详情的导航与编辑状态",
-      "use_when": "自动化管理、任务配置",
-      "avoid": "仅本地模拟；真实浏览器布局和独立评审未完成",
+      "why": "任务列表、详情和条件设置逐层展开，高级规则通过显式入口进入编辑器，减少默认界面负担",
+      "extract": "列表到详情导航，或基础设置到高级规则编辑器的渐进披露",
+      "use_when": "自动化管理、任务配置、密集设置的高级选项",
+      "avoid": "仅借高级设置时不带入任务列表、执行器或自动保存；保留显式取消/保存与验证错误，重新验证弹窗焦点和键盘；仅本地模拟，浏览器未验收",
       "keywords": [
         "tasks",
         "automation",
@@ -220,7 +220,14 @@
         "detail",
         "任务",
         "自动化",
-        "管理"
+        "管理",
+        "advanced",
+        "settings",
+        "disclosure",
+        "progressive",
+        "高级",
+        "设置",
+        "渐进披露"
       ],
       "readme": "examples/automation-manager/README.md",
       "preview": "examples/automation-manager/preview/native-automation-workflow.gif",
@@ -242,6 +249,51 @@
           "match": "  performNavigation(action) {",
           "purpose": "切换已有任务、新建草稿和关闭详情时清理编辑状态",
           "line": 130
+        },
+        {
+          "path": "examples/automation-manager/src/view.mjs",
+          "symbol": "schedule custom-rule disclosure",
+          "match": "q.frequency === \"custom\" ? '<button class=\"text-button advanced\"",
+          "purpose": "基础字段按频率条件显示，只在 custom 时显示高级规则入口；是按需披露，不是 accordion",
+          "line": 183,
+          "keywords": [
+            "advanced",
+            "settings",
+            "disclosure",
+            "高级",
+            "设置",
+            "渐进披露"
+          ]
+        },
+        {
+          "path": "examples/automation-manager/src/view.mjs",
+          "symbol": "modal advanced-rule branch",
+          "match": "} else if (m.kind === \"advanced\") {",
+          "purpose": "高级规则编辑器的输入、错误、取消和保存；沿用目标应用自己的弹窗和焦点管理",
+          "line": 284,
+          "keywords": [
+            "advanced",
+            "settings",
+            "disclosure",
+            "高级",
+            "设置",
+            "渐进披露"
+          ]
+        },
+        {
+          "path": "examples/automation-manager/src/controller.mjs",
+          "symbol": "Controller.action advanced/save-rule",
+          "match": "      case \"advanced\":",
+          "purpose": "初始化规则草稿并打开模态框，save-rule 校验成功后才关闭；改编时去掉任务/执行器依赖及 queueAutoSave，保留显式提交和取消",
+          "line": 464,
+          "keywords": [
+            "advanced",
+            "settings",
+            "disclosure",
+            "高级",
+            "设置",
+            "渐进披露"
+          ]
         }
       ]
     },
@@ -381,16 +433,24 @@
       "values": [
         "expressive-motion"
       ],
-      "why": "多种文档卡片与协作内容编排成欢迎展示",
-      "extract": "卡片出入场与内容接力",
-      "use_when": "欢迎页、产品能力介绍",
-      "avoid": "展示编排不等于协作后端或完整产品",
+      "why": "程序化星空提供纵深与轻微闪烁，文档卡片和协作内容另行编排成欢迎展示",
+      "extract": "独立星空背景，或卡片出入场与内容接力",
+      "use_when": "欢迎页、onboarding 标题背景、产品能力介绍",
+      "avoid": "仅借背景时不带入卡片、协作者标签或 warp；1000–11000 星点需调低密度和对比度，减少动态时冻结星场并避开初始透明度为零；非协作后端",
       "keywords": [
         "welcome",
         "collaboration",
         "cards",
         "欢迎",
-        "协作"
+        "协作",
+        "starfield",
+        "stars",
+        "ambient",
+        "background",
+        "twinkle",
+        "星空",
+        "背景",
+        "闪烁"
       ],
       "readme": "examples/chatgpt-space-welcome/README.md",
       "preview": "examples/chatgpt-space-welcome/artifacts/space-welcome.gif",
@@ -412,6 +472,58 @@
           "match": "export function editProgress(age,length)",
           "purpose": "按内容长度分配选择与输入阶段，为卡片内容接力提供局部时间轴",
           "line": 72
+        },
+        {
+          "path": "examples/chatgpt-space-welcome/src/motion.mjs",
+          "symbol": "StarField",
+          "match": "export class StarField{",
+          "purpose": "只抽取星点深度、漂移和闪烁；保留 COLORS/starCount/createRng/clamp 依赖，pointer.active=false 且不调用 beginWarp；moving=false 可冻结演进",
+          "line": 21,
+          "keywords": [
+            "starfield",
+            "stars",
+            "ambient",
+            "background",
+            "星空",
+            "背景",
+            "twinkle",
+            "闪烁"
+          ],
+          "capabilities": [
+            "reduced-motion"
+          ]
+        },
+        {
+          "path": "examples/chatgpt-space-welcome/src/scene.mjs",
+          "symbol": "SpaceScene.glow",
+          "match": "  glow(color){",
+          "purpose": "缓存星点径向辉光；可配合独立星层，不需要文档卡片、协作者标签或标题画布",
+          "line": 9,
+          "keywords": [
+            "starfield",
+            "stars",
+            "ambient",
+            "background",
+            "星空",
+            "背景",
+            "glow",
+            "辉光"
+          ]
+        },
+        {
+          "path": "examples/chatgpt-space-welcome/src/scene.mjs",
+          "symbol": "SpaceScene.star layer",
+          "match": "    for(const s of this.field.stars){",
+          "purpose": "只移植 draw 内这段星点绘制循环，保留自己的 DOM 标题；静态背景不要沿用 sceneOpacity(0) 的零透明度",
+          "line": 13,
+          "keywords": [
+            "starfield",
+            "stars",
+            "ambient",
+            "background",
+            "星空",
+            "背景"
+          ]
         }
       ]
     },
@@ -1154,7 +1266,7 @@
       "why": "将进度压缩到触发按钮附近，减少状态搜索",
       "extract": "按钮内的进度变化",
       "use_when": "短任务、提交和处理",
-      "avoid": "需接入真实完成、失败与重复点击规则",
+      "avoid": "取消只改变本地状态；八秒计时结束调用 cancel 是演示复位而非成功，需接入真实进度、网络取消、成功/失败及焦点恢复",
       "keywords": [
         "button",
         "progress",
@@ -1174,18 +1286,39 @@
           "path": "examples/micro-progress-button/src/motion.mjs",
           "symbol": "ProgressController",
           "match": "export class ProgressController",
-          "purpose": "开始、取消、重复激活保护及减少动态分支；真实成功和失败要在目标中扩展",
+          "purpose": "本地开始/取消、防重复激活及减少动态分支；sample 的定时 cancel 只是复位，真实请求取消和成功/失败需另行实现",
           "capabilities": [
             "reduced-motion"
           ],
-          "line": 6
+          "line": 6,
+          "keywords": [
+            "cancel",
+            "cancellation",
+            "pending",
+            "submit",
+            "取消",
+            "等待",
+            "重复提交",
+            "progress",
+            "button",
+            "进度",
+            "按钮"
+          ]
         },
         {
           "path": "examples/micro-progress-button/src/scene.mjs",
           "symbol": "outline",
           "match": "export function outline(q)",
           "purpose": "按钮轮廓随进度状态形变的最小几何；不要移植整张固定尺寸画布",
-          "line": 3
+          "line": 3,
+          "keywords": [
+            "progress",
+            "button",
+            "outline",
+            "进度",
+            "按钮",
+            "轮廓"
+          ]
         }
       ]
     },

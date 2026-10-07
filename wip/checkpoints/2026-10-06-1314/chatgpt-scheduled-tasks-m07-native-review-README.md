@@ -1,5 +1,7 @@
 # chatgpt-scheduled-tasks-m07-native-review
 
-[Source checkpoint](chatgpt-scheduled-tasks-m07-native-review.zip) · [Status](chatgpt-scheduled-tasks-m07-native-review-STATUS.json)
+[Source archive](chatgpt-scheduled-tasks-m07-native-review.zip)
 
-WIP; user requested further alignment and interaction corrections. Main publication held.
+
+
+For current examples, use the [purpose index](../../../catalog/README.md).

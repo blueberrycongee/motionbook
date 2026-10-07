@@ -1,7 +1,7 @@
-# Development checkpoints
-
-Remaining development or research snapshots. Status and provenance remain inside each package.
+# Source archive
 
 - [032-elastic-string-clock-m03.zip](032-elastic-string-clock-m03.zip)
 
-[Completed animation gallery](../../../README.md)
+
+
+For current examples, use the [purpose index](../../../catalog/README.md).

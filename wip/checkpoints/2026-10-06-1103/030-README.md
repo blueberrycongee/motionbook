@@ -1,3 +1,7 @@
 # File toss
 
-[Checkpoint ZIP](030-wip-m02.zip) · [Status and hashes](030-STATUS.json)
+[Source archive](030-wip-m02.zip)
+
+
+
+For current examples, use the [purpose index](../../../catalog/README.md).

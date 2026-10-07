@@ -1,9 +1,8 @@
 # Run
 
-The browser demo has no build step and no runtime network dependency. From this directory run `python3 -m http.server 4173`, then visit `http://localhost:4173` in a Canvas-capable browser.
+Serve with `python3 -m http.server 4173`, then open `http://localhost:4173`. Search for Database, create a label, choose its color and toggle selection. Back/Escape resets. Keyboard-accessible HTML controls overlay the Canvas scene; reduced motion starts in manual mode. No external account or app is contacted.
 
-Search for Database, create a label, choose its color, and toggle its selection. Back and Escape reset the local flow.
+Reuse `scene.js` for Canvas drawing and `app.js` for local label state.
 
-Keyboard-accessible transparent HTML controls overlay the independently drawn Canvas scene. Reduced-motion preference starts in manual mode.
-
-Development-only offline preview generation: install the pinned `@napi-rs/canvas` dependency with `npm install`, ensure FFmpeg is available, then run `node --expose-gc render.cjs`. Run `node --test tests/*.test.cjs` for state and simulated DOM-event tests. Rendering is offline and is not a browser capture.
+- Test: `node --test tests/*.test.cjs`
+- Render: `npm install`, then `node --expose-gc render.cjs` (FFmpeg required)

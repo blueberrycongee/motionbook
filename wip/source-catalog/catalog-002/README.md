@@ -1,7 +1,5 @@
-# Author-hosted motion source checkpoint
+# Rauno Freiberg references
 
-Original clips for Radial Menu, Adaptive Precision and Vanish Input were downloaded from Rauno Freiberg’s public portfolio and probed without frame-rate conversion. This checkpoint contains provenance, hashes, exact native timestamps and review observations only; no original footage or imagery.
+Source records for Radial Menu, Adaptive Precision and Vanish Input from [Rauno Freiberg's portfolio](https://rauno.me/craft).
 
-Radial Menu is allocated as034; its implementation owner performs full review. Its source presentation includes a complex blue/pink wallpaper that must be independently reconstructed and evaluated. Adaptive Precision and Vanish Input remain unassigned. The researcher inspected every native frame of those two clips. Vanish Input is conditional because its recorded sample phrases form a lyric excerpt; an independent preview should use original sample text, with that difference explicitly considered in fidelity review.
-
-These records are source-analysis evidence, not completed-replica or publication acceptance. Original creators retain rights.
+The records describe reference behavior, not completed implementations. Vanish Input should use independently written sample text. Original media and imagery are not distributed; creator rights remain applicable.

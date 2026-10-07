@@ -87,6 +87,9 @@ class CatalogValidation(unittest.TestCase):
     def test_rejects_duplicate_anchor(self):
         self.rejects(lambda c: c['entries'][0]['source_anchors'].append(copy.deepcopy(c['entries'][0]['source_anchors'][0])), 'duplicate anchor')
 
+    def test_rejects_anchor_keyword_string(self):
+        self.rejects(lambda c: c['entries'][0]['source_anchors'][0].update(keywords='starfield'), 'anchor keywords')
+
     def test_rejects_unrecognized_capability(self):
         self.rejects(lambda c: c['entries'][0]['source_anchors'][0].update(capabilities=['production-ready']), 'source capability')
 
@@ -114,8 +117,14 @@ class Retrieval(unittest.TestCase):
                 self.assertFalse(set(slugs) & set(case.get('exclude', [])))
                 if case.get('nonempty'):
                     self.assertTrue(results)
+                if 'matched_anchors' in case:
+                    symbols = [a['symbol'] for a in searcher.matched_source_anchors(results[0], case['query'])]
+                    self.assertEqual(symbols, case['matched_anchors'])
+                    self.assertFalse(set(symbols) & set(case.get('not_matched_anchors', [])))
+                for caveat in case.get('caveats_contains', []):
+                    self.assertIn(caveat, results[0]['avoid'])
                 if 'capability_required' in case:
-                    self.assertTrue(all(case['capability_required'] in searcher.source_capabilities(e) for e in results))
+                    self.assertTrue(all(case['capability_required'] in searcher.source_capabilities(e, searcher.matched_source_anchors(e, case['query'])) for e in results))
 
     def test_no_capability_inferred_from_motion_word(self):
         example = copy.deepcopy(CATALOG['entries'][0])
@@ -136,6 +145,15 @@ class Retrieval(unittest.TestCase):
             entry = json.loads(result.stdout)[0]
             self.assertEqual(entry['slug'], 'spencer-playful-hovers')
             self.assertTrue(entry['source_anchors'])
+
+    def test_json_exposes_matched_part_without_mutating_catalog(self):
+        before = copy.deepcopy(CATALOG)
+        result = subprocess.run([sys.executable, str(ROOT / 'skills/motionbook/scripts/search.py'), 'starfield', '--json', '--limit', '1'], text=True, capture_output=True, check=True)
+        entry = json.loads(result.stdout)[0]
+        self.assertEqual([a['symbol'] for a in entry['matched_source_anchors']], ['StarField', 'SpaceScene.glow', 'SpaceScene.star layer'])
+        self.assertIn('cardPose', [a['symbol'] for a in entry['source_anchors']])
+        searcher.matched_source_anchors(searcher.search(CATALOG['entries'], 'starfield')[0], 'starfield')
+        self.assertEqual(CATALOG, before)
 
     def test_cli_rejects_invalid_limit(self):
         result = subprocess.run([sys.executable, str(ROOT / 'skills/motionbook/scripts/search.py'), '--limit', '0'], text=True, capture_output=True)

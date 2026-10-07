@@ -1,5 +1,7 @@
 # 030-final-01
 
-[Source checkpoint](030-final-01.zip) · [Status](030-final-01-STATUS.json)
+[Source archive](030-final-01.zip)
 
-WIP; independent fidelity review pending.
+
+
+For current examples, use the [purpose index](../../../catalog/README.md).

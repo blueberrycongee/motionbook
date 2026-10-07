@@ -1,18 +1,13 @@
 # Source and rights
 
-Original creator: Rehan Ahmed (@rehanxahmed).
+Reference: [Sticky-note app on Inspora](https://www.inspora.design/posts/sticky-note-app), by [Rehan Ahmed / @rehanxahmed](https://x.com/rehanxahmed/status/2104103142766076328). [Original footage](https://media.inspora.design/posts/1fa28472-c665-4d6d-9ca0-726a1738b332.mp4).
 
-- [Curator reference](https://www.inspora.design/posts/sticky-note-app)
-- [Original post](https://x.com/rehanxahmed/status/2104103142766076328)
-- [Original media, not the curator preview transcode](https://media.inspora.design/posts/1fa28472-c665-4d6d-9ca0-726a1738b332.mp4)
+Canvas geometry, icons, surfaces and interaction state are independently authored. `motion-data.js` contains measured positions, timing and state trajectories. No source video, pixels, creator photographs, avatars or upstream code are included. No redistribution license or endorsement is implied. The demo changes local state only.
 
-Original media SHA-256: `50988aaa7855dcf65b339a530eb4b99927027c1ebad6b4bd20e82d3cbeac9ae3`.
-Original encoded frames: 383. Exact presentation timestamps were read with ffprobe. Source duration: 16.000000 seconds.
+## Fonts
 
-The original clip and locally extracted frames were used for analysis. No redistribution license for that footage is assumed. No source video, reference crop, creator photograph, upstream code or original avatar is included here. No endorsement is implied.
+- StudySans Regular/Semibold: renamed Inter derivatives; [Inter license](assets/Inter-LICENSE.txt).
+- StudyHand Regular/Semibold/Bold: renamed Caveat 400/600/700 derivatives; [Caveat license](assets/Caveat-OFL.txt).
+- Mono-Bold: DejaVu Sans Mono Bold; [font notice](assets/FONT-LICENSE.txt).
 
-The implementation, Canvas geometry, icons, procedural surfaces and interaction state were authored independently. `motion-data.js`, where present, stores measured numeric positions, timing and state trajectories, never raster reference pixels. The demo runs locally and does not contact any calendar, email, account or external application.
-
-`StudySans-Regular.ttf` and `StudySans-Semibold.ttf` are static, renamed derivatives of Inter under the SIL Open Font License. See `assets/Inter-LICENSE.txt` and `assets/FONT-DERIVATION.txt`. Any bundled DejaVu Mono font retains `assets/FONT-LICENSE.txt`. Any bundled Caveat font retains `assets/Caveat-OFL.txt`. These third-party notices do not grant a blanket license to the implementation or the reference design.
-
-The static `StudyHand-Regular.ttf`, `StudyHand-Semibold.ttf` and `StudyHand-Bold.ttf` files are renamed weight 400/600/700 derivatives of Caveat under the SIL OFL. `Mono-Bold.ttf` is DejaVu Sans Mono Bold under the bundled DejaVu font notice. See `assets/FONT-DERIVATION.txt` for derivation details.
+See [font derivation details](assets/FONT-DERIVATION.txt). These notices do not grant a blanket license to the implementation or reference design.

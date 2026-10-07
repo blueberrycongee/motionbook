@@ -1,23 +1,24 @@
-# Classification and editorial contract
+# Catalog contract
 
-Classify the **available study**, not the source site's reputation. These are retrieval judgments, not measured aesthetic scores or production certification.
+| Field | Values |
+| --- | --- |
+| `kind` | `creative-motion`, `landing-page`, `component`, `interface` |
+| `fit` | `everyday`, `brand`, `playful` |
+| `values` | `information-architecture`, `feedback`, `spatial-continuity`, `material`, `expressive-motion`, `classic-pattern` |
 
-| Dimension | Values | Meaning |
-| --- | --- | --- |
-| kind | creative-motion / landing-page / component / interface | Illustration or choreography / marketing-page section / bounded control / composed workflow |
-| fit | everyday / brand / playful | Ordinary interaction inspiration / deliberate expressive presentation / experiment or joke |
-| values | information-architecture / feedback / spatial-continuity / material / expressive-motion / classic-pattern | Why the reference is worth studying |
+Classify the available study. A playful slider remains a component; `landing-page` includes fragments; an interface may contribute one small interaction. These describe relevance, not readiness.
 
-A playful slider is still a component. A full management interface may contribute only its list/detail transition. `landing-page` includes page **fragments**; the current collection's footer, ribbon and hover studies are not complete landing-page implementations. An everyday fit describes the use case, not implementation readiness.
+Each entry contains `slug`, `title`, the fields above, `why`, `extract`, `use_when`, `avoid`, bilingual `keywords`, `readme`, `preview`, `evidence`, and `source_anchors`.
 
-Each entry explains `why`, the smallest useful `extract`, `use_when`, and a specific `avoid` limitation. `keywords` include Chinese and English task vocabulary. `readme`, `preview` and `evidence` are repository-relative paths; installed skills resolve them against a checkout or the repository URL, never against their installation directory.
+Each source anchor contains:
 
-Schema v2 adds a nonempty `source_anchors` list to every entry. Each anchor has `path`, `symbol`, `match`, `line`, and `purpose`: a source file within that example, a human-readable function/class/selector, one unique literal declaration, its checked 1-based line, and why that fragment supports the existing `extract`. `capabilities` is optional and currently accepts only `reduced-motion`; it marks an inspected implementation branch, not browser testing or complete accessibility. The capability index is partial, so absence means unknown. Do not infer readiness from `fit`, an anchor, or a capability. The existing validation/provenance files remain the authority for what actually ran.
+- `path`, `symbol`, `match`, `line`: an example-local source path, readable name, unique literal code fragment and checked 1-based line
+- `purpose`: the extraction boundary and useful dependencies or limitations
+- Optional `keywords`: vocabulary for that verified subpart
+- Optional `capabilities`: currently `reduced-motion`, supported by that source branch
 
-## Maintaining the collection
+Queries use matched subpart anchors when available; capability filters follow that selection. Missing capability metadata means unknown. Paths resolve against the repository, not the installed skill. Existing provenance/validation records retain their own evidence.
 
-The canonical retrieval data lives in `catalog.json` beside this file. Existing root `catalog/*.json` records are historical provenance/validation records; retain them rather than flattening their varied evidence into a quality badge. After editing retrieval data, run `python3 scripts/catalog.py` from the repository root to update the human index. Use `--check` to detect typed-schema errors, full example/gallery coverage, unsafe or cross-example paths, missing/ambiguous code matches, stale source lines, a changed three-column gallery, and stale generated content. If source edits move a declaration, re-inspect the function before updating its line. Run `python3 -m unittest discover -s evals/motionbook -p 'test_*.py' -v` for catalog rejection and keyword-retrieval regressions. These checks do not constitute a whole-agent or browser evaluation.
+After editing the catalog, regenerate the human index with `python3 scripts/catalog.py`. `--check` validates types, complete example/gallery coverage, safe paths, unique code matches, line locations and the three-column gallery. Re-inspect moved code before changing its anchor.
 
-Inspect the implementation and preview before making new claims about motion. Read validation and provenance before describing runtime or reuse status. Describe concrete cause and effect, not unsupported claims such as “perfect”, “silky smooth” or “production-ready”. Measured replay, inferred live behavior, offline renders and browser recordings are separate evidence. Existing descriptions are based on checked-in source/validation notes and have not received a new whole-collection visual review.
-
-Add completed studies to the retrieval catalog only when a source/preview entry exists. Keep prototypes, source-only candidates and historical backups in the WIP ledger until their actual gates are met. Never count archive files as unfinished effects or delete them merely to reduce a count.
+Run regressions with `python3 -m unittest discover -s evals/motionbook -p 'test_*.py' -v`.

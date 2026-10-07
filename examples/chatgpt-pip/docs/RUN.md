@@ -1,39 +1,10 @@
 # Run
 
-Node.js 20.11 or newer:
+- Browser demo: `npm start` (Node 20.11+), then open `http://127.0.0.1:4317/`
+- Native target: `npm run mac` (macOS 13+ and Xcode Command Line Tools)
+- Tests: `npm test` and `python3 test/verify_snap_independent.py`
+- Previews: `npm install && npm run render` (FFmpeg required)
 
-```sh
-npm start
-```
+Add/update local cards, then hover, drag, resize or change placement. Start with `src/stack-behavior.mjs` for reusable interaction behavior.
 
-Open http://127.0.0.1:4317/. The buttons add and update local cards. Hover, drag, resize, or change placement with the controls.
-
-On macOS 13 or newer with Xcode Command Line Tools:
-
-```sh
-npm run mac
-```
-
-## Tests
-
-```sh
-npm test
-python3 test/verify_snap_independent.py
-```
-
-## Rebuild previews
-
-Install the declared development dependencies and FFmpeg, then run:
-
-```sh
-npm install
-npm run render
-```
-
-The renderer generates local fixture images and the existing snap/hover sequences, then encodes their GIF and MP4 files. Generated frame directories are ignored by Git.
-
-The packaged snap trajectory is gzip-compressed and base64-encoded. Tests read it directly; no extraction or raw JSON file is required.
-
-## Original control artwork
-
-`node scripts/draw-control-icons.mjs` regenerates the independent SVG and 3× PNG controls without reading reference images. After changing an icon, rerun `node test/render-hover-v3.mjs`, then the normal preview encoding workflow.
+Tests read the compressed snap trajectory directly. `node scripts/draw-control-icons.mjs` regenerates the original control artwork; after changes, rerun `node test/render-hover-v3.mjs` and the preview encoder.

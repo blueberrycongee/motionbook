@@ -1,4 +1,9 @@
-# Source checkpoints
+# Source archive
 
-- [030-final-01](030-final-01.zip) · [Status](030-final-01-STATUS.json)
-- [chatgpt-scheduled-tasks-m07-native-review](chatgpt-scheduled-tasks-m07-native-review.zip) · [Status](chatgpt-scheduled-tasks-m07-native-review-STATUS.json)
+- [030-final-01](030-final-01.zip)
+
+- [chatgpt-scheduled-tasks-m07-native-review](chatgpt-scheduled-tasks-m07-native-review.zip)
+
+
+
+For current examples, use the [purpose index](../../../catalog/README.md).

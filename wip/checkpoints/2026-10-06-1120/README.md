@@ -1,7 +1,7 @@
-# Development checkpoints
-
-Remaining development or research snapshots. Status and provenance remain inside each package.
+# Source archive
 
 - [chatgpt-scheduled-tasks-m02.zip](chatgpt-scheduled-tasks-m02.zip)
 
-[Completed animation gallery](../../../README.md)
+
+
+For current examples, use the [purpose index](../../../catalog/README.md).

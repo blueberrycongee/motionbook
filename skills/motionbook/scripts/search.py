@@ -6,7 +6,7 @@ from pathlib import Path
 import re
 
 CATALOG = Path(__file__).resolve().parents[1] / 'references' / 'catalog.json'
-PLURALS = {'cards': 'card', 'hovers': 'hover', 'tags': 'tag', 'tabs': 'tab', 'sliders': 'slider', 'windows': 'window', 'projects': 'project', 'letters': 'letter'}
+PLURALS = {'cards': 'card', 'hovers': 'hover', 'tags': 'tag', 'tabs': 'tab', 'sliders': 'slider', 'windows': 'window', 'projects': 'project', 'letters': 'letter', 'stars': 'star'}
 REDUCED_MOTION = re.compile(r'\b(?:prefers[ -])?reduc(?:e|ed)[ -]motion\b|减少(?:动态效果|动态|动画)|降低动态|低动态', re.I)
 
 
@@ -16,8 +16,23 @@ def tokens(text):
     return [PLURALS.get(word, word) for word in re.findall(r'[\w]+', text.casefold().replace('_', ' '))]
 
 
-def source_capabilities(entry):
-    return {capability for anchor in entry.get('source_anchors', []) for capability in anchor.get('capabilities', [])}
+def source_capabilities(entry, anchors=None):
+    selected = entry.get('source_anchors', []) if anchors is None else anchors
+    return {capability for anchor in selected for capability in anchor.get('capabilities', [])}
+
+
+def matched_source_anchors(entry, query):
+    """Prefer an indexed subpart over the rest of a composed interface."""
+    terms = tokens(REDUCED_MOTION.sub(' ', query))
+    matched = []
+    for anchor in entry['source_anchors']:
+        keywords = ' '.join(anchor.get('keywords', [])).casefold()
+        words = set(tokens(keywords))
+        if any(term in keywords if re.search('[\u4e00-\u9fff]', term) else term in words for term in terms):
+            matched.append(anchor)
+    if matched or not terms:
+        return matched or entry['source_anchors']
+    return [a for a in entry['source_anchors'] if not a.get('keywords')] or entry['source_anchors']
 
 
 def search(entries, query, kind=None, fit=None, capability=None):
@@ -30,10 +45,11 @@ def search(entries, query, kind=None, fit=None, capability=None):
     for entry in entries:
         if kind and entry['kind'] != kind or fit and entry['fit'] != fit:
             continue
-        if not capabilities <= source_capabilities(entry):
+        if not capabilities <= source_capabilities(entry, matched_source_anchors(entry, query)):
             continue
         fields = [entry['slug'], entry['title'], *entry['keywords'], entry['why'],
-                  entry['extract'], entry['use_when'], *entry['values']]
+                  entry['extract'], entry['use_when'], *entry['values'],
+                  *(word for anchor in entry.get('source_anchors', []) for word in anchor.get('keywords', []))]
         haystack = ' '.join(fields).casefold()
         words = set(tokens(haystack))
         score = sum(term in haystack if re.search('[\u4e00-\u9fff]', term) else term in words for term in terms)
@@ -58,7 +74,7 @@ def main():
     catalog = json.loads(CATALOG.read_text())
     entries = search(catalog['entries'], args.query, args.kind, args.fit, args.capability)[:args.limit]
     if args.json:
-        print(json.dumps(entries, ensure_ascii=False, indent=2))
+        print(json.dumps([{**entry, 'matched_source_anchors': matched_source_anchors(entry, args.query)} for entry in entries], ensure_ascii=False, indent=2))
     elif not entries:
         print('No indexed matching study or source capability. Try shorter Chinese/English behavior keywords or inspect the source for an unindexed requirement.')
     else:
@@ -66,11 +82,11 @@ def main():
             print(f"{entry['slug']} [{entry['kind']} / {entry['fit']}]")
             print(f"  Why: {entry['why']}\n  Extract: {entry['extract']}\n  Use: {entry['use_when']}\n  Limit: {entry['avoid']}")
             print(f"  {catalog['repository']}/blob/main/{entry['readme']}")
-            for anchor in entry['source_anchors']:
+            for anchor in matched_source_anchors(entry, args.query):
                 print(f"  Source: {anchor['symbol']} — {anchor['purpose']}")
                 print(f"    {catalog['repository']}/blob/main/{anchor['path']}#L{anchor['line']}")
-            if source_capabilities(entry):
-                print('  Source-inspected capabilities (runtime not implied): ' + ', '.join(sorted(source_capabilities(entry))))
+                if anchor.get('capabilities'):
+                    print('    Source branch (runtime not implied): ' + ', '.join(anchor['capabilities']))
 
 
 if __name__ == '__main__':

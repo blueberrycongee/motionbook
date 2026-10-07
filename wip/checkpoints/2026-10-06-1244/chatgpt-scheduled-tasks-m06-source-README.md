@@ -1,5 +1,7 @@
 # chatgpt-scheduled-tasks-m06-source
 
-[Checkpoint archive](chatgpt-scheduled-tasks-m06-source.zip) · [Status and hashes](chatgpt-scheduled-tasks-m06-source-STATUS.json)
+[Source archive](chatgpt-scheduled-tasks-m06-source.zip)
 
-This checkpoint is not an accepted main example.
+
+
+For current examples, use the [purpose index](../../../catalog/README.md).

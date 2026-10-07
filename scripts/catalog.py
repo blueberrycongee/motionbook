@@ -93,7 +93,7 @@ def validate(catalog, root=ROOT):
         seen = set()
         for anchor in anchors:
             required = {'path', 'symbol', 'match', 'line', 'purpose'}
-            require(isinstance(anchor, dict) and required <= set(anchor) <= required | {'capabilities'}, f'{slug}: invalid anchor fields')
+            require(isinstance(anchor, dict) and required <= set(anchor) <= required | {'capabilities', 'keywords'}, f'{slug}: invalid anchor fields')
             for field in ['symbol', 'match', 'purpose']:
                 require(nonempty_string(anchor[field]), f'{slug}: invalid anchor {field}')
             source = local_file(root, anchor['path'], slug)
@@ -105,6 +105,8 @@ def validate(catalog, root=ROOT):
             require(content.count(anchor['match']) == 1, f'{slug}: missing/ambiguous anchor {anchor["symbol"]}')
             actual_line = content[:content.index(anchor['match'])].count('\n') + 1
             require(type(anchor['line']) is int and anchor['line'] == actual_line, f'{slug}: stale line for {anchor["symbol"]}')
+            if 'keywords' in anchor:
+                require(string_list(anchor['keywords']), f'{slug}: invalid anchor keywords')
             if 'capabilities' in anchor:
                 require(string_list(anchor['capabilities']) and set(anchor['capabilities']) <= CAPABILITIES, f'{slug}: invalid source capability')
     expected = {p.name for p in (root / 'examples').iterdir() if p.is_dir()}
