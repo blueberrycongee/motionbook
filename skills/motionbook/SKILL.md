@@ -1,51 +1,39 @@
 ---
 name: motionbook
-description: "Find, explain, and adapt Motionbook UI references by user needs, design mechanisms and target constraints."
+description: "Find, view, explain, and adapt concrete UI components, interactions, and interfaces from Motionbook's reference collection."
 ---
 
 # Motionbook
 
-Use [Motionbook](https://github.com/blueberrycongee/motionbook) to transfer design decisions that serve the user's goal.
+Use [Motionbook](https://github.com/blueberrycongee/motionbook) as a book of concrete design references: appearance, behavior, and the decisions worth studying. Its scope is standalone components, interactions, and interfaces. Product-wide composition is a separate design task.
 
-## Choose the scope
+## Find and see
 
-- **Find references:** recommend a few relevant parts, explain their value and limits, then stop.
-- **Explain:** inspect how the selected design connects user actions, system state and perceptible feedback. Do not edit the target.
-- **Integrate:** preserve the target stack and conventions, adapt the smallest useful part, and test it. Recreate a full screen only when requested.
-
-## Start with the need
-
-Identify what the user is trying to do, their current state and what they need to understand or control. For expressive work, identify the intended mood or brand effect. Aesthetic value is a valid goal; it does not need an invented usability benefit.
-
-## Search by mechanism
-
-The bundled [catalog](references/catalog.json) contains Chinese and English task vocabulary. No media download is needed for discovery.
+Go directly to a named example's README and preview. Otherwise, browse the [GIF gallery](https://github.com/blueberrycongee/motionbook#预览画廊) or search for a shortlist:
 
 ```sh
 python3 <skill-directory>/scripts/search.py "标签 创建"
 python3 <skill-directory>/scripts/search.py "portfolio hover"
-python3 <skill-directory>/scripts/search.py "progress" --capability reduced-motion
+python3 <skill-directory>/scripts/search.py "starfield" --json
 ```
 
-Translate long requests into short behavior terms. Search ranks matches to any known term; a result does not satisfy every constraint automatically. Shorten or rephrase an empty query rather than substituting an unrelated effect.
+Use short Chinese or English component, behavior, or visual-quality terms. Matches are candidates, not proof that every constraint is met. Rephrase empty queries. Optional `--kind`, `--fit`, and `--capability reduced-motion` filters are described in the [catalog contract](references/taxonomy.md).
 
-Use optional `--kind` and `--fit` filters from the [taxonomy](references/taxonomy.md). Everyday, brand and playful describe intent. A playful control is not a default business control; a page fragment is not a complete landing page. Explicit playful intent should remain playful.
+The installed skill contains the index and search tool; media and source live in the repository. Text results link previews, evidence, and source; `--json` exposes `readme`, `preview`, `evidence`, and `matched_source_anchors`. Resolve paths from a checkout or the catalog's repository URL. Retrieve selected files rather than the whole collection; check current source if the index is stale. `wip/` is outside the indexed collection.
 
-Read `why`, `extract`, `use_when` and `avoid` as candidate design rationales, not proof of effectiveness. Match the mechanism to the need: what cue or interaction could change the user's understanding, action or experience? Reject a visually similar reference when that connection does not hold.
+View the preview for visual judgments. The example's README provides demo/run instructions; a GitHub HTML source link is not a running demo. Disclose unavailable media or runtime access instead of implying you observed it.
 
-Prefer `matched_source_anchors` for a specific subpart: starfield queries need the background, not Space's cards. Reduced-motion filtering applies to the selected anchors. Its partial index marks an inspected source branch, not all accessibility requirements.
+## Understand the selected work
 
-## Inspect and adapt
+Treat `why`, `extract`, `use_when`, and `avoid` as editorial pointers. Ground explanations in the preview and source: which particular choices matter here, and why? Preserve the example's distinctive qualities. Aesthetic or expressive value needs no invented usability benefit.
 
-1. Open only the chosen example's README, relevant preview, source and validation/rights notes. Catalog paths resolve against a checkout or the repository URL, not the installed skill directory. Check the current repository if the snapshot is stale; `wip/` is not a validated implementation collection.
-2. Follow each anchor's file, symbol, line and purpose. Read needed imports and callers; a function may depend on sampled data or surrounding input code. Keep measured behavior separate from authored demo extensions.
-3. Capture consequential decisions in a compact [interaction specification](references/interaction-spec.md): need, mechanism, states, target constraints and observable checks. Separate transferable behavior and relationships from incidental styling; retain visual form when it serves the goal or requested fidelity.
-4. Adapt to real data, latency, layout, input and repeated use. Connect progress, cancellation and completion to business state rather than demonstration timers. Preserve keyboard/touch access, focus and reduced motion. Simplify or omit an effect if its value does not survive these constraints.
+Follow `matched_source_anchors` and their `purpose` for a specific part; check needed dependencies and callers. Anchors are reading entrances, not self-contained components. Optional [reference-reading examples](references/interaction-spec.md) connect visible choices to implementation and limits without prescribing a procedure or report.
 
-Implement independently without copying original reference code or assets; use verified CC0 replacement images and keep fonts’ actual licenses. An inspected source branch or offline GIF is not runtime validation.
+Read the selected evidence and rights notes. Check whether the preview actually shows the selected interaction; a scripted replay may omit source branches. Distinguish measured reference behavior, authored extensions, automated checks, offline rendering, and browser/device verification. `reduced-motion` marks an inspected branch in selected anchors; missing metadata means unknown. Neither that branch nor an offline GIF certifies accessibility or runtime readiness.
 
-## Verify and deliver
+## Use at the requested scope
 
-Run the target's relevant checks and exercise the intended behavior, including meaningful interruption, reversal, cancellation, failure and narrow-layout cases. Check state clarity and control as well as motion and hierarchy; require pixel equality only for an exact recreation. Runtime correctness does not establish a usability benefit.
+- **Find or explain:** return the reference, preview/source links, what is worth studying, and relevant limitations. No implementation or specification is needed.
+- **Adapt:** preserve the target's stack and the selected work's useful relationships. Account for real data, latency, layout, input, and accessibility; demo timers and local cancellation are not business state. Recreate a full screen only when requested.
 
-Return the chosen reference, the part borrowed, adaptations and checks. Distinguish executed runtime behavior from offline output and blocked checks. Reference-only requests need no implementation, prototype or publication. This skill does not authorize repository writes or deployment.
+Reuse Motionbook code only under its applicable terms; do not import original third-party code or assets without permission. Use verified CC0 replacement images and preserve fonts' licenses. For integrations, check consequential states and interruptions in the target. Report what was borrowed, changed, and verified, with remaining gaps. This skill does not authorize repository writes or deployment.

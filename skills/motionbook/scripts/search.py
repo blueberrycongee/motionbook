@@ -81,7 +81,10 @@ def main():
         for entry in entries:
             print(f"{entry['slug']} [{entry['kind']} / {entry['fit']}]")
             print(f"  Why: {entry['why']}\n  Extract: {entry['extract']}\n  Use: {entry['use_when']}\n  Limit: {entry['avoid']}")
+            print(f"  Preview: {catalog['repository']}/blob/main/{entry['preview']}")
             print(f"  {catalog['repository']}/blob/main/{entry['readme']}")
+            for evidence in entry['evidence']:
+                print(f"  Evidence: {catalog['repository']}/blob/main/{evidence}")
             for anchor in matched_source_anchors(entry, args.query):
                 print(f"  Source: {anchor['symbol']} — {anchor['purpose']}")
                 print(f"    {catalog['repository']}/blob/main/{anchor['path']}#L{anchor['line']}")

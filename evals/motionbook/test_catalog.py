@@ -146,6 +146,28 @@ class Retrieval(unittest.TestCase):
             self.assertEqual(entry['slug'], 'spencer-playful-hovers')
             self.assertTrue(entry['source_anchors'])
 
+    def test_installed_text_cli_exposes_preview_and_evidence_links(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp) / 'motionbook'
+            shutil.copytree(ROOT / 'skills/motionbook', folder, ignore=shutil.ignore_patterns('__pycache__'))
+            for query, slug in [('send', 'chatgpt-dot-send'), ('svg', 'tiny-animated-svg'), ('automation', 'automation-manager')]:
+                with self.subTest(slug=slug):
+                    result = subprocess.run([sys.executable, str(folder / 'scripts/search.py'), query, '--limit', '1'], cwd=tmp, text=True, capture_output=True, check=True)
+                    entry = next(e for e in CATALOG['entries'] if e['slug'] == slug)
+                    base = CATALOG['repository'] + '/blob/main/'
+                    self.assertIn(f"Preview: {base}{entry['preview']}", result.stdout)
+                    self.assertIn(base + entry['readme'], result.stdout)
+                    for evidence in entry['evidence']:
+                        self.assertIn(f'Evidence: {base}{evidence}', result.stdout)
+                    self.assertIn('Source:', result.stdout)
+
+    def test_json_preserves_catalog_fields_and_relative_asset_paths(self):
+        result = subprocess.run([sys.executable, str(ROOT / 'skills/motionbook/scripts/search.py'), 'send', '--json', '--limit', '1'], text=True, capture_output=True, check=True)
+        entry = json.loads(result.stdout)[0]
+        original = next(e for e in CATALOG['entries'] if e['slug'] == 'chatgpt-dot-send')
+        self.assertEqual(entry.pop('matched_source_anchors'), searcher.matched_source_anchors(original, 'send'))
+        self.assertEqual(entry, original)
+
     def test_json_exposes_matched_part_without_mutating_catalog(self):
         before = copy.deepcopy(CATALOG)
         result = subprocess.run([sys.executable, str(ROOT / 'skills/motionbook/scripts/search.py'), 'starfield', '--json', '--limit', '1'], text=True, capture_output=True, check=True)
