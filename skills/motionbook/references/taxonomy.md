@@ -18,7 +18,3 @@ Each source anchor contains:
 - Optional `capabilities`: currently `reduced-motion`, supported by that source branch
 
 Queries use matched subpart anchors when available; capability filters follow that selection. Missing capability metadata means unknown. Paths resolve against the repository, not the installed skill. Existing provenance/validation records retain their own evidence.
-
-After editing the catalog, regenerate the human index with `python3 scripts/catalog.py`. `--check` validates types, complete example/gallery coverage, safe paths, unique code matches, line locations and the three-column gallery. Re-inspect moved code before changing its anchor.
-
-Run regressions with `python3 -m unittest discover -s evals/motionbook -p 'test_*.py' -v`.

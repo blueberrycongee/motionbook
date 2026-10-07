@@ -2,26 +2,7 @@
 
 UI animations & micro-interactions recreated in code, with GIF previews. UI 动效与交互设计参考库。
 
-[按用途查找 / Browse by purpose](catalog/README.md) · [Agent skill](skills/motionbook/SKILL.md) · [未完成研究](wip/README.md)
-
-51 个示例：30 个组件、10 个界面与工作流、3 个 landing / 作品集片段、8 个创意动效。每项说明设计价值、可借用的片段、适用场景和限制。
-
-示例基于公开演示独立实现，原作者与参考链接见各例说明。使用前查看[署名与许可](ATTRIBUTION.md)，并在目标项目验证交互。
-
-## 使用 skill
-
-将 `skills/motionbook` 复制到 Agent 技能目录（Codex 为 `~/.codex/skills/motionbook`）。搜索仅需 Python 3；选中示例后再读取源码和预览。
-
-例如：“找适合后台的标签就地创建交互，只借用弹层状态流。”或“找适合作品集的趣味 hover，并说明触屏替代方式。”
-
-```sh
-python3 skills/motionbook/scripts/search.py "标签 创建"
-python3 skills/motionbook/scripts/search.py "slider" --fit everyday
-```
-
-Skill 支持找参考、拆解效果和集成实现，提供对应的源码入口。
-
-维护者修改 `skills/motionbook/references/catalog.json` 后运行 `python3 scripts/catalog.py`；用 `--check` 检查索引与链接。[检索测试](evals/motionbook/README.md)
+[按用途查找 / Browse by purpose](catalog/README.md) · [Agent skill](skills/motionbook/SKILL.md) · [署名与许可](ATTRIBUTION.md)
 
 ## 预览画廊
 
