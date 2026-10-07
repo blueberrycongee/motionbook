@@ -1,0 +1,7 @@
+preview/frames/
+preview/config/
+preview/cache/
+__pycache__/
+
+preview/first-frame.*
+preview/*render.log

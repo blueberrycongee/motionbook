@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="color-scheme" content="light"/>
+  <title>Document workspace · Motionbook</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <main id="workspace" aria-label="Document workspace"></main>
+  <label class="sr-only" for="composer">Ask about the current document</label>
+  <textarea id="composer" rows="1" maxlength="4000" placeholder="Ask anything" aria-describedby="composer-help"></textarea>
+  <span id="composer-help" class="sr-only">Enter sends a local demo message. Shift and Enter starts a new line. No network request is made.</span>
+  <div id="status" class="sr-only" role="status" aria-live="polite"></div>
+  <script type="module" src="src/app.mjs"></script>
+</body>
+</html>
