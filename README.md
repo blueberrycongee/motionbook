@@ -90,6 +90,6 @@ UI animations & micro-interactions recreated in code, with GIF previews. 高质�
   <tr>
     <td align="center" width="33%"><a href="examples/model-router/README.md"><img src="examples/model-router/preview/loop.gif" width="200" alt="Model router"></a><br><a href="examples/model-router/README.md">Model router</a></td>
     <td align="center" width="33%"><a href="examples/fractional-slider/README.md"><img src="examples/fractional-slider/preview/loop.gif" width="200" alt="Fractional slider"></a><br><a href="examples/fractional-slider/README.md">Fractional slider</a></td>
-    <td></td>
+    <td align="center" width="33%"><a href="examples/automation-manager/README.md"><img src="examples/automation-manager/preview/native-automation-workflow.gif" width="200" alt="Automation manager"></a><br><a href="examples/automation-manager/README.md">Automation manager</a></td>
   </tr>
 </table>

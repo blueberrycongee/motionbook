@@ -1,0 +1,17 @@
+{
+  "id": "new100-046",
+  "title": "Automation manager",
+  "path": "examples/automation-manager",
+  "source": "https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt",
+  "kind": "interface study, not a measured motion reconstruction",
+  "implementation": "Independent DOM and CSS reconstruction with local client-state simulation; no native reference frames were measured, so native frame counts do not apply",
+  "preview": "Offline SVG rasterised through Sharp: 2112 frames at 60 fps, 1280x840",
+  "authored_closure_frames": 72,
+  "tests_passed": 80,
+  "media_decodes_passed": true,
+  "gif_seam_matches": true,
+  "independent_review": "not_run",
+  "browser_runtime": "not_run",
+  "assets": "Independently authored SVG icons; system fonts are not claimed to be CC0",
+  "source_manifest_sha256": "0dfd7609c7c6b70cfd37213f59f9ccef4a0daf49f7a5dae415da672d5877b118"
+}

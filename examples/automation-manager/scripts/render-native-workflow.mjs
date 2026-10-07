@@ -16,7 +16,7 @@ try {
 } catch {
   sharp = require(process.env.NODE_PATH + "/sharp");
 }
-const out = new URL("../artifacts/native-workflow/", import.meta.url).pathname,
+const out = new URL("../preview/", import.meta.url).pathname,
   frames = path.join(out, "frames");
 await fs.mkdir(frames, { recursive: true });
 const scenes = await motionTimeline();
@@ -119,11 +119,65 @@ for (let i = 0; i < MOTION_DURATION * MOTION_FPS; i++) {
   if (i % 180 === 0)
     console.log(`Motion frames ${i}/${MOTION_DURATION * MOTION_FPS}`);
 }
+// The timeline is a one-shot workflow narrative: it opens on the Active
+// filter with two tasks and settles on the All filter after create, edit,
+// pause and delete. It therefore never returns to its own first frame, and a
+// GIF built from it alone jumps on every loop. CLOSURE_FRAMES cross-dissolves
+// the settled list back into the opening frame so the published preview loops.
+// This is an authored transition, not recorded behaviour.
+const CLOSURE_FRAMES = 72;
+// Decode both endpoints to raw RGBA once and blend by hand. sharp's
+// composite({opacity}) on an RGBA base returns the overlay unchanged in
+// 0.35.x rather than cross-fading, so the dissolve is computed explicitly.
+const rawOf = async (file) => {
+  const { data, info } = await sharp(file)
+    .ensureAlpha()
+    .raw()
+    .toBuffer({ resolveWithObject: true });
+  return { data, info };
+};
+const opening = await rawOf(path.join(frames, "00000.png"));
+const settled = await rawOf(
+  path.join(
+    frames,
+    String(MOTION_DURATION * MOTION_FPS - 1).padStart(5, "0") + ".png",
+  ),
+);
+if (opening.info.width !== settled.info.width ||
+    opening.info.height !== settled.info.height)
+  throw Error("Closure endpoints differ in size");
+const blend = Buffer.allocUnsafe(settled.data.length);
+for (let c = 1; c <= CLOSURE_FRAMES; c++) {
+  const linear = c / CLOSURE_FRAMES,
+    p = linear * linear * (3 - 2 * linear),
+    q = 1 - p;
+  for (let i = 0; i < blend.length; i += 4) {
+    blend[i] = settled.data[i] * q + opening.data[i] * p;
+    blend[i + 1] = settled.data[i + 1] * q + opening.data[i + 1] * p;
+    blend[i + 2] = settled.data[i + 2] * q + opening.data[i + 2] * p;
+    blend[i + 3] = 255;
+  }
+  const frame = MOTION_DURATION * MOTION_FPS - 1 + c;
+  await sharp(blend, {
+    raw: { width: settled.info.width, height: settled.info.height, channels: 4 },
+  })
+    .png()
+    .toFile(path.join(frames, String(frame).padStart(5, "0") + ".png"));
+}
+trace.push({
+  frame: MOTION_DURATION * MOTION_FPS - 1,
+  time: MOTION_DURATION,
+  action: "authored cross-dissolve closure back to the opening frame",
+  closureFrames: CLOSURE_FRAMES,
+});
+console.log(`Authored closure ${CLOSURE_FRAMES} frames to the opening frame`);
 await fs.writeFile(
   path.join(out, "motion-trace.json"),
   JSON.stringify({
     fps: MOTION_FPS,
     duration: MOTION_DURATION,
+    authoredClosureFrames: CLOSURE_FRAMES,
+    loops: true,
     renderMethod:
       "offline; user-confirmed native Automation manager, shared shell/menu animation contracts and local state simulation",
     sourceSpringSamples: [0, 50, 100, 150, 200, 250, 300, 400, 500].map((t) => [

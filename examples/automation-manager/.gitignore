@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+preview/frames/
+preview/palette.png
+*.dmg
+*.asar
