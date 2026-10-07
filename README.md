@@ -115,5 +115,6 @@ UI animations & micro-interactions recreated in code, with GIF previews. UI åŠ¨æ
   <tr>
     <td align="center" width="33%"><a href="examples/mac-studio-parallax-features/README.md"><img src="examples/mac-studio-parallax-features/preview/loop.gif" width="200" alt="Mac Studio parallax features"></a><br><a href="examples/mac-studio-parallax-features/README.md">Mac Studio parallax features</a></td>
     <td align="center" width="33%"><a href="examples/mac-studio-crossfade-gallery/README.md"><img src="examples/mac-studio-crossfade-gallery/preview/loop.gif" width="200" alt="Mac Studio crossfade gallery"></a><br><a href="examples/mac-studio-crossfade-gallery/README.md">Mac Studio crossfade gallery</a></td>
+    <td align="center" width="33%"><a href="examples/kitasenju-tumbling-clock/README.md"><img src="examples/kitasenju-tumbling-clock/preview.gif" width="200" alt="Kitasenju tumbling clock"></a><br><a href="examples/kitasenju-tumbling-clock/README.md">Kitasenju tumbling clock</a></td>
   </tr>
 </table>

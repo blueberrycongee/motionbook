@@ -3201,6 +3201,215 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "kitasenju-tumbling-clock",
+      "title": "Kitasenju tumbling clock",
+      "kind": "creative-motion",
+      "fit": "playful",
+      "values": [
+        "material",
+        "expressive-motion"
+      ],
+      "why": "白色挤出数字以逐秒生成、重力堆叠和翻滚离场形成有重量感的时钟雕塑；价值是材质与节奏表达",
+      "extract": "可编辑数字网格、固定步长刚体近似、透视深度缓冲渲染与可中断回放",
+      "use_when": "需要重力、立体字体和黑白对比的创意时钟、动态海报或装置视觉研究",
+      "avoid": "创意表达而非高频读时界面；OBB 碰撞、字体与时间参数为独立近似，非原作者工程；v2 动力学预设仅针对展示片段选择，相邻片段收益不一致；Canvas2D 软件光栅化需在目标设备验证性能；减少动态效果仅为已索引分支，非完整无障碍认证；原参考权利未获授权，不分发原片或原帧",
+      "keywords": [
+        "kitasenju",
+        "clock",
+        "digits",
+        "tumbling",
+        "extruded",
+        "extrusion",
+        "3D",
+        "typography",
+        "gravity",
+        "rigid body",
+        "monochrome",
+        "时钟",
+        "数字",
+        "翻滚",
+        "挤出",
+        "三维",
+        "字体",
+        "重力",
+        "堆叠",
+        "黑白"
+      ],
+      "readme": "examples/kitasenju-tumbling-clock/README.md",
+      "preview": "examples/kitasenju-tumbling-clock/preview.gif",
+      "evidence": [
+        "examples/kitasenju-tumbling-clock/PROVENANCE.md",
+        "examples/kitasenju-tumbling-clock/VALIDATION.md",
+        "examples/kitasenju-tumbling-clock/V2-FIDELITY.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/kitasenju-tumbling-clock/build-geometry-v2.py",
+          "symbol": "build-geometry-v2.rebuild",
+          "match": "for d,g in D['digits'].items():",
+          "line": 69,
+          "purpose": "从 OFL 衍生基线及独立肩部数字 1 出发，通用加厚并归一化轮廓，再调用 build-geometry.py 的 triangulate 构造封闭挤出网格；依赖 assets/base-digit-geometry.json、fontTools 与 NumPy，不使用参考图像",
+          "keywords": [
+            "mesh",
+            "extruded",
+            "extrusion",
+            "geometry",
+            "typography",
+            "glyph",
+            "网格",
+            "挤出",
+            "几何",
+            "字体",
+            "字形",
+            "weighting",
+            "shoulder",
+            "加厚",
+            "肩部"
+          ]
+        },
+        {
+          "path": "examples/kitasenju-tumbling-clock/motion.js",
+          "symbol": "ClockMotion.createSimulation",
+          "match": "function createSimulation(input={}) {",
+          "line": 130,
+          "purpose": "按 HHMMSS 逐秒生成六个刚体，以固定步长、OBB 碰撞和有限检查点计算翻滚；支持可编辑初始 X/Z 倾斜，碰撞体不是精确字形，依赖同文件数学与求解函数",
+          "keywords": [
+            "simulation",
+            "tumbling",
+            "gravity",
+            "rigid body",
+            "physics",
+            "仿真",
+            "翻滚",
+            "重力",
+            "刚体",
+            "物理"
+          ]
+        },
+        {
+          "path": "examples/kitasenju-tumbling-clock/motion.js",
+          "symbol": "ClockMotion.simulation.stateAt",
+          "match": "function stateAt(seconds) {",
+          "line": 167,
+          "purpose": "从确定性检查点取得指定时刻的数字、位置和四元数，支持倒序采样；时间为输入起点后的演示秒数，依赖 createSimulation 的世界状态",
+          "keywords": [
+            "stateAt",
+            "sampling",
+            "seek",
+            "clock",
+            "time",
+            "采样",
+            "进度",
+            "时钟",
+            "时间"
+          ]
+        },
+        {
+          "path": "examples/kitasenju-tumbling-clock/renderer.js",
+          "symbol": "ClockRenderer.render",
+          "match": "function render(ctx, bodies, options = {}) {",
+          "line": 142,
+          "purpose": "将可编辑三维网格变换、透视投影、按逐像素逆深度遮挡并照明到 Canvas2D；依赖 geometry-data.js 与同文件裁剪/光栅化函数，非 GPU/WebGL 渲染",
+          "keywords": [
+            "render",
+            "renderer",
+            "depth buffer",
+            "rasterizer",
+            "occlusion",
+            "渲染",
+            "深度缓冲",
+            "光栅化",
+            "遮挡"
+          ]
+        },
+        {
+          "path": "examples/kitasenju-tumbling-clock/renderer.js",
+          "symbol": "ClockRenderer.cameraOptions",
+          "match": "function cameraOptions(options = {}) {",
+          "line": 37,
+          "purpose": "约束视角、画幅、相机距离、近远裁剪和明暗参数；默认构图由 scene-config.js 调整，参数为复现估计",
+          "keywords": [
+            "camera",
+            "lighting",
+            "perspective",
+            "material",
+            "相机",
+            "照明",
+            "透视",
+            "材质"
+          ]
+        },
+        {
+          "path": "examples/kitasenju-tumbling-clock/playback.js",
+          "symbol": "ClockPlayback.createController",
+          "match": "function createController(options = {}) {",
+          "line": 10,
+          "purpose": "集中管理播放、暂停、重放、进度、速度、页面隐藏与静态分支；外部适配器负责媒体查询和 RAF，减少动态效果开启时停止播放",
+          "keywords": [
+            "playback",
+            "controller",
+            "replay",
+            "pause",
+            "speed",
+            "回放",
+            "控制器",
+            "重放",
+            "暂停",
+            "速度"
+          ],
+          "capabilities": [
+            "reduced-motion"
+          ]
+        },
+        {
+          "path": "examples/kitasenju-tumbling-clock/app.js",
+          "symbol": "app.settingsSubmit",
+          "match": "el('settings').addEventListener('submit',e=>{",
+          "line": 37,
+          "purpose": "先验证起始时间、随机种子和重力以及新仿真首帧，再替换现有状态；依赖 DOM 输入、ClockMotion 与回放控制器",
+          "keywords": [
+            "settings",
+            "seed",
+            "configuration",
+            "设置",
+            "种子",
+            "参数"
+          ]
+        },
+        {
+          "path": "examples/kitasenju-tumbling-clock/app.js",
+          "symbol": "app.preferenceChange",
+          "match": "function preferenceChange(e) {",
+          "line": 49,
+          "purpose": "将系统减少动态效果变化同步到静态开关和回放状态；初始媒体查询、手动开关与生命周期接线需随此分支一起保留",
+          "keywords": [
+            "preference",
+            "static",
+            "媒体查询",
+            "静态"
+          ],
+          "capabilities": [
+            "reduced-motion"
+          ]
+        },
+        {
+          "path": "examples/kitasenju-tumbling-clock/app.js",
+          "symbol": "app.pageLifecycle",
+          "match": "window.addEventListener('pagehide',()=>{",
+          "line": 54,
+          "purpose": "pagehide 取消待执行 RAF 并断开尺寸观察，pageshow 恢复；与 visibilitychange 和单一 schedule 入口共同使用",
+          "keywords": [
+            "lifecycle",
+            "pagehide",
+            "pageshow",
+            "visibility",
+            "生命周期",
+            "页面隐藏"
+          ]
+        }
+      ]
     }
   ]
 }

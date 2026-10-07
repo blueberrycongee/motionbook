@@ -1,0 +1,88 @@
+{
+  "passed": true,
+  "total": 9,
+  "node": "v24.19.0",
+  "note": "Fake DOM/RAF with actual browser-global motion/playback/renderer and ImageData shim. Does not certify browser visuals, CSS layout, native form validation, performance, BFCache delivery ordering, or assistive-technology behavior.",
+  "sourceSHA256": {
+    "geometry-data.js": "b41cd7eab6d4a182cd2cbb534c6965c6ba127e0be9431d83abb58b099b9fefeb",
+    "renderer.js": "0b954c48f761370d96db0e33b8616b35551574266f633faa10ce9a689f471c2e",
+    "motion.js": "396639b0df5b94253e0e8f1326236c9b60a916d3fa033f6b3a9f5c6de9e6f298",
+    "playback.js": "5dd22e7ab044a23c40bdd840b7f9c556dd53f9b2f693705fa09812cb673a957e",
+    "scene-config.js": "7a25a250b46e34c6157369ffcf2297a24a445c1af3016d715ea1610d27c65a24",
+    "app.js": "f28949993dee265ede9d6d8ea158f7809fad2ab60ef210c06c8efe471c53edf3"
+  },
+  "changedDuringRun": [],
+  "results": [
+    {
+      "name": "HTML load order exposes all globals; shared body and duration bounds are compatible",
+      "passed": true,
+      "ms": 30.24,
+      "scripts": [
+        "geometry-data.js",
+        "renderer.js",
+        "motion.js",
+        "playback.js",
+        "scene-config.js",
+        "app.js"
+      ],
+      "maxBodies": 48,
+      "rendererLimit": 48,
+      "duration": 33.429333
+    },
+    {
+      "name": "Autoplay, repeated pause/play/replay, keyboard and speed maintain one RAF chain",
+      "passed": true,
+      "ms": 3688.87,
+      "maxQueuedRAF": 1,
+      "renders": 17
+    },
+    {
+      "name": "Hidden pages freeze across repeated interruptions and preserve pause intent",
+      "passed": true,
+      "ms": 2959.65,
+      "maxQueuedRAF": 1
+    },
+    {
+      "name": "Reduced-motion first load and dynamic changes stay static until explicit play",
+      "passed": true,
+      "ms": 1781.36,
+      "maxQueuedRAF": 1
+    },
+    {
+      "name": "Invalid time, seed, and gravity submissions are atomic; valid apply repeats pixels",
+      "passed": true,
+      "ms": 2204.42,
+      "invalidCases": 8,
+      "maxQueuedRAF": 1,
+      "repeatSHA256": "c261532e8b34e4a3268ebc5bd0882f1db85ee9dcc3266cf53942c2d70c37d7f8"
+    },
+    {
+      "name": "Empty numeric seed is rejected without replacing simulation",
+      "passed": true,
+      "ms": 814.09
+    },
+    {
+      "name": "Pagehide cancels scheduling; repeated pageshow resumes once and refreshed size renders",
+      "passed": true,
+      "ms": 2732.66,
+      "maxQueuedRAF": 1,
+      "dimensions": [
+        720,
+        437
+      ]
+    },
+    {
+      "name": "Legacy media/resize fallback and repeated viewport changes retain RAF invariant",
+      "passed": true,
+      "ms": 1691.92,
+      "maxQueuedRAF": 1
+    },
+    {
+      "name": "Duration endpoint renders within body bound and wraps with one active chain",
+      "passed": true,
+      "ms": 4022.35,
+      "largestBodyCount": 23,
+      "maxQueuedRAF": 1
+    }
+  ]
+}

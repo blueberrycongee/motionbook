@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>重力时钟 · Editable motion study</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header><div><p class="eyebrow">MOTION STUDY / 066 · REVISION 02</p><h1>重力时钟<span>Gravity clock</span></h1></div><a class="source-link" href="https://x.com/kitasenjudesign/status/2107677781471658319" target="_blank" rel="noopener noreferrer">原始参考 ↗</a></header>
+  <div class="workbench">
+    <section class="stage-panel" aria-label="时钟动画预览">
+      <div class="stage"><canvas id="scene" width="564" height="342" aria-label="白色立体时间数字逐秒落下，在隐形横台上碰撞并翻落"></canvas><div id="loading">正在建立数字几何…</div></div>
+      <div class="transport"><button id="play" type="button">暂停</button><button id="replay" class="secondary" type="button">从头播放</button><label class="sr-only" for="seek">播放位置</label><input id="seek" type="range" min="0" max="33.429333" step="0.01" value="0"><output id="position">0.00 / 33.43 s</output></div>
+      <p class="caption"><span class="dot"></span>独立可编辑重现 · 同一确定性模型驱动实时预览与导出</p>
+    </section>
+    <aside aria-label="动画参数">
+      <div class="settings-heading"><h2>每秒，重新落下</h2><p>六位数字是独立物体。新一排入场，旧一排碰撞、堆叠，再从狭窄平台翻落</p></div>
+      <form id="settings"><label for="start-time">起始时间</label><input id="start-time" type="text" value="12:39:42" pattern="[0-2][0-9]:[0-5][0-9]:[0-5][0-9]" inputmode="numeric" autocomplete="off" spellcheck="false"><label for="seed">随机种子</label><input id="seed" type="number" required value="137" min="0" max="4294967295" step="1"><label for="gravity">重力强度 <output id="gravity-value">850</output></label><input id="gravity" type="range" min="800" max="1800" step="25" value="850"><button type="submit" class="apply">应用并重播</button></form>
+      <label for="speed">播放速度</label><select id="speed"><option value="0.25">0.25× · 慢放</option><option value="0.5">0.5× · 慢放</option><option value="1" selected>1× · 正常速度</option><option value="2">2× · 加速</option></select>
+      <label class="check"><input id="static-mode" type="checkbox">静态查看 / 减少动态效果</label>
+      <p id="status" role="status" aria-live="polite"></p>
+      <div class="evidence-note"><strong>参考依据</strong><p>2026 年原帖可见画面连续录屏，共 303 张，约 8.66 fps；没有取得原始 MP4 或原生 PTS。此实现重现机制与构图；字体、碰撞轨迹和随机初始状态为独立近似，并非原视频逐像素复刻</p></div>
+    </aside>
+  </div>
+  <footer><span>Reference: Kitasenju Design · “clock”</span><span>原创实现 · OFL 字体衍生几何 · 无原视频资源</span></footer>
+</main>
+<script src="geometry-data.js"></script><script src="renderer.js"></script><script src="motion.js"></script><script src="playback.js"></script><script src="scene-config.js"></script><script src="app.js"></script>
+</body></html>

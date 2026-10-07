@@ -1,0 +1,15 @@
+{
+  "name": "motionbook-kitasenju-tumbling-clock",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Independent editable 3D falling-digit clock study",
+  "scripts": {
+    "test": "node motion-test.cjs && node renderer-test.cjs && node playback-test.cjs && node app-test.cjs",
+    "render": "node render.cjs",
+    "serve": "python3 -m http.server 8080",
+    "build:geometry": "python3 build-geometry-v2.py"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.100"
+  }
+}

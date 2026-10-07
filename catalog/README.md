@@ -1,6 +1,6 @@
 # 按用途找动效
 
-这里按可借用的交互组织 65 个研究示例。分类是编辑判断，不是上线认证；具体运行、来源和许可边界见各例文档。
+这里按可借用的交互组织 66 个研究示例。分类是编辑判断，不是上线认证；具体运行、来源和许可边界见各例文档。
 
 先看要解决的问题，再选最小片段。页面片段不代表完整 landing；趣味效果可以启发创作，但不默认用于高频操作。源码锚点是局部阅读入口，仍需检查依赖和目标布局；不表示整段代码可直接投入生产。
 
@@ -77,7 +77,7 @@
 | [Portfolio ribbon](../examples/marcelo-portfolio-ribbon/README.md) · 品牌展示 | 作品条带中间收束、两端展开，拖动时惯性弯曲 | **循环作品带与惯性变形**；作品集、展示页局部<br>源码：[liveGeometry](../examples/marcelo-portfolio-ribbon/src/geometry.mjs#L8)、[RibbonController](../examples/marcelo-portfolio-ribbon/src/geometry.mjs#L30) | 仅画廊片段；视觉变形不适合密集文本浏览 |
 | [Playful project hovers](../examples/spencer-playful-hovers/README.md) · 品牌展示 | 作品悬停序列让项目入口带有个性和探索感 | **项目条目的局部悬停反馈**；作品集、项目列表<br>源码：[createModel](../examples/spencer-playful-hovers/motion.js#L7)、[sync](../examples/spencer-playful-hovers/app.js#L22) | 只有局部 hover 研究；触屏需提供等价入口 |
 
-## 创意动效（9）
+## 创意动效（10）
 
 | 示例 / 定位 | 值得研究什么 | 可借用的最小部分 / 场景 | 限制 |
 | --- | --- | --- | --- |
@@ -90,3 +90,4 @@
 | [Shiba online](../examples/shiba-online/README.md) · 趣味实验 | 像素柴犬与复古桌面窗口组合成短循环叙事 | **像素场景的层次和循环节奏**；插画、趣味空状态<br>源码：[desktop](../examples/shiba-online/src/scene.mjs#L107)、[shiba](../examples/shiba-online/src/scene.mjs#L137) | 这是动画插画，不是交互桌面；角色经过改编 |
 | [Sketcha onboarding](../examples/sketcha-onboarding/README.md) · 品牌展示 | 角色动作与撕开画面的转场连接欢迎和菜单 | **角色驱动的一次性揭幕**；品牌 onboarding、首次引导<br>源码：[poseAt](../examples/sketcha-onboarding/src/motion.mjs#L16)、[OnboardingController](../examples/sketcha-onboarding/src/motion.mjs#L33) | 长编排适合低频场景，需提供跳过和减少动态 |
 | [Tiny animated SVG](../examples/tiny-animated-svg/README.md) · 品牌展示 | 小型 SVG 用渐变和滤镜形成虹彩字样，展示轻量装饰的表达力 | **字样表面的扫光与层次**；升级提示、品牌徽标<br>源码：[svgAt](../examples/tiny-animated-svg/src/build.mjs#L8) | 原作品牌权利未授予；浏览器滤镜兼容性需验证 |
+| [Kitasenju tumbling clock](../examples/kitasenju-tumbling-clock/README.md) · 趣味实验 | 白色挤出数字以逐秒生成、重力堆叠和翻滚离场形成有重量感的时钟雕塑；价值是材质与节奏表达 | **可编辑数字网格、固定步长刚体近似、透视深度缓冲渲染与可中断回放**；需要重力、立体字体和黑白对比的创意时钟、动态海报或装置视觉研究<br>源码：[build-geometry-v2.rebuild](../examples/kitasenju-tumbling-clock/build-geometry-v2.py#L69)、[ClockMotion.createSimulation](../examples/kitasenju-tumbling-clock/motion.js#L130)、[ClockMotion.simulation.stateAt](../examples/kitasenju-tumbling-clock/motion.js#L167)、[ClockRenderer.render](../examples/kitasenju-tumbling-clock/renderer.js#L142)、[ClockRenderer.cameraOptions](../examples/kitasenju-tumbling-clock/renderer.js#L37)、[ClockPlayback.createController](../examples/kitasenju-tumbling-clock/playback.js#L10)、[app.settingsSubmit](../examples/kitasenju-tumbling-clock/app.js#L37)、[app.preferenceChange](../examples/kitasenju-tumbling-clock/app.js#L49)、[app.pageLifecycle](../examples/kitasenju-tumbling-clock/app.js#L54) | 创意表达而非高频读时界面；OBB 碰撞、字体与时间参数为独立近似，非原作者工程；v2 动力学预设仅针对展示片段选择，相邻片段收益不一致；Canvas2D 软件光栅化需在目标设备验证性能；减少动态效果仅为已索引分支，非完整无障碍认证；原参考权利未获授权，不分发原片或原帧 |

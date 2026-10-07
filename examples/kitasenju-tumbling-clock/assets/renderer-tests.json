@@ -1,0 +1,156 @@
+{
+  "passed": true,
+  "total": 11,
+  "node": "v24.19.0",
+  "canvas": "0.1.100",
+  "geometrySHA256": "b41cd7eab6d4a182cd2cbb534c6965c6ba127e0be9431d83abb58b099b9fefeb",
+  "rendererSHA256": "0b954c48f761370d96db0e33b8616b35551574266f633faa10ce9a689f471c2e",
+  "results": [
+    {
+      "name": "Watertight geometry, triangle winding, cap area, holes and genus",
+      "passed": true,
+      "ms": 64.38,
+      "digits": 10,
+      "totalTriangles": 16152,
+      "maxAreaError": 6.221589909927161e-11
+    },
+    {
+      "name": "Analytical glyph silhouette and holes match all front pixels",
+      "passed": true,
+      "ms": 361.52,
+      "pixelsChecked": 445440,
+      "disagreements": 0
+    },
+    {
+      "name": "Nearer cap wins regardless of draw order",
+      "passed": true,
+      "ms": 55.77,
+      "overlapPixels": 11949,
+      "sha256": "2bf69a9b99fcbabb8091218cdc1579f5c53ec8ada0eef616de00cc66c1fb40af"
+    },
+    {
+      "name": "Intersecting tilted caps use per-pixel depth rather than one face order",
+      "passed": true,
+      "ms": 46.01,
+      "leftPlaneWins": 10867,
+      "rightPlaneWins": 10921
+    },
+    {
+      "name": "Intersecting pile is order independent and deterministic",
+      "passed": true,
+      "ms": 96.08,
+      "bodies": 30,
+      "sha256": "bdfdd3c5c0dd696ea54b5f1b2146cc44489a7df7f4479ae69502854f0ba37d83",
+      "triangles": 48456,
+      "culledTriangles": 24522,
+      "clippedTriangles": 0,
+      "rasterizedTriangles": 23899,
+      "width": 564,
+      "height": 342,
+      "antialias": 2,
+      "occupiedPixels": 81023
+    },
+    {
+      "name": "Browser-global entry executes same pixel code as Node",
+      "passed": true,
+      "ms": 473.16,
+      "sha256": "ace5257f8b493482b53cd14fc09f4bf03440cb42a1a9b06f3726c256db7e52d4",
+      "note": "Browser UMD path evaluated in isolated JavaScript VM with ImageData shim; real-browser display QA is separate"
+    },
+    {
+      "name": "Euler X→Y→Z matches xyzw quaternion, nonunit quaternions normalize",
+      "passed": true,
+      "ms": 25.67
+    },
+    {
+      "name": "Camera projection, focal length, target and proportional resize",
+      "passed": true,
+      "ms": 36.5
+    },
+    {
+      "name": "Near/far clipping and offscreen geometry stay finite and bounded",
+      "passed": true,
+      "ms": 4.51
+    },
+    {
+      "name": "Finite and malformed data rejected atomically; finite workload limits",
+      "passed": true,
+      "ms": 16.64,
+      "bodyLimit": 48,
+      "dimensionLimit": 2048,
+      "pixelLimit": 2097152,
+      "malformedCases": 34
+    },
+    {
+      "name": "Performance samples for 18 and 30 digits at requested output sizes",
+      "passed": true,
+      "ms": 2436.01,
+      "benchmarks": [
+        {
+          "bodies": 18,
+          "width": 564,
+          "height": 342,
+          "antialias": 1,
+          "medianMs": 5.48,
+          "p95Ms": 7.49
+        },
+        {
+          "bodies": 18,
+          "width": 564,
+          "height": 342,
+          "antialias": 2,
+          "medianMs": 10.15,
+          "p95Ms": 12.55
+        },
+        {
+          "bodies": 18,
+          "width": 720,
+          "height": 436,
+          "antialias": 1,
+          "medianMs": 7.67,
+          "p95Ms": 8.57
+        },
+        {
+          "bodies": 18,
+          "width": 720,
+          "height": 436,
+          "antialias": 2,
+          "medianMs": 15.68,
+          "p95Ms": 17.58
+        },
+        {
+          "bodies": 30,
+          "width": 564,
+          "height": 342,
+          "antialias": 1,
+          "medianMs": 9.26,
+          "p95Ms": 10.81
+        },
+        {
+          "bodies": 30,
+          "width": 564,
+          "height": 342,
+          "antialias": 2,
+          "medianMs": 14.33,
+          "p95Ms": 18.13
+        },
+        {
+          "bodies": 30,
+          "width": 720,
+          "height": 436,
+          "antialias": 1,
+          "medianMs": 10.95,
+          "p95Ms": 13.05
+        },
+        {
+          "bodies": 30,
+          "width": 720,
+          "height": 436,
+          "antialias": 2,
+          "medianMs": 20.37,
+          "p95Ms": 25.57
+        }
+      ]
+    }
+  ]
+}
