@@ -1,0 +1,90 @@
+{
+  "repository_source_sha": "780a0a38087d0668eb9532cc32e577e5fbdf6675",
+  "rubric": [
+    "brief/state semantics",
+    "reference relationships",
+    "visual coherence",
+    "sampled motion",
+    "scripted interruption/reduced state"
+  ],
+  "score_scale": "0–4 per axis, 0–20 total",
+  "review": "Condition-blind root scores frozen before disclosure; sampled-frame judgments, not observed real-time playback.",
+  "scores_frozen_at_utc": "2026-10-07T17:59:30.674119+00:00",
+  "results": [
+    {
+      "id": "G",
+      "task": "labels",
+      "condition": "candidate",
+      "scores": [
+        4,
+        4,
+        3,
+        3,
+        4
+      ],
+      "total": 18,
+      "observation": "Preserves Research and creates amber Review only on confirmation. Compact notebook header; matching nested panel relationships at1.6/2.5/3s. Some tiny footer/status text, but limited.",
+      "source_sha256": "2081f75e7bdd4a9665a89ba653943e762a268cb3c17022326c7f02d193ddcb34",
+      "capture": "Offline Inkscape SVG rasterization; source hash verified; no browser validation"
+    },
+    {
+      "id": "H",
+      "task": "slider",
+      "condition": "candidate",
+      "scores": [
+        4,
+        4,
+        3,
+        3,
+        4
+      ],
+      "total": 18,
+      "observation": "Requested title/subtitle retained; readable current percent and moving ruler. Clear cancellation restoration on interrupted sheet. Additional small functionallabels but no separate decorative slogan.",
+      "source_sha256": "b74cacd4bf5db872a6ca93d48c695bdf22f37328b0796e9fdcccfad98005fc94",
+      "capture": "Offline Inkscape SVG rasterization; source hash verified; no browser validation"
+    },
+    {
+      "id": "I",
+      "task": "labels",
+      "condition": "current",
+      "scores": [
+        4,
+        4,
+        2,
+        3,
+        4
+      ],
+      "total": 17,
+      "observation": "Same essential flows, but additional notebook number/title and post-action messages outside picker add noise. Original selection retained on interrupted sheet; selected Review correct.",
+      "source_sha256": "697e6c75e4c3bf2cb4afbc8fb5d9ee057a6b08f1fc615ecb760b1f48e5539629",
+      "capture": "Offline Inkscape SVG rasterization; source hash verified; no browser validation"
+    },
+    {
+      "id": "J",
+      "task": "slider",
+      "condition": "current",
+      "scores": [
+        4,
+        4,
+        2,
+        3,
+        4
+      ],
+      "total": 17,
+      "observation": "Requested title/subtitle retained and correct values/reversal. Unrequested eyebrow A LITTLE ROOM TO LISTEN, changing mood captions, and duplicate lower progressbar distract from ruler. Reduced-state mainvalues still update.",
+      "source_sha256": "cc25590bcf395111164631ebc3bb7ded679b2adf7338537f4a9bbf00672e9a5a",
+      "capture": "Offline Inkscape SVG rasterization; source hash verified; no browser validation"
+    }
+  ],
+  "decision": "Keep the current skill unchanged. Root scores weakly favor the candidate by one point on each brief, but independent blind review ties both pairs (G/I 19 each, H/J 20 each). These exploratory samples do not establish a persuasive benefit.",
+  "limits": "One independent generation per cell. Exploratory comparison, not statistical evidence or a general benchmark. Browser input, device accessibility, and runtime integration remain unverified.",
+  "generation": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "requested_budget_minutes_per_worker": 12,
+    "budget_note": "Same requested maximum; actual token use and elapsed work were not equalized.",
+    "workers": 4,
+    "samples_per_condition_and_brief": 1
+  },
+  "independent_review": "independent-results.json"
+}

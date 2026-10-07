@@ -1,0 +1,121 @@
+{
+  "repository_source_sha": "780a0a38087d0668eb9532cc32e577e5fbdf6675",
+  "rubric": [
+    "brief/state semantics",
+    "reference relationships",
+    "visual coherence",
+    "sampled motion",
+    "scripted interruption/reduced state"
+  ],
+  "score_scale": "0–4 per axis, 0–20 total",
+  "review": "Blind scores were frozen before condition disclosure. Review used reference and normal/interrupted/reduced-motion contact sheets; no observed real-time playback.",
+  "results": [
+    {
+      "id": "A",
+      "task": "detail",
+      "condition": "current",
+      "scores": [
+        3,
+        4,
+        3,
+        3,
+        4
+      ],
+      "total": 17,
+      "observation": "0.85–1.4s count animates 0→3 stops away, potentially misleading semantic treatment; strong shared shell/staged reveal, legibility small.",
+      "source_sha256": "b0f1be965bf15318363848480787fc8a8e40b6ccc72759a3ce5448b16edad555",
+      "capture": "Offline Inkscape SVG rasterization; source hash verified; no browser validation"
+    },
+    {
+      "id": "B",
+      "task": "progress",
+      "condition": "current",
+      "scores": [
+        4,
+        4,
+        3,
+        3,
+        4
+      ],
+      "total": 18,
+      "observation": "Cancel/retry/success distinct at1.4/2.1/3.8s; preserves local fill+lobe; surrounding microcopy adds clutter but hierarchy coherent.",
+      "source_sha256": "6be326ddcf16c0e2d66f74b88e6469fcd4cd8c00b692be94878619f1fc7d31d1",
+      "capture": "Offline Inkscape SVG rasterization; source hash verified; no browser validation"
+    },
+    {
+      "id": "C",
+      "task": "detail",
+      "condition": "candidate",
+      "scores": [
+        4,
+        4,
+        3,
+        3,
+        4
+      ],
+      "total": 18,
+      "observation": "Stable parcel data, clear route+ETA; parent shell precedes details at0.65/0.85s; interrupted frame path coherent, minor tiny secondary type.",
+      "source_sha256": "fc4c2f524351e06e883910c405e10f26a2b12eadf45d0b23d8f157a4d6f47684",
+      "capture": "Offline Inkscape SVG rasterization; source hash verified; no browser validation"
+    },
+    {
+      "id": "D",
+      "task": "progress",
+      "condition": "candidate",
+      "scores": [
+        4,
+        4,
+        2,
+        3,
+        4
+      ],
+      "total": 17,
+      "observation": "Good compact save/lobe and event labels; unnecessary headline/tagline/footer microcopy competes with single action; moving percentage preserved.",
+      "source_sha256": "0c14e67edd7c8eaa82c6462cf00699d7438b138c603e76a824b50ffe820a0b6f",
+      "capture": "Offline Inkscape SVG rasterization; source hash verified; no browser validation"
+    },
+    {
+      "id": "E",
+      "task": "detail",
+      "condition": "none",
+      "scores": [
+        4,
+        3,
+        3,
+        3,
+        4
+      ],
+      "total": 17,
+      "observation": "Legible primary status and stable ETA; useful truck/route adaptation but more secondary metadata and less reference hierarchy correspondence; sampled reversal coherent.",
+      "source_sha256": "b43831a610490518b4f194b4587844477dd86144ee35b273ec847cc3a05a6d50",
+      "capture": "Offline Inkscape SVG rasterization; source hash verified; no browser validation"
+    },
+    {
+      "id": "F",
+      "task": "progress",
+      "condition": "none",
+      "scores": [
+        4,
+        4,
+        2,
+        3,
+        4
+      ],
+      "total": 17,
+      "observation": "Clear retry/saved states and local fill/lobe; multiple decorative tiny labels and extra lower marker increase noise for single compact action.",
+      "source_sha256": "6474afece295e46031e9fdc739db5cb1c11e6393d8308aeaa997224ec3d9c105",
+      "capture": "Offline Inkscape SVG rasterization; source hash verified; no browser validation"
+    }
+  ],
+  "decision": "Do not promote the first candidate: current versus candidate split across the two briefs (18 vs 17 for progress; 17 vs 18 for detail).",
+  "limits": "One independent generation per cell. Exploratory comparison, not statistical evidence or a general benchmark. Browser input, device accessibility, and runtime integration remain unverified.",
+  "generation": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "requested_budget_minutes_per_worker": 12,
+    "budget_note": "Same requested maximum; actual token use and elapsed work were not equalized.",
+    "workers": 6,
+    "samples_per_condition_and_brief": 1
+  },
+  "scores_frozen_at_utc": "2026-10-07T17:44:56.078119+00:00"
+}

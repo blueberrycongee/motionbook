@@ -1,0 +1,4 @@
+Brief: Design a compact parcel-tracking capsule that expands into a delivery-detail card and returns to its compact form, using the supplied flight-pill study as the visual reference. Show a fictional parcel "P-204", status "Arriving today", a simple original route graphic, and enough tracking detail to make the expansion useful. Preserve useful motion character while adapting the imagery and information to parcel tracking. Show a calm neutral surrounding surface.
+
+Normal timeline: compact until 0.50 s; open is requested at 0.50 s; close is requested at 3.50 s; remain compact through 6.00 s.
+Interrupted timeline: open at 0.50 s; close at 0.85 s while opening; open again at 1.40 s; close at 3.50 s; remain compact through 6.00 s. Respond continuously to these direction changes without teleporting the main surface. These are scripted events, not proof of actual click/keyboard behavior.

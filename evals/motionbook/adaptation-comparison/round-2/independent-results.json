@@ -1,0 +1,65 @@
+{
+  "review": "Independent condition-blind assessment; root scores and condition mapping were not provided.",
+  "frozen_at_utc": "2026-10-07T18:05:40Z",
+  "method": "Reviewed normal/interrupted/reduced-motion contact sheets, reference sheets, selected full-size PNGs and source state probes. No real-time playback or browser testing.",
+  "dimensions": [
+    "brief_state_fulfillment",
+    "useful_reference_relationships",
+    "visual_coherence",
+    "sampled_motion_continuity",
+    "scripted_interruption_reduced_state"
+  ],
+  "scale": "0–4 per dimension; coarse ordinal judgments, not calibrated measurements or cross-task rankings. A 4 applies only to the inspected scripted scope.",
+  "results": [
+    {
+      "id": "G",
+      "scores": [
+        4,
+        4,
+        4,
+        3,
+        4
+      ],
+      "total": 19,
+      "observation": "Clear selection and nested creation; transient Review-chip/search-row overlap during commit. Simpler composition and softer close."
+    },
+    {
+      "id": "H",
+      "scores": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "total": 20,
+      "observation": "Requested title/subtitle, fixed-index ruler, cancellation restoration and reduced-motion values preserved. More focused composition."
+    },
+    {
+      "id": "I",
+      "scores": [
+        4,
+        4,
+        4,
+        3,
+        4
+      ],
+      "total": 19,
+      "observation": "Same correct flow and transient chip/search-row overlap. More notebook context and explicit feedback; abrupt close. Extra copy remained orderly."
+    },
+    {
+      "id": "J",
+      "scores": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "total": 20,
+      "observation": "Same correct trajectories and meaningful reduced-motion mode. More secondary chrome, balanced by explicit committed-state feedback; no material coherence defect."
+    }
+  ],
+  "decision": "Both pairs tie: G/I 19 each; H/J 20 each. The extra copy is a tradeoff rather than a scored failure. No decisive candidate benefit is established.",
+  "review_order_deviation": "Root scores were frozen and unmasked before this independent blind review began. The planned freeze-both-before-unmask ordering was not followed."
+}
