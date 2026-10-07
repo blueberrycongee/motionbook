@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "repository": "https://github.com/blueberrycongee/motionbook",
   "basis": "Editorial adaptation guidance from checked-in source and validation notes; not a new visual or runtime acceptance.",
   "entries": [
@@ -27,6 +27,22 @@
       "evidence": [
         "examples/adaptive-email-sidebar/VALIDATION.md",
         "examples/adaptive-email-sidebar/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/adaptive-email-sidebar/scene.js",
+          "symbol": "target",
+          "match": "function target(group,leaf=0)",
+          "purpose": "根据展开分组和选中叶子派生高度、位移与高亮；替换真实导航数据时保留层级关系",
+          "line": 11
+        },
+        {
+          "path": "examples/adaptive-email-sidebar/app.js",
+          "symbol": "select",
+          "match": "function select(k,j)",
+          "purpose": "从当前画面接续分组与叶子切换，并同步状态文本",
+          "line": 4
+        }
       ]
     },
     {
@@ -54,6 +70,15 @@
       "evidence": [
         "examples/adaptive-precision/VALIDATION.md",
         "examples/adaptive-precision/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/adaptive-precision/src/model.js",
+          "symbol": "Calendar",
+          "match": "class Calendar",
+          "purpose": "锚点拖动、反向区间、取消和四分之一小时量化的本地状态模型；业务日历需另行接入",
+          "line": 9
+        }
       ]
     },
     {
@@ -80,6 +105,15 @@
       "evidence": [
         "examples/agent-plan/VALIDATION.md",
         "examples/agent-plan/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/agent-plan/scene.js",
+          "symbol": "action",
+          "match": "function action(state,a)",
+          "purpose": "批准、跳过、撤销与批量运行的计划行状态流；运行结果是本地计时模拟",
+          "line": 16
+        }
       ]
     },
     {
@@ -107,6 +141,25 @@
       "evidence": [
         "examples/angry-sliders/VALIDATION.md",
         "examples/angry-sliders/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/angry-sliders/src/scene.mjs",
+          "symbol": "reduce",
+          "match": "export function reduce(s,a)",
+          "purpose": "拉伸、取消与释放进入抛物飞行；减少动态时直接落到结果",
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "line": 13
+        },
+        {
+          "path": "examples/angry-sliders/src/scene.mjs",
+          "symbol": "drawState",
+          "match": "export function drawState(s)",
+          "purpose": "将拖动和飞行状态映射为预测弧、弹性带与落地回弹",
+          "line": 24
+        }
       ]
     },
     {
@@ -134,6 +187,18 @@
       "evidence": [
         "examples/apple-music-lyrics/VALIDATION.md",
         "examples/apple-music-lyrics/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/apple-music-lyrics/src/motion.js",
+          "symbol": "Controller",
+          "match": "class Controller",
+          "purpose": "歌词播放与手动滚动接管、恢复跟随；减少动态时关闭自动播放及模糊",
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "line": 30
+        }
       ]
     },
     {
@@ -162,6 +227,22 @@
       "evidence": [
         "examples/automation-manager/VALIDATION.md",
         "examples/automation-manager/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/automation-manager/src/controller.mjs",
+          "symbol": "Controller.navigate",
+          "match": "  navigate(action) {",
+          "purpose": "列表到详情的导航守卫，处理草稿自动保存与丢弃确认；只操作本地示例任务",
+          "line": 101
+        },
+        {
+          "path": "examples/automation-manager/src/controller.mjs",
+          "symbol": "Controller.performNavigation",
+          "match": "  performNavigation(action) {",
+          "purpose": "切换已有任务、新建草稿和关闭详情时清理编辑状态",
+          "line": 130
+        }
       ]
     },
     {
@@ -190,6 +271,18 @@
         "examples/card-details-sheet/VALIDATION.md",
         "examples/card-details-sheet/SOURCE.md",
         "examples/card-details-sheet/RIGHTS.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/card-details-sheet/app.js",
+          "symbol": "open",
+          "match": "function open()",
+          "purpose": "在当前展开阶段处理中途切换，减少动态时跳到抽屉终态",
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "line": 1
+        }
       ]
     },
     {
@@ -217,6 +310,25 @@
       "evidence": [
         "examples/chatgpt-dot-send/docs/VALIDATION.md",
         "examples/chatgpt-dot-send/LICENSE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/chatgpt-dot-send/src/motion.mjs",
+          "symbol": "frame",
+          "match": "export function frame(g,elapsed,",
+          "purpose": "发送位移、压缩与收据显示的同一时间轴；减少动态返回静态终态",
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "line": 36
+        },
+        {
+          "path": "examples/chatgpt-dot-send/src/motion.mjs",
+          "symbol": "previousRowOffset",
+          "match": "export function previousRowOffset(before,after,elapsed,zoom=1)",
+          "purpose": "旧消息行随发送布局变化让位的偏移计算",
+          "line": 43
+        }
       ]
     },
     {
@@ -243,6 +355,22 @@
       "evidence": [
         "examples/chatgpt-pip/docs/VALIDATION.md",
         "examples/chatgpt-pip/LICENSE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/chatgpt-pip/src/stack-behavior.mjs",
+          "symbol": "chooseTargetAnchor",
+          "match": "export function chooseTargetAnchor(",
+          "purpose": "结合位置和释放速度选择吸附锚点；目标屏幕与窗口边界由调用方提供",
+          "line": 30
+        },
+        {
+          "path": "examples/chatgpt-pip/src/hover-behavior.mjs",
+          "symbol": "HoverController",
+          "match": "export class HoverController",
+          "purpose": "悬停揭示与控件命中状态；需与实际指针和焦点入口整合",
+          "line": 7
+        }
       ]
     },
     {
@@ -269,6 +397,22 @@
       "evidence": [
         "examples/chatgpt-space-welcome/VALIDATION.md",
         "examples/chatgpt-space-welcome/LICENSE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/chatgpt-space-welcome/src/motion.mjs",
+          "symbol": "cardPose",
+          "match": "export function cardPose(",
+          "purpose": "卡片布局、轻微漂移和退出轨迹；窄视口可见性由该几何函数限定",
+          "line": 59
+        },
+        {
+          "path": "examples/chatgpt-space-welcome/src/motion.mjs",
+          "symbol": "editProgress",
+          "match": "export function editProgress(age,length)",
+          "purpose": "按内容长度分配选择与输入阶段，为卡片内容接力提供局部时间轴",
+          "line": 72
+        }
       ]
     },
     {
@@ -296,6 +440,18 @@
         "examples/customizable-glass-folder/VALIDATION.md",
         "examples/customizable-glass-folder/SOURCE.md",
         "examples/customizable-glass-folder/RIGHTS.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/customizable-glass-folder/app.js",
+          "symbol": "recolor",
+          "match": "function recolor(n)",
+          "purpose": "外观切换从当前颜色开始插值，减少动态时直接设置目标色",
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "line": 1
+        }
       ]
     },
     {
@@ -321,6 +477,15 @@
       "evidence": [
         "examples/document-signature/VALIDATION.md",
         "examples/document-signature/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/document-signature/scene.js",
+          "symbol": "state",
+          "match": "function state(t)",
+          "purpose": "将签署、笔迹擦入和成功反馈组合成独立通道；签名动作是演示",
+          "line": 8
+        }
       ]
     },
     {
@@ -348,6 +513,18 @@
       "evidence": [
         "examples/dynamic-island-streak/VALIDATION.md",
         "examples/dynamic-island-streak/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/dynamic-island-streak/src/scene.mjs",
+          "symbol": "reduce",
+          "match": "export function reduce(state,a)",
+          "purpose": "紧凑与展开状态切换、计数更新和庆祝重播；减少动态分支跳过过渡",
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "line": 25
+        }
       ]
     },
     {
@@ -375,6 +552,15 @@
         "examples/elastic-string-clock/VALIDATION.md",
         "examples/elastic-string-clock/SOURCE.md",
         "examples/elastic-string-clock/RIGHTS.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/elastic-string-clock/physics.js",
+          "symbol": "step",
+          "match": "function step(s,dt=1/60)",
+          "purpose": "绳节点约束、拖动固定点与中心回弹的实时积分；并非系统时钟控件",
+          "line": 7
+        }
       ]
     },
     {
@@ -402,6 +588,18 @@
       "evidence": [
         "examples/expandable-tool-grid/VALIDATION.md",
         "examples/expandable-tool-grid/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/expandable-tool-grid/app.js",
+          "symbol": "change",
+          "match": "function change(open)",
+          "purpose": "从当前单元布局接续展开或收起，减少动态直接设置端点",
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "line": 2
+        }
       ]
     },
     {
@@ -430,6 +628,15 @@
       "evidence": [
         "examples/file-toss/VALIDATION.md",
         "examples/file-toss/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/file-toss/model.js",
+          "symbol": "Toss",
+          "match": "class Toss",
+          "purpose": "拖动速度到抛掷、落入与回退的状态机；撤销可复用 reset，实际文件删除不在这里执行",
+          "line": 3
+        }
       ]
     },
     {
@@ -457,6 +664,15 @@
       "evidence": [
         "examples/file-upload-card/VALIDATION.md",
         "examples/file-upload-card/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/file-upload-card/src/scene.mjs",
+          "symbol": "reduce",
+          "match": "export function reduce(s,a)",
+          "purpose": "悬停、文件选择与上传反馈的演示状态；真实上传进度和错误应由业务补充",
+          "line": 7
+        }
       ]
     },
     {
@@ -484,6 +700,15 @@
       "evidence": [
         "examples/flight-pill/VALIDATION.md",
         "examples/flight-pill/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/flight-pill/scene.js",
+          "symbol": "transitionProgress",
+          "match": "function transitionProgress(p,to)",
+          "purpose": "从采样容器宽度派生展开与收起进度；目标布局需重新适配尺寸",
+          "line": 21
+        }
       ]
     },
     {
@@ -510,6 +735,15 @@
       "evidence": [
         "examples/flo-composer/VALIDATION.md",
         "examples/flo-composer/RIGHTS.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/flo-composer/src/model.mjs",
+          "symbol": "Composer",
+          "match": "export class Composer",
+          "purpose": "输入区连接与批准的局部反馈状态；连接和授权仅为演示，不创建实际权限",
+          "line": 34
+        }
       ]
     },
     {
@@ -537,6 +771,15 @@
       "evidence": [
         "examples/fractional-slider/VALIDATION.md",
         "examples/fractional-slider/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/fractional-slider/src/model.js",
+          "symbol": "Ruler",
+          "match": "class Ruler",
+          "purpose": "精细拖动、滚轮步进、按压圈与刻度跟随；取消释放当前按压状态",
+          "line": 1
+        }
       ]
     },
     {
@@ -565,6 +808,15 @@
       "evidence": [
         "examples/graph-slider/VALIDATION.md",
         "examples/graph-slider/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/graph-slider/model.js",
+          "symbol": "Scrub",
+          "match": "class Scrub",
+          "purpose": "指针位置和方向键映射为曲线进度；曲线几何及提示绘制位于 scene.js",
+          "line": 1
+        }
       ]
     },
     {
@@ -591,6 +843,15 @@
       "preview": "examples/inspora-footer/delivery/footer-preview.gif",
       "evidence": [
         "examples/inspora-footer/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/inspora-footer/horse-motion.js",
+          "symbol": "pose",
+          "match": "function pose(seconds,bounds)",
+          "purpose": "独立马匹骨架步态与横向路程的局部动效，可借用叙事性角色而非整页",
+          "line": 44
+        }
       ]
     },
     {
@@ -618,6 +879,18 @@
       "evidence": [
         "examples/invite-code-reveal/VALIDATION.md",
         "examples/invite-code-reveal/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/invite-code-reveal/src/scene.mjs",
+          "symbol": "interactiveState",
+          "match": "export function interactiveState(s,reduced=false)",
+          "purpose": "折叠容器从当前姿态平滑接续，减少动态直接取开合目标",
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "line": 15
+        }
       ]
     },
     {
@@ -646,6 +919,18 @@
       "evidence": [
         "examples/life-in-weeks/VALIDATION.md",
         "examples/life-in-weeks/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/life-in-weeks/src/controller.mjs",
+          "symbol": "Controller",
+          "match": "export class Controller",
+          "purpose": "年龄转换为周数并驱动网格、标记和滑杆联动；减少动态时直接呈现结果",
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "line": 6
+        }
       ]
     },
     {
@@ -674,6 +959,15 @@
         "examples/light-work/VALIDATION.md",
         "examples/light-work/SOURCE.md",
         "examples/light-work/RIGHTS.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/light-work/controller.js",
+          "symbol": "step",
+          "match": "function step(s,dt=1/60)",
+          "purpose": "悬停光照、开关与沿边界光段的局部过渡状态",
+          "line": 2
+        }
       ]
     },
     {
@@ -701,6 +995,15 @@
       "evidence": [
         "examples/luminous-tabs/VALIDATION.md",
         "examples/luminous-tabs/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/luminous-tabs/src/scene.mjs",
+          "symbol": "transition",
+          "match": "export function transition(values,targets,dt)",
+          "purpose": "选中权重的时间增量平滑；光效图层由 scene.js 的 tab 绘制",
+          "line": 7
+        }
       ]
     },
     {
@@ -728,6 +1031,25 @@
       "evidence": [
         "examples/macos-genie/VALIDATION.md",
         "examples/macos-genie/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/macos-genie/src/motion.js",
+          "symbol": "row",
+          "match": "function row(progress, v, source = WINDOW",
+          "purpose": "沿窗口高度抽样变形；依赖 calibrated.js 的形状模型，需按目标容器重建坐标",
+          "line": 22
+        },
+        {
+          "path": "examples/macos-genie/src/motion.js",
+          "symbol": "action",
+          "match": "function action(state, event)",
+          "purpose": "中途反向、目标重定向及减少动态的立即终态；不包含系统窗口集成",
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "line": 41
+        }
       ]
     },
     {
@@ -756,6 +1078,25 @@
       "evidence": [
         "examples/marcelo-portfolio-ribbon/REVIEW.md",
         "examples/marcelo-portfolio-ribbon/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/marcelo-portfolio-ribbon/src/geometry.mjs",
+          "symbol": "liveGeometry",
+          "match": "export function liveGeometry(x,velocity=0)",
+          "purpose": "把横向位置与速度映射为上下边缘，抽取条带弯曲而非整页",
+          "line": 8
+        },
+        {
+          "path": "examples/marcelo-portfolio-ribbon/src/geometry.mjs",
+          "symbol": "RibbonController",
+          "match": "export class RibbonController",
+          "purpose": "拖动、惯性衰减与减少动态时的静态速度；画面素材不属于该控制器",
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "line": 30
+        }
       ]
     },
     {
@@ -784,6 +1125,22 @@
         "examples/meeting-finder/VALIDATION.md",
         "examples/meeting-finder/SOURCE.md",
         "examples/meeting-finder/RIGHTS.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/meeting-finder/scene.js",
+          "symbol": "times",
+          "match": "function times(hour)",
+          "purpose": "把同一选定小时转换为各行时段；只含固定偏移，不支持真实夏令时",
+          "line": 6
+        },
+        {
+          "path": "examples/meeting-finder/app.js",
+          "symbol": "drag",
+          "match": "function drag(e)",
+          "purpose": "把指针位置换算为时间条目标小时；与 scene.js 的 times/state 配合",
+          "line": 3
+        }
       ]
     },
     {
@@ -811,6 +1168,25 @@
       "evidence": [
         "examples/micro-progress-button/REVIEW.md",
         "examples/micro-progress-button/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/micro-progress-button/src/motion.mjs",
+          "symbol": "ProgressController",
+          "match": "export class ProgressController",
+          "purpose": "开始、取消、重复激活保护及减少动态分支；真实成功和失败要在目标中扩展",
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "line": 6
+        },
+        {
+          "path": "examples/micro-progress-button/src/scene.mjs",
+          "symbol": "outline",
+          "match": "export function outline(q)",
+          "purpose": "按钮轮廓随进度状态形变的最小几何；不要移植整张固定尺寸画布",
+          "line": 3
+        }
       ]
     },
     {
@@ -838,6 +1214,15 @@
       "evidence": [
         "examples/minimap/VALIDATION.md",
         "examples/minimap/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/minimap/src/model.js",
+          "symbol": "Minimap.step",
+          "match": "step(dt){",
+          "purpose": "邻近刻度的目标高度与弹簧积分；不包含播放头或可缩放时间线",
+          "line": 8
+        }
       ]
     },
     {
@@ -866,6 +1251,22 @@
       "evidence": [
         "examples/model-router/VALIDATION.md",
         "examples/model-router/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/model-router/model.js",
+          "symbol": "Router.hoverRoute",
+          "match": "hoverRoute(index){",
+          "purpose": "共享高亮索引连接图中路径和表格行，snapshot 派生两组透明度",
+          "line": 13
+        },
+        {
+          "path": "examples/model-router/motion.js",
+          "symbol": "Transition.at",
+          "match": "at(now){",
+          "purpose": "策略分配、标签、选项与高亮的分通道过渡；与业务路由后端无关",
+          "line": 13
+        }
       ]
     },
     {
@@ -893,6 +1294,15 @@
       "evidence": [
         "examples/morphing-braille-loader/VALIDATION.md",
         "examples/morphing-braille-loader/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/morphing-braille-loader/scene.js",
+          "symbol": "dots",
+          "match": "function dots(c,x,y,t,success)",
+          "purpose": "点阵波动及成功勾形变；取这个局部绘制函数，不复制标签选择器全界面",
+          "line": 13
+        }
       ]
     },
     {
@@ -921,6 +1331,29 @@
       "evidence": [
         "examples/nested-tag-creation/VALIDATION.md",
         "examples/nested-tag-creation/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/nested-tag-creation/model.js",
+          "symbol": "Picker.beginCreate",
+          "match": "beginCreate(){",
+          "purpose": "从查询进入就地创建，保留草稿并切换到颜色选择",
+          "line": 17
+        },
+        {
+          "path": "examples/nested-tag-creation/model.js",
+          "symbol": "Picker.commit",
+          "match": "commit(index){",
+          "purpose": "校验所选颜色、去重创建和加入选中项，再返回列表",
+          "line": 18
+        },
+        {
+          "path": "examples/nested-tag-creation/model.js",
+          "symbol": "Picker.escape",
+          "match": "escape(){",
+          "purpose": "从创建退回列表或关闭选择器；目标应用需自行验证取消后的焦点恢复",
+          "line": 21
+        }
       ]
     },
     {
@@ -948,6 +1381,22 @@
       "evidence": [
         "examples/order-status-card/VALIDATION.md",
         "examples/order-status-card/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/order-status-card/scene.js",
+          "symbol": "state",
+          "match": "function state(t)",
+          "purpose": "阶段切换时文字、卡片与分段位置的组合状态；其时间轴数据仍需按真实订单状态替换",
+          "line": 6
+        },
+        {
+          "path": "examples/order-status-card/app.js",
+          "symbol": "choose",
+          "match": "function choose(k)",
+          "purpose": "选择阶段并播放到稳定帧；不提供物流数据或失败处理",
+          "line": 3
+        }
       ]
     },
     {
@@ -975,6 +1424,22 @@
       "evidence": [
         "examples/paid-stamp/VALIDATION.md",
         "examples/paid-stamp/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/paid-stamp/src/model.mjs",
+          "symbol": "reduce",
+          "match": "export function reduce(state,a)",
+          "purpose": "editor→stamping→confirm→final 状态流及撤回；不能作为真实付款确认",
+          "line": 7
+        },
+        {
+          "path": "examples/paid-stamp/src/model.mjs",
+          "symbol": "drawState",
+          "match": "export function drawState(s)",
+          "purpose": "将业务阶段映射到印章的局部姿态，隔离展示与编辑状态",
+          "line": 36
+        }
       ]
     },
     {
@@ -1003,6 +1468,22 @@
         "examples/paperclip-interaction/VALIDATION.md",
         "examples/paperclip-interaction/SOURCE.md",
         "examples/paperclip-interaction/RIGHTS.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/paperclip-interaction/app.js",
+          "symbol": "hover",
+          "match": "function hover(value)",
+          "purpose": "悬停目标的切换入口，配合 frame 中的扇形插值",
+          "line": 10
+        },
+        {
+          "path": "examples/paperclip-interaction/scene.js",
+          "symbol": "svg",
+          "match": "function svg(t,manual)",
+          "purpose": "纸页和纸夹的分层、扇形角度与平移；只研究容器层次，不复制分享目标",
+          "line": 12
+        }
       ]
     },
     {
@@ -1030,6 +1511,22 @@
       "evidence": [
         "examples/praveen-cards/VALIDATION.md",
         "examples/praveen-cards/RIGHTS.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/praveen-cards/src/left-surface.mjs",
+          "symbol": "paintDither",
+          "match": "export function paintDither(ctx,t)",
+          "purpose": "把密度场变为 Bayer 抖动覆盖率；需要自身内容的密度输入",
+          "line": 13
+        },
+        {
+          "path": "examples/praveen-cards/src/right-surface.mjs",
+          "symbol": "sculptureDensity",
+          "match": "export function sculptureDensity(x,y,t)",
+          "purpose": "字符表面所需的时间变化密度采样；依赖已抽样的截面数据",
+          "line": 24
+        }
       ]
     },
     {
@@ -1057,6 +1554,22 @@
       "evidence": [
         "examples/progress-squeeze/VALIDATION.md",
         "examples/progress-squeeze/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/progress-squeeze/src/scene.mjs",
+          "symbol": "reduce",
+          "match": "export function reduce(state,action)",
+          "purpose": "暂停与恢复的局部状态变更，保留真实进度来源的接入边界",
+          "line": 22
+        },
+        {
+          "path": "examples/progress-squeeze/src/scene.mjs",
+          "symbol": "knot",
+          "match": "export function knot(end,q)",
+          "purpose": "进度边缘挤压形状的曲线几何，不必借用整张演示卡",
+          "line": 35
+        }
       ]
     },
     {
@@ -1086,6 +1599,22 @@
         "examples/rag-pipeline/VALIDATION.md",
         "examples/rag-pipeline/SOURCE.md",
         "examples/rag-pipeline/RIGHTS.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/rag-pipeline/scene.js",
+          "symbol": "state",
+          "match": "function state(t)",
+          "purpose": "节点、进度、完成与重置的视觉状态编排；不是可执行 RAG 管线",
+          "line": 8
+        },
+        {
+          "path": "examples/rag-pipeline/scene.js",
+          "symbol": "handoffAt",
+          "match": "function handoffAt(t)",
+          "purpose": "相邻流程提示的接力位置和透明度，适合单独抽取阶段切换",
+          "line": 31
+        }
       ]
     },
     {
@@ -1113,6 +1642,15 @@
       "evidence": [
         "examples/ringwriter/VALIDATION.md",
         "examples/ringwriter/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/ringwriter/src/interaction.mjs",
+          "symbol": "createInteraction",
+          "match": "export function createInteraction()",
+          "purpose": "按住、释放、取消和重播的独立状态模型；文字几何仍需读取 scene 依赖",
+          "line": 32
+        }
       ]
     },
     {
@@ -1139,6 +1677,22 @@
       "preview": "examples/shiba-online/preview/shiba-online.gif",
       "evidence": [
         "examples/shiba-online/TECHNICAL.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/shiba-online/src/scene.mjs",
+          "symbol": "desktop",
+          "match": "function desktop(t,canvasFactory)",
+          "purpose": "复古窗口在循环中的层次与出现节奏；不是可操作桌面",
+          "line": 107
+        },
+        {
+          "path": "examples/shiba-online/src/scene.mjs",
+          "symbol": "shiba",
+          "match": "function shiba(t)",
+          "purpose": "角色姿态随时间切换的局部节奏；改编自己的角色与美术",
+          "line": 137
+        }
       ]
     },
     {
@@ -1166,6 +1720,25 @@
       "evidence": [
         "examples/sketcha-onboarding/VERIFICATION.md",
         "examples/sketcha-onboarding/SOURCES.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/sketcha-onboarding/src/motion.mjs",
+          "symbol": "poseAt",
+          "match": "export function poseAt(t, idleTime=0)",
+          "purpose": "角色、遮挡和揭幕的阶段姿态；需要自己的角色与品牌素材",
+          "line": 16
+        },
+        {
+          "path": "examples/sketcha-onboarding/src/motion.mjs",
+          "symbol": "OnboardingController",
+          "match": "export class OnboardingController",
+          "purpose": "低频触发、防止重复启动及减少动态跳到菜单的控制流",
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "line": 33
+        }
       ]
     },
     {
@@ -1194,6 +1767,25 @@
       "evidence": [
         "examples/spencer-playful-hovers/VALIDATION.md",
         "examples/spencer-playful-hovers/RIGHTS.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/spencer-playful-hovers/motion.js",
+          "symbol": "createModel",
+          "match": "function createModel(count)",
+          "purpose": "悬停、键盘选中和点击固定展开的状态模型；可替代纯 hover 的触屏入口",
+          "line": 7
+        },
+        {
+          "path": "examples/spencer-playful-hovers/app.js",
+          "symbol": "sync",
+          "match": "function sync(){",
+          "purpose": "从当前姿态中断重定向，减少动态时直接绘制目标状态",
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "line": 22
+        }
       ]
     },
     {
@@ -1223,6 +1815,15 @@
       "evidence": [
         "examples/spring-code-input/VALIDATION.md",
         "examples/spring-code-input/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/spring-code-input/src/model.mjs",
+          "symbol": "CodeInputModel",
+          "match": "export class CodeInputModel",
+          "purpose": "短码输入、检查、错误和重试的状态流；验证结果是本地演示逻辑",
+          "line": 4
+        }
       ]
     },
     {
@@ -1251,6 +1852,22 @@
       "evidence": [
         "examples/sticky-note-app/VALIDATION.md",
         "examples/sticky-note-app/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/sticky-note-app/scene.js",
+          "symbol": "action",
+          "match": "function action(s,a)",
+          "purpose": "笔记索引、分类标签和翻页方向的状态；需另外接入实际内容筛选与持久化",
+          "line": 11
+        },
+        {
+          "path": "examples/sticky-note-app/app.js",
+          "symbol": "step",
+          "match": "function step(d)",
+          "purpose": "前后翻页时机、方向与动画完成后的索引提交",
+          "line": 5
+        }
       ]
     },
     {
@@ -1279,6 +1896,22 @@
       "evidence": [
         "examples/tactile-controller/VALIDATION.md",
         "examples/tactile-controller/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/tactile-controller/app.js",
+          "symbol": "set",
+          "match": "function set(v,m)",
+          "purpose": "从当前数值/模式重定向到目标，避免整套固定画布移植",
+          "line": 1
+        },
+        {
+          "path": "examples/tactile-controller/app.js",
+          "symbol": "move",
+          "match": "function move(e)",
+          "purpose": "区分水平轨道与垂直旋钮拖动的数值换算；不控制系统设置",
+          "line": 1
+        }
       ]
     },
     {
@@ -1306,6 +1939,22 @@
       "evidence": [
         "examples/tap-get-invoice/VALIDATION.md",
         "examples/tap-get-invoice/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/tap-get-invoice/src/controller.mjs",
+          "symbol": "Controller",
+          "match": "export class Controller",
+          "purpose": "开合、反向中断及对应折面匹配，按目标文档尺寸重新适配",
+          "line": 4
+        },
+        {
+          "path": "examples/tap-get-invoice/src/scene.mjs",
+          "symbol": "scene",
+          "match": "export function scene(s)",
+          "purpose": "正反折面和笔迹的分层组合；示意发票数据与下载逻辑不必带入",
+          "line": 9
+        }
       ]
     },
     {
@@ -1334,6 +1983,22 @@
       "evidence": [
         "examples/task-card-gesture-stack/VALIDATION.md",
         "examples/task-card-gesture-stack/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/task-card-gesture-stack/app.js",
+          "symbol": "advance",
+          "match": "function advance(direction)",
+          "purpose": "滑动完成后推进索引与下一卡晋升；接入真实任务动作时另加撤销",
+          "line": 5
+        },
+        {
+          "path": "examples/task-card-gesture-stack/scene.js",
+          "symbol": "state",
+          "match": "function state(t)",
+          "purpose": "退场卡与下一张卡的同步位移、缩放和文本显露",
+          "line": 8
+        }
       ]
     },
     {
@@ -1363,6 +2028,15 @@
         "examples/thanos-snap-ticket/VALIDATION.md",
         "examples/thanos-snap-ticket/SOURCE.md",
         "examples/thanos-snap-ticket/RIGHTS.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/thanos-snap-ticket/scene.js",
+          "symbol": "particles",
+          "match": "function particles(list,p,incoming,reverse=false)",
+          "purpose": "粒子出现/消散前沿；需要自身票券内容，不代表退票或删除",
+          "line": 11
+        }
       ]
     },
     {
@@ -1389,6 +2063,15 @@
       "preview": "examples/tiny-animated-svg/preview/pro.gif",
       "evidence": [
         "examples/tiny-animated-svg/TECHNICAL.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/tiny-animated-svg/src/build.mjs",
+          "symbol": "svgAt",
+          "match": "export function svgAt(time=null)",
+          "purpose": "随时间改变的渐变与滤镜定义；只抽取材质参数并替换品牌字样",
+          "line": 8
+        }
       ]
     }
   ]

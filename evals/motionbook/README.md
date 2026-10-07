@@ -36,3 +36,14 @@ For each applicable criterion mark **met**, **partial**, or **failed**, citing a
 | Evidence honesty | Runtime captures/logs correspond to the adapted implementation. Offline previews and unavailable checks are identified; no claim of successful input handling based only on a GIF or build. |
 
 Keep retrieval failures separate from implementation failures. Change search behavior only when observed retrieval failures justify it. Record limitations when a runtime or source cannot be accessed, and compare variants under the same limitation.
+
+## Executable metadata and retrieval checks
+
+Run from the repository root:
+
+```sh
+python3 scripts/catalog.py --check
+python3 -m unittest discover -s evals/motionbook -p 'test_*.py' -v
+```
+
+`retrieval-cases.json` contains 21 realistic requests and the compact keyword queries an agent would derive from them, including Chinese/English terms, fit/type filters, no-match cases, word-boundary collisions and source-inspected reduced-motion requirements. `test_catalog.py` checks those results, a relocated installed-skill CLI, exact code anchors, gallery coverage and rejection of invalid metadata. This is deterministic search/metadata regression coverage, not evidence that an agent follows the full requests or that the referenced UI works. Continue to use the controlled comparison above for end-to-end skill claims. See [the latest recorded check](RESULTS.md).

@@ -26,13 +26,16 @@ The bundled [catalog](references/catalog.json) describes every published study i
 ```sh
 python3 <skill-directory>/scripts/search.py "标签 创建"
 python3 <skill-directory>/scripts/search.py "slider" --fit everyday
+python3 <skill-directory>/scripts/search.py "progress" --capability reduced-motion
 python3 <skill-directory>/scripts/search.py --kind landing-page
 python3 <skill-directory>/scripts/search.py "弹弓" --fit playful --json
 ```
 
-This is keyword retrieval, not semantic search. Translate a long request into a few Chinese or English behavior terms; retry shorter terms when no result matches. Do not fill an empty result with an unrelated effect. Filters are optional. Everyday studies win only relevance ties; explicitly seek playful or brand studies when the user wants them.
+This is keyword retrieval, not semantic search. Translate a long request into a few Chinese or English behavior terms; retry shorter terms when no result matches. English matches whole words (with a small set of plural aliases); Chinese supports substring terms. Do not fill an empty result with an unrelated effect. Filters are optional. Everyday studies win only relevance ties; explicitly seek playful or brand studies when the user wants them.
 
-Shortlist a few candidates and explain the specific reason for choosing: information hierarchy, state feedback, spatial continuity, material treatment, expressive motion or a classic interaction pattern. Use `extract` to define what to borrow and `avoid` to identify tradeoffs. A playful component should not become a default business control. A landing-page fragment must not be described as a complete website.
+Reduced-motion phrases (English or Chinese) and `--capability reduced-motion` require an explicitly inspected source branch. Capability indexing is deliberately partial: a missing match means unindexed or unverified, not that the entire library lacks the behavior. An indexed branch is source evidence only; inspect input wiring and test it in the target runtime. Treat keyboard, focus, async failure, touch and other requirements as constraints to inspect, not guarantees inferred from a keyword match.
+
+Shortlist a few candidates and explain the specific reason for choosing: information hierarchy, state feedback, spatial continuity, material treatment, expressive motion or a classic interaction pattern. Use `extract` to define what to borrow and `avoid` to identify tradeoffs. Follow `source_anchors` to the exact file, symbol and checked line for the smallest implementation slice. Each anchor includes its purpose and a unique literal match so maintainers can detect a stale location. Read that function plus its needed imports/callers; an anchor is a reading entry point, not a self-contained copy/paste recipe. A playful component should not become a default business control. A landing-page fragment must not be described as a complete website.
 
 For humans, the repository's [purpose index](https://github.com/blueberrycongee/motionbook/blob/main/catalog/README.md) accompanies its root visual gallery. A local checkout is optional for discovery. Resolve catalog paths against that checkout or `https://github.com/blueberrycongee/motionbook/blob/main/`; they are not files bundled inside the installed skill. Open only the chosen example's README, preview and evidence, then obtain its implementation if adaptation requires it. Use available GitHub tooling or ordinary repository access; the skill does not depend on a particular connector. If a preview cannot be inspected, describe the evidence limit rather than claiming visual quality.
 
