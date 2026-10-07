@@ -168,6 +168,14 @@ class Retrieval(unittest.TestCase):
         self.assertEqual(entry.pop('matched_source_anchors'), searcher.matched_source_anchors(original, 'send'))
         self.assertEqual(entry, original)
 
+    def test_dot_send_exposes_preview_pipeline_anchors(self):
+        result = subprocess.run([sys.executable, str(ROOT / 'skills/motionbook/scripts/search.py'), 'send', '--json', '--limit', '1'], text=True, capture_output=True, check=True)
+        entry = json.loads(result.stdout)[0]
+        self.assertEqual(entry['slug'], 'chatgpt-dot-send')
+        anchors = [a for a in entry['matched_source_anchors'] if a['path'] == 'examples/chatgpt-dot-send/src/pipeline.mjs']
+        self.assertEqual([a['symbol'] for a in anchors], ['plan', 'sample', 'layout', 'composerHeight', 'flip'])
+        self.assertEqual(searcher.source_capabilities(entry, anchors), set())
+
     def test_json_exposes_matched_part_without_mutating_catalog(self):
         before = copy.deepcopy(CATALOG)
         result = subprocess.run([sys.executable, str(ROOT / 'skills/motionbook/scripts/search.py'), 'starfield', '--json', '--limit', '1'], text=True, capture_output=True, check=True)

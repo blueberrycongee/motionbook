@@ -504,6 +504,41 @@
       ],
       "source_anchors": [
         {
+          "path": "examples/chatgpt-dot-send/src/pipeline.mjs",
+          "symbol": "plan",
+          "match": "export function plan({origin,body,bubble,textWidth,zoom=1,radii=[22,22,22,22]}){",
+          "purpose": "GIF 场景的发送几何：区分消息体、气泡和文字尺寸，按 CSS zoom 归一化；计算三片气泡的圆角、接缝和中心缩放",
+          "line": 5
+        },
+        {
+          "path": "examples/chatgpt-dot-send/src/pipeline.mjs",
+          "symbol": "sample",
+          "match": "export function sample(p,ms){",
+          "purpose": "GIF 场景的逐帧位移、压缩与三片气泡形变采样；返回 190 ms 形变/文字宽度锁、800 ms 消息体宽度锁/发送标记的状态",
+          "line": 17
+        },
+        {
+          "path": "examples/chatgpt-dot-send/src/pipeline.mjs",
+          "symbol": "layout",
+          "match": "export function layout(messages,composerHeight,{height=480,right=344,left=16}={}){",
+          "purpose": "GIF 场景随输入框高度重排消息；同发送者分组保留 4 px 间隙，末行与输入框保持 32 px 距离",
+          "line": 33
+        },
+        {
+          "path": "examples/chatgpt-dot-send/src/pipeline.mjs",
+          "symbol": "composerHeight",
+          "match": "export function composerHeight(ms,{newline,send}){",
+          "purpose": "GIF 多行输入框展开与发送后收缩：先发生高度跳变，再以 220 ms 间距变化带动消息目的地移动",
+          "line": 39
+        },
+        {
+          "path": "examples/chatgpt-dot-send/src/pipeline.mjs",
+          "symbol": "flip",
+          "match": "export const flip=(before,after,ms)=>",
+          "purpose": "GIF 旧消息行的 190 ms FLIP 偏移，叠加到每帧正常布局上，衔接发送前后的行位置",
+          "line": 44
+        },
+        {
           "path": "examples/chatgpt-dot-send/src/motion.mjs",
           "symbol": "frame",
           "match": "export function frame(g,elapsed,",
