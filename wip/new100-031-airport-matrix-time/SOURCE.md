@@ -1,9 +1,13 @@
-# Reference
+# Reference and evidence boundary
 
 [Inspora airport matrix time](https://www.inspora.design/posts/airport-matrix-time) · [Original post by @itshassco](https://x.com/itshassco/status/2106761271282737292)
 
-Previously verified original SHA-256: e42426cde53e80a68d77cb0fe676aae0b81d23469e8a61df505bec92906f8153. Original dimensions: 1728×1080; 1,094 frames at 60 fps. All original frames were personally inspected before the former workspace became unavailable. The original bytes and prior frame review are not currently restored or reverified.
+Recorded media URL: https://media.inspora.design/posts/c7d90752-8adc-4c58-889f-8c233a7bd87b.mp4
 
-Observed behavior includes a diagonal character scramble, rolling city capsule, search-list filtering and row replacement, then staggered appearance controls and a light-theme change that switches ink before the background finishes fading.
+Historical receipt: SHA-256 `e42426cde53e80a68d77cb0fe676aae0b81d23469e8a61df505bec92906f8153`, dimensions 1728×1080, 1,094 decoded frames at 60 fps. These are historical source facts, not a new review result. The original bytes and the earlier frame review were lost with the former workspace.
 
-This source replaced the unaccepted elastic web-dropdown study in slot 031. That earlier study failed strand-topology fidelity and was never counted. Its archived files are currently unavailable with the former workspace.
+A new ordinary request to the exact recorded URL on 2026-10-07 returned HTTP 403. A completed Library inventory and exact title/source-ID search found no saved original or verified frame package. No alternative route around the denial was attempted. No new frame-accurate fidelity claim is made.
+
+The earlier checkpoint described a diagonal character scramble, rolling city capsule, search filtering and row replacement, staggered appearance controls and a light-theme change where ink switches before the background finishes fading. The present implementation remains an approximation of that description until original evidence is available.
+
+This slot replaced an unaccepted elastic web-dropdown study that failed strand-topology fidelity. That study was never counted, and its prior archive is unavailable.

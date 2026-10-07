@@ -1,13 +1,26 @@
-✔ all displayed city and time characters are drawable (2.49091ms)
-✔ diagonal reveal resolves exactly to the requested city (0.239305ms)
-✔ city replacement changes only the final board row (0.881759ms)
-✔ search is case-insensitive and handles no matches (0.20532ms)
-✔ deterministic SVG supports both theme endpoints (3.795108ms)
-ℹ tests 5
+✔ DOM adapter opens, filters, selects by keyboard, restores focus and stops idle redraw (7.909204ms)
+✔ DOM adapter supports pointer selection, outside dismissal and Escape (2.072812ms)
+✔ DOM adapter changes theme, handles interruptions and respects reduced motion (3.888238ms)
+✔ DOM adapter leaves typed r alone and does not hijack modified browser shortcuts (2.385251ms)
+✔ all displayed city and time characters are drawable (1.37228ms)
+✔ diagonal reveal resolves exactly to the requested city (0.224617ms)
+✔ city replacement changes only the final board row (0.70544ms)
+✔ search is case-insensitive and handles no matches (0.237537ms)
+✔ deterministic SVG supports both theme endpoints (2.92072ms)
+✔ search matches accent-insensitive names, country and GMT offset (0.169234ms)
+✔ all pointer targets follow the actual drawn capsule dimensions (0.292439ms)
+✔ keyboard search wraps, selects a city and clears stale query state (0.440261ms)
+✔ no-result query is visible and cannot select an unrelated city (0.648494ms)
+✔ opening appearance dismisses search and Escape dismisses all overlays (1.139902ms)
+✔ selecting the current city does not restart an already settled reveal (1.51874ms)
+✔ interrupted theme switches preserve the current background then reach both endpoints (2.877466ms)
+✔ reduced motion settles all animation immediately and leaves no frame request (0.541513ms)
+✔ a settled scene stops animating until a new action needs it (0.151207ms)
+ℹ tests 18
 ℹ suites 0
-ℹ pass 5
+ℹ pass 18
 ℹ fail 0
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 209.322208
+ℹ duration_ms 130.461942

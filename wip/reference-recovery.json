@@ -25,5 +25,22 @@
     }
   ],
   "distribution": "Reference bytes are retained outside this repository. No source media is redistributed.",
-  "remaining": "Frame calibration, missing implementation, runtime interaction and visual acceptance remain open."
+  "remaining": "Frame calibration, missing implementation, runtime interaction and visual acceptance remain open.",
+  "subsequent_workspace_recovery": {
+    "checked_at_utc": "2026-10-07T08:59:31Z",
+    "radial": {
+      "http_status": 200,
+      "sha256": "b20ef592ea7f66e0d9e08f65588f4ca57481a00785cb683d38472fd479d17a9e",
+      "matches_historical_hash": true,
+      "decoded_video_frames": 595,
+      "full_decode": "passed",
+      "new_visual_review": false
+    },
+    "airport": {
+      "http_status": 403,
+      "request_stopped": true,
+      "earlier_download_bytes_located": false,
+      "note": "This later request does not invalidate the earlier successful recovery record. Original bytes are not present in the restored workspace."
+    }
+  }
 }

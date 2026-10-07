@@ -1,1 +1,41 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Airport matrix time</title><style>*{box-sizing:border-box}html,body{margin:0;background:#171717}body{min-height:100vh;display:grid;place-items:center}.stage{position:relative;width:min(100vw,160vh);aspect-ratio:1728/1080}#scene,#scene svg{display:block;width:100%;height:100%}#scene{cursor:pointer}#query{position:absolute;left:36.4%;top:91.4%;width:29%;height:4.5%;border:0;outline:0;background:transparent;color:#fafafa;font-family:Arial,sans-serif;font-size:clamp(10px,1.0417vw,18px);padding:0}</style></head><body><main class="stage"><div id="scene" role="application" aria-label="World clock matrix. Select the city capsule to search. Select the palette to change appearance. Press R to replay."></div><input id="query" aria-label="Search city" hidden autocomplete="off"></main><script src="font.js"></script><script src="scene.js"></script><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Airport matrix time · recovery WIP</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: #171717; }
+  body { min-height: 100vh; display: grid; place-items: center; }
+  .stage { position: relative; width: min(100vw,160vh); aspect-ratio: 1728 / 1080; }
+  #scene, #scene svg { display: block; width: 100%; height: 100%; }
+  .hit-target { position: absolute; border: 0; padding: 0; border-radius: 999px; background: transparent; cursor: pointer; }
+  .hit-target:focus-visible { outline: 2px solid #fafafa; outline-offset: 3px; }
+  .light .hit-target:focus-visible { outline-color: #111; }
+  [hidden] { display: none !important; }
+  #palette-button { left: 20.8333%; top: 3.4259%; width: 4.3982%; height: 5.1852%; }
+  [data-theme] { top: 20%; width: 3.2407%; height: 5.1852%; }
+  [data-theme="light"] { left: 2.3727%; }
+  [data-theme="dark"] { left: 6.2211%; }
+  #query { position: absolute; left: 36.4%; top: 91.4%; width: 29%; height: 4.5%; border: 0; outline: 0; background: transparent; color: #fafafa; font-family: Arial,sans-serif; font-size: clamp(10px,1.0417vw,18px); padding: 0; }
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+</style>
+</head>
+<body>
+<main class="stage" aria-label="World clock matrix source-only recovery study">
+  <div id="scene" aria-hidden="true"></div>
+  <button id="palette-button" class="hit-target" type="button" aria-label="Appearance" aria-expanded="false"></button>
+  <button data-theme="light" class="hit-target" type="button" aria-label="Light theme" aria-pressed="false" hidden></button>
+  <button data-theme="dark" class="hit-target" type="button" aria-label="Dark theme" aria-pressed="true" hidden></button>
+  <button id="city-button" class="hit-target" type="button" aria-haspopup="listbox" aria-expanded="false"></button>
+  <input id="query" role="combobox" aria-label="Search city" aria-autocomplete="list" aria-controls="results" aria-expanded="false" hidden autocomplete="off" spellcheck="false">
+  <div id="results" role="listbox" aria-label="Cities" hidden></div>
+  <p id="summary" class="sr-only" role="status" aria-live="polite"></p>
+</main>
+<script src="font.js"></script>
+<script src="scene.js"></script>
+<script src="controller.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
