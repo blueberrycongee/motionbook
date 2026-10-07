@@ -1,0 +1,81 @@
+{
+  "source_commit": "7fd789b922ddf4c81ffcebc36016bb520fe354b1",
+  "query_evidence": "Queries are reported by the implementers; reference selections are corroborated by materialization records. Full observation tool traces were not independently audited.",
+  "trials": [
+    {
+      "id": "K",
+      "reported_queries": [
+        "tabs",
+        "navigation switcher"
+      ],
+      "selected_reference": "luminous-tabs",
+      "materialized_references": [
+        {
+          "slug": "luminous-tabs",
+          "readme": "examples/luminous-tabs/README.md",
+          "preview": "examples/luminous-tabs/preview/luminous-tabs.gif",
+          "source_paths": [
+            "examples/luminous-tabs/src/scene.mjs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L",
+      "reported_queries": [
+        "subscribe bell"
+      ],
+      "selected_reference": "youtube-subscribe-feedback",
+      "materialized_references": [
+        {
+          "slug": "youtube-subscribe-feedback",
+          "readme": "examples/youtube-subscribe-feedback/README.md",
+          "preview": "examples/youtube-subscribe-feedback/output/07-youtube-subscribe-demo.gif",
+          "source_paths": [
+            "examples/youtube-subscribe-feedback/src/motion.mjs",
+            "examples/youtube-subscribe-feedback/src/app.mjs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M",
+      "reported_queries": [
+        "tab navigation",
+        "switcher active",
+        "pill",
+        "selection",
+        "标签"
+      ],
+      "selected_reference": "luminous-tabs",
+      "materialized_references": [
+        {
+          "slug": "luminous-tabs",
+          "readme": "examples/luminous-tabs/README.md",
+          "preview": "examples/luminous-tabs/preview/luminous-tabs.gif",
+          "source_paths": [
+            "examples/luminous-tabs/src/scene.mjs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "N",
+      "reported_queries": [
+        "subscribe"
+      ],
+      "selected_reference": "youtube-subscribe-feedback",
+      "materialized_references": [
+        {
+          "slug": "youtube-subscribe-feedback",
+          "readme": "examples/youtube-subscribe-feedback/README.md",
+          "preview": "examples/youtube-subscribe-feedback/output/07-youtube-subscribe-demo.gif",
+          "source_paths": [
+            "examples/youtube-subscribe-feedback/src/motion.mjs",
+            "examples/youtube-subscribe-feedback/src/app.mjs"
+          ]
+        }
+      ]
+    }
+  ]
+}

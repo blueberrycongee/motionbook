@@ -1,0 +1,71 @@
+{
+  "review": "Independent blind review; neither root scores nor condition mapping was provided.",
+  "frozen_at_utc": "2026-10-07T18:52:00Z",
+  "frozen_before_unmask": true,
+  "dimensions": [
+    "reference_discovery",
+    "brief_and_state_semantics",
+    "reference_adaptation",
+    "visual_coherence_and_scope",
+    "sampled_motion",
+    "interruption_and_reduced_motion"
+  ],
+  "scale": "0–4 per axis, total 0–24. Strong within the inspected scripted scope is not flawless production quality.",
+  "method": "Inspected reference and output sheets, selected full-size frames, source, reports and retrieval records; reran all four submitted test suites. Did not view real-time playback or test a browser.",
+  "results": [
+    {
+      "id": "K",
+      "scores": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "total": 24,
+      "observation": "Suitable reference, clear logical selection, coordinated local light and continuous interruption handling. Stronger cool glow and a small residual underline tail are styling details."
+    },
+    {
+      "id": "L",
+      "scores": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "total": 24,
+      "observation": "Relevant feedback reference, immediate persistent labels and finite cue/particles/bell response. The compact warm card passes repeat, undo, retry and reduced-motion checks."
+    },
+    {
+      "id": "M",
+      "scores": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "total": 24,
+      "observation": "Suitable reference and the same useful relationships, with smaller warm tabs and a restrained underline tail. No material state or sampled-motion regression."
+    },
+    {
+      "id": "N",
+      "scores": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "total": 24,
+      "observation": "The same requested feedback relationships and correct state handling. A wider green card adds context, judged coherent rather than a material scope failure."
+    }
+  ],
+  "decision": "Both pairs tie, with all four scoring 24/24. The coarse rubric saturates on these successful scripted artifacts. Equal totals establish neither equal underlying quality, general non-inferiority nor a benefit from shorter wording.",
+  "limits": "Materialization is logged and reports name image/source observations, but condition-free raw observation traces were not independently available. Capture duration is not end-to-end generation or retrieval timing."
+}

@@ -11,4 +11,4 @@ The 38 request/query cases cover relevant results, no-match behavior, filters, s
 
 ## Reference-supplied adaptation evidence
 
-[Ten animation studies across two rounds](adaptation-comparison/README.md) compare instruction variants. The first candidate splits the results and is not promoted; a separate content-scope clause ties in independent review on two new briefs. Neither candidate is promoted. Source replay checks join this suite, while visual judgments remain exploratory and separate from retrieval regression coverage.
+[Fourteen animation studies across three rounds](adaptation-comparison/README.md) compare instruction variants. The first candidate splits the results and is not promoted; a separate content-scope clause ties in independent review on two new briefs. A third round adds discovery and finds no persuasive benefit from a shorter entrypoint. No candidate is promoted. Source replay checks join this suite, while visual judgments remain exploratory and separate from retrieval regression coverage.

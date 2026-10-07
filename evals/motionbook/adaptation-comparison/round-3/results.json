@@ -1,0 +1,92 @@
+{
+  "repository_source_sha": "7fd789b922ddf4c81ffcebc36016bb520fe354b1",
+  "rubric": [
+    "reference_discovery",
+    "brief_and_state_semantics",
+    "reference_adaptation",
+    "visual_coherence_and_scope",
+    "sampled_motion",
+    "interruption_and_reduced_motion"
+  ],
+  "score_scale": "Six dimensions, 0–4 each; descriptive total 0–24. Do not compare these totals with the earlier five-dimension rounds.",
+  "scores_frozen_at_utc": "2026-10-07T18:51:10.294602+00:00",
+  "review": "Root and independent scores were both frozen before condition disclosure. Sampled-frame review only.",
+  "results": [
+    {
+      "id": "K",
+      "task": "navigation",
+      "condition": "lean",
+      "scores": [
+        4,
+        4,
+        4,
+        3,
+        3,
+        4
+      ],
+      "total": 22,
+      "observation": "A suitable luminous-tabs reference, readable immediate selection and coordinated underline/light decay. Brief overlap of old and new indicators during redirects; small type and an extra eyebrow, but coherent overall.",
+      "source_sha256": "eb2d422340d49e83819742cc2528d78d9f9a9bd8733fb3fdf435a96a12d6e8bb"
+    },
+    {
+      "id": "L",
+      "task": "subscribe",
+      "condition": "current",
+      "scores": [
+        4,
+        4,
+        4,
+        3,
+        3,
+        4
+      ],
+      "total": 22,
+      "observation": "A suitable subscribe-feedback reference, immediate persistent Following state, finite particles and local bell feedback. Duplicate activation, undo and retry behave correctly; surrounding identity copy remains contained.",
+      "source_sha256": "1f956aa630dafe16376b87e062d6d5e59a7fd535009e6b27d9ee9106f31402d7"
+    },
+    {
+      "id": "M",
+      "task": "navigation",
+      "condition": "current",
+      "scores": [
+        4,
+        4,
+        4,
+        3,
+        3,
+        4
+      ],
+      "total": 22,
+      "observation": "The same suitable reference, stable labels and correct scripted selections in a small component. Residual underline decay during redirects; no decisive visual difference from K.",
+      "source_sha256": "c4cee57a959d4176692e34f8c6876144aa787eb0f14567cd2508d1be2a20667e"
+    },
+    {
+      "id": "N",
+      "task": "subscribe",
+      "condition": "lean",
+      "scores": [
+        4,
+        4,
+        4,
+        2,
+        3,
+        4
+      ],
+      "total": 21,
+      "observation": "The suitable subscribe-feedback reference and correct state transitions are retained. Additional studio, creative-circle and preview labels add small decorative copy around a larger card; sampled interruption and reduced states remain correct.",
+      "source_sha256": "ad67fe12316f42ab706c48444c8f0ca233e3fbb3fad87b4dc662e8e71d70e01a"
+    }
+  ],
+  "generation": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "requested_budget_minutes_per_worker": 12,
+    "workers": 4,
+    "samples_per_condition_and_brief": 1,
+    "reference_limit_per_worker": 2,
+    "budget_note": "A common requested maximum does not equalize actual compute, retrieval latency or elapsed time."
+  },
+  "decision": "Keep the production skill unchanged. Root ties navigation and slightly prefers current wording on subscribe; independent review ties all four at the rubric ceiling. No persuasive benefit from the lean condition is established.",
+  "independent_review": "independent-results.json",
+  "limits": "Discovery observation claims rely on retrieval records and worker reports; raw observation traces were not independently audited. Offline captures and source tests do not establish browser, device or real-time interaction behavior."
+}

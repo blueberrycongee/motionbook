@@ -1,9 +1,10 @@
-# Reference-supplied adaptation comparison
+# Motionbook adaptation comparisons
 
-Ten reproducible animation studies comparing Motionbook guidance. Neither candidate showed a persuasive, consistent benefit across the available judgments; the skill remains unchanged. This is separate from the catalog/retrieval regression suite: every condition already receives a reference, so it does not measure reference discovery.
+Fourteen reproducible animation studies compare Motionbook guidance across three rounds. No candidate showed a persuasive, consistent benefit across the available judgments; the skill remains unchanged. Rounds 1–2 supply references directly, while Round 3 adds catalog discovery. These exploratory judgments are separate from the deterministic retrieval regression suite.
 
 - [Round 1: six studies, no stable winner](round-1/README.md)
 - [Round 2: four new studies of content scope](round-2/README.md)
+- [Round 3: discovery with a shorter entrypoint](round-3/README.md)
 - [Briefs and exact tested conditions](round-1/CONDITIONS.md)
 - [Scores and source fingerprints](round-1/results.json)
 
@@ -15,7 +16,7 @@ From the repository root, with Node.js 20+ and Python 3.10+:
 python3 evals/motionbook/adaptation-comparison/verify.py
 ```
 
-This runs both rounds' submission tests, verifies its recorded source fingerprint, re-emits 153 deterministic SVG samples per study, and parses them as XML. It is an offline source/contract check, not visual acceptance or browser testing.
+This runs all three rounds' submission tests, verifies its recorded source fingerprint, re-emits 153 deterministic SVG samples per study, and parses them as XML. It is an offline source/contract check, not visual acceptance or browser testing.
 
 For PNGs, contact sheets, GIF and MP4, also install Pillow, Inkscape and FFmpeg. Original captures used Node 24.19.0, Inkscape 1.4, FFmpeg 7.1.5, Pillow 12.3.0, and built-in sans-serif fonts. Font/rasterizer differences may change pixels across systems.
 

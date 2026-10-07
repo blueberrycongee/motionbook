@@ -27,7 +27,7 @@ def verify(round_dir=None):
         if sum(trial['scores']) != trial['total'] or not all(0 <= n <= 4 for n in trial['scores']):
             raise ValueError(f"Invalid score: {trial['id']}")
         subprocess.run(['node', '--check', str(source)], check=True, capture_output=True, timeout=30)
-        tests = sorted(case.glob('test*.mjs'))
+        tests = sorted(case.glob('*test*.mjs'))
         if not tests:
             raise ValueError(f"No source tests: {trial['id']}")
         for test in tests:
