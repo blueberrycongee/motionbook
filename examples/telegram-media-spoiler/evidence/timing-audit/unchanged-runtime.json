@@ -1,0 +1,22 @@
+{
+  "src/motion.js": {
+    "unchanged": true,
+    "sha256": "c806335150a590607519bc11be2be303092c35a7f077122c08c47b13b5c64930"
+  },
+  "src/app.js": {
+    "unchanged": true,
+    "sha256": "b8b2aeb266a906321bde07f685721eaf7a6076a47ff3b11e677ad6add9ba9e39"
+  },
+  "assets/original-still-life.png": {
+    "unchanged": true,
+    "sha256": "65c996745ca8b225f15288a90c3a75b872b3b747e2ea4b57d2969c56d4306218"
+  },
+  "assets/original-still-life-blurred.png": {
+    "unchanged": true,
+    "sha256": "2c709ee424fc3f363a5e13b61f6813b87ee18804648d3627e7f6ad3f0a919249"
+  },
+  "standalone.html": {
+    "unchanged": true,
+    "sha256": "c8e461363ffcdf03af40eab86fcdf7b914628ea70704241e7bac761610f38ba6"
+  }
+}

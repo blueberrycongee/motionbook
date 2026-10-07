@@ -1,40 +1,451 @@
 [
-  {"id":"admin-create-tags-zh","request":"给后台管理系统找标签就地创建，只借用状态流。","query":"标签 创建","top":"nested-tag-creation"},
-  {"id":"admin-create-tags-en","request":"Find a nested tag picker with inline creation.","query":"nested tag creation","top":"nested-tag-creation"},
-  {"id":"portfolio-hover","request":"给作品集找有趣的 hover 参考，需要触屏替代入口。","query":"portfolio hover","top":"spencer-playful-hovers"},
-  {"id":"ordinary-slider","request":"给日常设置找精细数值滑杆，避免弹弓玩具。","query":"slider","fit":"everyday","top":"fractional-slider","exclude":["angry-sliders"]},
-  {"id":"playful-slider","request":"给小游戏找弹弓式滑杆，保留趣味表达。","query":"slider","fit":"playful","top":"angry-sliders"},
-  {"id":"calendar-range","request":"找可反向拖动的日历时间区间选择参考。","query":"calendar range selection","top":"adaptive-precision"},
-  {"id":"cross-zone-meeting","request":"找跨时区会议时段比较的交互。","query":"会议 时区","top":"meeting-finder"},
-  {"id":"progress-submit","request":"给提交按钮增加附近可见的进度反馈。","query":"progress button submit","top":"micro-progress-button"},
-  {"id":"otp-error","request":"找验证码错误重试的状态与反馈。","query":"验证码 错误 重试","top":"spring-code-input"},
-  {"id":"agent-approval","request":"找 Agent 计划批准和跳过的状态流。","query":"agent approval","top":"agent-plan"},
-  {"id":"word-boundary-ring","request":"找环形字母排版，不要把 ring 匹配到 spring。","query":"ring","top":"ringwriter","exclude":["spring-code-input","elastic-string-clock"]},
-  {"id":"plural-tags","request":"Find a tag interaction using the singular search word.","query":"tag","top":"nested-tag-creation"},
-  {"id":"landing-fragments","request":"按页面片段类型浏览。","query":"","kind":"landing-page","exact":["inspora-footer","marcelo-portfolio-ribbon","spencer-playful-hovers"]},
-  {"id":"reduced-progress-en","request":"Find button progress with an inspected reduced-motion branch.","query":"progress reduced motion","top":"micro-progress-button","capability_required":"reduced-motion"},
-  {"id":"reduced-progress-zh","request":"找支持减少动态效果的进度按钮源码。","query":"进度 减少动态效果","top":"micro-progress-button","capability_required":"reduced-motion"},
-  {"id":"reduced-progress-css","request":"Find progress code honoring prefers-reduced-motion.","query":"progress prefers-reduced-motion","top":"micro-progress-button","capability_required":"reduced-motion"},
-  {"id":"reduced-hover","request":"Find a portfolio hover with reduced motion.","query":"portfolio hover","capability":"reduced-motion","top":"spencer-playful-hovers","capability_required":"reduced-motion"},
-  {"id":"reduced-only","request":"Browse only source-inspected reduced-motion examples.","query":"reduce motion","capability_required":"reduced-motion","nonempty":true},
-  {"id":"unindexed-reduced","request":"Does the minimap have an indexed reduced-motion branch?","query":"minimap reduced motion","exact":[]},
-  {"id":"no-olfactory-password-zh","request":"找通过气味反馈提示密码强度的示例；没有就直接说没有。","query":"气味 密码 强度","exact":[]},
-  {"id":"no-olfactory-password-en","request":"Find olfactory feedback for password strength; do not substitute a loader.","query":"olfactory password strength","exact":[]},
-  {"id":"starfield","request":"I want a quiet ambient starfield behind an onboarding title, not an entire clone of a collaboration app.","query":"starfield","top":"chatgpt-space-welcome","matched_anchors":["StarField","SpaceScene.glow","SpaceScene.star layer"],"not_matched_anchors":["cardPose","editProgress"],"caveats_contains":["不带入卡片","warp","密度","初始透明度为零"]},
-  {"id":"ambient-stars","request":"I want a quiet ambient starfield behind an onboarding title, not an entire clone of a collaboration app.","query":"quiet ambient stars","top":"chatgpt-space-welcome","matched_anchors":["StarField","SpaceScene.glow","SpaceScene.star layer"],"not_matched_anchors":["cardPose","editProgress"],"caveats_contains":["不带入卡片","warp","密度","初始透明度为零"]},
-  {"id":"star-singular","request":"I want a quiet ambient starfield behind an onboarding title, not an entire clone of a collaboration app.","query":"star","top":"chatgpt-space-welcome","matched_anchors":["StarField","SpaceScene.glow","SpaceScene.star layer"],"not_matched_anchors":["cardPose","editProgress"],"caveats_contains":["不带入卡片","warp","密度","初始透明度为零"]},
-  {"id":"starfield-zh","request":"I want a quiet ambient starfield behind an onboarding title, not an entire clone of a collaboration app.","query":"星空 背景","top":"chatgpt-space-welcome","matched_anchors":["StarField","SpaceScene.glow","SpaceScene.star layer"],"not_matched_anchors":["cardPose","editProgress"],"caveats_contains":["不带入卡片","warp","密度","初始透明度为零"]},
-  {"id":"starfield-reduced","request":"I want a quiet ambient starfield behind an onboarding title, not an entire clone of a collaboration app.","query":"starfield reduced motion","top":"chatgpt-space-welcome","matched_anchors":["StarField","SpaceScene.glow","SpaceScene.star layer"],"not_matched_anchors":["cardPose","editProgress"],"caveats_contains":["不带入卡片","warp","密度","初始透明度为零"],"capability_required":"reduced-motion"},
-  {"id":"advanced-settings","request":"My dashboard has dense settings; show me a familiar way to disclose advanced options without turning the whole page into a toy.","query":"advanced settings","top":"automation-manager","matched_anchors":["schedule custom-rule disclosure","modal advanced-rule branch","Controller.action advanced/save-rule"],"not_matched_anchors":["Controller.navigate","Controller.performNavigation"],"caveats_contains":["不带入任务列表","自动保存","取消/保存","焦点和键盘"]},
-  {"id":"disclosure","request":"My dashboard has dense settings; show me a familiar way to disclose advanced options without turning the whole page into a toy.","query":"disclosure","top":"automation-manager","matched_anchors":["schedule custom-rule disclosure","modal advanced-rule branch","Controller.action advanced/save-rule"],"not_matched_anchors":["Controller.navigate","Controller.performNavigation"],"caveats_contains":["不带入任务列表","自动保存","取消/保存","焦点和键盘"]},
-  {"id":"advanced-only","request":"My dashboard has dense settings; show me a familiar way to disclose advanced options without turning the whole page into a toy.","query":"advanced","top":"automation-manager","matched_anchors":["schedule custom-rule disclosure","modal advanced-rule branch","Controller.action advanced/save-rule"],"not_matched_anchors":["Controller.navigate","Controller.performNavigation"],"caveats_contains":["不带入任务列表","自动保存","取消/保存","焦点和键盘"]},
-  {"id":"settings-zh","request":"My dashboard has dense settings; show me a familiar way to disclose advanced options without turning the whole page into a toy.","query":"高级 设置 渐进披露","top":"automation-manager","matched_anchors":["schedule custom-rule disclosure","modal advanced-rule branch","Controller.action advanced/save-rule"],"not_matched_anchors":["Controller.navigate","Controller.performNavigation"],"caveats_contains":["不带入任务列表","自动保存","取消/保存","焦点和键盘"]},
-  {"id":"no-accordion-invention","request":"Find a conventional accordion; do not relabel an advanced modal as one.","query":"accordion","exact":[]},
-  {"id":"cancel-only","request":"Our asynchronous form submit must expose cancel and reduced-motion support; identify an implementation starting point and integration gaps.","query":"cancel","top":"micro-progress-button","matched_anchors":["ProgressController"],"caveats_contains":["本地状态","演示复位而非成功","网络取消"]},
-  {"id":"cancel-submit-reduced","request":"Our asynchronous form submit must expose cancel and reduced-motion support; identify an implementation starting point and integration gaps.","query":"submit cancel reduced-motion","top":"micro-progress-button","matched_anchors":["ProgressController"],"caveats_contains":["本地状态","演示复位而非成功","网络取消"],"capability_required":"reduced-motion"},
-  {"id":"capability-not-borrowed-from-other-part","request":"Does the collaboration-card part have an indexed reduced-motion branch?","query":"collaboration reduced-motion","exact":[]},
-  {"id":"cards-do-not-inherit-starfield-capability","request":"Find cards with indexed reduced motion; do not infer it from an unrelated background.","query":"cards reduced motion","exclude":["chatgpt-space-welcome"],"capability_required":"reduced-motion"},
-  {"id":"full-starfield-request","request":"I want a quiet ambient starfield behind an onboarding title, not an entire clone of a collaboration app.","query":"I want a quiet ambient starfield behind an onboarding title, not an entire clone of a collaboration app.","top":"chatgpt-space-welcome","matched_anchors":["StarField","SpaceScene.glow","SpaceScene.star layer"],"not_matched_anchors":["cardPose","editProgress"],"caveats_contains":["不带入卡片","warp","密度","初始透明度为零"]},
-  {"id":"full-settings-request","request":"My dashboard has dense settings; show me a familiar way to disclose advanced options without turning the whole page into a toy.","query":"My dashboard has dense settings; show me a familiar way to disclose advanced options without turning the whole page into a toy.","top":"automation-manager","matched_anchors":["schedule custom-rule disclosure","modal advanced-rule branch","Controller.action advanced/save-rule"],"not_matched_anchors":["Controller.navigate","Controller.performNavigation"],"caveats_contains":["不带入任务列表","自动保存","取消/保存","焦点和键盘"]},
-  {"id":"full-submit-request","request":"Our asynchronous form submit must expose cancel and reduced-motion support; identify an implementation starting point and integration gaps.","query":"Our asynchronous form submit must expose cancel and reduced-motion support; identify an implementation starting point and integration gaps.","top":"micro-progress-button","matched_anchors":["ProgressController"],"caveats_contains":["本地状态","演示复位而非成功","网络取消"],"capability_required":"reduced-motion"}
+  {
+    "id": "admin-create-tags-zh",
+    "request": "给后台管理系统找标签就地创建，只借用状态流。",
+    "query": "标签 创建",
+    "top": "nested-tag-creation"
+  },
+  {
+    "id": "admin-create-tags-en",
+    "request": "Find a nested tag picker with inline creation.",
+    "query": "nested tag creation",
+    "top": "nested-tag-creation"
+  },
+  {
+    "id": "portfolio-hover",
+    "request": "给作品集找有趣的 hover 参考，需要触屏替代入口。",
+    "query": "portfolio hover",
+    "top": "spencer-playful-hovers"
+  },
+  {
+    "id": "ordinary-slider",
+    "request": "给日常设置找精细数值滑杆，避免弹弓玩具。",
+    "query": "slider",
+    "fit": "everyday",
+    "top": "fractional-slider",
+    "exclude": [
+      "angry-sliders"
+    ]
+  },
+  {
+    "id": "playful-slider",
+    "request": "给小游戏找弹弓式滑杆，保留趣味表达。",
+    "query": "slider",
+    "fit": "playful",
+    "top": "angry-sliders"
+  },
+  {
+    "id": "calendar-range",
+    "request": "找可反向拖动的日历时间区间选择参考。",
+    "query": "calendar range selection",
+    "top": "adaptive-precision"
+  },
+  {
+    "id": "cross-zone-meeting",
+    "request": "找跨时区会议时段比较的交互。",
+    "query": "会议 时区",
+    "top": "meeting-finder"
+  },
+  {
+    "id": "progress-submit",
+    "request": "给提交按钮增加附近可见的进度反馈。",
+    "query": "progress button submit",
+    "top": "micro-progress-button"
+  },
+  {
+    "id": "otp-error",
+    "request": "找验证码错误重试的状态与反馈。",
+    "query": "验证码 错误 重试",
+    "top": "spring-code-input"
+  },
+  {
+    "id": "agent-approval",
+    "request": "找 Agent 计划批准和跳过的状态流。",
+    "query": "agent approval",
+    "top": "agent-plan"
+  },
+  {
+    "id": "word-boundary-ring",
+    "request": "找环形字母排版，不要把 ring 匹配到 spring。",
+    "query": "ring",
+    "top": "ringwriter",
+    "exclude": [
+      "spring-code-input",
+      "elastic-string-clock"
+    ]
+  },
+  {
+    "id": "plural-tags",
+    "request": "Find a tag interaction using the singular search word.",
+    "query": "tag",
+    "top": "nested-tag-creation"
+  },
+  {
+    "id": "landing-fragments",
+    "request": "按页面片段类型浏览。",
+    "query": "",
+    "kind": "landing-page",
+    "exact": [
+      "inspora-footer",
+      "mac-studio-crossfade-gallery",
+      "mac-studio-hero-transition",
+      "mac-studio-layered-assembly",
+      "mac-studio-parallax-features",
+      "mac-studio-scroll-relay",
+      "mac-studio-turntable",
+      "marcelo-portfolio-ribbon",
+      "spencer-playful-hovers"
+    ]
+  },
+  {
+    "id": "reduced-progress-en",
+    "request": "Find button progress with an inspected reduced-motion branch.",
+    "query": "progress reduced motion",
+    "top": "micro-progress-button",
+    "capability_required": "reduced-motion"
+  },
+  {
+    "id": "reduced-progress-zh",
+    "request": "找支持减少动态效果的进度按钮源码。",
+    "query": "进度 减少动态效果",
+    "top": "micro-progress-button",
+    "capability_required": "reduced-motion"
+  },
+  {
+    "id": "reduced-progress-css",
+    "request": "Find progress code honoring prefers-reduced-motion.",
+    "query": "progress prefers-reduced-motion",
+    "top": "micro-progress-button",
+    "capability_required": "reduced-motion"
+  },
+  {
+    "id": "reduced-hover",
+    "request": "Find a portfolio hover with reduced motion.",
+    "query": "portfolio hover",
+    "capability": "reduced-motion",
+    "top": "spencer-playful-hovers",
+    "capability_required": "reduced-motion"
+  },
+  {
+    "id": "reduced-only",
+    "request": "Browse only source-inspected reduced-motion examples.",
+    "query": "reduce motion",
+    "capability_required": "reduced-motion",
+    "nonempty": true
+  },
+  {
+    "id": "unindexed-reduced",
+    "request": "Does the minimap have an indexed reduced-motion branch?",
+    "query": "minimap reduced motion",
+    "exact": []
+  },
+  {
+    "id": "no-olfactory-password-zh",
+    "request": "找通过气味反馈提示密码强度的示例；没有就直接说没有。",
+    "query": "气味 密码 强度",
+    "exact": []
+  },
+  {
+    "id": "no-olfactory-password-en",
+    "request": "Find olfactory feedback for password strength; do not substitute a loader.",
+    "query": "olfactory password strength",
+    "exact": []
+  },
+  {
+    "id": "starfield",
+    "request": "I want a quiet ambient starfield behind an onboarding title, not an entire clone of a collaboration app.",
+    "query": "starfield",
+    "top": "chatgpt-space-welcome",
+    "matched_anchors": [
+      "StarField",
+      "SpaceScene.glow",
+      "SpaceScene.star layer"
+    ],
+    "not_matched_anchors": [
+      "cardPose",
+      "editProgress"
+    ],
+    "caveats_contains": [
+      "不带入卡片",
+      "warp",
+      "密度",
+      "初始透明度为零"
+    ]
+  },
+  {
+    "id": "ambient-stars",
+    "request": "I want a quiet ambient starfield behind an onboarding title, not an entire clone of a collaboration app.",
+    "query": "quiet ambient stars",
+    "top": "chatgpt-space-welcome",
+    "matched_anchors": [
+      "StarField",
+      "SpaceScene.glow",
+      "SpaceScene.star layer"
+    ],
+    "not_matched_anchors": [
+      "cardPose",
+      "editProgress"
+    ],
+    "caveats_contains": [
+      "不带入卡片",
+      "warp",
+      "密度",
+      "初始透明度为零"
+    ]
+  },
+  {
+    "id": "star-singular",
+    "request": "I want a quiet ambient starfield behind an onboarding title, not an entire clone of a collaboration app.",
+    "query": "star",
+    "top": "chatgpt-space-welcome",
+    "matched_anchors": [
+      "StarField",
+      "SpaceScene.glow",
+      "SpaceScene.star layer"
+    ],
+    "not_matched_anchors": [
+      "cardPose",
+      "editProgress"
+    ],
+    "caveats_contains": [
+      "不带入卡片",
+      "warp",
+      "密度",
+      "初始透明度为零"
+    ]
+  },
+  {
+    "id": "starfield-zh",
+    "request": "I want a quiet ambient starfield behind an onboarding title, not an entire clone of a collaboration app.",
+    "query": "星空 背景",
+    "top": "chatgpt-space-welcome",
+    "matched_anchors": [
+      "StarField",
+      "SpaceScene.glow",
+      "SpaceScene.star layer"
+    ],
+    "not_matched_anchors": [
+      "cardPose",
+      "editProgress"
+    ],
+    "caveats_contains": [
+      "不带入卡片",
+      "warp",
+      "密度",
+      "初始透明度为零"
+    ]
+  },
+  {
+    "id": "starfield-reduced",
+    "request": "I want a quiet ambient starfield behind an onboarding title, not an entire clone of a collaboration app.",
+    "query": "starfield reduced motion",
+    "top": "chatgpt-space-welcome",
+    "matched_anchors": [
+      "StarField",
+      "SpaceScene.glow",
+      "SpaceScene.star layer"
+    ],
+    "not_matched_anchors": [
+      "cardPose",
+      "editProgress"
+    ],
+    "caveats_contains": [
+      "不带入卡片",
+      "warp",
+      "密度",
+      "初始透明度为零"
+    ],
+    "capability_required": "reduced-motion"
+  },
+  {
+    "id": "advanced-settings",
+    "request": "My dashboard has dense settings; show me a familiar way to disclose advanced options without turning the whole page into a toy.",
+    "query": "advanced settings",
+    "top": "automation-manager",
+    "matched_anchors": [
+      "schedule custom-rule disclosure",
+      "modal advanced-rule branch",
+      "Controller.action advanced/save-rule"
+    ],
+    "not_matched_anchors": [
+      "Controller.navigate",
+      "Controller.performNavigation"
+    ],
+    "caveats_contains": [
+      "不带入任务列表",
+      "自动保存",
+      "取消/保存",
+      "焦点和键盘"
+    ]
+  },
+  {
+    "id": "disclosure",
+    "request": "My dashboard has dense settings; show me a familiar way to disclose advanced options without turning the whole page into a toy.",
+    "query": "disclosure",
+    "top": "automation-manager",
+    "matched_anchors": [
+      "schedule custom-rule disclosure",
+      "modal advanced-rule branch",
+      "Controller.action advanced/save-rule"
+    ],
+    "not_matched_anchors": [
+      "Controller.navigate",
+      "Controller.performNavigation"
+    ],
+    "caveats_contains": [
+      "不带入任务列表",
+      "自动保存",
+      "取消/保存",
+      "焦点和键盘"
+    ]
+  },
+  {
+    "id": "advanced-only",
+    "request": "My dashboard has dense settings; show me a familiar way to disclose advanced options without turning the whole page into a toy.",
+    "query": "advanced",
+    "top": "automation-manager",
+    "matched_anchors": [
+      "schedule custom-rule disclosure",
+      "modal advanced-rule branch",
+      "Controller.action advanced/save-rule"
+    ],
+    "not_matched_anchors": [
+      "Controller.navigate",
+      "Controller.performNavigation"
+    ],
+    "caveats_contains": [
+      "不带入任务列表",
+      "自动保存",
+      "取消/保存",
+      "焦点和键盘"
+    ]
+  },
+  {
+    "id": "settings-zh",
+    "request": "My dashboard has dense settings; show me a familiar way to disclose advanced options without turning the whole page into a toy.",
+    "query": "高级 设置 渐进披露",
+    "top": "automation-manager",
+    "matched_anchors": [
+      "schedule custom-rule disclosure",
+      "modal advanced-rule branch",
+      "Controller.action advanced/save-rule"
+    ],
+    "not_matched_anchors": [
+      "Controller.navigate",
+      "Controller.performNavigation"
+    ],
+    "caveats_contains": [
+      "不带入任务列表",
+      "自动保存",
+      "取消/保存",
+      "焦点和键盘"
+    ]
+  },
+  {
+    "id": "no-accordion-invention",
+    "request": "Find a conventional accordion; do not relabel an advanced modal as one.",
+    "query": "accordion",
+    "exact": []
+  },
+  {
+    "id": "cancel-only",
+    "request": "Our asynchronous form submit must expose cancel and reduced-motion support; identify an implementation starting point and integration gaps.",
+    "query": "cancel",
+    "top": "micro-progress-button",
+    "matched_anchors": [
+      "ProgressController"
+    ],
+    "caveats_contains": [
+      "本地状态",
+      "演示复位而非成功",
+      "网络取消"
+    ]
+  },
+  {
+    "id": "cancel-submit-reduced",
+    "request": "Our asynchronous form submit must expose cancel and reduced-motion support; identify an implementation starting point and integration gaps.",
+    "query": "submit cancel reduced-motion",
+    "top": "micro-progress-button",
+    "matched_anchors": [
+      "ProgressController"
+    ],
+    "caveats_contains": [
+      "本地状态",
+      "演示复位而非成功",
+      "网络取消"
+    ],
+    "capability_required": "reduced-motion"
+  },
+  {
+    "id": "capability-not-borrowed-from-other-part",
+    "request": "Does the collaboration-card part have an indexed reduced-motion branch?",
+    "query": "collaboration reduced-motion",
+    "exact": []
+  },
+  {
+    "id": "cards-do-not-inherit-starfield-capability",
+    "request": "Find cards with indexed reduced motion; do not infer it from an unrelated background.",
+    "query": "cards reduced motion",
+    "exclude": [
+      "chatgpt-space-welcome"
+    ],
+    "capability_required": "reduced-motion"
+  },
+  {
+    "id": "full-starfield-request",
+    "request": "I want a quiet ambient starfield behind an onboarding title, not an entire clone of a collaboration app.",
+    "query": "I want a quiet ambient starfield behind an onboarding title, not an entire clone of a collaboration app.",
+    "top": "chatgpt-space-welcome",
+    "matched_anchors": [
+      "StarField",
+      "SpaceScene.glow",
+      "SpaceScene.star layer"
+    ],
+    "not_matched_anchors": [
+      "cardPose",
+      "editProgress"
+    ],
+    "caveats_contains": [
+      "不带入卡片",
+      "warp",
+      "密度",
+      "初始透明度为零"
+    ]
+  },
+  {
+    "id": "full-settings-request",
+    "request": "My dashboard has dense settings; show me a familiar way to disclose advanced options without turning the whole page into a toy.",
+    "query": "My dashboard has dense settings; show me a familiar way to disclose advanced options without turning the whole page into a toy.",
+    "top": "automation-manager",
+    "matched_anchors": [
+      "schedule custom-rule disclosure",
+      "modal advanced-rule branch",
+      "Controller.action advanced/save-rule"
+    ],
+    "not_matched_anchors": [
+      "Controller.navigate",
+      "Controller.performNavigation"
+    ],
+    "caveats_contains": [
+      "不带入任务列表",
+      "自动保存",
+      "取消/保存",
+      "焦点和键盘"
+    ]
+  },
+  {
+    "id": "full-submit-request",
+    "request": "Our asynchronous form submit must expose cancel and reduced-motion support; identify an implementation starting point and integration gaps.",
+    "query": "Our asynchronous form submit must expose cancel and reduced-motion support; identify an implementation starting point and integration gaps.",
+    "top": "micro-progress-button",
+    "matched_anchors": [
+      "ProgressController"
+    ],
+    "caveats_contains": [
+      "本地状态",
+      "演示复位而非成功",
+      "网络取消"
+    ],
+    "capability_required": "reduced-motion"
+  }
 ]

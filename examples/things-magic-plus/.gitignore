@@ -1,0 +1,10 @@
+node_modules/
+preview/frames/
+preview/source-frames/
+preview/comparison-frames/
+preview/draft-*.png
+# Reference-pixel review outputs must not enter the public bundle.
+preview/comparison.*
+preview/comparison-poster.png
+preview/comparison-manifest.json
+validation/comparison-contact-review.png

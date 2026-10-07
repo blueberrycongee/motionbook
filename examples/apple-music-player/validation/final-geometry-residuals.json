@@ -1,0 +1,7656 @@
+{
+  "evaluation": "All-point reconstruction residuals only; no independent holdout rows in this final model",
+  "splitValidation": {
+    "holdoutRows": 0,
+    "holdoutRowsUsedAsKnots": [],
+    "verified": true
+  },
+  "fixedConstraints": {
+    "cardX": "Fixed at zero by crop alignment, not an independent error estimate",
+    "cardWidth": "Fixed at 432 by crop alignment, not an independent error estimate",
+    "coverHeight": "Same measured square-cover size as coverWidth; not an independent dimension"
+  },
+  "excluded": "Card height is excluded: the source measurement is visible extent, including occlusion, while state.card.h extends beyond the screen. Background scale uses dimensionless residuals; all other fields use pixels.",
+  "method": "Shared referenceAt evaluated at each original presentation timestamp, minus observed screen-pixel geometry. All supplied rows retained; null means unobservable, never perfect agreement.",
+  "caveat": "These are residuals to measurements, not error against unknown Apple motion parameters. Fit rows are calibration data. Holdout labels must come from the measurement protocol.",
+  "statistics": {
+    "all": {
+      "frames": 145,
+      "fields": {
+        "coverX": {
+          "count": 145,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "coverY": {
+          "count": 145,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "coverWidth": {
+          "count": 145,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "coverHeight": {
+          "count": 145,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "cardX": {
+          "count": 145,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "cardY": {
+          "count": 145,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "cardWidth": {
+          "count": 145,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "backgroundScale": {
+          "count": 52,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "backgroundTop": {
+          "count": 52,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        }
+      }
+    },
+    "anchor": {
+      "frames": 4,
+      "fields": {
+        "coverX": {
+          "count": 4,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "coverY": {
+          "count": 4,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "coverWidth": {
+          "count": 4,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "coverHeight": {
+          "count": 4,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "cardX": {
+          "count": 4,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "cardY": {
+          "count": 4,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "cardWidth": {
+          "count": 4,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "backgroundScale": {
+          "count": 4,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "backgroundTop": {
+          "count": 4,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        }
+      }
+    },
+    "fit": {
+      "frames": 141,
+      "fields": {
+        "coverX": {
+          "count": 141,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "coverY": {
+          "count": 141,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "coverWidth": {
+          "count": 141,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "coverHeight": {
+          "count": 141,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "cardX": {
+          "count": 141,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "cardY": {
+          "count": 141,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "cardWidth": {
+          "count": 141,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "backgroundScale": {
+          "count": 48,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        },
+        "backgroundTop": {
+          "count": 48,
+          "mae": 0,
+          "rmse": 0,
+          "maxAbsolute": 0,
+          "p95Absolute": 0
+        }
+      }
+    }
+  },
+  "phaseStatistics": {
+    "compact": {
+      "all": {
+        "frames": 5,
+        "fields": {
+          "coverX": {
+            "count": 5,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverY": {
+            "count": 5,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverWidth": {
+            "count": 5,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverHeight": {
+            "count": 5,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardX": {
+            "count": 5,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardY": {
+            "count": 5,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardWidth": {
+            "count": 5,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundScale": {
+            "count": 5,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundTop": {
+            "count": 5,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          }
+        }
+      },
+      "anchor": {
+        "frames": 4,
+        "fields": {
+          "coverX": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverY": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverWidth": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverHeight": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardX": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardY": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardWidth": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundScale": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundTop": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          }
+        }
+      },
+      "fit": {
+        "frames": 1,
+        "fields": {
+          "coverX": {
+            "count": 1,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverY": {
+            "count": 1,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverWidth": {
+            "count": 1,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverHeight": {
+            "count": 1,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardX": {
+            "count": 1,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardY": {
+            "count": 1,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardWidth": {
+            "count": 1,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundScale": {
+            "count": 1,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundTop": {
+            "count": 1,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          }
+        }
+      }
+    },
+    "compact-pressed": {
+      "all": {
+        "frames": 4,
+        "fields": {
+          "coverX": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverY": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverWidth": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverHeight": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardX": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardY": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardWidth": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundScale": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundTop": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          }
+        }
+      },
+      "anchor": {
+        "frames": 0,
+        "fields": {
+          "coverX": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "coverY": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "coverWidth": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "coverHeight": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "cardX": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "cardY": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "cardWidth": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "backgroundScale": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "backgroundTop": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          }
+        }
+      },
+      "fit": {
+        "frames": 4,
+        "fields": {
+          "coverX": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverY": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverWidth": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverHeight": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardX": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardY": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardWidth": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundScale": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundTop": {
+            "count": 4,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          }
+        }
+      }
+    },
+    "expansion": {
+      "all": {
+        "frames": 18,
+        "fields": {
+          "coverX": {
+            "count": 18,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverY": {
+            "count": 18,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverWidth": {
+            "count": 18,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverHeight": {
+            "count": 18,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardX": {
+            "count": 18,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardY": {
+            "count": 18,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardWidth": {
+            "count": 18,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundScale": {
+            "count": 7,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundTop": {
+            "count": 7,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          }
+        }
+      },
+      "anchor": {
+        "frames": 0,
+        "fields": {
+          "coverX": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "coverY": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "coverWidth": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "coverHeight": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "cardX": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "cardY": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "cardWidth": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "backgroundScale": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "backgroundTop": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          }
+        }
+      },
+      "fit": {
+        "frames": 18,
+        "fields": {
+          "coverX": {
+            "count": 18,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverY": {
+            "count": 18,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverWidth": {
+            "count": 18,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverHeight": {
+            "count": 18,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardX": {
+            "count": 18,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardY": {
+            "count": 18,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardWidth": {
+            "count": 18,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundScale": {
+            "count": 7,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundTop": {
+            "count": 7,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          }
+        }
+      }
+    },
+    "expanded": {
+      "all": {
+        "frames": 76,
+        "fields": {
+          "coverX": {
+            "count": 76,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverY": {
+            "count": 76,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverWidth": {
+            "count": 76,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverHeight": {
+            "count": 76,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardX": {
+            "count": 76,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardY": {
+            "count": 76,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardWidth": {
+            "count": 76,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundScale": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "backgroundTop": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          }
+        }
+      },
+      "anchor": {
+        "frames": 0,
+        "fields": {
+          "coverX": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "coverY": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "coverWidth": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "coverHeight": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "cardX": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "cardY": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "cardWidth": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "backgroundScale": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "backgroundTop": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          }
+        }
+      },
+      "fit": {
+        "frames": 76,
+        "fields": {
+          "coverX": {
+            "count": 76,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverY": {
+            "count": 76,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverWidth": {
+            "count": 76,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverHeight": {
+            "count": 76,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardX": {
+            "count": 76,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardY": {
+            "count": 76,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardWidth": {
+            "count": 76,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundScale": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "backgroundTop": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          }
+        }
+      }
+    },
+    "downward-drag": {
+      "all": {
+        "frames": 28,
+        "fields": {
+          "coverX": {
+            "count": 28,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverY": {
+            "count": 28,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverWidth": {
+            "count": 28,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverHeight": {
+            "count": 28,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardX": {
+            "count": 28,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardY": {
+            "count": 28,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardWidth": {
+            "count": 28,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundScale": {
+            "count": 22,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundTop": {
+            "count": 22,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          }
+        }
+      },
+      "anchor": {
+        "frames": 0,
+        "fields": {
+          "coverX": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "coverY": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "coverWidth": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "coverHeight": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "cardX": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "cardY": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "cardWidth": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "backgroundScale": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "backgroundTop": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          }
+        }
+      },
+      "fit": {
+        "frames": 28,
+        "fields": {
+          "coverX": {
+            "count": 28,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverY": {
+            "count": 28,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverWidth": {
+            "count": 28,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverHeight": {
+            "count": 28,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardX": {
+            "count": 28,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardY": {
+            "count": 28,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardWidth": {
+            "count": 28,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundScale": {
+            "count": 22,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundTop": {
+            "count": 22,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          }
+        }
+      }
+    },
+    "collapse-settle": {
+      "all": {
+        "frames": 14,
+        "fields": {
+          "coverX": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverY": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverWidth": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverHeight": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardX": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardY": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardWidth": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundScale": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundTop": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          }
+        }
+      },
+      "anchor": {
+        "frames": 0,
+        "fields": {
+          "coverX": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "coverY": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "coverWidth": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "coverHeight": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "cardX": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "cardY": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "cardWidth": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "backgroundScale": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          },
+          "backgroundTop": {
+            "count": 0,
+            "mae": null,
+            "rmse": null,
+            "maxAbsolute": null,
+            "p95Absolute": null
+          }
+        }
+      },
+      "fit": {
+        "frames": 14,
+        "fields": {
+          "coverX": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverY": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverWidth": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "coverHeight": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardX": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardY": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "cardWidth": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundScale": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          },
+          "backgroundTop": {
+            "count": 14,
+            "mae": 0,
+            "rmse": 0,
+            "maxAbsolute": 0,
+            "p95Absolute": 0
+          }
+        }
+      }
+    }
+  },
+  "rows": [
+    {
+      "pts": 16170154,
+      "time": 539.0051333333333,
+      "split": "anchor",
+      "originalSplit": "anchor",
+      "phase": "compact",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 72,
+      "observed": {
+        "coverX": 21.84,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 21.84,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16261245,
+      "time": 542.0415,
+      "split": "anchor",
+      "originalSplit": "anchor",
+      "phase": "compact",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 72,
+      "observed": {
+        "coverX": 21.84,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 21.84,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16265249,
+      "time": 542.1749666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "compact",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 164,
+      "observed": {
+        "coverX": 21.84,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 21.84,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16266250,
+      "time": 542.2083333333334,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "compact-pressed",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 164,
+      "observed": {
+        "coverX": 21.83,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 21.83,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16267251,
+      "time": 542.2417,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "compact-pressed",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 164,
+      "observed": {
+        "coverX": 21.83,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 21.83,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16268252,
+      "time": 542.2750666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "compact-pressed",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 164,
+      "observed": {
+        "coverX": 21.83,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 21.83,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16269253,
+      "time": 542.3084333333334,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "compact-pressed",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 164,
+      "observed": {
+        "coverX": 21.83,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 21.83,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16270254,
+      "time": 542.3418,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 308,
+      "observed": {
+        "coverX": 22.82,
+        "coverY": 651.89,
+        "coverWidth": 114.15,
+        "coverHeight": 114.15,
+        "cardX": 0,
+        "cardY": 626,
+        "cardWidth": 432,
+        "backgroundScale": 0.98148,
+        "backgroundTop": 8
+      },
+      "predicted": {
+        "coverX": 22.82,
+        "coverY": 651.89,
+        "coverWidth": 114.15,
+        "coverHeight": 114.15,
+        "cardX": 0,
+        "cardY": 626,
+        "cardWidth": 432,
+        "backgroundScale": 0.98148,
+        "backgroundTop": 8
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16271255,
+      "time": 542.3751666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 482,
+      "observed": {
+        "coverX": 23.99,
+        "coverY": 499.33,
+        "coverWidth": 187.36,
+        "coverHeight": 187.36,
+        "cardX": 0,
+        "cardY": 452,
+        "cardWidth": 432,
+        "backgroundScale": 0.96296,
+        "backgroundTop": 20
+      },
+      "predicted": {
+        "coverX": 23.99,
+        "coverY": 499.33,
+        "coverWidth": 187.36,
+        "coverHeight": 187.36,
+        "cardX": 0,
+        "cardY": 452,
+        "cardWidth": 432,
+        "backgroundScale": 0.96296,
+        "backgroundTop": 20
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16272256,
+      "time": 542.4085333333334,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 627,
+      "observed": {
+        "coverX": 25.03,
+        "coverY": 371.57,
+        "coverWidth": 248.61,
+        "coverHeight": 248.61,
+        "cardX": 0,
+        "cardY": 307,
+        "cardWidth": 432,
+        "backgroundScale": 0.94907,
+        "backgroundTop": 30
+      },
+      "predicted": {
+        "coverX": 25.03,
+        "coverY": 371.57,
+        "coverWidth": 248.61,
+        "coverHeight": 248.61,
+        "cardX": 0,
+        "cardY": 307,
+        "cardWidth": 432,
+        "backgroundScale": 0.94907,
+        "backgroundTop": 30
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16273257,
+      "time": 542.4419,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 734,
+      "observed": {
+        "coverX": 25.61,
+        "coverY": 276.49,
+        "coverWidth": 294.37,
+        "coverHeight": 294.37,
+        "cardX": 0,
+        "cardY": 200,
+        "cardWidth": 432,
+        "backgroundScale": 0.93519,
+        "backgroundTop": 37
+      },
+      "predicted": {
+        "coverX": 25.61,
+        "coverY": 276.49,
+        "coverWidth": 294.37,
+        "coverHeight": 294.37,
+        "cardX": 0,
+        "cardY": 200,
+        "cardWidth": 432,
+        "backgroundScale": 0.93519,
+        "backgroundTop": 37
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16274258,
+      "time": 542.4752666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 778,
+      "observed": {
+        "coverX": 25.89,
+        "coverY": 240.63,
+        "coverWidth": 311.6,
+        "coverHeight": 311.6,
+        "cardX": 0,
+        "cardY": 156,
+        "cardWidth": 432,
+        "backgroundScale": 0.93519,
+        "backgroundTop": 40
+      },
+      "predicted": {
+        "coverX": 25.89,
+        "coverY": 240.63,
+        "coverWidth": 311.6,
+        "coverHeight": 311.6,
+        "cardX": 0,
+        "cardY": 156,
+        "cardWidth": 432,
+        "backgroundScale": 0.93519,
+        "backgroundTop": 40
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16275259,
+      "time": 542.5086333333334,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 836,
+      "observed": {
+        "coverX": 26.38,
+        "coverY": 187.3,
+        "coverWidth": 337.07,
+        "coverHeight": 337.07,
+        "cardX": 0,
+        "cardY": 98,
+        "cardWidth": 432,
+        "backgroundScale": 0.92593,
+        "backgroundTop": 44
+      },
+      "predicted": {
+        "coverX": 26.38,
+        "coverY": 187.3,
+        "coverWidth": 337.07,
+        "coverHeight": 337.07,
+        "cardX": 0,
+        "cardY": 98,
+        "cardWidth": 432,
+        "backgroundScale": 0.92593,
+        "backgroundTop": 44
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16276260,
+      "time": 542.542,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 874,
+      "observed": {
+        "coverX": 26.58,
+        "coverY": 153.71,
+        "coverWidth": 353.26,
+        "coverHeight": 353.26,
+        "cardX": 0,
+        "cardY": 60,
+        "cardWidth": 432,
+        "backgroundScale": 0.91898,
+        "backgroundTop": 47
+      },
+      "predicted": {
+        "coverX": 26.58,
+        "coverY": 153.71,
+        "coverWidth": 353.26,
+        "coverHeight": 353.26,
+        "cardX": 0,
+        "cardY": 60,
+        "cardWidth": 432,
+        "backgroundScale": 0.91898,
+        "backgroundTop": 47
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16277261,
+      "time": 542.5753666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 908,
+      "observed": {
+        "coverX": 26.82,
+        "coverY": 125.19,
+        "coverWidth": 366.92,
+        "coverHeight": 366.92,
+        "cardX": 0,
+        "cardY": 26,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 26.82,
+        "coverY": 125.19,
+        "coverWidth": 366.92,
+        "coverHeight": 366.92,
+        "cardX": 0,
+        "cardY": 26,
+        "cardWidth": 432,
+        "backgroundScale": 0.9189083034851973,
+        "backgroundTop": 47.12164531151317
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16278262,
+      "time": 542.6087333333334,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 914,
+      "observed": {
+        "coverX": 26.78,
+        "coverY": 119.44,
+        "coverWidth": 369.8,
+        "coverHeight": 369.8,
+        "cardX": 0,
+        "cardY": 20,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 26.78,
+        "coverY": 119.44,
+        "coverWidth": 369.8,
+        "coverHeight": 369.8,
+        "cardX": 0,
+        "cardY": 20,
+        "cardWidth": 432,
+        "backgroundScale": 0.9188381055896997,
+        "backgroundTop": 47.240802752430476
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16279263,
+      "time": 542.6421,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 922,
+      "observed": {
+        "coverX": 26.93,
+        "coverY": 111.5,
+        "coverWidth": 373.45,
+        "coverHeight": 373.45,
+        "cardX": 0,
+        "cardY": 12,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 26.93,
+        "coverY": 111.5,
+        "coverWidth": 373.45,
+        "coverHeight": 373.45,
+        "cardX": 0,
+        "cardY": 12,
+        "cardWidth": 432,
+        "backgroundScale": 0.9187693904904003,
+        "backgroundTop": 47.3574979846472
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16280264,
+      "time": 542.6754666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 928,
+      "observed": {
+        "coverX": 26.96,
+        "coverY": 106.71,
+        "coverWidth": 375.77,
+        "coverHeight": 375.77,
+        "cardX": 0,
+        "cardY": 6,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 26.96,
+        "coverY": 106.71,
+        "coverWidth": 375.77,
+        "coverHeight": 375.77,
+        "cardX": 0,
+        "cardY": 6,
+        "cardWidth": 432,
+        "backgroundScale": 0.9187021423641917,
+        "backgroundTop": 47.47175667005864
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16281265,
+      "time": 542.7088333333334,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 931,
+      "observed": {
+        "coverX": 26.93,
+        "coverY": 103.92,
+        "coverWidth": 377.16,
+        "coverHeight": 377.16,
+        "cardX": 0,
+        "cardY": 3,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 26.93,
+        "coverY": 103.92,
+        "coverWidth": 377.16,
+        "coverHeight": 377.16,
+        "cardX": 0,
+        "cardY": 3,
+        "cardWidth": 432,
+        "backgroundScale": 0.9186363453879665,
+        "backgroundTop": 47.58360447056009
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16282266,
+      "time": 542.7422,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 933,
+      "observed": {
+        "coverX": 26.96,
+        "coverY": 102.25,
+        "coverWidth": 377.96,
+        "coverHeight": 377.96,
+        "cardX": 0,
+        "cardY": 1,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 26.96,
+        "coverY": 102.25,
+        "coverWidth": 377.96,
+        "coverHeight": 377.96,
+        "cardX": 0,
+        "cardY": 1,
+        "cardWidth": 432,
+        "backgroundScale": 0.9185719837386177,
+        "backgroundTop": 47.693067048046835
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16283267,
+      "time": 542.7755666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 26.96,
+        "coverY": 101.32,
+        "coverWidth": 378.42,
+        "coverHeight": 378.42,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 26.96,
+        "coverY": 101.32,
+        "coverWidth": 378.42,
+        "coverHeight": 378.42,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9185090415930378,
+        "backgroundTop": 47.80017006441416
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16284268,
+      "time": 542.8089333333334,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 26.99,
+        "coverY": 100.65,
+        "coverWidth": 378.66,
+        "coverHeight": 378.66,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 26.99,
+        "coverY": 100.65,
+        "coverWidth": 378.66,
+        "coverHeight": 378.66,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9184475031281194,
+        "backgroundTop": 47.90493918155737
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16285269,
+      "time": 542.8423,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27,
+        "coverY": 100.63,
+        "coverWidth": 378.68,
+        "coverHeight": 378.68,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27,
+        "coverY": 100.63,
+        "coverWidth": 378.68,
+        "coverHeight": 378.68,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9183873525207557,
+        "backgroundTop": 48.00740006137174
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16286270,
+      "time": 542.8756666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 26.97,
+        "coverY": 100,
+        "coverWidth": 379.03,
+        "coverHeight": 379.03,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 26.97,
+        "coverY": 100,
+        "coverWidth": 379.03,
+        "coverHeight": 379.03,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.918328573947839,
+        "backgroundTop": 48.107578365752566
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16287271,
+      "time": 542.9090333333334,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expansion",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 26.97,
+        "coverY": 100.04,
+        "coverWidth": 379.01,
+        "coverHeight": 379.01,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 26.97,
+        "coverY": 100.04,
+        "coverWidth": 379.01,
+        "coverHeight": 379.01,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.918271151586262,
+        "backgroundTop": 48.20549975659515
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16288272,
+      "time": 542.9424,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27,
+        "coverY": 100.01,
+        "coverWidth": 378.99,
+        "coverHeight": 378.99,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27,
+        "coverY": 100.01,
+        "coverWidth": 378.99,
+        "coverHeight": 378.99,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9182150696129178,
+        "backgroundTop": 48.301189895794764
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16289273,
+      "time": 542.9757666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9181603122046986,
+        "backgroundTop": 48.39467444524671
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16290274,
+      "time": 543.0091333333334,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9181068635384977,
+        "backgroundTop": 48.48597906684627
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16291275,
+      "time": 543.0425,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9180547077912072,
+        "backgroundTop": 48.57512942248873
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16292276,
+      "time": 543.0758666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9180038291397203,
+        "backgroundTop": 48.6621511740694
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16293277,
+      "time": 543.1092333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9179542117609295,
+        "backgroundTop": 48.747069983483556
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16294278,
+      "time": 543.1426,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9179058398317277,
+        "backgroundTop": 48.82991151262649
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16295279,
+      "time": 543.1759666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9178586975290075,
+        "backgroundTop": 48.910701423393505
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16296280,
+      "time": 543.2093333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9178127690296615,
+        "backgroundTop": 48.989465377679856
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16297281,
+      "time": 543.2427,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9177680385105826,
+        "backgroundTop": 49.06622903738088
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16298282,
+      "time": 543.2760666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9177244901486634,
+        "backgroundTop": 49.14101806439183
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16299283,
+      "time": 543.3094333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27,
+        "coverY": 100,
+        "coverWidth": 379,
+        "coverHeight": 379,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9176821081207966,
+        "backgroundTop": 49.213858120608016
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16300284,
+      "time": 543.3428,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.01,
+        "coverY": 100,
+        "coverWidth": 378.99,
+        "coverHeight": 378.99,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.01,
+        "coverY": 100,
+        "coverWidth": 378.99,
+        "coverHeight": 378.99,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9176408766038753,
+        "backgroundTop": 49.284774867924725
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16301285,
+      "time": 543.3761666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.01,
+        "coverY": 100,
+        "coverWidth": 378.99,
+        "coverHeight": 378.99,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.01,
+        "coverY": 100,
+        "coverWidth": 378.99,
+        "coverHeight": 378.99,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9176007797747915,
+        "backgroundTop": 49.353793968237234
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16302286,
+      "time": 543.4095333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.01,
+        "coverY": 99.99,
+        "coverWidth": 378.99,
+        "coverHeight": 378.99,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.01,
+        "coverY": 99.99,
+        "coverWidth": 378.99,
+        "coverHeight": 378.99,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9175618018104388,
+        "backgroundTop": 49.42094108344086
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16303287,
+      "time": 543.4429,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.01,
+        "coverY": 99.99,
+        "coverWidth": 378.99,
+        "coverHeight": 378.99,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.01,
+        "coverY": 99.99,
+        "coverWidth": 378.99,
+        "coverHeight": 378.99,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9175239268877091,
+        "backgroundTop": 49.48624187543086
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16304288,
+      "time": 543.4762666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.01,
+        "coverY": 99.99,
+        "coverWidth": 378.99,
+        "coverHeight": 378.99,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.01,
+        "coverY": 99.99,
+        "coverWidth": 378.99,
+        "coverHeight": 378.99,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9174871391834957,
+        "backgroundTop": 49.54972200610256
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16305289,
+      "time": 543.5096333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.01,
+        "coverY": 99.99,
+        "coverWidth": 378.99,
+        "coverHeight": 378.99,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.01,
+        "coverY": 99.99,
+        "coverWidth": 378.99,
+        "coverHeight": 378.99,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9174514228746908,
+        "backgroundTop": 49.61140713735122
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16306290,
+      "time": 543.543,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9174167621381876,
+        "backgroundTop": 49.671322931072154
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16307291,
+      "time": 543.5763666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9173831411508786,
+        "backgroundTop": 49.729495049160626
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16308292,
+      "time": 543.6097333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9173505440896568,
+        "backgroundTop": 49.78594915351195
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16309293,
+      "time": 543.6431,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9173189551314143,
+        "backgroundTop": 49.84071090602141
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16310294,
+      "time": 543.6764666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9172883584530445,
+        "backgroundTop": 49.893805968584275
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16311295,
+      "time": 543.7098333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9172587382314396,
+        "backgroundTop": 49.945260003095875
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16312296,
+      "time": 543.7432,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9172300786434926,
+        "backgroundTop": 49.99509867145147
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16313297,
+      "time": 543.7765666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9172023638660962,
+        "backgroundTop": 50.04334763554637
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16314298,
+      "time": 543.8099333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9171755780761429,
+        "backgroundTop": 50.09003255727583
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16315299,
+      "time": 543.8433,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9171497054505259,
+        "backgroundTop": 50.13517909853519
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16316300,
+      "time": 543.8766666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9171247301661373,
+        "backgroundTop": 50.1788129212197
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16317301,
+      "time": 543.9100333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9171006363998704,
+        "backgroundTop": 50.22095968722466
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16318302,
+      "time": 543.9434,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9170774083286175,
+        "backgroundTop": 50.26164505844539
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16319303,
+      "time": 543.9767666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9170550301292715,
+        "backgroundTop": 50.300894696777135
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16320304,
+      "time": 544.0101333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9170334859787251,
+        "backgroundTop": 50.33873426411522
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16321305,
+      "time": 544.0435,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9170127600538711,
+        "backgroundTop": 50.375189422354914
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16322306,
+      "time": 544.0768666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9169928365316019,
+        "backgroundTop": 50.41028583339151
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16323307,
+      "time": 544.1102333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9169736995888107,
+        "backgroundTop": 50.44404915912031
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16324308,
+      "time": 544.1436,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9169553334023899,
+        "backgroundTop": 50.4765050614366
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16325309,
+      "time": 544.1769666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9169377221492323,
+        "backgroundTop": 50.50767920223566
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16326310,
+      "time": 544.2103333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9169208500062305,
+        "backgroundTop": 50.53759724341279
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16327311,
+      "time": 544.2437,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9169047011502773,
+        "backgroundTop": 50.566284846863276
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16328312,
+      "time": 544.2770666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9168892597582659,
+        "backgroundTop": 50.593767674482415
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16329313,
+      "time": 544.3104333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9168745100070881,
+        "backgroundTop": 50.62007138816549
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16330314,
+      "time": 544.3438,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9168604360736372,
+        "backgroundTop": 50.645221649807795
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16331315,
+      "time": 544.3771666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.916847022134806,
+        "backgroundTop": 50.66924412130462
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16332316,
+      "time": 544.4105333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9168342523674868,
+        "backgroundTop": 50.692164464551254
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16333317,
+      "time": 544.4439,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9168221109485727,
+        "backgroundTop": 50.71400834144299
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16334318,
+      "time": 544.4772666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9168105820549561,
+        "backgroundTop": 50.73480141387511
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16335319,
+      "time": 544.5106333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9167996498635301,
+        "backgroundTop": 50.754569343742915
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16336320,
+      "time": 544.544,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9167892985511872,
+        "backgroundTop": 50.77333779294169
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16337321,
+      "time": 544.5773666666666,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9167795122948201,
+        "backgroundTop": 50.79113242336672
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16338322,
+      "time": 544.6107333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9167702752713215,
+        "backgroundTop": 50.80797889691331
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16339323,
+      "time": 544.6441,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9167615716575842,
+        "backgroundTop": 50.82390287547673
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16340324,
+      "time": 544.6774666666666,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9167533856305009,
+        "backgroundTop": 50.83893002095229
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16341325,
+      "time": 544.7108333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9167457013669643,
+        "backgroundTop": 50.853085995235276
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16342326,
+      "time": 544.7442,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9167385030438671,
+        "backgroundTop": 50.86639646022097
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16343327,
+      "time": 544.7775666666666,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9167317748381021,
+        "backgroundTop": 50.878887077804656
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16344328,
+      "time": 544.8109333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9167255009265619,
+        "backgroundTop": 50.89058350988165
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16345329,
+      "time": 544.8443,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9167196654861396,
+        "backgroundTop": 50.901511418347226
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16346330,
+      "time": 544.8776666666666,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9167142526937273,
+        "backgroundTop": 50.91169646509667
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16347331,
+      "time": 544.9110333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9167092467262181,
+        "backgroundTop": 50.921164312025276
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16348332,
+      "time": 544.9444,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9167046317605047,
+        "backgroundTop": 50.92994062102834
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16349333,
+      "time": 544.9777666666666,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9167003919734796,
+        "backgroundTop": 50.938051054001136
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16350334,
+      "time": 545.0111333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166965115420359,
+        "backgroundTop": 50.94552127283898
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16351335,
+      "time": 545.0445,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166929746430661,
+        "backgroundTop": 50.952376939437144
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16352336,
+      "time": 545.0778666666666,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166897654534628,
+        "backgroundTop": 50.95864371569092
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16353337,
+      "time": 545.1112333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.916686868150119,
+        "backgroundTop": 50.96434726349561
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16354338,
+      "time": 545.1446,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166842669099271,
+        "backgroundTop": 50.96951324474649
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16355339,
+      "time": 545.1779666666666,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166819459097801,
+        "backgroundTop": 50.97416732133885
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16356340,
+      "time": 545.2113333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166798893265707,
+        "backgroundTop": 50.97833515516799
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16357341,
+      "time": 545.2447,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166780813371914,
+        "backgroundTop": 50.9820424081292
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16358342,
+      "time": 545.2780666666666,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166765061185351,
+        "backgroundTop": 50.985314742117765
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16359343,
+      "time": 545.3114333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166751478474945,
+        "backgroundTop": 50.98817781902898
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16360344,
+      "time": 545.3448,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166739907009623,
+        "backgroundTop": 50.99065730075812
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16361345,
+      "time": 545.3781666666666,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166730188558312,
+        "backgroundTop": 50.9927788492005
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16362346,
+      "time": 545.4115333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166722164889939,
+        "backgroundTop": 50.994568126251394
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16363347,
+      "time": 545.4449,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "expanded",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 934,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 100.14,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166715677773432,
+        "backgroundTop": 50.99605079380609
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16364348,
+      "time": 545.4782666666666,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 930,
+      "observed": {
+        "coverX": 27.09,
+        "coverY": 105.55,
+        "coverWidth": 378.95,
+        "coverHeight": 378.95,
+        "cardX": 0,
+        "cardY": 4,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.09,
+        "coverY": 105.55,
+        "coverWidth": 378.95,
+        "coverHeight": 378.95,
+        "cardX": 0,
+        "cardY": 4,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166710568977717,
+        "backgroundTop": 50.99725251375989
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16365349,
+      "time": 545.5116333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 920,
+      "observed": {
+        "coverX": 27.1,
+        "coverY": 116.29,
+        "coverWidth": 378.92,
+        "coverHeight": 378.92,
+        "cardX": 0,
+        "cardY": 14,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.1,
+        "coverY": 116.29,
+        "coverWidth": 378.92,
+        "coverHeight": 378.92,
+        "cardX": 0,
+        "cardY": 14,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166706680271722,
+        "backgroundTop": 50.998198948008074
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16366350,
+      "time": 545.545,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 909,
+      "observed": {
+        "coverX": 27.1,
+        "coverY": 127.22,
+        "coverWidth": 378.94,
+        "coverHeight": 378.94,
+        "cardX": 0,
+        "cardY": 25,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.1,
+        "coverY": 127.22,
+        "coverWidth": 378.94,
+        "coverHeight": 378.94,
+        "cardX": 0,
+        "cardY": 25,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166703853424375,
+        "backgroundTop": 50.99891575844594
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16367351,
+      "time": 545.5783666666666,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 896,
+      "observed": {
+        "coverX": 27.11,
+        "coverY": 138.36,
+        "coverWidth": 378.93,
+        "coverHeight": 378.93,
+        "cardX": 0,
+        "cardY": 38,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.11,
+        "coverY": 138.36,
+        "coverWidth": 378.93,
+        "coverHeight": 378.93,
+        "cardX": 0,
+        "cardY": 38,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166701930204602,
+        "backgroundTop": 50.99942860696878
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16368352,
+      "time": 545.6117333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 892,
+      "observed": {
+        "coverX": 27.1,
+        "coverY": 144.29,
+        "coverWidth": 378.92,
+        "coverHeight": 378.92,
+        "cardX": 0,
+        "cardY": 42,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.1,
+        "coverY": 144.29,
+        "coverWidth": 378.92,
+        "coverHeight": 378.92,
+        "cardX": 0,
+        "cardY": 42,
+        "cardWidth": 432,
+        "backgroundScale": 0.916670075238133,
+        "backgroundTop": 50.999763155471875
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16369353,
+      "time": 545.6451,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": null,
+      "observedVisibleCardHeight": 880,
+      "observed": {
+        "coverX": 27.1,
+        "coverY": 156.5,
+        "coverWidth": 378.93,
+        "coverHeight": 378.93,
+        "cardX": 0,
+        "cardY": 54,
+        "cardWidth": 432
+      },
+      "predicted": {
+        "coverX": 27.1,
+        "coverY": 156.5,
+        "coverWidth": 378.93,
+        "coverHeight": 378.93,
+        "cardX": 0,
+        "cardY": 54,
+        "cardWidth": 432,
+        "backgroundScale": 0.9166700161723487,
+        "backgroundTop": 50.99994506585052
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": null,
+        "backgroundTop": null
+      }
+    },
+    {
+      "pts": 16370354,
+      "time": 545.6784666666666,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 868,
+      "observed": {
+        "coverX": 27.09,
+        "coverY": 167.61,
+        "coverWidth": 378.93,
+        "coverHeight": 378.93,
+        "cardX": 0,
+        "cardY": 66,
+        "cardWidth": 432,
+        "backgroundScale": 0.91667,
+        "backgroundTop": 51
+      },
+      "predicted": {
+        "coverX": 27.09,
+        "coverY": 167.61,
+        "coverWidth": 378.93,
+        "coverHeight": 378.93,
+        "cardX": 0,
+        "cardY": 66,
+        "cardWidth": 432,
+        "backgroundScale": 0.91667,
+        "backgroundTop": 51
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16371355,
+      "time": 545.7118333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 858,
+      "observed": {
+        "coverX": 27.09,
+        "coverY": 177.65,
+        "coverWidth": 378.94,
+        "coverHeight": 378.94,
+        "cardX": 0,
+        "cardY": 76,
+        "cardWidth": 432,
+        "backgroundScale": 0.91667,
+        "backgroundTop": 50
+      },
+      "predicted": {
+        "coverX": 27.09,
+        "coverY": 177.65,
+        "coverWidth": 378.94,
+        "coverHeight": 378.94,
+        "cardX": 0,
+        "cardY": 76,
+        "cardWidth": 432,
+        "backgroundScale": 0.91667,
+        "backgroundTop": 50
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16372356,
+      "time": 545.7452,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 850,
+      "observed": {
+        "coverX": 27.09,
+        "coverY": 185.74,
+        "coverWidth": 378.94,
+        "coverHeight": 378.94,
+        "cardX": 0,
+        "cardY": 84,
+        "cardWidth": 432,
+        "backgroundScale": 0.91667,
+        "backgroundTop": 49
+      },
+      "predicted": {
+        "coverX": 27.09,
+        "coverY": 185.74,
+        "coverWidth": 378.94,
+        "coverHeight": 378.94,
+        "cardX": 0,
+        "cardY": 84,
+        "cardWidth": 432,
+        "backgroundScale": 0.91667,
+        "backgroundTop": 49
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16373357,
+      "time": 545.7785666666666,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 844,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 192.09,
+        "coverWidth": 378.89,
+        "coverHeight": 378.89,
+        "cardX": 0,
+        "cardY": 90,
+        "cardWidth": 432,
+        "backgroundScale": 0.91667,
+        "backgroundTop": 49
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 192.09,
+        "coverWidth": 378.89,
+        "coverHeight": 378.89,
+        "cardX": 0,
+        "cardY": 90,
+        "cardWidth": 432,
+        "backgroundScale": 0.91667,
+        "backgroundTop": 49
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16374358,
+      "time": 545.8119333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 838,
+      "observed": {
+        "coverX": 27.1,
+        "coverY": 198.3,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 96,
+        "cardWidth": 432,
+        "backgroundScale": 0.9213,
+        "backgroundTop": 48
+      },
+      "predicted": {
+        "coverX": 27.1,
+        "coverY": 198.3,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 96,
+        "cardWidth": 432,
+        "backgroundScale": 0.9213,
+        "backgroundTop": 48
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16375359,
+      "time": 545.8453,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 832,
+      "observed": {
+        "coverX": 27.09,
+        "coverY": 204.51,
+        "coverWidth": 378.92,
+        "coverHeight": 378.92,
+        "cardX": 0,
+        "cardY": 102,
+        "cardWidth": 432,
+        "backgroundScale": 0.9213,
+        "backgroundTop": 48
+      },
+      "predicted": {
+        "coverX": 27.09,
+        "coverY": 204.51,
+        "coverWidth": 378.92,
+        "coverHeight": 378.92,
+        "cardX": 0,
+        "cardY": 102,
+        "cardWidth": 432,
+        "backgroundScale": 0.9213,
+        "backgroundTop": 48
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16376360,
+      "time": 545.8786666666666,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 824,
+      "observed": {
+        "coverX": 27,
+        "coverY": 211.22,
+        "coverWidth": 379.03,
+        "coverHeight": 379.03,
+        "cardX": 0,
+        "cardY": 110,
+        "cardWidth": 432,
+        "backgroundScale": 0.9213,
+        "backgroundTop": 47
+      },
+      "predicted": {
+        "coverX": 27,
+        "coverY": 211.22,
+        "coverWidth": 379.03,
+        "coverHeight": 379.03,
+        "cardX": 0,
+        "cardY": 110,
+        "cardWidth": 432,
+        "backgroundScale": 0.9213,
+        "backgroundTop": 47
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16377361,
+      "time": 545.9120333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 818,
+      "observed": {
+        "coverX": 27.11,
+        "coverY": 218.23,
+        "coverWidth": 378.9,
+        "coverHeight": 378.9,
+        "cardX": 0,
+        "cardY": 116,
+        "cardWidth": 432,
+        "backgroundScale": 0.9213,
+        "backgroundTop": 46
+      },
+      "predicted": {
+        "coverX": 27.11,
+        "coverY": 218.23,
+        "coverWidth": 378.9,
+        "coverHeight": 378.9,
+        "cardX": 0,
+        "cardY": 116,
+        "cardWidth": 432,
+        "backgroundScale": 0.9213,
+        "backgroundTop": 46
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16378362,
+      "time": 545.9454,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 812,
+      "observed": {
+        "coverX": 27.1,
+        "coverY": 224.5,
+        "coverWidth": 378.92,
+        "coverHeight": 378.92,
+        "cardX": 0,
+        "cardY": 122,
+        "cardWidth": 432,
+        "backgroundScale": 0.9213,
+        "backgroundTop": 46
+      },
+      "predicted": {
+        "coverX": 27.1,
+        "coverY": 224.5,
+        "coverWidth": 378.92,
+        "coverHeight": 378.92,
+        "cardX": 0,
+        "cardY": 122,
+        "cardWidth": 432,
+        "backgroundScale": 0.9213,
+        "backgroundTop": 46
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16379363,
+      "time": 545.9787666666666,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 804,
+      "observed": {
+        "coverX": 27.1,
+        "coverY": 231.52,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 130,
+        "cardWidth": 432,
+        "backgroundScale": 0.9213,
+        "backgroundTop": 46
+      },
+      "predicted": {
+        "coverX": 27.1,
+        "coverY": 231.52,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 130,
+        "cardWidth": 432,
+        "backgroundScale": 0.9213,
+        "backgroundTop": 46
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16380364,
+      "time": 546.0121333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 798,
+      "observed": {
+        "coverX": 27.11,
+        "coverY": 238.58,
+        "coverWidth": 378.89,
+        "coverHeight": 378.89,
+        "cardX": 0,
+        "cardY": 136,
+        "cardWidth": 432,
+        "backgroundScale": 0.9213,
+        "backgroundTop": 45
+      },
+      "predicted": {
+        "coverX": 27.11,
+        "coverY": 238.58,
+        "coverWidth": 378.89,
+        "coverHeight": 378.89,
+        "cardX": 0,
+        "cardY": 136,
+        "cardWidth": 432,
+        "backgroundScale": 0.9213,
+        "backgroundTop": 45
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16381365,
+      "time": 546.0455,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 790,
+      "observed": {
+        "coverX": 27.12,
+        "coverY": 245.93,
+        "coverWidth": 378.88,
+        "coverHeight": 378.88,
+        "cardX": 0,
+        "cardY": 144,
+        "cardWidth": 432,
+        "backgroundScale": 0.9213,
+        "backgroundTop": 45
+      },
+      "predicted": {
+        "coverX": 27.12,
+        "coverY": 245.93,
+        "coverWidth": 378.88,
+        "coverHeight": 378.88,
+        "cardX": 0,
+        "cardY": 144,
+        "cardWidth": 432,
+        "backgroundScale": 0.9213,
+        "backgroundTop": 45
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16382366,
+      "time": 546.0788666666666,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 782,
+      "observed": {
+        "coverX": 27.13,
+        "coverY": 254.15,
+        "coverWidth": 378.86,
+        "coverHeight": 378.86,
+        "cardX": 0,
+        "cardY": 152,
+        "cardWidth": 432,
+        "backgroundScale": 0.92361,
+        "backgroundTop": 44
+      },
+      "predicted": {
+        "coverX": 27.13,
+        "coverY": 254.15,
+        "coverWidth": 378.86,
+        "coverHeight": 378.86,
+        "cardX": 0,
+        "cardY": 152,
+        "cardWidth": 432,
+        "backgroundScale": 0.92361,
+        "backgroundTop": 44
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16383367,
+      "time": 546.1122333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 774,
+      "observed": {
+        "coverX": 27.12,
+        "coverY": 262.2,
+        "coverWidth": 378.89,
+        "coverHeight": 378.89,
+        "cardX": 0,
+        "cardY": 160,
+        "cardWidth": 432,
+        "backgroundScale": 0.92593,
+        "backgroundTop": 43
+      },
+      "predicted": {
+        "coverX": 27.12,
+        "coverY": 262.2,
+        "coverWidth": 378.89,
+        "coverHeight": 378.89,
+        "cardX": 0,
+        "cardY": 160,
+        "cardWidth": 432,
+        "backgroundScale": 0.92593,
+        "backgroundTop": 43
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16384368,
+      "time": 546.1456,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 764,
+      "observed": {
+        "coverX": 27.1,
+        "coverY": 271.47,
+        "coverWidth": 378.92,
+        "coverHeight": 378.92,
+        "cardX": 0,
+        "cardY": 170,
+        "cardWidth": 432,
+        "backgroundScale": 0.92593,
+        "backgroundTop": 42
+      },
+      "predicted": {
+        "coverX": 27.1,
+        "coverY": 271.47,
+        "coverWidth": 378.92,
+        "coverHeight": 378.92,
+        "cardX": 0,
+        "cardY": 170,
+        "cardWidth": 432,
+        "backgroundScale": 0.92593,
+        "backgroundTop": 42
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16385369,
+      "time": 546.1789666666666,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 752,
+      "observed": {
+        "coverX": 27.07,
+        "coverY": 282.96,
+        "coverWidth": 378.95,
+        "coverHeight": 378.95,
+        "cardX": 0,
+        "cardY": 182,
+        "cardWidth": 432,
+        "backgroundScale": 0.92593,
+        "backgroundTop": 42
+      },
+      "predicted": {
+        "coverX": 27.07,
+        "coverY": 282.96,
+        "coverWidth": 378.95,
+        "coverHeight": 378.95,
+        "cardX": 0,
+        "cardY": 182,
+        "cardWidth": 432,
+        "backgroundScale": 0.92593,
+        "backgroundTop": 42
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16386370,
+      "time": 546.2123333333333,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 740,
+      "observed": {
+        "coverX": 27.11,
+        "coverY": 296.23,
+        "coverWidth": 378.9,
+        "coverHeight": 378.9,
+        "cardX": 0,
+        "cardY": 194,
+        "cardWidth": 432,
+        "backgroundScale": 0.93056,
+        "backgroundTop": 41
+      },
+      "predicted": {
+        "coverX": 27.11,
+        "coverY": 296.23,
+        "coverWidth": 378.9,
+        "coverHeight": 378.9,
+        "cardX": 0,
+        "cardY": 194,
+        "cardWidth": 432,
+        "backgroundScale": 0.93056,
+        "backgroundTop": 41
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16387371,
+      "time": 546.2457,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 726,
+      "observed": {
+        "coverX": 27.06,
+        "coverY": 310.96,
+        "coverWidth": 378.97,
+        "coverHeight": 378.97,
+        "cardX": 0,
+        "cardY": 208,
+        "cardWidth": 432,
+        "backgroundScale": 0.93056,
+        "backgroundTop": 39
+      },
+      "predicted": {
+        "coverX": 27.06,
+        "coverY": 310.96,
+        "coverWidth": 378.97,
+        "coverHeight": 378.97,
+        "cardX": 0,
+        "cardY": 208,
+        "cardWidth": 432,
+        "backgroundScale": 0.93056,
+        "backgroundTop": 39
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16388372,
+      "time": 546.2790666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 706,
+      "observed": {
+        "coverX": 27.05,
+        "coverY": 330.14,
+        "coverWidth": 378.96,
+        "coverHeight": 378.96,
+        "cardX": 0,
+        "cardY": 228,
+        "cardWidth": 432,
+        "backgroundScale": 0.93056,
+        "backgroundTop": 38
+      },
+      "predicted": {
+        "coverX": 27.05,
+        "coverY": 330.14,
+        "coverWidth": 378.96,
+        "coverHeight": 378.96,
+        "cardX": 0,
+        "cardY": 228,
+        "cardWidth": 432,
+        "backgroundScale": 0.93056,
+        "backgroundTop": 38
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16389373,
+      "time": 546.3124333333334,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 674,
+      "observed": {
+        "coverX": 27.12,
+        "coverY": 361.6,
+        "coverWidth": 378.88,
+        "coverHeight": 378.88,
+        "cardX": 0,
+        "cardY": 260,
+        "cardWidth": 432,
+        "backgroundScale": 0.93519,
+        "backgroundTop": 36
+      },
+      "predicted": {
+        "coverX": 27.12,
+        "coverY": 361.6,
+        "coverWidth": 378.88,
+        "coverHeight": 378.88,
+        "cardX": 0,
+        "cardY": 260,
+        "cardWidth": 432,
+        "backgroundScale": 0.93519,
+        "backgroundTop": 36
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16390374,
+      "time": 546.3458,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 602,
+      "observed": {
+        "coverX": 27.11,
+        "coverY": 435.15,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 332,
+        "cardWidth": 432,
+        "backgroundScale": 0.94444,
+        "backgroundTop": 30
+      },
+      "predicted": {
+        "coverX": 27.11,
+        "coverY": 435.15,
+        "coverWidth": 378.91,
+        "coverHeight": 378.91,
+        "cardX": 0,
+        "cardY": 332,
+        "cardWidth": 432,
+        "backgroundScale": 0.94444,
+        "backgroundTop": 30
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16391375,
+      "time": 546.3791666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "downward-drag",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 560,
+      "observed": {
+        "coverX": 27.12,
+        "coverY": 477.18,
+        "coverWidth": 378.9,
+        "coverHeight": 378.9,
+        "cardX": 0,
+        "cardY": 374,
+        "cardWidth": 432,
+        "backgroundScale": 0.94444,
+        "backgroundTop": 27
+      },
+      "predicted": {
+        "coverX": 27.12,
+        "coverY": 477.18,
+        "coverWidth": 378.9,
+        "coverHeight": 378.9,
+        "cardX": 0,
+        "cardY": 374,
+        "cardWidth": 432,
+        "backgroundScale": 0.94444,
+        "backgroundTop": 27
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16392376,
+      "time": 546.4125333333334,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "collapse-settle",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 404,
+      "observed": {
+        "coverX": 25.94,
+        "coverY": 611.14,
+        "coverWidth": 304.74,
+        "coverHeight": 304.74,
+        "cardX": 0,
+        "cardY": 530,
+        "cardWidth": 432,
+        "backgroundScale": 0.96759,
+        "backgroundTop": 16
+      },
+      "predicted": {
+        "coverX": 25.94,
+        "coverY": 611.14,
+        "coverWidth": 304.74,
+        "coverHeight": 304.74,
+        "cardX": 0,
+        "cardY": 530,
+        "cardWidth": 432,
+        "backgroundScale": 0.96759,
+        "backgroundTop": 16
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16393377,
+      "time": 546.4459,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "collapse-settle",
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 306,
+      "observed": {
+        "coverX": 24.68,
+        "coverY": 688.64,
+        "coverWidth": 232.62,
+        "coverHeight": 232.62,
+        "cardX": 0,
+        "cardY": 628,
+        "cardWidth": 432,
+        "backgroundScale": 0.98148,
+        "backgroundTop": 9
+      },
+      "predicted": {
+        "coverX": 24.68,
+        "coverY": 688.64,
+        "coverWidth": 232.62,
+        "coverHeight": 232.62,
+        "cardX": 0,
+        "cardY": 628,
+        "cardWidth": 432,
+        "backgroundScale": 0.98148,
+        "backgroundTop": 9
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16394378,
+      "time": 546.4792666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "collapse-settle",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 236,
+      "observed": {
+        "coverX": 25.23,
+        "coverY": 741.04,
+        "coverWidth": 171.93,
+        "coverHeight": 171.93,
+        "cardX": 0,
+        "cardY": 698,
+        "cardWidth": 432,
+        "backgroundScale": 0.99074,
+        "backgroundTop": 4
+      },
+      "predicted": {
+        "coverX": 25.23,
+        "coverY": 741.04,
+        "coverWidth": 171.93,
+        "coverHeight": 171.93,
+        "cardX": 0,
+        "cardY": 698,
+        "cardWidth": 432,
+        "backgroundScale": 0.99074,
+        "backgroundTop": 4
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16395379,
+      "time": 546.5126333333334,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "collapse-settle",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 194,
+      "observed": {
+        "coverX": 23.5,
+        "coverY": 771.68,
+        "coverWidth": 130.57,
+        "coverHeight": 130.57,
+        "cardX": 0,
+        "cardY": 740,
+        "cardWidth": 432,
+        "backgroundScale": 0.99537,
+        "backgroundTop": 1
+      },
+      "predicted": {
+        "coverX": 23.5,
+        "coverY": 771.68,
+        "coverWidth": 130.57,
+        "coverHeight": 130.57,
+        "cardX": 0,
+        "cardY": 740,
+        "cardWidth": 432,
+        "backgroundScale": 0.99537,
+        "backgroundTop": 1
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16396380,
+      "time": 546.546,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "collapse-settle",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 170,
+      "observed": {
+        "coverX": 23.55,
+        "coverY": 786.75,
+        "coverWidth": 100.39,
+        "coverHeight": 100.39,
+        "cardX": 0,
+        "cardY": 764,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 23.55,
+        "coverY": 786.75,
+        "coverWidth": 100.39,
+        "coverHeight": 100.39,
+        "cardX": 0,
+        "cardY": 764,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16397381,
+      "time": 546.5793666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "collapse-settle",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 161,
+      "observed": {
+        "coverX": 22.84,
+        "coverY": 791.08,
+        "coverWidth": 82.57,
+        "coverHeight": 82.57,
+        "cardX": 0,
+        "cardY": 773,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 22.84,
+        "coverY": 791.08,
+        "coverWidth": 82.57,
+        "coverHeight": 82.57,
+        "cardX": 0,
+        "cardY": 773,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16398382,
+      "time": 546.6127333333334,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "collapse-settle",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 157,
+      "observed": {
+        "coverX": 23.27,
+        "coverY": 791.09,
+        "coverWidth": 69.32,
+        "coverHeight": 69.32,
+        "cardX": 0,
+        "cardY": 777,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 23.27,
+        "coverY": 791.09,
+        "coverWidth": 69.32,
+        "coverHeight": 69.32,
+        "cardX": 0,
+        "cardY": 777,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16399383,
+      "time": 546.6461,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "collapse-settle",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 158,
+      "observed": {
+        "coverX": 22.43,
+        "coverY": 788.11,
+        "coverWidth": 63.58,
+        "coverHeight": 63.58,
+        "cardX": 0,
+        "cardY": 776,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 22.43,
+        "coverY": 788.11,
+        "coverWidth": 63.58,
+        "coverHeight": 63.58,
+        "cardX": 0,
+        "cardY": 776,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16400384,
+      "time": 546.6794666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "collapse-settle",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 159,
+      "observed": {
+        "coverX": 21.95,
+        "coverY": 785.3,
+        "coverWidth": 59.76,
+        "coverHeight": 59.76,
+        "cardX": 0,
+        "cardY": 775,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 21.95,
+        "coverY": 785.3,
+        "coverWidth": 59.76,
+        "coverHeight": 59.76,
+        "cardX": 0,
+        "cardY": 775,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16401385,
+      "time": 546.7128333333334,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "collapse-settle",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 164,
+      "observed": {
+        "coverX": 21.99,
+        "coverY": 782.96,
+        "coverWidth": 56.87,
+        "coverHeight": 56.87,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 21.99,
+        "coverY": 782.96,
+        "coverWidth": 56.87,
+        "coverHeight": 56.87,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16402386,
+      "time": 546.7462,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "collapse-settle",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 163,
+      "observed": {
+        "coverX": 21.9,
+        "coverY": 781.17,
+        "coverWidth": 55.39,
+        "coverHeight": 55.39,
+        "cardX": 0,
+        "cardY": 771,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 21.9,
+        "coverY": 781.17,
+        "coverWidth": 55.39,
+        "coverHeight": 55.39,
+        "cardX": 0,
+        "cardY": 771,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16403387,
+      "time": 546.7795666666667,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "collapse-settle",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 163,
+      "observed": {
+        "coverX": 21.89,
+        "coverY": 780.1,
+        "coverWidth": 54.4,
+        "coverHeight": 54.4,
+        "cardX": 0,
+        "cardY": 771,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 21.89,
+        "coverY": 780.1,
+        "coverWidth": 54.4,
+        "coverHeight": 54.4,
+        "cardX": 0,
+        "cardY": 771,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16404388,
+      "time": 546.8129333333334,
+      "split": "fit",
+      "originalSplit": "holdout",
+      "phase": "collapse-settle",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 163,
+      "observed": {
+        "coverX": 21.93,
+        "coverY": 779.43,
+        "coverWidth": 53.81,
+        "coverHeight": 53.81,
+        "cardX": 0,
+        "cardY": 771,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 21.93,
+        "coverY": 779.43,
+        "coverWidth": 53.81,
+        "coverHeight": 53.81,
+        "cardX": 0,
+        "cardY": 771,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16405389,
+      "time": 546.8463,
+      "split": "fit",
+      "originalSplit": "fit",
+      "phase": "collapse-settle",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 163,
+      "observed": {
+        "coverX": 21.94,
+        "coverY": 779.15,
+        "coverWidth": 53.46,
+        "coverHeight": 53.46,
+        "cardX": 0,
+        "cardY": 771,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 21.94,
+        "coverY": 779.15,
+        "coverWidth": 53.46,
+        "coverHeight": 53.46,
+        "cardX": 0,
+        "cardY": 771,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16417401,
+      "time": 547.2467,
+      "split": "anchor",
+      "originalSplit": "anchor",
+      "phase": "compact",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 72,
+      "observed": {
+        "coverX": 21.84,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 21.84,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    },
+    {
+      "pts": 16469453,
+      "time": 548.9817666666667,
+      "split": "anchor",
+      "originalSplit": "anchor",
+      "phase": "compact",
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "backgroundScaleUncertainty": 0.00463,
+      "observedVisibleCardHeight": 72,
+      "observed": {
+        "coverX": 21.84,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "predicted": {
+        "coverX": 21.84,
+        "coverY": 778.91,
+        "coverWidth": 52.93,
+        "coverHeight": 52.93,
+        "cardX": 0,
+        "cardY": 770,
+        "cardWidth": 432,
+        "backgroundScale": 1,
+        "backgroundTop": 0
+      },
+      "residual": {
+        "coverX": 0,
+        "coverY": 0,
+        "coverWidth": 0,
+        "coverHeight": 0,
+        "cardX": 0,
+        "cardY": 0,
+        "cardWidth": 0,
+        "backgroundScale": 0,
+        "backgroundTop": 0
+      }
+    }
+  ]
+}

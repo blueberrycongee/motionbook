@@ -1,0 +1,22 @@
+{
+  "scope": "Public bundle only; supersedes broader historical media inventory",
+  "normal": {
+    "path": "preview/telegram-media-spoiler.gif",
+    "frames": 180,
+    "size": [
+      640,
+      810
+    ],
+    "delays_ms": {
+      "20": 180
+    },
+    "duration_ms": 3600,
+    "fully_decoded": true,
+    "sha256": "62b93b420e5e39c4dc25f82cfdee28f3a1381050cca644d39a85bce6fad53bba",
+    "decode_methods": [
+      "Pillow all frames",
+      "FFmpeg to null output"
+    ]
+  },
+  "excludedMedia": "Source-containing comparisons, timing-master MP4 and old version-0 preview are not bundled or revalidated."
+}

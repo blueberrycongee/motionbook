@@ -1,0 +1,5211 @@
+{
+  "source": {
+    "url": "https://developer.apple.com/videos/play/wwdc2022/10147/?time=539",
+    "sha256": "8d9f1adc121c6fc017b83871c9739f474719e4e805156cbd7a3eb8276bcc8e9d",
+    "width": 1920,
+    "height": 1080,
+    "fpsNumerator": 30000,
+    "fpsDenominator": 1001,
+    "timeBaseNumerator": 1,
+    "timeBaseDenominator": 30000,
+    "crop": {
+      "x": 744,
+      "y": 74,
+      "width": 432,
+      "height": 934
+    },
+    "physicalDisplayApprox": {
+      "x": 744,
+      "y": 72,
+      "width": 432,
+      "height": 936
+    }
+  },
+  "coordinateSystem": "source pixels local to fixed aligned crop; x right,y down",
+  "method": {
+    "album": "Robust least-squares matching of stable expanded artwork RGB texture to each source frame, translation+uniform-scale only, no rotation. Sampling reference inner artwork to exclude rounded corners and shadows. Every changing native frame manually reviewed in contact sheets. Values are observations with pixel uncertainty, not Apple engine parameters.",
+    "card": "Gradient/color transition of horizontal median RGB strips near expected boundary, reviewed against source frames. Visible display clip only; tab bar is a separate overlaid layer. Corner radiusApprox is the simple circular model56*(1-top/770) supported by selected corner fits to within about3px; it is not independently measured per frame.",
+    "background": "Bright underlying-page boundary width divided by432 when at least150px of unoccluded row exists. Null when no reliable edge observable.",
+    "split": "Every third observed row held out (index%3==1), remaining rows fit; static endpoint anchors separately labeled. Parent model must not fit holdout rows if claiming holdout validation.",
+    "timing": "Native PTS, no frame interpolation or fps resampling. Event uncertainty >=1 native frame (33.3667ms)."
+  },
+  "events": [
+    {
+      "name": "press first visible",
+      "time": 542.208333333,
+      "bracket": [
+        542.174966667,
+        542.208333333
+      ]
+    },
+    {
+      "name": "expansion first visible motion",
+      "time": 542.3418,
+      "bracket": [
+        542.308433333,
+        542.3418
+      ]
+    },
+    {
+      "name": "expansion geometry within2px of endpoint",
+      "time": 542.775566667
+    },
+    {
+      "name": "expansion stable endpoint",
+      "time": 542.875666667
+    },
+    {
+      "name": "downward drag first displacement",
+      "time": 545.478266667,
+      "bracket": [
+        545.4449,
+        545.478266667
+      ]
+    },
+    {
+      "name": "cover begins collapse scaling",
+      "time": 546.412533333,
+      "bracket": [
+        546.379166667,
+        546.412533333
+      ]
+    },
+    {
+      "name": "cover lower-position rebound maximum",
+      "time": 546.579366667,
+      "bracket": [
+        546.579366667,
+        546.612733333
+      ]
+    },
+    {
+      "name": "cover near compact geometry",
+      "time": 546.8463,
+      "note": "Color/opacity tail continues later; appearance measurements separate"
+    }
+  ],
+  "cancellationFinding": "No return-to-open or cancelled collapse in539–549s. One expansion, steady downward drag, then compact collapse with small downward overshoot and recovery. Source lacks touch/release logs, so input cancellation/velocity thresholds cannot be recovered.",
+  "measurements": [
+    {
+      "pts": 16170154,
+      "time": 539.0051333333333,
+      "split": "anchor",
+      "phase": "compact",
+      "album": {
+        "x": 21.84,
+        "y": 778.91,
+        "width": 52.93,
+        "height": 52.93
+      },
+      "cover": {
+        "x": 21.84,
+        "y": 778.91,
+        "size": 52.93
+      },
+      "sheetTop": 770,
+      "card": {
+        "x": 0,
+        "y": 770,
+        "w": 432,
+        "h": 72
+      },
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "anchor"
+    },
+    {
+      "pts": 16261245,
+      "time": 542.0415,
+      "split": "anchor",
+      "phase": "compact",
+      "album": {
+        "x": 21.84,
+        "y": 778.91,
+        "width": 52.93,
+        "height": 52.93
+      },
+      "cover": {
+        "x": 21.84,
+        "y": 778.91,
+        "size": 52.93
+      },
+      "sheetTop": 770,
+      "card": {
+        "x": 0,
+        "y": 770,
+        "w": 432,
+        "h": 72
+      },
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "anchor"
+    },
+    {
+      "pts": 16265249,
+      "time": 542.1749666666667,
+      "split": "fit",
+      "phase": "compact",
+      "album": {
+        "x": 21.84,
+        "y": 778.91,
+        "width": 52.93,
+        "height": 52.93
+      },
+      "cover": {
+        "x": 21.84,
+        "y": 778.91,
+        "size": 52.93
+      },
+      "sheetTop": 770,
+      "card": {
+        "x": 0,
+        "y": 770,
+        "w": 432,
+        "h": 164
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 4.398,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16266250,
+      "time": 542.2083333333334,
+      "split": "fit",
+      "phase": "compact-pressed",
+      "album": {
+        "x": 21.83,
+        "y": 778.91,
+        "width": 52.93,
+        "height": 52.93
+      },
+      "cover": {
+        "x": 21.83,
+        "y": 778.91,
+        "size": 52.93
+      },
+      "sheetTop": 770,
+      "card": {
+        "x": 0,
+        "y": 770,
+        "w": 432,
+        "h": 164
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 4.621,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16267251,
+      "time": 542.2417,
+      "split": "fit",
+      "phase": "compact-pressed",
+      "album": {
+        "x": 21.83,
+        "y": 778.91,
+        "width": 52.93,
+        "height": 52.93
+      },
+      "cover": {
+        "x": 21.83,
+        "y": 778.91,
+        "size": 52.93
+      },
+      "sheetTop": 770,
+      "card": {
+        "x": 0,
+        "y": 770,
+        "w": 432,
+        "h": 164
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 4.621,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16268252,
+      "time": 542.2750666666667,
+      "split": "fit",
+      "phase": "compact-pressed",
+      "album": {
+        "x": 21.83,
+        "y": 778.91,
+        "width": 52.93,
+        "height": 52.93
+      },
+      "cover": {
+        "x": 21.83,
+        "y": 778.91,
+        "size": 52.93
+      },
+      "sheetTop": 770,
+      "card": {
+        "x": 0,
+        "y": 770,
+        "w": 432,
+        "h": 164
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 4.621,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16269253,
+      "time": 542.3084333333334,
+      "split": "fit",
+      "phase": "compact-pressed",
+      "album": {
+        "x": 21.83,
+        "y": 778.91,
+        "width": 52.93,
+        "height": 52.93
+      },
+      "cover": {
+        "x": 21.83,
+        "y": 778.91,
+        "size": 52.93
+      },
+      "sheetTop": 770,
+      "card": {
+        "x": 0,
+        "y": 770,
+        "w": 432,
+        "h": 164
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 4.621,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16270254,
+      "time": 542.3418,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 22.82,
+        "y": 651.89,
+        "width": 114.15,
+        "height": 114.15
+      },
+      "cover": {
+        "x": 22.82,
+        "y": 651.89,
+        "size": 114.15
+      },
+      "sheetTop": 626,
+      "card": {
+        "x": 0,
+        "y": 626,
+        "w": 432,
+        "h": 308
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.98148,
+        "visibleLeft": 4,
+        "visibleRight": 428,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 8,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 2.518,
+      "cornerRadiusApprox": 10.5,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16271255,
+      "time": 542.3751666666667,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 23.99,
+        "y": 499.33,
+        "width": 187.36,
+        "height": 187.36
+      },
+      "cover": {
+        "x": 23.99,
+        "y": 499.33,
+        "size": 187.36
+      },
+      "sheetTop": 452,
+      "card": {
+        "x": 0,
+        "y": 452,
+        "w": 432,
+        "h": 482
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.96296,
+        "visibleLeft": 8,
+        "visibleRight": 424,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 20,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 2.827,
+      "cornerRadiusApprox": 23.1,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16272256,
+      "time": 542.4085333333334,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 25.03,
+        "y": 371.57,
+        "width": 248.61,
+        "height": 248.61
+      },
+      "cover": {
+        "x": 25.03,
+        "y": 371.57,
+        "size": 248.61
+      },
+      "sheetTop": 307,
+      "card": {
+        "x": 0,
+        "y": 307,
+        "w": 432,
+        "h": 627
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.94907,
+        "visibleLeft": 11,
+        "visibleRight": 421,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 30,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 2.098,
+      "cornerRadiusApprox": 33.7,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16273257,
+      "time": 542.4419,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 25.61,
+        "y": 276.49,
+        "width": 294.37,
+        "height": 294.37
+      },
+      "cover": {
+        "x": 25.61,
+        "y": 276.49,
+        "size": 294.37
+      },
+      "sheetTop": 200,
+      "card": {
+        "x": 0,
+        "y": 200,
+        "w": 432,
+        "h": 734
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.93519,
+        "visibleLeft": 14,
+        "visibleRight": 418,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 37,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.684,
+      "cornerRadiusApprox": 41.5,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16274258,
+      "time": 542.4752666666667,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 25.89,
+        "y": 240.63,
+        "width": 311.6,
+        "height": 311.6
+      },
+      "cover": {
+        "x": 25.89,
+        "y": 240.63,
+        "size": 311.6
+      },
+      "sheetTop": 156,
+      "card": {
+        "x": 0,
+        "y": 156,
+        "w": 432,
+        "h": 778
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.93519,
+        "visibleLeft": 14,
+        "visibleRight": 418,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 40,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.747,
+      "cornerRadiusApprox": 44.7,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16275259,
+      "time": 542.5086333333334,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 26.38,
+        "y": 187.3,
+        "width": 337.07,
+        "height": 337.07
+      },
+      "cover": {
+        "x": 26.38,
+        "y": 187.3,
+        "size": 337.07
+      },
+      "sheetTop": 98,
+      "card": {
+        "x": 0,
+        "y": 98,
+        "w": 432,
+        "h": 836
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.92593,
+        "visibleLeft": 16,
+        "visibleRight": 416,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 44,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.363,
+      "cornerRadiusApprox": 48.9,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16276260,
+      "time": 542.542,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 26.58,
+        "y": 153.71,
+        "width": 353.26,
+        "height": 353.26
+      },
+      "cover": {
+        "x": 26.58,
+        "y": 153.71,
+        "size": 353.26
+      },
+      "sheetTop": 60,
+      "card": {
+        "x": 0,
+        "y": 60,
+        "w": 432,
+        "h": 874
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.91898,
+        "visibleLeft": 17,
+        "visibleRight": 414,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 47,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.122,
+      "cornerRadiusApprox": 51.6,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16277261,
+      "time": 542.5753666666667,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 26.82,
+        "y": 125.19,
+        "width": 366.92,
+        "height": 366.92
+      },
+      "cover": {
+        "x": 26.82,
+        "y": 125.19,
+        "size": 366.92
+      },
+      "sheetTop": 26,
+      "card": {
+        "x": 0,
+        "y": 26,
+        "w": 432,
+        "h": 908
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1,
+      "cornerRadiusApprox": 54.1,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16278262,
+      "time": 542.6087333333334,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 26.78,
+        "y": 119.44,
+        "width": 369.8,
+        "height": 369.8
+      },
+      "cover": {
+        "x": 26.78,
+        "y": 119.44,
+        "size": 369.8
+      },
+      "sheetTop": 20,
+      "card": {
+        "x": 0,
+        "y": 20,
+        "w": 432,
+        "h": 914
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1,
+      "cornerRadiusApprox": 54.5,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16279263,
+      "time": 542.6421,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 26.93,
+        "y": 111.5,
+        "width": 373.45,
+        "height": 373.45
+      },
+      "cover": {
+        "x": 26.93,
+        "y": 111.5,
+        "size": 373.45
+      },
+      "sheetTop": 12,
+      "card": {
+        "x": 0,
+        "y": 12,
+        "w": 432,
+        "h": 922
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.975,
+      "cornerRadiusApprox": 55.1,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16280264,
+      "time": 542.6754666666667,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 26.96,
+        "y": 106.71,
+        "width": 375.77,
+        "height": 375.77
+      },
+      "cover": {
+        "x": 26.96,
+        "y": 106.71,
+        "size": 375.77
+      },
+      "sheetTop": 6,
+      "card": {
+        "x": 0,
+        "y": 6,
+        "w": 432,
+        "h": 928
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.945,
+      "cornerRadiusApprox": 55.6,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16281265,
+      "time": 542.7088333333334,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 26.93,
+        "y": 103.92,
+        "width": 377.16,
+        "height": 377.16
+      },
+      "cover": {
+        "x": 26.93,
+        "y": 103.92,
+        "size": 377.16
+      },
+      "sheetTop": 3,
+      "card": {
+        "x": 0,
+        "y": 3,
+        "w": 432,
+        "h": 931
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.816,
+      "cornerRadiusApprox": 55.8,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16282266,
+      "time": 542.7422,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 26.96,
+        "y": 102.25,
+        "width": 377.96,
+        "height": 377.96
+      },
+      "cover": {
+        "x": 26.96,
+        "y": 102.25,
+        "size": 377.96
+      },
+      "sheetTop": 1,
+      "card": {
+        "x": 0,
+        "y": 1,
+        "w": 432,
+        "h": 933
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.723,
+      "cornerRadiusApprox": 55.9,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16283267,
+      "time": 542.7755666666667,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 26.96,
+        "y": 101.32,
+        "width": 378.42,
+        "height": 378.42
+      },
+      "cover": {
+        "x": 26.96,
+        "y": 101.32,
+        "size": 378.42
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.696,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16284268,
+      "time": 542.8089333333334,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 26.99,
+        "y": 100.65,
+        "width": 378.66,
+        "height": 378.66
+      },
+      "cover": {
+        "x": 26.99,
+        "y": 100.65,
+        "size": 378.66
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.477,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16285269,
+      "time": 542.8423,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 27,
+        "y": 100.63,
+        "width": 378.68,
+        "height": 378.68
+      },
+      "cover": {
+        "x": 27,
+        "y": 100.63,
+        "size": 378.68
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.442,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16286270,
+      "time": 542.8756666666667,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 26.97,
+        "y": 100,
+        "width": 379.03,
+        "height": 379.03
+      },
+      "cover": {
+        "x": 26.97,
+        "y": 100,
+        "size": 379.03
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.022,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16287271,
+      "time": 542.9090333333334,
+      "split": "fit",
+      "phase": "expansion",
+      "album": {
+        "x": 26.97,
+        "y": 100.04,
+        "width": 379.01,
+        "height": 379.01
+      },
+      "cover": {
+        "x": 26.97,
+        "y": 100.04,
+        "size": 379.01
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.064,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16288272,
+      "time": 542.9424,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27,
+        "y": 100.01,
+        "width": 378.99,
+        "height": 378.99
+      },
+      "cover": {
+        "x": 27,
+        "y": 100.01,
+        "size": 378.99
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.003,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16289273,
+      "time": 542.9757666666667,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27,
+        "y": 100,
+        "width": 379,
+        "height": 379
+      },
+      "cover": {
+        "x": 27,
+        "y": 100,
+        "size": 379
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.001,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16290274,
+      "time": 543.0091333333334,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27,
+        "y": 100,
+        "width": 379,
+        "height": 379
+      },
+      "cover": {
+        "x": 27,
+        "y": 100,
+        "size": 379
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16291275,
+      "time": 543.0425,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27,
+        "y": 100,
+        "width": 379,
+        "height": 379
+      },
+      "cover": {
+        "x": 27,
+        "y": 100,
+        "size": 379
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.001,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16292276,
+      "time": 543.0758666666667,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27,
+        "y": 100,
+        "width": 379,
+        "height": 379
+      },
+      "cover": {
+        "x": 27,
+        "y": 100,
+        "size": 379
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.004,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16293277,
+      "time": 543.1092333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27,
+        "y": 100,
+        "width": 379,
+        "height": 379
+      },
+      "cover": {
+        "x": 27,
+        "y": 100,
+        "size": 379
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.007,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16294278,
+      "time": 543.1426,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27,
+        "y": 100,
+        "width": 379,
+        "height": 379
+      },
+      "cover": {
+        "x": 27,
+        "y": 100,
+        "size": 379
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.009,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16295279,
+      "time": 543.1759666666667,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27,
+        "y": 100,
+        "width": 379,
+        "height": 379
+      },
+      "cover": {
+        "x": 27,
+        "y": 100,
+        "size": 379
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.009,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16296280,
+      "time": 543.2093333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27,
+        "y": 100,
+        "width": 379,
+        "height": 379
+      },
+      "cover": {
+        "x": 27,
+        "y": 100,
+        "size": 379
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.008,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16297281,
+      "time": 543.2427,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27,
+        "y": 100,
+        "width": 379,
+        "height": 379
+      },
+      "cover": {
+        "x": 27,
+        "y": 100,
+        "size": 379
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.008,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16298282,
+      "time": 543.2760666666667,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27,
+        "y": 100,
+        "width": 379,
+        "height": 379
+      },
+      "cover": {
+        "x": 27,
+        "y": 100,
+        "size": 379
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.009,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16299283,
+      "time": 543.3094333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27,
+        "y": 100,
+        "width": 379,
+        "height": 379
+      },
+      "cover": {
+        "x": 27,
+        "y": 100,
+        "size": 379
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.009,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16300284,
+      "time": 543.3428,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.01,
+        "y": 100,
+        "width": 378.99,
+        "height": 378.99
+      },
+      "cover": {
+        "x": 27.01,
+        "y": 100,
+        "size": 378.99
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.009,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16301285,
+      "time": 543.3761666666667,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.01,
+        "y": 100,
+        "width": 378.99,
+        "height": 378.99
+      },
+      "cover": {
+        "x": 27.01,
+        "y": 100,
+        "size": 378.99
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.011,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16302286,
+      "time": 543.4095333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.01,
+        "y": 99.99,
+        "width": 378.99,
+        "height": 378.99
+      },
+      "cover": {
+        "x": 27.01,
+        "y": 99.99,
+        "size": 378.99
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.014,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16303287,
+      "time": 543.4429,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.01,
+        "y": 99.99,
+        "width": 378.99,
+        "height": 378.99
+      },
+      "cover": {
+        "x": 27.01,
+        "y": 99.99,
+        "size": 378.99
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.016,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16304288,
+      "time": 543.4762666666667,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.01,
+        "y": 99.99,
+        "width": 378.99,
+        "height": 378.99
+      },
+      "cover": {
+        "x": 27.01,
+        "y": 99.99,
+        "size": 378.99
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.016,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16305289,
+      "time": 543.5096333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.01,
+        "y": 99.99,
+        "width": 378.99,
+        "height": 378.99
+      },
+      "cover": {
+        "x": 27.01,
+        "y": 99.99,
+        "size": 378.99
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 0.016,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16306290,
+      "time": 543.543,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16307291,
+      "time": 543.5763666666667,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16308292,
+      "time": 543.6097333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16309293,
+      "time": 543.6431,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16310294,
+      "time": 543.6764666666667,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16311295,
+      "time": 543.7098333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16312296,
+      "time": 543.7432,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16313297,
+      "time": 543.7765666666667,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16314298,
+      "time": 543.8099333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16315299,
+      "time": 543.8433,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16316300,
+      "time": 543.8766666666667,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16317301,
+      "time": 543.9100333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16318302,
+      "time": 543.9434,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16319303,
+      "time": 543.9767666666667,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16320304,
+      "time": 544.0101333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16321305,
+      "time": 544.0435,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16322306,
+      "time": 544.0768666666667,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16323307,
+      "time": 544.1102333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16324308,
+      "time": 544.1436,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16325309,
+      "time": 544.1769666666667,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16326310,
+      "time": 544.2103333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16327311,
+      "time": 544.2437,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16328312,
+      "time": 544.2770666666667,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16329313,
+      "time": 544.3104333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16330314,
+      "time": 544.3438,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16331315,
+      "time": 544.3771666666667,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16332316,
+      "time": 544.4105333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16333317,
+      "time": 544.4439,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16334318,
+      "time": 544.4772666666667,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16335319,
+      "time": 544.5106333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16336320,
+      "time": 544.544,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16337321,
+      "time": 544.5773666666666,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16338322,
+      "time": 544.6107333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16339323,
+      "time": 544.6441,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16340324,
+      "time": 544.6774666666666,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16341325,
+      "time": 544.7108333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.993,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16342326,
+      "time": 544.7442,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.993,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16343327,
+      "time": 544.7775666666666,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.993,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16344328,
+      "time": 544.8109333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16345329,
+      "time": 544.8443,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16346330,
+      "time": 544.8776666666666,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16347331,
+      "time": 544.9110333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16348332,
+      "time": 544.9444,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16349333,
+      "time": 544.9777666666666,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16350334,
+      "time": 545.0111333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16351335,
+      "time": 545.0445,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16352336,
+      "time": 545.0778666666666,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16353337,
+      "time": 545.1112333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16354338,
+      "time": 545.1446,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16355339,
+      "time": 545.1779666666666,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16356340,
+      "time": 545.2113333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16357341,
+      "time": 545.2447,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16358342,
+      "time": 545.2780666666666,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16359343,
+      "time": 545.3114333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16360344,
+      "time": 545.3448,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16361345,
+      "time": 545.3781666666666,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.994,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16362346,
+      "time": 545.4115333333333,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.993,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16363347,
+      "time": 545.4449,
+      "split": "fit",
+      "phase": "expanded",
+      "album": {
+        "x": 27.13,
+        "y": 100.14,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 100.14,
+        "size": 378.91
+      },
+      "sheetTop": 0,
+      "card": {
+        "x": 0,
+        "y": 0,
+        "w": 432,
+        "h": 934
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.993,
+      "cornerRadiusApprox": 56,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16364348,
+      "time": 545.4782666666666,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.09,
+        "y": 105.55,
+        "width": 378.95,
+        "height": 378.95
+      },
+      "cover": {
+        "x": 27.09,
+        "y": 105.55,
+        "size": 378.95
+      },
+      "sheetTop": 4,
+      "card": {
+        "x": 0,
+        "y": 4,
+        "w": 432,
+        "h": 930
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.919,
+      "cornerRadiusApprox": 55.7,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16365349,
+      "time": 545.5116333333333,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.1,
+        "y": 116.29,
+        "width": 378.92,
+        "height": 378.92
+      },
+      "cover": {
+        "x": 27.1,
+        "y": 116.29,
+        "size": 378.92
+      },
+      "sheetTop": 14,
+      "card": {
+        "x": 0,
+        "y": 14,
+        "w": 432,
+        "h": 920
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.907,
+      "cornerRadiusApprox": 55,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16366350,
+      "time": 545.545,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.1,
+        "y": 127.22,
+        "width": 378.94,
+        "height": 378.94
+      },
+      "cover": {
+        "x": 27.1,
+        "y": 127.22,
+        "size": 378.94
+      },
+      "sheetTop": 25,
+      "card": {
+        "x": 0,
+        "y": 25,
+        "w": 432,
+        "h": 909
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 3,
+      "templateMedianRgbError": 1.943,
+      "cornerRadiusApprox": 54.2,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16367351,
+      "time": 545.5783666666666,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.11,
+        "y": 138.36,
+        "width": 378.93,
+        "height": 378.93
+      },
+      "cover": {
+        "x": 27.11,
+        "y": 138.36,
+        "size": 378.93
+      },
+      "sheetTop": 38,
+      "card": {
+        "x": 0,
+        "y": 38,
+        "w": 432,
+        "h": 896
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.882,
+      "cornerRadiusApprox": 53.2,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16368352,
+      "time": 545.6117333333333,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.1,
+        "y": 144.29,
+        "width": 378.92,
+        "height": 378.92
+      },
+      "cover": {
+        "x": 27.1,
+        "y": 144.29,
+        "size": 378.92
+      },
+      "sheetTop": 42,
+      "card": {
+        "x": 0,
+        "y": 42,
+        "w": 432,
+        "h": 892
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.909,
+      "cornerRadiusApprox": 52.9,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16369353,
+      "time": 545.6451,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.1,
+        "y": 156.5,
+        "width": 378.93,
+        "height": 378.93
+      },
+      "cover": {
+        "x": 27.1,
+        "y": 156.5,
+        "size": 378.93
+      },
+      "sheetTop": 54,
+      "card": {
+        "x": 0,
+        "y": 54,
+        "w": 432,
+        "h": 880
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": null,
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.906,
+      "cornerRadiusApprox": 52.1,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16370354,
+      "time": 545.6784666666666,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.09,
+        "y": 167.61,
+        "width": 378.93,
+        "height": 378.93
+      },
+      "cover": {
+        "x": 27.09,
+        "y": 167.61,
+        "size": 378.93
+      },
+      "sheetTop": 66,
+      "card": {
+        "x": 0,
+        "y": 66,
+        "w": 432,
+        "h": 868
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.91667,
+        "visibleLeft": 18,
+        "visibleRight": 414,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 51,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.881,
+      "cornerRadiusApprox": 51.2,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16371355,
+      "time": 545.7118333333333,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.09,
+        "y": 177.65,
+        "width": 378.94,
+        "height": 378.94
+      },
+      "cover": {
+        "x": 27.09,
+        "y": 177.65,
+        "size": 378.94
+      },
+      "sheetTop": 76,
+      "card": {
+        "x": 0,
+        "y": 76,
+        "w": 432,
+        "h": 858
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.91667,
+        "visibleLeft": 18,
+        "visibleRight": 414,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 50,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.87,
+      "cornerRadiusApprox": 50.5,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16372356,
+      "time": 545.7452,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.09,
+        "y": 185.74,
+        "width": 378.94,
+        "height": 378.94
+      },
+      "cover": {
+        "x": 27.09,
+        "y": 185.74,
+        "size": 378.94
+      },
+      "sheetTop": 84,
+      "card": {
+        "x": 0,
+        "y": 84,
+        "w": 432,
+        "h": 850
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.91667,
+        "visibleLeft": 18,
+        "visibleRight": 414,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 49,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.889,
+      "cornerRadiusApprox": 49.9,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16373357,
+      "time": 545.7785666666666,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.13,
+        "y": 192.09,
+        "width": 378.89,
+        "height": 378.89
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 192.09,
+        "size": 378.89
+      },
+      "sheetTop": 90,
+      "card": {
+        "x": 0,
+        "y": 90,
+        "w": 432,
+        "h": 844
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.91667,
+        "visibleLeft": 18,
+        "visibleRight": 414,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 49,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.951,
+      "cornerRadiusApprox": 49.5,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16374358,
+      "time": 545.8119333333333,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.1,
+        "y": 198.3,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.1,
+        "y": 198.3,
+        "size": 378.91
+      },
+      "sheetTop": 96,
+      "card": {
+        "x": 0,
+        "y": 96,
+        "w": 432,
+        "h": 838
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.9213,
+        "visibleLeft": 17,
+        "visibleRight": 415,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 48,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.921,
+      "cornerRadiusApprox": 49,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16375359,
+      "time": 545.8453,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.09,
+        "y": 204.51,
+        "width": 378.92,
+        "height": 378.92
+      },
+      "cover": {
+        "x": 27.09,
+        "y": 204.51,
+        "size": 378.92
+      },
+      "sheetTop": 102,
+      "card": {
+        "x": 0,
+        "y": 102,
+        "w": 432,
+        "h": 832
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.9213,
+        "visibleLeft": 17,
+        "visibleRight": 415,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 48,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.924,
+      "cornerRadiusApprox": 48.6,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16376360,
+      "time": 545.8786666666666,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27,
+        "y": 211.22,
+        "width": 379.03,
+        "height": 379.03
+      },
+      "cover": {
+        "x": 27,
+        "y": 211.22,
+        "size": 379.03
+      },
+      "sheetTop": 110,
+      "card": {
+        "x": 0,
+        "y": 110,
+        "w": 432,
+        "h": 824
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.9213,
+        "visibleLeft": 17,
+        "visibleRight": 415,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 47,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.975,
+      "cornerRadiusApprox": 48,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16377361,
+      "time": 545.9120333333333,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.11,
+        "y": 218.23,
+        "width": 378.9,
+        "height": 378.9
+      },
+      "cover": {
+        "x": 27.11,
+        "y": 218.23,
+        "size": 378.9
+      },
+      "sheetTop": 116,
+      "card": {
+        "x": 0,
+        "y": 116,
+        "w": 432,
+        "h": 818
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.9213,
+        "visibleLeft": 17,
+        "visibleRight": 415,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 46,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.905,
+      "cornerRadiusApprox": 47.6,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16378362,
+      "time": 545.9454,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.1,
+        "y": 224.5,
+        "width": 378.92,
+        "height": 378.92
+      },
+      "cover": {
+        "x": 27.1,
+        "y": 224.5,
+        "size": 378.92
+      },
+      "sheetTop": 122,
+      "card": {
+        "x": 0,
+        "y": 122,
+        "w": 432,
+        "h": 812
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.9213,
+        "visibleLeft": 17,
+        "visibleRight": 415,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 46,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.92,
+      "cornerRadiusApprox": 47.1,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16379363,
+      "time": 545.9787666666666,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.1,
+        "y": 231.52,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.1,
+        "y": 231.52,
+        "size": 378.91
+      },
+      "sheetTop": 130,
+      "card": {
+        "x": 0,
+        "y": 130,
+        "w": 432,
+        "h": 804
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.9213,
+        "visibleLeft": 17,
+        "visibleRight": 415,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 46,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.915,
+      "cornerRadiusApprox": 46.5,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16380364,
+      "time": 546.0121333333333,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.11,
+        "y": 238.58,
+        "width": 378.89,
+        "height": 378.89
+      },
+      "cover": {
+        "x": 27.11,
+        "y": 238.58,
+        "size": 378.89
+      },
+      "sheetTop": 136,
+      "card": {
+        "x": 0,
+        "y": 136,
+        "w": 432,
+        "h": 798
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.9213,
+        "visibleLeft": 17,
+        "visibleRight": 415,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 45,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.922,
+      "cornerRadiusApprox": 46.1,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16381365,
+      "time": 546.0455,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.12,
+        "y": 245.93,
+        "width": 378.88,
+        "height": 378.88
+      },
+      "cover": {
+        "x": 27.12,
+        "y": 245.93,
+        "size": 378.88
+      },
+      "sheetTop": 144,
+      "card": {
+        "x": 0,
+        "y": 144,
+        "w": 432,
+        "h": 790
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.9213,
+        "visibleLeft": 17,
+        "visibleRight": 415,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 45,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.903,
+      "cornerRadiusApprox": 45.5,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16382366,
+      "time": 546.0788666666666,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.13,
+        "y": 254.15,
+        "width": 378.86,
+        "height": 378.86
+      },
+      "cover": {
+        "x": 27.13,
+        "y": 254.15,
+        "size": 378.86
+      },
+      "sheetTop": 152,
+      "card": {
+        "x": 0,
+        "y": 152,
+        "w": 432,
+        "h": 782
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.92361,
+        "visibleLeft": 16,
+        "visibleRight": 415,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 44,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.969,
+      "cornerRadiusApprox": 44.9,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16383367,
+      "time": 546.1122333333333,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.12,
+        "y": 262.2,
+        "width": 378.89,
+        "height": 378.89
+      },
+      "cover": {
+        "x": 27.12,
+        "y": 262.2,
+        "size": 378.89
+      },
+      "sheetTop": 160,
+      "card": {
+        "x": 0,
+        "y": 160,
+        "w": 432,
+        "h": 774
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.92593,
+        "visibleLeft": 16,
+        "visibleRight": 416,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 43,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.95,
+      "cornerRadiusApprox": 44.4,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16384368,
+      "time": 546.1456,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.1,
+        "y": 271.47,
+        "width": 378.92,
+        "height": 378.92
+      },
+      "cover": {
+        "x": 27.1,
+        "y": 271.47,
+        "size": 378.92
+      },
+      "sheetTop": 170,
+      "card": {
+        "x": 0,
+        "y": 170,
+        "w": 432,
+        "h": 764
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.92593,
+        "visibleLeft": 16,
+        "visibleRight": 416,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 42,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.927,
+      "cornerRadiusApprox": 43.6,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16385369,
+      "time": 546.1789666666666,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.07,
+        "y": 282.96,
+        "width": 378.95,
+        "height": 378.95
+      },
+      "cover": {
+        "x": 27.07,
+        "y": 282.96,
+        "size": 378.95
+      },
+      "sheetTop": 182,
+      "card": {
+        "x": 0,
+        "y": 182,
+        "w": 432,
+        "h": 752
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.92593,
+        "visibleLeft": 16,
+        "visibleRight": 416,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 42,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.966,
+      "cornerRadiusApprox": 42.8,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16386370,
+      "time": 546.2123333333333,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.11,
+        "y": 296.23,
+        "width": 378.9,
+        "height": 378.9
+      },
+      "cover": {
+        "x": 27.11,
+        "y": 296.23,
+        "size": 378.9
+      },
+      "sheetTop": 194,
+      "card": {
+        "x": 0,
+        "y": 194,
+        "w": 432,
+        "h": 740
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.93056,
+        "visibleLeft": 15,
+        "visibleRight": 417,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 41,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.97,
+      "cornerRadiusApprox": 41.9,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16387371,
+      "time": 546.2457,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.06,
+        "y": 310.96,
+        "width": 378.97,
+        "height": 378.97
+      },
+      "cover": {
+        "x": 27.06,
+        "y": 310.96,
+        "size": 378.97
+      },
+      "sheetTop": 208,
+      "card": {
+        "x": 0,
+        "y": 208,
+        "w": 432,
+        "h": 726
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.93056,
+        "visibleLeft": 15,
+        "visibleRight": 417,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 39,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.963,
+      "cornerRadiusApprox": 40.9,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16388372,
+      "time": 546.2790666666667,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.05,
+        "y": 330.14,
+        "width": 378.96,
+        "height": 378.96
+      },
+      "cover": {
+        "x": 27.05,
+        "y": 330.14,
+        "size": 378.96
+      },
+      "sheetTop": 228,
+      "card": {
+        "x": 0,
+        "y": 228,
+        "w": 432,
+        "h": 706
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.93056,
+        "visibleLeft": 15,
+        "visibleRight": 417,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 38,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.995,
+      "cornerRadiusApprox": 39.4,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16389373,
+      "time": 546.3124333333334,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.12,
+        "y": 361.6,
+        "width": 378.88,
+        "height": 378.88
+      },
+      "cover": {
+        "x": 27.12,
+        "y": 361.6,
+        "size": 378.88
+      },
+      "sheetTop": 260,
+      "card": {
+        "x": 0,
+        "y": 260,
+        "w": 432,
+        "h": 674
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.93519,
+        "visibleLeft": 14,
+        "visibleRight": 418,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 36,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.905,
+      "cornerRadiusApprox": 37.1,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16390374,
+      "time": 546.3458,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.11,
+        "y": 435.15,
+        "width": 378.91,
+        "height": 378.91
+      },
+      "cover": {
+        "x": 27.11,
+        "y": 435.15,
+        "size": 378.91
+      },
+      "sheetTop": 332,
+      "card": {
+        "x": 0,
+        "y": 332,
+        "w": 432,
+        "h": 602
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.94444,
+        "visibleLeft": 12,
+        "visibleRight": 420,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 30,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.961,
+      "cornerRadiusApprox": 31.9,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16391375,
+      "time": 546.3791666666667,
+      "split": "fit",
+      "phase": "downward-drag",
+      "album": {
+        "x": 27.12,
+        "y": 477.18,
+        "width": 378.9,
+        "height": 378.9
+      },
+      "cover": {
+        "x": 27.12,
+        "y": 477.18,
+        "size": 378.9
+      },
+      "sheetTop": 374,
+      "card": {
+        "x": 0,
+        "y": 374,
+        "w": 432,
+        "h": 560
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.94444,
+        "visibleLeft": 12,
+        "visibleRight": 420,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 27,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 1.95,
+      "cornerRadiusApprox": 28.8,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16392376,
+      "time": 546.4125333333334,
+      "split": "fit",
+      "phase": "collapse-settle",
+      "album": {
+        "x": 25.94,
+        "y": 611.14,
+        "width": 304.74,
+        "height": 304.74
+      },
+      "cover": {
+        "x": 25.94,
+        "y": 611.14,
+        "size": 304.74
+      },
+      "sheetTop": 530,
+      "card": {
+        "x": 0,
+        "y": 530,
+        "w": 432,
+        "h": 404
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.96759,
+        "visibleLeft": 7,
+        "visibleRight": 425,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 16,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 2.12,
+      "cornerRadiusApprox": 17.5,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16393377,
+      "time": 546.4459,
+      "split": "fit",
+      "phase": "collapse-settle",
+      "album": {
+        "x": 24.68,
+        "y": 688.64,
+        "width": 232.62,
+        "height": 232.62
+      },
+      "cover": {
+        "x": 24.68,
+        "y": 688.64,
+        "size": 232.62
+      },
+      "sheetTop": 628,
+      "card": {
+        "x": 0,
+        "y": 628,
+        "w": 432,
+        "h": 306
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.98148,
+        "visibleLeft": 4,
+        "visibleRight": 428,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 9,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 1.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 2,
+      "cornerRadiusApprox": 10.3,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16394378,
+      "time": 546.4792666666667,
+      "split": "fit",
+      "phase": "collapse-settle",
+      "album": {
+        "x": 25.23,
+        "y": 741.04,
+        "width": 171.93,
+        "height": 171.93
+      },
+      "cover": {
+        "x": 25.23,
+        "y": 741.04,
+        "size": 171.93
+      },
+      "sheetTop": 698,
+      "card": {
+        "x": 0,
+        "y": 698,
+        "w": 432,
+        "h": 236
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.99074,
+        "visibleLeft": 2,
+        "visibleRight": 430,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 4,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 3.985,
+      "cornerRadiusApprox": 5.2,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16395379,
+      "time": 546.5126333333334,
+      "split": "fit",
+      "phase": "collapse-settle",
+      "album": {
+        "x": 23.5,
+        "y": 771.68,
+        "width": 130.57,
+        "height": 130.57
+      },
+      "cover": {
+        "x": 23.5,
+        "y": 771.68,
+        "size": 130.57
+      },
+      "sheetTop": 740,
+      "card": {
+        "x": 0,
+        "y": 740,
+        "w": 432,
+        "h": 194
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 0.99537,
+        "visibleLeft": 1,
+        "visibleRight": 431,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 1,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 4,
+      "cornerRadiusApprox": 2.2,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16396380,
+      "time": 546.546,
+      "split": "fit",
+      "phase": "collapse-settle",
+      "album": {
+        "x": 23.55,
+        "y": 786.75,
+        "width": 100.39,
+        "height": 100.39
+      },
+      "cover": {
+        "x": 23.55,
+        "y": 786.75,
+        "size": 100.39
+      },
+      "sheetTop": 764,
+      "card": {
+        "x": 0,
+        "y": 764,
+        "w": 432,
+        "h": 170
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 5.639,
+      "cornerRadiusApprox": 0.4,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16397381,
+      "time": 546.5793666666667,
+      "split": "fit",
+      "phase": "collapse-settle",
+      "album": {
+        "x": 22.84,
+        "y": 791.08,
+        "width": 82.57,
+        "height": 82.57
+      },
+      "cover": {
+        "x": 22.84,
+        "y": 791.08,
+        "size": 82.57
+      },
+      "sheetTop": 773,
+      "card": {
+        "x": 0,
+        "y": 773,
+        "w": 432,
+        "h": 161
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 6.351,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16398382,
+      "time": 546.6127333333334,
+      "split": "fit",
+      "phase": "collapse-settle",
+      "album": {
+        "x": 23.27,
+        "y": 791.09,
+        "width": 69.32,
+        "height": 69.32
+      },
+      "cover": {
+        "x": 23.27,
+        "y": 791.09,
+        "size": 69.32
+      },
+      "sheetTop": 777,
+      "card": {
+        "x": 0,
+        "y": 777,
+        "w": 432,
+        "h": 157
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 6.99,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16399383,
+      "time": 546.6461,
+      "split": "fit",
+      "phase": "collapse-settle",
+      "album": {
+        "x": 22.43,
+        "y": 788.11,
+        "width": 63.58,
+        "height": 63.58
+      },
+      "cover": {
+        "x": 22.43,
+        "y": 788.11,
+        "size": 63.58
+      },
+      "sheetTop": 776,
+      "card": {
+        "x": 0,
+        "y": 776,
+        "w": 432,
+        "h": 158
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 4.952,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16400384,
+      "time": 546.6794666666667,
+      "split": "fit",
+      "phase": "collapse-settle",
+      "album": {
+        "x": 21.95,
+        "y": 785.3,
+        "width": 59.76,
+        "height": 59.76
+      },
+      "cover": {
+        "x": 21.95,
+        "y": 785.3,
+        "size": 59.76
+      },
+      "sheetTop": 775,
+      "card": {
+        "x": 0,
+        "y": 775,
+        "w": 432,
+        "h": 159
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 4.806,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16401385,
+      "time": 546.7128333333334,
+      "split": "fit",
+      "phase": "collapse-settle",
+      "album": {
+        "x": 21.99,
+        "y": 782.96,
+        "width": 56.87,
+        "height": 56.87
+      },
+      "cover": {
+        "x": 21.99,
+        "y": 782.96,
+        "size": 56.87
+      },
+      "sheetTop": 770,
+      "card": {
+        "x": 0,
+        "y": 770,
+        "w": 432,
+        "h": 164
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 4.878,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16402386,
+      "time": 546.7462,
+      "split": "fit",
+      "phase": "collapse-settle",
+      "album": {
+        "x": 21.9,
+        "y": 781.17,
+        "width": 55.39,
+        "height": 55.39
+      },
+      "cover": {
+        "x": 21.9,
+        "y": 781.17,
+        "size": 55.39
+      },
+      "sheetTop": 771,
+      "card": {
+        "x": 0,
+        "y": 771,
+        "w": 432,
+        "h": 163
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 4.833,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16403387,
+      "time": 546.7795666666667,
+      "split": "fit",
+      "phase": "collapse-settle",
+      "album": {
+        "x": 21.89,
+        "y": 780.1,
+        "width": 54.4,
+        "height": 54.4
+      },
+      "cover": {
+        "x": 21.89,
+        "y": 780.1,
+        "size": 54.4
+      },
+      "sheetTop": 771,
+      "card": {
+        "x": 0,
+        "y": 771,
+        "w": 432,
+        "h": 163
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 4.885,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16404388,
+      "time": 546.8129333333334,
+      "split": "fit",
+      "phase": "collapse-settle",
+      "album": {
+        "x": 21.93,
+        "y": 779.43,
+        "width": 53.81,
+        "height": 53.81
+      },
+      "cover": {
+        "x": 21.93,
+        "y": 779.43,
+        "size": 53.81
+      },
+      "sheetTop": 771,
+      "card": {
+        "x": 0,
+        "y": 771,
+        "w": 432,
+        "h": 163
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 4.671,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "holdout"
+    },
+    {
+      "pts": 16405389,
+      "time": 546.8463,
+      "split": "fit",
+      "phase": "collapse-settle",
+      "album": {
+        "x": 21.94,
+        "y": 779.15,
+        "width": 53.46,
+        "height": 53.46
+      },
+      "cover": {
+        "x": 21.94,
+        "y": 779.15,
+        "size": 53.46
+      },
+      "sheetTop": 771,
+      "card": {
+        "x": 0,
+        "y": 771,
+        "w": 432,
+        "h": 163
+      },
+      "cardHeightMeaning": "visible display clip only; tab bar can overlay it; unobservable offscreen extent not inferred",
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "method": "bright-page horizontal edge span, threshold175; max width across unoccluded rows",
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "templateMedianRgbError": 4.403,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "fit"
+    },
+    {
+      "pts": 16417401,
+      "time": 547.2467,
+      "split": "anchor",
+      "phase": "compact",
+      "album": {
+        "x": 21.84,
+        "y": 778.91,
+        "width": 52.93,
+        "height": 52.93
+      },
+      "cover": {
+        "x": 21.84,
+        "y": 778.91,
+        "size": 52.93
+      },
+      "sheetTop": 770,
+      "card": {
+        "x": 0,
+        "y": 770,
+        "w": 432,
+        "h": 72
+      },
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "anchor"
+    },
+    {
+      "pts": 16469453,
+      "time": 548.9817666666667,
+      "split": "anchor",
+      "phase": "compact",
+      "album": {
+        "x": 21.84,
+        "y": 778.91,
+        "width": 52.93,
+        "height": 52.93
+      },
+      "cover": {
+        "x": 21.84,
+        "y": 778.91,
+        "size": 52.93
+      },
+      "sheetTop": 770,
+      "card": {
+        "x": 0,
+        "y": 770,
+        "w": 432,
+        "h": 72
+      },
+      "background": {
+        "scale": 1,
+        "visibleLeft": 0,
+        "visibleRight": 432,
+        "uncertaintyScale": 0.00463,
+        "top": 0,
+        "topUncertaintyPx": 2
+      },
+      "uncertaintyPx": 2.5,
+      "sheetTopUncertaintyPx": 2,
+      "cornerRadiusApprox": 0,
+      "cornerRadiusApproxUncertaintyPx": 3,
+      "originalSplit": "anchor"
+    }
+  ],
+  "tabBarObservations": [
+    {
+      "time": 542.174966667,
+      "top": 842,
+      "uncertaintyPx": 1
+    },
+    {
+      "time": 542.3418,
+      "top": 844,
+      "uncertaintyPx": 2
+    },
+    {
+      "time": 542.375166667,
+      "top": 855,
+      "uncertaintyPx": 2
+    },
+    {
+      "time": 542.408533333,
+      "top": 873,
+      "uncertaintyPx": 2
+    },
+    {
+      "time": 542.4419,
+      "top": 891,
+      "uncertaintyPx": 2
+    },
+    {
+      "time": 542.475266667,
+      "top": 902,
+      "uncertaintyPx": 3
+    },
+    {
+      "time": 542.508633333,
+      "top": 913,
+      "uncertaintyPx": 3
+    },
+    {
+      "time": 546.4459,
+      "top": 917,
+      "uncertaintyPx": 2
+    },
+    {
+      "time": 546.479266667,
+      "top": 898,
+      "uncertaintyPx": 2
+    },
+    {
+      "time": 546.512633333,
+      "top": 880,
+      "uncertaintyPx": 2
+    },
+    {
+      "time": 546.546,
+      "top": 866,
+      "uncertaintyPx": 2
+    },
+    {
+      "time": 546.579366667,
+      "top": 856,
+      "uncertaintyPx": 2
+    },
+    {
+      "time": 546.612733333,
+      "top": 850,
+      "uncertaintyPx": 2
+    },
+    {
+      "time": 546.6461,
+      "top": 847,
+      "uncertaintyPx": 2
+    },
+    {
+      "time": 546.679466667,
+      "top": 845,
+      "uncertaintyPx": 2
+    }
+  ]
+}

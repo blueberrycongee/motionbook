@@ -1,0 +1,188 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> cc0-monster-milestone@2.0.0 test
+> node scripts/test.mjs
+
+{
+  "passed": 44,
+  "failed": 0,
+  "browserQA": "Not run; renderer, injected-clock controller and simulated DOM adapter tests only",
+  "results": [
+    {
+      "name": "150 reference-time samples cover exactly 7.50 s",
+      "status": "pass"
+    },
+    {
+      "name": "Time clamps correctly",
+      "status": "pass"
+    },
+    {
+      "name": "Nonfinite input is safe",
+      "status": "pass"
+    },
+    {
+      "name": "Opening count holds before descent",
+      "status": "pass"
+    },
+    {
+      "name": "Count reaches final anchor at 550 ms",
+      "status": "pass"
+    },
+    {
+      "name": "Character is absent before 700 ms",
+      "status": "pass"
+    },
+    {
+      "name": "Character is fully visible at 850 ms",
+      "status": "pass"
+    },
+    {
+      "name": "Anticipation visibly squashes body",
+      "status": "pass"
+    },
+    {
+      "name": "Jump precedes charge and rises above starting pose",
+      "status": "pass"
+    },
+    {
+      "name": "Charge uses bounded measured transition timing",
+      "status": "pass"
+    },
+    {
+      "name": "Hands lift during the celebration",
+      "status": "pass"
+    },
+    {
+      "name": "Starburst expands then clears",
+      "status": "pass"
+    },
+    {
+      "name": "Landing squat resolves by final hold",
+      "status": "pass"
+    },
+    {
+      "name": "Completion controls fade between 5.65 and 5.95 s",
+      "status": "pass"
+    },
+    {
+      "name": "Reduced motion uses final static state",
+      "status": "pass"
+    },
+    {
+      "name": "All 150 source-time SVG samples are deterministic",
+      "status": "pass"
+    },
+    {
+      "name": "750 subframe samples have valid finite SVG state",
+      "status": "pass"
+    },
+    {
+      "name": "Runtime contains no former brand title or artwork geometry",
+      "status": "pass"
+    },
+    {
+      "name": "Exactly eight genuine source components are used",
+      "status": "pass"
+    },
+    {
+      "name": "All bundled component hashes match manifest and embedded bytes",
+      "status": "pass"
+    },
+    {
+      "name": "Bundled original license names creator, pack and CC0",
+      "status": "pass"
+    },
+    {
+      "name": "SVG images are embedded actual source parts, never fetched remotely",
+      "status": "pass"
+    },
+    {
+      "name": "Interpolation endpoints are bounded",
+      "status": "pass"
+    },
+    {
+      "name": "Starts stopped at zero",
+      "status": "pass"
+    },
+    {
+      "name": "Playback advances against monotonic time",
+      "status": "pass"
+    },
+    {
+      "name": "Rapid replay cancels earlier frame callbacks",
+      "status": "pass"
+    },
+    {
+      "name": "Paused state schedules no animation work",
+      "status": "pass"
+    },
+    {
+      "name": "Scrub clamps, preserves paused state",
+      "status": "pass"
+    },
+    {
+      "name": "End stops exactly at 7.50 s",
+      "status": "pass"
+    },
+    {
+      "name": "Play from end restarts sequence",
+      "status": "pass"
+    },
+    {
+      "name": "Toggling reduced motion cancels active replay",
+      "status": "pass"
+    },
+    {
+      "name": "Reduced motion cannot be bypassed through seek",
+      "status": "pass"
+    },
+    {
+      "name": "Disabling reduced motion returns to stopped opening",
+      "status": "pass"
+    },
+    {
+      "name": "Speed changes preserve time and are bounded",
+      "status": "pass"
+    },
+    {
+      "name": "Destroy cancels all queued callbacks",
+      "status": "pass"
+    },
+    {
+      "name": "Adapter initializes the actual app with one frame and current playback UI",
+      "status": "pass"
+    },
+    {
+      "name": "Adapter play, pause, end and rapid replay events keep UI and frame ownership synchronized",
+      "status": "pass"
+    },
+    {
+      "name": "Adapter timeline input pauses and seeks the actual controller",
+      "status": "pass"
+    },
+    {
+      "name": "Adapter speed change preserves the current position and resumes at the chosen rate",
+      "status": "pass"
+    },
+    {
+      "name": "Adapter initial reduced motion presents a static final state through all playback controls",
+      "status": "pass"
+    },
+    {
+      "name": "Adapter live system preference changes synchronize checkbox, phase and timeline without autoplay",
+      "status": "pass"
+    },
+    {
+      "name": "Adapter explicit reduced-motion checkbox controls the real player",
+      "status": "pass"
+    },
+    {
+      "name": "Adapter hidden-page pause holds its position until the user resumes",
+      "status": "pass"
+    },
+    {
+      "name": "Adapter pagehide without a prior visibility event pauses and synchronizes UI for bfcache restore",
+      "status": "pass"
+    }
+  ]
+}

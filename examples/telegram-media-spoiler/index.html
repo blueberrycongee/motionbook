@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Hidden media · Motion study</title><link rel="stylesheet" href="src/style.css"></head>
+<body>
+<main>
+ <section class="intro"><span class="eyebrow">TELEGRAM / DECEMBER 2022</span><h1>A little mystery.</h1><p>A drifting field of light keeps the image hidden.<br>Tap anywhere to reveal it from that point.</p></section>
+ <section class="study" aria-label="Media spoiler animation study">
+  <div class="chat-top"><div class="avatar">S</div><div><strong>Studio notes</strong><span>Original artwork · motion study</span></div><span class="online" aria-hidden="true"></span></div>
+  <div class="chat-wall">
+   <div class="date">Today</div>
+   <div class="text-bubble">Something for the studio ✨<span>09:41</span></div>
+   <div class="media-bubble">
+    <button id="media" type="button" aria-label="Reveal hidden media" aria-describedby="hint"><canvas id="canvas" width="480" height="360" aria-hidden="true"></canvas><span class="sr-only">Hidden illustration; activate to reveal</span></button>
+    <div class="caption">A few things worth waiting for<span>09:41 <i>✓✓</i></span></div>
+   </div>
+   <div class="hint" id="hint">Tap the image to reveal</div>
+  </div>
+  <div class="controls"><button id="hide" type="button">Hide again</button><button id="reset" type="button">Reset</button><label><input id="reduced" type="checkbox"> Reduce motion</label></div>
+  <div class="status" aria-live="polite" id="status">Hidden</div>
+ </section>
+ <footer><a href="https://telegram.org/blog/hidden-media-zero-storage-profile-pics#hidden-media" target="_blank" rel="noreferrer">Official reference ↗</a><span>Independent web recreation · no account required</span></footer>
+</main>
+<script src="src/motion.js"></script><script src="src/app.js"></script>
+</body></html>

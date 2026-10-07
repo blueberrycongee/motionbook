@@ -1,0 +1,6 @@
+{
+  "name":"circle-to-search-motion-study","version":"1.0.0","private":true,
+  "description":"Independent Circle to Search motion study with original illustration and local mock results",
+  "scripts":{"start":"node src/server.cjs","test":"node --test test/*.test.cjs","render":"node render.cjs"},
+  "devDependencies":{"@napi-rs/canvas":"0.1.100"},"engines":{"node":">=20"}
+}

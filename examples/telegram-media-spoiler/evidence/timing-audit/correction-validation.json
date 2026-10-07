@@ -1,0 +1,214 @@
+{
+  "gifPath": "../../preview/telegram-media-spoiler.gif",
+  "sha256": "62b93b420e5e39c4dc25f82cfdee28f3a1381050cca644d39a85bce6fad53bba",
+  "frameCount": 180,
+  "frameDelaysMs": [
+    20
+  ],
+  "totalDurationMs": 3600,
+  "allFramesDecoded": true,
+  "runtimeUnchangedFromDeliveredArchive": true,
+  "runtimeSha256": "c806335150a590607519bc11be2be303092c35a7f077122c08c47b13b5c64930",
+  "samples": {
+    "revealMs": 180,
+    "onsetMs": 1311.6666666666667,
+    "rows": [
+      {
+        "frame": 65,
+        "ptsMs": 1300,
+        "elapsedMs": -11.666666666666742,
+        "progress": 0,
+        "phase": "hidden",
+        "centerAlphaActualPixel": 0,
+        "centerAlphaAnalytical": 0,
+        "meanClearAlpha": 6.562287690692359e-06
+      },
+      {
+        "frame": 66,
+        "ptsMs": 1320,
+        "elapsedMs": 8.333333333333258,
+        "progress": 0.04629629629629588,
+        "phase": "revealing",
+        "centerAlphaActualPixel": 0.12549019607843137,
+        "centerAlphaAnalytical": 0.1294076869301719,
+        "meanClearAlpha": 0.008174680377985653
+      },
+      {
+        "frame": 67,
+        "ptsMs": 1340,
+        "elapsedMs": 28.333333333333258,
+        "progress": 0.157407407407407,
+        "phase": "revealing",
+        "centerAlphaActualPixel": 0.6627450980392157,
+        "centerAlphaAnalytical": 0.6646668727037759,
+        "meanClearAlpha": 0.06894200935894321
+      },
+      {
+        "frame": 68,
+        "ptsMs": 1360,
+        "elapsedMs": 48.33333333333326,
+        "progress": 0.2685185185185181,
+        "phase": "revealing",
+        "centerAlphaActualPixel": 0.9803921568627451,
+        "centerAlphaAnalytical": 0.981113279667323,
+        "meanClearAlpha": 0.2514520821299172
+      },
+      {
+        "frame": 69,
+        "ptsMs": 1380,
+        "elapsedMs": 68.33333333333326,
+        "progress": 0.3796296296296292,
+        "phase": "revealing",
+        "centerAlphaActualPixel": 0.996078431372549,
+        "centerAlphaAnalytical": 0.999459418441348,
+        "meanClearAlpha": 0.46394259065491184
+      },
+      {
+        "frame": 70,
+        "ptsMs": 1400,
+        "elapsedMs": 88.33333333333326,
+        "progress": 0.4907407407407403,
+        "phase": "revealing",
+        "centerAlphaActualPixel": 0.996078431372549,
+        "centerAlphaAnalytical": 0.9999955732839236,
+        "meanClearAlpha": 0.6975682496065014
+      },
+      {
+        "frame": 71,
+        "ptsMs": 1420,
+        "elapsedMs": 108.33333333333326,
+        "progress": 0.6018518518518514,
+        "phase": "revealing",
+        "centerAlphaActualPixel": 1,
+        "centerAlphaAnalytical": 0.9999999867037763,
+        "meanClearAlpha": 0.8753536889403627
+      },
+      {
+        "frame": 72,
+        "ptsMs": 1440,
+        "elapsedMs": 128.33333333333326,
+        "progress": 0.7129629629629626,
+        "phase": "revealing",
+        "centerAlphaActualPixel": 1,
+        "centerAlphaAnalytical": 0.9999999999593561,
+        "meanClearAlpha": 0.9583161459709467
+      },
+      {
+        "frame": 73,
+        "ptsMs": 1460,
+        "elapsedMs": 148.33333333333326,
+        "progress": 0.8240740740740736,
+        "phase": "revealing",
+        "centerAlphaActualPixel": 1,
+        "centerAlphaAnalytical": 0.9999999999999865,
+        "meanClearAlpha": 0.9929209291430262
+      },
+      {
+        "frame": 74,
+        "ptsMs": 1480,
+        "elapsedMs": 168.33333333333326,
+        "progress": 0.9351851851851848,
+        "phase": "revealing",
+        "centerAlphaActualPixel": 1,
+        "centerAlphaAnalytical": 1,
+        "meanClearAlpha": 0.9987449200010018
+      },
+      {
+        "frame": 75,
+        "ptsMs": 1500,
+        "elapsedMs": 188.33333333333326,
+        "progress": 1,
+        "phase": "revealed",
+        "centerAlphaActualPixel": 1,
+        "centerAlphaAnalytical": 1,
+        "meanClearAlpha": 1
+      }
+    ]
+  },
+  "decodedGifVersusFreshRuntime": [
+    {
+      "frame": 65,
+      "ptsMs": 1300,
+      "mediaMeanAbsError": 1.4013425925925926,
+      "mediaRmse": 1.8050041893183488,
+      "mediaP99AbsError": 5.0
+    },
+    {
+      "frame": 66,
+      "ptsMs": 1320,
+      "mediaMeanAbsError": 1.421280864197531,
+      "mediaRmse": 1.8326955961501485,
+      "mediaP99AbsError": 5.0
+    },
+    {
+      "frame": 67,
+      "ptsMs": 1340,
+      "mediaMeanAbsError": 1.4413888888888888,
+      "mediaRmse": 1.8868064501286066,
+      "mediaP99AbsError": 5.0
+    },
+    {
+      "frame": 68,
+      "ptsMs": 1360,
+      "mediaMeanAbsError": 1.530187114197531,
+      "mediaRmse": 2.014338551332103,
+      "mediaP99AbsError": 5.0
+    },
+    {
+      "frame": 69,
+      "ptsMs": 1380,
+      "mediaMeanAbsError": 1.6415412808641976,
+      "mediaRmse": 2.2635586841667408,
+      "mediaP99AbsError": 7.0
+    },
+    {
+      "frame": 70,
+      "ptsMs": 1400,
+      "mediaMeanAbsError": 1.7903993055555556,
+      "mediaRmse": 2.516948337806159,
+      "mediaP99AbsError": 9.0
+    },
+    {
+      "frame": 71,
+      "ptsMs": 1420,
+      "mediaMeanAbsError": 1.8383506944444445,
+      "mediaRmse": 2.5884391746979705,
+      "mediaP99AbsError": 8.0
+    },
+    {
+      "frame": 72,
+      "ptsMs": 1440,
+      "mediaMeanAbsError": 1.787542438271605,
+      "mediaRmse": 2.5128274309094256,
+      "mediaP99AbsError": 8.0
+    },
+    {
+      "frame": 73,
+      "ptsMs": 1460,
+      "mediaMeanAbsError": 1.7703260030864199,
+      "mediaRmse": 2.5205945708782167,
+      "mediaP99AbsError": 8.0
+    },
+    {
+      "frame": 74,
+      "ptsMs": 1480,
+      "mediaMeanAbsError": 1.7714448302469137,
+      "mediaRmse": 2.5218164596522166,
+      "mediaP99AbsError": 8.0
+    },
+    {
+      "frame": 75,
+      "ptsMs": 1500,
+      "mediaMeanAbsError": 1.7611921296296296,
+      "mediaRmse": 2.5134660479254687,
+      "mediaP99AbsError": 8.0
+    }
+  ],
+  "notes": [
+    "Expected frames were regenerated using independently fixed times i*20 ms and onset1311.6666666666667, not copied from exporter output frames.",
+    "Center alpha was measured in actual isolated rendering of the unchanged shared runtime; the full-color decoded GIF was separately compared against those exact runtime times.",
+    "Palette quantization prevents exact RGBA equality. All 11 sampled media regions agree with RGB MAE below2/255."
+  ],
+  "assertions": "PASS",
+  "publicBundleNote": "Historical numeric audit retained from the approved example; no associated source-containing comparison media or version-0 GIF is bundled. Not rerun for this public release; see public-validation.json in the parent evidence directory for current checks."
+}

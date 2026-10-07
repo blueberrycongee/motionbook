@@ -1,17 +1,18 @@
 # 按用途找动效
 
-这里按可借用的交互组织 51 个研究示例。分类是编辑判断，不是上线认证；具体运行、来源和许可边界见各例文档。
+这里按可借用的交互组织 65 个研究示例。分类是编辑判断，不是上线认证；具体运行、来源和许可边界见各例文档。
 
 先看要解决的问题，再选最小片段。页面片段不代表完整 landing；趣味效果可以启发创作，但不默认用于高频操作。源码锚点是局部阅读入口，仍需检查依赖和目标布局；不表示整段代码可直接投入生产。
 
 [Agent skill](../skills/motionbook/SKILL.md) · [分类定义](../skills/motionbook/references/taxonomy.md) · [WIP 清单](../wip/README.md)
 
-## 组件（30）
+## 组件（36）
 
 | 示例 / 定位 | 值得研究什么 | 可借用的最小部分 / 场景 | 限制 |
 | --- | --- | --- | --- |
 | [Adaptive Precision](../examples/adaptive-precision/README.md) · 日常交互 | 指针从点变成日历范围引导，把粗定位过渡到精确选择 | **锚点反向拖动与四分之一小时选择**；日历、时间范围编辑<br>源码：[Calendar](../examples/adaptive-precision/src/model.js#L9) | 实时时间模型是独立推断，不能当原作算法 |
 | [Angry sliders](../examples/angry-sliders/README.md) · 趣味实验 | 把滑块拉成弹弓，预测轨迹和落地回弹形成笑点 | **拉伸、释放、落地三段反馈**；玩具、小游戏、活动彩蛋<br>源码：[reduce](../examples/angry-sliders/src/scene.mjs#L13)、[drawState](../examples/angry-sliders/src/scene.mjs#L24) | 飞走的把手妨碍精确输入，不适合常规设置 |
+| [Apple Music Player](../examples/apple-music-player/README.md) · 日常交互 | 共享封面与分层面板让迷你播放器开合保持对象连续性 | **迷你播放器展开、拖动收起与中途反转**；媒体详情面板、共享元素过渡<br>源码：[referenceAt](../examples/apple-music-player/src/motion.js#L23)、[Controller](../examples/apple-music-player/src/motion.js#L29)、[toggle](../examples/apple-music-player/src/app.js#L17) | WWDC22 片段量测与原创封面；交互弹簧和阈值是补充设计，没有真实音乐播放或 Apple 原生实现 |
 | [Card details sheet](../examples/card-details-sheet/README.md) · 日常交互 | 详情浮层与背景层次同步变化，保留卡片来源感 | **详情抽屉展开与关闭**；卡片详情、账户摘要<br>源码：[open](../examples/card-details-sheet/app.js#L1) | 剪贴板权限和命中区域需真实浏览器验证 |
 | [dot send](../examples/chatgpt-dot-send/README.md) · 日常交互 | 发送形状从输入位置移动到消息位置，连接动作和结果 | **发送轨迹、形变与列表让位**；聊天输入、提交反馈<br>源码：[frame](../examples/chatgpt-dot-send/src/motion.mjs#L36)、[previousRowOffset](../examples/chatgpt-dot-send/src/motion.mjs#L43) | 尺寸和布局需重新测量，不照抄固定画布坐标 |
 | [PiP](../examples/chatgpt-pip/README.md) · 日常交互 | 悬浮小窗吸附与悬停反馈表达窗口位置关系 | **边缘吸附与悬停状态**；悬浮播放器、工具小窗<br>源码：[chooseTargetAnchor](../examples/chatgpt-pip/src/stack-behavior.mjs#L30)、[HoverController](../examples/chatgpt-pip/src/hover-behavior.mjs#L7) | 不能据离线预览声称原生窗口行为已验证 |
@@ -24,9 +25,11 @@
 | [Flight pill](../examples/flight-pill/README.md) · 日常交互 | 航班摘要胶囊展开为详情，路线和数字逐步进入 | **摘要到详情的容器变形**；出行状态、实时活动<br>源码：[transitionProgress](../examples/flight-pill/scene.js#L21) | 演示不提供实时航班数据 |
 | [Fractional Slider](../examples/fractional-slider/README.md) · 日常交互 | 移动刻度与延迟选择标记让细微数值变化可感知 | **精细刻度拖动与按压反馈**；参数调节、精度控制<br>源码：[Ruler](../examples/fractional-slider/src/model.js#L1) | 实操控制是独立扩展，原片重置手势未知 |
 | [Graph slider](../examples/graph-slider/README.md) · 日常交互 | 曲线标记、引导线和时间提示共同定位图表位置 | **沿曲线滑动与提示联动**；时间序列、图表探索<br>源码：[Scrub](../examples/graph-slider/model.js#L1) | 指针与引导线有独立轨迹，不应合并成一个坐标 |
+| [iMessage Jitter](../examples/imessage-jitter/README.md) · 趣味实验 | 协调平移与轻微摇摆让选中文字表达语气，同时保持字距 | **固定字距的文字摇摆与重播控制**；聊天表情、短文本强调<br>源码：[glyphPose](../examples/imessage-jitter/src/motion.js#L23)、[syncControls](../examples/imessage-jitter/src/app.js#L9) | 采用 WWDC24 拟合轨迹；替换文字和字体，不是随机逐字抖动，没有消息发送后端 |
 | [Invite code reveal](../examples/invite-code-reveal/README.md) · 品牌展示 | 邀请码通过翻折和深度变化显露，建立揭晓仪式感 | **折叠容器的揭示动作**；邀请、奖励、一次性揭晓<br>源码：[interactiveState](../examples/invite-code-reveal/src/scene.mjs#L15) | 装饰不应延迟复制或遮挡关键文本 |
 | [Light Work](../examples/light-work/README.md) · 品牌展示 | 指针光照、边缘流光与开关联动，赋予卡片材质感 | **局部光照与开关反馈**；品牌卡片、产品展示<br>源码：[step](../examples/light-work/controller.js#L2) | 暗部装饰不能影响标签阅读；非真实系统设置 |
 | [Luminous tabs](../examples/luminous-tabs/README.md) · 品牌展示 | 发光标签增强当前导航位置的视觉反馈 | **选中态光效与切换**；小型导航、品牌控制面板<br>源码：[transition](../examples/luminous-tabs/src/scene.mjs#L7) | 保持未选中标签可读，不能只凭辉光辨识 |
+| [Mac Studio benchmark tabs](../examples/mac-studio-benchmark-tabs/README.md) · 日常交互 | 固定遮罩内的三行错峰柱条让标签数据切换保持比较结构 | **标签切换、柱条展开与中断续接**；可比较指标、产品规格演示<br>源码：[transition](../examples/mac-studio-benchmark-tabs/scene.js#L16)、[animateTab](../examples/mac-studio-benchmark-tabs/motion.js#L12) | 数值为明确标记的虚构数据，不能作为真实性能测量；Canvas 与语义层仍需浏览器验收；本地审核整合，尚未获得发布授权 |
 | [Micro progress button](../examples/micro-progress-button/README.md) · 日常交互 | 将进度压缩到触发按钮附近，减少状态搜索 | **按钮内的进度变化**；短任务、提交和处理<br>源码：[ProgressController](../examples/micro-progress-button/src/motion.mjs#L6)、[outline](../examples/micro-progress-button/src/scene.mjs#L3) | 取消只改变本地状态；八秒计时结束调用 cancel 是演示复位而非成功，需接入真实进度、网络取消、成功/失败及焦点恢复 |
 | [Minimap](../examples/minimap/README.md) · 日常交互 | 固定横向位置的刻度随悬停形变，增强局部指向感 | **刻度场的局部弹性响应**；时间线装饰、密集刻度提示<br>源码：[Minimap.step](../examples/minimap/src/model.js#L8) | 原例无拖动、播放或水平放大，不虚构这些能力 |
 | [Labels and braille loading](../examples/morphing-braille-loader/README.md) · 日常交互 | 点阵形变与标签配合，提供轻量等待提示 | **点阵加载与状态标签**；异步等待、小型状态区<br>源码：[dots](../examples/morphing-braille-loader/scene.js#L13) | 视觉点阵不是盲文无障碍接口，需要文本状态 |
@@ -39,9 +42,12 @@
 | [Tactile controller](../examples/tactile-controller/README.md) · 品牌展示 | 旋钮、凹槽和数字变化共同表达物理调节感 | **模式切换与数值旋钮**；媒体工具、创意控制器<br>源码：[set](../examples/tactile-controller/app.js#L1)、[move](../examples/tactile-controller/app.js#L1) | 不改变真实音量或亮度；需保留键盘数值输入 |
 | [Tap / get invoice](../examples/tap-get-invoice/README.md) · 品牌展示 | 纸张折叠展开与笔迹突出发票的文档属性 | **文档揭示和折面动画**；票据预览、文档下载入口<br>源码：[Controller](../examples/tap-get-invoice/src/controller.mjs#L4)、[scene](../examples/tap-get-invoice/src/scene.mjs#L9) | 导出为示意文档，不是交易或真实发票服务 |
 | [Task-card gesture stack](../examples/task-card-gesture-stack/README.md) · 日常交互 | 任务卡退出后下一张晋升，明确队列推进关系 | **滑动完成与卡片晋升**；任务队列、逐项处理<br>源码：[advance](../examples/task-card-gesture-stack/app.js#L5)、[state](../examples/task-card-gesture-stack/scene.js#L8) | 业务动作需可撤销，拖动不能是唯一入口 |
+| [Telegram Media Spoiler](../examples/telegram-media-spoiler/README.md) · 日常交互 | 柔边遮罩从点击位置扩散，让隐藏媒体的揭晓保留操作来源 | **点击原点驱动的模糊与粒子揭晓**；敏感内容预览、可撤回的媒体遮罩<br>源码：[createModel](../examples/telegram-media-spoiler/src/motion.js#L17)、[renderMedia](../examples/telegram-media-spoiler/src/motion.js#L43) | 180ms 模型校准到 2022 宣传片第二次揭晓；不是所有当前客户端的精确实现，也不是数据访问控制 |
 | [Ticket dissolve](../examples/thanos-snap-ticket/README.md) · 趣味实验 | 票券粒子消散形成戏剧性的隐藏效果 | **卡片消散与反向恢复**；活动票券、趣味演示<br>源码：[particles](../examples/thanos-snap-ticket/scene.js#L11) | 不可暗示真实退票或删除成功，也不适合高频隐藏 |
+| [Things Magic Plus](../examples/things-magic-plus/README.md) · 日常交互 | 加号拖入列表空隙再展开编辑器，连续展示插入位置和任务落定 | **拖放插入、编辑提交与取消归位**；任务列表快速添加、可定位的新条目入口<br>源码：[referenceAt](../examples/things-magic-plus/src/motion.js#L8)、[Controller](../examples/things-magic-plus/src/motion.js#L18)、[mount](../examples/things-magic-plus/src/app.js#L2) | 2017 官方演示的单轮量测；只有一个本地任务，收件箱和取消圆点不是额外投放目标，没有持久化后端 |
+| [YouTube subscribe feedback](../examples/youtube-subscribe-feedback/README.md) · 品牌展示 | 红—品红提示、星点确认和铃铛收束分层表达激活状态 | **按钮提示到本地确认的短序列**；关注、收藏、低频达成反馈<br>源码：[SubscribeMotion](../examples/youtube-subscribe-feedback/src/motion.mjs#L17)、[schedule](../examples/youtube-subscribe-feedback/src/app.mjs#L15) | 基于 2025 官方组件展示；提示与奖励原是两条轨道，不代表今天全平台最新，也不发送真实订阅请求 |
 
-## 界面与工作流（10）
+## 界面与工作流（11）
 
 | 示例 / 定位 | 值得研究什么 | 可借用的最小部分 / 场景 | 限制 |
 | --- | --- | --- | --- |
@@ -49,6 +55,7 @@
 | [Agent plan](../examples/agent-plan/README.md) · 日常交互 | 批准、跳过、执行和完成在计划行内呈现，便于理解阶段 | **计划行状态与批量操作**；Agent 计划、审批流程<br>源码：[action](../examples/agent-plan/scene.js#L16) | 本地模拟，不执行搜索或远程任务 |
 | [Apple Music Lyrics · 逐帧动效研究](../examples/apple-music-lyrics/README.md) · 日常交互 | 歌词组错峰滚动、扫亮和背景柔化建立阅读焦点 | **当前行跟随与逐字高亮**；歌词、字幕、逐步讲解<br>源码：[Controller](../examples/apple-music-lyrics/src/motion.js#L30) | 没有音乐服务；原生未验证，手动模式为补充设计 |
 | [Automation manager](../examples/automation-manager/README.md) · 日常交互 | 任务列表、详情和条件设置逐层展开，高级规则通过显式入口进入编辑器，减少默认界面负担 | **列表到详情导航，或基础设置到高级规则编辑器的渐进披露**；自动化管理、任务配置、密集设置的高级选项<br>源码：[Controller.navigate](../examples/automation-manager/src/controller.mjs#L101)、[Controller.performNavigation](../examples/automation-manager/src/controller.mjs#L130)、[schedule custom-rule disclosure](../examples/automation-manager/src/view.mjs#L183)、[modal advanced-rule branch](../examples/automation-manager/src/view.mjs#L284)、[Controller.action advanced/save-rule](../examples/automation-manager/src/controller.mjs#L464) | 仅借高级设置时不带入任务列表、执行器或自动保存；保留显式取消/保存与验证错误，重新验证弹窗焦点和键盘；仅本地模拟，浏览器未验收 |
+| [Circle to Search](../examples/circle-to-search/README.md) · 日常交互 | 圈选轨迹收束为对象边框，再与结果面板建立空间联系 | **自由圈选到边框、聚焦背景与结果面板的过渡**；视觉搜索概念、对象选择<br>源码：[action](../examples/circle-to-search/src/motion.js#L30)、[currentReference](../examples/circle-to-search/src/motion.js#L56)、[applyFocus](../examples/circle-to-search/src/appearance.js#L9) | 原创插画与本地样例结果；没有真实识别/网络搜索，圆弧、透明度和交互时序含独立近似 |
 | [Flo composer](../examples/flo-composer/README.md) · 品牌展示 | 输入、应用图标、项目行和批准提示以错峰动作衔接 | **输入区局部反馈与上下文切换**；Agent 输入、上下文选择<br>源码：[Composer](../examples/flo-composer/src/model.mjs#L34) | 没有聊天后端、应用连接或权限变更 |
 | [Life in Weeks](../examples/life-in-weeks/README.md) · 日常交互 | 以周为单位的网格把年龄变成可探索的时间尺度 | **年龄滑杆与周网格联动**；个人回顾、时间可视化<br>源码：[Controller](../examples/life-in-weeks/src/controller.mjs#L6) | 这是抽象展示，不能解释为个人寿命预测 |
 | [Meeting Finder](../examples/meeting-finder/README.md) · 日常交互 | 多个城市时间随小时条联动，帮助比较共同会议时段 | **时间拖动与跨行比较**；会议安排、跨区时间选择<br>源码：[times](../examples/meeting-finder/scene.js#L6)、[drag](../examples/meeting-finder/app.js#L3) | 固定时区偏移演示，不含夏令时数据库或排程服务 |
@@ -56,18 +63,25 @@
 | [RAG Pipeline](../examples/rag-pipeline/README.md) · 日常交互 | 流程节点和连接线把检索生成过程变成可读路径 | **节点状态与数据流动**；AI 流程说明、执行过程可视化<br>源码：[state](../examples/rag-pipeline/scene.js#L8)、[handoffAt](../examples/rag-pipeline/scene.js#L31) | 可视演示不等于真实检索或生成后端 |
 | [Pinned paper notes](../examples/sticky-note-app/README.md) · 日常交互 | 纸张层叠与翻页让笔记浏览保持对象连续性 | **笔记切换、分类与页数反馈**；轻量笔记、卡片阅读<br>源码：[action](../examples/sticky-note-app/scene.js#L11)、[step](../examples/sticky-note-app/app.js#L5) | 演示本地状态，不是完整持久化笔记产品 |
 
-## Landing / 作品集片段（3）
+## Landing / 作品集片段（9）
 
 | 示例 / 定位 | 值得研究什么 | 可借用的最小部分 / 场景 | 限制 |
 | --- | --- | --- | --- |
 | [Inspora footer](../examples/inspora-footer/README.md) · 品牌展示 | 页脚沙漠、纸张与骑马场景把页面结尾做成记忆点 | **叙事性页脚片段**；品牌站、作品集页尾<br>源码：[pose](../examples/inspora-footer/horse-motion.js#L44) | 仅页脚研究，不是完整 landing；素材是独立替代绘制 |
+| [Mac Studio crossfade gallery](../examples/mac-studio-crossfade-gallery/README.md) · 品牌展示 | 固定显示器中图片、说明和选中态按500ms叠入同步 | **AI标签与工作区交叉淡入、中断续接**；产品功能图库、插画工作区轮播<br>源码：[state](../examples/mac-studio-crossfade-gallery/scene.js#L9)、[animateTab](../examples/mac-studio-crossfade-gallery/motion.js#L13) | 六张原创SVG；使用桌面easeInOutCubic，触屏原站曲线不同；非完整画廊产品；本地审核整合，尚未获得发布授权 |
+| [Mac Studio hero transition](../examples/mac-studio-hero-transition/README.md) · 品牌展示 | 硬件、彩色场景、性能标题与双芯片分六阶段接棒 | **滚动进度驱动的六阶段Hero转场**；品牌产品页面的局部开场片段<br>源码：[state](../examples/mac-studio-hero-transition/scene.js#L50)、[applyReduced](../examples/mac-studio-hero-transition/motion.js#L15) | 原创程序图形；原站参考GIF为3倍速，不能读作原生时长；列表错峰已折算为可逆进度；本地审核整合，尚未获得发布授权 |
+| [Mac Studio layered assembly](../examples/mac-studio-layered-assembly/README.md) · 品牌展示 | 六层严格对齐的透明度叠加逐步揭示内部结构 | **注册图层交叉显露与分段尺寸线**；结构讲解、分层材质说明<br>源码：[state](../examples/mac-studio-layered-assembly/scene.js#L6)、[onReduced](../examples/mac-studio-layered-assembly/motion.js#L15) | 图层只有透明度变化，没有爆炸位移；硬件与200×96mm尺寸为示意；本地审核整合，尚未获得发布授权 |
+| [Mac Studio parallax features](../examples/mac-studio-parallax-features/README.md) · 品牌展示 | 单张画面缩放与标题上移连接到下一段正文 | **1.4→1 图像缩放与−50vh标题视差**；产品特性展示、内容段落衔接<br>源码：[state](../examples/mac-studio-parallax-features/scene.js#L49)、[applyReduced](../examples/mac-studio-parallax-features/motion.js#L15) | 只是独立页面片段；不包含原站上一段正文，也没有原站产品图像；本地审核整合，尚未获得发布授权 |
+| [Mac Studio scroll relay](../examples/mac-studio-scroll-relay/README.md) · 品牌展示 | 独立背景视频时间轴承托可逆的滚动文字接力 | **背景媒体与滚动文字分别计时**；产品叙事中的局部媒体文字段落<br>源码：[overlay](../examples/mac-studio-scroll-relay/scene.js#L46)、[playMedia](../examples/mac-studio-scroll-relay/motion.js#L11) | 原创抽象MP4；只含背景视频控制，非完整播放器产品；离线GIF不是浏览器录屏；本地审核整合，尚未获得发布授权 |
+| [Mac Studio turntable](../examples/mac-studio-turntable/README.md) · 品牌展示 | 90 个离散角度与前后说明接力构成可逆产品查看 | **离散转角和滚动说明交接**；产品接口说明、连接关系介绍<br>源码：[state](../examples/mac-studio-turntable/scene.js#L8)、[onReduced](../examples/mac-studio-turntable/motion.js#L15) | 原创程序硬件；没有 Apple JPEG 预加载或缺帧回退，不是完整3D产品查看器；本地审核整合，尚未获得发布授权 |
 | [Portfolio ribbon](../examples/marcelo-portfolio-ribbon/README.md) · 品牌展示 | 作品条带中间收束、两端展开，拖动时惯性弯曲 | **循环作品带与惯性变形**；作品集、展示页局部<br>源码：[liveGeometry](../examples/marcelo-portfolio-ribbon/src/geometry.mjs#L8)、[RibbonController](../examples/marcelo-portfolio-ribbon/src/geometry.mjs#L30) | 仅画廊片段；视觉变形不适合密集文本浏览 |
 | [Playful project hovers](../examples/spencer-playful-hovers/README.md) · 品牌展示 | 作品悬停序列让项目入口带有个性和探索感 | **项目条目的局部悬停反馈**；作品集、项目列表<br>源码：[createModel](../examples/spencer-playful-hovers/motion.js#L7)、[sync](../examples/spencer-playful-hovers/app.js#L22) | 只有局部 hover 研究；触屏需提供等价入口 |
 
-## 创意动效（8）
+## 创意动效（9）
 
 | 示例 / 定位 | 值得研究什么 | 可借用的最小部分 / 场景 | 限制 |
 | --- | --- | --- | --- |
+| [Little Wins · CC0 monster milestone](../examples/cc0-monster-milestone/README.md) · 趣味实验 | 分离肢体的单眼怪物用蓄力、旋转、星光与落地表达一次达成 | **CC0 角色骨骼层次与低频里程碑庆祝**；趣味成就、友好庆祝插画<br>源码：[stateAt](../examples/cc0-monster-milestone/motion.js#L13)、[createPlayer](../examples/cc0-monster-milestone/controller.js#L3) | Kenney 部件仅覆盖其 CC0 素材权利；Keep Going 为装饰，非业务完成或完整无障碍认证 |
 | [ChatGPT Space](../examples/chatgpt-space-welcome/README.md) · 品牌展示 | 程序化星空提供纵深与轻微闪烁，文档卡片和协作内容另行编排成欢迎展示 | **独立星空背景，或卡片出入场与内容接力**；欢迎页、onboarding 标题背景、产品能力介绍<br>源码：[cardPose](../examples/chatgpt-space-welcome/src/motion.mjs#L59)、[editProgress](../examples/chatgpt-space-welcome/src/motion.mjs#L72)、[StarField](../examples/chatgpt-space-welcome/src/motion.mjs#L21)、[SpaceScene.glow](../examples/chatgpt-space-welcome/src/scene.mjs#L9)、[SpaceScene.star layer](../examples/chatgpt-space-welcome/src/scene.mjs#L13) | 仅借背景时不带入卡片、协作者标签或 warp；1000–11000 星点需调低密度和对比度，减少动态时冻结星场并避开初始透明度为零；非协作后端 |
 | [Elastic String Clock](../examples/elastic-string-clock/README.md) · 趣味实验 | 弹性线条赋予时钟形态触感和节奏 | **线条形变与回弹**；实验时钟、展览视觉<br>源码：[step](../examples/elastic-string-clock/physics.js#L7) | 装饰复杂度不一定提高时间可读性 |
 | [macOS Genie](../examples/macos-genie/README.md) · 品牌展示 | 窗口沿目标位置收束，展示经典最小化的空间连续性 | **窗口到停靠点的形变**；窗口管理概念、交互教学<br>源码：[row](../examples/macos-genie/src/motion.js#L22)、[action](../examples/macos-genie/src/motion.js#L41) | 原生集成和性能未验证，不应套用每个弹窗 |

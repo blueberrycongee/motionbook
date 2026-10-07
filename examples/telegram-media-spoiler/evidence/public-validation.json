@@ -1,0 +1,117 @@
+{
+  "verifiedOn": "2026-10-07",
+  "scope": "Public-bundle preservation, local tests and full decoding of bundled original media. No browser or source-video remeasurement.",
+  "tests": {
+    "status": "passed",
+    "command": "node --test --test-reporter=tap tests/*.test.cjs",
+    "tests": 64,
+    "passed": 64,
+    "failed": 0,
+    "skipped": 0,
+    "log": "evidence/test-output.txt"
+  },
+  "media": [
+    {
+      "path": "assets/original-still-life-blurred.png",
+      "dimensions": [
+        960,
+        720
+      ],
+      "frames": 1,
+      "fullyDecodedWithPillow": true,
+      "sha256": "2c709ee424fc3f363a5e13b61f6813b87ee18804648d3627e7f6ad3f0a919249"
+    },
+    {
+      "path": "assets/original-still-life.png",
+      "dimensions": [
+        960,
+        720
+      ],
+      "frames": 1,
+      "fullyDecodedWithPillow": true,
+      "sha256": "65c996745ca8b225f15288a90c3a75b872b3b747e2ea4b57d2969c56d4306218"
+    },
+    {
+      "path": "preview/frame-0.png",
+      "dimensions": [
+        640,
+        810
+      ],
+      "frames": 1,
+      "fullyDecodedWithPillow": true,
+      "sha256": "d350af45f729d22af697bd42ef9c2ad6779c956791f18fdebb07c7886493b9be"
+    },
+    {
+      "path": "preview/frame-66.png",
+      "dimensions": [
+        640,
+        810
+      ],
+      "frames": 1,
+      "fullyDecodedWithPillow": true,
+      "sha256": "e33ff5c18342b9ef4bba2952093475cf9ee3f597c77ab2ab86e1e8b77b381202"
+    },
+    {
+      "path": "preview/frame-68.png",
+      "dimensions": [
+        640,
+        810
+      ],
+      "frames": 1,
+      "fullyDecodedWithPillow": true,
+      "sha256": "73580a68b088e8e4e47b8ed6363e96053f60b26a9de374872e7650eb2ee32491"
+    },
+    {
+      "path": "preview/frame-75.png",
+      "dimensions": [
+        640,
+        810
+      ],
+      "frames": 1,
+      "fullyDecodedWithPillow": true,
+      "sha256": "d37be64f312314c29638717f115376724e5ecaf7667fa649fb17765e9824f081"
+    },
+    {
+      "path": "preview/telegram-media-spoiler.gif",
+      "dimensions": [
+        640,
+        810
+      ],
+      "frames": 180,
+      "fullyDecodedWithPillow": true,
+      "sha256": "62b93b420e5e39c4dc25f82cfdee28f3a1381050cca644d39a85bce6fad53bba",
+      "delaysMsCounts": {
+        "20": 180
+      },
+      "durationMs": 3600
+    }
+  ],
+  "ffmpegGifDecode": {
+    "exitCode": 0,
+    "errorOutput": "",
+    "passed": true
+  },
+  "sourceMediaReanalyzed": false,
+  "browserVerificationPerformed": false,
+  "tools": {
+    "node": "v24.19.0",
+    "canvas": "0.1.100",
+    "pillow": "12.3.0",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "standaloneBuild": {
+    "command": "node tools/build-standalone.cjs",
+    "passed": true,
+    "outputByteIdenticalToApprovedFile": true
+  },
+  "privacyAndPackaging": {
+    "noPrivateAbsolutePathsFound": true,
+    "officialSourceImageryAndComparisonsExcluded": true,
+    "oldPreviewExcluded": true,
+    "generatedCachesExcluded": true,
+    "localMarkdownLinksVerified": true,
+    "checksumManifest": "FILES.sha256",
+    "checksumScope": "Every bundled file except FILES.sha256 itself"
+  },
+  "historicalEvidenceNote": "Earlier numeric audit assertions and corrected-export pixel comparisons were retained, not rerun. Current full decoding and automated tests are reported separately above."
+}

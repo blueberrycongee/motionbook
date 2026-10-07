@@ -202,6 +202,81 @@
       ]
     },
     {
+      "slug": "apple-music-player",
+      "title": "Apple Music Player",
+      "kind": "component",
+      "fit": "everyday",
+      "values": [
+        "spatial-continuity",
+        "classic-pattern"
+      ],
+      "why": "共享封面与分层面板让迷你播放器开合保持对象连续性",
+      "extract": "迷你播放器展开、拖动收起与中途反转",
+      "use_when": "媒体详情面板、共享元素过渡",
+      "avoid": "WWDC22 片段量测与原创封面；交互弹簧和阈值是补充设计，没有真实音乐播放或 Apple 原生实现",
+      "keywords": [
+        "apple music",
+        "mini player",
+        "expand",
+        "collapse",
+        "shared cover",
+        "播放器",
+        "共享封面",
+        "展开",
+        "收起",
+        "反转"
+      ],
+      "readme": "examples/apple-music-player/README.md",
+      "preview": "examples/apple-music-player/preview/loop.gif",
+      "evidence": [
+        "examples/apple-music-player/VALIDATION.md",
+        "examples/apple-music-player/PROVENANCE.md",
+        "examples/apple-music-player/FIDELITY.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/apple-music-player/src/motion.js",
+          "symbol": "referenceAt",
+          "match": "function referenceAt(t)",
+          "purpose": "按观测时间采样封面、面板与独立透明度；依赖 calibration-data.js",
+          "line": 23,
+          "keywords": [
+            "source timing",
+            "采样时序"
+          ]
+        },
+        {
+          "path": "examples/apple-music-player/src/motion.js",
+          "symbol": "Controller",
+          "match": "class Controller{",
+          "purpose": "可取消拖动、弹簧反向与减少动态立即落定；这些交互参数是补充设计",
+          "line": 29,
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "keywords": [
+            "drag",
+            "reverse",
+            "reduced motion",
+            "拖动",
+            "反转",
+            "减少动态"
+          ]
+        },
+        {
+          "path": "examples/apple-music-player/src/app.js",
+          "symbol": "toggle",
+          "match": "function toggle()",
+          "purpose": "键盘与辅助点击按当前目标反转；同时检查模式接管和输入层",
+          "line": 17,
+          "keywords": [
+            "keyboard",
+            "键盘"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "automation-manager",
       "title": "Automation manager",
       "kind": "interface",
@@ -334,6 +409,70 @@
             "reduced-motion"
           ],
           "line": 1
+        }
+      ]
+    },
+    {
+      "slug": "cc0-monster-milestone",
+      "title": "Little Wins · CC0 monster milestone",
+      "kind": "creative-motion",
+      "fit": "playful",
+      "values": [
+        "expressive-motion"
+      ],
+      "why": "分离肢体的单眼怪物用蓄力、旋转、星光与落地表达一次达成",
+      "extract": "CC0 角色骨骼层次与低频里程碑庆祝",
+      "use_when": "趣味成就、友好庆祝插画",
+      "avoid": "Kenney 部件仅覆盖其 CC0 素材权利；Keep Going 为装饰，非业务完成或完整无障碍认证",
+      "keywords": [
+        "monster",
+        "milestone",
+        "celebration",
+        "CC0",
+        "character",
+        "怪物",
+        "里程碑",
+        "庆祝",
+        "角色",
+        "星光"
+      ],
+      "readme": "examples/cc0-monster-milestone/README.md",
+      "preview": "examples/cc0-monster-milestone/preview.gif",
+      "evidence": [
+        "examples/cc0-monster-milestone/VALIDATION.md",
+        "examples/cc0-monster-milestone/PROVENANCE.md",
+        "examples/cc0-monster-milestone/assets/manifest.json"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/cc0-monster-milestone/motion.js",
+          "symbol": "stateAt",
+          "match": "export function stateAt(",
+          "purpose": "独立关键帧驱动角色姿态，减少动态时保持稳定终态",
+          "line": 13,
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "keywords": [
+            "rig",
+            "pose",
+            "reduced motion",
+            "姿态",
+            "减少动态"
+          ]
+        },
+        {
+          "path": "examples/cc0-monster-milestone/controller.js",
+          "symbol": "createPlayer",
+          "match": "export function createPlayer(",
+          "purpose": "重播、中断、暂停、定位和速度控制的调度边界",
+          "line": 3,
+          "keywords": [
+            "replay",
+            "pause",
+            "重播",
+            "暂停"
+          ]
         }
       ]
     },
@@ -523,6 +662,83 @@
             "background",
             "星空",
             "背景"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "circle-to-search",
+      "title": "Circle to Search",
+      "kind": "interface",
+      "fit": "everyday",
+      "values": [
+        "spatial-continuity",
+        "feedback"
+      ],
+      "why": "圈选轨迹收束为对象边框，再与结果面板建立空间联系",
+      "extract": "自由圈选到边框、聚焦背景与结果面板的过渡",
+      "use_when": "视觉搜索概念、对象选择",
+      "avoid": "原创插画与本地样例结果；没有真实识别/网络搜索，圆弧、透明度和交互时序含独立近似",
+      "keywords": [
+        "google",
+        "circle",
+        "search",
+        "selection",
+        "focus",
+        "圈选",
+        "搜索",
+        "选区",
+        "聚焦"
+      ],
+      "readme": "examples/circle-to-search/README.md",
+      "preview": "examples/circle-to-search/preview/Circle-to-Search-原速.gif",
+      "evidence": [
+        "examples/circle-to-search/VALIDATION.md",
+        "examples/circle-to-search/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/circle-to-search/src/motion.js",
+          "symbol": "action",
+          "match": "function action(s,e)",
+          "purpose": "选择、取消、反转和减少动态立即落定的本地状态流",
+          "line": 30,
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "keywords": [
+            "selection",
+            "dismiss selection",
+            "reduced motion",
+            "选择",
+            "取消",
+            "减少动态"
+          ]
+        },
+        {
+          "path": "examples/circle-to-search/src/motion.js",
+          "symbol": "currentReference",
+          "match": "function currentReference(pts)",
+          "purpose": "2026 观测轨迹、画面缩放、边框与面板的分轨采样",
+          "line": 56,
+          "keywords": [
+            "timeline",
+            "sheet",
+            "时序",
+            "面板"
+          ]
+        },
+        {
+          "path": "examples/circle-to-search/src/appearance.js",
+          "symbol": "applyFocus",
+          "match": "function applyFocus(",
+          "purpose": "背景聚焦与选区材质；需要与选区几何及绘制顺序共同使用",
+          "line": 9,
+          "keywords": [
+            "focus",
+            "halo",
+            "聚焦",
+            "光晕"
           ]
         }
       ]
@@ -932,6 +1148,70 @@
       ]
     },
     {
+      "slug": "imessage-jitter",
+      "title": "iMessage Jitter",
+      "kind": "component",
+      "fit": "playful",
+      "values": [
+        "expressive-motion"
+      ],
+      "why": "协调平移与轻微摇摆让选中文字表达语气，同时保持字距",
+      "extract": "固定字距的文字摇摆与重播控制",
+      "use_when": "聊天表情、短文本强调",
+      "avoid": "采用 WWDC24 拟合轨迹；替换文字和字体，不是随机逐字抖动，没有消息发送后端",
+      "keywords": [
+        "imessage",
+        "jitter",
+        "text",
+        "wiggle",
+        "文字",
+        "抖动",
+        "摇摆",
+        "重播"
+      ],
+      "readme": "examples/imessage-jitter/README.md",
+      "preview": "examples/imessage-jitter/preview/jitter.gif",
+      "evidence": [
+        "examples/imessage-jitter/VALIDATION.md",
+        "examples/imessage-jitter/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/imessage-jitter/src/motion.js",
+          "symbol": "glyphPose",
+          "match": "function glyphPose(",
+          "purpose": "由共同旋转和平移保持字距；依赖 pose 的采样轨迹和减少动态分支",
+          "line": 23,
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "keywords": [
+            "glyph",
+            "text",
+            "reduced motion",
+            "字距",
+            "文字",
+            "减少动态"
+          ]
+        },
+        {
+          "path": "examples/imessage-jitter/src/app.js",
+          "symbol": "syncControls",
+          "match": "function syncControls()",
+          "purpose": "从统一控制器状态同步播放、暂停与完成后的 Replay 文案",
+          "line": 9,
+          "keywords": [
+            "replay",
+            "completion",
+            "controls",
+            "重播",
+            "完成",
+            "控件"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "inspora-footer",
       "title": "Inspora footer",
       "kind": "landing-page",
@@ -1115,6 +1395,516 @@
           "match": "export function transition(values,targets,dt)",
           "purpose": "选中权重的时间增量平滑；光效图层由 scene.js 的 tab 绘制",
           "line": 7
+        }
+      ]
+    },
+    {
+      "slug": "mac-studio-benchmark-tabs",
+      "title": "Mac Studio benchmark tabs",
+      "kind": "component",
+      "fit": "everyday",
+      "values": [
+        "feedback",
+        "information-architecture"
+      ],
+      "why": "固定遮罩内的三行错峰柱条让标签数据切换保持比较结构",
+      "extract": "标签切换、柱条展开与中断续接",
+      "use_when": "可比较指标、产品规格演示",
+      "avoid": "数值为明确标记的虚构数据，不能作为真实性能测量；Canvas 与语义层仍需浏览器验收；本地审核整合，尚未获得发布授权",
+      "keywords": [
+        "benchmark",
+        "tabs",
+        "bars",
+        "stats",
+        "柱图",
+        "标签",
+        "错峰",
+        "性能",
+        "指标",
+        "mac studio",
+        "Mac Studio研究"
+      ],
+      "readme": "examples/mac-studio-benchmark-tabs/README.md",
+      "preview": "examples/mac-studio-benchmark-tabs/preview/loop.gif",
+      "evidence": [
+        "examples/mac-studio-benchmark-tabs/VALIDATION.md",
+        "examples/mac-studio-benchmark-tabs/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/mac-studio-benchmark-tabs/scene.js",
+          "symbol": "transition",
+          "match": "function transition(tab,previousTab,progress)",
+          "purpose": "0.4/0.5/0.6秒错峰与1.2秒展开的视觉状态",
+          "line": 16,
+          "keywords": [
+            "benchmark",
+            "tabs",
+            "bars",
+            "stats",
+            "柱图",
+            "标签",
+            "错峰",
+            "性能",
+            "指标"
+          ]
+        },
+        {
+          "path": "examples/mac-studio-benchmark-tabs/motion.js",
+          "symbol": "animateTab",
+          "match": "function animateTab(index)",
+          "purpose": "从当前可见帧续接快速切换；减少动态直接落定目标标签",
+          "line": 12,
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "keywords": [
+            "benchmark",
+            "tabs",
+            "bars",
+            "stats",
+            "柱图",
+            "标签",
+            "错峰",
+            "性能",
+            "指标",
+            "reduced motion",
+            "减少动态"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mac-studio-crossfade-gallery",
+      "title": "Mac Studio crossfade gallery",
+      "kind": "landing-page",
+      "fit": "brand",
+      "values": [
+        "spatial-continuity",
+        "feedback"
+      ],
+      "why": "固定显示器中图片、说明和选中态按500ms叠入同步",
+      "extract": "AI标签与工作区交叉淡入、中断续接",
+      "use_when": "产品功能图库、插画工作区轮播",
+      "avoid": "六张原创SVG；使用桌面easeInOutCubic，触屏原站曲线不同；非完整画廊产品；本地审核整合，尚未获得发布授权",
+      "keywords": [
+        "gallery",
+        "crossfade",
+        "workspace",
+        "AI tabs",
+        "图库",
+        "交叉淡入",
+        "工作区",
+        "标签",
+        "mac studio",
+        "Mac Studio研究"
+      ],
+      "readme": "examples/mac-studio-crossfade-gallery/README.md",
+      "preview": "examples/mac-studio-crossfade-gallery/preview/loop.gif",
+      "evidence": [
+        "examples/mac-studio-crossfade-gallery/VALIDATION.md",
+        "examples/mac-studio-crossfade-gallery/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/mac-studio-crossfade-gallery/scene.js",
+          "symbol": "state",
+          "match": "function state(progress,options={})",
+          "purpose": "两种模式的目标索引、说明和500ms淡入状态",
+          "line": 9,
+          "keywords": [
+            "gallery",
+            "crossfade",
+            "workspace",
+            "AI tabs",
+            "图库",
+            "交叉淡入",
+            "工作区",
+            "标签"
+          ]
+        },
+        {
+          "path": "examples/mac-studio-crossfade-gallery/motion.js",
+          "symbol": "animateTab",
+          "match": "function animateTab(index)",
+          "purpose": "快速切换保留当前可见混合帧；减少动态直接落定目标项",
+          "line": 13,
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "keywords": [
+            "gallery",
+            "crossfade",
+            "workspace",
+            "AI tabs",
+            "图库",
+            "交叉淡入",
+            "工作区",
+            "标签",
+            "reduced motion",
+            "减少动态"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mac-studio-hero-transition",
+      "title": "Mac Studio hero transition",
+      "kind": "landing-page",
+      "fit": "brand",
+      "values": [
+        "spatial-continuity",
+        "expressive-motion"
+      ],
+      "why": "硬件、彩色场景、性能标题与双芯片分六阶段接棒",
+      "extract": "滚动进度驱动的六阶段Hero转场",
+      "use_when": "品牌产品页面的局部开场片段",
+      "avoid": "原创程序图形；原站参考GIF为3倍速，不能读作原生时长；列表错峰已折算为可逆进度；本地审核整合，尚未获得发布授权",
+      "keywords": [
+        "hero",
+        "six phases",
+        "chips",
+        "landing",
+        "主视觉",
+        "六阶段",
+        "芯片",
+        "开场",
+        "转场",
+        "mac studio",
+        "Mac Studio研究"
+      ],
+      "readme": "examples/mac-studio-hero-transition/README.md",
+      "preview": "examples/mac-studio-hero-transition/preview/loop.gif",
+      "evidence": [
+        "examples/mac-studio-hero-transition/VALIDATION.md",
+        "examples/mac-studio-hero-transition/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/mac-studio-hero-transition/scene.js",
+          "symbol": "state",
+          "match": "function state(progress)",
+          "purpose": "正背面、推近、场景、标题与芯片的六阶段状态",
+          "line": 50,
+          "keywords": [
+            "hero",
+            "six phases",
+            "chips",
+            "landing",
+            "主视觉",
+            "六阶段",
+            "芯片",
+            "开场",
+            "转场"
+          ]
+        },
+        {
+          "path": "examples/mac-studio-hero-transition/motion.js",
+          "symbol": "applyReduced",
+          "match": "function applyReduced()",
+          "purpose": "停止播放并切换稳定终态；仍保留手动进度检查",
+          "line": 15,
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "keywords": [
+            "hero",
+            "six phases",
+            "chips",
+            "landing",
+            "主视觉",
+            "六阶段",
+            "芯片",
+            "开场",
+            "转场",
+            "reduced motion",
+            "减少动态"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mac-studio-layered-assembly",
+      "title": "Mac Studio layered assembly",
+      "kind": "landing-page",
+      "fit": "brand",
+      "values": [
+        "spatial-continuity"
+      ],
+      "why": "六层严格对齐的透明度叠加逐步揭示内部结构",
+      "extract": "注册图层交叉显露与分段尺寸线",
+      "use_when": "结构讲解、分层材质说明",
+      "avoid": "图层只有透明度变化，没有爆炸位移；硬件与200×96mm尺寸为示意；本地审核整合，尚未获得发布授权",
+      "keywords": [
+        "layers",
+        "assembly",
+        "xray",
+        "opacity",
+        "分层",
+        "透明度",
+        "结构",
+        "叠加",
+        "尺寸线",
+        "mac studio",
+        "Mac Studio研究"
+      ],
+      "readme": "examples/mac-studio-layered-assembly/README.md",
+      "preview": "examples/mac-studio-layered-assembly/preview/loop.gif",
+      "evidence": [
+        "examples/mac-studio-layered-assembly/VALIDATION.md",
+        "examples/mac-studio-layered-assembly/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/mac-studio-layered-assembly/scene.js",
+          "symbol": "state",
+          "match": "function state(p)",
+          "purpose": "六层注册透明度和65%后分段尺寸线的进度映射",
+          "line": 6,
+          "keywords": [
+            "layers",
+            "assembly",
+            "xray",
+            "opacity",
+            "分层",
+            "透明度",
+            "结构",
+            "叠加",
+            "尺寸线"
+          ]
+        },
+        {
+          "path": "examples/mac-studio-layered-assembly/motion.js",
+          "symbol": "onReduced",
+          "match": "function onReduced()",
+          "purpose": "关闭滚动/自动运动并提供手动静态查看",
+          "line": 15,
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "keywords": [
+            "layers",
+            "assembly",
+            "xray",
+            "opacity",
+            "分层",
+            "透明度",
+            "结构",
+            "叠加",
+            "尺寸线",
+            "reduced motion",
+            "减少动态"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mac-studio-parallax-features",
+      "title": "Mac Studio parallax features",
+      "kind": "landing-page",
+      "fit": "brand",
+      "values": [
+        "spatial-continuity"
+      ],
+      "why": "单张画面缩放与标题上移连接到下一段正文",
+      "extract": "1.4→1 图像缩放与−50vh标题视差",
+      "use_when": "产品特性展示、内容段落衔接",
+      "avoid": "只是独立页面片段；不包含原站上一段正文，也没有原站产品图像；本地审核整合，尚未获得发布授权",
+      "keywords": [
+        "parallax",
+        "zoom",
+        "headline",
+        "features",
+        "视差",
+        "缩放",
+        "标题",
+        "正文衔接",
+        "mac studio",
+        "Mac Studio研究"
+      ],
+      "readme": "examples/mac-studio-parallax-features/README.md",
+      "preview": "examples/mac-studio-parallax-features/preview/loop.gif",
+      "evidence": [
+        "examples/mac-studio-parallax-features/VALIDATION.md",
+        "examples/mac-studio-parallax-features/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/mac-studio-parallax-features/scene.js",
+          "symbol": "state",
+          "match": "function state(progress)",
+          "purpose": "图像缩放、标题50vh位移与下一段文字透明度关系",
+          "line": 49,
+          "keywords": [
+            "parallax",
+            "zoom",
+            "headline",
+            "features",
+            "视差",
+            "缩放",
+            "标题",
+            "正文衔接"
+          ]
+        },
+        {
+          "path": "examples/mac-studio-parallax-features/motion.js",
+          "symbol": "applyReduced",
+          "match": "function applyReduced()",
+          "purpose": "减少动态时静态显示终态，停止滚动联动和播放",
+          "line": 15,
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "keywords": [
+            "parallax",
+            "zoom",
+            "headline",
+            "features",
+            "视差",
+            "缩放",
+            "标题",
+            "正文衔接",
+            "reduced motion",
+            "减少动态"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mac-studio-scroll-relay",
+      "title": "Mac Studio scroll relay",
+      "kind": "landing-page",
+      "fit": "brand",
+      "values": [
+        "spatial-continuity"
+      ],
+      "why": "独立背景视频时间轴承托可逆的滚动文字接力",
+      "extract": "背景媒体与滚动文字分别计时",
+      "use_when": "产品叙事中的局部媒体文字段落",
+      "avoid": "原创抽象MP4；只含背景视频控制，非完整播放器产品；离线GIF不是浏览器录屏；本地审核整合，尚未获得发布授权",
+      "keywords": [
+        "scroll relay",
+        "video text",
+        "background video",
+        "文字接力",
+        "背景视频",
+        "滚动文字",
+        "双时间轴",
+        "mac studio",
+        "Mac Studio研究"
+      ],
+      "readme": "examples/mac-studio-scroll-relay/README.md",
+      "preview": "examples/mac-studio-scroll-relay/preview/loop.gif",
+      "evidence": [
+        "examples/mac-studio-scroll-relay/VALIDATION.md",
+        "examples/mac-studio-scroll-relay/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/mac-studio-scroll-relay/scene.js",
+          "symbol": "overlay",
+          "match": "function overlay(c,w,h,progress,options={})",
+          "purpose": "按滚动进度切换文字，独立于背景媒体时间",
+          "line": 46,
+          "keywords": [
+            "scroll relay",
+            "video text",
+            "background video",
+            "文字接力",
+            "背景视频",
+            "滚动文字",
+            "双时间轴"
+          ]
+        },
+        {
+          "path": "examples/mac-studio-scroll-relay/motion.js",
+          "symbol": "playMedia",
+          "match": "function playMedia()",
+          "purpose": "按暂停、离场、隐藏页和减少动态偏好控制媒体；静止时停止回退绘制",
+          "line": 11,
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "keywords": [
+            "scroll relay",
+            "video text",
+            "background video",
+            "文字接力",
+            "背景视频",
+            "滚动文字",
+            "双时间轴",
+            "reduced motion",
+            "减少动态"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mac-studio-turntable",
+      "title": "Mac Studio turntable",
+      "kind": "landing-page",
+      "fit": "brand",
+      "values": [
+        "spatial-continuity"
+      ],
+      "why": "90 个离散角度与前后说明接力构成可逆产品查看",
+      "extract": "离散转角和滚动说明交接",
+      "use_when": "产品接口说明、连接关系介绍",
+      "avoid": "原创程序硬件；没有 Apple JPEG 预加载或缺帧回退，不是完整3D产品查看器；本地审核整合，尚未获得发布授权",
+      "keywords": [
+        "turntable",
+        "rotation",
+        "connectivity",
+        "转台",
+        "转角",
+        "接口",
+        "连接",
+        "mac studio",
+        "Mac Studio研究"
+      ],
+      "readme": "examples/mac-studio-turntable/README.md",
+      "preview": "examples/mac-studio-turntable/preview/loop.gif",
+      "evidence": [
+        "examples/mac-studio-turntable/VALIDATION.md",
+        "examples/mac-studio-turntable/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/mac-studio-turntable/scene.js",
+          "symbol": "state",
+          "match": "function state(p)",
+          "purpose": "离散帧索引、转角和前后说明透明度的归一化映射",
+          "line": 8,
+          "keywords": [
+            "turntable",
+            "rotation",
+            "connectivity",
+            "转台",
+            "转角",
+            "接口",
+            "连接"
+          ]
+        },
+        {
+          "path": "examples/mac-studio-turntable/motion.js",
+          "symbol": "onReduced",
+          "match": "function onReduced()",
+          "purpose": "关闭滚动/自动运动，保留滑块静态检查",
+          "line": 15,
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "keywords": [
+            "turntable",
+            "rotation",
+            "connectivity",
+            "转台",
+            "转角",
+            "接口",
+            "连接",
+            "reduced motion",
+            "减少动态"
+          ]
         }
       ]
     },
@@ -2135,6 +2925,68 @@
       ]
     },
     {
+      "slug": "telegram-media-spoiler",
+      "title": "Telegram Media Spoiler",
+      "kind": "component",
+      "fit": "everyday",
+      "values": [
+        "feedback"
+      ],
+      "why": "柔边遮罩从点击位置扩散，让隐藏媒体的揭晓保留操作来源",
+      "extract": "点击原点驱动的模糊与粒子揭晓",
+      "use_when": "敏感内容预览、可撤回的媒体遮罩",
+      "avoid": "180ms 模型校准到 2022 宣传片第二次揭晓；不是所有当前客户端的精确实现，也不是数据访问控制",
+      "keywords": [
+        "telegram",
+        "spoiler",
+        "reveal",
+        "mask",
+        "媒体",
+        "揭晓",
+        "遮罩",
+        "点击原点"
+      ],
+      "readme": "examples/telegram-media-spoiler/README.md",
+      "preview": "examples/telegram-media-spoiler/preview/telegram-media-spoiler.gif",
+      "evidence": [
+        "examples/telegram-media-spoiler/VALIDATION.md",
+        "examples/telegram-media-spoiler/PROVENANCE.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/telegram-media-spoiler/src/motion.js",
+          "symbol": "createModel",
+          "match": "function createModel(",
+          "purpose": "揭晓/隐藏的可反转状态、点击原点与减少动态立即落定",
+          "line": 17,
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "keywords": [
+            "reveal",
+            "reverse",
+            "reduced motion",
+            "揭晓",
+            "反转",
+            "减少动态"
+          ]
+        },
+        {
+          "path": "examples/telegram-media-spoiler/src/motion.js",
+          "symbol": "renderMedia",
+          "match": "function renderMedia(",
+          "purpose": "组合模糊媒体、径向软边和种子粒子；读取资源准备依赖",
+          "line": 43,
+          "keywords": [
+            "blur",
+            "particles",
+            "模糊",
+            "粒子"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "thanos-snap-ticket",
       "title": "Ticket dissolve",
       "kind": "component",
@@ -2173,6 +3025,85 @@
       ]
     },
     {
+      "slug": "things-magic-plus",
+      "title": "Things Magic Plus",
+      "kind": "component",
+      "fit": "everyday",
+      "values": [
+        "spatial-continuity",
+        "feedback"
+      ],
+      "why": "加号拖入列表空隙再展开编辑器，连续展示插入位置和任务落定",
+      "extract": "拖放插入、编辑提交与取消归位",
+      "use_when": "任务列表快速添加、可定位的新条目入口",
+      "avoid": "2017 官方演示的单轮量测；只有一个本地任务，收件箱和取消圆点不是额外投放目标，没有持久化后端",
+      "keywords": [
+        "things",
+        "magic plus",
+        "drag insert",
+        "task editor",
+        "IME",
+        "加号",
+        "拖放",
+        "插入",
+        "编辑器",
+        "中文输入",
+        "任务"
+      ],
+      "readme": "examples/things-magic-plus/README.md",
+      "preview": "examples/things-magic-plus/preview/loop.gif",
+      "evidence": [
+        "examples/things-magic-plus/VALIDATION.md",
+        "examples/things-magic-plus/PROVENANCE.md",
+        "examples/things-magic-plus/FIDELITY.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/things-magic-plus/src/motion.js",
+          "symbol": "referenceAt",
+          "match": "function referenceAt(time)",
+          "purpose": "采样抬起、拖动让位、展开和收起的独立观测通道",
+          "line": 8,
+          "keywords": [
+            "reference timing",
+            "时序"
+          ]
+        },
+        {
+          "path": "examples/things-magic-plus/src/motion.js",
+          "symbol": "Controller",
+          "match": "class Controller{",
+          "purpose": "指针归属、提交/取消、隐藏页时钟冻结和减少动态立即结束过渡",
+          "line": 18,
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "keywords": [
+            "task editing",
+            "discard draft",
+            "reduced motion",
+            "任务编辑",
+            "取消",
+            "减少动态"
+          ]
+        },
+        {
+          "path": "examples/things-magic-plus/src/app.js",
+          "symbol": "mount",
+          "match": "function mount(doc,win,M,S)",
+          "purpose": "真实输入框、IME/重复按键守卫、Escape 取消与焦点归还的适配层",
+          "line": 2,
+          "keywords": [
+            "IME",
+            "composition",
+            "focus",
+            "中文输入",
+            "焦点"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "tiny-animated-svg",
       "title": "Tiny animated SVG",
       "kind": "creative-motion",
@@ -2204,6 +3135,70 @@
           "match": "export function svgAt(time=null)",
           "purpose": "随时间改变的渐变与滤镜定义；只抽取材质参数并替换品牌字样",
           "line": 8
+        }
+      ]
+    },
+    {
+      "slug": "youtube-subscribe-feedback",
+      "title": "YouTube subscribe feedback",
+      "kind": "component",
+      "fit": "brand",
+      "values": [
+        "feedback",
+        "expressive-motion"
+      ],
+      "why": "红—品红提示、星点确认和铃铛收束分层表达激活状态",
+      "extract": "按钮提示到本地确认的短序列",
+      "use_when": "关注、收藏、低频达成反馈",
+      "avoid": "基于 2025 官方组件展示；提示与奖励原是两条轨道，不代表今天全平台最新，也不发送真实订阅请求",
+      "keywords": [
+        "youtube",
+        "subscribe",
+        "button",
+        "reward",
+        "订阅",
+        "按钮",
+        "反馈",
+        "铃铛",
+        "星点"
+      ],
+      "readme": "examples/youtube-subscribe-feedback/README.md",
+      "preview": "examples/youtube-subscribe-feedback/output/07-youtube-subscribe-demo.gif",
+      "evidence": [
+        "examples/youtube-subscribe-feedback/VALIDATION.md",
+        "examples/youtube-subscribe-feedback/reference/ATTRIBUTION.md"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/youtube-subscribe-feedback/src/motion.mjs",
+          "symbol": "SubscribeMotion",
+          "match": "export class SubscribeMotion{",
+          "purpose": "一次激活、提示/奖励时序与减少动态静态状态；真正订阅状态需由业务接入",
+          "line": 17,
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "keywords": [
+            "subscribe",
+            "reward",
+            "reduced motion",
+            "订阅",
+            "奖励",
+            "减少动态"
+          ]
+        },
+        {
+          "path": "examples/youtube-subscribe-feedback/src/app.mjs",
+          "symbol": "schedule",
+          "match": "function schedule(s)",
+          "purpose": "按状态安排动画帧和后续自动 cue，静止终态停帧；不是性能基准测试",
+          "line": 15,
+          "keywords": [
+            "idle",
+            "scheduler",
+            "空闲",
+            "调度"
+          ]
         }
       ]
     }

@@ -1,0 +1,31 @@
+{
+  "mode": "visible-stage correspondence, not elapsed-time equivalence",
+  "sourceIndex": "raw capture frame index",
+  "interpolation": "piecewise-linear",
+  "anchors": [
+    {
+      "sourceFrame": 0,
+      "progress": 0
+    },
+    {
+      "sourceFrame": 10,
+      "progress": 0.25
+    },
+    {
+      "sourceFrame": 20,
+      "progress": 0.55
+    },
+    {
+      "sourceFrame": 27,
+      "progress": 0.72
+    },
+    {
+      "sourceFrame": 31,
+      "progress": 0.86
+    },
+    {
+      "sourceFrame": 41,
+      "progress": 1
+    }
+  ]
+}

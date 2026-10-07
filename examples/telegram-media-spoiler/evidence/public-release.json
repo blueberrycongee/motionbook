@@ -1,0 +1,34 @@
+{
+  "kind": "public release provenance",
+  "referencePage": "https://telegram.org/blog/hidden-media-zero-storage-profile-pics#hidden-media",
+  "sourceVideoSha256": "a631d605ef712f4bc369060f55a49ed7b0afde28adafaf8e0d10a69d7ffc4e67",
+  "referenceMediaBundled": false,
+  "excludedCategories": [
+    "Official source video and source imagery",
+    "Source-containing comparison media and crops",
+    "Superseded version-0 preview",
+    "Generated frame caches and private-path logs"
+  ],
+  "preservedApprovedFilesSha256": {
+    "assets/original-still-life-blurred.png": "2c709ee424fc3f363a5e13b61f6813b87ee18804648d3627e7f6ad3f0a919249",
+    "assets/original-still-life.png": "65c996745ca8b225f15288a90c3a75b872b3b747e2ea4b57d2969c56d4306218",
+    "index.html": "2e6471ebeee4ece9887ec9e28ca1640b95e8e20a6c2ee196ac0e342e7ed2d878",
+    "package.json": "d2659a1856fdf5f3fb3097624bf78d28462bddbaa26040e2f264b48c5ca24a80",
+    "preview/frame-0.png": "d350af45f729d22af697bd42ef9c2ad6779c956791f18fdebb07c7886493b9be",
+    "preview/frame-66.png": "e33ff5c18342b9ef4bba2952093475cf9ee3f597c77ab2ab86e1e8b77b381202",
+    "preview/frame-68.png": "73580a68b088e8e4e47b8ed6363e96053f60b26a9de374872e7650eb2ee32491",
+    "preview/frame-75.png": "d37be64f312314c29638717f115376724e5ecaf7667fa649fb17765e9824f081",
+    "preview/telegram-media-spoiler.gif": "62b93b420e5e39c4dc25f82cfdee28f3a1381050cca644d39a85bce6fad53bba",
+    "src/app.js": "b8b2aeb266a906321bde07f685721eaf7a6076a47ff3b11e677ad6add9ba9e39",
+    "src/motion.js": "c806335150a590607519bc11be2be303092c35a7f077122c08c47b13b5c64930",
+    "src/style.css": "223d1224bd0fdd2262013ddeb47681b9da0dfabd2f67e9c7bdb621fe507464e8",
+    "standalone.html": "c8e461363ffcdf03af40eab86fcdf7b914628ea70704241e7bac761610f38ba6"
+  },
+  "historicalNumericEvidence": "Source and timing-audit measurements are retained from the supplied approved example. They were not independently repeated during public-release preparation.",
+  "publicVerification": "See public-validation.json and test-output.txt for checks performed on the public bundle.",
+  "limitations": [
+    "Independent recreation, not official Telegram client code",
+    "Promotional-video calibration does not establish current native-client timing or exact shader parameters",
+    "Browser layout, real input, accessibility tree, performance and display scheduling were not verified"
+  ]
+}

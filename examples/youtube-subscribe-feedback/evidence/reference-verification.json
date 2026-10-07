@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-07",
+  "reference_article": "https://design.google/library/youtube-new-red-color",
+  "publish_at_from_official_page": "2025-02-11T08:00:00Z",
+  "asset": "https://storage.googleapis.com/gd-prod/media/97be5cc1-6066-4162-9cc8-fc6c6728ca6c_4_YouTube_Components_20250109_1.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frames": 240,
+  "source_kind": "Official component showcase; not a platform-versioned device recording",
+  "current_web_observation": {
+    "url": "https://www.youtube.com/watch?v=fy4DFSdVANw",
+    "signed_in": false,
+    "button_text": "Subscribe",
+    "computed_background": "rgb(15, 15, 15)",
+    "computed_color": "rgb(241, 241, 241)",
+    "video_time": 0,
+    "video_readyState": 0,
+    "reloads": 1,
+    "dynamic_current_verification": false
+  },
+  "scope": "Verified newer 2025 red-magenta reference; universal latest 2026 behavior unconfirmed"
+}

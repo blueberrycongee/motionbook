@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Jitter · Motionbook</title><link rel="stylesheet" href="style.css"></head>
+<body><main><div class="stage"><canvas width="800" height="880" aria-label="An original chat interface with a selected word with reference-fitted coordinated text rocking"></canvas><button id="jitter-hit" class="jitter-hit" aria-label="Replay Jitter text effect"></button></div>
+<div class="controls"><label>Your word <input id="word" value="wiggling" maxlength="64" autocomplete="off" spellcheck="false"></label><button id="replay">Replay</button><button id="pause">Pause</button><label class="reduce"><input id="reduced" type="checkbox"> Reduce motion</label></div>
+<p class="note">Independent reconstruction from <a href="https://developer.apple.com/videos/play/wwdc2024/101/?time=1317" target="_blank" rel="noreferrer">Apple WWDC24, 21:57</a> · Original chat content and redrawn interface</p>
+<p class="note">The eight-item menu is visual context; only Jitter is interactive. The browser and offline preview share the same drawing and motion code.</p></main>
+<script src="src/tracks.js"></script><script src="src/motion.js"></script><script src="src/scene.js"></script><script src="src/app.js"></script></body></html>

@@ -1,0 +1,17 @@
+{
+  "file": "../preview.gif",
+  "width": 408,
+  "height": 800,
+  "input_samples": 150,
+  "sample_interval_ms": 50,
+  "decoded_frames": 135,
+  "duration_ms": 7500,
+  "encoded_frame_delays_ms": [
+    50,
+    100,
+    150,
+    200,
+    500
+  ],
+  "note": "Identical holds may merge; total duration verified. Shared SVG offline render, not browser capture."
+}

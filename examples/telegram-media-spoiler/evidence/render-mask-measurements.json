@@ -1,0 +1,85 @@
+{
+  "description": "Reconstruction actual offline pixels, isolated black/white mask. Null boundary means beyond sampled image bounds; not a failed measurement.",
+  "rows": [
+    {
+      "elapsedMs": 8.333,
+      "sourcePts": 7.549999667000001,
+      "centerAlpha": 0.14509803921568631,
+      "r50": null,
+      "r90": null,
+      "r10": 38
+    },
+    {
+      "elapsedMs": 25,
+      "sourcePts": 7.566666667000001,
+      "centerAlpha": 0.5764705882352941,
+      "r50": 29,
+      "r90": null,
+      "r10": 100
+    },
+    {
+      "elapsedMs": 41.667,
+      "sourcePts": 7.583333667000001,
+      "centerAlpha": 0.9725490196078431,
+      "r50": 109,
+      "r90": 48,
+      "r10": 167
+    },
+    {
+      "elapsedMs": 58.333,
+      "sourcePts": 7.5999996670000005,
+      "centerAlpha": 0.996078431372549,
+      "r50": 149,
+      "r90": 90,
+      "r10": 206
+    },
+    {
+      "elapsedMs": 75,
+      "sourcePts": 7.6166666670000005,
+      "centerAlpha": 0.996078431372549,
+      "r50": 197,
+      "r90": 139,
+      "r10": 253
+    },
+    {
+      "elapsedMs": 91.667,
+      "sourcePts": 7.6333336670000005,
+      "centerAlpha": 0.996078431372549,
+      "r50": 239,
+      "r90": 181,
+      "r10": 296
+    },
+    {
+      "elapsedMs": 108.333,
+      "sourcePts": 7.649999667,
+      "centerAlpha": 1,
+      "r50": 282,
+      "r90": 224,
+      "r10": null
+    },
+    {
+      "elapsedMs": 125,
+      "sourcePts": 7.666666667,
+      "centerAlpha": 1,
+      "r50": null,
+      "r90": 259,
+      "r10": null
+    },
+    {
+      "elapsedMs": 158.333,
+      "sourcePts": 7.699999667,
+      "centerAlpha": 1,
+      "r50": null,
+      "r90": null,
+      "r10": null
+    },
+    {
+      "elapsedMs": 180,
+      "sourcePts": 7.721666667,
+      "centerAlpha": 1,
+      "r50": null,
+      "r90": null,
+      "r10": null
+    }
+  ]
+}

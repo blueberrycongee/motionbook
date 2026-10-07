@@ -1,0 +1,293 @@
+{
+  "source": {
+    "page": "https://telegram.org/blog/hidden-media-zero-storage-profile-pics#hidden-media",
+    "video_url": "https://telegram.org/file/464001154/11e69/9FLiJnH4fF4.2869553.mp4/18ca1dba8837d3db6f",
+    "width": 1080,
+    "height": 1080,
+    "fps": 60,
+    "duration_seconds": 9.5,
+    "frame_numbering": "PNG 0001 is PTS 0; PTS=(PNG number-1)/60, checked with ffprobe best_effort_timestamp_time",
+    "analysis_region": "second reveal; stationary phone framing",
+    "sha256": "a631d605ef712f4bc369060f55a49ed7b0afde28adafaf8e0d10a69d7ffc4e67",
+    "full_source_bundled": false,
+    "source_pixels_bundled": false
+  },
+  "direct_observations": {
+    "media_rect_source_px": {
+      "left": 347,
+      "top": 195,
+      "right": 851,
+      "bottom": 581,
+      "width": 504,
+      "height": 386,
+      "uncertainty_px": 2
+    },
+    "product_onset": {
+      "last_visually_hidden_frame": 453,
+      "last_visually_hidden_pts_seconds": 7.533333,
+      "first_visibly_revealing_frame": 454,
+      "first_visibly_revealing_pts_seconds": 7.55,
+      "onset_bracket_seconds": [
+        7.533333,
+        7.55
+      ]
+    },
+    "completion": {
+      "substantially_clear_pts_seconds": [
+        7.683333,
+        7.7
+      ],
+      "conservative_effectively_clear_pts_seconds": 7.733333,
+      "visible_duration_estimate_seconds": [
+        0.15,
+        0.2
+      ],
+      "uncertainty": "Boundary becomes clipped by media edges, residual particles fade, and tutorial touch overlay remains; do not interpret an exact terminal frame as established"
+    },
+    "touch_indicator": {
+      "excluded": true,
+      "approx_center_source_px": [
+        600,
+        398
+      ],
+      "warning": "Large white annulus is tutorial touch visualization, not Telegram product effect; it begins before reveal and overlaps early reveal frames"
+    },
+    "center_sharp_content_opacity_estimates": [
+      {
+        "frame": 454,
+        "pts": 7.55,
+        "alpha_range": [
+          0.12,
+          0.15
+        ]
+      },
+      {
+        "frame": 455,
+        "pts": 7.566667,
+        "alpha_range": [
+          0.57,
+          0.6
+        ]
+      },
+      {
+        "frame": 456,
+        "pts": 7.583333,
+        "alpha_range": [
+          0.98,
+          1
+        ]
+      }
+    ],
+    "visual_character": "An expanding centre-out reveal with a very broad feather; stationary strongly blurred colored image under many small bright speckles; no product label or icon visible"
+  },
+  "fitted_geometry_not_exact_native_parameters": {
+    "method": "Fit a smoothstep radial alpha field against the high-pass clear photo, using Gaussian sigma 5 px highpass. Fit source frames 454\u2013465 against frame 480. Exclude media edges and tutorial-ring radii 35\u2013125 px around(600,398). Main trustworthy boundary fits are 456\u2013461; early and late fits are underconstrained. This measures sharp-photo contribution, not literal renderer mask alpha.",
+    "approx_reveal_center_source_px": [
+      592,
+      414
+    ],
+    "center_uncertainty_px": 15,
+    "normalized_center_in_media": [
+      0.486,
+      0.567
+    ],
+    "r50_samples": [
+      {
+        "frame": 456,
+        "pts_seconds": 7.583333333333333,
+        "r50_source_px": 109.6,
+        "full_smoothstep_feather_source_px": 184.9
+      },
+      {
+        "frame": 457,
+        "pts_seconds": 7.6,
+        "r50_source_px": 150.4,
+        "full_smoothstep_feather_source_px": 165.7
+      },
+      {
+        "frame": 458,
+        "pts_seconds": 7.616666666666666,
+        "r50_source_px": 194.6,
+        "full_smoothstep_feather_source_px": 217.8
+      },
+      {
+        "frame": 459,
+        "pts_seconds": 7.633333333333334,
+        "r50_source_px": 239.7,
+        "full_smoothstep_feather_source_px": 172.4
+      },
+      {
+        "frame": 460,
+        "pts_seconds": 7.65,
+        "r50_source_px": 281.6,
+        "full_smoothstep_feather_source_px": 239.2
+      },
+      {
+        "frame": 461,
+        "pts_seconds": 7.666666666666667,
+        "r50_source_px": 315.8,
+        "full_smoothstep_feather_source_px": 189.9
+      }
+    ],
+    "r50_uncertainty_source_px": [
+      10,
+      20
+    ],
+    "r50_linear_fit": {
+      "slope_source_px_per_second": 2519,
+      "zero_radius_extrapolated_pts_seconds": 7.53954,
+      "r_squared": 0.99849,
+      "observed_interval_seconds": [
+        7.583333,
+        7.666667
+      ],
+      "warning": "Zero-radius intercept is extrapolation, not observed onset; only 6 boundary samples, so no exact easing identification"
+    },
+    "feather": {
+      "approx_10_to_90_percent_width_source_px": [
+        100,
+        125
+      ],
+      "equivalent_full_smoothstep_width_source_px": [
+        170,
+        210
+      ],
+      "width_relative_to_media_width_10_to_90": [
+        0.2,
+        0.25
+      ]
+    },
+    "blurred_disk_alternative": {
+      "interpretation": "A Gaussian-blurred disk gives natural centre-opacity ramp at small radius; plausible reproduction model, not an identified implementation",
+      "sigma_source_px_typical": [
+        40,
+        54
+      ],
+      "early_fits": [
+        {
+          "frame": 454,
+          "pts_seconds": 7.55,
+          "disk_radius_source_px": 26.9,
+          "sigma_source_px": 42.8
+        },
+        {
+          "frame": 455,
+          "pts_seconds": 7.566666666666666,
+          "disk_radius_source_px": 58.1,
+          "sigma_source_px": 39.9
+        },
+        {
+          "frame": 456,
+          "pts_seconds": 7.583333333333333,
+          "disk_radius_source_px": 119.4,
+          "sigma_source_px": 41.4
+        },
+        {
+          "frame": 457,
+          "pts_seconds": 7.6,
+          "disk_radius_source_px": 155.7,
+          "sigma_source_px": 40.1
+        },
+        {
+          "frame": 458,
+          "pts_seconds": 7.616666666666666,
+          "disk_radius_source_px": 203.2,
+          "sigma_source_px": 53.9
+        },
+        {
+          "frame": 459,
+          "pts_seconds": 7.633333333333334,
+          "disk_radius_source_px": 243.8,
+          "sigma_source_px": 41.4
+        }
+      ]
+    },
+    "reproduction_guidance": "Use near-linear spatial expansion, starting with zero revealed opacity; ramp centre opacity over roughly 30\u201340 ms and use a wide soft boundary. About 180 ms is a practical visible reveal duration. Keep transform stationary. Scale lengths with media width, clip to rounded media bounds. Exclude tutorial ring. Do not claim an exact native easing match."
+  },
+  "hidden_particles": {
+    "method": "Luminance minus Gaussian sigma 3 px, source frame 410 (PTS 6.816667); inner ROI avoids media edges. Threshold-dependent counts are texture statistics, not exact rendered-particle counts. Adjacent-frame correlations use the same fixed ROI.",
+    "statistics": {
+      "roi": [
+        363,
+        211,
+        835,
+        565
+      ],
+      "area": 167088,
+      "thresholds": [
+        {
+          "threshold": 0.04,
+          "connected_components": 2401,
+          "area_median_px": 4.0,
+          "area_p90_px": 8.0,
+          "peak_count": 2582,
+          "bright_coverage": 0.06932275208273485
+        },
+        {
+          "threshold": 0.06,
+          "connected_components": 2208,
+          "area_median_px": 4.0,
+          "area_p90_px": 7.0,
+          "peak_count": 2338,
+          "bright_coverage": 0.05380398352963708
+        },
+        {
+          "threshold": 0.08,
+          "connected_components": 2059,
+          "area_median_px": 3.0,
+          "area_p90_px": 6.0,
+          "peak_count": 2124,
+          "bright_coverage": 0.04229507804270803
+        },
+        {
+          "threshold": 0.1,
+          "connected_components": 1881,
+          "area_median_px": 3.0,
+          "area_p90_px": 5.0,
+          "peak_count": 1918,
+          "bright_coverage": 0.033329742411184526
+        }
+      ],
+      "correlations": [
+        {
+          "frame_lag": 1,
+          "seconds": 0.016666666666666666,
+          "correlation": 0.927740604031217
+        },
+        {
+          "frame_lag": 2,
+          "seconds": 0.03333333333333333,
+          "correlation": 0.8415073972012566
+        },
+        {
+          "frame_lag": 3,
+          "seconds": 0.05,
+          "correlation": 0.7595430739261324
+        },
+        {
+          "frame_lag": 6,
+          "seconds": 0.1,
+          "correlation": 0.48289334798124894
+        },
+        {
+          "frame_lag": 12,
+          "seconds": 0.2,
+          "correlation": 0.2025058810518428
+        },
+        {
+          "frame_lag": 18,
+          "seconds": 0.3,
+          "correlation": 0.08689005447962614
+        }
+      ],
+      "lowpass_rms_change_18frames": 0.004932656608769708
+    },
+    "interpretation": "Speckles retain high temporal coherence: suitable for slowly drifting/twinkling persistent particles, not independent random noise regenerated each frame. At 0.06 luminance residual threshold the median bright component area is 4 px\u00b2, equivalent circular diameter 2.26 px. Approx 2338 local bright peaks/167088 px\u00b2; extrapolated about 2700 peaks across 504\u00d7386 media. Dense tiny points, not sparse big glowing circles."
+  },
+  "hidden_background_inferred": {
+    "observation": "Low-frequency field nearly stationary; RMS luminance change over 0.3 s\u22480.00493 on 0\u20131 scale",
+    "approximation_test": "Blurring the clear photo with Gaussian sigma\u224840 source px and allowing an affine RGB transform fit the hidden low-frequency color field better than sigmas 8\u201396 tested; residualRGB RMS\u22480.025, R\u00b2\u22480.844",
+    "warning": "Color transform/downsample/blur algorithm not identified; this is only a rough reproduction starting point, not measurement of native blurRadius"
+  },
+  "public_release_note": "Historical numeric source analysis. Official media and source-containing comparison imagery are excluded from this release."
+}

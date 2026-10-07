@@ -1,0 +1,43 @@
+'use strict';
+const {test}=require('node:test'),assert=require('node:assert/strict'),M=require('../src/motion.js'),S=require('../src/scene.js'),C=require('../src/calibration-data.js');
+const newC=(r=false)=>new M.Controller({reducedMotion:r});
+function edit(c,t=0){c.reset(t);assert(c.beginPointer(1,450,839,t));assert(c.releasePointer(1,t));c.state(t+500);assert.equal(c.mode,'editing');}
+const finite=s=>Object.entries(s).every(([k,v])=>typeof v!=='number'||Number.isFinite(v));
+test('reference keeps the exact source coordinate system and bounded time',()=>{assert.equal(M.W,500);assert.equal(M.H,888);assert.equal(M.referenceAt(-20).time,0);assert.equal(M.referenceAt(100).time,7.5);assert.equal(M.referenceAt(NaN).time,0);});
+test('every sampled state is finite and bounded in forward/reverse order',()=>{for(let i=0;i<=2250;i++){const a=M.referenceAt(i/300),b=M.referenceAt((2250-i)/300);assert(finite(a)&&finite(b));for(const s of[a,b]){assert(s.plusR>=0&&s.plusR<70);assert(s.editorH>=0);assert(s.dim>=0&&s.dim<=1);}}});
+test('sampling is independent of evaluation order and frame cadence',()=>{const times=[0,.2,.3666666667,1.7,2.4,6.25,6.7,7.5];const out=times.map(M.referenceAt);for(let j=times.length-1;j>=0;j--)assert.deepEqual(M.referenceAt(times[j]),out[j]);});
+test('source knots are interpolated exactly rather than refit by an unrelated spring',()=>{for(const [name,knots]of Object.entries(C.channels))for(const [t,v]of knots){assert.equal(M.sample(knots,t),v,name+' '+t);}});
+test('source rest, edit, settled states retain the expected structure',()=>{assert.equal(M.referenceAt(0).phase,'rest');assert.equal(M.referenceAt(2.4).phase,'edit');assert.equal(M.referenceAt(7).phase,'settled');assert.equal(M.referenceAt(7).title,M.TEXT.newTitle);assert.equal(M.referenceAt(7).newRowAlpha,1);});
+test('ordinary playback uses elapsed absolute time',()=>{const c=newC();c.play(100);assert.equal(c.state(1100).time,1);assert.equal(c.state(2100).time,2);});
+test('pause and resume do not jump across idle time',()=>{const c=newC();c.play(0);c.pause(1350);c.state(10000);assert.equal(c.time,1.35);c.play(10000);assert.equal(c.state(11000).time,2.35);});
+test('replay resets interrupted playback and owns one timeline',()=>{const c=newC();c.play(0);c.state(4300);c.replay(4300);assert.equal(c.state(4300).time,0);assert.equal(c.state(5000).time,.7);});
+test('forward and backward seek are absolute and clamp',()=>{const c=newC();c.pause();c.seek(6);assert.equal(c.state().time,6);c.seek(.5);assert.equal(c.state().time,.5);c.seek(40);assert.equal(c.time,7.5);});
+test('end holds final inserted task and repeat explicitly restarts',()=>{const c=newC();c.play(0);assert.equal(c.state(9000).newRowAlpha,1);assert(!c.playing);c.repeat=true;c.replay(9000);assert.equal(c.state(17000).time,0);assert(c.playing);});
+test('only a primary pointer on the visible plus owns a drag',()=>{const c=newC();assert(!c.beginPointer(1,40,40,0));assert(!c.beginPointer(1,450,839,0,false));assert(c.beginPointer(1,450,839,0));assert(!c.beginPointer(2,450,839,10));assert(!c.movePointer(2,300,400,20));});
+test('pointer takeover preserves the starting center and geometry',()=>{const c=newC();const s=c.state();assert(c.beginPointer(1,s.plusX+8,s.plusY-4,0));const a=c.state(0);assert.equal(a.plusX,s.plusX);assert.equal(a.plusY,s.plusY);assert.equal(a.plusR,s.plusR);assert.equal(a.scroll,s.scroll);});
+test('long press lifts and drag produces a list insertion cue',()=>{const c=newC();c.beginPointer(1,450,839,0);c.movePointer(1,280,500,200);const s=c.state(200);assert(s.plusR>40);assert(s.gap>0);assert.equal(s.gapAlpha,1);});
+test('pointer coordinates clamp before they enter geometry',()=>{const c=newC();c.beginPointer(1,450,839);c.movePointer(1,-Infinity,NaN);assert(finite(c.state(200)));});
+test('wrong pointer release cannot open an editor',()=>{const c=newC();c.beginPointer(3,450,839);assert(!c.releasePointer(4,300));assert.equal(c.mode,'dragging');});
+test('cancelled and lost pointer leave no stuck drag',()=>{const c=newC();c.beginPointer(1,450,839);assert(c.cancelPointer(1));assert.equal(c.pointer,null);assert.equal(c.mode,'reference');assert(!c.cancelPointer());});
+test('drop outside the supported insertion target returns to rest',()=>{const c=newC();c.beginPointer(1,450,839);c.movePointer(1,40,150,200);assert(!c.releasePointer(1,220));assert.equal(c.mode,'reference');assert.equal(c.pointer,null);});
+test('tap opens the supplemental task editor',()=>{const c=newC();edit(c);assert.equal(c.state(600).titleCount,0);});
+test('valid drag opens through a bounded absolute-time transition',()=>{const c=newC();c.beginPointer(1,450,839);c.movePointer(1,280,500,200);c.releasePointer(1,220);assert.equal(c.state(220).mode,'transition');assert(finite(c.state(400)));assert.equal(c.state(620).mode,'editing');});
+test('transition result is frame cadence independent',()=>{const a=newC(),b=newC();for(const c of[a,b]){c.beginPointer(1,450,839,0);c.releasePointer(1,200);}for(let t=200;t<600;t+=7)a.state(t);assert.deepEqual(a.state(600),b.state(600));});
+test('save commits exactly once and retains authored task text',()=>{const c=newC();edit(c);c.setDraft('  A different task  ');assert(c.commit(600));assert(!c.commit(601));const s=c.state(1100);assert.equal(c.commits,1);assert.equal(s.title,'A different task');assert.equal(s.mode,'committed');});
+test('cancel discards draft and returns to the original state',()=>{const c=newC();edit(c);c.setDraft('Discard me');c.cancelEdit(600);assert.equal(c.state(1000).time,0);assert.equal(c.commits,0);assert.equal(c.draft,'');});
+test('empty title does not create a blank task',()=>{const c=newC();edit(c);c.setDraft('   ');c.commit(600);c.state(1100);assert.equal(c.commits,0);assert.equal(c.mode,'reference');});
+test('repeated create/save/reset cycles do not accumulate motion state',()=>{const c=newC();for(let i=0;i<20;i++){const t=i*2000;edit(c,t);c.setDraft('Task '+i);c.commit(t+600);assert.equal(c.state(t+1100).title,'Task '+i);c.reset(t+1200);assert.equal(c.pointer,null);assert.equal(c.transition,null);}assert.equal(c.commits,20);});
+test('seek interrupts opening and collapse without stale editor state',()=>{const c=newC();c.beginPointer(1,450,839);c.releasePointer(1,50);c.seek(1,100);assert.equal(c.mode,'reference');assert.equal(c.transition,null);assert.equal(c.state(800).time,1);});
+test('hidden page freezes time and resume rebases clock',()=>{const c=newC();c.play(0);c.setHidden(true,1000);assert.equal(c.state(12000).time,1);assert(!c.needsFrame());c.setHidden(false,12000);assert.equal(c.state(13000).time,2);});
+test('hidden page cancels active pointer ownership',()=>{const c=newC();c.beginPointer(1,450,839);c.setHidden(true,100);assert.equal(c.pointer,null);assert(!c.needsFrame());});
+test('reduced motion starts paused, prevents autoplay and retains seeking',()=>{const c=newC(true);assert(!c.play(0));assert.equal(c.state(2000).time,0);c.seek(2.4);assert.equal(c.state().time,2.4);assert(!c.needsFrame());});
+test('reduced-motion manual open and close settle immediately',()=>{const c=newC(true);c.beginPointer(1,450,839,0);assert(!c.needsFrame());c.releasePointer(1,100);assert.equal(c.mode,'editing');c.setDraft('Still task');c.commit(200);assert.equal(c.mode,'committed');assert.equal(c.state(200).title,'Still task');});
+test('enabling reduced motion cancels playback without an automatic restart',()=>{const c=newC();c.play(0);c.setReducedMotion(true,700);assert(!c.playing);assert.equal(c.time,.7);c.setReducedMotion(false,1500);assert(!c.playing);});
+test('scene escapes arbitrary task input',()=>{const s=M.referenceAt(7);s.title='<script> & "tag"';assert(!S.render(s).includes('<script>'));assert(S.render(s).includes('&lt;script&gt; &amp; &quot;tag&quot;'));});
+test('scene and runtime have one deterministic numeric state representation',()=>{const s=M.referenceAt(1.5);assert.equal(S.render(s),S.render(M.referenceAt(1.5)));assert(S.render(s).includes(`translate(${Number(s.plusX.toFixed(3))} ${Number(s.plusY.toFixed(3))})`));assert(!S.render(s).includes('NaN'));});
+
+test('a hidden transition stays frozen even if state is sampled and duplicate hide events arrive',()=>{
+ const c=newC();c.beginPointer(1,450,839,0);c.releasePointer(1,0);const before=c.state(100);
+ c.setHidden(true,100);c.setHidden(true,5000);assert.deepEqual(c.state(10000),before);assert(!c.needsFrame());
+ c.setHidden(false,10000);assert.deepEqual(c.state(10000),before);assert.equal(c.state(10300).mode,'editing');
+});

@@ -1,0 +1,9324 @@
+[
+  {
+    "frame": 0,
+    "pts": 0,
+    "t": 0.0,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3418
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9990885443922259
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999999999999999
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9989461927537501
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 1.0
+    },
+    "plus_circle_fit": {
+      "center_x": 449.18,
+      "center_y": 838.41,
+      "radius": 32.66,
+      "edge_fit_rms_px": 0.4,
+      "area": 3248
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": 0.0,
+      "ncc": 1.0
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 1,
+    "pts": 1000,
+    "t": 0.03333333333333333,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3418
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9990885443922259
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999999999999999
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9989456388741135
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999923991689271
+    },
+    "plus_circle_fit": {
+      "center_x": 449.18,
+      "center_y": 838.41,
+      "radius": 32.66,
+      "edge_fit_rms_px": 0.4,
+      "area": 3248
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": 0.0,
+      "ncc": 1.0
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 2,
+    "pts": 2000,
+    "t": 0.06666666666666667,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3418
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9990885443922259
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999999999999999
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9989456388741135
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999923991689271
+    },
+    "plus_circle_fit": {
+      "center_x": 449.18,
+      "center_y": 838.41,
+      "radius": 32.66,
+      "edge_fit_rms_px": 0.4,
+      "area": 3248
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": 0.0,
+      "ncc": 1.0
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 3,
+    "pts": 3000,
+    "t": 0.1,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3418
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9990885443922259
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999999999999999
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9989456388741135
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999923991689271
+    },
+    "plus_circle_fit": {
+      "center_x": 449.18,
+      "center_y": 838.41,
+      "radius": 32.66,
+      "edge_fit_rms_px": 0.4,
+      "area": 3248
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": 0.0,
+      "ncc": 1.0
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 4,
+    "pts": 4000,
+    "t": 0.13333333333333333,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3418
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9990885443922259
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999999999999999
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9989362042791334
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999744562191947
+    },
+    "plus_circle_fit": {
+      "center_x": 449.18,
+      "center_y": 838.41,
+      "radius": 32.66,
+      "edge_fit_rms_px": 0.4,
+      "area": 3248
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": 0.0,
+      "ncc": 1.0
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 5,
+    "pts": 5000,
+    "t": 0.16666666666666666,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3418
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9990885443922259
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999999999999999
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9989362042791334
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999744562191947
+    },
+    "plus_circle_fit": {
+      "center_x": 449.18,
+      "center_y": 838.41,
+      "radius": 32.66,
+      "edge_fit_rms_px": 0.4,
+      "area": 3248
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": 0.0,
+      "ncc": 1.0
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 6,
+    "pts": 6000,
+    "t": 0.2,
+    "plus": {
+      "center_x": 449.5,
+      "center_y": 838.0,
+      "radius_x": 32.0,
+      "radius_y": 32.5,
+      "bbox": [
+        418,
+        806,
+        482,
+        871
+      ],
+      "area": 3286
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9990885443922259
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999999999999999
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9989362042791334
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999744562191947
+    },
+    "plus_circle_fit": {
+      "center_x": 449.33,
+      "center_y": 838.37,
+      "radius": 32.0,
+      "edge_fit_rms_px": 0.399,
+      "area": 3114
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": 0.0,
+      "ncc": 1.0
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 7,
+    "pts": 7000,
+    "t": 0.23333333333333334,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 29.0,
+      "radius_y": 29.0,
+      "bbox": [
+        420,
+        810,
+        478,
+        868
+      ],
+      "area": 2634
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9990885443922259
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999999999999999
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9989362042791334
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999744562191947
+    },
+    "plus_circle_fit": {
+      "center_x": 449.17,
+      "center_y": 838.42,
+      "radius": 28.61,
+      "edge_fit_rms_px": 0.413,
+      "area": 2555
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": 0.0,
+      "ncc": 1.0
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": 0.0,
+      "ncc": 1.0
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 8,
+    "pts": 8000,
+    "t": 0.26666666666666666,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 29.0,
+      "radius_y": 29.0,
+      "bbox": [
+        420,
+        810,
+        478,
+        868
+      ],
+      "area": 2678
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9990885443922259
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999999999999999
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9989362042791334
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999744562191947
+    },
+    "plus_circle_fit": {
+      "center_x": 449.17,
+      "center_y": 838.33,
+      "radius": 28.83,
+      "edge_fit_rms_px": 0.465,
+      "area": 2597
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": 0.0,
+      "ncc": 1.0
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 9,
+    "pts": 9000,
+    "t": 0.3,
+    "plus": {
+      "center_x": 449.5,
+      "center_y": 838.5,
+      "radius_x": 38.0,
+      "radius_y": 39.0,
+      "bbox": [
+        412,
+        800,
+        488,
+        878
+      ],
+      "area": 4607
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9990710338271745
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999999999999999
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9989362042791334
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999719654719703
+    },
+    "plus_circle_fit": {
+      "center_x": 449.29,
+      "center_y": 838.4,
+      "radius": 37.97,
+      "edge_fit_rms_px": 0.408,
+      "area": 4388
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 10,
+    "pts": 10000,
+    "t": 0.3333333333333333,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 836.5,
+      "radius_x": 49.0,
+      "radius_y": 49.0,
+      "bbox": [
+        400,
+        788,
+        498,
+        886
+      ],
+      "area": 7514
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9990710338271745
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999999999999999
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9989362042791334
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999719654719703
+    },
+    "plus_circle_fit": {
+      "center_x": 449.35,
+      "center_y": 838.36,
+      "radius": 49.82,
+      "edge_fit_rms_px": 0.389,
+      "area": 7381
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 11,
+    "pts": 11000,
+    "t": 0.36666666666666664,
+    "plus": {
+      "center_x": 446.5,
+      "center_y": 835.5,
+      "radius_x": 51.0,
+      "radius_y": 50.0,
+      "bbox": [
+        396,
+        786,
+        498,
+        886
+      ],
+      "area": 8332
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9990710338271745
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999999999999999
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9989362042791334
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999719654719703
+    },
+    "plus_circle_fit": {
+      "center_x": 449.3,
+      "center_y": 838.56,
+      "radius": 53.37,
+      "edge_fit_rms_px": 0.382,
+      "area": 8223
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 12,
+    "pts": 12000,
+    "t": 0.4,
+    "plus": {
+      "center_x": 448.0,
+      "center_y": 836.5,
+      "radius_x": 49.5,
+      "radius_y": 49.0,
+      "bbox": [
+        399,
+        788,
+        498,
+        886
+      ],
+      "area": 7762
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9989918412605339
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999999999999999
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9989362042791334
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999666010484372
+    },
+    "plus_circle_fit": {
+      "center_x": 449.34,
+      "center_y": 838.41,
+      "radius": 50.88,
+      "edge_fit_rms_px": 0.364,
+      "area": 7643
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": -0.0,
+      "ncc": 0.9999
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 13,
+    "pts": 13000,
+    "t": 0.43333333333333335,
+    "plus": {
+      "center_x": 449.0,
+      "center_y": 837.5,
+      "radius_x": 48.5,
+      "radius_y": 48.0,
+      "bbox": [
+        401,
+        790,
+        498,
+        886
+      ],
+      "area": 7251
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9989918412605339
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999999999999999
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9989362042791334
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999666010484372
+    },
+    "plus_circle_fit": {
+      "center_x": 449.27,
+      "center_y": 838.42,
+      "radius": 48.77,
+      "edge_fit_rms_px": 0.375,
+      "area": 7103
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": -0.0,
+      "ncc": 0.9999
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 14,
+    "pts": 14000,
+    "t": 0.4666666666666667,
+    "plus": {
+      "center_x": 449.0,
+      "center_y": 833.5,
+      "radius_x": 48.5,
+      "radius_y": 48.0,
+      "bbox": [
+        401,
+        786,
+        498,
+        882
+      ],
+      "area": 7397
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9989918412605339
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999999999999999
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9989362042791334
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999666010484372
+    },
+    "plus_circle_fit": {
+      "center_x": 449.06,
+      "center_y": 833.49,
+      "radius": 48.18,
+      "edge_fit_rms_px": 0.391,
+      "area": 7035
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": -0.0,
+      "ncc": 0.9999
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 15,
+    "pts": 15000,
+    "t": 0.5,
+    "plus": {
+      "center_x": 449.0,
+      "center_y": 822.5,
+      "radius_x": 48.5,
+      "radius_y": 49.0,
+      "bbox": [
+        401,
+        774,
+        498,
+        872
+      ],
+      "area": 7314
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9989918412605339
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999999999999999
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9989362042791334
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999666010484372
+    },
+    "plus_circle_fit": {
+      "center_x": 449.02,
+      "center_y": 822.97,
+      "radius": 48.44,
+      "edge_fit_rms_px": 0.395,
+      "area": 7084
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": -0.0,
+      "ncc": 0.9999
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 16,
+    "pts": 16000,
+    "t": 0.5333333333333333,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 808.0,
+      "radius_x": 49.0,
+      "radius_y": 48.5,
+      "bbox": [
+        400,
+        760,
+        498,
+        857
+      ],
+      "area": 7263
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9989918412605339
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999999999999999
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9989362042791334
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999666010484372
+    },
+    "plus_circle_fit": {
+      "center_x": 448.78,
+      "center_y": 808.03,
+      "radius": 48.63,
+      "edge_fit_rms_px": 0.372,
+      "area": 7119
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": -0.0,
+      "ncc": 0.9999
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 1.0
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 17,
+    "pts": 17000,
+    "t": 0.5666666666666667,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 788.5,
+      "radius_x": 49.0,
+      "radius_y": 49.0,
+      "bbox": [
+        400,
+        740,
+        498,
+        838
+      ],
+      "area": 7179
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9989093078178041
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999802643327261
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9988642501369843
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999427605167261
+    },
+    "plus_circle_fit": {
+      "center_x": 448.35,
+      "center_y": 788.54,
+      "radius": 48.74,
+      "edge_fit_rms_px": 0.406,
+      "area": 7081
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": -0.0,
+      "ncc": 0.9999
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 0.9999
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 18,
+    "pts": 18000,
+    "t": 0.6,
+    "plus": {
+      "center_x": 446.5,
+      "center_y": 770.5,
+      "radius_x": 49.0,
+      "radius_y": 49.0,
+      "bbox": [
+        398,
+        722,
+        496,
+        820
+      ],
+      "area": 7501
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9989093078178041
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999802643327261
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9988642501369843
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999427605167261
+    },
+    "plus_circle_fit": {
+      "center_x": 446.44,
+      "center_y": 770.14,
+      "radius": 48.69,
+      "edge_fit_rms_px": 0.417,
+      "area": 7179
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": -0.0,
+      "ncc": 0.9999
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 0.9999
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 19,
+    "pts": 19000,
+    "t": 0.6333333333333333,
+    "plus": {
+      "center_x": 444.5,
+      "center_y": 750.5,
+      "radius_x": 49.0,
+      "radius_y": 49.0,
+      "bbox": [
+        396,
+        702,
+        494,
+        800
+      ],
+      "area": 7338
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9989093078178041
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999802643327261
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9988642501369843
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9999427605167261
+    },
+    "plus_circle_fit": {
+      "center_x": 443.87,
+      "center_y": 750.74,
+      "radius": 48.69,
+      "edge_fit_rms_px": 0.443,
+      "area": 7149
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": -0.0,
+      "ncc": 0.9999
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 0.9999
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 20,
+    "pts": 20000,
+    "t": 0.6666666666666666,
+    "plus": {
+      "center_x": 440.5,
+      "center_y": 728.5,
+      "radius_x": 49.0,
+      "radius_y": 49.0,
+      "bbox": [
+        392,
+        680,
+        490,
+        778
+      ],
+      "area": 7371
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9987608469175036
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999272207336508
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9987716544360901
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9998882589716578
+    },
+    "plus_circle_fit": {
+      "center_x": 440.85,
+      "center_y": 728.73,
+      "radius": 48.73,
+      "edge_fit_rms_px": 0.361,
+      "area": 7163
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": -0.0,
+      "ncc": 0.9998
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 0.9999
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 21,
+    "pts": 21000,
+    "t": 0.7,
+    "plus": {
+      "center_x": 438.5,
+      "center_y": 718.5,
+      "radius_x": 49.0,
+      "radius_y": 49.0,
+      "bbox": [
+        390,
+        670,
+        488,
+        768
+      ],
+      "area": 7523
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9987608469175036
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999272207336508
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9987716544360901
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9998882589716578
+    },
+    "plus_circle_fit": {
+      "center_x": 438.86,
+      "center_y": 718.23,
+      "radius": 48.68,
+      "edge_fit_rms_px": 0.413,
+      "area": 7183
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": -0.0,
+      "ncc": 0.9998
+    },
+    "borrow_row": {
+      "y": 721.0,
+      "delta_y": -0.0,
+      "ncc": 0.9999
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 22,
+    "pts": 22000,
+    "t": 0.7333333333333333,
+    "plus": {
+      "center_x": 432.0,
+      "center_y": 682.5,
+      "radius_x": 48.5,
+      "radius_y": 49.0,
+      "bbox": [
+        384,
+        634,
+        481,
+        732
+      ],
+      "area": 7541
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9987608469175036
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999272207336508
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9987716544360901
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9998882589716578
+    },
+    "plus_circle_fit": {
+      "center_x": 431.62,
+      "center_y": 682.17,
+      "radius": 48.61,
+      "edge_fit_rms_px": 0.523,
+      "area": 7165
+    },
+    "read_row": {
+      "y": 662.0,
+      "delta_y": -0.0,
+      "ncc": 0.9998
+    },
+    "borrow_row": {
+      "y": 742.76,
+      "delta_y": 21.76,
+      "ncc": 0.977
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      705,
+      764
+    ]
+  },
+  {
+    "frame": 23,
+    "pts": 23000,
+    "t": 0.7666666666666667,
+    "plus": {
+      "center_x": 426.5,
+      "center_y": 662.5,
+      "radius_x": 49.0,
+      "radius_y": 49.0,
+      "bbox": [
+        378,
+        614,
+        476,
+        712
+      ],
+      "area": 7351
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9987608469175036
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999272207336508
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9987716544360901
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9998882589716578
+    },
+    "plus_circle_fit": {
+      "center_x": 426.29,
+      "center_y": 662.25,
+      "radius": 48.74,
+      "edge_fit_rms_px": 0.394,
+      "area": 7167
+    },
+    "read_row": {
+      "y": 686.81,
+      "delta_y": 24.81,
+      "ncc": 0.9826
+    },
+    "borrow_row": {
+      "y": 762.89,
+      "delta_y": 41.89,
+      "ncc": 0.9944
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      655,
+      698
+    ]
+  },
+  {
+    "frame": 24,
+    "pts": 24000,
+    "t": 0.8,
+    "plus": {
+      "center_x": 419.5,
+      "center_y": 643.0,
+      "radius_x": 49.0,
+      "radius_y": 48.5,
+      "bbox": [
+        371,
+        595,
+        469,
+        692
+      ],
+      "area": 7556
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9987608469175036
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999272207336508
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9987716544360901
+    },
+    "add_trip_row": {
+      "y": 603,
+      "delta_y": 0,
+      "ncc": 0.9998882589716578
+    },
+    "plus_circle_fit": {
+      "center_x": 419.58,
+      "center_y": 643.51,
+      "radius": 48.7,
+      "edge_fit_rms_px": 0.478,
+      "area": 7198
+    },
+    "read_row": {
+      "y": 705.35,
+      "delta_y": 43.35,
+      "ncc": 0.963
+    },
+    "borrow_row": {
+      "y": 772.9,
+      "delta_y": 51.9,
+      "ncc": 0.9951
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      652,
+      700
+    ]
+  },
+  {
+    "frame": 25,
+    "pts": 25000,
+    "t": 0.8333333333333334,
+    "plus": {
+      "center_x": 411.5,
+      "center_y": 627.0,
+      "radius_x": 49.0,
+      "radius_y": 48.5,
+      "bbox": [
+        363,
+        579,
+        461,
+        676
+      ],
+      "area": 7527
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9987608469175036
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999272207336508
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9987716544360901
+    },
+    "add_trip_row": {
+      "y": 630,
+      "delta_y": 27,
+      "ncc": 0.9637069362395938
+    },
+    "plus_circle_fit": {
+      "center_x": 411.16,
+      "center_y": 627.43,
+      "radius": 48.62,
+      "edge_fit_rms_px": 0.444,
+      "area": 7171
+    },
+    "read_row": {
+      "y": 714.61,
+      "delta_y": 52.61,
+      "ncc": 0.9574
+    },
+    "borrow_row": {
+      "y": 777.05,
+      "delta_y": 56.05,
+      "ncc": 0.9967
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      594,
+      639
+    ]
+  },
+  {
+    "frame": 26,
+    "pts": 26000,
+    "t": 0.8666666666666667,
+    "plus": {
+      "center_x": 400.5,
+      "center_y": 611.5,
+      "radius_x": 49.0,
+      "radius_y": 49.0,
+      "bbox": [
+        352,
+        563,
+        450,
+        661
+      ],
+      "area": 7471
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9987608469175036
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999272207336508
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9987716544360901
+    },
+    "add_trip_row": {
+      "y": 647,
+      "delta_y": 44,
+      "ncc": 0.9634233795338469
+    },
+    "plus_circle_fit": {
+      "center_x": 400.02,
+      "center_y": 611.64,
+      "radius": 48.66,
+      "edge_fit_rms_px": 0.471,
+      "area": 7179
+    },
+    "read_row": {
+      "y": 718.31,
+      "delta_y": 56.31,
+      "ncc": 0.9705
+    },
+    "borrow_row": {
+      "y": 778.72,
+      "delta_y": 57.72,
+      "ncc": 0.9767
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      593,
+      641
+    ]
+  },
+  {
+    "frame": 27,
+    "pts": 27000,
+    "t": 0.9,
+    "plus": {
+      "center_x": 390.5,
+      "center_y": 598.5,
+      "radius_x": 49.0,
+      "radius_y": 49.0,
+      "bbox": [
+        342,
+        550,
+        440,
+        648
+      ],
+      "area": 7331
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9987608469175036
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999272207336508
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9987716544360901
+    },
+    "add_trip_row": {
+      "y": 656,
+      "delta_y": 53,
+      "ncc": 0.9967423103483307
+    },
+    "plus_circle_fit": {
+      "center_x": 390.04,
+      "center_y": 598.48,
+      "radius": 48.74,
+      "edge_fit_rms_px": 0.401,
+      "area": 7157
+    },
+    "read_row": {
+      "y": 719.87,
+      "delta_y": 57.87,
+      "ncc": 0.9921
+    },
+    "borrow_row": {
+      "y": 779.23,
+      "delta_y": 58.23,
+      "ncc": 0.9813
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      591,
+      643
+    ]
+  },
+  {
+    "frame": 28,
+    "pts": 28000,
+    "t": 0.9333333333333333,
+    "plus": {
+      "center_x": 380.5,
+      "center_y": 586.5,
+      "radius_x": 49.0,
+      "radius_y": 49.0,
+      "bbox": [
+        332,
+        538,
+        430,
+        636
+      ],
+      "area": 7209
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9987608469175036
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999272207336508
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9987716544360901
+    },
+    "add_trip_row": {
+      "y": 660,
+      "delta_y": 57,
+      "ncc": 0.9492722197299571
+    },
+    "plus_circle_fit": {
+      "center_x": 380.48,
+      "center_y": 586.95,
+      "radius": 48.77,
+      "edge_fit_rms_px": 0.409,
+      "area": 7141
+    },
+    "read_row": {
+      "y": 720.3,
+      "delta_y": 58.3,
+      "ncc": 0.9713
+    },
+    "borrow_row": {
+      "y": 779.5,
+      "delta_y": 58.5,
+      "ncc": 0.9429
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      590,
+      644
+    ]
+  },
+  {
+    "frame": 29,
+    "pts": 29000,
+    "t": 0.9666666666666667,
+    "plus": {
+      "center_x": 370.5,
+      "center_y": 574.5,
+      "radius_x": 49.0,
+      "radius_y": 49.0,
+      "bbox": [
+        322,
+        526,
+        420,
+        624
+      ],
+      "area": 7115
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9987608469175036
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9999272207336508
+    },
+    "planning": {
+      "y": 531,
+      "delta_y": 0,
+      "ncc": 0.9987716544360901
+    },
+    "add_trip_row": {
+      "y": 661,
+      "delta_y": 58,
+      "ncc": 0.9938410907691951
+    },
+    "plus_circle_fit": {
+      "center_x": 370.32,
+      "center_y": 575.0,
+      "radius": 48.73,
+      "edge_fit_rms_px": 0.41,
+      "area": 7107
+    },
+    "read_row": {
+      "y": 720.57,
+      "delta_y": 58.57,
+      "ncc": 0.9507
+    },
+    "borrow_row": {
+      "y": 779.58,
+      "delta_y": 58.58,
+      "ncc": 0.9527
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      589,
+      645
+    ]
+  },
+  {
+    "frame": 30,
+    "pts": 30000,
+    "t": 1.0,
+    "plus": {
+      "center_x": 360.5,
+      "center_y": 564.5,
+      "radius_x": 49.0,
+      "radius_y": 49.0,
+      "bbox": [
+        312,
+        516,
+        410,
+        614
+      ],
+      "area": 7090
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 553,
+      "delta_y": 22,
+      "ncc": 0.9725760576759186
+    },
+    "add_trip_row": {
+      "y": 661,
+      "delta_y": 58,
+      "ncc": 0.9717729978156127
+    },
+    "plus_circle_fit": {
+      "center_x": 360.32,
+      "center_y": 564.36,
+      "radius": 48.73,
+      "edge_fit_rms_px": 0.359,
+      "area": 7082
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      493,
+      536
+    ]
+  },
+  {
+    "frame": 31,
+    "pts": 31000,
+    "t": 1.0333333333333334,
+    "plus": {
+      "center_x": 349.0,
+      "center_y": 554.5,
+      "radius_x": 49.5,
+      "radius_y": 49.0,
+      "bbox": [
+        300,
+        506,
+        399,
+        604
+      ],
+      "area": 7299
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 573,
+      "delta_y": 42,
+      "ncc": 0.9892795867651749
+    },
+    "add_trip_row": {
+      "y": 661,
+      "delta_y": 58,
+      "ncc": 0.948706899625761
+    },
+    "plus_circle_fit": {
+      "center_x": 349.59,
+      "center_y": 555.07,
+      "radius": 48.53,
+      "edge_fit_rms_px": 0.622,
+      "area": 7105
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      490,
+      538
+    ]
+  },
+  {
+    "frame": 32,
+    "pts": 32000,
+    "t": 1.0666666666666667,
+    "plus": {
+      "center_x": 339.0,
+      "center_y": 546.5,
+      "radius_x": 49.5,
+      "radius_y": 49.0,
+      "bbox": [
+        290,
+        498,
+        389,
+        596
+      ],
+      "area": 7291
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 583,
+      "delta_y": 52,
+      "ncc": 0.990766397564506
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9484523184745096
+    },
+    "plus_circle_fit": {
+      "center_x": 339.0,
+      "center_y": 546.94,
+      "radius": 48.64,
+      "edge_fit_rms_px": 0.504,
+      "area": 7130
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      490,
+      541
+    ]
+  },
+  {
+    "frame": 33,
+    "pts": 33000,
+    "t": 1.1,
+    "plus": {
+      "center_x": 330.0,
+      "center_y": 538.5,
+      "radius_x": 48.5,
+      "radius_y": 49.0,
+      "bbox": [
+        282,
+        490,
+        379,
+        588
+      ],
+      "area": 7398
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 587,
+      "delta_y": 56,
+      "ncc": 0.9874441743495481
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9496328220831811
+    },
+    "plus_circle_fit": {
+      "center_x": 329.67,
+      "center_y": 538.25,
+      "radius": 48.67,
+      "edge_fit_rms_px": 0.432,
+      "area": 7154
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      490,
+      542
+    ]
+  },
+  {
+    "frame": 34,
+    "pts": 34000,
+    "t": 1.1333333333333333,
+    "plus": {
+      "center_x": 320.5,
+      "center_y": 532.5,
+      "radius_x": 49.0,
+      "radius_y": 49.0,
+      "bbox": [
+        272,
+        484,
+        370,
+        582
+      ],
+      "area": 7086
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 589,
+      "delta_y": 58,
+      "ncc": 0.9828696324853993
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.959654673705873
+    },
+    "plus_circle_fit": {
+      "center_x": 320.26,
+      "center_y": 532.25,
+      "radius": 48.72,
+      "edge_fit_rms_px": 0.419,
+      "area": 7068
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      486,
+      543
+    ]
+  },
+  {
+    "frame": 35,
+    "pts": 35000,
+    "t": 1.1666666666666667,
+    "plus": {
+      "center_x": 310.5,
+      "center_y": 526.5,
+      "radius_x": 49.0,
+      "radius_y": 49.0,
+      "bbox": [
+        262,
+        478,
+        360,
+        576
+      ],
+      "area": 7335
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 589,
+      "delta_y": 58,
+      "ncc": 0.9847836136441915
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9596361240120541
+    },
+    "plus_circle_fit": {
+      "center_x": 310.78,
+      "center_y": 526.78,
+      "radius": 48.75,
+      "edge_fit_rms_px": 0.43,
+      "area": 7159
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      486,
+      544
+    ]
+  },
+  {
+    "frame": 36,
+    "pts": 36000,
+    "t": 1.2,
+    "plus": {
+      "center_x": 303.0,
+      "center_y": 522.5,
+      "radius_x": 48.5,
+      "radius_y": 49.0,
+      "bbox": [
+        255,
+        474,
+        352,
+        572
+      ],
+      "area": 7310
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 589,
+      "delta_y": 58,
+      "ncc": 0.9656237312872347
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9596361240120541
+    },
+    "plus_circle_fit": {
+      "center_x": 303.54,
+      "center_y": 522.84,
+      "radius": 48.66,
+      "edge_fit_rms_px": 0.494,
+      "area": 7132
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      486,
+      544
+    ]
+  },
+  {
+    "frame": 37,
+    "pts": 37000,
+    "t": 1.2333333333333334,
+    "plus": {
+      "center_x": 296.5,
+      "center_y": 518.5,
+      "radius_x": 49.0,
+      "radius_y": 49.0,
+      "bbox": [
+        248,
+        470,
+        346,
+        568
+      ],
+      "area": 7155
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 590,
+      "delta_y": 59,
+      "ncc": 0.9731889776450491
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9596361240120541
+    },
+    "plus_circle_fit": {
+      "center_x": 296.24,
+      "center_y": 518.9,
+      "radius": 48.63,
+      "edge_fit_rms_px": 0.556,
+      "area": 7098
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      485,
+      544
+    ]
+  },
+  {
+    "frame": 38,
+    "pts": 38000,
+    "t": 1.2666666666666666,
+    "plus": {
+      "center_x": 290.5,
+      "center_y": 516.0,
+      "radius_x": 49.0,
+      "radius_y": 49.5,
+      "bbox": [
+        242,
+        467,
+        340,
+        566
+      ],
+      "area": 7211
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 590,
+      "delta_y": 59,
+      "ncc": 0.9719218357568468
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9595306746298885
+    },
+    "plus_circle_fit": {
+      "center_x": 290.94,
+      "center_y": 516.22,
+      "radius": 48.75,
+      "edge_fit_rms_px": 0.409,
+      "area": 7120
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      486,
+      544
+    ]
+  },
+  {
+    "frame": 39,
+    "pts": 39000,
+    "t": 1.3,
+    "plus": {
+      "center_x": 286.5,
+      "center_y": 514.5,
+      "radius_x": 49.0,
+      "radius_y": 49.0,
+      "bbox": [
+        238,
+        466,
+        336,
+        564
+      ],
+      "area": 7235
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 590,
+      "delta_y": 59,
+      "ncc": 0.9719136662454692
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9595306746298885
+    },
+    "plus_circle_fit": {
+      "center_x": 286.93,
+      "center_y": 514.81,
+      "radius": 48.76,
+      "edge_fit_rms_px": 0.415,
+      "area": 7143
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      485,
+      544
+    ]
+  },
+  {
+    "frame": 40,
+    "pts": 40000,
+    "t": 1.3333333333333333,
+    "plus": {
+      "center_x": 283.0,
+      "center_y": 514.5,
+      "radius_x": 48.5,
+      "radius_y": 49.0,
+      "bbox": [
+        235,
+        466,
+        332,
+        564
+      ],
+      "area": 7300
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 590,
+      "delta_y": 59,
+      "ncc": 0.9719136662454692
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9595306746298885
+    },
+    "plus_circle_fit": {
+      "center_x": 283.43,
+      "center_y": 514.26,
+      "radius": 48.69,
+      "edge_fit_rms_px": 0.436,
+      "area": 7126
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      485,
+      544
+    ]
+  },
+  {
+    "frame": 41,
+    "pts": 41000,
+    "t": 1.3666666666666667,
+    "plus": {
+      "center_x": 281.5,
+      "center_y": 514.0,
+      "radius_x": 48.0,
+      "radius_y": 48.5,
+      "bbox": [
+        234,
+        466,
+        330,
+        563
+      ],
+      "area": 7519
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 590,
+      "delta_y": 59,
+      "ncc": 0.9719136662454692
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9595306746298885
+    },
+    "plus_circle_fit": {
+      "center_x": 281.55,
+      "center_y": 513.56,
+      "radius": 48.58,
+      "edge_fit_rms_px": 0.541,
+      "area": 7167
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      484,
+      544
+    ]
+  },
+  {
+    "frame": 42,
+    "pts": 42000,
+    "t": 1.4,
+    "plus": {
+      "center_x": 278.5,
+      "center_y": 514.0,
+      "radius_x": 49.0,
+      "radius_y": 48.5,
+      "bbox": [
+        230,
+        466,
+        328,
+        563
+      ],
+      "area": 7430
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 590,
+      "delta_y": 59,
+      "ncc": 0.9718755258471914
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9595306746298885
+    },
+    "plus_circle_fit": {
+      "center_x": 278.99,
+      "center_y": 513.6,
+      "radius": 48.65,
+      "edge_fit_rms_px": 0.466,
+      "area": 7158
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      486,
+      544
+    ]
+  },
+  {
+    "frame": 43,
+    "pts": 43000,
+    "t": 1.4333333333333333,
+    "plus": {
+      "center_x": 276.5,
+      "center_y": 514.0,
+      "radius_x": 49.0,
+      "radius_y": 48.5,
+      "bbox": [
+        228,
+        466,
+        326,
+        563
+      ],
+      "area": 7321
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 590,
+      "delta_y": 59,
+      "ncc": 0.9718755258471914
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9595306746298885
+    },
+    "plus_circle_fit": {
+      "center_x": 276.36,
+      "center_y": 513.63,
+      "radius": 48.69,
+      "edge_fit_rms_px": 0.421,
+      "area": 7144
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      486,
+      544
+    ]
+  },
+  {
+    "frame": 44,
+    "pts": 44000,
+    "t": 1.4666666666666666,
+    "plus": {
+      "center_x": 274.5,
+      "center_y": 514.0,
+      "radius_x": 49.0,
+      "radius_y": 48.5,
+      "bbox": [
+        226,
+        466,
+        324,
+        563
+      ],
+      "area": 7364
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 590,
+      "delta_y": 59,
+      "ncc": 0.9718755258471914
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9595306746298885
+    },
+    "plus_circle_fit": {
+      "center_x": 274.39,
+      "center_y": 513.62,
+      "radius": 48.69,
+      "edge_fit_rms_px": 0.442,
+      "area": 7157
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      486,
+      544
+    ]
+  },
+  {
+    "frame": 45,
+    "pts": 45000,
+    "t": 1.5,
+    "plus": {
+      "center_x": 272.5,
+      "center_y": 514.0,
+      "radius_x": 49.0,
+      "radius_y": 48.5,
+      "bbox": [
+        224,
+        466,
+        322,
+        563
+      ],
+      "area": 7457
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 590,
+      "delta_y": 59,
+      "ncc": 0.9718755258471914
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9595306746298885
+    },
+    "plus_circle_fit": {
+      "center_x": 272.93,
+      "center_y": 513.63,
+      "radius": 48.63,
+      "edge_fit_rms_px": 0.449,
+      "area": 7161
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      486,
+      544
+    ]
+  },
+  {
+    "frame": 46,
+    "pts": 46000,
+    "t": 1.5333333333333334,
+    "plus": {
+      "center_x": 272.5,
+      "center_y": 514.0,
+      "radius_x": 49.0,
+      "radius_y": 48.5,
+      "bbox": [
+        224,
+        466,
+        322,
+        563
+      ],
+      "area": 7453
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 590,
+      "delta_y": 59,
+      "ncc": 0.9718755258471914
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9595306746298885
+    },
+    "plus_circle_fit": {
+      "center_x": 272.95,
+      "center_y": 513.64,
+      "radius": 48.62,
+      "edge_fit_rms_px": 0.442,
+      "area": 7157
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      486,
+      545
+    ]
+  },
+  {
+    "frame": 47,
+    "pts": 47000,
+    "t": 1.5666666666666667,
+    "plus": {
+      "center_x": 272.5,
+      "center_y": 514.0,
+      "radius_x": 49.0,
+      "radius_y": 48.5,
+      "bbox": [
+        224,
+        466,
+        322,
+        563
+      ],
+      "area": 7453
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 590,
+      "delta_y": 59,
+      "ncc": 0.9718755258471914
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9595306746298885
+    },
+    "plus_circle_fit": {
+      "center_x": 272.96,
+      "center_y": 513.64,
+      "radius": 48.62,
+      "edge_fit_rms_px": 0.437,
+      "area": 7157
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      486,
+      545
+    ]
+  },
+  {
+    "frame": 48,
+    "pts": 48000,
+    "t": 1.6,
+    "plus": {
+      "center_x": 272.5,
+      "center_y": 514.0,
+      "radius_x": 49.0,
+      "radius_y": 48.5,
+      "bbox": [
+        224,
+        466,
+        322,
+        563
+      ],
+      "area": 7453
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 590,
+      "delta_y": 59,
+      "ncc": 0.9718755258471914
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9595306746298885
+    },
+    "plus_circle_fit": {
+      "center_x": 272.96,
+      "center_y": 513.64,
+      "radius": 48.62,
+      "edge_fit_rms_px": 0.437,
+      "area": 7157
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      486,
+      545
+    ]
+  },
+  {
+    "frame": 49,
+    "pts": 49000,
+    "t": 1.6333333333333333,
+    "plus": {
+      "center_x": 272.5,
+      "center_y": 514.0,
+      "radius_x": 49.0,
+      "radius_y": 48.5,
+      "bbox": [
+        224,
+        466,
+        322,
+        563
+      ],
+      "area": 7453
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 590,
+      "delta_y": 59,
+      "ncc": 0.9718755258471914
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9595306746298885
+    },
+    "plus_circle_fit": {
+      "center_x": 272.96,
+      "center_y": 513.64,
+      "radius": 48.62,
+      "edge_fit_rms_px": 0.437,
+      "area": 7157
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      486,
+      545
+    ]
+  },
+  {
+    "frame": 50,
+    "pts": 50000,
+    "t": 1.6666666666666667,
+    "plus": {
+      "center_x": 272.5,
+      "center_y": 514.0,
+      "radius_x": 49.0,
+      "radius_y": 48.5,
+      "bbox": [
+        224,
+        466,
+        322,
+        563
+      ],
+      "area": 7457
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9980463579244185
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 590,
+      "delta_y": 59,
+      "ncc": 0.9718755258471914
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9595306746298885
+    },
+    "plus_circle_fit": {
+      "center_x": 272.96,
+      "center_y": 513.63,
+      "radius": 48.63,
+      "edge_fit_rms_px": 0.443,
+      "area": 7161
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      486,
+      545
+    ]
+  },
+  {
+    "frame": 51,
+    "pts": 51000,
+    "t": 1.7,
+    "plus": {
+      "center_x": 272.5,
+      "center_y": 514.0,
+      "radius_x": 49.0,
+      "radius_y": 48.5,
+      "bbox": [
+        224,
+        466,
+        322,
+        563
+      ],
+      "area": 7457
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9978518810255955
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 590,
+      "delta_y": 59,
+      "ncc": 0.9718755258471914
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9595306746298885
+    },
+    "plus_circle_fit": {
+      "center_x": 272.96,
+      "center_y": 513.63,
+      "radius": 48.63,
+      "edge_fit_rms_px": 0.443,
+      "area": 7161
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      485,
+      545
+    ]
+  },
+  {
+    "frame": 52,
+    "pts": 52000,
+    "t": 1.7333333333333334,
+    "plus": {
+      "center_x": 272.5,
+      "center_y": 514.0,
+      "radius_x": 49.0,
+      "radius_y": 48.5,
+      "bbox": [
+        224,
+        466,
+        322,
+        563
+      ],
+      "area": 7457
+    },
+    "things_to_buy": {
+      "y": 310,
+      "delta_y": 0,
+      "ncc": 0.9978518810255955
+    },
+    "power_adapter": {
+      "y": 442,
+      "delta_y": 0,
+      "ncc": 0.9994452379556833
+    },
+    "planning": {
+      "y": 590,
+      "delta_y": 59,
+      "ncc": 0.9718755258471914
+    },
+    "add_trip_row": {
+      "y": 662,
+      "delta_y": 59,
+      "ncc": 0.9595306746298885
+    },
+    "plus_circle_fit": {
+      "center_x": 272.96,
+      "center_y": 513.63,
+      "radius": 48.63,
+      "edge_fit_rms_px": 0.443,
+      "area": 7161
+    },
+    "read_row": {
+      "y": 720.59,
+      "delta_y": 58.59,
+      "ncc": 0.9535
+    },
+    "borrow_row": {
+      "y": 779.61,
+      "delta_y": 58.61,
+      "ncc": 0.9569
+    },
+    "keyboard_y": 888,
+    "gap_bounds": [
+      485,
+      545
+    ]
+  },
+  {
+    "frame": 53,
+    "pts": 53000,
+    "t": 1.7666666666666666,
+    "plus": {
+      "center_x": 269.5,
+      "center_y": 504.0,
+      "radius_x": 46.0,
+      "radius_y": 46.5,
+      "bbox": [
+        224,
+        458,
+        316,
+        551
+      ],
+      "area": 6682
+    },
+    "things_to_buy": {
+      "y": 289,
+      "delta_y": -21,
+      "ncc": 0.9867837123924751
+    },
+    "power_adapter": {
+      "y": 421,
+      "delta_y": -21,
+      "ncc": 0.9790472389357594
+    },
+    "planning": {
+      "y": 607,
+      "delta_y": 76,
+      "ncc": 0.9784405023013832
+    },
+    "add_trip_row": {
+      "y": 679,
+      "delta_y": 76,
+      "ncc": 0.9643426873149656
+    },
+    "plus_circle_fit": {
+      "center_x": 269.11,
+      "center_y": 503.96,
+      "radius": 46.19,
+      "edge_fit_rms_px": 0.433,
+      "area": 6441
+    },
+    "read_row": {
+      "y": 737.61,
+      "delta_y": 75.61,
+      "ncc": 0.9567
+    },
+    "borrow_row": {
+      "y": 796.64,
+      "delta_y": 75.64,
+      "ncc": 0.9619
+    },
+    "keyboard_y": 840
+  },
+  {
+    "frame": 54,
+    "pts": 54000,
+    "t": 1.8,
+    "plus": {
+      "center_x": 263.5,
+      "center_y": 491.5,
+      "radius_x": 42.0,
+      "radius_y": 42.0,
+      "bbox": [
+        222,
+        450,
+        306,
+        534
+      ],
+      "area": 5543
+    },
+    "things_to_buy": {
+      "y": 247,
+      "delta_y": -63,
+      "ncc": 0.9703144687882808
+    },
+    "power_adapter": {
+      "y": 379,
+      "delta_y": -63,
+      "ncc": 0.9485217406882724
+    },
+    "planning": {
+      "y": 616,
+      "delta_y": 85,
+      "ncc": 0.962156455567157
+    },
+    "add_trip_row": {
+      "y": 688,
+      "delta_y": 85,
+      "ncc": 0.9455061420435283
+    },
+    "plus_circle_fit": {
+      "center_x": 263.74,
+      "center_y": 491.19,
+      "radius": 41.69,
+      "edge_fit_rms_px": 0.421,
+      "area": 5249
+    },
+    "read_row": {
+      "y": 747.49,
+      "delta_y": 85.49,
+      "ncc": 0.9404
+    },
+    "borrow_row": {
+      "y": 769.87,
+      "delta_y": 48.87,
+      "ncc": 0.3069
+    },
+    "keyboard_y": 776
+  },
+  {
+    "frame": 55,
+    "pts": 55000,
+    "t": 1.8333333333333333,
+    "plus": {
+      "center_x": 259.0,
+      "center_y": 479.5,
+      "radius_x": 36.5,
+      "radius_y": 36.0,
+      "bbox": [
+        223,
+        444,
+        296,
+        516
+      ],
+      "area": 4151
+    },
+    "things_to_buy": {
+      "y": 205,
+      "delta_y": -105,
+      "ncc": 0.9902516622158701
+    },
+    "power_adapter": {
+      "y": 337,
+      "delta_y": -105,
+      "ncc": 0.9865546977470933
+    },
+    "planning": {
+      "y": 621,
+      "delta_y": 90,
+      "ncc": 0.9840709143565776
+    },
+    "add_trip_row": {
+      "y": 693,
+      "delta_y": 90,
+      "ncc": 0.9465719274812806
+    },
+    "plus_circle_fit": {
+      "center_x": 258.94,
+      "center_y": 479.39,
+      "radius": 36.02,
+      "edge_fit_rms_px": 0.431,
+      "area": 3928
+    },
+    "read_row": {
+      "y": 777.17,
+      "delta_y": 115.17,
+      "ncc": 0.3416
+    },
+    "borrow_row": {
+      "y": 777.64,
+      "delta_y": 56.64,
+      "ncc": 0.3339
+    },
+    "keyboard_y": 717
+  },
+  {
+    "frame": 56,
+    "pts": 56000,
+    "t": 1.8666666666666667,
+    "plus": {
+      "center_x": 254.5,
+      "center_y": 470.5,
+      "radius_x": 35.0,
+      "radius_y": 35.0,
+      "bbox": [
+        220,
+        436,
+        290,
+        506
+      ],
+      "area": 3892
+    },
+    "things_to_buy": {
+      "y": 173,
+      "delta_y": -137,
+      "ncc": 0.9909517789964456
+    },
+    "power_adapter": {
+      "y": 305,
+      "delta_y": -137,
+      "ncc": 0.9901360793106085
+    },
+    "planning": {
+      "y": 624,
+      "delta_y": 93,
+      "ncc": 0.9868128892460469
+    },
+    "add_trip_row": {
+      "y": 664,
+      "delta_y": 61,
+      "ncc": 0.45478320316196263
+    },
+    "plus_circle_fit": {
+      "center_x": 254.9,
+      "center_y": 470.38,
+      "radius": 34.88,
+      "edge_fit_rms_px": 0.388,
+      "area": 3700
+    },
+    "read_row": {
+      "y": 664.76,
+      "delta_y": 2.76,
+      "ncc": 0.4452
+    },
+    "borrow_row": {
+      "y": 665.11,
+      "delta_y": -55.89,
+      "ncc": 0.4278
+    },
+    "keyboard_y": 674
+  },
+  {
+    "frame": 57,
+    "pts": 57000,
+    "t": 1.9,
+    "plus": null,
+    "things_to_buy": {
+      "y": 151,
+      "delta_y": -159,
+      "ncc": 0.9908835388160661
+    },
+    "power_adapter": {
+      "y": 283,
+      "delta_y": -159,
+      "ncc": 0.991495309032686
+    },
+    "planning": {
+      "y": 627,
+      "delta_y": 96,
+      "ncc": 0.7390805003048188
+    },
+    "add_trip_row": {
+      "y": 845,
+      "delta_y": 242,
+      "ncc": 0.35262652188182547
+    },
+    "plus_circle_fit": {
+      "center_x": 252.58,
+      "center_y": 464.43,
+      "radius": 52.13,
+      "edge_fit_rms_px": 0.87,
+      "area": 8168
+    },
+    "read_row": {
+      "y": 701.94,
+      "delta_y": 39.94,
+      "ncc": 0.3379
+    },
+    "borrow_row": {
+      "y": 633.76,
+      "delta_y": -87.24,
+      "ncc": 0.3827
+    },
+    "keyboard_y": 642
+  },
+  {
+    "frame": 58,
+    "pts": 58000,
+    "t": 1.9333333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 138,
+      "delta_y": -172,
+      "ncc": 0.9863383200347573
+    },
+    "power_adapter": {
+      "y": 270,
+      "delta_y": -172,
+      "ncc": 0.9809129539631024
+    },
+    "planning": {
+      "y": 615,
+      "delta_y": 84,
+      "ncc": 0.49352663802167074
+    },
+    "add_trip_row": {
+      "y": 613,
+      "delta_y": 10,
+      "ncc": 0.4590132745851272
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 613.8,
+      "delta_y": -48.2,
+      "ncc": 0.4503
+    },
+    "borrow_row": {
+      "y": 614.15,
+      "delta_y": -106.85,
+      "ncc": 0.4316
+    },
+    "keyboard_y": 623
+  },
+  {
+    "frame": 59,
+    "pts": 59000,
+    "t": 1.9666666666666666,
+    "plus": null,
+    "things_to_buy": {
+      "y": 130,
+      "delta_y": -180,
+      "ncc": 0.9869054147892156
+    },
+    "power_adapter": {
+      "y": 262,
+      "delta_y": -180,
+      "ncc": 0.9808997419096579
+    },
+    "planning": {
+      "y": 549,
+      "delta_y": 18,
+      "ncc": 0.5130890983781687
+    },
+    "add_trip_row": {
+      "y": 602,
+      "delta_y": -1,
+      "ncc": 0.46021066471648925
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 602.76,
+      "delta_y": -59.24,
+      "ncc": 0.4502
+    },
+    "borrow_row": {
+      "y": 603.11,
+      "delta_y": -117.89,
+      "ncc": 0.4325
+    },
+    "keyboard_y": 612
+  },
+  {
+    "frame": 60,
+    "pts": 60000,
+    "t": 2.0,
+    "plus": null,
+    "things_to_buy": {
+      "y": 132,
+      "delta_y": -178,
+      "ncc": 0.9748412085673342
+    },
+    "power_adapter": {
+      "y": 264,
+      "delta_y": -178,
+      "ncc": 0.9552527115446898
+    },
+    "planning": {
+      "y": 555,
+      "delta_y": 24,
+      "ncc": 0.5111777077537205
+    },
+    "add_trip_row": {
+      "y": 596,
+      "delta_y": -7,
+      "ncc": 0.4587835884310968
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 596.5,
+      "delta_y": -65.5,
+      "ncc": 0.4424
+    },
+    "borrow_row": {
+      "y": 596.91,
+      "delta_y": -124.09,
+      "ncc": 0.4303
+    },
+    "keyboard_y": 606
+  },
+  {
+    "frame": 61,
+    "pts": 61000,
+    "t": 2.033333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 134,
+      "delta_y": -176,
+      "ncc": 0.9746924821094064
+    },
+    "power_adapter": {
+      "y": 266,
+      "delta_y": -176,
+      "ncc": 0.9551433552833547
+    },
+    "planning": {
+      "y": 555,
+      "delta_y": 24,
+      "ncc": 0.5040064827803373
+    },
+    "add_trip_row": {
+      "y": 593,
+      "delta_y": -10,
+      "ncc": 0.44996798438756835
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 593.04,
+      "delta_y": -68.96,
+      "ncc": 0.4569
+    },
+    "borrow_row": {
+      "y": 593.36,
+      "delta_y": -127.64,
+      "ncc": 0.4267
+    },
+    "keyboard_y": 602
+  },
+  {
+    "frame": 62,
+    "pts": 62000,
+    "t": 2.066666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 137,
+      "delta_y": -173,
+      "ncc": 0.9934005525175182
+    },
+    "power_adapter": {
+      "y": 269,
+      "delta_y": -173,
+      "ncc": 0.9916252974108237
+    },
+    "planning": {
+      "y": 553,
+      "delta_y": 22,
+      "ncc": 0.5014399719807179
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4560097111089405
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.75,
+      "delta_y": -70.25,
+      "ncc": 0.447
+    },
+    "borrow_row": {
+      "y": 592.13,
+      "delta_y": -128.87,
+      "ncc": 0.4288
+    },
+    "keyboard_y": 601
+  },
+  {
+    "frame": 63,
+    "pts": 63000,
+    "t": 2.1,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9841421497138841
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9715901815811138
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5010945602326254
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45331077488313015
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.14,
+      "delta_y": -70.86,
+      "ncc": 0.4532
+    },
+    "borrow_row": {
+      "y": 591.52,
+      "delta_y": -129.48,
+      "ncc": 0.4214
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 64,
+    "pts": 64000,
+    "t": 2.1333333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9841181217738388
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9715900256864832
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5001151855289564
+    },
+    "add_trip_row": {
+      "y": 590,
+      "delta_y": -13,
+      "ncc": 0.4554755534376056
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 590.78,
+      "delta_y": -71.22,
+      "ncc": 0.4479
+    },
+    "borrow_row": {
+      "y": 591.13,
+      "delta_y": -129.87,
+      "ncc": 0.429
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 65,
+    "pts": 65000,
+    "t": 2.1666666666666665,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.984480260326059
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9720717168640485
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5001151855289564
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4472288057067817
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.05,
+      "delta_y": -70.95,
+      "ncc": 0.4506
+    },
+    "borrow_row": {
+      "y": 591.38,
+      "delta_y": -129.62,
+      "ncc": 0.4232
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 66,
+    "pts": 66000,
+    "t": 2.2,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.984480260326059
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9720717168640485
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5001151855289564
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4472288057067817
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.05,
+      "delta_y": -70.95,
+      "ncc": 0.4506
+    },
+    "borrow_row": {
+      "y": 591.38,
+      "delta_y": -129.62,
+      "ncc": 0.4232
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 67,
+    "pts": 67000,
+    "t": 2.2333333333333334,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.984480260326059
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9720717168640485
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5001151855289564
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4474246991619005
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.06,
+      "delta_y": -70.94,
+      "ncc": 0.4508
+    },
+    "borrow_row": {
+      "y": 591.39,
+      "delta_y": -129.61,
+      "ncc": 0.4232
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 68,
+    "pts": 68000,
+    "t": 2.2666666666666666,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9847776596439117
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9723656934154724
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5001151855289564
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45720604598502784
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.24,
+      "delta_y": -70.76,
+      "ncc": 0.4519
+    },
+    "borrow_row": {
+      "y": 591.65,
+      "delta_y": -129.35,
+      "ncc": 0.4254
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 69,
+    "pts": 69000,
+    "t": 2.3,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9861096966986123
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9750105190336537
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5001151855289564
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4566325265861215
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.24,
+      "delta_y": -70.76,
+      "ncc": 0.4514
+    },
+    "borrow_row": {
+      "y": 591.65,
+      "delta_y": -129.35,
+      "ncc": 0.4251
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 70,
+    "pts": 70000,
+    "t": 2.3333333333333335,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9861096966986123
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9750105190336537
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5001151855289564
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4566325265861215
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.24,
+      "delta_y": -70.76,
+      "ncc": 0.4514
+    },
+    "borrow_row": {
+      "y": 591.65,
+      "delta_y": -129.35,
+      "ncc": 0.4251
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 71,
+    "pts": 71000,
+    "t": 2.3666666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9861096966986123
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9750105190336537
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5001151855289564
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4566325265861215
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.24,
+      "delta_y": -70.76,
+      "ncc": 0.4514
+    },
+    "borrow_row": {
+      "y": 591.65,
+      "delta_y": -129.35,
+      "ncc": 0.4251
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 72,
+    "pts": 72000,
+    "t": 2.4,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.986919409319679
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9769275911629463
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45683002724117316
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.25,
+      "delta_y": -70.75,
+      "ncc": 0.4511
+    },
+    "borrow_row": {
+      "y": 591.65,
+      "delta_y": -129.35,
+      "ncc": 0.4251
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 73,
+    "pts": 73000,
+    "t": 2.433333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.986919409319679
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9769275911629463
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45683002724117316
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.25,
+      "delta_y": -70.75,
+      "ncc": 0.4511
+    },
+    "borrow_row": {
+      "y": 591.65,
+      "delta_y": -129.35,
+      "ncc": 0.4251
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 74,
+    "pts": 74000,
+    "t": 2.466666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.986919409319679
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9769275911629463
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45683002724117316
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.25,
+      "delta_y": -70.75,
+      "ncc": 0.4511
+    },
+    "borrow_row": {
+      "y": 591.65,
+      "delta_y": -129.35,
+      "ncc": 0.4251
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 75,
+    "pts": 75000,
+    "t": 2.5,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.986919409319679
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9769275911629463
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45683002724117316
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.25,
+      "delta_y": -70.75,
+      "ncc": 0.4511
+    },
+    "borrow_row": {
+      "y": 591.65,
+      "delta_y": -129.35,
+      "ncc": 0.4251
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 76,
+    "pts": 76000,
+    "t": 2.533333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.986919409319679
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9769275911629463
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45683002724117316
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 77,
+    "pts": 77000,
+    "t": 2.566666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9876213151830033
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9774520168614764
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45663553596299145
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 78,
+    "pts": 78000,
+    "t": 2.6,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9876213151830033
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9774520168614764
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45663553596299145
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 79,
+    "pts": 79000,
+    "t": 2.6333333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9876213151830033
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9774520168614764
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45663553596299145
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 80,
+    "pts": 80000,
+    "t": 2.6666666666666665,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9879223782926039
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9777779806093104
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45688956574202144
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 81,
+    "pts": 81000,
+    "t": 2.7,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9879223782926039
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9777779806093104
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45688956574202144
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 82,
+    "pts": 82000,
+    "t": 2.7333333333333334,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9879223782926039
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9777779806093104
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45688956574202144
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 83,
+    "pts": 83000,
+    "t": 2.7666666666666666,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9879223782926039
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9777779806093104
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45688956574202144
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 84,
+    "pts": 84000,
+    "t": 2.8,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9879223782926039
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9777779806093104
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45688956574202144
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 85,
+    "pts": 85000,
+    "t": 2.8333333333333335,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9888867790018434
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.978776316921348
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4562195095596342
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 86,
+    "pts": 86000,
+    "t": 2.8666666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9888867790018434
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.978776316921348
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4562195095596342
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 87,
+    "pts": 87000,
+    "t": 2.9,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9888867790018434
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.978776316921348
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4562195095596342
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 88,
+    "pts": 88000,
+    "t": 2.933333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.989544039523348
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9794123702791696
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45706009705150874
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 89,
+    "pts": 89000,
+    "t": 2.966666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.989544039523348
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9794123702791696
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5006814970796993
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45706009705150874
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 90,
+    "pts": 90000,
+    "t": 3.0,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778667661873672
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4547736861860506
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 91,
+    "pts": 91000,
+    "t": 3.033333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778667661873672
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4547736861860506
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 92,
+    "pts": 92000,
+    "t": 3.066666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778667661873672
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4547736861860506
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 93,
+    "pts": 93000,
+    "t": 3.1,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778667661873672
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4547736861860506
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 94,
+    "pts": 94000,
+    "t": 3.1333333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778667661873672
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4547736861860506
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 95,
+    "pts": 95000,
+    "t": 3.1666666666666665,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778847637934515
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4550852568653683
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 96,
+    "pts": 96000,
+    "t": 3.2,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778847637934515
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4550852568653683
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 97,
+    "pts": 97000,
+    "t": 3.2333333333333334,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778847637934515
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 659,
+      "delta_y": 56,
+      "ncc": 0.34523284765159756
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 98,
+    "pts": 98000,
+    "t": 3.2666666666666666,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778250193734462
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 659,
+      "delta_y": 56,
+      "ncc": 0.3452227650772126
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 99,
+    "pts": 99000,
+    "t": 3.3,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778250193734462
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45491719405123227
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 100,
+    "pts": 100000,
+    "t": 3.3333333333333335,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778250193734462
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45491719405123227
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 101,
+    "pts": 101000,
+    "t": 3.3666666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778250193734462
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45491719405123227
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 102,
+    "pts": 102000,
+    "t": 3.4,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778250193734462
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4546618371854272
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 103,
+    "pts": 103000,
+    "t": 3.433333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778250193734462
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4546618371854272
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 104,
+    "pts": 104000,
+    "t": 3.466666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778250193734462
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4546618371854272
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 105,
+    "pts": 105000,
+    "t": 3.5,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778250193734462
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4546618371854272
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 106,
+    "pts": 106000,
+    "t": 3.533333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778250193734462
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.454804848909294
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 107,
+    "pts": 107000,
+    "t": 3.566666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778250193734462
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.454804848909294
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 108,
+    "pts": 108000,
+    "t": 3.6,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778250193734462
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.454804848909294
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 109,
+    "pts": 109000,
+    "t": 3.6333333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778250193734462
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.454804848909294
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 110,
+    "pts": 110000,
+    "t": 3.6666666666666665,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778250193734462
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.454804848909294
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 111,
+    "pts": 111000,
+    "t": 3.7,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778250193734462
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.454804848909294
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 112,
+    "pts": 112000,
+    "t": 3.7333333333333334,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778250193734462
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.454804848909294
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 113,
+    "pts": 113000,
+    "t": 3.7666666666666666,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778250193734462
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.454804848909294
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 114,
+    "pts": 114000,
+    "t": 3.8,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9778250193734462
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.454804848909294
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 115,
+    "pts": 115000,
+    "t": 3.8333333333333335,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.97789070678104
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 551,
+      "delta_y": -52,
+      "ncc": 0.4270091196602559
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 116,
+    "pts": 116000,
+    "t": 3.8666666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.97789070678104
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 551,
+      "delta_y": -52,
+      "ncc": 0.4270091196602559
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 117,
+    "pts": 117000,
+    "t": 3.9,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.97789070678104
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.454804848909294
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 118,
+    "pts": 118000,
+    "t": 3.933333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.977919945155041
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.454804848909294
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 119,
+    "pts": 119000,
+    "t": 3.966666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9870430279166963
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.977919945155041
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.4981799292662769
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.454804848909294
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 120,
+    "pts": 120000,
+    "t": 4.0,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9794526644846805
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.454271515843707
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 121,
+    "pts": 121000,
+    "t": 4.033333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.979570433708843
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.454271515843707
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 122,
+    "pts": 122000,
+    "t": 4.066666666666666,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.979570433708843
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.454271515843707
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 123,
+    "pts": 123000,
+    "t": 4.1,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.979570433708843
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.454271515843707
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 124,
+    "pts": 124000,
+    "t": 4.133333333333334,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.454271515843707
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 125,
+    "pts": 125000,
+    "t": 4.166666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 803,
+      "delta_y": 200,
+      "ncc": 0.34613403622272654
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 126,
+    "pts": 126000,
+    "t": 4.2,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 803,
+      "delta_y": 200,
+      "ncc": 0.34613403622272654
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 127,
+    "pts": 127000,
+    "t": 4.233333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4532774105312862
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 128,
+    "pts": 128000,
+    "t": 4.266666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4532862068618325
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 129,
+    "pts": 129000,
+    "t": 4.3,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4544292651082175
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 130,
+    "pts": 130000,
+    "t": 4.333333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4544292651082175
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 131,
+    "pts": 131000,
+    "t": 4.366666666666666,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4544292651082175
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 132,
+    "pts": 132000,
+    "t": 4.4,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45436795983170847
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 133,
+    "pts": 133000,
+    "t": 4.433333333333334,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45436795983170847
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 134,
+    "pts": 134000,
+    "t": 4.466666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.3491903261365583
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 135,
+    "pts": 135000,
+    "t": 4.5,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45436795983170847
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 136,
+    "pts": 136000,
+    "t": 4.533333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45436795983170847
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 137,
+    "pts": 137000,
+    "t": 4.566666666666666,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45436795983170847
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 138,
+    "pts": 138000,
+    "t": 4.6,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45436795983170847
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 139,
+    "pts": 139000,
+    "t": 4.633333333333334,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45436795983170847
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 140,
+    "pts": 140000,
+    "t": 4.666666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45436795983170847
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 141,
+    "pts": 141000,
+    "t": 4.7,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45436795983170847
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 142,
+    "pts": 142000,
+    "t": 4.733333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45436795983170847
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 143,
+    "pts": 143000,
+    "t": 4.766666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45436795983170847
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 144,
+    "pts": 144000,
+    "t": 4.8,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45436795983170847
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 145,
+    "pts": 145000,
+    "t": 4.833333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 551,
+      "delta_y": -52,
+      "ncc": 0.43159183954860536
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 146,
+    "pts": 146000,
+    "t": 4.866666666666666,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 551,
+      "delta_y": -52,
+      "ncc": 0.43159183954860536
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 147,
+    "pts": 147000,
+    "t": 4.9,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4532828065987605
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 148,
+    "pts": 148000,
+    "t": 4.933333333333334,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 551,
+      "delta_y": -52,
+      "ncc": 0.43159183954860536
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 149,
+    "pts": 149000,
+    "t": 4.966666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9890531334427967
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9795798815183908
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5048678036307228
+    },
+    "add_trip_row": {
+      "y": 551,
+      "delta_y": -52,
+      "ncc": 0.43159183954860536
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 150,
+    "pts": 150000,
+    "t": 5.0,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 151,
+    "pts": 151000,
+    "t": 5.033333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 660,
+      "delta_y": 129,
+      "ncc": 0.3566700547067629
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.3498451509317366
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 152,
+    "pts": 152000,
+    "t": 5.066666666666666,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 153,
+    "pts": 153000,
+    "t": 5.1,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 154,
+    "pts": 154000,
+    "t": 5.133333333333334,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 155,
+    "pts": 155000,
+    "t": 5.166666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 156,
+    "pts": 156000,
+    "t": 5.2,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 157,
+    "pts": 157000,
+    "t": 5.233333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 158,
+    "pts": 158000,
+    "t": 5.266666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 159,
+    "pts": 159000,
+    "t": 5.3,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 160,
+    "pts": 160000,
+    "t": 5.333333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 161,
+    "pts": 161000,
+    "t": 5.366666666666666,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 162,
+    "pts": 162000,
+    "t": 5.4,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 163,
+    "pts": 163000,
+    "t": 5.433333333333334,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 164,
+    "pts": 164000,
+    "t": 5.466666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 165,
+    "pts": 165000,
+    "t": 5.5,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 166,
+    "pts": 166000,
+    "t": 5.533333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 167,
+    "pts": 167000,
+    "t": 5.566666666666666,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 168,
+    "pts": 168000,
+    "t": 5.6,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 169,
+    "pts": 169000,
+    "t": 5.633333333333334,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 170,
+    "pts": 170000,
+    "t": 5.666666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 171,
+    "pts": 171000,
+    "t": 5.7,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 172,
+    "pts": 172000,
+    "t": 5.733333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 173,
+    "pts": 173000,
+    "t": 5.766666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 174,
+    "pts": 174000,
+    "t": 5.8,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 175,
+    "pts": 175000,
+    "t": 5.833333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 176,
+    "pts": 176000,
+    "t": 5.866666666666666,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 177,
+    "pts": 177000,
+    "t": 5.9,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 178,
+    "pts": 178000,
+    "t": 5.933333333333334,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 179,
+    "pts": 179000,
+    "t": 5.966666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9869605231991975
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9781876419998812
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.49474469607257787
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.45633374529021414
+    },
+    "plus_circle_fit": null,
+    "keyboard_y": 600
+  },
+  {
+    "frame": 180,
+    "pts": 180000,
+    "t": 6.0,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9844132958738774
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9742865597408622
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5078209591054546
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.460441059890537
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.37,
+      "delta_y": -70.63,
+      "ncc": 0.4503
+    },
+    "borrow_row": {
+      "y": 591.72,
+      "delta_y": -129.28,
+      "ncc": 0.4291
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 181,
+    "pts": 181000,
+    "t": 6.033333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9844132958738774
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9742865597408622
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5078209591054546
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4604082140020594
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.37,
+      "delta_y": -70.63,
+      "ncc": 0.4503
+    },
+    "borrow_row": {
+      "y": 591.72,
+      "delta_y": -129.28,
+      "ncc": 0.4292
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 182,
+    "pts": 182000,
+    "t": 6.066666666666666,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9844132958738774
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9742865597408622
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5078209591054546
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4604082140020594
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.37,
+      "delta_y": -70.63,
+      "ncc": 0.4503
+    },
+    "borrow_row": {
+      "y": 591.72,
+      "delta_y": -129.28,
+      "ncc": 0.4292
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 183,
+    "pts": 183000,
+    "t": 6.1,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9844132958738774
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9742865597408622
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5078209591054546
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4604082140020594
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.37,
+      "delta_y": -70.63,
+      "ncc": 0.4503
+    },
+    "borrow_row": {
+      "y": 591.72,
+      "delta_y": -129.28,
+      "ncc": 0.4292
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 184,
+    "pts": 184000,
+    "t": 6.133333333333334,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.9844132958738774
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9742865597408622
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5078209591054546
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4603890339406936
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.37,
+      "delta_y": -70.63,
+      "ncc": 0.4503
+    },
+    "borrow_row": {
+      "y": 591.72,
+      "delta_y": -129.28,
+      "ncc": 0.4293
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 185,
+    "pts": 185000,
+    "t": 6.166666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.983396422070138
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9742889845569156
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5078209591054546
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4603890339406936
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.37,
+      "delta_y": -70.63,
+      "ncc": 0.4503
+    },
+    "borrow_row": {
+      "y": 591.72,
+      "delta_y": -129.28,
+      "ncc": 0.4293
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 186,
+    "pts": 186000,
+    "t": 6.2,
+    "plus": null,
+    "things_to_buy": {
+      "y": 136,
+      "delta_y": -174,
+      "ncc": 0.983396422070138
+    },
+    "power_adapter": {
+      "y": 268,
+      "delta_y": -174,
+      "ncc": 0.9742889845569156
+    },
+    "planning": {
+      "y": 552,
+      "delta_y": 21,
+      "ncc": 0.5078209591054546
+    },
+    "add_trip_row": {
+      "y": 591,
+      "delta_y": -12,
+      "ncc": 0.4603890339406936
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 591.37,
+      "delta_y": -70.63,
+      "ncc": 0.4503
+    },
+    "borrow_row": {
+      "y": 591.72,
+      "delta_y": -129.28,
+      "ncc": 0.4293
+    },
+    "keyboard_y": 600
+  },
+  {
+    "frame": 187,
+    "pts": 187000,
+    "t": 6.233333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 147,
+      "delta_y": -163,
+      "ncc": 0.9595671306597177
+    },
+    "power_adapter": {
+      "y": 280,
+      "delta_y": -162,
+      "ncc": 0.9369093477474937
+    },
+    "planning": {
+      "y": 608,
+      "delta_y": 77,
+      "ncc": 0.9612894993542739
+    },
+    "add_trip_row": {
+      "y": 640,
+      "delta_y": 37,
+      "ncc": 0.46222150289020997
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 640.77,
+      "delta_y": -21.23,
+      "ncc": 0.4561
+    },
+    "borrow_row": {
+      "y": 641.1,
+      "delta_y": -79.9,
+      "ncc": 0.4377
+    },
+    "keyboard_y": 650
+  },
+  {
+    "frame": 188,
+    "pts": 188000,
+    "t": 6.266666666666667,
+    "plus": null,
+    "things_to_buy": {
+      "y": 160,
+      "delta_y": -150,
+      "ncc": 0.9636460710122292
+    },
+    "power_adapter": {
+      "y": 292,
+      "delta_y": -150,
+      "ncc": 0.9424646093060032
+    },
+    "planning": {
+      "y": 565,
+      "delta_y": 34,
+      "ncc": 0.9507436531149558
+    },
+    "add_trip_row": {
+      "y": 636,
+      "delta_y": 33,
+      "ncc": 0.9304293956400289
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 695.33,
+      "delta_y": 33.33,
+      "ncc": 0.7909
+    },
+    "borrow_row": {
+      "y": 773.49,
+      "delta_y": 52.49,
+      "ncc": 0.3279
+    },
+    "keyboard_y": 714
+  },
+  {
+    "frame": 189,
+    "pts": 189000,
+    "t": 6.3,
+    "plus": null,
+    "things_to_buy": {
+      "y": 171,
+      "delta_y": -139,
+      "ncc": 0.9795157233144972
+    },
+    "power_adapter": {
+      "y": 303,
+      "delta_y": -139,
+      "ncc": 0.9743467974981436
+    },
+    "planning": {
+      "y": 529,
+      "delta_y": -2,
+      "ncc": 0.9594980866276425
+    },
+    "add_trip_row": {
+      "y": 601,
+      "delta_y": -2,
+      "ncc": 0.9462248003254525
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 660.47,
+      "delta_y": -1.53,
+      "ncc": 0.9423
+    },
+    "borrow_row": {
+      "y": 719.42,
+      "delta_y": -1.58,
+      "ncc": 0.9454
+    },
+    "keyboard_y": 768
+  },
+  {
+    "frame": 190,
+    "pts": 190000,
+    "t": 6.333333333333333,
+    "plus": null,
+    "things_to_buy": {
+      "y": 178,
+      "delta_y": -132,
+      "ncc": 0.9897925433626388
+    },
+    "power_adapter": {
+      "y": 310,
+      "delta_y": -132,
+      "ncc": 0.9909776728245617
+    },
+    "planning": {
+      "y": 505,
+      "delta_y": -26,
+      "ncc": 0.9804544109311085
+    },
+    "add_trip_row": {
+      "y": 577,
+      "delta_y": -26,
+      "ncc": 0.9764656327297474
+    },
+    "plus_circle_fit": null,
+    "read_row": {
+      "y": 636.21,
+      "delta_y": -25.79,
+      "ncc": 0.9771
+    },
+    "borrow_row": {
+      "y": 695.22,
+      "delta_y": -25.78,
+      "ncc": 0.978
+    },
+    "keyboard_y": 810
+  },
+  {
+    "frame": 191,
+    "pts": 191000,
+    "t": 6.366666666666666,
+    "plus": null,
+    "things_to_buy": {
+      "y": 182,
+      "delta_y": -128,
+      "ncc": 0.9732208506016065
+    },
+    "power_adapter": {
+      "y": 315,
+      "delta_y": -127,
+      "ncc": 0.944169314845782
+    },
+    "planning": {
+      "y": 490,
+      "delta_y": -41,
+      "ncc": 0.9930412779047452
+    },
+    "add_trip_row": {
+      "y": 562,
+      "delta_y": -41,
+      "ncc": 0.9921698331605615
+    },
+    "plus_circle_fit": {
+      "center_x": 449.058,
+      "center_y": 833.963,
+      "radius": 32.652,
+      "edge_fit_rms_px": 0.521,
+      "method": "left/right exterior circle arc, keyboard-clipped rows excluded"
+    },
+    "read_row": {
+      "y": 620.9,
+      "delta_y": -41.1,
+      "ncc": 0.9904
+    },
+    "borrow_row": {
+      "y": 679.91,
+      "delta_y": -41.09,
+      "ncc": 0.9921
+    },
+    "keyboard_y": 838
+  },
+  {
+    "frame": 192,
+    "pts": 192000,
+    "t": 6.4,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 825.5,
+      "radius_x": 33.0,
+      "radius_y": 30.0,
+      "bbox": [
+        416,
+        796,
+        482,
+        856
+      ],
+      "area": 3232
+    },
+    "things_to_buy": {
+      "y": 185,
+      "delta_y": -125,
+      "ncc": 0.989050417036984
+    },
+    "power_adapter": {
+      "y": 317,
+      "delta_y": -125,
+      "ncc": 0.9782731171034605
+    },
+    "planning": {
+      "y": 481,
+      "delta_y": -50,
+      "ncc": 0.9843654779973873
+    },
+    "add_trip_row": {
+      "y": 553,
+      "delta_y": -50,
+      "ncc": 0.971639916521029
+    },
+    "plus_circle_fit": {
+      "center_x": 449.03,
+      "center_y": 829.312,
+      "radius": 32.692,
+      "edge_fit_rms_px": 0.501,
+      "method": "left/right exterior circle arc, keyboard-clipped rows excluded"
+    },
+    "read_row": {
+      "y": 611.73,
+      "delta_y": -50.27,
+      "ncc": 0.9743
+    },
+    "borrow_row": {
+      "y": 670.73,
+      "delta_y": -50.27,
+      "ncc": 0.9758
+    },
+    "keyboard_y": 856
+  },
+  {
+    "frame": 193,
+    "pts": 193000,
+    "t": 6.433333333333334,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 830.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        798,
+        482,
+        864
+      ],
+      "area": 3430
+    },
+    "things_to_buy": {
+      "y": 187,
+      "delta_y": -123,
+      "ncc": 0.9908982828298852
+    },
+    "power_adapter": {
+      "y": 319,
+      "delta_y": -123,
+      "ncc": 0.9894457513733519
+    },
+    "planning": {
+      "y": 475,
+      "delta_y": -56,
+      "ncc": 0.9858318910903893
+    },
+    "add_trip_row": {
+      "y": 547,
+      "delta_y": -56,
+      "ncc": 0.9825226451717399
+    },
+    "plus_circle_fit": {
+      "center_x": 449.13,
+      "center_y": 830.62,
+      "radius": 32.68,
+      "edge_fit_rms_px": 0.392,
+      "area": 3331
+    },
+    "read_row": {
+      "y": 606.21,
+      "delta_y": -55.79,
+      "ncc": 0.9825
+    },
+    "borrow_row": {
+      "y": 665.21,
+      "delta_y": -55.79,
+      "ncc": 0.9836
+    },
+    "keyboard_y": 869
+  },
+  {
+    "frame": 194,
+    "pts": 194000,
+    "t": 6.466666666666667,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 834.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        802,
+        482,
+        868
+      ],
+      "area": 3398
+    },
+    "things_to_buy": {
+      "y": 188,
+      "delta_y": -122,
+      "ncc": 0.9822138417996434
+    },
+    "power_adapter": {
+      "y": 320,
+      "delta_y": -122,
+      "ncc": 0.9733893859605129
+    },
+    "planning": {
+      "y": 472,
+      "delta_y": -59,
+      "ncc": 0.989026525926806
+    },
+    "add_trip_row": {
+      "y": 544,
+      "delta_y": -59,
+      "ncc": 0.9847817920702454
+    },
+    "plus_circle_fit": {
+      "center_x": 449.14,
+      "center_y": 833.91,
+      "radius": 32.6,
+      "edge_fit_rms_px": 0.407,
+      "area": 3211
+    },
+    "read_row": {
+      "y": 603.2,
+      "delta_y": -58.8,
+      "ncc": 0.9847
+    },
+    "borrow_row": {
+      "y": 662.2,
+      "delta_y": -58.8,
+      "ncc": 0.9855
+    },
+    "keyboard_y": 877
+  },
+  {
+    "frame": 195,
+    "pts": 195000,
+    "t": 6.5,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 836.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        804,
+        482,
+        870
+      ],
+      "area": 3422
+    },
+    "things_to_buy": {
+      "y": 188,
+      "delta_y": -122,
+      "ncc": 0.9917421757538282
+    },
+    "power_adapter": {
+      "y": 320,
+      "delta_y": -122,
+      "ncc": 0.9827408253563501
+    },
+    "planning": {
+      "y": 471,
+      "delta_y": -60,
+      "ncc": 0.9666390918391292
+    },
+    "add_trip_row": {
+      "y": 542,
+      "delta_y": -61,
+      "ncc": 0.9434880336709496
+    },
+    "plus_circle_fit": {
+      "center_x": 449.05,
+      "center_y": 836.69,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.371,
+      "area": 3322
+    },
+    "read_row": {
+      "y": 601.49,
+      "delta_y": -60.51,
+      "ncc": 0.943
+    },
+    "borrow_row": {
+      "y": 660.48,
+      "delta_y": -60.52,
+      "ncc": 0.9432
+    },
+    "keyboard_y": 881
+  },
+  {
+    "frame": 196,
+    "pts": 196000,
+    "t": 6.533333333333333,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3433
+    },
+    "things_to_buy": {
+      "y": 188,
+      "delta_y": -122,
+      "ncc": 0.9681878117653399
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9430305274934144
+    },
+    "planning": {
+      "y": 470,
+      "delta_y": -61,
+      "ncc": 0.9698788101699136
+    },
+    "add_trip_row": {
+      "y": 542,
+      "delta_y": -61,
+      "ncc": 0.9473950690206556
+    },
+    "plus_circle_fit": {
+      "center_x": 449.09,
+      "center_y": 838.51,
+      "radius": 32.71,
+      "edge_fit_rms_px": 0.365,
+      "area": 3338
+    },
+    "read_row": {
+      "y": 600.52,
+      "delta_y": -61.48,
+      "ncc": 0.9459
+    },
+    "borrow_row": {
+      "y": 659.52,
+      "delta_y": -61.48,
+      "ncc": 0.9452
+    },
+    "keyboard_y": 884
+  },
+  {
+    "frame": 197,
+    "pts": 197000,
+    "t": 6.566666666666666,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 839.0,
+      "radius_x": 33.0,
+      "radius_y": 33.5,
+      "bbox": [
+        416,
+        806,
+        482,
+        873
+      ],
+      "area": 3414
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9818028605293474
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9713042484219783
+    },
+    "planning": {
+      "y": 469,
+      "delta_y": -62,
+      "ncc": 0.9960119292682108
+    },
+    "add_trip_row": {
+      "y": 541,
+      "delta_y": -62,
+      "ncc": 0.9972995254517459
+    },
+    "plus_circle_fit": {
+      "center_x": 449.15,
+      "center_y": 839.11,
+      "radius": 32.7,
+      "edge_fit_rms_px": 0.413,
+      "area": 3214
+    },
+    "read_row": {
+      "y": 600.01,
+      "delta_y": -61.99,
+      "ncc": 0.9973
+    },
+    "borrow_row": {
+      "y": 659.01,
+      "delta_y": -61.99,
+      "ncc": 0.9979
+    },
+    "keyboard_y": 885
+  },
+  {
+    "frame": 198,
+    "pts": 198000,
+    "t": 6.6,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 839.0,
+      "radius_x": 33.0,
+      "radius_y": 33.5,
+      "bbox": [
+        416,
+        806,
+        482,
+        873
+      ],
+      "area": 3412
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9890469285159464
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9834720890166199
+    },
+    "planning": {
+      "y": 469,
+      "delta_y": -62,
+      "ncc": 0.9860799084462727
+    },
+    "add_trip_row": {
+      "y": 541,
+      "delta_y": -62,
+      "ncc": 0.9784730252548175
+    },
+    "plus_circle_fit": {
+      "center_x": 449.16,
+      "center_y": 839.09,
+      "radius": 32.66,
+      "edge_fit_rms_px": 0.416,
+      "area": 3223
+    },
+    "read_row": {
+      "y": 599.74,
+      "delta_y": -62.26,
+      "ncc": 0.9783
+    },
+    "borrow_row": {
+      "y": 658.75,
+      "delta_y": -62.25,
+      "ncc": 0.979
+    },
+    "keyboard_y": 887
+  },
+  {
+    "frame": 199,
+    "pts": 199000,
+    "t": 6.633333333333334,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 839.0,
+      "radius_x": 33.0,
+      "radius_y": 33.5,
+      "bbox": [
+        416,
+        806,
+        482,
+        873
+      ],
+      "area": 3424
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9920313211823105
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9913317784124672
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.9727953415140529
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9571317910848892
+    },
+    "plus_circle_fit": {
+      "center_x": 449.13,
+      "center_y": 838.87,
+      "radius": 32.71,
+      "edge_fit_rms_px": 0.408,
+      "area": 3255
+    },
+    "read_row": {
+      "y": 599.41,
+      "delta_y": -62.59,
+      "ncc": 0.9529
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.954
+    },
+    "keyboard_y": 887
+  },
+  {
+    "frame": 200,
+    "pts": 200000,
+    "t": 6.666666666666667,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3428
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9926254931760936
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9913317784124672
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.9727953415140529
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9571317910848892
+    },
+    "plus_circle_fit": {
+      "center_x": 449.14,
+      "center_y": 838.63,
+      "radius": 32.68,
+      "edge_fit_rms_px": 0.391,
+      "area": 3328
+    },
+    "read_row": {
+      "y": 599.41,
+      "delta_y": -62.59,
+      "ncc": 0.9529
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.954
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 201,
+    "pts": 201000,
+    "t": 6.7,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3415
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9935276010086453
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9914068084277339
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.972792729679499
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.957112220972287
+    },
+    "plus_circle_fit": {
+      "center_x": 449.14,
+      "center_y": 838.44,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.368,
+      "area": 3279
+    },
+    "read_row": {
+      "y": 599.41,
+      "delta_y": -62.59,
+      "ncc": 0.9531
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.954
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 202,
+    "pts": 202000,
+    "t": 6.733333333333333,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3412
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9935445693935196
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9914302839502493
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.9727875232183424
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9571043927074405
+    },
+    "plus_circle_fit": {
+      "center_x": 449.14,
+      "center_y": 838.42,
+      "radius": 32.65,
+      "edge_fit_rms_px": 0.367,
+      "area": 3257
+    },
+    "read_row": {
+      "y": 599.41,
+      "delta_y": -62.59,
+      "ncc": 0.9531
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.954
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 203,
+    "pts": 203000,
+    "t": 6.766666666666667,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3412
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9935445693935196
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9914302839502493
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.9727875232183424
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9571043927074405
+    },
+    "plus_circle_fit": {
+      "center_x": 449.14,
+      "center_y": 838.42,
+      "radius": 32.65,
+      "edge_fit_rms_px": 0.367,
+      "area": 3247
+    },
+    "read_row": {
+      "y": 599.41,
+      "delta_y": -62.59,
+      "ncc": 0.9531
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.954
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 204,
+    "pts": 204000,
+    "t": 6.8,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3412
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9935445693935196
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9914302839502493
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.9727875232183424
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9571043927074405
+    },
+    "plus_circle_fit": {
+      "center_x": 449.14,
+      "center_y": 838.42,
+      "radius": 32.65,
+      "edge_fit_rms_px": 0.367,
+      "area": 3257
+    },
+    "read_row": {
+      "y": 599.41,
+      "delta_y": -62.59,
+      "ncc": 0.9531
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.954
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 205,
+    "pts": 205000,
+    "t": 6.833333333333333,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3413
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9935477871496882
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9914596580953946
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.9727318450723261
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9570722238119245
+    },
+    "plus_circle_fit": {
+      "center_x": 449.13,
+      "center_y": 838.41,
+      "radius": 32.65,
+      "edge_fit_rms_px": 0.369,
+      "area": 3252
+    },
+    "read_row": {
+      "y": 599.41,
+      "delta_y": -62.59,
+      "ncc": 0.9531
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.954
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 206,
+    "pts": 206000,
+    "t": 6.866666666666666,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3422
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9940052524931674
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9919432249060535
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.9721123291827036
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9573178908104046
+    },
+    "plus_circle_fit": {
+      "center_x": 449.12,
+      "center_y": 838.41,
+      "radius": 32.68,
+      "edge_fit_rms_px": 0.364,
+      "area": 3258
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9542
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9541
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 207,
+    "pts": 207000,
+    "t": 6.9,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3422
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9940052524931674
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9919432249060535
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.9721123291827036
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9573178908104046
+    },
+    "plus_circle_fit": {
+      "center_x": 449.12,
+      "center_y": 838.41,
+      "radius": 32.68,
+      "edge_fit_rms_px": 0.364,
+      "area": 3258
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9542
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9541
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 208,
+    "pts": 208000,
+    "t": 6.933333333333334,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3422
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9940052524931674
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9919432249060535
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.9721123291827036
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9573178908104046
+    },
+    "plus_circle_fit": {
+      "center_x": 449.12,
+      "center_y": 838.41,
+      "radius": 32.68,
+      "edge_fit_rms_px": 0.364,
+      "area": 3258
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9542
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9541
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 209,
+    "pts": 209000,
+    "t": 6.966666666666667,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3421
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9940832527374226
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9921643722917851
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.9717782777683522
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.957156664119885
+    },
+    "plus_circle_fit": {
+      "center_x": 449.17,
+      "center_y": 838.38,
+      "radius": 32.66,
+      "edge_fit_rms_px": 0.406,
+      "area": 3248
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9551
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.954
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 210,
+    "pts": 210000,
+    "t": 7.0,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3415
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9943986941233899
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9924750557242057
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.971007464299704
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9569240455738832
+    },
+    "plus_circle_fit": {
+      "center_x": 449.21,
+      "center_y": 838.4,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.403,
+      "area": 3249
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9544
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9537
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 211,
+    "pts": 211000,
+    "t": 7.033333333333333,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3415
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9943986941233899
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9924750557242057
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.971007464299704
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9569240455738832
+    },
+    "plus_circle_fit": {
+      "center_x": 449.21,
+      "center_y": 838.4,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.403,
+      "area": 3249
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9544
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9537
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 212,
+    "pts": 212000,
+    "t": 7.066666666666666,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3415
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9943986941233899
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9924750557242057
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.971007464299704
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9569240455738832
+    },
+    "plus_circle_fit": {
+      "center_x": 449.21,
+      "center_y": 838.4,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.403,
+      "area": 3249
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9544
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9537
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 213,
+    "pts": 213000,
+    "t": 7.1,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3415
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9943986941233899
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9924750557242057
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.971007464299704
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9569240455738832
+    },
+    "plus_circle_fit": {
+      "center_x": 449.21,
+      "center_y": 838.4,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.403,
+      "area": 3249
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9544
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9537
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 214,
+    "pts": 214000,
+    "t": 7.133333333333334,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3415
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9943986941233899
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9924750557242057
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.971007464299704
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9569240455738832
+    },
+    "plus_circle_fit": {
+      "center_x": 449.21,
+      "center_y": 838.4,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.403,
+      "area": 3249
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9544
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9537
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 215,
+    "pts": 215000,
+    "t": 7.166666666666667,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3415
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9943986941233899
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9924750557242057
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.971007464299704
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9569240455738832
+    },
+    "plus_circle_fit": {
+      "center_x": 449.21,
+      "center_y": 838.4,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.403,
+      "area": 3249
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9544
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9537
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 216,
+    "pts": 216000,
+    "t": 7.2,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3415
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9943986941233899
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9924750557242057
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.971007464299704
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9569240455738832
+    },
+    "plus_circle_fit": {
+      "center_x": 449.21,
+      "center_y": 838.4,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.403,
+      "area": 3249
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9544
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9537
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 217,
+    "pts": 217000,
+    "t": 7.233333333333333,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3415
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9943986941233899
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9924750557242057
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.971007464299704
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9569240455738832
+    },
+    "plus_circle_fit": {
+      "center_x": 449.21,
+      "center_y": 838.4,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.403,
+      "area": 3249
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9544
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9537
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 218,
+    "pts": 218000,
+    "t": 7.266666666666667,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3415
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9943986941233899
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9924750557242057
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.971007464299704
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9569240455738832
+    },
+    "plus_circle_fit": {
+      "center_x": 449.21,
+      "center_y": 838.4,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.403,
+      "area": 3249
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9544
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9537
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 219,
+    "pts": 219000,
+    "t": 7.3,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3415
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9943986941233899
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9924750557242057
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.971007464299704
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9569240455738832
+    },
+    "plus_circle_fit": {
+      "center_x": 449.21,
+      "center_y": 838.4,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.403,
+      "area": 3249
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9544
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9537
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 220,
+    "pts": 220000,
+    "t": 7.333333333333333,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3415
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9943986941233899
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9924750557242057
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.971007464299704
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9569240455738832
+    },
+    "plus_circle_fit": {
+      "center_x": 449.21,
+      "center_y": 838.4,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.403,
+      "area": 3249
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9544
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9537
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 221,
+    "pts": 221000,
+    "t": 7.366666666666666,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3415
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9943986941233899
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9924750557242057
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.971007464299704
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9569240455738832
+    },
+    "plus_circle_fit": {
+      "center_x": 449.21,
+      "center_y": 838.4,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.403,
+      "area": 3249
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9544
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9537
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 222,
+    "pts": 222000,
+    "t": 7.4,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3415
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9943986941233899
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9924750557242057
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.971007464299704
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9569240455738832
+    },
+    "plus_circle_fit": {
+      "center_x": 449.21,
+      "center_y": 838.4,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.403,
+      "area": 3249
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9544
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9537
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 223,
+    "pts": 223000,
+    "t": 7.433333333333334,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3415
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9943986941233899
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9924750557242057
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.971007464299704
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9569240455738832
+    },
+    "plus_circle_fit": {
+      "center_x": 449.21,
+      "center_y": 838.4,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.403,
+      "area": 3249
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9544
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9537
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 224,
+    "pts": 224000,
+    "t": 7.466666666666667,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3415
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9943986941233899
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9924750557242057
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.971007464299704
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9569240455738832
+    },
+    "plus_circle_fit": {
+      "center_x": 449.21,
+      "center_y": 838.4,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.403,
+      "area": 3249
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9544
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9537
+    },
+    "keyboard_y": 888
+  },
+  {
+    "frame": 225,
+    "pts": 225000,
+    "t": 7.5,
+    "plus": {
+      "center_x": 448.5,
+      "center_y": 838.5,
+      "radius_x": 33.0,
+      "radius_y": 33.0,
+      "bbox": [
+        416,
+        806,
+        482,
+        872
+      ],
+      "area": 3415
+    },
+    "things_to_buy": {
+      "y": 189,
+      "delta_y": -121,
+      "ncc": 0.9943986941233899
+    },
+    "power_adapter": {
+      "y": 321,
+      "delta_y": -121,
+      "ncc": 0.9924750557242057
+    },
+    "planning": {
+      "y": 468,
+      "delta_y": -63,
+      "ncc": 0.971007464299704
+    },
+    "add_trip_row": {
+      "y": 540,
+      "delta_y": -63,
+      "ncc": 0.9569240455738832
+    },
+    "plus_circle_fit": {
+      "center_x": 449.21,
+      "center_y": 838.4,
+      "radius": 32.64,
+      "edge_fit_rms_px": 0.403,
+      "area": 3249
+    },
+    "read_row": {
+      "y": 599.4,
+      "delta_y": -62.6,
+      "ncc": 0.9544
+    },
+    "borrow_row": {
+      "y": 658.41,
+      "delta_y": -62.59,
+      "ncc": 0.9537
+    },
+    "keyboard_y": 888
+  }
+]

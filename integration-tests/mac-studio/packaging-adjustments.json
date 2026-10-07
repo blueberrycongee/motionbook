@@ -1,0 +1,98 @@
+{
+  "scope": "Packaging-only navigation targets and offline-test report wording. Motion algorithms, renderers, artwork, timings and media are unchanged. Original source hashes remain in qa/v012-preservation-baseline.json. The regression harness verifies all exact packaged hashes and reverses the documented navigation substitutions to recover their original source hashes.",
+  "files": [
+    {
+      "path": "examples/mac-studio-hero-transition/index.html",
+      "reason": "Resolve collection navigation to Motionbook destinations",
+      "original_sha256": "4580e70317cd7b335767ef33321f071352f4627510aac1a56e9a4bedbba0641c",
+      "packaged_sha256": "269fb9f9f1762611b7e4b61c789a1449c1cb2465beac013f693d9dc74f7121b5",
+      "replacements": [
+        {
+          "old": "href=\"../../index.html\"",
+          "new": "href=\"../../README.md\"",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "examples/mac-studio-layered-assembly/index.html",
+      "reason": "Resolve collection navigation to Motionbook destinations",
+      "original_sha256": "db291da6c96944df7b2340f5ffadf2392ccf6eca89b99ebfb0753e92d86577fd",
+      "packaged_sha256": "29b0296a16b114a76795813574fc0c8d665ecae351903c4a55c5e73bead5f128",
+      "replacements": [
+        {
+          "old": "href=\"../../index.html\"",
+          "new": "href=\"../../README.md\"",
+          "occurrences": 1
+        },
+        {
+          "old": "href=\"../03-stats/index.html\"",
+          "new": "href=\"../mac-studio-benchmark-tabs/index.html\"",
+          "occurrences": 1
+        }
+      ],
+      "baseline_path": "examples/02-assembly/index.html"
+    },
+    {
+      "path": "examples/mac-studio-layered-assembly/test.cjs",
+      "reason": "Neutral browser-QA report wording; assertions are unchanged",
+      "original_sha256": "6ea62518bc77801fc3bf711558893b505f42f23da4c3735ad4f5688954fb225b",
+      "packaged_sha256": "fb3340024599b76736b39185f46442b4be24036d33a4e68dff76702dfed02b0e",
+      "baseline_path": "examples/02-assembly/test.cjs",
+      "verification": "Exact packaged-byte hash; original source hash retained in the preservation baseline"
+    },
+    {
+      "path": "examples/mac-studio-parallax-features/index.html",
+      "reason": "Resolve collection navigation to Motionbook destinations",
+      "original_sha256": "d435ee1fa5f00c5ab10f0fd62c6c522dbdcaf7e7a46984f44710faf8c58693ab",
+      "packaged_sha256": "6c6eb0a37a3fa3a67a89b09aa3d06a58675ed4645b027fac3438f4f7f6f7dd55",
+      "replacements": [
+        {
+          "old": "href=\"../../index.html\"",
+          "new": "href=\"../../README.md\"",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "examples/mac-studio-scroll-relay/index.html",
+      "reason": "Resolve collection navigation to Motionbook destinations",
+      "original_sha256": "20de8a5e35a7a697faf37747067d60e00e73d7fb425b2ec4f01b2340cbcc93b6",
+      "packaged_sha256": "6d303e77ade61a31ecb755500240319ffebbc78386fdab091f42f605b28bca09",
+      "replacements": [
+        {
+          "old": "href=\"../../index.html\"",
+          "new": "href=\"../../README.md\"",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "examples/mac-studio-turntable/index.html",
+      "reason": "Resolve collection navigation to Motionbook destinations",
+      "original_sha256": "a12ed81c7339df92b4c56e382fc0c640ebf631656af23dc19865ded4117b1117",
+      "packaged_sha256": "9e3afffd49277f345221594944efc63b2b1fd4955e0899025bb0ecc521b0c85f",
+      "replacements": [
+        {
+          "old": "href=\"../../index.html\"",
+          "new": "href=\"../../README.md\"",
+          "occurrences": 1
+        },
+        {
+          "old": "href=\"../02-assembly/index.html\"",
+          "new": "href=\"../mac-studio-layered-assembly/index.html\"",
+          "occurrences": 1
+        }
+      ],
+      "baseline_path": "examples/01-turntable/index.html"
+    },
+    {
+      "path": "examples/mac-studio-turntable/test.cjs",
+      "reason": "Neutral browser-QA report wording; assertions are unchanged",
+      "original_sha256": "6ea62518bc77801fc3bf711558893b505f42f23da4c3735ad4f5688954fb225b",
+      "packaged_sha256": "fb3340024599b76736b39185f46442b4be24036d33a4e68dff76702dfed02b0e",
+      "baseline_path": "examples/01-turntable/test.cjs",
+      "verification": "Exact packaged-byte hash; original source hash retained in the preservation baseline"
+    }
+  ]
+}

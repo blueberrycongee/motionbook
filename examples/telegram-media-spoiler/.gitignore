@@ -1,0 +1,15 @@
+node_modules/
+preview/frames/
+evidence/comparison-frames/
+evidence/source-crops/
+evidence/timing-audit/source-frames/
+evidence/timing-audit/audit-frames/
+evidence/comparison-*.png
+evidence/source-comparison-*.png
+evidence/source-comparison-*.gif
+evidence/timing-audit/*.png
+evidence/timing-audit/*.jpg
+evidence/timing-audit/*.gif
+evidence/timing-audit/*.mp4
+__pycache__/
+*.pyc

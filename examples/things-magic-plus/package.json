@@ -1,0 +1,18 @@
+{
+  "name": "things-magic-plus-motion-study",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Frame-calibrated Things Magic Plus interaction study with authored text",
+  "scripts": {
+    "start": "node src/server.cjs",
+    "test": "node --test test/*.test.cjs",
+    "render": "node tools/render.cjs",
+    "compare": "node tools/compare.cjs"
+  },
+  "devDependencies": {
+    "sharp": "0.35.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

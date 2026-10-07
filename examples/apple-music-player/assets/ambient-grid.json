@@ -1,0 +1,47 @@
+{
+  "reference_time": 542.975767,
+  "x": [
+    10,
+    216,
+    420
+  ],
+  "rows": [
+    {
+      "y": 70,
+      "left": "#6d4420",
+      "center": "#603822",
+      "right": "#683d27"
+    },
+    {
+      "y": 510,
+      "left": "#683e14",
+      "center": "#6c4223",
+      "right": "#7d6242"
+    },
+    {
+      "y": 600,
+      "left": "#593f13",
+      "center": "#654725",
+      "right": "#665938"
+    },
+    {
+      "y": 665,
+      "left": "#4a3b13",
+      "center": "#594023",
+      "right": "#514f2c"
+    },
+    {
+      "y": 765,
+      "left": "#383615",
+      "center": "#43391d",
+      "right": "#323f1d"
+    },
+    {
+      "y": 900,
+      "left": "#2b2f13",
+      "center": "#303218",
+      "right": "#19340f"
+    }
+  ],
+  "note": "Pixel samples of composite field including cover shadow where present; all grid points avoid cover, controls and text. Interpolate linearly; source moves subtly over the hold."
+}

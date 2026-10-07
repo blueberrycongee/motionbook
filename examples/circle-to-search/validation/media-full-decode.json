@@ -1,0 +1,27 @@
+[
+  {
+    "file": "preview/Circle-to-Search-\u539f\u901f.gif",
+    "sha256": "37bc8101b092ff7ecd5fe768e54b5d1f23be6bc7e8aba29582983cff9e735db4",
+    "bytes": 2509045,
+    "width": 400,
+    "height": 720,
+    "r_frame_rate": "50/1",
+    "duration": "2.500000",
+    "nb_read_frames": "125",
+    "gif_decoded_frames": 125,
+    "gif_duration_ms": 2500,
+    "gif_delays_ms": [
+      20
+    ]
+  },
+  {
+    "file": "preview/circle-to-search.mp4",
+    "sha256": "fbc9987d461385ff6cd4eccb7c9483f9d5ed56cb8a6d58db7df9fca44f0fb9f3",
+    "bytes": 122412,
+    "width": 400,
+    "height": 720,
+    "r_frame_rate": "60/1",
+    "duration": "2.500000",
+    "nb_read_frames": "150"
+  }
+]

@@ -1,0 +1,6 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Independent clocks · Motion study 04</title><link rel="stylesheet" href="style.css"><body>
+<header><a href="../../README.md">MOTION STUDIES</a><span>04 / Video + scroll relay</span></header>
+<main><section id="scene" aria-label="Looping visual with scroll-driven copy"><div class="sticky"><video id="film" src="original-loop.mp4" muted playsinline loop preload="metadata" aria-hidden="true"></video><canvas id="canvas" aria-hidden="true"></canvas><button id="pause" aria-label="Pause background video">Pause video</button></div></section>
+<section class="accessible"><h1>Two clocks. One story.</h1><p>The original video loops by elapsed time; the copy follows scroll position and reverses immediately when you scroll back.</p><ul id="claims"></ul><p>All copy is illustrative. Original procedural artwork. Inspired by the Mac Studio page’s media composition, with no Apple media included.</p></section></main>
+<footer><button id="scroll">Follow scroll</button><label>Scene progress <input id="seek" type="range" min="0" max="1000" value="0"></label><output id="progress">0%</output><button id="reset">Restart</button></footer>
+<script src="scene.js"></script><script src="motion.js"></script></body></html>

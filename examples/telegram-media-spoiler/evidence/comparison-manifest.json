@@ -1,0 +1,32 @@
+{
+  "kind": "source-video crop versus deterministic offline reconstruction",
+  "sourceClipFrames": {
+    "firstZeroBased": 449,
+    "lastZeroBased": 470
+  },
+  "sourceFps": 60,
+  "comparisonPlaybackFps": 15,
+  "slowdown": 4,
+  "estimatedOnsetSeconds": 7.541666667,
+  "onsetIsBracketMidpoint": true,
+  "sourceCrop": {
+    "x": 347,
+    "y": 195,
+    "width": 504,
+    "height": 386
+  },
+  "reproductionClick": {
+    "x": 245,
+    "y": 219
+  },
+  "inheritedLimitations": [
+    "No browser rendering/performance verification",
+    "Source tutorial touch ring overlaps reveal",
+    "Original artwork differs, so whole-image pixel error is not a valid fidelity score",
+    "Seeded particles approximate texture and motion, not native trajectories"
+  ],
+  "publicBundle": {
+    "mediaIncluded": false,
+    "status": "Historical comparison metadata only; source imagery and comparison media are excluded."
+  }
+}

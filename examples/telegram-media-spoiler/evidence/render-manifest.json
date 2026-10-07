@@ -1,0 +1,16 @@
+{
+  "kind": "deterministic offline canvas render",
+  "notBrowserCapture": true,
+  "runtime": "src/motion.js",
+  "fps": 50,
+  "frames": 180,
+  "durationSeconds": 3.6,
+  "seed": 20221230,
+  "revealAtMs": 1311.6666666666667,
+  "resetAtMs": 3050,
+  "revealStateEnvelopeMs": 180,
+  "exportSpeed": 1,
+  "firstVisibleSampleAfterTriggerMs": 8.333333333333334,
+  "width": 640,
+  "height": 810
+}

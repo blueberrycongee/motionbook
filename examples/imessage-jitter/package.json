@@ -1,0 +1,17 @@
+{
+  "name": "imessage-jitter-study",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Per-glyph Jitter reconstruction fitted from Apple's WWDC24 demonstration",
+  "scripts": {
+    "test": "node --test test/*.test.cjs",
+    "render": "node tools/render.cjs",
+    "render:stills": "node tools/render.cjs --stills"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.100"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

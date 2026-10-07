@@ -1,0 +1,55 @@
+{
+  "mode": "visible-stage correspondence, not elapsed-time equivalence",
+  "sourceIndex": "raw capture frame index",
+  "interpolation": "piecewise-linear",
+  "anchors": [
+    {
+      "sourceFrame": 0,
+      "progress": 0
+    },
+    {
+      "sourceFrame": 4,
+      "progress": 0.065
+    },
+    {
+      "sourceFrame": 10,
+      "progress": 0.17
+    },
+    {
+      "sourceFrame": 20,
+      "progress": 0.267
+    },
+    {
+      "sourceFrame": 25,
+      "progress": 0.345
+    },
+    {
+      "sourceFrame": 31,
+      "progress": 0.447
+    },
+    {
+      "sourceFrame": 35,
+      "progress": 0.49
+    },
+    {
+      "sourceFrame": 43,
+      "progress": 0.65
+    },
+    {
+      "sourceFrame": 47,
+      "progress": 0.72
+    },
+    {
+      "sourceFrame": 52,
+      "progress": 0.845
+    },
+    {
+      "sourceFrame": 56,
+      "progress": 0.92
+    },
+    {
+      "sourceFrame": 62,
+      "progress": 1
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "scope": "Read-only audit of delivered version 0, existing source calibration, shared rendering model, and actual GIF pixels. No main source modifications.",
+  "verified": {
+    "gif_frames": 108,
+    "gif_total_duration_ms": 3600,
+    "old_first_visible_frame": {
+      "index": 40,
+      "encoded_pts_ms": 1330,
+      "runtime_pts_ms": 1333.3333333333333,
+      "elapsed_runtime_ms": 33.333333333333336,
+      "ms": 33.333333333333336,
+      "centerPixel": 0.8235294117647058,
+      "centerAnalytical": 0.8238698447668612,
+      "mean": 0.10998559929816698,
+      "area50": 0.07657031684269039,
+      "area90": 0,
+      "area99": 0
+    },
+    "old_second_visible_frame": {
+      "index": 41,
+      "encoded_pts_ms": 1370,
+      "runtime_pts_ms": 1366.6666666666667,
+      "ms": 66.66666666666667,
+      "centerPixel": 0.996078431372549,
+      "centerAnalytical": 0.9992103084051908,
+      "mean": 0.4427951303737788,
+      "area50": 0.42560681860292754,
+      "area90": 0.1725727255882898,
+      "area99": 0.03835464146748194
+    },
+    "first_source_fit_samples_model_not_native_photo": [
+      {
+        "ms": 8.333333333333334,
+        "centerPixel": 0.14509803921568631,
+        "centerAnalytical": 0.1484287566969702,
+        "mean": 0.009345570286039431,
+        "area50": 0,
+        "area90": 0,
+        "area99": 0
+      },
+      {
+        "ms": 25,
+        "centerPixel": 0.5764705882352941,
+        "centerAnalytical": 0.5788456686208077,
+        "mean": 0.05328195007128168,
+        "area50": 0.01417345511396363,
+        "area90": 0,
+        "area99": 0
+      },
+      {
+        "ms": 41.666666666666664,
+        "centerPixel": 0.9725490196078431,
+        "centerAnalytical": 0.9737523195098462,
+        "mean": 0.22547742992534456,
+        "area50": 0.19600098741051591,
+        "area90": 0.03842672591129762,
+        "area99": 0
+      }
+    ],
+    "continuous_actual_pixel_threshold_ms": {
+      "source_matched": {
+        "center": {
+          "0.1": 7,
+          "0.5": 23,
+          "0.9": 36,
+          "0.95": 39,
+          "0.99": 50
+        },
+        "mean": {
+          "0.1": 31,
+          "0.5": 68,
+          "0.9": 106,
+          "0.95": 118,
+          "0.99": 138
+        },
+        "area50": {
+          "0.1": 34,
+          "0.5": 68,
+          "0.9": 99,
+          "0.95": 106,
+          "0.99": 119
+        },
+        "area90": {
+          "0.1": 54,
+          "0.5": 90,
+          "0.9": 124,
+          "0.95": 131,
+          "0.99": 143
+        },
+        "area99": {
+          "0.1": 72,
+          "0.5": 110,
+          "0.9": 144,
+          "0.95": 150,
+          "0.99": 162
+        }
+      },
+      "normal_preview": {
+        "center": {
+          "0.1": 8,
+          "0.5": 25,
+          "0.9": 38,
+          "0.95": 42,
+          "0.99": 55
+        },
+        "mean": {
+          "0.1": 33,
+          "0.5": 72,
+          "0.9": 114,
+          "0.95": 126,
+          "0.99": 145
+        },
+        "area50": {
+          "0.1": 36,
+          "0.5": 72,
+          "0.9": 105,
+          "0.95": 113,
+          "0.99": 125
+        },
+        "area90": {
+          "0.1": 58,
+          "0.5": 96,
+          "0.9": 132,
+          "0.95": 139,
+          "0.99": 149
+        },
+        "area99": {
+          "0.1": 77,
+          "0.5": 118,
+          "0.9": 153,
+          "0.95": 160,
+          "0.99": 172
+        }
+      },
+      "source_center": {
+        "center": {
+          "0.1": 8,
+          "0.5": 24,
+          "0.9": 37,
+          "0.95": 41,
+          "0.99": 55
+        },
+        "mean": {
+          "0.1": 33,
+          "0.5": 72,
+          "0.9": 113,
+          "0.95": 126,
+          "0.99": 145
+        },
+        "area50": {
+          "0.1": 36,
+          "0.5": 72,
+          "0.9": 105,
+          "0.95": 112,
+          "0.99": 125
+        },
+        "area90": {
+          "0.1": 58,
+          "0.5": 96,
+          "0.9": 132,
+          "0.95": 139,
+          "0.99": 149
+        },
+        "area99": {
+          "0.1": 76,
+          "0.5": 119,
+          "0.9": 152,
+          "0.95": 161,
+          "0.99": 172
+        }
+      },
+      "preview_width_scaled": {
+        "center": {
+          "0.1": 7,
+          "0.5": 23,
+          "0.9": 36,
+          "0.95": 39,
+          "0.99": 50
+        },
+        "mean": {
+          "0.1": 31,
+          "0.5": 67,
+          "0.9": 104,
+          "0.95": 115,
+          "0.99": 135
+        },
+        "area50": {
+          "0.1": 34,
+          "0.5": 67,
+          "0.9": 97,
+          "0.95": 104,
+          "0.99": 114
+        },
+        "area90": {
+          "0.1": 53,
+          "0.5": 89,
+          "0.9": 122,
+          "0.95": 129,
+          "0.99": 139
+        },
+        "area99": {
+          "0.1": 71,
+          "0.5": 108,
+          "0.9": 142,
+          "0.95": 149,
+          "0.99": 159
+        }
+      },
+      "preview_corner": {
+        "center": {
+          "0.1": 4,
+          "0.5": 11,
+          "0.9": 23,
+          "0.95": 27,
+          "0.99": 31
+        },
+        "mean": {
+          "0.1": 30,
+          "0.5": 68,
+          "0.9": 105,
+          "0.95": 115,
+          "0.99": 130
+        },
+        "area50": {
+          "0.1": 31,
+          "0.5": 69,
+          "0.9": 103,
+          "0.95": 110,
+          "0.99": 124
+        },
+        "area90": {
+          "0.1": 39,
+          "0.5": 81,
+          "0.9": 117,
+          "0.95": 126,
+          "0.99": 137
+        },
+        "area99": {
+          "0.1": 50,
+          "0.5": 93,
+          "0.9": 129,
+          "0.95": 137,
+          "0.99": 148
+        }
+      }
+    },
+    "delivered_sampled_mean_clear": [
+      {
+        "ms": 0,
+        "centerPixel": 0,
+        "centerAnalytical": 0,
+        "mean": 6.562287690692359e-06,
+        "area50": 0,
+        "area90": 0,
+        "area99": 0,
+        "encoded_elapsed_ms": 0
+      },
+      {
+        "ms": 33.333333333333336,
+        "centerPixel": 0.8235294117647058,
+        "centerAnalytical": 0.8238698447668612,
+        "mean": 0.10998559929816698,
+        "area50": 0.07657031684269039,
+        "area90": 0,
+        "area99": 0,
+        "encoded_elapsed_ms": 30
+      },
+      {
+        "ms": 66.66666666666667,
+        "centerPixel": 0.996078431372549,
+        "centerAnalytical": 0.9992103084051908,
+        "mean": 0.4427951303737788,
+        "area50": 0.42560681860292754,
+        "area90": 0.1725727255882898,
+        "area99": 0.03835464146748194,
+        "encoded_elapsed_ms": 70
+      },
+      {
+        "ms": 100,
+        "centerPixel": 0.996078431372549,
+        "centerAnalytical": 0.9999998270378272,
+        "mean": 0.8104331437266844,
+        "area50": 0.8505616676317314,
+        "area90": 0.5602779386218877,
+        "area99": 0.29734800231615516,
+        "encoded_elapsed_ms": 100
+      },
+      {
+        "ms": 133.33333333333334,
+        "centerPixel": 1,
+        "centerAnalytical": 0.9999999999938803,
+        "mean": 0.9720398279066889,
+        "area50": 0.9999884186876057,
+        "area90": 0.9135570842887916,
+        "area99": 0.6911263984434716,
+        "encoded_elapsed_ms": 130
+      },
+      {
+        "ms": 166.66666666666666,
+        "centerPixel": 1,
+        "centerAnalytical": 1,
+        "mean": 0.9986238357107268,
+        "area50": 1,
+        "area90": 1,
+        "area99": 0.9757481701102566,
+        "encoded_elapsed_ms": 170
+      },
+      {
+        "ms": 200,
+        "centerPixel": 1,
+        "centerAnalytical": 1,
+        "mean": 1,
+        "area50": 1,
+        "area90": 1,
+        "area99": 1,
+        "encoded_elapsed_ms": 200
+      }
+    ],
+    "gif_runtime_agreement": [
+      {
+        "frame": 40,
+        "media_mean_abs_error": 1.4520679012345679,
+        "media_rmse": 1.8994090211509551,
+        "media_p99_abs_error": 5.0
+      },
+      {
+        "frame": 41,
+        "media_mean_abs_error": 1.6171720679012345,
+        "media_rmse": 2.235879042478057,
+        "media_p99_abs_error": 7.0
+      },
+      {
+        "frame": 42,
+        "media_mean_abs_error": 1.7775559413580246,
+        "media_rmse": 2.557498883699357,
+        "media_p99_abs_error": 9.0
+      }
+    ],
+    "normal_preview_radius_per_width_relative_to_calibrated_source": 0.928714747868715,
+    "state_duration_ms": 180,
+    "export_has_cursor": false,
+    "reset_requested_ms": 3050,
+    "first_reset_frame": 92,
+    "first_reset_runtime_ms": 3066.6666666666665,
+    "first_reset_encoded_ms": 3070
+  },
+  "recommended_export_only_correction": {
+    "fps": 50,
+    "frame_duration_ms": 20,
+    "onset_ms": 1311.666666667,
+    "first_revealing_frame_pts_ms": 1320,
+    "first_revealing_elapsed_ms": 8.333333333,
+    "model_reveal_duration_ms_unchanged": 180,
+    "early_actual_center_clear_samples": [
+      {
+        "ms": 8.333333,
+        "centerPixel": 0.12549019607843137,
+        "centerAnalytical": 0.1294076805602561,
+        "mean": 0.008174680377985653,
+        "area50": 0,
+        "area90": 0,
+        "area99": 0
+      },
+      {
+        "ms": 28.333333,
+        "centerPixel": 0.6627450980392157,
+        "centerAnalytical": 0.6646668599688814,
+        "mean": 0.06894200935894321,
+        "area50": 0.032101167315175094,
+        "area90": 0,
+        "area99": 0
+      },
+      {
+        "ms": 48.333332999999996,
+        "centerPixel": 0.9803921568627451,
+        "centerAnalytical": 0.9811132788380579,
+        "mean": 0.2514520821299172,
+        "area50": 0.2206781545302946,
+        "area90": 0.05097739484899018,
+        "area99": 0
+      }
+    ]
+  },
+  "interpretation": [
+    "The 30 fps exporter omits the source-like low-opacity beginning; this is a temporal sampling fidelity defect, not globally accelerated playback.",
+    "Current default centered preview geometry is slightly slower than source-matched geometry when measured by normalized alpha coverage; it does not explain a faster reveal.",
+    "180 ms describes the state-machine envelope, not a uniformly changing 180 ms picture. At +133.333 ms, the old preview is already 97.2 percent mean-clear.",
+    "Missing cursor and deterministic abrupt reset change presentation context. They do not shorten measured reveal playback.",
+    "Changing radius normalization from farthest-corner to width would make this center preview expand around 7.7 percent faster at equal elapsed time, so it is not a supported slowdown fix."
+  ],
+  "metric_definitions": {
+    "mean": "Mean alpha of the clear layer across actual rendered pixels with clip coverage alpha >=250/255; isolated black clear art and white hidden art, no particles. A whole-image weighted coverage metric.",
+    "area50": "Fraction of covered pixels whose clear-layer alpha is >=0.50.",
+    "area90": "Fraction of covered pixels whose clear-layer alpha is >=0.90.",
+    "area99": "Fraction of covered pixels whose clear-layer alpha is >=0.99.",
+    "threshold": "First integer-ms actual renderer sample reaching the requested metric value."
+  },
+  "limits": [
+    "The sourceMatched geometry uses the existing Gaussian-disk fit; these whole-image clear-coverage metrics are not independently recovered native Telegram photo alpha.",
+    "Different artwork, texture, source pointer overlay, source blur/color processing and compression prevent exact cross-image perceptual timing equivalence.",
+    "Actual browser, display refresh, GIF player behavior and live pointer event latency were not measured.",
+    "Individual GIF image RGB values cannot directly expose alpha; center alpha values above come from actual isolated rendering of the same shared runtime. Decoded GIF pixels were separately compared to full-color runtime renders."
+  ]
+}

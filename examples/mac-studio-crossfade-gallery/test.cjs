@@ -1,0 +1,24 @@
+'use strict';
+const assert=require('assert'),fs=require('fs'),vm=require('vm'),path=require('path'),{createCanvas,Image}=require('@napi-rs/canvas');
+(async()=>{
+const scene=require('./scene.cjs');await scene.ready;assert(scene.assetsReady);
+const pixels=createCanvas(1188,761),ctx=pixels.getContext('2d');
+class Element{constructor(){this.style={};this.attrs={};this.events={};this.children=[];this.clientWidth=1188;this.clientHeight=761;}addEventListener(k,f){(this.events[k]??=[]).push(f);}removeEventListener(k,f){this.events[k]=(this.events[k]||[]).filter(g=>g!==f);}setAttribute(k,v){this.attrs[k]=v;}appendChild(e){this.children.push(e);}focus(){this.focused=true;}fire(k,e={}){for(const f of this.events[k]||[])f(e);}}
+const ids={};for(const id of ['stage','scene','tabs','workspace-controls','dots','panel','status','previous','next','mode-ai','mode-workspace','replay','panel-title','description'])ids[id]=new Element();ids.scene.getContext=()=>ctx;
+const media=new Element();media.matches=false;const win=new Element();win.MotionScene=scene;win.devicePixelRatio=1;win.matchMedia=()=>media;
+function LocalImage(){const image=new Image();const descriptor=Object.getOwnPropertyDescriptor(Image.prototype,'src');Object.defineProperty(image,'src',{set(value){descriptor.set.call(image,fs.readFileSync(path.join(__dirname,value)));},get(){return descriptor.get.call(image);}});return image;}
+let now=0,next=0;const q=new Map();const box={Image:LocalImage,window:win,document:{getElementById:id=>ids[id],createElement:tag=>tag==='canvas'?createCanvas(1,1):new Element()},requestAnimationFrame:f=>{q.set(++next,f);return next;},cancelAnimationFrame:id=>q.delete(id),performance:{now:()=>now},console,Promise};vm.runInNewContext(fs.readFileSync(__dirname+'/motion.js','utf8'),box);
+const m=win.MOTION;await m.ready;assert.equal(m.getState().assetsReady,true);assert.equal(m.getState().tab,0);
+m.setProgress(.3);assert.equal(m.getState().tab,1);m.seek(3);assert.equal(m.getState().tab,2);
+for(let i=0;i<3;i++){m.setTab(i);assert.equal(m.getState().tab,i);assert.equal(ids.tabs.children[i].attrs['aria-selected'],'true');assert.equal(ids.tabs.children.filter(b=>b.tabIndex===0).length,1);}
+ids.tabs.children[0].fire('click');const stale=[...q.values()][0];now=80;ids.tabs.children[1].fire('click');now=110;ids.tabs.children[2].fire('click');stale(2000);assert.equal(m.getState().tab,2);assert.equal(q.size,1);now=800;const latest=[...q.values()][0];q.clear();latest(now);assert.equal(m.getState().tab,2);assert.equal(m.getState().playing,false);
+let prevented=false;ids.tabs.children[2].fire('keydown',{key:'Home',preventDefault:()=>prevented=true});assert(prevented);assert.equal(m.getState().tab,0);ids.tabs.children[0].fire('keydown',{key:'End',preventDefault(){}});assert.equal(m.getState().tab,2);
+m.setMode('workspace');assert.equal(m.getState().mode,'workspace');assert.equal(ids.tabs.hidden,true);assert.equal(ids['workspace-controls'].hidden,false);ids.next.fire('click');assert.equal(m.getState().tab,1);ids.previous.fire('click');assert.equal(m.getState().tab,0);ids.previous.fire('click');assert.equal(m.getState().tab,2);ids.dots.children[1].fire('click');assert.equal(m.getState().tab,1);ids.dots.children[1].fire('keydown',{key:'ArrowRight',preventDefault(){}});assert.equal(m.getState().tab,2);
+media.matches=true;media.fire('change');assert.equal(m.getState().alpha,1);assert.equal(m.getState().playing,false);m.setTab(1,0);assert.equal(m.getState().alpha,1);
+ids.stage.clientWidth=390;ids.stage.clientHeight=620;win.fire('resize');assert(parseInt(ids.stage.style.height)>=590);assert(ids.tabs.children.every(b=>parseFloat(b.style.left)>=0&&parseFloat(b.style.left)+parseFloat(b.style.width)<=391));
+ids.stage.clientWidth=320;win.fire('resize');assert(ids.tabs.children.every(b=>parseFloat(b.style.left)>=0&&parseFloat(b.style.left)+parseFloat(b.style.width)<=321));
+const last=m.getState().tab;m.destroy();m.setTab(0);ids.next.fire('click');assert.equal(m.getState().tab,last);assert.equal(m.getState().destroyed,true);
+for(const p of [-1,0,.1,.5,1,2,NaN])assert(scene.state(p).alpha>=0&&scene.state(p).alpha<=1);assert.equal(scene.state(0).tab,0);assert.equal(scene.state(.3).tab,1);assert.equal(scene.state(1).tab,2);assert.equal(scene.state(0,{tab:1,previousTab:0,transitionProgress:.5}).alpha,.5);
+for(const [w,h] of [[1188,761],[720,600],[390,620]])for(const mode of ['ai','workspace']){const c=createCanvas(w,h);for(const p of [0,.1,.25,.5,.75,1])scene.render(c.getContext('2d'),w,h,p,{mode});}
+console.log('PASS 07-gallery: six local SVG assets; timeline; source cubic crossfade; all AI tabs; workspace next/back/dots; rapid interruption/stale callback; keyboard; reduced motion; responsive hitboxes; destroy; 36 offline renders. Browser UI not exercised.');
+})().catch(error=>{console.error(error);process.exitCode=1;});

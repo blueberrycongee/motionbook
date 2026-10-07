@@ -1,0 +1,394 @@
+TAP version 13
+# Subtest: initial artwork load schedules hidden rendering
+ok 1 - initial artwork load schedules hidden rendering
+  ---
+  duration_ms: 15.389484
+  type: 'test'
+  ...
+# Subtest: pointer coordinates are normalized at mobile width
+ok 2 - pointer coordinates are normalized at mobile width
+  ---
+  duration_ms: 7.870542
+  type: 'test'
+  ...
+# Subtest: keyboard activation uses image center
+ok 3 - keyboard activation uses image center
+  ---
+  duration_ms: 6.236721
+  type: 'test'
+  ...
+# Subtest: reduced-motion checkbox settles reveal and stops RAF
+ok 4 - reduced-motion checkbox settles reveal and stops RAF
+  ---
+  duration_ms: 12.138478
+  type: 'test'
+  ...
+# Subtest: initial reduced preference freezes hidden render
+ok 5 - initial reduced preference freezes hidden render
+  ---
+  duration_ms: 3.137034
+  type: 'test'
+  ...
+# Subtest: Hide again reverses an active reveal
+ok 6 - Hide again reverses an active reveal
+  ---
+  duration_ms: 3.170213
+  type: 'test'
+  ...
+# Subtest: reset is reachable and restores accessible labels
+ok 7 - reset is reachable and restores accessible labels
+  ---
+  duration_ms: 5.002903
+  type: 'test'
+  ...
+# Subtest: hidden document cancels animation work and resumes safely
+ok 8 - hidden document cancels animation work and resumes safely
+  ---
+  duration_ms: 3.019948
+  type: 'test'
+  ...
+# Subtest: revealed idle state does not continuously render
+ok 9 - revealed idle state does not continuously render
+  ---
+  duration_ms: 5.45254
+  type: 'test'
+  ...
+# Subtest: initial hidden state has zero radius
+ok 10 - initial hidden state has zero radius
+  ---
+  duration_ms: 1.63373
+  type: 'test'
+  ...
+# Subtest: reveal starts at the actual pointer
+ok 11 - reveal starts at the actual pointer
+  ---
+  duration_ms: 1.280829
+  type: 'test'
+  ...
+# Subtest: reveal finishes in the measured 180 ms envelope
+ok 12 - reveal finishes in the measured 180 ms envelope
+  ---
+  duration_ms: 0.243347
+  type: 'test'
+  ...
+# Subtest: measured radial knot values
+ok 13 - measured radial knot values
+  ---
+  duration_ms: 0.325931
+  type: 'test'
+  ...
+# Subtest: radius grows monotonically over 1,801 samples
+ok 14 - radius grows monotonically over 1,801 samples
+  ---
+  duration_ms: 3.57278
+  type: 'test'
+  ...
+# Subtest: repeat reveal does not move the origin or restart
+ok 15 - repeat reveal does not move the origin or restart
+  ---
+  duration_ms: 0.238479
+  type: 'test'
+  ...
+# Subtest: hide during reveal is continuous
+ok 16 - hide during reveal is continuous
+  ---
+  duration_ms: 0.240592
+  type: 'test'
+  ...
+# Subtest: reveal during hide keeps the same mask origin
+ok 17 - reveal during hide keeps the same mask origin
+  ---
+  duration_ms: 0.397969
+  type: 'test'
+  ...
+# Subtest: hide finishes and next tap can pick a new origin
+ok 18 - hide finishes and next tap can pick a new origin
+  ---
+  duration_ms: 1.311324
+  type: 'test'
+  ...
+# Subtest: repeated hide is idempotent
+ok 19 - repeated hide is idempotent
+  ---
+  duration_ms: 0.458861
+  type: 'test'
+  ...
+# Subtest: reset clears active state without stale animation
+ok 20 - reset clears active state without stale animation
+  ---
+  duration_ms: 0.380473
+  type: 'test'
+  ...
+# Subtest: pointer is clamped to image bounds
+ok 21 - pointer is clamped to image bounds
+  ---
+  duration_ms: 0.154272
+  type: 'test'
+  ...
+# Subtest: resize preserves normalized origin and current progress
+ok 22 - resize preserves normalized origin and current progress
+  ---
+  duration_ms: 0.283176
+  type: 'test'
+  ...
+# Subtest: farthest corner is covered at 240×180
+ok 23 - farthest corner is covered at 240×180
+  ---
+  duration_ms: 0.144648
+  type: 'test'
+  ...
+# Subtest: farthest corner is covered at 320×240
+ok 24 - farthest corner is covered at 320×240
+  ---
+  duration_ms: 0.127011
+  type: 'test'
+  ...
+# Subtest: farthest corner is covered at 480×360
+ok 25 - farthest corner is covered at 480×360
+  ---
+  duration_ms: 0.131969
+  type: 'test'
+  ...
+# Subtest: farthest corner is covered at 960×720
+ok 26 - farthest corner is covered at 960×720
+  ---
+  duration_ms: 0.093731
+  type: 'test'
+  ...
+# Subtest: farthest corner is covered at 600×200
+ok 27 - farthest corner is covered at 600×200
+  ---
+  duration_ms: 0.094753
+  type: 'test'
+  ...
+# Subtest: farthest corner is covered at 200×600
+ok 28 - farthest corner is covered at 200×600
+  ---
+  duration_ms: 0.07989
+  type: 'test'
+  ...
+# Subtest: reduced motion is immediate
+ok 29 - reduced motion is immediate
+  ---
+  duration_ms: 0.135133
+  type: 'test'
+  ...
+# Subtest: enabling reduced motion during reveal settles
+ok 30 - enabling reduced motion during reveal settles
+  ---
+  duration_ms: 0.135865
+  type: 'test'
+  ...
+# Subtest: turning reduced motion back off does not restart
+ok 31 - turning reduced motion back off does not restart
+  ---
+  duration_ms: 0.181483
+  type: 'test'
+  ...
+# Subtest: seeded particles are deterministic
+ok 32 - seeded particles are deterministic
+  ---
+  duration_ms: 20.64033
+  type: 'test'
+  ...
+# Subtest: particle trajectories are coherent, bounded and finite
+ok 33 - particle trajectories are coherent, bounded and finite
+  ---
+  duration_ms: 1.26858
+  type: 'test'
+  ...
+# Subtest: particles vary over time, not a static texture
+ok 34 - particles vary over time, not a static texture
+  ---
+  duration_ms: 0.231298
+  type: 'test'
+  ...
+# Subtest: one-frame movement is locally small away from wraps
+ok 35 - one-frame movement is locally small away from wraps
+  ---
+  duration_ms: 0.393363
+  type: 'test'
+  ...
+# Subtest: feather covers a broad continuous range
+ok 36 - feather covers a broad continuous range
+  ---
+  duration_ms: 0.117947
+  type: 'test'
+  ...
+# Subtest: 100 interrupted cycles settle cleanly
+ok 37 - 100 interrupted cycles settle cleanly
+  ---
+  duration_ms: 0.368375
+  type: 'test'
+  ...
+# Subtest: Gaussian disk has zero opacity at zero radius
+ok 38 - Gaussian disk has zero opacity at zero radius
+  ---
+  duration_ms: 0.178849
+  type: 'test'
+  ...
+# Subtest: Gaussian disk is radially monotone and bounded
+ok 39 - Gaussian disk is radially monotone and bounded
+  ---
+  duration_ms: 4.189749
+  type: 'test'
+  ...
+# Subtest: Gaussian-disk center calibration matches early source range approximately
+ok 40 - Gaussian-disk center calibration matches early source range approximately
+  ---
+  duration_ms: 0.212951
+  type: 'test'
+  ...
+# Subtest: expanded disk clears corners smoothly before terminal state
+ok 41 - expanded disk clears corners smoothly before terminal state
+  ---
+  duration_ms: 0.112649
+  type: 'test'
+  ...
+# Subtest: preview clock remains one-times speed with 3.6 seconds total
+ok 42 - preview clock remains one-times speed with 3.6 seconds total
+  ---
+  duration_ms: 1.060788
+  type: 'test'
+  ...
+# Subtest: GIF cadence has uniform representable 20 millisecond delays
+ok 43 - GIF cadence has uniform representable 20 millisecond delays
+  ---
+  duration_ms: 0.223616
+  type: 'test'
+  ...
+# Subtest: re-export preserves the original 180 millisecond interaction envelope
+ok 44 - re-export preserves the original 180 millisecond interaction envelope
+  ---
+  duration_ms: 0.516748
+  type: 'test'
+  ...
+# Subtest: first visible export frame includes the weak center-opacity ramp
+ok 45 - first visible export frame includes the weak center-opacity ramp
+  ---
+  duration_ms: 0.336286
+  type: 'test'
+  ...
+# Subtest: three sampled center stages progress from faint to clear
+ok 46 - three sampled center stages progress from faint to clear
+  ---
+  duration_ms: 0.310417
+  type: 'test'
+  ...
+# Subtest: reset stays a separately labeled instant preview loop action
+ok 47 - reset stays a separately labeled instant preview loop action
+  ---
+  duration_ms: 0.162114
+  type: 'test'
+  ...
+# Subtest: public bundle contains no official/source comparison or old-preview media
+ok 48 - public bundle contains no official/source comparison or old-preview media
+  ---
+  duration_ms: 4.1767
+  type: 'test'
+  ...
+# Subtest: approved runtime, original assets and normal preview are byte-preserved
+ok 49 - approved runtime, original assets and normal preview are byte-preserved
+  ---
+  duration_ms: 9.169047
+  type: 'test'
+  ...
+# Subtest: all Markdown relative file links resolve within the public example
+ok 50 - all Markdown relative file links resolve within the public example
+  ---
+  duration_ms: 3.935025
+  type: 'test'
+  ...
+# Subtest: all retained JSON evidence parses and source pixels are explicitly unbundled
+ok 51 - all retained JSON evidence parses and source pixels are explicitly unbundled
+  ---
+  duration_ms: 4.960039
+  type: 'test'
+  ...
+# Subtest: normal render manifest agrees with preview clock and runtime envelope
+ok 52 - normal render manifest agrees with preview clock and runtime envelope
+  ---
+  duration_ms: 1.816105
+  type: 'test'
+  ...
+# Subtest: standalone embeds exact current source and original assets
+ok 53 - standalone embeds exact current source and original assets
+  ---
+  duration_ms: 3.338036
+  type: 'test'
+  ...
+# Subtest: same seed, model and time produce identical pixels
+ok 54 - same seed, model and time produce identical pixels
+  ---
+  duration_ms: 102.142205
+  type: 'test'
+  ...
+# Subtest: hidden particle pixels evolve
+ok 55 - hidden particle pixels evolve
+  ---
+  duration_ms: 96.753286
+  type: 'test'
+  ...
+# Subtest: reduced motion freezes hidden particle field
+ok 56 - reduced motion freezes hidden particle field
+  ---
+  duration_ms: 92.847865
+  type: 'test'
+  ...
+# Subtest: fully revealed pixels do not keep animating
+ok 57 - fully revealed pixels do not keep animating
+  ---
+  duration_ms: 39.886331
+  type: 'test'
+  ...
+# Subtest: intermediate reveal differs from both endpoints
+ok 58 - intermediate reveal differs from both endpoints
+  ---
+  duration_ms: 134.455853
+  type: 'test'
+  ...
+# Subtest: output has transparent rounded corners and opaque center
+ok 59 - output has transparent rounded corners and opaque center
+  ---
+  duration_ms: 19.506473
+  type: 'test'
+  ...
+# Subtest: pixel render at 240×180
+ok 60 - pixel render at 240×180
+  ---
+  duration_ms: 26.31837
+  type: 'test'
+  ...
+# Subtest: pixel render at 480×360
+ok 61 - pixel render at 480×360
+  ---
+  duration_ms: 42.683292
+  type: 'test'
+  ...
+# Subtest: pixel render at 960×720
+ok 62 - pixel render at 960×720
+  ---
+  duration_ms: 89.370353
+  type: 'test'
+  ...
+# Subtest: soft disk begins translucent instead of a hard opaque core
+ok 63 - soft disk begins translucent instead of a hard opaque core
+  ---
+  duration_ms: 5.37939
+  type: 'test'
+  ...
+# Subtest: reset renders the exact original hidden state at identical time
+ok 64 - reset renders the exact original hidden state at identical time
+  ---
+  duration_ms: 91.577306
+  type: 'test'
+  ...
+1..64
+# tests 64
+# suites 0
+# pass 64
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1148.835507

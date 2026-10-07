@@ -1,0 +1,19 @@
+✔ graphemes preserve emoji sequences, accents, and spaces (9.50284ms)
+✔ reference slots preserve coordinated baseline tilt and bounded motion (5.76451ms)
+✔ rest endpoints, invalid times and reduced motion are identity (0.894177ms)
+✔ font scaling preserves angle and scales displacement (0.129124ms)
+✔ replay replaces epoch and never compounds transforms (0.182335ms)
+✔ pause/resume and interruption preserve elapsed time (0.183266ms)
+✔ enabling reduced motion immediately cancels in-flight animation (0.171238ms)
+✔ completion remains still until explicit replay (0.101443ms)
+✔ word layout is independent of animation and preserves advance widths (0.6777ms)
+✔ shared scene is deterministic, reduced motion pixel-stable (164.154081ms)
+✔ glyph positions obey the measured shared rotation (0.252911ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 611.461709
