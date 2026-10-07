@@ -1,17 +1,32 @@
 ---
 name: motionbook
-description: Find a relevant Motionbook UI animation or micro-interaction and adapt its independently authored implementation to a target application, using the example's source, provenance and validation notes.
+description: "Find and adapt Motionbook UI motion references by purpose: components, interface workflows, landing-page fragments, creative motion and playful experiments. Use when choosing interaction inspiration, explaining what makes a reference useful, or implementing a selected effect in an app."
 ---
 
 # Motionbook
 
 Use [Motionbook](https://github.com/blueberrycongee/motionbook) as a searchable implementation reference. Preserve the user's target stack, interaction requirements and existing application conventions.
 
-## Find the right example
+## Retrieve by the user's problem
 
-Start with the repository's root `README.md` visual gallery. If a local checkout is available, search titles or `catalog/` metadata with terms describing the behavior, such as drag, selection, expanding input, hover or completion. Match the interaction and visual constraints before choosing by appearance alone.
+Use this skill for finding and adapting references, not only for exact recreations. First identify the target task, the smallest interaction needed, the target stack and whether expressive motion serves that task. Preserve the user's choice of full-screen recreation when explicitly requested.
 
-Open only the promising example's `examples/<slug>/README.md` and linked GIF or MP4. Do not load the whole repository or every motion-data file into context. The `wip/` directory contains unfinished or historical snapshots; prefer the completed example linked from the gallery. Do not treat an unfinished snapshot as a validated reference.
+The bundled [catalog](references/catalog.json) describes every published study in Chinese and English search vocabulary. Read [the classification contract](references/taxonomy.md) when distinguishing kinds or maintaining entries. Search without loading every example or downloading media:
+
+```sh
+python3 <skill-directory>/scripts/search.py "标签 创建"
+python3 <skill-directory>/scripts/search.py "slider" --fit everyday
+python3 <skill-directory>/scripts/search.py --kind landing-page
+python3 <skill-directory>/scripts/search.py "弹弓" --fit playful --json
+```
+
+This is keyword retrieval, not semantic search. Translate a long request into a few Chinese or English behavior terms; retry shorter terms when no result matches. Do not fill an empty result with an unrelated effect. Filters are optional. Everyday studies win only relevance ties; explicitly seek playful or brand studies when the user wants them.
+
+Shortlist a few candidates and explain the specific reason for choosing: information hierarchy, state feedback, spatial continuity, material treatment, expressive motion or a classic interaction pattern. Use `extract` to define what to borrow and `avoid` to identify tradeoffs. A playful component should not become a default business control. A landing-page fragment must not be described as a complete website.
+
+For humans, the repository's [purpose index](https://github.com/blueberrycongee/motionbook/blob/main/catalog/README.md) accompanies its root visual gallery. A local checkout is optional for discovery. Resolve catalog paths against that checkout or `https://github.com/blueberrycongee/motionbook/blob/main/`; they are not files bundled inside the installed skill. Open only the chosen example's README, preview and evidence, then obtain its implementation if adaptation requires it. Use available GitHub tooling or ordinary repository access; the skill does not depend on a particular connector. If a preview cannot be inspected, describe the evidence limit rather than claiming visual quality.
+
+The bundled catalog is a snapshot. When an entry has moved or a new example is expected, check the current repository. The `wip/` ledger distinguishes prototypes, source-only candidates and historical archives. Do not recommend these as validated implementations.
 
 ## Read only what the adaptation needs
 
@@ -25,7 +40,7 @@ Record the small set of properties that matter: states and triggers, geometry, e
 
 Implement the behavior in the user's stack. Keep state transitions and input handling separate from visual rendering where that helps integration. Recreate geometry and motion responsively rather than copying reference-canvas coordinates without accounting for the target layout.
 
-Honor the target's keyboard, pointer, touch and reduced-motion behavior. Avoid importing the source video's pixels, proprietary code or unrelated assets. Independently drawn or procedural artwork is suitable; an external image replacement needs verified CC0 provenance. Fonts and dependencies keep their actual licenses and notices, which may differ from CC0. Preserve original creator attribution and disclose meaningful substitutions.
+Honor the target's keyboard, pointer, touch and reduced-motion behavior. Avoid importing the source video's pixels, proprietary code or unrelated assets. Independently drawn or procedural artwork is suitable; an external replacement needs a verified license compatible with the intended use and its required attribution. Fonts and dependencies keep their actual licenses and notices, which may differ from CC0. Preserve original creator attribution and disclose meaningful substitutions.
 
 ## Verify the implemented result
 
