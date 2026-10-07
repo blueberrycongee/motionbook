@@ -1,0 +1,13 @@
+{
+  "name": "mac-studio-benchmark-tabs",
+  "version": "0.1.2",
+  "private": true,
+  "description": "Standalone original motion study with deterministic offline Canvas and DOM-harness tests",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test": "node test.cjs"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.100"
+  }
+}

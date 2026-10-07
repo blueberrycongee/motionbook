@@ -1,0 +1,496 @@
+{
+  "source": {
+    "url": "https://static.culturedcode.com/things/videos/2017-05-18-website-videos/6-magicplus-1.mp4",
+    "sha256": "e638cbb316765609a29207e31adf2d32828042886cddccbfcbf8f2ebc8952d5c",
+    "size_bytes": 1560832,
+    "width": 500,
+    "height": 888,
+    "fps": "30/1",
+    "time_base": "1/30000",
+    "first_cycle_frames_inclusive": 226
+  },
+  "coordinate_system": {
+    "units": "source video pixels",
+    "origin": "top-left",
+    "extent": [
+      500,
+      888
+    ],
+    "right_bottom_bounds": "exclusive",
+    "time": "seconds, presentation time; frame_index starts at0",
+    "scroll": "positive means content translated upward",
+    "row_offsets": "additional layout displacement relative to frame0, before global scroll; rendered y = rest_y + offset - scroll",
+    "channels": "channels.json contains channelName: [[time,value],...]. samples.json contains 226 equally timed interpolated records. Use linear interpolation of per-frame knots."
+  },
+  "baseline_geometry": {
+    "header_title_center_y_approx": 142,
+    "things_to_buy_heading_center_y_approx": 324,
+    "first_item_text_center_y_approx": 397,
+    "second_item_text_center_y_approx": 456,
+    "planning_heading_center_y_approx": 545,
+    "planning_add_row_text_center_y_approx": 617,
+    "planning_read_row_text_center_y_approx": 676,
+    "planning_borrow_row_text_center_y_approx": 735,
+    "row_pitch_px": 58.6,
+    "plus_circle": [
+      449.18,
+      838.41,
+      32.66
+    ]
+  },
+  "events": [
+    {
+      "frame": 6,
+      "time": 0.2,
+      "observation": "first radius change of press",
+      "status": "measured"
+    },
+    {
+      "frame": 7,
+      "time": 0.23333333333333334,
+      "observation": "press minimum radius28.61",
+      "status": "measured"
+    },
+    {
+      "frame": 11,
+      "time": 0.36666666666666664,
+      "observation": "pop overshoot radius53.37; disk cropped at screen right/bottom",
+      "status": "measured by fitting visible circular arc"
+    },
+    {
+      "frame": 14,
+      "time": 0.4666666666666667,
+      "observation": "first measurable drag translation upward",
+      "status": "measured"
+    },
+    {
+      "frame": 22,
+      "time": 0.7333333333333333,
+      "observation": "first insertion gap between Planning second and third rows; third row starts displacement",
+      "status": "measured"
+    },
+    {
+      "frame": 23,
+      "time": 0.7666666666666667,
+      "observation": "insertion gap moves between Planning first and second rows",
+      "status": "measured"
+    },
+    {
+      "frame": 25,
+      "time": 0.8333333333333334,
+      "observation": "insertion gap moves before Planning first row",
+      "status": "measured"
+    },
+    {
+      "frame": 30,
+      "time": 1,
+      "observation": "insertion gap moves above Planning heading, after second Things to buy row",
+      "status": "measured"
+    },
+    {
+      "frame": 45,
+      "time": 1.5,
+      "observation": "plus arrives near273,513.6 and holds through frame52",
+      "status": "measured"
+    },
+    {
+      "frame": 53,
+      "time": 1.7666666666666666,
+      "observation": "opening geometry starts; keyboard top840, scroll21",
+      "status": "measured"
+    },
+    {
+      "frame": 57,
+      "time": 1.9,
+      "observation": "blue disk temporarily enlarges to radius52.13 as it fades over small editor",
+      "status": "measured disk; inferred opacity"
+    },
+    {
+      "frame": 59,
+      "time": 1.9666666666666666,
+      "observation": "scroll overshoot180; editor bounds16,359,486,557",
+      "status": "measured"
+    },
+    {
+      "frame": 64,
+      "time": 2.1333333333333333,
+      "observation": "settled editor bounds0,352,500,560; keyboard top600; scroll174",
+      "status": "measured"
+    },
+    {
+      "frame": 186,
+      "time": 6.2,
+      "observation": "last frame before substantial collapse movement; small keyboard pixel changes",
+      "status": "measured"
+    },
+    {
+      "frame": 187,
+      "time": 6.233333333333333,
+      "observation": "first substantial collapse movement; keyboard650; editor top354 bottom531",
+      "status": "measured"
+    },
+    {
+      "frame": 191,
+      "time": 6.366666666666666,
+      "observation": "plus reappears at449.06,833.96 radius32.65 partly covered by keyboard",
+      "status": "measured visible arc"
+    },
+    {
+      "frame": 192,
+      "time": 6.4,
+      "observation": "plus bounces upward to449.03,829.31 radius32.69",
+      "status": "measured visible arc"
+    },
+    {
+      "frame": 199,
+      "time": 6.633333333333334,
+      "observation": "new row and list nearly settled; card shadow no longer reliably separable; scroll121",
+      "status": "measured list; inferred card shadow alpha"
+    },
+    {
+      "frame": 202,
+      "time": 6.733333333333333,
+      "observation": "plus settled around449.14,838.42,r32.65; final scroll121",
+      "status": "measured"
+    }
+  ],
+  "measurement_methods": {
+    "plus": "Threshold blue foreground, fill white glyph holes, least-squares visible exterior circle. Image-boundary and keyboard-clipped edges excluded. Frame191\u2013192 fit left/right exterior arcs above keyboard. Circle fit RMS mostly0.35\u20130.52px; fading disk frame57 RMS0.87px. Radius definition is thresholded visible fill edge, excluding shadow.",
+    "scroll": "Normalized cross-correlation against initial Things to buy heading and Power adapter row; their deltas agree to <=1px. Integer source-frame translation samples.",
+    "row_offsets": "Normalized cross-correlation of each initial row/heading, plus scroll. Only normalized correlation >=0.9 retained. Read/Borrow use subpixel parabolic refinement.",
+    "gap": "Visible gray-shade run below250 luminance on x14:22 strip, visually checked. Thresholded bounds vary a few pixels due compression/soft edges, and are not proven original layout-box bounds.",
+    "editor": "White/shadow horizontal edge profiles at center x220:280 plus visual inspection. Opening width measured from left/right luminance edges. Initial frame57 editor bounded visually due fading blue disk overlap.",
+    "keyboard": "First sustained nonwhite gray boundary in leftmost four pixels, visually checked;888 represents offscreen.",
+    "opacity": "plusAlpha/editorAlpha are explicitly visual interpolation estimates, not uniquely recoverable source-layer alpha. gapAlpha is binary presence, suitable for playback; use a light-gray underlying fill."
+  },
+  "uncertainty": {
+    "pts_seconds": "1/30 sampling. Event onset is only known between preceding and first changed presented frame.",
+    "plus_center_radius_px": "normally approximately\u00b10.7px; fading frame57\u00b11.5px. Nominal CSS/design radius may differ by ~0.5px due antialias threshold.",
+    "scroll_px": "\u00b11px",
+    "visible_row_offsets_px": "\u00b11px, including accumulated scroll quantization",
+    "gap_bounds_px": "\u00b12\u20134px because soft shade threshold",
+    "editor_bounds_px": "\u00b11\u20132px when opaque; frame57\u00b15px",
+    "editor_width_px": "frame58\u00b12px, frame59\u00b12px, fullwidth clips to viewport",
+    "keyboard_top_px": "\u00b11px; bottom1px atframes198\u2013199 set887, frame200 represented888",
+    "alpha": "qualitative estimates; approximately\u00b10.15\u20130.25 for partially transparent material"
+  },
+  "occlusion_handling": {
+    "downstream_row_offsets": "Measured values with NCC>=0.9 retained. Missing rows copy shared downstream displacement from visible sibling/heading. Frame57 heading top627 is partly keyboard-clipped, so offset255 is labeled an inference based on its visible upper glyphs. Frames58\u201364 use an estimated approach to hidden expanded offset288; held through186. Those offsets are not recovered from invisible pixels; they keep hidden content out of view and join the measured first collapse positions. Do not report them as source-exact.",
+    "plus_position": "Hidden frames58\u2013190 interpolate an unobserved invisible trajectory; plusAlpha0 prevents showing it.",
+    "editor": "Frame56 tiny zero-alpha bound is only initialization; frames196\u2013225 compact bounds365..423 are inferred retained-row geometry while card shadow vanishes."
+  },
+  "additional_appearance_observation": {
+    "list_content_alpha": "Underlying list contrast drops to ~0.49 of original during editor open, returning during collapse; light-gray overlay/background is visible. This is contrast regression, not direct original layer opacity."
+  },
+  "packaging": {
+    "numeric_files": [
+      "channels.json",
+      "samples.json",
+      "source_manifest.json",
+      "frame_pts_0-7.5s.json",
+      "evidence.json"
+    ],
+    "do_not_include": [
+      "frames/",
+      "*-sheet.jpg",
+      "source MP4",
+      "preview/comparison.gif",
+      "preview/comparison.mp4",
+      "preview/comparison-poster.png",
+      "preview/comparison-manifest.json",
+      "validation/comparison-contact-review.png"
+    ]
+  },
+  "inferred_knots": {
+    "planningOffset": [
+      {
+        "frame": 57,
+        "t": 1.9,
+        "value": 255,
+        "status": "inferred from another visible row or partial heading"
+      },
+      {
+        "frame": 58,
+        "t": 1.933333,
+        "value": 270,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 59,
+        "t": 1.966667,
+        "value": 279,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 60,
+        "t": 2.0,
+        "value": 283,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 61,
+        "t": 2.033333,
+        "value": 285,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 62,
+        "t": 2.066667,
+        "value": 286,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 63,
+        "t": 2.1,
+        "value": 287,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 64,
+        "t": 2.133333,
+        "value": 288,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 186,
+        "t": 6.2,
+        "value": 288,
+        "status": "inferred hidden shared layout"
+      }
+    ],
+    "addRowOffset": [
+      {
+        "frame": 56,
+        "t": 1.866667,
+        "value": 230,
+        "status": "inferred from another visible row or partial heading"
+      },
+      {
+        "frame": 57,
+        "t": 1.9,
+        "value": 255,
+        "status": "inferred from another visible row or partial heading"
+      },
+      {
+        "frame": 58,
+        "t": 1.933333,
+        "value": 270,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 59,
+        "t": 1.966667,
+        "value": 279,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 60,
+        "t": 2.0,
+        "value": 283,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 61,
+        "t": 2.033333,
+        "value": 285,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 62,
+        "t": 2.066667,
+        "value": 286,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 63,
+        "t": 2.1,
+        "value": 287,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 64,
+        "t": 2.133333,
+        "value": 288,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 186,
+        "t": 6.2,
+        "value": 288,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 187,
+        "t": 6.233333,
+        "value": 240,
+        "status": "inferred from another visible row or partial heading"
+      }
+    ],
+    "readRowOffset": [
+      {
+        "frame": 55,
+        "t": 1.833333,
+        "value": 195,
+        "status": "inferred from another visible row or partial heading"
+      },
+      {
+        "frame": 56,
+        "t": 1.866667,
+        "value": 230,
+        "status": "inferred from another visible row or partial heading"
+      },
+      {
+        "frame": 57,
+        "t": 1.9,
+        "value": 255,
+        "status": "inferred from another visible row or partial heading"
+      },
+      {
+        "frame": 58,
+        "t": 1.933333,
+        "value": 270,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 59,
+        "t": 1.966667,
+        "value": 279,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 60,
+        "t": 2.0,
+        "value": 283,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 61,
+        "t": 2.033333,
+        "value": 285,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 62,
+        "t": 2.066667,
+        "value": 286,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 63,
+        "t": 2.1,
+        "value": 287,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 64,
+        "t": 2.133333,
+        "value": 288,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 186,
+        "t": 6.2,
+        "value": 288,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 187,
+        "t": 6.233333,
+        "value": 240,
+        "status": "inferred from another visible row or partial heading"
+      },
+      {
+        "frame": 188,
+        "t": 6.266667,
+        "value": 184,
+        "status": "inferred from another visible row or partial heading"
+      }
+    ],
+    "borrowRowOffset": [
+      {
+        "frame": 54,
+        "t": 1.8,
+        "value": 148,
+        "status": "inferred from another visible row or partial heading"
+      },
+      {
+        "frame": 55,
+        "t": 1.833333,
+        "value": 195,
+        "status": "inferred from another visible row or partial heading"
+      },
+      {
+        "frame": 56,
+        "t": 1.866667,
+        "value": 230,
+        "status": "inferred from another visible row or partial heading"
+      },
+      {
+        "frame": 57,
+        "t": 1.9,
+        "value": 255,
+        "status": "inferred from another visible row or partial heading"
+      },
+      {
+        "frame": 58,
+        "t": 1.933333,
+        "value": 270,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 59,
+        "t": 1.966667,
+        "value": 279,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 60,
+        "t": 2.0,
+        "value": 283,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 61,
+        "t": 2.033333,
+        "value": 285,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 62,
+        "t": 2.066667,
+        "value": 286,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 63,
+        "t": 2.1,
+        "value": 287,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 64,
+        "t": 2.133333,
+        "value": 288,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 186,
+        "t": 6.2,
+        "value": 288,
+        "status": "inferred hidden shared layout"
+      },
+      {
+        "frame": 187,
+        "t": 6.233333,
+        "value": 240,
+        "status": "inferred from another visible row or partial heading"
+      },
+      {
+        "frame": 188,
+        "t": 6.266667,
+        "value": 184,
+        "status": "inferred from another visible row or partial heading"
+      }
+    ]
+  }
+}

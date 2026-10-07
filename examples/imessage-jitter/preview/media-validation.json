@@ -1,0 +1,21 @@
+{
+  "jitter.gif": {
+    "decoded_frames": 225,
+    "dimensions": [
+      800,
+      880
+    ],
+    "duration_ms": 4500,
+    "min_frame_delay_ms": 20,
+    "max_frame_delay_ms": 20,
+    "unique_decoded_frames": 89,
+    "max_changed_pixels_outside_effect_and_selection_regions": 0
+  },
+  "checks": {
+    "node_focused_tests": 11,
+    "browser_interaction_QA": "not run",
+    "native_iOS_QA": "not run",
+    "offline_renderer": "shared Canvas scene",
+    "source_time_alignment": "playlist offset plus source frame count; approximate absolute keynote time"
+  }
+}

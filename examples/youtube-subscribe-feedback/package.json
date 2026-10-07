@@ -1,0 +1,18 @@
+{
+  "name": "youtube-subscribe-feedback-study",
+  "version": "2.0.1",
+  "private": true,
+  "description": "Independent YouTube 2025 red–magenta subscribe feedback motion study; entirely simulated and local",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "render": "node render.mjs"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.100"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

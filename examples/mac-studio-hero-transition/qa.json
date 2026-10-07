@@ -1,0 +1,30 @@
+{
+  "scene": "05-hero",
+  "tests": [
+    {
+      "name": "UMD API, finite state, and clamped progress",
+      "passed": true
+    },
+    {
+      "name": "Reverse seeking recreates identical pixels",
+      "passed": true
+    },
+    {
+      "name": "Responsive renders at 390×844, 900×576, 1440×900",
+      "passed": true
+    },
+    {
+      "name": "Source mechanism endpoints and stagger bounds",
+      "passed": true
+    },
+    {
+      "name": "Browser adapter seek, scroll resume, reset, repeat and destroy (DOM harness)",
+      "passed": true
+    },
+    {
+      "name": "Reduced-motion static fallback and manual inspection (DOM harness)",
+      "passed": true
+    }
+  ],
+  "limits": "Offline Canvas2D and DOM harness verification. Browser/physical-device QA was not run."
+}

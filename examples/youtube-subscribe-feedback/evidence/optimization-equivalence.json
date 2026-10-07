@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-10-07",
+  "scope": "Source-local normal timeline before/after adapter optimization; offline Canvas, not browser QA",
+  "frameCount": 162,
+  "fps": 30,
+  "width": 720,
+  "height": 720,
+  "frameBytesEqual": true,
+  "oldSequenceSha256": "e4e4cc8271e1a2c3ff875336307fa09ac7590e938604a93a6cd7d7961fdbb3a2",
+  "newSequenceSha256": "e4e4cc8271e1a2c3ff875336307fa09ac7590e938604a93a6cd7d7961fdbb3a2",
+  "gifSha256": "4c60021e521e217c5d5dbfe360666bdb20868d888af1a042efb30dec2cce19c2",
+  "limitations": "Same-runtime pixel equivalence; no new browser or reference-pixel fidelity claim."
+}

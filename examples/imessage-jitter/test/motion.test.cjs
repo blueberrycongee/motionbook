@@ -1,0 +1,17 @@
+'use strict';
+const {test} = require('node:test'), assert = require('node:assert/strict');
+const M = require('../src/motion.js'), S = require('../src/scene.js');
+const {createCanvas,GlobalFonts}=require('@napi-rs/canvas');
+const path=require('node:path');GlobalFonts.registerFromPath(path.join(__dirname,'../assets/Inter-Regular.ttf'),'Jitter Sans');
+test('graphemes preserve emoji sequences, accents, and spaces',()=>{assert.equal(M.graphemes('a👨‍👩‍👧‍👦é z').length,5);assert.equal(M.graphemes('hello\nworld').join(''),'hello world');});
+test('reference slots preserve coordinated baseline tilt and bounded motion',()=>{let distinct=false;for(let t=.1;t<2;t+=.017){const a=M.pose(0,t),b=M.pose(7,t);distinct ||= Math.abs(a.y-b.y)>.3;for(let i=0;i<8;i++){const p=M.pose(i,t);assert.ok(Math.abs(p.x)<10&&Math.abs(p.y)<10&&Math.abs(p.rotation)<.2);}}assert.ok(distinct);});
+test('rest endpoints, invalid times and reduced motion are identity',()=>{for(const t of [-1,0,M.DURATION,100,NaN,Infinity])assert.deepEqual(M.pose(2,t),{x:0,y:0,rotation:0});for(let t=0;t<3;t+=.1)assert.deepEqual(M.pose(2,t,21,true),{x:0,y:0,rotation:0});});
+test('font scaling preserves angle and scales displacement',()=>{const a=M.pose(4,.7,35),b=M.pose(4,.7,70);assert.equal(b.x,2*a.x);assert.equal(b.y,2*a.y);assert.equal(b.rotation,a.rotation);});
+test('replay replaces epoch and never compounds transforms',()=>{const c=new M.Controller();c.replay(100);assert.equal(c.sample(900),.8);const a=M.pose(3,c.sample(900));c.replay(1000);assert.equal(c.sample(1000),0);assert.deepEqual(M.pose(3,c.sample(1800)),a);assert.equal(c.generation,2);});
+test('pause/resume and interruption preserve elapsed time',()=>{const c=new M.Controller();c.replay(10);c.pause(510);assert.equal(c.sample(3000),.5);c.resume(4000);assert.equal(c.sample(4500),1);c.cancel();assert.equal(c.sample(5000),0);assert.equal(c.playing,false);});
+test('enabling reduced motion immediately cancels in-flight animation',()=>{const c=new M.Controller();c.replay(0);c.sample(450);c.setReducedMotion(true);assert.equal(c.sample(600),0);c.replay(800);assert.equal(c.playing,false);c.setReducedMotion(false);assert.equal(c.playing,false);});
+test('completion remains still until explicit replay',()=>{const c=new M.Controller();c.replay(0);assert.equal(c.sample(4000),M.DURATION);assert.equal(c.playing,false);assert.equal(c.sample(8000),M.DURATION);});
+test('word layout is independent of animation and preserves advance widths',()=>{const measure=(s,f)=>s===' '?f*.3:f*.6;const l=M.layout('wiggling',measure,{fontSize:21,maxWidth:100});assert.equal(l.width,100);for(let i=1;i<l.glyphs.length;i++)assert.equal(l.glyphs[i].x,l.glyphs[i-1].x+l.glyphs[i-1].width);assert.equal(M.layout('',measure).width,0);assert.ok(M.layout('界'.repeat(240),measure).width<=330);});
+test('shared scene is deterministic, reduced motion pixel-stable',()=>{const c=createCanvas(S.W,S.H),ctx=c.getContext('2d');S.draw(ctx,{seconds:.4,reducedMotion:true});const a=c.toBuffer('image/png');S.draw(ctx,{seconds:1.1,reducedMotion:true});assert.deepEqual(c.toBuffer('image/png'),a);S.draw(ctx,{seconds:.7});assert.notDeepEqual(c.toBuffer('image/png'),a);S.draw(ctx,{seconds:0});const b=c.toBuffer('image/png');S.draw(ctx,{seconds:M.DURATION});assert.deepEqual(c.toBuffer('image/png'),b);});
+
+test("glyph positions obey the measured shared rotation",()=>{const a=M.glyphPose(-40,.5),b=M.glyphPose(40,.5);assert.equal(a.rotation,b.rotation);assert.ok(Math.abs((b.y-a.y)-Math.sin(a.rotation)*80)<1e-12);});

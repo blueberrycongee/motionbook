@@ -1,0 +1,15 @@
+{
+  "name": "cc0-monster-milestone",
+  "version": "2.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/test.mjs",
+    "render": "node scripts/render.mjs",
+    "serve": "python3 -m http.server 8000"
+  },
+  "devDependencies": {
+    "sharp": "0.35.4"
+  },
+  "description": "Original Little Wins celebration using actual Kenney CC0 monster components"
+}

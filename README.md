@@ -92,4 +92,28 @@ UI animations & micro-interactions recreated in code, with GIF previews. UI 动�
     <td align="center" width="33%"><a href="examples/fractional-slider/README.md"><img src="examples/fractional-slider/preview/loop.gif" width="200" alt="Fractional slider"></a><br><a href="examples/fractional-slider/README.md">Fractional slider</a></td>
     <td align="center" width="33%"><a href="examples/automation-manager/README.md"><img src="examples/automation-manager/preview/native-automation-workflow.gif" width="200" alt="Automation manager"></a><br><a href="examples/automation-manager/README.md">Automation manager</a></td>
   </tr>
+  <tr>
+    <td align="center" width="33%"><a href="examples/apple-music-player/README.md"><img src="examples/apple-music-player/preview/loop.gif" width="200" alt="Apple Music Player"></a><br><a href="examples/apple-music-player/README.md">Apple Music Player</a></td>
+    <td align="center" width="33%"><a href="examples/things-magic-plus/README.md"><img src="examples/things-magic-plus/preview/loop.gif" width="200" alt="Things Magic Plus"></a><br><a href="examples/things-magic-plus/README.md">Things Magic Plus</a></td>
+    <td align="center" width="33%"><a href="examples/cc0-monster-milestone/README.md"><img src="examples/cc0-monster-milestone/preview.gif" width="200" alt="Little Wins · CC0 monster milestone"></a><br><a href="examples/cc0-monster-milestone/README.md">Little Wins · CC0 monster milestone</a></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><a href="examples/telegram-media-spoiler/README.md"><img src="examples/telegram-media-spoiler/preview/telegram-media-spoiler.gif" width="200" alt="Telegram Media Spoiler"></a><br><a href="examples/telegram-media-spoiler/README.md">Telegram Media Spoiler</a></td>
+    <td align="center" width="33%"><a href="examples/imessage-jitter/README.md"><img src="examples/imessage-jitter/preview/jitter.gif" width="200" alt="iMessage Jitter"></a><br><a href="examples/imessage-jitter/README.md">iMessage Jitter</a></td>
+    <td align="center" width="33%"><a href="examples/youtube-subscribe-feedback/README.md"><img src="examples/youtube-subscribe-feedback/output/07-youtube-subscribe-demo.gif" width="200" alt="YouTube subscribe feedback"></a><br><a href="examples/youtube-subscribe-feedback/README.md">YouTube subscribe feedback</a></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><a href="examples/circle-to-search/README.md"><img src="examples/circle-to-search/preview/Circle-to-Search-原速.gif" width="200" alt="Circle to Search"></a><br><a href="examples/circle-to-search/README.md">Circle to Search</a></td>
+    <td align="center" width="33%"><a href="examples/mac-studio-turntable/README.md"><img src="examples/mac-studio-turntable/preview/loop.gif" width="200" alt="Mac Studio turntable"></a><br><a href="examples/mac-studio-turntable/README.md">Mac Studio turntable</a></td>
+    <td align="center" width="33%"><a href="examples/mac-studio-layered-assembly/README.md"><img src="examples/mac-studio-layered-assembly/preview/loop.gif" width="200" alt="Mac Studio layered assembly"></a><br><a href="examples/mac-studio-layered-assembly/README.md">Mac Studio layered assembly</a></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><a href="examples/mac-studio-benchmark-tabs/README.md"><img src="examples/mac-studio-benchmark-tabs/preview/loop.gif" width="200" alt="Mac Studio benchmark tabs"></a><br><a href="examples/mac-studio-benchmark-tabs/README.md">Mac Studio benchmark tabs</a></td>
+    <td align="center" width="33%"><a href="examples/mac-studio-scroll-relay/README.md"><img src="examples/mac-studio-scroll-relay/preview/loop.gif" width="200" alt="Mac Studio scroll relay"></a><br><a href="examples/mac-studio-scroll-relay/README.md">Mac Studio scroll relay</a></td>
+    <td align="center" width="33%"><a href="examples/mac-studio-hero-transition/README.md"><img src="examples/mac-studio-hero-transition/preview/loop.gif" width="200" alt="Mac Studio hero transition"></a><br><a href="examples/mac-studio-hero-transition/README.md">Mac Studio hero transition</a></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><a href="examples/mac-studio-parallax-features/README.md"><img src="examples/mac-studio-parallax-features/preview/loop.gif" width="200" alt="Mac Studio parallax features"></a><br><a href="examples/mac-studio-parallax-features/README.md">Mac Studio parallax features</a></td>
+    <td align="center" width="33%"><a href="examples/mac-studio-crossfade-gallery/README.md"><img src="examples/mac-studio-crossfade-gallery/preview/loop.gif" width="200" alt="Mac Studio crossfade gallery"></a><br><a href="examples/mac-studio-crossfade-gallery/README.md">Mac Studio crossfade gallery</a></td>
+  </tr>
 </table>

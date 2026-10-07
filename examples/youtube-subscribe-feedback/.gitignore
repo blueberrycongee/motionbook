@@ -1,0 +1,4 @@
+node_modules/
+output/frames/
+output/comparison/
+reference/frames/

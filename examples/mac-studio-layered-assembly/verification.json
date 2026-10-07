@@ -1,0 +1,20 @@
+{
+  "scene": "02-assembly",
+  "syntax": "loaded",
+  "reversePixelIdentity": true,
+  "responsiveRenderSizes": [
+    "390×620",
+    "900×560",
+    "1440×800"
+  ],
+  "domMockChecks": [
+    "seek",
+    "range input",
+    "reset",
+    "play completion",
+    "reverse scroll",
+    "reduced motion",
+    "destroy"
+  ],
+  "browserQA": "not run; offline Canvas and DOM-harness checks only"
+}

@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-07",
+  "scope": "Jitter adapter-only change; shared rendering inputs remain byte-identical",
+  "files": [
+    {
+      "path": "src/motion.js",
+      "sha256": "d00008e9fdaca909f78a15fc0dffc300211f0c8de0f8ef5ae42a4303ce8b73cd"
+    },
+    {
+      "path": "src/scene.js",
+      "sha256": "c0df443289f61e45cd672adccd04f1519e759da669785b8ed7f31fa3f79b0fdc"
+    },
+    {
+      "path": "src/tracks.js",
+      "sha256": "f1ce02ebb864135b559d3c9ac8674c06d59d32ca613d0621f2b3ce1f073864f4"
+    }
+  ],
+  "gifSha256": "448c6b9e95996249724e250e4692dcb9dfbab2b6997e788915e772970f2cedc7",
+  "mp4Sha256": "b7580e1ea54773f1ece22e375bcdb8ad8a9a13e2b2b477b733b2c1917fea6f42"
+}

@@ -1,0 +1,83 @@
+{
+  "pack": "Kenney Monster Builder Pack 1.0",
+  "creator": "Kenney",
+  "source_url": "https://kenney.nl/assets/monster-builder-pack",
+  "download_url": "https://kenney.nl/media/pages/assets/monster-builder-pack/663e4ef6de-1677495438/kenney_monster-builder-pack.zip",
+  "archive_sha256": "6e64b7979499c7465f0ce1abfdde91db057875bda50ece61b47aa0c0005dd566",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "adaptations": "SVG color filters, compositing, joints, pose transforms, facial expression staging; original PNG bytes retained",
+  "files": [
+    {
+      "filename": "body_whiteA.png",
+      "source_path": "PNG/Double/body_whiteA.png",
+      "sha256": "7b105f724c8859142a92e027cecb73f4c60a2289a37d78b314579a3bb1958c3e",
+      "width": 330,
+      "height": 330,
+      "license": "CC0 1.0",
+      "modified_source_bytes": false
+    },
+    {
+      "filename": "arm_whiteB.png",
+      "source_path": "PNG/Double/arm_whiteB.png",
+      "sha256": "ed6cff1859ee77cb9509fb07aa8397e2d22f37530747b279a22fd49c826ba215",
+      "width": 102,
+      "height": 322,
+      "license": "CC0 1.0",
+      "modified_source_bytes": false
+    },
+    {
+      "filename": "leg_whiteD.png",
+      "source_path": "PNG/Double/leg_whiteD.png",
+      "sha256": "84d1907df68f03af1ea0941d88ee123f44a710bd763e8071bc90969422e3382b",
+      "width": 142,
+      "height": 244,
+      "license": "CC0 1.0",
+      "modified_source_bytes": false
+    },
+    {
+      "filename": "detail_white_horn_large.png",
+      "source_path": "PNG/Double/detail_white_horn_large.png",
+      "sha256": "f2145c2e8be9297eee8da9550940df96c06b850b6da75d40e4f770ec4b27865b",
+      "width": 80,
+      "height": 84,
+      "license": "CC0 1.0",
+      "modified_source_bytes": false
+    },
+    {
+      "filename": "eye_closed_happy.png",
+      "source_path": "PNG/Double/eye_closed_happy.png",
+      "sha256": "ddfb35f6ada6e81ce0166b48df06f531655c0e1597e87a502e47d8ed7b30313f",
+      "width": 84,
+      "height": 36,
+      "license": "CC0 1.0",
+      "modified_source_bytes": false
+    },
+    {
+      "filename": "mouth_closed_happy.png",
+      "source_path": "PNG/Double/mouth_closed_happy.png",
+      "sha256": "87e081751c9d0a9fd36c389215bf86ffaa394b5dc5ac0bb6f4944884fa7bc120",
+      "width": 160,
+      "height": 48,
+      "license": "CC0 1.0",
+      "modified_source_bytes": false
+    },
+    {
+      "filename": "mouthB.png",
+      "source_path": "PNG/Double/mouthB.png",
+      "sha256": "a445cbcf7161eb7804358194f3b95c7f68e44ef937361f6f6bbc43600be6a5bf",
+      "width": 140,
+      "height": 68,
+      "license": "CC0 1.0",
+      "modified_source_bytes": false
+    },
+    {
+      "filename": "eye_cute_light.png",
+      "source_path": "PNG/Double/eye_cute_light.png",
+      "sha256": "a68a1f71e1eef32015078bd070025ae01b9aa57b07b363f80ebce7b456c6797b",
+      "width": 128,
+      "height": 138,
+      "license": "CC0 1.0",
+      "modified_source_bytes": false
+    }
+  ]
+}

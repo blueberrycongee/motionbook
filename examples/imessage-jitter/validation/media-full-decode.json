@@ -1,0 +1,27 @@
+[
+  {
+    "file": "preview/jitter.gif",
+    "sha256": "448c6b9e95996249724e250e4692dcb9dfbab2b6997e788915e772970f2cedc7",
+    "bytes": 241861,
+    "width": 800,
+    "height": 880,
+    "r_frame_rate": "50/1",
+    "duration": "4.500000",
+    "nb_read_frames": "225",
+    "gif_decoded_frames": 225,
+    "gif_duration_ms": 4500,
+    "gif_delays_ms": [
+      20
+    ]
+  },
+  {
+    "file": "preview/jitter.mp4",
+    "sha256": "b7580e1ea54773f1ece22e375bcdb8ad8a9a13e2b2b477b733b2c1917fea6f42",
+    "bytes": 107741,
+    "width": 800,
+    "height": 880,
+    "r_frame_rate": "60/1",
+    "duration": "4.500000",
+    "nb_read_frames": "270"
+  }
+]

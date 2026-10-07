@@ -1,0 +1,23 @@
+✔ DOM wiring: activation, reset, replay, preference change and protected native keyboard (11.408068ms)
+✔ new reference hint: white becomes dark with branded rim, then resets (2.423759ms)
+✔ new activation timing: color sweep precedes label swap, ends in narrower bell pill (0.667505ms)
+✔ bell has a decaying motion and eventually settles (0.303016ms)
+✔ new reward colors and particles remain in red/magenta palette (0.468565ms)
+✔ rapid click is idempotent and never queues rewards (0.301054ms)
+✔ manual early click survives scheduled click without second activation (0.163887ms)
+✔ replay cancels old confirmation; reset cancels auto cue and click (0.242966ms)
+✔ reset during every phase leaves no stale particles or bell motion (0.355085ms)
+✔ reduced motion: static cue and immediate final confirmation (0.241114ms)
+✔ mid-reward reduced-motion change snaps to final state (0.331699ms)
+✔ deterministic particles and rewind protection (0.712223ms)
+✔ shortcuts avoid native activation and editable content (0.241393ms)
+✔ manual cue restarts hint but cannot change subscription (0.226501ms)
+✔ shared normal timeline completes the red-magenta sequence (1.067367ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 437.598476

@@ -1,0 +1,26 @@
+✔ completion announces Replay and restart owns one RAF (4.552783ms)
+✔ pause/resume labels reflect controller state (2.357598ms)
+✔ preference changes disable playback and restore a labelled stopped state (1.19587ms)
+✔ hidden playback pauses without elapsed jump and restores playback (1.068859ms)
+✔ pagehide and persisted restoration synchronize cancelled playback (1.071753ms)
+✔ rapid replay and word input keep one chain (9.655272ms)
+✔ reduced-motion cancellation while hidden cannot auto-resume after preference reversal (1.072594ms)
+✔ graphemes preserve emoji sequences, accents, and spaces (10.114264ms)
+✔ reference slots preserve coordinated baseline tilt and bounded motion (2.820204ms)
+✔ rest endpoints, invalid times and reduced motion are identity (0.92996ms)
+✔ font scaling preserves angle and scales displacement (0.157186ms)
+✔ replay replaces epoch and never compounds transforms (0.484288ms)
+✔ pause/resume and interruption preserve elapsed time (0.174423ms)
+✔ enabling reduced motion immediately cancels in-flight animation (0.179641ms)
+✔ completion remains still until explicit replay (0.108023ms)
+✔ word layout is independent of animation and preserves advance widths (0.73738ms)
+✔ shared scene is deterministic, reduced motion pixel-stable (174.13231ms)
+✔ glyph positions obey the measured shared rotation (0.260372ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 602.324768

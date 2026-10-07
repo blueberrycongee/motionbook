@@ -1,0 +1,17 @@
+{
+  "name": "apple-music-player-motion-study",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Independent frame-calibrated WWDC22 Music player motion study, original artwork",
+  "scripts": {
+    "start": "node src/server.cjs",
+    "test": "node --test test/*.test.cjs",
+    "render": "node tools/render.cjs"
+  },
+  "devDependencies": {
+    "sharp": "0.35.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "method": "Largest connected region below luminance 235 in product area; approximate silhouette comparison, not image similarity. Bright reflections can split metallic silhouettes.",
+  "samples": [
+    {
+      "fraction": 0,
+      "source_gif_frame": 0,
+      "note": "Equal captured frame fraction, not guaranteed identical source scroll progress",
+      "measurements": [
+        {
+          "kind": "source",
+          "bbox_px": [
+            50,
+            94,
+            809,
+            464
+          ],
+          "center_normalized": [
+            0.4772,
+            0.4777
+          ],
+          "width_normalized": 0.8444
+        },
+        {
+          "kind": "reconstruction",
+          "bbox_px": [
+            49,
+            101,
+            809,
+            464
+          ],
+          "center_normalized": [
+            0.4767,
+            0.4837
+          ],
+          "width_normalized": 0.8456
+        }
+      ]
+    },
+    {
+      "fraction": 0.25,
+      "source_gif_frame": 9,
+      "note": "Equal captured frame fraction, not guaranteed identical source scroll progress",
+      "measurements": [
+        {
+          "kind": "source",
+          "bbox_px": [
+            50,
+            94,
+            809,
+            464
+          ],
+          "center_normalized": [
+            0.4772,
+            0.4777
+          ],
+          "width_normalized": 0.8444
+        },
+        {
+          "kind": "reconstruction",
+          "bbox_px": [
+            49,
+            101,
+            809,
+            464
+          ],
+          "center_normalized": [
+            0.4767,
+            0.4837
+          ],
+          "width_normalized": 0.8456
+        }
+      ]
+    },
+    {
+      "fraction": 0.5,
+      "source_gif_frame": 18,
+      "note": "Equal captured frame fraction, not guaranteed identical source scroll progress",
+      "measurements": [
+        {
+          "kind": "source",
+          "bbox_px": [
+            50,
+            94,
+            809,
+            464
+          ],
+          "center_normalized": [
+            0.4772,
+            0.4777
+          ],
+          "width_normalized": 0.8444
+        },
+        {
+          "kind": "reconstruction",
+          "bbox_px": [
+            49,
+            101,
+            809,
+            464
+          ],
+          "center_normalized": [
+            0.4767,
+            0.4837
+          ],
+          "width_normalized": 0.8456
+        }
+      ]
+    },
+    {
+      "fraction": 0.75,
+      "source_gif_frame": 28,
+      "note": "Equal captured frame fraction, not guaranteed identical source scroll progress",
+      "measurements": [
+        {
+          "kind": "source",
+          "bbox_px": [
+            50,
+            94,
+            809,
+            464
+          ],
+          "center_normalized": [
+            0.4772,
+            0.4777
+          ],
+          "width_normalized": 0.8444
+        },
+        {
+          "kind": "reconstruction",
+          "bbox_px": [
+            49,
+            95,
+            809,
+            464
+          ],
+          "center_normalized": [
+            0.4767,
+            0.4786
+          ],
+          "width_normalized": 0.8456
+        }
+      ]
+    },
+    {
+      "fraction": 1,
+      "source_gif_frame": 37,
+      "note": "Equal captured frame fraction, not guaranteed identical source scroll progress",
+      "measurements": [
+        {
+          "kind": "source",
+          "bbox_px": [
+            51,
+            63,
+            808,
+            433
+          ],
+          "center_normalized": [
+            0.4772,
+            0.4247
+          ],
+          "width_normalized": 0.8422
+        },
+        {
+          "kind": "reconstruction",
+          "bbox_px": [
+            49,
+            94,
+            809,
+            464
+          ],
+          "center_normalized": [
+            0.4767,
+            0.4777
+          ],
+          "width_normalized": 0.8456
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "telegram-media-spoiler-study",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent, source-measured media spoiler with deterministic particles and touch-origin reveal",
+  "scripts": {"start":"python3 -m http.server 8046", "test":"node --test tests/*.test.cjs", "render":"node tools/render.cjs", "build":"node tools/build-standalone.cjs"},
+  "devDependencies":{"@napi-rs/canvas":"0.1.100"}
+}

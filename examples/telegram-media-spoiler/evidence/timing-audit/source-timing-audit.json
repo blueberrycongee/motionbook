@@ -1,0 +1,160 @@
+{
+  "scope": "Independent read-only audit of delivered version 0 GIF and official 2022 Telegram promotional MP4; no current native-client verification",
+  "frame_numbering": "All n here are zero-based; source PTS = n/60. Earlier supplied evidence uses one-based PNG numbers.",
+  "source": {
+    "sha256": "a631d605ef712f4bc369060f55a49ed7b0afde28adafaf8e0d10a69d7ffc4e67",
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "duration_s": 9.5,
+    "frames": 570,
+    "fps": 60,
+    "pts_first": 0,
+    "pts_last": 9.483333,
+    "creation_time": "2022-12-30T11:21:20Z",
+    "cadence": "569 PTS gaps alternate rounded 16666/16667 microseconds, consistent with 1/60 s"
+  },
+  "delivered_v0_gif": {
+    "sha256": "3b8a918dcb7cce464744ecdb150ac2fedade82c637eafd84381d2e4cdb2956fd",
+    "dimensions": [
+      640,
+      810
+    ],
+    "duration_s": 3.6,
+    "frames": 108,
+    "loop": 0,
+    "delays_ms_counts": {
+      "30": 72,
+      "40": 36
+    },
+    "nominal_sampling_fps": 30,
+    "capture_type": "Deterministic offline sampling of shared JavaScript runtime, not browser screen recording",
+    "reveal_trigger_s": 1.3,
+    "runtime_nominal_reveal_ms": 180,
+    "first_visible_frame": 40,
+    "first_visible_pts_s": 1.33,
+    "first_visible_runtime_elapsed_ms": 33.333333,
+    "approximately_half_detail_pts_s": 1.37,
+    "ninety_percent_detail_reached_by_pts_s": 1.43,
+    "practically_full_pts_s": 1.47,
+    "runtime_terminal_frame": 45,
+    "runtime_terminal_pts_s": 1.5,
+    "nonterminal_visible_reveal_frames": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "exactly_static_clear_hold_s": [
+      1.5,
+      3.07
+    ],
+    "hard_reset_pts_s": 3.07,
+    "nominal_reset_threshold_s": 3.05,
+    "reset_is_animated": false,
+    "trailing_hidden_hold_s": 0.53,
+    "hidden_hold_across_loop_until_trigger_s": 1.83
+  },
+  "source_reveals": {
+    "first": {
+      "camera_or_presentation_motion": true,
+      "tutorial_marker_first_appearance_approx_pts_s": [
+        0.93,
+        0.98
+      ],
+      "actual_onset_uncertainty_pts_s": [
+        1.3,
+        1.333333
+      ],
+      "first_faint_candidate_frame": 79,
+      "first_confident_visible_frame": 80,
+      "first_confident_visible_pts_s": 1.333333,
+      "midpoint_recovered_detail_pts_s": [
+        1.466667,
+        1.483333
+      ],
+      "ninety_percent_recovered_detail_pts_s": [
+        1.516667,
+        1.533333
+      ],
+      "practically_clear_pts_s": [
+        1.55,
+        1.566667
+      ],
+      "visible_duration_from_confident_or_faint_onset_ms": [
+        217,
+        250
+      ],
+      "limitations": "First reveal includes changing bubble/media framing and slight residual scaling. Approximate similarity registration used for detail thresholds. Before enough photo appears, alignment is underconstrained. Promotional time-remapping cannot be excluded."
+    },
+    "second": {
+      "camera_or_presentation_motion": false,
+      "tutorial_marker_first_appearance_pts_s": [
+        7.116667,
+        7.133333
+      ],
+      "last_visually_hidden_frame": 452,
+      "last_visually_hidden_pts_s": 7.533333,
+      "first_visible_frame": 453,
+      "first_visible_pts_s": 7.55,
+      "midpoint_recovered_detail_pts_s": [
+        7.6,
+        7.616667
+      ],
+      "ninety_percent_recovered_detail_pts_s": [
+        7.65,
+        7.666667
+      ],
+      "practically_clear_pts_s": [
+        7.7,
+        7.733333
+      ],
+      "visible_duration_first_visible_to_practically_clear_ms": [
+        150,
+        183
+      ],
+      "onset_bracket_to_conservative_clear_ms": [
+        183,
+        200
+      ],
+      "limitations": "Tutorial ring overlaps image and fades through late reveal; exact terminal native-mask frame cannot be isolated. 180 ms is a reasonable approximation for this particular stationary segment, not a measured universal Telegram constant."
+    }
+  },
+  "conclusions": [
+    "No evidence of an encoding time-scale bug: delivered GIF delays total exactly the declared 3.600 s; 30/40 ms cadence is valid GIF centisecond quantization of 30 fps.",
+    "30 fps export loses the weak initial ramp: click aligns to a fully hidden sample and next sample occurs 33.333 ms later. Five visible intermediate samples make a short reveal look abrupt compared with source 60 fps.",
+    "Practically all recovered detail is visible by GIF 1.430 s, only 100 ms after first revealing frame; runtime terminal state is later. Nominal 180 ms should not be described as 180 ms of equally visible change.",
+    "First and second reveal segments in the official 2022 promotional video have different observed visible durations; the second alone underlies the existing 180 ms target.",
+    "White tutorial ring starts roughly 0.42 s before second reveal and must not be counted as product reveal duration.",
+    "GIF auto-loop and hard reset are preview choreography, not evidence of native Telegram behavior; hard reset may add a snap to the overall impression.",
+    "Neither this promotional MP4 nor the offline renderer verifies current native Telegram speed or actual browser playback scheduling."
+  ],
+  "pixel_method": {
+    "description": "Inspect native-frame crop contact sheets. Quantify photo-detail recovery by high-pass RGB regression against fully clear reference (Gaussian sigma5px), using 8px local aggregation and textured-pixel threshold. Cross-check full media against tutorial-annulus-excluded results. Register first reveal with small similarity transform because its presentation framing moves. Threshold intervals intentionally span sample uncertainty and metric variation. These are approximate recovered-photo-detail fractions, not literal percentage of native mask area or renderer alpha.",
+    "source_clear_reference_zero_based_frames": {
+      "first": 95,
+      "second": 480
+    },
+    "gif_reference_frame": 47,
+    "evidence": [
+      "source-pts.json",
+      "gif-timeline.json",
+      "pixel-metrics.json",
+      "pixel-metrics-all.json",
+      "first-aligned-metrics.json"
+    ],
+    "caution": "Unregistered first-reveal regression and annulus-excluded global means alone bias midpoint timing; use summary intervals backed by registered/full-crop and visual checks.",
+    "unbundledHistoricalEvidence": [
+      "gif-decoded-hashes.json",
+      "first-reveal-crops.jpg",
+      "second-reveal-crops.jpg",
+      "gif-reveal-crops.jpg",
+      "first-onset-center.jpg",
+      "first-marker.jpg",
+      "second-marker.jpg"
+    ]
+  },
+  "publicBundleNote": "Historical numeric audit, retained without original video, pixel crops, comparison media or version 0 GIF. These source measurements were not repeated for the public release."
+}

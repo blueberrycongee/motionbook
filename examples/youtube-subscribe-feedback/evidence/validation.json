@@ -1,0 +1,16 @@
+{
+  "rendering": "Shared JavaScript model and canvas functions rendered offline by @napi-rs/canvas; no browser QA",
+  "tests": 15,
+  "files": [
+    {
+      "file": "07-youtube-subscribe-demo.gif",
+      "width": 720,
+      "height": 720,
+      "decoded_frames": 162,
+      "duration_ms": 5400,
+      "unique_frames": 162,
+      "bytes": 191863,
+      "sha256": "4c60021e521e217c5d5dbfe360666bdb20868d888af1a042efb30dec2cce19c2"
+    }
+  ]
+}

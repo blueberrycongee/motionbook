@@ -1,0 +1,592 @@
+{
+  "description": "Frame-matched actual reference capture timing; original GIF endpoint padding retained. First six hidden text positions inferred from section boundary; later positions measured from white markers. Not a native constant-speed claim.",
+  "sourceCaptureDate": "2026-10-07",
+  "sourceFrameCount": 45,
+  "frames": [
+    {
+      "progress": 0.00089753,
+      "options": {
+        "time": 0.0,
+        "mediaTime": 0.0
+      },
+      "duration": 340,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 0,
+      "basis": "inferred from visible section boundary at137rawpx",
+      "sourceMarkerRaw": 710.016032
+    },
+    {
+      "progress": 0.00089753,
+      "options": {
+        "time": 0.08,
+        "mediaTime": 0.08
+      },
+      "duration": 80,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 1,
+      "basis": "inferred from visible section boundary at137rawpx",
+      "sourceMarkerRaw": 710.016032
+    },
+    {
+      "progress": 0.04730893,
+      "options": {
+        "time": 0.17,
+        "mediaTime": 0.17
+      },
+      "duration": 80,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 2,
+      "basis": "inferred from visible section boundary at77rawpx",
+      "sourceMarkerRaw": 603.750591
+    },
+    {
+      "progress": 0.04730893,
+      "options": {
+        "time": 0.249,
+        "mediaTime": 0.249
+      },
+      "duration": 70,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 3,
+      "basis": "inferred from visible section boundary at77rawpx",
+      "sourceMarkerRaw": 603.750591
+    },
+    {
+      "progress": 0.09298023,
+      "options": {
+        "time": 0.318,
+        "mediaTime": 0.318
+      },
+      "duration": 80,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 4,
+      "basis": "inferred one nominal0.04H step before measured frame6",
+      "sourceMarkerRaw": 499.179722
+    },
+    {
+      "progress": 0.09298023,
+      "options": {
+        "time": 0.4015,
+        "mediaTime": 0.4015
+      },
+      "duration": 100,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 5,
+      "basis": "inferred one nominal0.04H step before measured frame6",
+      "sourceMarkerRaw": 499.179722
+    },
+    {
+      "progress": 0.11621687,
+      "options": {
+        "time": 0.5055,
+        "mediaTime": 0.5055
+      },
+      "duration": 100,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 6,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 458.059363
+    },
+    {
+      "progress": 0.13932153,
+      "options": {
+        "time": 0.6085,
+        "mediaTime": 0.6085
+      },
+      "duration": 120,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 7,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 435.027369
+    },
+    {
+      "progress": 0.16284359,
+      "options": {
+        "time": 0.712,
+        "mediaTime": 0.712
+      },
+      "duration": 60,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 8,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 411.579283
+    },
+    {
+      "progress": 0.18557023,
+      "options": {
+        "time": 0.7785,
+        "mediaTime": 0.7785
+      },
+      "duration": 70,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 9,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 388.924115
+    },
+    {
+      "progress": 0.20954611,
+      "options": {
+        "time": 0.844,
+        "mediaTime": 0.844
+      },
+      "duration": 90,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 10,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 365.02364
+    },
+    {
+      "progress": 0.23244489,
+      "options": {
+        "time": 0.9345,
+        "mediaTime": 0.9345
+      },
+      "duration": 80,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 11,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 342.196876
+    },
+    {
+      "progress": 0.25575641,
+      "options": {
+        "time": 1.013,
+        "mediaTime": 1.013
+      },
+      "duration": 70,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 12,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 318.958662
+    },
+    {
+      "progress": 0.27887618,
+      "options": {
+        "time": 1.0805,
+        "mediaTime": 1.0805
+      },
+      "duration": 80,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 13,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 295.911601
+    },
+    {
+      "progress": 0.30190718,
+      "options": {
+        "time": 1.17,
+        "mediaTime": 1.17
+      },
+      "duration": 100,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 14,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 272.95304
+    },
+    {
+      "progress": 0.34824382,
+      "options": {
+        "time": 1.2805,
+        "mediaTime": 1.2805
+      },
+      "duration": 120,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 15,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 226.762124
+    },
+    {
+      "progress": 0.3482458,
+      "options": {
+        "time": 1.3835,
+        "mediaTime": 1.3835
+      },
+      "duration": 80,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 16,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 226.760145
+    },
+    {
+      "progress": 0.3721329,
+      "options": {
+        "time": 1.4685,
+        "mediaTime": 1.4685
+      },
+      "duration": 80,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 17,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 202.948169
+    },
+    {
+      "progress": 0.39474779,
+      "options": {
+        "time": 1.5485,
+        "mediaTime": 1.5485
+      },
+      "duration": 90,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 18,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 180.404406
+    },
+    {
+      "progress": 0.41838359,
+      "options": {
+        "time": 1.639,
+        "mediaTime": 1.639
+      },
+      "duration": 100,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 19,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 156.842937
+    },
+    {
+      "progress": 0.44157237,
+      "options": {
+        "time": 1.733,
+        "mediaTime": 1.733
+      },
+      "duration": 90,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 20,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 133.727085
+    },
+    {
+      "progress": 0.48772466,
+      "options": {
+        "time": 1.8405,
+        "mediaTime": 1.8405
+      },
+      "duration": 120,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 21,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 87.719941
+    },
+    {
+      "progress": 0.48780351,
+      "options": {
+        "time": 1.952,
+        "mediaTime": 1.952
+      },
+      "duration": 90,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 22,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 87.641334
+    },
+    {
+      "progress": 0.51111992,
+      "options": {
+        "time": 2.0315,
+        "mediaTime": 2.0315
+      },
+      "duration": 80,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 23,
+      "basis": "pixel edge",
+      "sourceMarkerRaw": 64.39825
+    },
+    {
+      "progress": 0.53441282,
+      "options": {
+        "time": 2.1185,
+        "mediaTime": 2.1185
+      },
+      "duration": 80,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 24,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": 41.178604
+    },
+    {
+      "progress": 0.55765252,
+      "options": {
+        "time": 2.1975,
+        "mediaTime": 2.1975
+      },
+      "duration": 70,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 25,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": 18.011996
+    },
+    {
+      "progress": 0.58118328,
+      "options": {
+        "time": 2.263,
+        "mediaTime": 2.263
+      },
+      "duration": 70,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 26,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -5.444765
+    },
+    {
+      "progress": 0.60399344,
+      "options": {
+        "time": 2.3295,
+        "mediaTime": 2.3295
+      },
+      "duration": 60,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 27,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -28.183181
+    },
+    {
+      "progress": 0.62779702,
+      "options": {
+        "time": 2.3965,
+        "mediaTime": 2.3965
+      },
+      "duration": 70,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 28,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -51.911909
+    },
+    {
+      "progress": 0.65050527,
+      "options": {
+        "time": 2.4645,
+        "mediaTime": 2.4645
+      },
+      "duration": 90,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 29,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -74.548737
+    },
+    {
+      "progress": 0.67366885,
+      "options": {
+        "time": 2.5545,
+        "mediaTime": 2.5545
+      },
+      "duration": 90,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 30,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -97.639477
+    },
+    {
+      "progress": 0.69731061,
+      "options": {
+        "time": 2.6525,
+        "mediaTime": 2.6525
+      },
+      "duration": 110,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 31,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -121.206881
+    },
+    {
+      "progress": 0.74383427,
+      "options": {
+        "time": 2.7635,
+        "mediaTime": 2.7635
+      },
+      "duration": 90,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 32,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -167.584232
+    },
+    {
+      "progress": 0.74385908,
+      "options": {
+        "time": 2.846,
+        "mediaTime": 2.846
+      },
+      "duration": 70,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 33,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -167.608963
+    },
+    {
+      "progress": 0.76658824,
+      "options": {
+        "time": 2.9165,
+        "mediaTime": 2.9165
+      },
+      "duration": 80,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 34,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -190.266642
+    },
+    {
+      "progress": 0.79054053,
+      "options": {
+        "time": 2.9985,
+        "mediaTime": 2.9985
+      },
+      "duration": 80,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 35,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -214.143604
+    },
+    {
+      "progress": 0.81347466,
+      "options": {
+        "time": 3.085,
+        "mediaTime": 3.085
+      },
+      "duration": 110,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 36,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -237.0056
+    },
+    {
+      "progress": 0.83674985,
+      "options": {
+        "time": 3.184,
+        "mediaTime": 3.184
+      },
+      "duration": 80,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 37,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -260.207592
+    },
+    {
+      "progress": 0.85979809,
+      "options": {
+        "time": 3.2615,
+        "mediaTime": 3.2615
+      },
+      "duration": 70,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 38,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -283.183351
+    },
+    {
+      "progress": 0.8824271,
+      "options": {
+        "time": 3.3305,
+        "mediaTime": 3.3305
+      },
+      "duration": 60,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 39,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -305.741192
+    },
+    {
+      "progress": 0.90633389,
+      "options": {
+        "time": 3.395,
+        "mediaTime": 3.395
+      },
+      "duration": 70,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 40,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -329.572801
+    },
+    {
+      "progress": 0.92943305,
+      "options": {
+        "time": 3.4625,
+        "mediaTime": 3.4625
+      },
+      "duration": 60,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 41,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -352.599316
+    },
+    {
+      "progress": 0.95268382,
+      "options": {
+        "time": 3.527,
+        "mediaTime": 3.527
+      },
+      "duration": 70,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 42,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -375.776958
+    },
+    {
+      "progress": 0.97563542,
+      "options": {
+        "time": 3.5935,
+        "mediaTime": 3.5935
+      },
+      "duration": 70,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 43,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -398.65638
+    },
+    {
+      "progress": 0.99962344,
+      "options": {
+        "time": 3.662,
+        "mediaTime": 3.662
+      },
+      "duration": 600,
+      "width": 900,
+      "height": 536,
+      "sourceFrame": 44,
+      "basis": "pixel edge minus exact CSS row pitch at stated scale",
+      "sourceMarkerRaw": -422.568955
+    }
+  ]
+}

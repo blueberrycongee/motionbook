@@ -1,0 +1,7 @@
+Historical version-0 audit assertions, retained as numeric evidence. Not rerun for this public release; version-0 GIF is excluded.
+
+PASS: 108 frames / 3600 ms exact GIF duration
+PASS: first visible shared-runtime center alpha 82–83%
+PASS: proposed 50 fps phased first center alpha 12–14%
+PASS: center preview mean-clear thresholds no faster than source-calibrated geometry
+PASS: decoded GIF full-color media and shared-runtime RGB MAE below 2/255 at frames 40,41,42

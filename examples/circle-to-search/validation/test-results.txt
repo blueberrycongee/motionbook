@@ -1,0 +1,42 @@
+✔ adapter has no idle RAF and initializes accessible status (6.212084ms)
+✔ keyboard select, escape, focus exclusion, and ignored key-repeat (3.220243ms)
+✔ actual pointer adapter converts responsive coordinates, captures, selects, repeats (32.820209ms)
+✔ pointercancel, lost capture, and Escape cannot release stale selection (4.804814ms)
+✔ new pointer drawing interrupts source replay with one live frame at most (2.791744ms)
+✔ reverse preserves current phase and scrub cancels scheduled replay (4.215848ms)
+✔ reduced motion and live OS changes cancel motion; dismissal is truly idle (2.785594ms)
+✔ visibility pauses playback and resumes without elapsed background jump (1.615012ms)
+✔ manual reduced preference survives system preference cycle (1.853831ms)
+✔ 2026 default selects outfit and profile switch exposes historical timing (1.690566ms)
+✔ 2026 source pointer path selects outfit through responsive adapter (5.634534ms)
+✔ 2026 reduced motion stays instant after reference switch (0.961398ms)
+✔ Gaussian kernel normalized; convolution preserves constant light and softens an impulse (8.642473ms)
+✔ 2026 fades trace before the separate box appears; brightness and scale settle separately (4.012131ms)
+✔ sharp aperture keeps all inner pixel edges unchanged (46.899984ms)
+✔ outside dims but does not invent full-screen Gaussian blur (30.385672ms)
+✔ halo has spatially decaying energy over tens of pixels, not just a bright outline (72.058592ms)
+✔ four-color halo matches observed corner order (29.518046ms)
+✔ effect never paints outside the rounded screen boundary (30.445542ms)
+✔ trace halo produces actual extra pixels and pointer aura is independent (44.719506ms)
+✔ current local outfit selection, repeat, reverse, cancel, and reduced motion (1.380168ms)
+✔ both source modes and shared renderer are deterministically replayable (260.722518ms)
+✔ first observed box frame uses exact rational source PTS, no rounded-literal delay (0.77706ms)
+✔ first box frame has a gradual exterior veil and glow, not settled intensity (0.201553ms)
+✔ source PTS endpoints, ordered sheet rise and finite measured geometry (14.609833ms)
+✔ freehand polygon selects sunglasses and a distinct tote locally (2.282897ms)
+✔ tiny strokes, open paths, overbroad loops and taps do not invent results (0.376958ms)
+✔ repeat 30 selections and cancels without stale result state (1.48076ms)
+✔ reversal is continuous at the call boundary and reaches both endpoints (1.293999ms)
+✔ cancel while drawing clears path and cannot later release a stale result (0.169615ms)
+✔ reduced motion snaps, prevents replay, and accepts pointer selection (0.33826ms)
+✔ source replay and scrub remain separate from interactive extensions (0.729869ms)
+✔ responsive coordinate conversion preserves circle positions at 280, 350, 400, 600px (0.45165ms)
+✔ deterministic replay, finite zero-length resampling, and input caps (5.178246ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 993.022471
