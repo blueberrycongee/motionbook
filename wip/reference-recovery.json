@@ -1,0 +1,29 @@
+{
+  "checked_on": "2026-10-07",
+  "records": [
+    {
+      "reference": "radial",
+      "url": "https://cdn.rauno.me/radial-menu-3.mp4",
+      "http_status": 200,
+      "sha256": "b20ef592ea7f66e0d9e08f65588f4ca57481a00785cb683d38472fd479d17a9e",
+      "matches_historical_hash": true,
+      "width": 1920,
+      "height": 862,
+      "decoded_video_frames": 595,
+      "new_visual_review": false
+    },
+    {
+      "reference": "airport",
+      "url": "https://media.inspora.design/posts/c7d90752-8adc-4c58-889f-8c233a7bd87b.mp4",
+      "http_status": 200,
+      "sha256": "e42426cde53e80a68d77cb0fe676aae0b81d23469e8a61df505bec92906f8153",
+      "matches_historical_hash": true,
+      "width": 1728,
+      "height": 1080,
+      "decoded_video_frames": 1094,
+      "new_visual_review": false
+    }
+  ],
+  "distribution": "Reference bytes are retained outside this repository. No source media is redistributed.",
+  "remaining": "Frame calibration, missing implementation, runtime interaction and visual acceptance remain open."
+}
