@@ -21,6 +21,8 @@ python3 skills/motionbook/scripts/search.py "slider" --fit everyday
 
 维护者编辑 `skills/motionbook/references/catalog.json` 后运行 `python3 scripts/catalog.py`；`python3 scripts/catalog.py --check` 检查全库覆盖与链接。
 
+Skill 按“找参考 / 拆解效果 / 集成实现”区分交付范围。拆解和集成使用简短的交互规格，明确状态、输入、动效依据与验证场景。维护者可用[固定评估任务](evals/motionbook/README.md)比较 Skill 修改前后的实际表现；评估材料不参与日常任务上下文。
+
 ## 预览画廊
 
 <table>
