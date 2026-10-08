@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>IN PHASE / 同相</title>
+<style>html,body{margin:0;background:#111}canvas{display:block}</style>
+</head>
+<body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="scene.js"></script>
+<script>
+  // Offline renderer calls window.renderFrame(t); open with ?t=5 to inspect a moment.
+  (async () => {
+    await Promise.all(['600 11px Inter', '500 11px Inter', '11px "DejaVu Sans Mono"',
+      '11px "Noto Sans CJK SC"', '300 30px "Noto Serif CJK SC"'].map(f => document.fonts.load(f, '同相混乱ABC')));
+    Scene.init(document.getElementById('c'));
+    window.renderFrame = (t, opts) => Scene.renderFrame(t, opts);
+    const q = new URLSearchParams(location.search).get('t');
+    if (q !== null) Scene.renderFrame(+q);
+    window.sceneReady = true;
+  })();
+</script>
+</body>
+</html>
