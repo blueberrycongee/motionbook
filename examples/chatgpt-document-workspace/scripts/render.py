@@ -17,7 +17,7 @@ actions = []
 for i in range(info['frames']):
     path = FRAMES / f'{i:04}'
     actions.append(f'file-open:{path}.svg;export-filename:{path}.png;export-width:1280;export-height:1180;export-do;file-close')
-for name, w, h in [('reference', 1280, 1180), ('wide', 1920, 1080), ('compact', 390, 844)]:
+for name, w, h in [('reference', 1280, 1180), ('wide', 1920, 1080), ('compact', 390, 844), ('focused', 1280, 1180), ('multiline', 1280, 1180)]:
     path = FRAMES / name
     actions.append(f'file-open:{path}.svg;export-filename:{OUT/name}.png;export-width:{w};export-height:{h};export-do;file-close')
 result = run(['inkscape', '--shell'], input='\n'.join(actions) + '\nquit\n', env=env, timeout=300)
@@ -37,6 +37,6 @@ for n, item in enumerate(chosen):
     with Image.open(FRAMES/f"{item['frame']:04}.png") as im: sheet.paste(im.convert('RGB').resize((320,295)), ((n%4)*320,(n//4)*315))
     draw.text(((n%4)*320+8, (n//4)*315+298), f"{item['t']:.2f}s", fill='#344137')
 sheet.save(OUT/'contact-sheet.png')
-manifest = {'kind':'Offline capture of the interactive app shared SVG renderer and reducer; NOT browser/input-device verification', 'renderer':'Inkscape', **info, 'gif_dimensions':[640,590], 'gif_fps':5, 'gif_playback_rate':0.5, 'gif_seconds':32, 'ui_timing_unchanged':True, 'gif_palette_colors':64, 'fixture_documents':'Original fictional content', 'native_textarea_verified_in_browser':False}
+manifest = {'kind':'Offline capture of the interactive app shared SVG renderer and reducer; NOT browser/input-device verification', 'renderer':'Inkscape', **info, 'gif_dimensions':[640,590], 'gif_fps':5, 'gif_playback_rate':0.5, 'gif_seconds':info['seconds'] * 2, 'ui_timing_unchanged':True, 'gif_palette_colors':64, 'fixture_documents':'Original fictional content', 'native_textarea_verified_in_browser':False}
 (OUT/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
 print(json.dumps(manifest,indent=2))

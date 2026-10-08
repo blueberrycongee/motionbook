@@ -1,10 +1,11 @@
 import { documents, fileIds } from './documents.mjs';
-import { layout, geometry, clamp, composerLayout } from './model.mjs';
+import { layout, geometry, clamp, composerLayout, sampleComposerLayout, conversationKey } from './model.mjs';
 export const escape = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const paths = {
   back: 'M15 5 8 12l7 7M8 12h13', next: 'm9 5 7 7-7 7M3 12h13',
   side: 'M5 4h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm4 0v16',
   split: 'M4 4h16v16H4Zm8 0v16', full: 'M9 4v5H4m11-5v5h5M4 15h5v5m6 0v-5h5',
+  minus: 'M6 12h12', grip: 'M9 6h.01M15 6h.01M9 12h.01M15 12h.01M9 18h.01M15 18h.01',
   plus: 'M12 5v14M5 12h14', close: 'm6 6 12 12M18 6 6 18',
   down: 'm7 10 5 5 5-5', up: 'm7 14 5-5 5 5',
   chat: 'M20 11a8 8 0 0 1-8 8H5l-3 3V11a9 9 0 0 1 18 0Z',
@@ -32,7 +33,7 @@ function text(value, x, y, size = 14, fill = '#292b2e', weight = 400, extra = ''
 }
 let controlCounts = new Map();
 function button(type, label, x, y, w, h, content, { id, value, active = false, fill, radius = 9, disabled = false, role = 'button' } = {}) {
-  const stableLabel = ['sidebar', 'split', 'drawer', 'thumbnails'].includes(type) ? type : type === 'menu' && id === 'zoom' ? 'zoom-menu' : label;
+  const stableLabel = ['sidebar', 'split', 'drawer', 'thumbnails', 'composerExpand'].includes(type) ? type : type === 'menu' && id === 'zoom' ? 'zoom-menu' : label;
   const baseKey = `${type}:${role}:${stableLabel}:${id || ''}:${value ?? ''}`;
   const ordinal = controlCounts.get(baseKey) || 0; controlCounts.set(baseKey, ordinal + 1);
   return `<g data-control-key="${escape(baseKey + ':' + ordinal)}" class="control ${active ? 'is-active' : ''}" role="${role}" ${role === 'tab' ? `aria-selected="${active}"` : ''} tabindex="${disabled ? -1 : 0}" aria-label="${escape(label)}" aria-disabled="${disabled}" data-type="${type}" ${id ? `data-id="${id}"` : ''} ${value !== undefined ? `data-value="${value}"` : ''}>` +
@@ -82,22 +83,17 @@ function paper(doc, page, g, state) {
   output += '</g>'; return output;
 }
 function messages(state, l, { split = false, chat = false } = {}) {
-  const list = state.messages[state.active];
+  const list = state.messages[conversationKey(state)];
   const x = split ? l.shellX + 22 : l.composerX + 22;
   const width = split ? l.splitTargetWidth - 44 : l.composerWidth - 44;
-  let y = chat || split ? 152 : l.composerY - 270;
+  let y = chat || split ? 152 : l.surfaceY + l.headerHeight + 34;
   let output = '';
   const clipX = split ? l.shellX : l.composerX;
-  const clipY = split || chat ? 108 : l.composerY - 323;
+  const clipY = split || chat ? 108 : l.surfaceY + l.headerHeight + 8;
   const clipWidth = split ? l.splitWidth : l.composerWidth;
   const clipHeight = Math.max(0, l.composerY - clipY - 8);
   // An explicit user-space clip is required: nested SVG overflow alone leaks in some renderers.
   const clip = content => `<svg x="${clipX}" y="${clipY}" width="${clipWidth}" height="${clipHeight}" viewBox="${clipX} ${clipY} ${clipWidth} ${clipHeight}" overflow="hidden"><defs><clipPath id="conversationClip" clipPathUnits="userSpaceOnUse"><rect x="${clipX}" y="${clipY}" width="${clipWidth}" height="${clipHeight}"/></clipPath></defs><g clip-path="url(#conversationClip)">${content}</g></svg>`;
-  if (!split && !chat) {
-    output += rect(l.composerX, l.composerY - 318, l.composerWidth, 308, 22, '#ffffff', '#e7e7e9', 'filter="url(#soft)"');
-    output += text(documents[state.active]?.short || 'Conversation', x, y - 20, 13, '#75797f', 500);
-    output += iButton('drawer', 'Hide conversation', 'close', x + width - 27, y - 44);
-  }
   if (!list.length) {
     output += text(split ? 'What would you like to explore?' : 'Let’s make room for your next idea.', x, y + 55, split ? 18 : 27, '#333638', 500);
     if (chat) {
@@ -119,12 +115,12 @@ function messages(state, l, { split = false, chat = false } = {}) {
     }
     y += Math.min(lines.length, 4) * 21 + 44;
   }
-  if (state.requests[state.active]) output += [0, 1, 2].map(i => `<circle cx="${x + 7 + i * 9}" cy="${y}" r="2.5" fill="#9baba1"/>`).join('');
+  if (state.requests[conversationKey(state)]) output += [0, 1, 2].map(i => `<circle cx="${x + 7 + i * 9}" cy="${y}" r="2.5" fill="#9baba1"/>`).join('');
   return clip(output);
 }
 export function renderScene(state, options = {}) {
   const width = options.width || 1280, height = options.height || 1180;
-  const l = composerLayout(state, layout(width, height, options.sidebar ?? Number(state.sidebar), options.split ?? Number(state.split && state.active !== 'chat'), options.thumbnails ?? Number(state.thumbnails), state.active === 'chat'));
+  const l = sampleComposerLayout(state, layout(width, height, options.sidebar ?? Number(state.sidebar), options.split ?? Number(state.split && state.active !== 'chat'), options.thumbnails ?? Number(state.thumbnails), state.active === 'chat'), options.composerMotion, options.now, options.reduced);
   const g = geometry(state, l);
   const activeDoc = documents[state.active];
   const topX = l.shellX;
@@ -243,40 +239,75 @@ export function renderScene(state, options = {}) {
     svg += messages(state, l, { chat: true });
   }
   // Floating composer, shared by full-reader, chat, and side-by-side modes.
-  svg += rect(l.composerX - 24, l.composerY - 20, l.composerWidth + 48, 80, 0, 'url(#bottom)');
-  if (state.drawer && g && !l.splitWidth) svg += messages(state, l);
+  svg += rect(l.surfaceX - 24, l.surfaceY - 20, l.surfaceWidth + 48, l.surfaceHeight + 36, 0, 'url(#bottom)');
+  svg += '<g data-composer-owned="">';
+  svg += rect(l.surfaceX, l.surfaceY, l.surfaceWidth, l.surfaceHeight, l.minimized ? 18 : 22, '#ffffff', '#e5e6e7', 'filter="url(#soft)"');
+  if (l.minimized) {
+    svg += '<g data-composer-owned="">';
+    svg += button('composerRestore', 'Restore floating chat: Portfolio review', l.surfaceX, l.surfaceY, 36, 36,
+      icon('chat', l.surfaceX + 9, l.surfaceY + 9, 18, '#525b55'), { radius: 18 });
+    svg += '</g>';
+  } else {
+  if (l.headerHeight > 0) {
+    svg += `<defs><clipPath id="composer-header-clip">${rect(l.composerX, l.surfaceY, l.composerWidth, l.headerHeight, 0, '#fff')}</clipPath></defs>`;
+    svg += `<g data-composer-owned="" data-composer-header="" clip-path="url(#composer-header-clip)" opacity="${l.headerProgress}" aria-hidden="${!l.headerVisible}" ${l.headerVisible ? '' : 'inert="" pointer-events="none"'}>`;
+    const hy = l.surfaceY;
+    svg += rect(l.composerX + 6, hy, l.composerWidth - 12, 46, 0, 'none', 'none', 'pointer-events="all"');
+    svg += button('composerExpand', state.drawer ? 'Collapse conversation' : 'Expand conversation', l.composerX + 45, hy, l.composerWidth - 90, 46,
+      text('Portfolio review', l.composerX + 53, hy + 28, 15, '#73797a', 500), { radius: 0, disabled: !l.headerVisible });
+    svg += button('composerMinimize', 'Minimize chat', l.composerX + 14, hy + 9, 28, 28,
+      icon('minus', l.composerX + 18, hy + 13, 20, '#6d7371'), { disabled: !l.headerVisible });
+    svg += button('menu', 'Dock Chat', l.composerX + l.composerWidth - 42, hy + 9, 28, 28,
+      icon('grip', l.composerX + l.composerWidth - 36, hy + 15, 16, '#6d7371'), { id: 'dock', active: state.menu === 'dock', disabled: !l.headerVisible });
+    svg += `<path d="M${l.composerX + 14} ${hy + 45.5}h${l.composerWidth - 28}" stroke="#e7e8e8" stroke-width=".5"/></g>`;
+  }
+  if (l.transcriptHeight > 0 && g && !l.splitWidth) {
+    svg += messages(state, l);
+    svg += `<path d="M${l.composerX + 14} ${l.composerY - .5}h${l.composerWidth - 28}" stroke="#e7e8e8" stroke-width=".5"/>`;
+  }
   if (state.requestContext) {
-    svg += rect(l.composerX + 12, l.composerY - 45, 200, 33, 16, '#fff', '#e4e7e5', 'filter="url(#soft)"');
-    svg += icon('edit', l.composerX + 23, l.composerY - 35, 15, '#82978b');
-    svg += text('Changes to this document', l.composerX + 45, l.composerY - 23, 11, '#65776c');
-    svg += iButton('dismiss', 'Remove change request', 'close', l.composerX + 179, l.composerY - 45);
+    svg += rect(l.composerX + 12, l.surfaceY - 45, 200, 33, 16, '#fff', '#e4e7e5', 'filter="url(#soft)"');
+    svg += icon('edit', l.composerX + 23, l.surfaceY - 35, 15, '#82978b');
+    svg += text('Changes to this document', l.composerX + 45, l.surfaceY - 23, 11, '#65776c');
+    svg += iButton('dismiss', 'Remove change request', 'close', l.composerX + 179, l.surfaceY - 45);
   }
-  svg += rect(l.composerX, l.composerY, l.composerWidth, l.composerHeight, 22, '#ffffff', '#e5e6e7', 'filter="url(#soft)"');
-  svg += iButton('menu', 'Attach an example file', 'plus', l.composerX + 11, l.composerY + 5, { id: 'attach', color: '#454a48' });
+  svg += rect(l.composerX, l.composerY, l.composerWidth, l.composerHeight, 22, 'none', 'none', 'pointer-events="all" data-composer-shell="" data-composer-owned=""');
+  svg += '<g data-composer-owned="">';
+  svg += iButton('menu', 'Attach an example file', 'plus', l.composerX + 11, l.controlsY, { id: 'attach', color: '#454a48' });
   if (!options.nativeInput) {
-    const draft = state.drafts[state.active];
-    const max = Math.max(15, Math.floor((l.composerWidth - 125) / 7));
-    const rows = wrap(draft || 'Ask anything', max).slice(0, 4);
-    rows.forEach((row, i) => { svg += text(row, l.composerX + 57, l.composerY + 28 + i * 22, 14, draft ? '#363e39' : '#a3a8a5'); });
+    svg += `<defs><clipPath id="composer-input-clip">${rect(l.inputX, l.inputY, l.inputWidth, l.bodyHeight, 0, '#fff')}</clipPath></defs><g clip-path="url(#composer-input-clip)">`;
+    const draft = state.drafts[conversationKey(state)];
+    const max = Math.max(15, Math.floor(l.inputWidth / 7));
+    const rows = (draft || (state.requestContext ? 'What would you like to change?' : 'Ask anything')).split('\n').flatMap(line => wrap(line, max)).slice(0, 4);
+    rows.forEach((row, i) => { svg += text(row, l.inputX, l.inputY + 17 + i * 22, 14, draft ? '#363e39' : '#a3a8a5'); });
+    // The offline caret is illustrative; the live app keeps the browser's native caret.
+    if (state.composerFocused && !draft) svg += rect(l.inputX, l.inputY + 2, 1, 18, 0, '#3c433e');
+    svg += '</g>';
   }
-  const hasDraft = Boolean(state.drafts[state.active].trim());
-  svg += button(hasDraft ? 'send' : 'voice', hasDraft ? 'Send message' : 'Voice preview', l.composerX + l.composerWidth - 39, l.composerY + 8, 28, 28,
-    icon(hasDraft ? 'arrow' : 'wave', l.composerX + l.composerWidth - 34, l.composerY + 13, 18, '#fff'), { fill: '#222726', radius: 14, disabled: Boolean(state.requests[state.active]) });
+  const hasDraft = Boolean(state.drafts[conversationKey(state)].trim());
+  svg += button(hasDraft ? 'send' : 'voice', hasDraft ? 'Send message' : 'Voice preview', l.composerX + l.composerWidth - 39, l.controlsY + 3, 28, 28,
+    icon(hasDraft ? 'arrow' : 'wave', l.composerX + l.composerWidth - 34, l.controlsY + 8, 18, '#fff'), { fill: '#222726', radius: 14, disabled: Boolean(state.requests[conversationKey(state)]) });
+  svg += '</g>';
+  }
+  svg += '</g>';
   if (state.menu) {
     const zoom = state.menu === 'zoom';
-    let x = zoom ? width - 181 : state.menu === 'attach' ? l.composerX : l.x + 16;
-    const y = state.menu === 'attach' ? l.composerY - 117 : 108;
-    const menuW = zoom ? 161 : 305;
-    const choices = zoom ? [['Fit width', 'fit'], ['25%', 0.25], ['50%', 0.5], ['100%', 1], ['150%', 1.5], ['200%', 2]] : fileIds.map(id => [documents[id].title, id]);
+    const dock = state.menu === 'dock';
+    if (dock || state.menu === 'attach') svg += '<g data-composer-owned="">';
+    let x = dock ? l.composerX + l.composerWidth - 232 : zoom ? width - 181 : state.menu === 'attach' ? l.composerX : l.x + 16;
+    const y = dock ? l.surfaceY - 147 : state.menu === 'attach' ? l.composerY - 117 : 108;
+    const menuW = dock ? 232 : zoom ? 161 : 305;
+    const choices = dock ? [['Open in full view', 'full'], ['Move to left pane', 'left'], ['Minimize composer', 'minimize']] : zoom ? [['Fit width', 'fit'], ['25%', 0.25], ['50%', 0.5], ['100%', 1], ['150%', 1.5], ['200%', 2]] : fileIds.map(id => [documents[id].title, id]);
     const menuH = 14 + choices.length * 42;
     svg += rect(x, y, menuW, menuH, 15, '#fff', '#e4e6e8', 'filter="url(#soft)"');
     choices.forEach(([title, value], i) => {
-      svg += button(zoom ? 'zoom' : 'open', title, x + 6, y + 6 + i * 42, menuW - 12, 39,
-        `${zoom ? '' : icon('file', x + 15, y + 18 + i * 42, 17, '#899d91')}${text(title, x + (zoom ? 18 : 42), y + 31 + i * 42, 13, '#525957')}`,
-        zoom ? { value, active: value === 'fit' ? g?.view.fit : !g?.view.fit && Math.abs(g.scale - value) < 0.01 } : { id: value, active: state.active === value });
+      svg += button(dock ? 'dockChoice' : zoom ? 'zoom' : 'open', title, x + 6, y + 6 + i * 42, menuW - 12, 39,
+        `${zoom || dock ? '' : icon('file', x + 15, y + 18 + i * 42, 17, '#899d91')}${text(title, x + (zoom || dock ? 18 : 42), y + 31 + i * 42, 13, '#525957')}`,
+        dock ? { id: value } : zoom ? { value, active: value === 'fit' ? g?.view.fit : !g?.view.fit && Math.abs(g.scale - value) < 0.01 } : { id: value, active: state.active === value });
     });
+    if (dock || state.menu === 'attach') svg += '</g>';
   }
-  if (state.notice) svg += rect(l.composerX + 65, l.composerY - 62, l.composerWidth - 130, 40, 20, '#313935') + text(state.notice, l.composerX + l.composerWidth / 2, l.composerY - 37, 12, '#fff', 400, 'text-anchor="middle"');
+  if (state.notice) svg += rect(l.composerX + 65, l.surfaceY - 62, l.composerWidth - 130, 40, 20, '#313935') + text(state.notice, l.composerX + l.composerWidth / 2, l.surfaceY - 37, 12, '#fff', 400, 'text-anchor="middle"');
   if (options.pointer) {
     const p = options.pointer;
     if (p.down) svg += `<circle cx="${p.x}" cy="${p.y}" r="17" fill="#97b4a3" opacity=".2"/>`;

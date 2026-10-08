@@ -38,11 +38,12 @@ export function sampleMotion(transition, now = 0, reduced = false) {
   const t = clamp((now - transition.start) / transition.duration, 0, 1);
   return transition.from + (transition.to - transition.from) * (1 - Math.pow(1 - t, 3));
 }
-export function initialState() {
+export function initialState({ composerVariant = 'conversation' } = {}) {
   return {
     active: 'resume', tabs: ['chat', 'resume'], sidebar: true, split: false, thumbnails: false, menu: null, drawer: false,
     views: Object.fromEntries(Object.keys(documents).map(id => [id, { zoom: 1, fit: true, scrollX: 0, scrollY: 0 }])),
     drafts: { chat: '', resume: '', notes: '' },
+    chatContext: null, composerVariant, composerFocused: false, composerMinimized: false, multiline: { chat: false, resume: false, notes: false },
     messages: { chat: [], resume: [], notes: [] },
     requests: {}, nextRequest: 1, requestContext: null, notice: '',
     history: ['resume'], historyIndex: 0,
@@ -73,9 +74,10 @@ function bounded(state, l) {
 function open(state, id, track = true) {
   if (id !== 'chat' && !documents[id]) return state;
   const history = track && state.active !== id ? [...state.history.slice(0, state.historyIndex + 1), id] : state.history;
-  return { ...state, active: id, tabs: state.tabs.includes(id) ? state.tabs : [...state.tabs, id], menu: null,
+  return { ...state, composerFocused: state.active === id && state.composerFocused, active: id, tabs: state.tabs.includes(id) ? state.tabs : [...state.tabs, id], menu: null,
     drawer: false, requestContext: null, history, historyIndex: track ? history.length - 1 : state.historyIndex };
 }
+export function conversationKey(state) { return state.active === 'chat' ? state.chatContext || 'chat' : state.active; }
 export function reduce(state, action, l = layout()) {
   let next = state;
   const g = geometry(state, l);
@@ -111,16 +113,35 @@ export function reduce(state, action, l = layout()) {
     case 'menu': return { ...state, menu: state.menu === action.menu ? null : action.menu };
     case 'dismiss': return { ...state, menu: null, drawer: false, requestContext: null, notice: '' };
     case 'drawer': return { ...state, drawer: !state.drawer, menu: null };
-    case 'draft': return { ...state, drafts: { ...state.drafts, [state.active]: action.text.slice(0, 4000) } };
+    case 'composerOutside': return { ...state, composerFocused: false,
+      drawer: state.composerMinimized ? state.drawer : false,
+      menu: ['attach', 'dock'].includes(state.menu) ? null : state.menu };
+    case 'composerFull': return { ...open(state, 'chat'), chatContext: conversationKey(state) };
+    case 'composerExpand': return { ...state, drawer: !state.drawer, menu: null };
+    case 'composerMinimize': return { ...state, composerMinimized: true, composerFocused: false, menu: null };
+    case 'composerRestore': return { ...state, composerMinimized: false, composerFocused: true, menu: null };
+    case 'composerDock': return bounded({ ...state, split: true, drawer: false, composerFocused: false, menu: null }, stateLayout({ ...state, split: true }, l));
+    case 'composerFocus': return { ...state, composerFocused: Boolean(action.focused) };
+    case 'composerOverflow': return !state.drafts[conversationKey(state)] || !action.overflow ? state
+      : { ...state, multiline: { ...state.multiline, [conversationKey(state)]: true } };
+    case 'draft': {
+      const text = action.text.slice(0, 4000);
+      const columns = Math.max(12, Math.floor((l.composerWidth - 121) / 7));
+      const overflow = action.overflow ?? text.length > columns;
+      const multiline = text.length > 0 && (state.multiline[conversationKey(state)] || text.includes('\n') || overflow);
+      return { ...state, drafts: { ...state.drafts, [conversationKey(state)]: text },
+        multiline: { ...state.multiline, [conversationKey(state)]: multiline } };
+    }
     case 'requestChanges': return { ...state, requestContext: state.active, menu: null, drawer: false };
     case 'send': {
-      const body = state.drafts[state.active].trim();
-      if (!body || state.requests[state.active]) return state;
+      const body = state.drafts[conversationKey(state)].trim();
+      if (!body || state.requests[conversationKey(state)]) return state;
       const request = state.nextRequest;
-      return { ...state, drawer: true, requestContext: null, nextRequest: request + 1,
-        requests: { ...state.requests, [state.active]: request },
-        drafts: { ...state.drafts, [state.active]: '' },
-        messages: { ...state.messages, [state.active]: [...state.messages[state.active], { role: 'user', body, request }] } };
+      return { ...state, requestContext: null, nextRequest: request + 1,
+        requests: { ...state.requests, [conversationKey(state)]: request },
+        drafts: { ...state.drafts, [conversationKey(state)]: '' },
+        multiline: { ...state.multiline, [conversationKey(state)]: false },
+        messages: { ...state.messages, [conversationKey(state)]: [...state.messages[conversationKey(state)], { role: 'user', body, request }] } };
     }
     case 'reply': {
       if (state.requests[action.id] !== action.request) return state;
@@ -192,12 +213,57 @@ export function sampleZoom(state, transition, now = 0, reduced = false) {
   return { ...state, views: { ...state.views, [state.active]: view } };
 }
 
-export function composerLayout(state, l) {
-  const columns = Math.max(12, Math.floor((l.composerWidth - 112) / 7));
-  const rows = state.drafts[state.active].split('\n').reduce((n, row) => n + Math.max(1, Math.ceil(row.length / columns)), 0);
-  const bodyHeight = Math.min(88, Math.max(22, rows * 22));
-  const composerHeight = bodyHeight + 22;
-  return { ...l, composerY: l.height - 16 - composerHeight, composerHeight, bodyHeight };
+// Text wraps into a stacked editor/control layout and stays stacked until cleared.
+// Pixel sizes are this study's layout; the transition curve and state rules are source-backed.
+export function composerLayout(state, l, display = {}) {
+  const multiline = Boolean(state.multiline[conversationKey(state)]);
+  const expansion = display.expansion ?? Number(multiline);
+  const inputInset = 57 + (14 - 57) * expansion;
+  const inputWidth = l.composerWidth - 121 + (121 - 28) * expansion;
+  const columns = Math.max(12, Math.floor((l.composerWidth - (multiline ? 28 : 121)) / 7));
+  const rows = state.drafts[conversationKey(state)].split('\n').reduce((n, row) => n + Math.max(1, Math.ceil(row.length / columns)), 0);
+  const bodyHeight = display.bodyHeight ?? (multiline ? Math.min(88, Math.max(44, rows * 22)) : 22);
+  const composerHeight = bodyHeight + 22 + 30 * expansion;
+  const composerY = l.height - 16 - composerHeight;
+  const conversationSurface = state.composerVariant === 'conversation' && state.active !== 'chat' && !state.split;
+  const headerVisible = conversationSurface && !state.composerMinimized
+    && (state.composerFocused || state.drawer || ['attach', 'dock'].includes(state.menu));
+  const headerProgress = display.headerProgress ?? Number(headerVisible);
+  const headerHeight = 46 * headerProgress;
+  const availableHeight = Math.max(composerHeight + 46, l.height - 48);
+  const expandedHeight = Math.min(640, availableHeight);
+  const transcriptHeight = display.transcriptHeight ?? (conversationSurface && state.drawer && !state.composerMinimized
+    ? Math.max(0, expandedHeight - composerHeight - 46) : 0);
+  const surfaceHeight = composerHeight + headerHeight + transcriptHeight;
+  const minimized = conversationSurface && state.composerMinimized;
+  return { ...l, composerY, composerHeight, bodyHeight, expansion, headerVisible, headerProgress, headerHeight, transcriptHeight, conversationSurface, minimized,
+    surfaceX: minimized ? l.width - 52 : l.composerX, surfaceWidth: minimized ? 36 : l.composerWidth,
+    surfaceY: minimized ? l.height - 52 : l.height - 16 - surfaceHeight, surfaceHeight: minimized ? 36 : surfaceHeight,
+    inputX: l.composerX + inputInset, inputY: composerY + 11, inputWidth,
+    controlsY: composerY + 5 + (composerHeight - 44) * expansion };
+}
+// Solve the CSS cubic-bezier's x coordinate before sampling y.
+export function composerEase(progress) {
+  if (progress <= 0) return 0;
+  if (progress >= 1) return 1;
+  let lo = 0, hi = 1;
+  const coordinate = (t, a, b) => 3 * (1 - t) ** 2 * t * a + 3 * (1 - t) * t ** 2 * b + t ** 3;
+  for (let i = 0; i < 24; i++) {
+    const t = (lo + hi) / 2;
+    if (coordinate(t, .23, .32) < progress) lo = t; else hi = t;
+  }
+  return coordinate((lo + hi) / 2, 1, 1);
+}
+export function beginComposerMotion(from, to, start = 0) {
+  return { from: { expansion: from.expansion, bodyHeight: from.bodyHeight, headerProgress: from.headerProgress, transcriptHeight: from.transcriptHeight },
+    to: { expansion: to.expansion, bodyHeight: to.bodyHeight, headerProgress: to.headerProgress, transcriptHeight: to.transcriptHeight }, start, duration: 300 };
+}
+export function sampleComposerLayout(state, l, transition, now = 0, reduced = false) {
+  if (!transition || reduced || now - transition.start >= transition.duration) return composerLayout(state, l);
+  const k = composerEase(clamp((now - transition.start) / transition.duration, 0, 1));
+  const display = {};
+  for (const key of ['expansion', 'bodyHeight', 'headerProgress', 'transcriptHeight']) display[key] = transition.from[key] + (transition.to[key] - transition.from[key]) * k;
+  return composerLayout(state, l, display);
 }
 
 export function accumulateWheel(previous, { scale, delta, time, id }) {

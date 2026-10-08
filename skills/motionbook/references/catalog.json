@@ -3448,15 +3448,15 @@
     },
     {
       "slug": "chatgpt-document-workspace",
-      "title": "Document workspace",
+      "title": "Document workspace 复刻",
       "kind": "interface",
       "fit": "everyday",
       "values": [
         "information-architecture",
         "spatial-continuity"
       ],
-      "why": "文件、标签与对话共用稳定工作区，切换时保留阅读位置与缩放",
-      "extract": "分层导航、指针锚定缩放、连续阅读与浮动输入框",
+      "why": "文件、标签与对话共用稳定工作区，聚焦显示会话标题栏，阅读状态连续",
+      "extract": "分层导航、指针锚定缩放、聚焦标题栏与独立会话展开",
       "use_when": "文档阅读器、文件工作台、带聊天的内容预览",
       "avoid": "虚构 SVG 页面与本地示例回复；不是真实 PDF 解析器、编辑器或模型客户端，离线预览不等于浏览器验证",
       "keywords": [
@@ -3472,7 +3472,11 @@
         "工作区",
         "标签",
         "缩放",
-        "对话"
+        "对话",
+        "composer",
+        "multiline",
+        "输入框",
+        "多行"
       ],
       "readme": "examples/chatgpt-document-workspace/README.md",
       "preview": "examples/chatgpt-document-workspace/preview/document-workspace.gif",
@@ -3487,28 +3491,44 @@
           "symbol": "reduce",
           "match": "export function reduce(state, action, l = layout())",
           "purpose": "标签内阅读状态、菜单、对话草稿与指针锚定缩放的纯状态转换",
-          "line": 79
+          "line": 81
         },
         {
           "path": "examples/chatgpt-document-workspace/src/model.mjs",
           "symbol": "accumulateWheel",
           "match": "export function accumulateWheel(previous, { scale, delta, time, id })",
           "purpose": "保留细粒度滚轮累计值，避免缩放被吸附档位锁住",
-          "line": 203
+          "line": 269
         },
         {
           "path": "examples/chatgpt-document-workspace/src/scene.mjs",
           "symbol": "renderScene",
           "match": "export function renderScene(state, options = {})",
           "purpose": "共享界面场景：主导航、标签、文件工具栏、页面裁剪、缩略图与浮动输入框",
-          "line": 125
+          "line": 121
         },
         {
           "path": "examples/chatgpt-document-workspace/src/app.mjs",
           "symbol": "dispatch",
           "match": "function dispatch(action)",
           "purpose": "连接原生输入、键盘焦点、滚轮/拖动和同源渲染；未接入真实后端",
-          "line": 16
+          "line": 28
+        },
+        {
+          "path": "examples/chatgpt-document-workspace/src/model.mjs",
+          "symbol": "sampleComposerLayout",
+          "match": "export function sampleComposerLayout(state, l, transition, now = 0, reduced = false)",
+          "purpose": "46 px 聚焦标题栏、独立会话区域与输入共用可反向尺寸过渡",
+          "line": 261,
+          "capabilities": [
+            "reduced-motion"
+          ],
+          "keywords": [
+            "composer",
+            "输入框",
+            "multiline",
+            "多行"
+          ]
         }
       ]
     }
