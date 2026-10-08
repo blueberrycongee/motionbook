@@ -1,6 +1,6 @@
 # 按用途找动效
 
-这里按可借用的交互组织 66 个研究示例。分类是编辑判断，不是上线认证；具体运行、来源和许可边界见各例文档。
+这里按可借用的交互组织 67 个研究示例。分类是编辑判断，不是上线认证；具体运行、来源和许可边界见各例文档。
 
 先看要解决的问题，再选最小片段。页面片段不代表完整 landing；趣味效果可以启发创作，但不默认用于高频操作。源码锚点是局部阅读入口，仍需检查依赖和目标布局；不表示整段代码可直接投入生产。
 
@@ -47,7 +47,7 @@
 | [Things Magic Plus](../examples/things-magic-plus/README.md) · 日常交互 | 加号拖入列表空隙再展开编辑器，连续展示插入位置和任务落定 | **拖放插入、编辑提交与取消归位**；任务列表快速添加、可定位的新条目入口<br>源码：[referenceAt](../examples/things-magic-plus/src/motion.js#L8)、[Controller](../examples/things-magic-plus/src/motion.js#L18)、[mount](../examples/things-magic-plus/src/app.js#L2) | 2017 官方演示的单轮量测；只有一个本地任务，收件箱和取消圆点不是额外投放目标，没有持久化后端 |
 | [YouTube subscribe feedback](../examples/youtube-subscribe-feedback/README.md) · 品牌展示 | 红—品红提示、星点确认和铃铛收束分层表达激活状态 | **按钮提示到本地确认的短序列**；关注、收藏、低频达成反馈<br>源码：[SubscribeMotion](../examples/youtube-subscribe-feedback/src/motion.mjs#L17)、[schedule](../examples/youtube-subscribe-feedback/src/app.mjs#L15) | 基于 2025 官方组件展示；提示与奖励原是两条轨道，不代表今天全平台最新，也不发送真实订阅请求 |
 
-## 界面与工作流（11）
+## 界面与工作流（12）
 
 | 示例 / 定位 | 值得研究什么 | 可借用的最小部分 / 场景 | 限制 |
 | --- | --- | --- | --- |
@@ -62,6 +62,7 @@
 | [Model router](../examples/model-router/README.md) · 日常交互 | 策略、路由图和表格联动，把模型分配关系具象化 | **图表双向悬停与策略切换**；路由配置、流程映射<br>源码：[Router.hoverRoute](../examples/model-router/model.js#L13)、[Transition.at](../examples/model-router/motion.js#L13) | Deploy 仅更新本地基线，没有真实部署后端 |
 | [RAG Pipeline](../examples/rag-pipeline/README.md) · 日常交互 | 流程节点和连接线把检索生成过程变成可读路径 | **节点状态与数据流动**；AI 流程说明、执行过程可视化<br>源码：[state](../examples/rag-pipeline/scene.js#L8)、[handoffAt](../examples/rag-pipeline/scene.js#L31) | 可视演示不等于真实检索或生成后端 |
 | [Pinned paper notes](../examples/sticky-note-app/README.md) · 日常交互 | 纸张层叠与翻页让笔记浏览保持对象连续性 | **笔记切换、分类与页数反馈**；轻量笔记、卡片阅读<br>源码：[action](../examples/sticky-note-app/scene.js#L11)、[step](../examples/sticky-note-app/app.js#L5) | 演示本地状态，不是完整持久化笔记产品 |
+| [Document workspace](../examples/chatgpt-document-workspace/README.md) · 日常交互 | 文件、标签与对话共用稳定工作区，切换时保留阅读位置与缩放 | **分层导航、指针锚定缩放、连续阅读与浮动输入框**；文档阅读器、文件工作台、带聊天的内容预览<br>源码：[reduce](../examples/chatgpt-document-workspace/src/model.mjs#L79)、[accumulateWheel](../examples/chatgpt-document-workspace/src/model.mjs#L203)、[renderScene](../examples/chatgpt-document-workspace/src/scene.mjs#L125)、[dispatch](../examples/chatgpt-document-workspace/src/app.mjs#L16) | 虚构 SVG 页面与本地示例回复；不是真实 PDF 解析器、编辑器或模型客户端，离线预览不等于浏览器验证 |
 
 ## Landing / 作品集片段（9）
 

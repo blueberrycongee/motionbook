@@ -1,0 +1,11 @@
+preview/frames/
+preview/config/
+preview/cache/
+__pycache__/
+
+preview/first-frame.*
+preview/*render.log
+
+preview/renderer.log
+
+preview/split-detail.png

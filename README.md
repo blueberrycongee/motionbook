@@ -117,4 +117,10 @@ UI animations & micro-interactions recreated in code, with GIF previews. UI åŠ¨æ
     <td align="center" width="33%"><a href="examples/mac-studio-crossfade-gallery/README.md"><img src="examples/mac-studio-crossfade-gallery/preview/loop.gif" width="200" alt="Mac Studio crossfade gallery"></a><br><a href="examples/mac-studio-crossfade-gallery/README.md">Mac Studio crossfade gallery</a></td>
     <td align="center" width="33%"><a href="examples/kitasenju-tumbling-clock/README.md"><img src="examples/kitasenju-tumbling-clock/preview.gif" width="200" alt="Kitasenju tumbling clock"></a><br><a href="examples/kitasenju-tumbling-clock/README.md">Kitasenju tumbling clock</a></td>
   </tr>
+  <tr>
+    <td align="center" width="33%"><a href="examples/chatgpt-document-workspace/README.md"><img src="examples/chatgpt-document-workspace/preview/document-workspace.gif" width="200" alt="Document workspace"></a><br><a href="examples/chatgpt-document-workspace/README.md">Document workspace</a></td>
+    <td align="center" width="33%"></td>
+    <td align="center" width="33%"></td>
+  </tr>
 </table>
+
