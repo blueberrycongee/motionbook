@@ -1,14 +1,15 @@
 # Motionbook adaptation comparisons
 
-Fourteen reproducible animation studies compare Motionbook guidance across three rounds. No candidate showed a persuasive, consistent benefit across the available judgments; the skill remains unchanged. Rounds 1–2 supply references directly, while Round 3 adds catalog discovery. These exploratory judgments are separate from the deterministic retrieval regression suite.
+Twenty studies compare Motionbook guidance across four exploratory rounds. No candidate has established a consistent benefit over the current skill. Rounds 1–2 supply references directly, Round 3 adds catalog discovery, and Round 4 adds real Chromium input, screenshots and recordings. These comparisons are separate from the deterministic retrieval regression suite.
 
 - [Round 1: six studies, no stable winner](round-1/README.md)
 - [Round 2: four new studies of content scope](round-2/README.md)
 - [Round 3: discovery with a shorter entrypoint](round-3/README.md)
+- [Round 4: six live interactions and browser evidence](round-4/README.md)
 - [Briefs and exact tested conditions](round-1/CONDITIONS.md)
 - [Scores and source fingerprints](round-1/results.json)
 
-## Replay the evidence
+## Replay the offline evidence (Rounds 1–3)
 
 From the repository root, with Node.js 20+ and Python 3.10+:
 

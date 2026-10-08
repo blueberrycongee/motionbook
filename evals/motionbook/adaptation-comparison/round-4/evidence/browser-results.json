@@ -1,0 +1,4328 @@
+{
+  "startedAt": "2026-10-08T17:25:42.093Z",
+  "methodology": "Common behavioral checks; no universal grade. Independent cases reload. Actual browser input except explicitly synthetic IME events. Screenshots and continuous per-configuration Playwright video are evidence, not a visual quality score.",
+  "limits": [
+    "Synthetic IME events do not validate a native OS IME.",
+    "Computed motion checks do not establish subjective motion quality.",
+    "Tab visibility checks and focus screenshots are not a complete accessibility audit."
+  ],
+  "environment": {
+    "node": "v22.23.3",
+    "platform": "linux",
+    "arch": "x64",
+    "playwright": "1.64.0",
+    "ci": true,
+    "githubSHA": "712c6271ed78b71598e16dd5dd6c2d95f32decea",
+    "browser": "156.0.8078.4"
+  },
+  "studies": [
+    {
+      "id": "A",
+      "kind": "composer",
+      "source": "submissions/A/index.html",
+      "configurations": [
+        {
+          "viewport": {
+            "width": 960,
+            "height": 720
+          },
+          "reducedMotion": "no-preference",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 476,
+              "observations": {
+                "viewport": 960,
+                "document": 960
+              }
+            },
+            {
+              "name": "fixture document",
+              "status": "passed",
+              "elapsedMs": 437
+            },
+            {
+              "name": "typing expands; collapse Escape outside and reopen preserve draft",
+              "status": "passed",
+              "elapsedMs": 1601
+            },
+            {
+              "name": "Shift Enter inserts newline without sending; Enter sends exactly once",
+              "status": "passed",
+              "elapsedMs": 1636
+            },
+            {
+              "name": "click send exactly once; whitespace empty send does nothing",
+              "status": "passed",
+              "elapsedMs": 1614,
+              "observations": {
+                "emptyButtonNativeDisabled": true,
+                "emptyClickAttempted": false,
+                "emptyButtonAriaDisabled": null
+              }
+            },
+            {
+              "name": "synthetic IME composition suppresses Enter; commit then Enter sends",
+              "status": "passed",
+              "elapsedMs": 1295,
+              "observations": {
+                "inputMethod": "Synthetic DOM composition and key events; not native IME verification"
+              }
+            },
+            {
+              "name": "keyboard expand collapse and visible focus traversal",
+              "status": "passed",
+              "elapsedMs": 547,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomOne page · A little space\nPersonal collection ·",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "document",
+                  "text": "Personal collection · 01Field notesA quiet place to collect ",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "toggle",
+                  "text": "Collapse composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomOne page · A little space\nPersonal collection ·",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "document",
+                  "text": "Personal collection · 01Field notesA quiet place to collect ",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "toggle",
+                  "text": "Collapse composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 3,
+              "observations": {
+                "motion": {
+                  "applicable": false
+                },
+                "layout": {
+                  "viewport": 960,
+                  "document": 960
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 1
+            }
+          ],
+          "screenshots": [
+            "A-960-no-preference/01-initial.png",
+            "A-960-no-preference/02-draft-expanded.png",
+            "A-960-no-preference/03-escape-focus.png",
+            "A-960-no-preference/04-multiline.png",
+            "A-960-no-preference/05-sent-local-reply.png",
+            "A-960-no-preference/06-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "A-960-no-preference/page@ef7d0af116eb44c6245b082b138967c6.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 960,
+            "height": 720
+          },
+          "reducedMotion": "reduce",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 446,
+              "observations": {
+                "viewport": 960,
+                "document": 960
+              }
+            },
+            {
+              "name": "fixture document",
+              "status": "passed",
+              "elapsedMs": 444
+            },
+            {
+              "name": "typing expands; collapse Escape outside and reopen preserve draft",
+              "status": "passed",
+              "elapsedMs": 1526
+            },
+            {
+              "name": "Shift Enter inserts newline without sending; Enter sends exactly once",
+              "status": "passed",
+              "elapsedMs": 1602
+            },
+            {
+              "name": "click send exactly once; whitespace empty send does nothing",
+              "status": "passed",
+              "elapsedMs": 1600,
+              "observations": {
+                "emptyButtonNativeDisabled": true,
+                "emptyClickAttempted": false,
+                "emptyButtonAriaDisabled": null
+              }
+            },
+            {
+              "name": "synthetic IME composition suppresses Enter; commit then Enter sends",
+              "status": "passed",
+              "elapsedMs": 1291,
+              "observations": {
+                "inputMethod": "Synthetic DOM composition and key events; not native IME verification"
+              }
+            },
+            {
+              "name": "keyboard expand collapse and visible focus traversal",
+              "status": "passed",
+              "elapsedMs": 494,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomOne page · A little space\nPersonal collection ·",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "document",
+                  "text": "Personal collection · 01Field notesA quiet place to collect ",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "toggle",
+                  "text": "Collapse composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomOne page · A little space\nPersonal collection ·",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "document",
+                  "text": "Personal collection · 01Field notesA quiet place to collect ",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "toggle",
+                  "text": "Collapse composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 2,
+              "observations": {
+                "motion": {
+                  "visibleDurationsAbove50ms": []
+                },
+                "layout": {
+                  "viewport": 960,
+                  "document": 960
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "A-960-reduce/01-initial.png",
+            "A-960-reduce/02-draft-expanded.png",
+            "A-960-reduce/03-escape-focus.png",
+            "A-960-reduce/04-multiline.png",
+            "A-960-reduce/05-sent-local-reply.png",
+            "A-960-reduce/06-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "A-960-reduce/page@18a77731956c94adb3bbb663feeb697f.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 720
+          },
+          "reducedMotion": "no-preference",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 441,
+              "observations": {
+                "viewport": 390,
+                "document": 390
+              }
+            },
+            {
+              "name": "fixture document",
+              "status": "passed",
+              "elapsedMs": 445
+            },
+            {
+              "name": "typing expands; collapse Escape outside and reopen preserve draft",
+              "status": "passed",
+              "elapsedMs": 1545
+            },
+            {
+              "name": "Shift Enter inserts newline without sending; Enter sends exactly once",
+              "status": "passed",
+              "elapsedMs": 1575
+            },
+            {
+              "name": "click send exactly once; whitespace empty send does nothing",
+              "status": "passed",
+              "elapsedMs": 1591,
+              "observations": {
+                "emptyButtonNativeDisabled": true,
+                "emptyClickAttempted": false,
+                "emptyButtonAriaDisabled": null
+              }
+            },
+            {
+              "name": "synthetic IME composition suppresses Enter; commit then Enter sends",
+              "status": "passed",
+              "elapsedMs": 1291,
+              "observations": {
+                "inputMethod": "Synthetic DOM composition and key events; not native IME verification"
+              }
+            },
+            {
+              "name": "keyboard expand collapse and visible focus traversal",
+              "status": "passed",
+              "elapsedMs": 489,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomOne page · A little space\nPersonal collection ·",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "document",
+                  "text": "Personal collection · 01Field notesA quiet place to collect ",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "toggle",
+                  "text": "Collapse composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomOne page · A little space\nPersonal collection ·",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "document",
+                  "text": "Personal collection · 01Field notesA quiet place to collect ",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "toggle",
+                  "text": "Collapse composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 1,
+              "observations": {
+                "motion": {
+                  "applicable": false
+                },
+                "layout": {
+                  "viewport": 390,
+                  "document": 390
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "A-390-no-preference/01-initial.png",
+            "A-390-no-preference/02-draft-expanded.png",
+            "A-390-no-preference/03-escape-focus.png",
+            "A-390-no-preference/04-multiline.png",
+            "A-390-no-preference/05-sent-local-reply.png",
+            "A-390-no-preference/06-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "A-390-no-preference/page@e8fc17c11d25adfbd198500d5268ec77.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 720
+          },
+          "reducedMotion": "reduce",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 435,
+              "observations": {
+                "viewport": 390,
+                "document": 390
+              }
+            },
+            {
+              "name": "fixture document",
+              "status": "passed",
+              "elapsedMs": 433
+            },
+            {
+              "name": "typing expands; collapse Escape outside and reopen preserve draft",
+              "status": "passed",
+              "elapsedMs": 1465
+            },
+            {
+              "name": "Shift Enter inserts newline without sending; Enter sends exactly once",
+              "status": "passed",
+              "elapsedMs": 1573
+            },
+            {
+              "name": "click send exactly once; whitespace empty send does nothing",
+              "status": "passed",
+              "elapsedMs": 1594,
+              "observations": {
+                "emptyButtonNativeDisabled": true,
+                "emptyClickAttempted": false,
+                "emptyButtonAriaDisabled": null
+              }
+            },
+            {
+              "name": "synthetic IME composition suppresses Enter; commit then Enter sends",
+              "status": "passed",
+              "elapsedMs": 1288,
+              "observations": {
+                "inputMethod": "Synthetic DOM composition and key events; not native IME verification"
+              }
+            },
+            {
+              "name": "keyboard expand collapse and visible focus traversal",
+              "status": "passed",
+              "elapsedMs": 472,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomOne page · A little space\nPersonal collection ·",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "document",
+                  "text": "Personal collection · 01Field notesA quiet place to collect ",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "toggle",
+                  "text": "Collapse composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomOne page · A little space\nPersonal collection ·",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "document",
+                  "text": "Personal collection · 01Field notesA quiet place to collect ",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "toggle",
+                  "text": "Collapse composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 1,
+              "observations": {
+                "motion": {
+                  "visibleDurationsAbove50ms": []
+                },
+                "layout": {
+                  "viewport": 390,
+                  "document": 390
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "A-390-reduce/01-initial.png",
+            "A-390-reduce/02-draft-expanded.png",
+            "A-390-reduce/03-escape-focus.png",
+            "A-390-reduce/04-multiline.png",
+            "A-390-reduce/05-sent-local-reply.png",
+            "A-390-reduce/06-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "A-390-reduce/page@3de21a82fef04d412e0f6d54ef104663.webm"
+          ]
+        }
+      ],
+      "briefSHA256": "fb0fc04a3d04434f75b534206f5c08c6faceef2bdf9e614f87a86098a9fc7229",
+      "sourceSHA256": "2049c3135791e39980a0240e368811bb6b39055fac2d2ac1b0861fa9aa3c5d55"
+    },
+    {
+      "id": "B",
+      "kind": "tags",
+      "source": "submissions/B/index.html",
+      "configurations": [
+        {
+          "viewport": {
+            "width": 960,
+            "height": 720
+          },
+          "reducedMotion": "no-preference",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 439,
+              "observations": {
+                "viewport": 960,
+                "document": 960
+              }
+            },
+            {
+              "name": "open search and initial labels",
+              "status": "passed",
+              "elapsedMs": 509
+            },
+            {
+              "name": "selection persists after Escape and reopening",
+              "status": "failed",
+              "elapsedMs": 4197,
+              "error": "locator.press: Timeout 3500ms exceeded.\nCall log:\n  - waiting for getByRole('textbox', { name: 'Search labels', exact: true })\n",
+              "stack": "locator.press: Timeout 3500ms exceeded.\nCall log:\n  - waiting for getByRole('textbox', { name: 'Search labels', exact: true })\n\n    at /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:181:136\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:180:11)"
+            },
+            {
+              "name": "nested Back and Escape retain query without creating",
+              "status": "failed",
+              "elapsedMs": 729,
+              "error": "The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n",
+              "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n\n    at createView (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:175:94)\n    at async /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:188:42\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:187:11)"
+            },
+            {
+              "name": "editable name color Create selects exactly once and returns to picker",
+              "status": "failed",
+              "elapsedMs": 725,
+              "error": "The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n",
+              "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n\n    at createView (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:175:94)\n    at async /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:195:42\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:194:11)"
+            },
+            {
+              "name": "outside click closes picker and nested creation without invisible focus",
+              "status": "failed",
+              "elapsedMs": 790,
+              "error": "The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n",
+              "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n\n    at createView (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:175:94)\n    at async /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:204:27\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:202:11)"
+            },
+            {
+              "name": "rapid trigger switching and nested escape leaves usable focus",
+              "status": "failed",
+              "elapsedMs": 1161,
+              "error": "Expected values to be strictly equal:\n\n'true' !== 'false'\n",
+              "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'true' !== 'false'\n\n    at /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:208:52\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:206:11)"
+            },
+            {
+              "name": "keyboard selection color and creation submit",
+              "status": "failed",
+              "elapsedMs": 463,
+              "error": "Expected values to be strictly equal:\n\n0 !== 1\n",
+              "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n0 !== 1\n\n    at /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:214:20\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:211:11)"
+            },
+            {
+              "name": "keyboard activation creation Back and focus traversal",
+              "status": "passed",
+              "elapsedMs": 533,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 0,
+              "observations": {
+                "motion": {
+                  "applicable": false
+                },
+                "layout": {
+                  "viewport": 960,
+                  "document": 960
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 1
+            }
+          ],
+          "screenshots": [
+            "B-960-no-preference/01-initial.png",
+            "B-960-no-preference/02-filtered.png",
+            "B-960-no-preference/03-failure-selection-persists-after-Escape-and-reopening.png",
+            "B-960-no-preference/04-failure-nested-Back-and-Escape-retain-query-without-creating.png",
+            "B-960-no-preference/05-failure-editable-name-color-Create-selects-exactly-once-and-returns-to-picker.png",
+            "B-960-no-preference/06-failure-outside-click-closes-picker-and-nested-creation-without-invisible-focus.png",
+            "B-960-no-preference/07-failure-rapid-trigger-switching-and-nested-escape-leaves-usable-focus.png",
+            "B-960-no-preference/08-failure-keyboard-selection-color-and-creation-submit.png",
+            "B-960-no-preference/09-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "B-960-no-preference/page@9a9aabd9640dab2e842370853a59c714.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 960,
+            "height": 720
+          },
+          "reducedMotion": "reduce",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 436,
+              "observations": {
+                "viewport": 960,
+                "document": 960
+              }
+            },
+            {
+              "name": "open search and initial labels",
+              "status": "passed",
+              "elapsedMs": 507
+            },
+            {
+              "name": "selection persists after Escape and reopening",
+              "status": "failed",
+              "elapsedMs": 3989,
+              "error": "locator.press: Timeout 3500ms exceeded.\nCall log:\n  - waiting for getByRole('textbox', { name: 'Search labels', exact: true })\n",
+              "stack": "locator.press: Timeout 3500ms exceeded.\nCall log:\n  - waiting for getByRole('textbox', { name: 'Search labels', exact: true })\n\n    at /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:181:136\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:180:11)"
+            },
+            {
+              "name": "nested Back and Escape retain query without creating",
+              "status": "failed",
+              "elapsedMs": 507,
+              "error": "The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n",
+              "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n\n    at createView (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:175:94)\n    at async /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:188:42\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:187:11)"
+            },
+            {
+              "name": "editable name color Create selects exactly once and returns to picker",
+              "status": "failed",
+              "elapsedMs": 509,
+              "error": "The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n",
+              "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n\n    at createView (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:175:94)\n    at async /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:195:42\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:194:11)"
+            },
+            {
+              "name": "outside click closes picker and nested creation without invisible focus",
+              "status": "failed",
+              "elapsedMs": 574,
+              "error": "The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n",
+              "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n\n    at createView (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:175:94)\n    at async /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:204:27\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:202:11)"
+            },
+            {
+              "name": "rapid trigger switching and nested escape leaves usable focus",
+              "status": "failed",
+              "elapsedMs": 1177,
+              "error": "Expected values to be strictly equal:\n\n'true' !== 'false'\n",
+              "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'true' !== 'false'\n\n    at /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:208:52\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:206:11)"
+            },
+            {
+              "name": "keyboard selection color and creation submit",
+              "status": "failed",
+              "elapsedMs": 464,
+              "error": "Expected values to be strictly equal:\n\n0 !== 1\n",
+              "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n0 !== 1\n\n    at /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:214:20\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:211:11)"
+            },
+            {
+              "name": "keyboard activation creation Back and focus traversal",
+              "status": "passed",
+              "elapsedMs": 535,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 2,
+              "observations": {
+                "motion": {
+                  "visibleDurationsAbove50ms": []
+                },
+                "layout": {
+                  "viewport": 960,
+                  "document": 960
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "B-960-reduce/01-initial.png",
+            "B-960-reduce/02-filtered.png",
+            "B-960-reduce/03-failure-selection-persists-after-Escape-and-reopening.png",
+            "B-960-reduce/04-failure-nested-Back-and-Escape-retain-query-without-creating.png",
+            "B-960-reduce/05-failure-editable-name-color-Create-selects-exactly-once-and-returns-to-picker.png",
+            "B-960-reduce/06-failure-outside-click-closes-picker-and-nested-creation-without-invisible-focus.png",
+            "B-960-reduce/07-failure-rapid-trigger-switching-and-nested-escape-leaves-usable-focus.png",
+            "B-960-reduce/08-failure-keyboard-selection-color-and-creation-submit.png",
+            "B-960-reduce/09-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "B-960-reduce/page@70e042f04b88bb55ef9459556364f140.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 720
+          },
+          "reducedMotion": "no-preference",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 429,
+              "observations": {
+                "viewport": 390,
+                "document": 390
+              }
+            },
+            {
+              "name": "open search and initial labels",
+              "status": "passed",
+              "elapsedMs": 488
+            },
+            {
+              "name": "selection persists after Escape and reopening",
+              "status": "failed",
+              "elapsedMs": 4207,
+              "error": "locator.press: Timeout 3500ms exceeded.\nCall log:\n  - waiting for getByRole('textbox', { name: 'Search labels', exact: true })\n",
+              "stack": "locator.press: Timeout 3500ms exceeded.\nCall log:\n  - waiting for getByRole('textbox', { name: 'Search labels', exact: true })\n\n    at /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:181:136\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:180:11)"
+            },
+            {
+              "name": "nested Back and Escape retain query without creating",
+              "status": "failed",
+              "elapsedMs": 714,
+              "error": "The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n",
+              "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n\n    at createView (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:175:94)\n    at async /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:188:42\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:187:11)"
+            },
+            {
+              "name": "editable name color Create selects exactly once and returns to picker",
+              "status": "failed",
+              "elapsedMs": 713,
+              "error": "The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n",
+              "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n\n    at createView (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:175:94)\n    at async /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:195:42\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:194:11)"
+            },
+            {
+              "name": "outside click closes picker and nested creation without invisible focus",
+              "status": "failed",
+              "elapsedMs": 779,
+              "error": "The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n",
+              "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n\n    at createView (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:175:94)\n    at async /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:204:27\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:202:11)"
+            },
+            {
+              "name": "rapid trigger switching and nested escape leaves usable focus",
+              "status": "failed",
+              "elapsedMs": 1148,
+              "error": "Expected values to be strictly equal:\n\n'true' !== 'false'\n",
+              "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'true' !== 'false'\n\n    at /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:208:52\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:206:11)"
+            },
+            {
+              "name": "keyboard selection color and creation submit",
+              "status": "failed",
+              "elapsedMs": 469,
+              "error": "Expected values to be strictly equal:\n\n0 !== 1\n",
+              "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n0 !== 1\n\n    at /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:214:20\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:211:11)"
+            },
+            {
+              "name": "keyboard activation creation Back and focus traversal",
+              "status": "passed",
+              "elapsedMs": 499,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 1,
+              "observations": {
+                "motion": {
+                  "applicable": false
+                },
+                "layout": {
+                  "viewport": 390,
+                  "document": 390
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "B-390-no-preference/01-initial.png",
+            "B-390-no-preference/02-filtered.png",
+            "B-390-no-preference/03-failure-selection-persists-after-Escape-and-reopening.png",
+            "B-390-no-preference/04-failure-nested-Back-and-Escape-retain-query-without-creating.png",
+            "B-390-no-preference/05-failure-editable-name-color-Create-selects-exactly-once-and-returns-to-picker.png",
+            "B-390-no-preference/06-failure-outside-click-closes-picker-and-nested-creation-without-invisible-focus.png",
+            "B-390-no-preference/07-failure-rapid-trigger-switching-and-nested-escape-leaves-usable-focus.png",
+            "B-390-no-preference/08-failure-keyboard-selection-color-and-creation-submit.png",
+            "B-390-no-preference/09-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "B-390-no-preference/page@fcb69eea61e4f628b79f0e6301bbe4cb.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 720
+          },
+          "reducedMotion": "reduce",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 433,
+              "observations": {
+                "viewport": 390,
+                "document": 390
+              }
+            },
+            {
+              "name": "open search and initial labels",
+              "status": "passed",
+              "elapsedMs": 488
+            },
+            {
+              "name": "selection persists after Escape and reopening",
+              "status": "failed",
+              "elapsedMs": 3992,
+              "error": "locator.press: Timeout 3500ms exceeded.\nCall log:\n  - waiting for getByRole('textbox', { name: 'Search labels', exact: true })\n",
+              "stack": "locator.press: Timeout 3500ms exceeded.\nCall log:\n  - waiting for getByRole('textbox', { name: 'Search labels', exact: true })\n\n    at /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:181:136\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:180:11)"
+            },
+            {
+              "name": "nested Back and Escape retain query without creating",
+              "status": "failed",
+              "elapsedMs": 497,
+              "error": "The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n",
+              "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n\n    at createView (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:175:94)\n    at async /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:188:42\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:187:11)"
+            },
+            {
+              "name": "editable name color Create selects exactly once and returns to picker",
+              "status": "failed",
+              "elapsedMs": 514,
+              "error": "The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n",
+              "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n\n    at createView (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:175:94)\n    at async /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:195:42\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:194:11)"
+            },
+            {
+              "name": "outside click closes picker and nested creation without invisible focus",
+              "status": "failed",
+              "elapsedMs": 580,
+              "error": "The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n",
+              "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(await nameInput().isVisible())\n\n    at createView (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:175:94)\n    at async /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:204:27\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:202:11)"
+            },
+            {
+              "name": "rapid trigger switching and nested escape leaves usable focus",
+              "status": "failed",
+              "elapsedMs": 1149,
+              "error": "Expected values to be strictly equal:\n\n'true' !== 'false'\n",
+              "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'true' !== 'false'\n\n    at /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:208:52\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:206:11)"
+            },
+            {
+              "name": "keyboard selection color and creation submit",
+              "status": "failed",
+              "elapsedMs": 455,
+              "error": "Expected values to be strictly equal:\n\n0 !== 1\n",
+              "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n0 !== 1\n\n    at /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:214:20\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:211:11)"
+            },
+            {
+              "name": "keyboard activation creation Back and focus traversal",
+              "status": "passed",
+              "elapsedMs": 500,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nFieldnotes\nA little more organizedIdeas, with a place to b",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 1,
+              "observations": {
+                "motion": {
+                  "visibleDurationsAbove50ms": []
+                },
+                "layout": {
+                  "viewport": 390,
+                  "document": 390
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "B-390-reduce/01-initial.png",
+            "B-390-reduce/02-filtered.png",
+            "B-390-reduce/03-failure-selection-persists-after-Escape-and-reopening.png",
+            "B-390-reduce/04-failure-nested-Back-and-Escape-retain-query-without-creating.png",
+            "B-390-reduce/05-failure-editable-name-color-Create-selects-exactly-once-and-returns-to-picker.png",
+            "B-390-reduce/06-failure-outside-click-closes-picker-and-nested-creation-without-invisible-focus.png",
+            "B-390-reduce/07-failure-rapid-trigger-switching-and-nested-escape-leaves-usable-focus.png",
+            "B-390-reduce/08-failure-keyboard-selection-color-and-creation-submit.png",
+            "B-390-reduce/09-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "B-390-reduce/page@997875d2264fbd6467c278c428624f02.webm"
+          ]
+        }
+      ],
+      "briefSHA256": "6bbcba36d323094af5a0c6e01ff5a046cb2f7bccc08422a1af6370071e78db71",
+      "sourceSHA256": "d3e3a1927012887039257cfc0997d1efcfd36c508c8b285e84ab0cad8ea7f83b"
+    },
+    {
+      "id": "C",
+      "kind": "composer",
+      "source": "submissions/C/index.html",
+      "configurations": [
+        {
+          "viewport": {
+            "width": 960,
+            "height": 720
+          },
+          "reducedMotion": "no-preference",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 440,
+              "observations": {
+                "viewport": 960,
+                "document": 960
+              }
+            },
+            {
+              "name": "fixture document",
+              "status": "passed",
+              "elapsedMs": 436
+            },
+            {
+              "name": "typing expands; collapse Escape outside and reopen preserve draft",
+              "status": "passed",
+              "elapsedMs": 1576
+            },
+            {
+              "name": "Shift Enter inserts newline without sending; Enter sends exactly once",
+              "status": "passed",
+              "elapsedMs": 1628
+            },
+            {
+              "name": "click send exactly once; whitespace empty send does nothing",
+              "status": "passed",
+              "elapsedMs": 1586,
+              "observations": {
+                "emptyButtonNativeDisabled": true,
+                "emptyClickAttempted": false,
+                "emptyButtonAriaDisabled": null
+              }
+            },
+            {
+              "name": "synthetic IME composition suppresses Enter; commit then Enter sends",
+              "status": "passed",
+              "elapsedMs": 1274,
+              "observations": {
+                "inputMethod": "Synthetic DOM composition and key events; not native IME verification"
+              }
+            },
+            {
+              "name": "keyboard expand collapse and visible focus traversal",
+              "status": "passed",
+              "elapsedMs": 480,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomLocal study\nA personal collectionField notesA q",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "",
+                  "text": "A personal collectionField notesA quiet place to collect wha",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "toggle",
+                  "text": "Collapse composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomLocal study\nA personal collectionField notesA q",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "",
+                  "text": "A personal collectionField notesA quiet place to collect wha",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "toggle",
+                  "text": "Collapse composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 1,
+              "observations": {
+                "motion": {
+                  "applicable": false
+                },
+                "layout": {
+                  "viewport": 960,
+                  "document": 960
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "C-960-no-preference/01-initial.png",
+            "C-960-no-preference/02-draft-expanded.png",
+            "C-960-no-preference/03-escape-focus.png",
+            "C-960-no-preference/04-multiline.png",
+            "C-960-no-preference/05-sent-local-reply.png",
+            "C-960-no-preference/06-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "C-960-no-preference/page@868661ac0a953e4cc5f70bf5c2d57bae.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 960,
+            "height": 720
+          },
+          "reducedMotion": "reduce",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 452,
+              "observations": {
+                "viewport": 960,
+                "document": 960
+              }
+            },
+            {
+              "name": "fixture document",
+              "status": "passed",
+              "elapsedMs": 433
+            },
+            {
+              "name": "typing expands; collapse Escape outside and reopen preserve draft",
+              "status": "passed",
+              "elapsedMs": 1473
+            },
+            {
+              "name": "Shift Enter inserts newline without sending; Enter sends exactly once",
+              "status": "passed",
+              "elapsedMs": 1599
+            },
+            {
+              "name": "click send exactly once; whitespace empty send does nothing",
+              "status": "passed",
+              "elapsedMs": 1651,
+              "observations": {
+                "emptyButtonNativeDisabled": true,
+                "emptyClickAttempted": false,
+                "emptyButtonAriaDisabled": null
+              }
+            },
+            {
+              "name": "synthetic IME composition suppresses Enter; commit then Enter sends",
+              "status": "passed",
+              "elapsedMs": 1278,
+              "observations": {
+                "inputMethod": "Synthetic DOM composition and key events; not native IME verification"
+              }
+            },
+            {
+              "name": "keyboard expand collapse and visible focus traversal",
+              "status": "passed",
+              "elapsedMs": 490,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomLocal study\nA personal collectionField notesA q",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "",
+                  "text": "A personal collectionField notesA quiet place to collect wha",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "toggle",
+                  "text": "Collapse composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomLocal study\nA personal collectionField notesA q",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "",
+                  "text": "A personal collectionField notesA quiet place to collect wha",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "toggle",
+                  "text": "Collapse composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 3,
+              "observations": {
+                "motion": {
+                  "visibleDurationsAbove50ms": []
+                },
+                "layout": {
+                  "viewport": 960,
+                  "document": 960
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "C-960-reduce/01-initial.png",
+            "C-960-reduce/02-draft-expanded.png",
+            "C-960-reduce/03-escape-focus.png",
+            "C-960-reduce/04-multiline.png",
+            "C-960-reduce/05-sent-local-reply.png",
+            "C-960-reduce/06-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "C-960-reduce/page@314f4cdf91f99fe888bc44f4ebcb835a.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 720
+          },
+          "reducedMotion": "no-preference",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 451,
+              "observations": {
+                "viewport": 390,
+                "document": 390
+              }
+            },
+            {
+              "name": "fixture document",
+              "status": "passed",
+              "elapsedMs": 424
+            },
+            {
+              "name": "typing expands; collapse Escape outside and reopen preserve draft",
+              "status": "passed",
+              "elapsedMs": 1555
+            },
+            {
+              "name": "Shift Enter inserts newline without sending; Enter sends exactly once",
+              "status": "passed",
+              "elapsedMs": 1590
+            },
+            {
+              "name": "click send exactly once; whitespace empty send does nothing",
+              "status": "passed",
+              "elapsedMs": 1593,
+              "observations": {
+                "emptyButtonNativeDisabled": true,
+                "emptyClickAttempted": false,
+                "emptyButtonAriaDisabled": null
+              }
+            },
+            {
+              "name": "synthetic IME composition suppresses Enter; commit then Enter sends",
+              "status": "passed",
+              "elapsedMs": 1277,
+              "observations": {
+                "inputMethod": "Synthetic DOM composition and key events; not native IME verification"
+              }
+            },
+            {
+              "name": "keyboard expand collapse and visible focus traversal",
+              "status": "passed",
+              "elapsedMs": 484,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomLocal study\nA personal collectionField notesA q",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "",
+                  "text": "A personal collectionField notesA quiet place to collect wha",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "toggle",
+                  "text": "Collapse composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomLocal study\nA personal collectionField notesA q",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "",
+                  "text": "A personal collectionField notesA quiet place to collect wha",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "toggle",
+                  "text": "Collapse composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 1,
+              "observations": {
+                "motion": {
+                  "applicable": false
+                },
+                "layout": {
+                  "viewport": 390,
+                  "document": 390
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "C-390-no-preference/01-initial.png",
+            "C-390-no-preference/02-draft-expanded.png",
+            "C-390-no-preference/03-escape-focus.png",
+            "C-390-no-preference/04-multiline.png",
+            "C-390-no-preference/05-sent-local-reply.png",
+            "C-390-no-preference/06-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "C-390-no-preference/page@27a84acc5d4ce9e65c2b504bc7288ee2.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 720
+          },
+          "reducedMotion": "reduce",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 437,
+              "observations": {
+                "viewport": 390,
+                "document": 390
+              }
+            },
+            {
+              "name": "fixture document",
+              "status": "passed",
+              "elapsedMs": 427
+            },
+            {
+              "name": "typing expands; collapse Escape outside and reopen preserve draft",
+              "status": "passed",
+              "elapsedMs": 1470
+            },
+            {
+              "name": "Shift Enter inserts newline without sending; Enter sends exactly once",
+              "status": "passed",
+              "elapsedMs": 1574
+            },
+            {
+              "name": "click send exactly once; whitespace empty send does nothing",
+              "status": "passed",
+              "elapsedMs": 1594,
+              "observations": {
+                "emptyButtonNativeDisabled": true,
+                "emptyClickAttempted": false,
+                "emptyButtonAriaDisabled": null
+              }
+            },
+            {
+              "name": "synthetic IME composition suppresses Enter; commit then Enter sends",
+              "status": "passed",
+              "elapsedMs": 1310,
+              "observations": {
+                "inputMethod": "Synthetic DOM composition and key events; not native IME verification"
+              }
+            },
+            {
+              "name": "keyboard expand collapse and visible focus traversal",
+              "status": "passed",
+              "elapsedMs": 468,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomLocal study\nA personal collectionField notesA q",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "",
+                  "text": "A personal collectionField notesA quiet place to collect wha",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "toggle",
+                  "text": "Collapse composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomLocal study\nA personal collectionField notesA q",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "",
+                  "text": "A personal collectionField notesA quiet place to collect wha",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "toggle",
+                  "text": "Collapse composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 1,
+              "observations": {
+                "motion": {
+                  "visibleDurationsAbove50ms": []
+                },
+                "layout": {
+                  "viewport": 390,
+                  "document": 390
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "C-390-reduce/01-initial.png",
+            "C-390-reduce/02-draft-expanded.png",
+            "C-390-reduce/03-escape-focus.png",
+            "C-390-reduce/04-multiline.png",
+            "C-390-reduce/05-sent-local-reply.png",
+            "C-390-reduce/06-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "C-390-reduce/page@0ec280bd2c720574f7fcebf6c2679b90.webm"
+          ]
+        }
+      ],
+      "briefSHA256": "fb0fc04a3d04434f75b534206f5c08c6faceef2bdf9e614f87a86098a9fc7229",
+      "sourceSHA256": "8eca846415d05d4ba29ff0cfaceeed56548289b0b1256ee843eb760dfb1689de"
+    },
+    {
+      "id": "D",
+      "kind": "tags",
+      "source": "submissions/D/index.html",
+      "configurations": [
+        {
+          "viewport": {
+            "width": 960,
+            "height": 720
+          },
+          "reducedMotion": "no-preference",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 435,
+              "observations": {
+                "viewport": 960,
+                "document": 960
+              }
+            },
+            {
+              "name": "open search and initial labels",
+              "status": "passed",
+              "elapsedMs": 539
+            },
+            {
+              "name": "selection persists after Escape and reopening",
+              "status": "passed",
+              "elapsedMs": 826
+            },
+            {
+              "name": "nested Back and Escape retain query without creating",
+              "status": "passed",
+              "elapsedMs": 1313
+            },
+            {
+              "name": "editable name color Create selects exactly once and returns to picker",
+              "status": "passed",
+              "elapsedMs": 886
+            },
+            {
+              "name": "outside click closes picker and nested creation without invisible focus",
+              "status": "passed",
+              "elapsedMs": 832
+            },
+            {
+              "name": "rapid trigger switching and nested escape leaves usable focus",
+              "status": "passed",
+              "elapsedMs": 2285
+            },
+            {
+              "name": "keyboard selection color and creation submit",
+              "status": "passed",
+              "elapsedMs": 567
+            },
+            {
+              "name": "keyboard activation creation Back and focus traversal",
+              "status": "passed",
+              "elapsedMs": 532,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 1,
+              "observations": {
+                "motion": {
+                  "applicable": false
+                },
+                "layout": {
+                  "viewport": 960,
+                  "document": 960
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "D-960-no-preference/01-initial.png",
+            "D-960-no-preference/02-filtered.png",
+            "D-960-no-preference/03-selected-closed.png",
+            "D-960-no-preference/04-selected-reopened.png",
+            "D-960-no-preference/05-nested-create.png",
+            "D-960-no-preference/06-nested-escaped-focus.png",
+            "D-960-no-preference/07-created-reopened.png",
+            "D-960-no-preference/08-outside-dismiss.png",
+            "D-960-no-preference/09-rapid-reopened.png",
+            "D-960-no-preference/10-keyboard-color-focus.png",
+            "D-960-no-preference/11-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "D-960-no-preference/page@733542c5ee699539ef45db57736b751c.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 960,
+            "height": 720
+          },
+          "reducedMotion": "reduce",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 435,
+              "observations": {
+                "viewport": 960,
+                "document": 960
+              }
+            },
+            {
+              "name": "open search and initial labels",
+              "status": "passed",
+              "elapsedMs": 521
+            },
+            {
+              "name": "selection persists after Escape and reopening",
+              "status": "passed",
+              "elapsedMs": 579
+            },
+            {
+              "name": "nested Back and Escape retain query without creating",
+              "status": "passed",
+              "elapsedMs": 1093
+            },
+            {
+              "name": "editable name color Create selects exactly once and returns to picker",
+              "status": "passed",
+              "elapsedMs": 673
+            },
+            {
+              "name": "outside click closes picker and nested creation without invisible focus",
+              "status": "passed",
+              "elapsedMs": 629
+            },
+            {
+              "name": "rapid trigger switching and nested escape leaves usable focus",
+              "status": "passed",
+              "elapsedMs": 1652
+            },
+            {
+              "name": "keyboard selection color and creation submit",
+              "status": "passed",
+              "elapsedMs": 542
+            },
+            {
+              "name": "keyboard activation creation Back and focus traversal",
+              "status": "passed",
+              "elapsedMs": 520,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 1,
+              "observations": {
+                "motion": {
+                  "visibleDurationsAbove50ms": []
+                },
+                "layout": {
+                  "viewport": 960,
+                  "document": 960
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "D-960-reduce/01-initial.png",
+            "D-960-reduce/02-filtered.png",
+            "D-960-reduce/03-selected-closed.png",
+            "D-960-reduce/04-selected-reopened.png",
+            "D-960-reduce/05-nested-create.png",
+            "D-960-reduce/06-nested-escaped-focus.png",
+            "D-960-reduce/07-created-reopened.png",
+            "D-960-reduce/08-outside-dismiss.png",
+            "D-960-reduce/09-rapid-reopened.png",
+            "D-960-reduce/10-keyboard-color-focus.png",
+            "D-960-reduce/11-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "D-960-reduce/page@0d6b632e52ecdf7022888d0b2127b853.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 720
+          },
+          "reducedMotion": "no-preference",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 432,
+              "observations": {
+                "viewport": 390,
+                "document": 390
+              }
+            },
+            {
+              "name": "open search and initial labels",
+              "status": "passed",
+              "elapsedMs": 505
+            },
+            {
+              "name": "selection persists after Escape and reopening",
+              "status": "passed",
+              "elapsedMs": 810
+            },
+            {
+              "name": "nested Back and Escape retain query without creating",
+              "status": "passed",
+              "elapsedMs": 1261
+            },
+            {
+              "name": "editable name color Create selects exactly once and returns to picker",
+              "status": "passed",
+              "elapsedMs": 888
+            },
+            {
+              "name": "outside click closes picker and nested creation without invisible focus",
+              "status": "passed",
+              "elapsedMs": 815
+            },
+            {
+              "name": "rapid trigger switching and nested escape leaves usable focus",
+              "status": "passed",
+              "elapsedMs": 2283
+            },
+            {
+              "name": "keyboard selection color and creation submit",
+              "status": "passed",
+              "elapsedMs": 526
+            },
+            {
+              "name": "keyboard activation creation Back and focus traversal",
+              "status": "passed",
+              "elapsedMs": 503,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 0,
+              "observations": {
+                "motion": {
+                  "applicable": false
+                },
+                "layout": {
+                  "viewport": 390,
+                  "document": 390
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "D-390-no-preference/01-initial.png",
+            "D-390-no-preference/02-filtered.png",
+            "D-390-no-preference/03-selected-closed.png",
+            "D-390-no-preference/04-selected-reopened.png",
+            "D-390-no-preference/05-nested-create.png",
+            "D-390-no-preference/06-nested-escaped-focus.png",
+            "D-390-no-preference/07-created-reopened.png",
+            "D-390-no-preference/08-outside-dismiss.png",
+            "D-390-no-preference/09-rapid-reopened.png",
+            "D-390-no-preference/10-keyboard-color-focus.png",
+            "D-390-no-preference/11-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "D-390-no-preference/page@3cac7ee36d091439b19bc98494bbb8a9.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 720
+          },
+          "reducedMotion": "reduce",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 429,
+              "observations": {
+                "viewport": 390,
+                "document": 390
+              }
+            },
+            {
+              "name": "open search and initial labels",
+              "status": "passed",
+              "elapsedMs": 497
+            },
+            {
+              "name": "selection persists after Escape and reopening",
+              "status": "passed",
+              "elapsedMs": 563
+            },
+            {
+              "name": "nested Back and Escape retain query without creating",
+              "status": "passed",
+              "elapsedMs": 1059
+            },
+            {
+              "name": "editable name color Create selects exactly once and returns to picker",
+              "status": "passed",
+              "elapsedMs": 656
+            },
+            {
+              "name": "outside click closes picker and nested creation without invisible focus",
+              "status": "passed",
+              "elapsedMs": 613
+            },
+            {
+              "name": "rapid trigger switching and nested escape leaves usable focus",
+              "status": "passed",
+              "elapsedMs": 1634
+            },
+            {
+              "name": "keyboard selection color and creation submit",
+              "status": "passed",
+              "elapsedMs": 507
+            },
+            {
+              "name": "keyboard activation creation Back and focus traversal",
+              "status": "passed",
+              "elapsedMs": 504,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n↗Studio notes/Projects\nA WORK IN PROGRESSWebsite refreshCol",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 1,
+              "observations": {
+                "motion": {
+                  "visibleDurationsAbove50ms": []
+                },
+                "layout": {
+                  "viewport": 390,
+                  "document": 390
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "D-390-reduce/01-initial.png",
+            "D-390-reduce/02-filtered.png",
+            "D-390-reduce/03-selected-closed.png",
+            "D-390-reduce/04-selected-reopened.png",
+            "D-390-reduce/05-nested-create.png",
+            "D-390-reduce/06-nested-escaped-focus.png",
+            "D-390-reduce/07-created-reopened.png",
+            "D-390-reduce/08-outside-dismiss.png",
+            "D-390-reduce/09-rapid-reopened.png",
+            "D-390-reduce/10-keyboard-color-focus.png",
+            "D-390-reduce/11-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "D-390-reduce/page@f27296af34e99e07ebf5f0abe753af35.webm"
+          ]
+        }
+      ],
+      "briefSHA256": "6bbcba36d323094af5a0c6e01ff5a046cb2f7bccc08422a1af6370071e78db71",
+      "sourceSHA256": "d8d9abc80dd13d2970a1f7d411122e51d6b1ca0a7f4aa0eff4171c74a369b88b"
+    },
+    {
+      "id": "E",
+      "kind": "composer",
+      "source": "submissions/E/index.html",
+      "configurations": [
+        {
+          "viewport": {
+            "width": 960,
+            "height": 720
+          },
+          "reducedMotion": "no-preference",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 453,
+              "observations": {
+                "viewport": 960,
+                "document": 960
+              }
+            },
+            {
+              "name": "fixture document",
+              "status": "passed",
+              "elapsedMs": 433
+            },
+            {
+              "name": "typing expands; collapse Escape outside and reopen preserve draft",
+              "status": "failed",
+              "elapsedMs": 968,
+              "error": "Expected values to be strictly equal:\n\n'true' !== 'false'\n",
+              "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'true' !== 'false'\n\n    at expanded (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:128:53)\n    at async /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:134:116\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:131:11)"
+            },
+            {
+              "name": "Shift Enter inserts newline without sending; Enter sends exactly once",
+              "status": "passed",
+              "elapsedMs": 1606
+            },
+            {
+              "name": "click send exactly once; whitespace empty send does nothing",
+              "status": "passed",
+              "elapsedMs": 1926,
+              "observations": {
+                "emptyButtonNativeDisabled": false,
+                "emptyClickAttempted": true,
+                "emptyButtonAriaDisabled": "true"
+              }
+            },
+            {
+              "name": "synthetic IME composition suppresses Enter; commit then Enter sends",
+              "status": "passed",
+              "elapsedMs": 1296,
+              "observations": {
+                "inputMethod": "Synthetic DOM composition and key events; not native IME verification"
+              }
+            },
+            {
+              "name": "keyboard expand collapse and visible focus traversal",
+              "status": "passed",
+              "elapsedMs": 485,
+              "observations": [
+                {
+                  "tag": "BUTTON",
+                  "id": "send",
+                  "text": "Send message",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomLocal workspace\nA small collection · 01Field no",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "",
+                  "text": "Field notes document",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "expand",
+                  "text": "Expand composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "send",
+                  "text": "Send message",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomLocal workspace\nA small collection · 01Field no",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "",
+                  "text": "Field notes document",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 0,
+              "observations": {
+                "motion": {
+                  "applicable": false
+                },
+                "layout": {
+                  "viewport": 960,
+                  "document": 960
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "E-960-no-preference/01-initial.png",
+            "E-960-no-preference/02-draft-expanded.png",
+            "E-960-no-preference/03-failure-typing-expands-collapse-Escape-outside-and-reopen-preserve-draft.png",
+            "E-960-no-preference/04-multiline.png",
+            "E-960-no-preference/05-sent-local-reply.png",
+            "E-960-no-preference/06-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "E-960-no-preference/page@e0cff4df0060f976101084736434cc64.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 960,
+            "height": 720
+          },
+          "reducedMotion": "reduce",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 439,
+              "observations": {
+                "viewport": 960,
+                "document": 960
+              }
+            },
+            {
+              "name": "fixture document",
+              "status": "passed",
+              "elapsedMs": 432
+            },
+            {
+              "name": "typing expands; collapse Escape outside and reopen preserve draft",
+              "status": "passed",
+              "elapsedMs": 1494
+            },
+            {
+              "name": "Shift Enter inserts newline without sending; Enter sends exactly once",
+              "status": "passed",
+              "elapsedMs": 1601
+            },
+            {
+              "name": "click send exactly once; whitespace empty send does nothing",
+              "status": "failed",
+              "elapsedMs": 1162,
+              "error": "Expected values to be strictly equal:\n\n0 !== 1\n",
+              "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n0 !== 1\n\n    at /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:149:177\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:148:11)"
+            },
+            {
+              "name": "synthetic IME composition suppresses Enter; commit then Enter sends",
+              "status": "passed",
+              "elapsedMs": 1288,
+              "observations": {
+                "inputMethod": "Synthetic DOM composition and key events; not native IME verification"
+              }
+            },
+            {
+              "name": "keyboard expand collapse and visible focus traversal",
+              "status": "passed",
+              "elapsedMs": 495,
+              "observations": [
+                {
+                  "tag": "BUTTON",
+                  "id": "send",
+                  "text": "Send message",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomLocal workspace\nA small collection · 01Field no",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "",
+                  "text": "Field notes document",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "expand",
+                  "text": "Expand composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "send",
+                  "text": "Send message",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomLocal workspace\nA small collection · 01Field no",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "",
+                  "text": "Field notes document",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 2,
+              "observations": {
+                "motion": {
+                  "visibleDurationsAbove50ms": []
+                },
+                "layout": {
+                  "viewport": 960,
+                  "document": 960
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "E-960-reduce/01-initial.png",
+            "E-960-reduce/02-draft-expanded.png",
+            "E-960-reduce/03-escape-focus.png",
+            "E-960-reduce/04-multiline.png",
+            "E-960-reduce/05-sent-local-reply.png",
+            "E-960-reduce/06-failure-click-send-exactly-once-whitespace-empty-send-does-nothing.png",
+            "E-960-reduce/07-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "E-960-reduce/page@5fcac019fd46c0acba02ba8f947c42e6.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 720
+          },
+          "reducedMotion": "no-preference",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 445,
+              "observations": {
+                "viewport": 390,
+                "document": 390
+              }
+            },
+            {
+              "name": "fixture document",
+              "status": "passed",
+              "elapsedMs": 428
+            },
+            {
+              "name": "typing expands; collapse Escape outside and reopen preserve draft",
+              "status": "failed",
+              "elapsedMs": 918,
+              "error": "Expected values to be strictly equal:\n\n'true' !== 'false'\n",
+              "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'true' !== 'false'\n\n    at expanded (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:128:53)\n    at async /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:134:116\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:131:11)"
+            },
+            {
+              "name": "Shift Enter inserts newline without sending; Enter sends exactly once",
+              "status": "passed",
+              "elapsedMs": 1571
+            },
+            {
+              "name": "click send exactly once; whitespace empty send does nothing",
+              "status": "passed",
+              "elapsedMs": 1932,
+              "observations": {
+                "emptyButtonNativeDisabled": false,
+                "emptyClickAttempted": true,
+                "emptyButtonAriaDisabled": "true"
+              }
+            },
+            {
+              "name": "synthetic IME composition suppresses Enter; commit then Enter sends",
+              "status": "passed",
+              "elapsedMs": 1309,
+              "observations": {
+                "inputMethod": "Synthetic DOM composition and key events; not native IME verification"
+              }
+            },
+            {
+              "name": "keyboard expand collapse and visible focus traversal",
+              "status": "passed",
+              "elapsedMs": 480,
+              "observations": [
+                {
+                  "tag": "BUTTON",
+                  "id": "send",
+                  "text": "Send message",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomLocal workspace\nA small collection · 01Field no",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "",
+                  "text": "Field notes document",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "expand",
+                  "text": "Expand composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "send",
+                  "text": "Send message",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomLocal workspace\nA small collection · 01Field no",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "",
+                  "text": "Field notes document",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 1,
+              "observations": {
+                "motion": {
+                  "applicable": false
+                },
+                "layout": {
+                  "viewport": 390,
+                  "document": 390
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "E-390-no-preference/01-initial.png",
+            "E-390-no-preference/02-draft-expanded.png",
+            "E-390-no-preference/03-failure-typing-expands-collapse-Escape-outside-and-reopen-preserve-draft.png",
+            "E-390-no-preference/04-multiline.png",
+            "E-390-no-preference/05-sent-local-reply.png",
+            "E-390-no-preference/06-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "E-390-no-preference/page@fbf86cc1ac7f5dfbcb85458dd12bdf4c.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 720
+          },
+          "reducedMotion": "reduce",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 436,
+              "observations": {
+                "viewport": 390,
+                "document": 390
+              }
+            },
+            {
+              "name": "fixture document",
+              "status": "passed",
+              "elapsedMs": 428
+            },
+            {
+              "name": "typing expands; collapse Escape outside and reopen preserve draft",
+              "status": "passed",
+              "elapsedMs": 1453
+            },
+            {
+              "name": "Shift Enter inserts newline without sending; Enter sends exactly once",
+              "status": "passed",
+              "elapsedMs": 1573
+            },
+            {
+              "name": "click send exactly once; whitespace empty send does nothing",
+              "status": "failed",
+              "elapsedMs": 1158,
+              "error": "Expected values to be strictly equal:\n\n0 !== 1\n",
+              "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n0 !== 1\n\n    at /home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:149:177\n    at async check (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:87:38)\n    at async main (/home/runner/work/motionbook/motionbook/evals/motionbook/adaptation-comparison/round-4/harness/browser-check.cjs:148:11)"
+            },
+            {
+              "name": "synthetic IME composition suppresses Enter; commit then Enter sends",
+              "status": "passed",
+              "elapsedMs": 1272,
+              "observations": {
+                "inputMethod": "Synthetic DOM composition and key events; not native IME verification"
+              }
+            },
+            {
+              "name": "keyboard expand collapse and visible focus traversal",
+              "status": "passed",
+              "elapsedMs": 478,
+              "observations": [
+                {
+                  "tag": "BUTTON",
+                  "id": "send",
+                  "text": "Send message",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomLocal workspace\nA small collection · 01Field no",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "",
+                  "text": "Field notes document",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "TEXTAREA",
+                  "id": "draft",
+                  "text": "",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "expand",
+                  "text": "Expand composer",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "send",
+                  "text": "Send message",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\nReading roomLocal workspace\nA small collection · 01Field no",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "ARTICLE",
+                  "id": "",
+                  "text": "Field notes document",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 1,
+              "observations": {
+                "motion": {
+                  "visibleDurationsAbove50ms": []
+                },
+                "layout": {
+                  "viewport": 390,
+                  "document": 390
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "E-390-reduce/01-initial.png",
+            "E-390-reduce/02-draft-expanded.png",
+            "E-390-reduce/03-escape-focus.png",
+            "E-390-reduce/04-multiline.png",
+            "E-390-reduce/05-sent-local-reply.png",
+            "E-390-reduce/06-failure-click-send-exactly-once-whitespace-empty-send-does-nothing.png",
+            "E-390-reduce/07-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "E-390-reduce/page@370d0a041422d1f0122247e180bfa653.webm"
+          ]
+        }
+      ],
+      "briefSHA256": "fb0fc04a3d04434f75b534206f5c08c6faceef2bdf9e614f87a86098a9fc7229",
+      "sourceSHA256": "c8dd674613f83e2292a4ba3c259a6e9806c4b3d5949fc4705bbd87003bdef007"
+    },
+    {
+      "id": "F",
+      "kind": "tags",
+      "source": "submissions/F/index.html",
+      "configurations": [
+        {
+          "viewport": {
+            "width": 960,
+            "height": 720
+          },
+          "reducedMotion": "no-preference",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 434,
+              "observations": {
+                "viewport": 960,
+                "document": 960
+              }
+            },
+            {
+              "name": "open search and initial labels",
+              "status": "passed",
+              "elapsedMs": 508
+            },
+            {
+              "name": "selection persists after Escape and reopening",
+              "status": "passed",
+              "elapsedMs": 807
+            },
+            {
+              "name": "nested Back and Escape retain query without creating",
+              "status": "passed",
+              "elapsedMs": 1289
+            },
+            {
+              "name": "editable name color Create selects exactly once and returns to picker",
+              "status": "passed",
+              "elapsedMs": 894
+            },
+            {
+              "name": "outside click closes picker and nested creation without invisible focus",
+              "status": "passed",
+              "elapsedMs": 831
+            },
+            {
+              "name": "rapid trigger switching and nested escape leaves usable focus",
+              "status": "passed",
+              "elapsedMs": 2249
+            },
+            {
+              "name": "keyboard selection color and creation submit",
+              "status": "passed",
+              "elapsedMs": 533
+            },
+            {
+              "name": "keyboard activation creation Back and focus traversal",
+              "status": "passed",
+              "elapsedMs": 516,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 0,
+              "observations": {
+                "motion": {
+                  "applicable": false
+                },
+                "layout": {
+                  "viewport": 960,
+                  "document": 960
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "F-960-no-preference/01-initial.png",
+            "F-960-no-preference/02-filtered.png",
+            "F-960-no-preference/03-selected-closed.png",
+            "F-960-no-preference/04-selected-reopened.png",
+            "F-960-no-preference/05-nested-create.png",
+            "F-960-no-preference/06-nested-escaped-focus.png",
+            "F-960-no-preference/07-created-reopened.png",
+            "F-960-no-preference/08-outside-dismiss.png",
+            "F-960-no-preference/09-rapid-reopened.png",
+            "F-960-no-preference/10-keyboard-color-focus.png",
+            "F-960-no-preference/11-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "F-960-no-preference/page@bad55e091c6c4b305fe177a64a993a9b.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 960,
+            "height": 720
+          },
+          "reducedMotion": "reduce",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 430,
+              "observations": {
+                "viewport": 960,
+                "document": 960
+              }
+            },
+            {
+              "name": "open search and initial labels",
+              "status": "passed",
+              "elapsedMs": 498
+            },
+            {
+              "name": "selection persists after Escape and reopening",
+              "status": "passed",
+              "elapsedMs": 578
+            },
+            {
+              "name": "nested Back and Escape retain query without creating",
+              "status": "passed",
+              "elapsedMs": 1089
+            },
+            {
+              "name": "editable name color Create selects exactly once and returns to picker",
+              "status": "passed",
+              "elapsedMs": 660
+            },
+            {
+              "name": "outside click closes picker and nested creation without invisible focus",
+              "status": "passed",
+              "elapsedMs": 628
+            },
+            {
+              "name": "rapid trigger switching and nested escape leaves usable focus",
+              "status": "passed",
+              "elapsedMs": 1601
+            },
+            {
+              "name": "keyboard selection color and creation submit",
+              "status": "passed",
+              "elapsedMs": 524
+            },
+            {
+              "name": "keyboard activation creation Back and focus traversal",
+              "status": "passed",
+              "elapsedMs": 505,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 1,
+              "observations": {
+                "motion": {
+                  "visibleDurationsAbove50ms": []
+                },
+                "layout": {
+                  "viewport": 960,
+                  "document": 960
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "F-960-reduce/01-initial.png",
+            "F-960-reduce/02-filtered.png",
+            "F-960-reduce/03-selected-closed.png",
+            "F-960-reduce/04-selected-reopened.png",
+            "F-960-reduce/05-nested-create.png",
+            "F-960-reduce/06-nested-escaped-focus.png",
+            "F-960-reduce/07-created-reopened.png",
+            "F-960-reduce/08-outside-dismiss.png",
+            "F-960-reduce/09-rapid-reopened.png",
+            "F-960-reduce/10-keyboard-color-focus.png",
+            "F-960-reduce/11-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "F-960-reduce/page@44778122f8bc82b3eafb614a728382e7.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 720
+          },
+          "reducedMotion": "no-preference",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 425,
+              "observations": {
+                "viewport": 390,
+                "document": 390
+              }
+            },
+            {
+              "name": "open search and initial labels",
+              "status": "passed",
+              "elapsedMs": 498
+            },
+            {
+              "name": "selection persists after Escape and reopening",
+              "status": "passed",
+              "elapsedMs": 793
+            },
+            {
+              "name": "nested Back and Escape retain query without creating",
+              "status": "passed",
+              "elapsedMs": 1264
+            },
+            {
+              "name": "editable name color Create selects exactly once and returns to picker",
+              "status": "passed",
+              "elapsedMs": 850
+            },
+            {
+              "name": "outside click closes picker and nested creation without invisible focus",
+              "status": "passed",
+              "elapsedMs": 814
+            },
+            {
+              "name": "rapid trigger switching and nested escape leaves usable focus",
+              "status": "passed",
+              "elapsedMs": 2232
+            },
+            {
+              "name": "keyboard selection color and creation submit",
+              "status": "passed",
+              "elapsedMs": 510
+            },
+            {
+              "name": "keyboard activation creation Back and focus traversal",
+              "status": "passed",
+              "elapsedMs": 484,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 1,
+              "observations": {
+                "motion": {
+                  "applicable": false
+                },
+                "layout": {
+                  "viewport": 390,
+                  "document": 390
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "F-390-no-preference/01-initial.png",
+            "F-390-no-preference/02-filtered.png",
+            "F-390-no-preference/03-selected-closed.png",
+            "F-390-no-preference/04-selected-reopened.png",
+            "F-390-no-preference/05-nested-create.png",
+            "F-390-no-preference/06-nested-escaped-focus.png",
+            "F-390-no-preference/07-created-reopened.png",
+            "F-390-no-preference/08-outside-dismiss.png",
+            "F-390-no-preference/09-rapid-reopened.png",
+            "F-390-no-preference/10-keyboard-color-focus.png",
+            "F-390-no-preference/11-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "F-390-no-preference/page@dc6945a3d7f4c7a9ac11411141d1a9ab.webm"
+          ]
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 720
+          },
+          "reducedMotion": "reduce",
+          "checks": [
+            {
+              "name": "initial layout and screenshot",
+              "status": "passed",
+              "elapsedMs": 428,
+              "observations": {
+                "viewport": 390,
+                "document": 390
+              }
+            },
+            {
+              "name": "open search and initial labels",
+              "status": "passed",
+              "elapsedMs": 499
+            },
+            {
+              "name": "selection persists after Escape and reopening",
+              "status": "passed",
+              "elapsedMs": 577
+            },
+            {
+              "name": "nested Back and Escape retain query without creating",
+              "status": "passed",
+              "elapsedMs": 1055
+            },
+            {
+              "name": "editable name color Create selects exactly once and returns to picker",
+              "status": "passed",
+              "elapsedMs": 661
+            },
+            {
+              "name": "outside click closes picker and nested creation without invisible focus",
+              "status": "passed",
+              "elapsedMs": 629
+            },
+            {
+              "name": "rapid trigger switching and nested escape leaves usable focus",
+              "status": "passed",
+              "elapsedMs": 1635
+            },
+            {
+              "name": "keyboard selection color and creation submit",
+              "status": "passed",
+              "elapsedMs": 508
+            },
+            {
+              "name": "keyboard activation creation Back and focus traversal",
+              "status": "passed",
+              "elapsedMs": 502,
+              "observations": [
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                },
+                {
+                  "tag": "BODY",
+                  "id": "",
+                  "text": "\n\nA place for everything\n\nDesignResearch+Labels\n\n\n\nNo matchi",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": true,
+                  "indicator": false
+                },
+                {
+                  "tag": "BUTTON",
+                  "id": "trigger",
+                  "text": "+Labels",
+                  "visible": true,
+                  "visibleAssociatedLabel": false,
+                  "documentFocus": false,
+                  "indicator": true
+                }
+              ]
+            },
+            {
+              "name": "reduced motion and final responsive bounds",
+              "status": "passed",
+              "elapsedMs": 1,
+              "observations": {
+                "motion": {
+                  "visibleDurationsAbove50ms": []
+                },
+                "layout": {
+                  "viewport": 390,
+                  "document": 390
+                }
+              }
+            },
+            {
+              "name": "no application exceptions or external requests",
+              "status": "passed",
+              "elapsedMs": 0
+            }
+          ],
+          "screenshots": [
+            "F-390-reduce/01-initial.png",
+            "F-390-reduce/02-filtered.png",
+            "F-390-reduce/03-selected-closed.png",
+            "F-390-reduce/04-selected-reopened.png",
+            "F-390-reduce/05-nested-create.png",
+            "F-390-reduce/06-nested-escaped-focus.png",
+            "F-390-reduce/07-created-reopened.png",
+            "F-390-reduce/08-outside-dismiss.png",
+            "F-390-reduce/09-rapid-reopened.png",
+            "F-390-reduce/10-keyboard-color-focus.png",
+            "F-390-reduce/11-keyboard-focus.png"
+          ],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "externalRequests": [],
+          "videos": [
+            "F-390-reduce/page@555e67dc15b58c5daf2825a9a5fd224a.webm"
+          ]
+        }
+      ],
+      "briefSHA256": "6bbcba36d323094af5a0c6e01ff5a046cb2f7bccc08422a1af6370071e78db71",
+      "sourceSHA256": "1f2f2fa0abede57add76370b4044fbe3c2bbc240cce4c6d0e1335ffcbb24eebd"
+    }
+  ],
+  "fatalErrors": [],
+  "finishedAt": "2026-10-08T17:28:46.685Z"
+}
