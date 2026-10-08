@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Field notes · Reading room</title>
+<style>
+:root{color-scheme:light;--ink:#2e423a;--muted:#6f7a73;--line:#e3e7e2;--ease:cubic-bezier(.23,1,.32,1)}
+*{box-sizing:border-box}body{margin:0;background:#f1f3f0;color:var(--ink);font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}button,textarea{font:inherit}button{cursor:pointer}button:focus-visible,textarea:focus-visible,article:focus-visible,.messages:focus-visible{outline:2px solid #52775f;outline-offset:4px}button:disabled{cursor:default}svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round;flex:none}header.topbar{height:78px;padding:0 36px;display:flex;align-items:center;justify-content:space-between;font-size:12px;color:var(--muted)}.brand{display:flex;align-items:center;gap:10px;color:#42574a;font-size:13px;letter-spacing:.02em}.brand svg{width:21px;height:21px}.status{display:flex;align-items:center;gap:7px}.status:before{content:"";width:5px;height:5px;background:#7e9583;border-radius:50%}main{padding:24px 28px 180px}article{position:relative;max-width:610px;height:428px;margin:0 auto;padding:57px 58px;background:#fffefb;border:1px solid #e4e6df;box-shadow:0 2px 5px #32443004,0 16px 32px #32443003}.eyebrow{margin:0 0 27px;color:#6f8376;font-size:10px;letter-spacing:.17em;text-transform:uppercase}h1{margin:0 0 22px;font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:43px;letter-spacing:-1.1px;line-height:1.1}.body-copy{max-width:350px;font-family:Georgia,'Times New Roman',serif;font-size:20px;line-height:1.65;color:#68776d;margin:0}.paper-footer{position:absolute;bottom:30px;left:58px;right:58px;border-top:1px solid var(--line);padding-top:15px;display:flex;justify-content:space-between;font-size:10px;color:#89928b;letter-spacing:.05em}.floating{position:fixed;bottom:max(24px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);width:min(590px,calc(100% - 40px));z-index:2}.composer{background:#fff;border:1px solid #dde3dc;border-radius:22px;box-shadow:0 12px 38px #33453712,0 2px 5px #33453706;overflow:hidden}.context{height:0;opacity:0;overflow:hidden;transition:height 300ms var(--ease),opacity 240ms ease}.context-inner{height:46px;display:flex;align-items:center;gap:9px;margin:0 18px;border-bottom:1px solid #edf0ec;font-size:12px;color:#6c7971}.context-inner svg{width:15px;height:15px}.context-inner span:last-child{margin-left:auto;color:#879087;font-size:10px;letter-spacing:.03em}.composer.expanded .context{height:46px;opacity:1}.editor{padding:16px 18px 0}textarea{display:block;width:100%;height:28px;min-height:28px;resize:none;padding:2px 0;border:0;background:transparent;color:#34443b;line-height:24px;font-size:15px;overflow:auto;transition:height 300ms var(--ease);border-radius:3px}textarea::placeholder{color:#8b948e}.composer.expanded textarea{height:92px}.toolbar{padding:10px 12px 12px 18px;display:flex;align-items:center;gap:9px;height:58px}.hint{font-size:10px;color:#7a857e;flex:1}.hint .editing-hint{display:none}.expanded .hint .editing-hint{display:inline}.expanded .hint .resting-hint{display:none}.icon-button{width:34px;height:34px;border:0;background:transparent;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;color:#758478;transition:background 150ms ease,color 150ms ease}.icon-button:hover{background:#f1f4ef;color:#314b39}.send{color:#fff;background:#334c3b}.send:hover{background:#243d2c;color:white}.send:disabled{background:#eef1eb;color:#b1b9af}.expand-icon{transition:transform 300ms var(--ease)}.expanded .expand-icon{transform:rotate(180deg)}.messages{max-height:205px;overflow:auto;scrollbar-width:thin;margin:0 0 12px;border:1px solid #dde3dc;border-radius:18px;padding:16px 18px;background:#fffefc;box-shadow:0 7px 28px #33453708}.messages[hidden]{display:none}.exchange+.exchange{margin-top:20px;border-top:1px solid #edf0ec;padding-top:18px}.message{font-size:13px;line-height:1.55;white-space:pre-wrap;overflow-wrap:anywhere;margin:0}.message-label{font-size:10px;color:#7d887f;margin-bottom:6px;display:block}.user-message{background:#edf1e9;border-radius:12px 12px 3px 12px;padding:10px 13px;margin-left:32px;margin-bottom:14px;color:#34483a}.reply-label{display:flex;align-items:center;gap:6px}.reply-label:before{content:"";height:5px;width:5px;background:#89a08c;border-radius:50%}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}
+@media(max-width:520px){header.topbar{height:66px;padding:0 22px}.status{font-size:10px}main{padding:15px 18px 170px}article{padding:39px 30px;height:402px}h1{font-size:38px}.body-copy{font-size:19px;max-width:240px}.eyebrow{margin-bottom:28px}.paper-footer{left:30px;right:30px;bottom:27px}.floating{width:calc(100% - 28px);bottom:max(16px,env(safe-area-inset-bottom))}.hint{font-size:9px}.messages{max-height:180px}.context-inner span:last-child{font-size:9px}}
+@media(max-height:570px){.floating{bottom:10px}.messages{max-height:110px}.composer.expanded textarea{height:64px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="brand"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 18V6m0 9c8 1 14-3 14-10C11 4 5 8 5 15Zm0 5 10-10"/></svg>Reading room</div><span class="status">Local study</span></header>
+<main><article tabindex="0" aria-labelledby="document-title"><p class="eyebrow">A personal collection</p><h1 id="document-title">Field notes</h1><p class="body-copy">A quiet place to collect what matters.</p><div class="paper-footer" aria-hidden="true"><span>FIELD NOTES</span><span>01</span></div></article></main>
+<section class="floating" aria-label="Document assistant">
+<div class="messages" id="conversation" role="log" aria-label="Local conversation" aria-live="polite" tabindex="0" hidden></div>
+<form class="composer" id="composer" autocomplete="off">
+<div class="context" id="context" aria-hidden="true"><div class="context-inner"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2h7l3 3v13H5Z M11 2v4h4 M8 10h4 M8 13h4"/></svg><span>About Field notes</span><span>SIMULATED · LOCAL</span></div></div>
+<div class="editor"><label class="sr-only" for="draft">Message about Field notes</label><textarea id="draft" rows="1" placeholder="Ask about this document…" aria-describedby="input-help"></textarea></div>
+<div class="toolbar"><span class="hint" id="input-help"><span class="resting-hint">A little space to think.</span><span class="editing-hint">Enter to send · Shift + Enter for a new line</span></span><button type="button" class="icon-button" id="toggle" aria-label="Expand composer" aria-expanded="false" aria-controls="draft context" title="Expand composer"><svg class="expand-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="m5 12 5-5 5 5"/></svg></button><button type="submit" class="icon-button send" id="send" aria-label="Send message" title="Send message" disabled><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 15V5m-5 5 5-5 5 5"/></svg></button></div>
+</form></section>
+<script>
+(()=>{
+const form=document.getElementById('composer'), input=document.getElementById('draft'), toggle=document.getElementById('toggle'), send=document.getElementById('send'), context=document.getElementById('context'), log=document.getElementById('conversation'), floating=document.querySelector('.floating');
+let expanded=false,composing=false;
+function setExpanded(value){expanded=value;form.classList.toggle('expanded',value);toggle.setAttribute('aria-expanded',String(value));toggle.setAttribute('aria-label',value?'Collapse composer':'Expand composer');toggle.title=value?'Collapse composer':'Expand composer';context.setAttribute('aria-hidden',String(!value));}
+function refresh(){send.disabled=!input.value.trim()||composing;}
+input.addEventListener('focus',()=>setExpanded(true));
+input.addEventListener('input',()=>{setExpanded(true);refresh()});
+input.addEventListener('compositionstart',()=>{composing=true;refresh()});
+input.addEventListener('compositionend',()=>{composing=false;refresh()});
+toggle.addEventListener('click',()=>{const opening=!expanded;setExpanded(opening);if(opening)input.focus({preventScroll:true});});
+form.addEventListener('click',event=>{if(event.target===form||event.target.classList.contains('editor'))input.focus({preventScroll:true});});
+document.addEventListener('pointerdown',event=>{if(!floating.contains(event.target)){setExpanded(false);if(document.activeElement===input)input.blur();}});
+floating.addEventListener('focusout',event=>{if(event.relatedTarget&&!floating.contains(event.relatedTarget))setExpanded(false);});
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!event.isComposing&&!composing&&expanded){event.preventDefault();setExpanded(false);if(floating.contains(document.activeElement))toggle.focus({preventScroll:true});}});
+input.addEventListener('keydown',event=>{if(event.key==='Enter'&&!event.shiftKey&&!event.isComposing&&!composing&&event.keyCode!==229){event.preventDefault();submit();}});
+form.addEventListener('submit',event=>{event.preventDefault();submit();});
+function submit(){
+ if(composing)return;
+ const body=input.value.trim();if(!body)return;
+ input.value='';refresh();
+ const exchange=document.createElement('div');exchange.className='exchange';
+ const user=document.createElement('div');user.className='user-message';
+ const userLabel=document.createElement('span');userLabel.className='message-label';userLabel.textContent='You';
+ const userText=document.createElement('p');userText.className='message';userText.textContent=body;user.append(userLabel,userText);
+ const replyLabel=document.createElement('span');replyLabel.className='message-label reply-label';replyLabel.textContent='Local simulated reply';
+ const reply=document.createElement('p');reply.className='message';reply.textContent='This note makes room for what matters. Try adding one small observation you want to keep.';
+ exchange.append(user,replyLabel,reply);log.append(exchange);log.hidden=false;log.scrollTop=log.scrollHeight;
+ setExpanded(true);input.focus({preventScroll:true});
+}
+})();
+</script>
+</body>
+</html>

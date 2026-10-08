@@ -1,0 +1,90 @@
+name: Motionbook interaction evaluation
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'evals/motionbook/adaptation-comparison/round-4/submissions/**'
+      - 'evals/motionbook/adaptation-comparison/round-4/harness/**'
+      - '.github/workflows/motionbook-interaction-eval.yml'
+permissions:
+  contents: read
+concurrency:
+  group: motionbook-interaction-eval-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install pinned browser tooling
+        working-directory: evals/motionbook/adaptation-comparison/round-4
+        run: |
+          npm install --no-save --ignore-scripts --no-audit --no-fund playwright@1.64.0
+          npx playwright install --with-deps chromium
+      - name: Exercise anonymous studies
+        working-directory: evals/motionbook/adaptation-comparison/round-4
+        run: node harness/browser-check.cjs
+      - name: Save browser evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: motionbook-round-4-browser
+          path: |
+            evals/motionbook/adaptation-comparison/round-4/evidence/results.json
+            evals/motionbook/adaptation-comparison/round-4/evidence/**/*.png
+          retention-days: 14
+          if-no-files-found: error
+      - name: Save A recordings
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: motionbook-round-4-video-A
+          path: evals/motionbook/adaptation-comparison/round-4/evidence/A-*/*.webm
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Save B recordings
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: motionbook-round-4-video-B
+          path: evals/motionbook/adaptation-comparison/round-4/evidence/B-*/*.webm
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Save C recordings
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: motionbook-round-4-video-C
+          path: evals/motionbook/adaptation-comparison/round-4/evidence/C-*/*.webm
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Save D recordings
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: motionbook-round-4-video-D
+          path: evals/motionbook/adaptation-comparison/round-4/evidence/D-*/*.webm
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Save E recordings
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: motionbook-round-4-video-E
+          path: evals/motionbook/adaptation-comparison/round-4/evidence/E-*/*.webm
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Save F recordings
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: motionbook-round-4-video-F
+          path: evals/motionbook/adaptation-comparison/round-4/evidence/F-*/*.webm
+          retention-days: 14
+          if-no-files-found: warn
