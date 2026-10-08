@@ -1,0 +1,34 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Tidy — product film</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1280px;height:720px;overflow:hidden;background:#efede8}
+body{font-family:Inter,"Inter Display",sans-serif;color:#17181c;-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
+#stage{position:absolute;left:0;top:0;width:1280px;height:720px;overflow:hidden}
+.abs{position:absolute}
+#blob1,#blob2{position:absolute;border-radius:50%;pointer-events:none}
+#world{position:absolute;left:0;top:0;transform-origin:0 0}
+#phoneWrap{position:absolute;left:0;top:0;width:360px;height:680px}
+#bezel{position:absolute;left:-9px;top:-9px;width:378px;height:698px;border-radius:54px;background:#15161a;
+  box-shadow:0 60px 90px -30px rgba(40,40,90,.38),0 22px 40px -14px rgba(40,40,90,.22),inset 0 0 0 1.5px #34363d}
+#screen{position:absolute;left:0;top:0;width:360px;height:680px;border-radius:45px;overflow:hidden;background:#f6f5f1}
+#island{position:absolute;top:11px;height:30px;border-radius:19px;background:#050506;overflow:hidden;z-index:30}
+.row{position:absolute;left:16px;top:0;width:328px;height:78px;border-radius:22px;background:#fff;
+  box-shadow:0 0 0 1px rgba(30,30,40,.035),0 8px 18px -10px rgba(30,30,50,.16)}
+.title{position:absolute;left:62px;top:13px;font-size:17px;line-height:24px;font-weight:600;letter-spacing:-.01em;white-space:nowrap}
+.meta{position:absolute;left:62px;top:44px;height:22px;width:256px}
+.chip{position:absolute;top:0;height:22px;border-radius:11px;font-size:12px;font-weight:600;display:flex;align-items:center;white-space:nowrap;letter-spacing:.005em}
+.dotc{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:6px}
+.pt{position:absolute;border-radius:50%}
+.touch{position:absolute;width:40px;height:40px;margin:-20px 0 0 -20px;border-radius:50%;background:rgba(30,30,48,.16);border:1px solid rgba(30,30,48,.12);z-index:60;pointer-events:none}
+.cap{position:absolute;left:88px;width:520px;white-space:nowrap}
+.cap .eb{font-size:14px;font-weight:600;letter-spacing:.16em;color:#5b5bf0;height:20px;margin-bottom:18px}
+.cap .ln{font-family:"Inter Display",Inter,sans-serif;font-size:58px;line-height:62px;font-weight:600;letter-spacing:-.035em;height:62px}
+.pop{position:absolute;background:#fff;box-shadow:0 0 0 1px rgba(30,30,50,.06),0 24px 48px -12px rgba(30,30,70,.3),0 6px 14px -4px rgba(30,30,70,.12);overflow:hidden;z-index:20}
+.opt{position:absolute;left:8px;width:224px;height:40px;border-radius:12px;font-size:15px;font-weight:550;display:flex;align-items:center}
+.dk{position:absolute;background:#fff;border-radius:16px;box-shadow:0 0 0 1px rgba(30,30,60,.06),0 50px 70px -30px rgba(40,40,90,.35),0 14px 28px -12px rgba(40,40,90,.18);overflow:hidden}
+</style></head>
+<body><div id="stage"></div>
+<script src="anim.js"></script>
+<script src="scene.js"></script>
+</body></html>
