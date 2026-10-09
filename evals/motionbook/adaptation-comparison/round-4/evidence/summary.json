@@ -1,0 +1,80 @@
+{
+  "run": "https://github.com/blueberrycongee/motionbook/actions/runs/37816365890",
+  "commit": "712c6271ed78b71598e16dd5dd6c2d95f32decea",
+  "environment": {
+    "node": "v22.23.3",
+    "platform": "linux",
+    "arch": "x64",
+    "playwright": "1.64.0",
+    "ci": true,
+    "githubSHA": "712c6271ed78b71598e16dd5dd6c2d95f32decea",
+    "browser": "156.0.8078.4"
+  },
+  "formal_skill_changed": false,
+  "studies": [
+    {
+      "id": "A",
+      "kind": "composer",
+      "source_sha256": "2049c3135791e39980a0240e368811bb6b39055fac2d2ac1b0861fa9aa3c5d55",
+      "passed": 36,
+      "failed": 0,
+      "failures": []
+    },
+    {
+      "id": "B",
+      "kind": "tags",
+      "source_sha256": "d3e3a1927012887039257cfc0997d1efcfd36c508c8b285e84ab0cad8ea7f83b",
+      "passed": 20,
+      "failed": 24,
+      "failures": [
+        "editable name color Create selects exactly once and returns to picker",
+        "keyboard selection color and creation submit",
+        "nested Back and Escape retain query without creating",
+        "outside click closes picker and nested creation without invisible focus",
+        "rapid trigger switching and nested escape leaves usable focus",
+        "selection persists after Escape and reopening"
+      ]
+    },
+    {
+      "id": "C",
+      "kind": "composer",
+      "source_sha256": "8eca846415d05d4ba29ff0cfaceeed56548289b0b1256ee843eb760dfb1689de",
+      "passed": 36,
+      "failed": 0,
+      "failures": []
+    },
+    {
+      "id": "D",
+      "kind": "tags",
+      "source_sha256": "d8d9abc80dd13d2970a1f7d411122e51d6b1ca0a7f4aa0eff4171c74a369b88b",
+      "passed": 44,
+      "failed": 0,
+      "failures": []
+    },
+    {
+      "id": "E",
+      "kind": "composer",
+      "source_sha256": "c8dd674613f83e2292a4ba3c259a6e9806c4b3d5949fc4705bbd87003bdef007",
+      "passed": 32,
+      "failed": 4,
+      "failures": [
+        "click send exactly once; whitespace empty send does nothing",
+        "typing expands; collapse Escape outside and reopen preserve draft"
+      ]
+    },
+    {
+      "id": "F",
+      "kind": "tags",
+      "source_sha256": "1f2f2fa0abede57add76370b4044fbe3c2bbc240cce4c6d0e1335ffcbb24eebd",
+      "passed": 44,
+      "failed": 0,
+      "failures": []
+    }
+  ],
+  "limits": [
+    "One generated implementation per condition and task.",
+    "Four browser configurations per implementation are repeated checks, not independent generated samples.",
+    "Synthetic IME does not verify an OS input method.",
+    "Blind reviews are published separately."
+  ]
+}

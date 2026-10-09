@@ -1,0 +1,32 @@
+@font-face {
+  font-family: StudyInter;
+  src: url("assets/Inter-SemiBold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+}
+:root { color-scheme: dark; font-family: StudyInter, sans-serif; background: #000; color: #eee; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1440px; margin: 0 auto; }
+.stage { aspect-ratio: 16 / 9; width: 100%; background: #000; }
+canvas { display: block; width: 100%; height: 100%; }
+.transcript { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.controls { display: flex; align-items: center; gap: 14px; padding: 20px 24px 10px; }
+button { font: inherit; border: 1px solid #444; border-radius: 6px; padding: 8px 14px; background: #171717; color: inherit; min-width: 82px; cursor: pointer; }
+button:disabled { cursor: default; opacity: .5; }
+button:focus-visible, input:focus-visible { outline: 2px solid #bfa3ff; outline-offset: 4px; }
+.timeline { display: flex; align-items: center; gap: 12px; flex: 1; font-size: 13px; }
+input[type="range"] { width: 100%; accent-color: #eee; }
+output { font-size: 12px; font-variant-numeric: tabular-nums; min-width: 105px; text-align: right; }
+.note { margin: 12px 24px 28px; color: #999; font-size: 12px; line-height: 1.6; }
+a { color: #c7c7c7; }
+html.capture main { max-width: none; }
+html.capture .controls, html.capture .note { display: none; }
+html.capture .stage { width: 100vw; height: 100vh; }
+@media (max-width: 600px) {
+  .controls { gap: 8px; flex-wrap: wrap; padding: 16px; }
+  .timeline { min-width: 50%; }
+  button { min-width: 70px; padding: 8px 10px; }
+  .note { margin: 10px 16px 24px; }
+}

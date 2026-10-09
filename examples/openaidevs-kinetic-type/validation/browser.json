@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "browser": "141.0.7390.37",
+  "checks": [
+    "real control pauses the RAF timeline",
+    "keyboard seek reaches the end; Replay restarts",
+    "rapid replay remains one elapsed-time clock",
+    "emulated reduced-motion preference cancels playback and shows static CTA",
+    "390px viewport has no horizontal overflow",
+    "settled words remain visible while the next word reveals",
+    "Semibold 600 preserves the measured first-line ink bounds within 3 source pixels",
+    "local font loaded; final hold is genuinely black; ten browser keyframes captured"
+  ],
+  "pageErrors": [],
+  "referencePixelsLocallyAvailable": false,
+  "visualAcceptance": "pending cloud comparison"
+}
