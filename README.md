@@ -1,5 +1,7 @@
 # Motionbook
 
+两组对比均为单次生成的定性样本，不能证明 skill 的普遍效果。
+
 ## Skill 对比：创意短片「从混乱到秩序」
 
 两个 Opus 5.5 代理用几乎相同的提示词，各自用纯代码制作约 20 秒、主题为「从混乱到秩序」的创意短片，唯一区别是能否使用 Motionbook skill。[实验设置与提示词](evals/motionbook/chaos-order-comparison/README.md)

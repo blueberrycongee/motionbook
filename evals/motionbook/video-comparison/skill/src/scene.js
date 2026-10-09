@@ -522,7 +522,7 @@
     const swapT = E.inOut(P(t, T.syncDone + .15, .35));
     islT1.style.opacity = (ic2 * (1 - swapT)).toFixed(3); islT2.style.opacity = (ic2 * swapT).toFixed(3);
     islT1.style.transform = `translateY(${(-swapT * 8).toFixed(2)}px)`; islT2.style.transform = `translateY(${((1 - swapT) * 8).toFixed(2)}px)`;
-    islDots.length; document; 
+    islDots.length; document;
     // dots host opacity
     island.firstChild.style.opacity = ic2.toFixed(3);
 
