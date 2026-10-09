@@ -12,9 +12,9 @@ HERE = Path(__file__).resolve().parent
 
 def verify(round_dir=None):
     if round_dir is None:
-        for path in sorted(HERE.glob('round-*')):
-            if path.is_dir():
-                verify(path)
+        # Rounds 1–3 use the SVG contract; Round 4 has its own browser harness.
+        for name in ('round-1', 'round-2', 'round-3'):
+            verify(HERE / name)
         return
     round_dir = Path(round_dir)
     results = json.loads((round_dir / 'results.json').read_text())

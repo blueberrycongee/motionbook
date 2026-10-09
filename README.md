@@ -1,5 +1,37 @@
 # Motionbook
 
+两组对比均为单次生成的定性样本，不能证明 skill 的普遍效果。
+
+## Skill 对比：创意短片「从混乱到秩序」
+
+两个 Opus 5.5 代理用几乎相同的提示词，各自用纯代码制作约 20 秒、主题为「从混乱到秩序」的创意短片，唯一区别是能否使用 Motionbook skill。[实验设置与提示词](evals/motionbook/chaos-order-comparison/README.md)
+
+<table>
+  <tr>
+    <th width="50%">不使用 skill</th>
+    <th width="50%">使用 Motionbook skill</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="evals/motionbook/chaos-order-comparison/control/video.gif" width="400" alt="不使用 skill 制作的「从混乱到秩序」创意短片"><br><a href="evals/motionbook/chaos-order-comparison/control/video.mp4">MP4</a> · <a href="evals/motionbook/chaos-order-comparison/control/NOTES.md">源码与说明</a></td>
+    <td align="center"><img src="evals/motionbook/chaos-order-comparison/skill/video.gif" width="400" alt="使用 Motionbook skill 制作的「从混乱到秩序」创意短片"><br><a href="evals/motionbook/chaos-order-comparison/skill/video.mp4">MP4</a> · <a href="evals/motionbook/chaos-order-comparison/skill/NOTES.md">源码与说明</a></td>
+  </tr>
+</table>
+
+## Skill 对比：产品动效短片
+
+两个 Sonnet 5.5 代理用几乎相同的提示词，各自用纯代码制作约 20 秒的产品动效短片，唯一区别是能否使用 Motionbook skill。[实验设置与提示词](evals/motionbook/video-comparison/README.md)
+
+<table>
+  <tr>
+    <th width="50%">不使用 skill</th>
+    <th width="50%">使用 Motionbook skill</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="evals/motionbook/video-comparison/control/video.gif" width="400" alt="不使用 skill 制作的 Tidy 短片"><br><a href="evals/motionbook/video-comparison/control/video.mp4">MP4</a> · <a href="evals/motionbook/video-comparison/control/NOTES.md">源码与说明</a></td>
+    <td align="center"><img src="evals/motionbook/video-comparison/skill/video.gif" width="400" alt="使用 Motionbook skill 制作的 Tidy 短片"><br><a href="evals/motionbook/video-comparison/skill/video.mp4">MP4</a> · <a href="evals/motionbook/video-comparison/skill/NOTES.md">源码与说明</a></td>
+  </tr>
+</table>
+
 UI animations & micro-interactions recreated in code, with GIF previews. UI 动效与交互设计参考库。
 
 [按用途查找 / Browse by purpose](catalog/README.md) · [Agent skill](skills/motionbook/SKILL.md) · [署名与许可](ATTRIBUTION.md)

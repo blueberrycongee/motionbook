@@ -97,7 +97,10 @@ class CatalogValidation(unittest.TestCase):
         read_text = Path.read_text
         def altered(path, *args, **kwargs):
             text = read_text(path, *args, **kwargs)
-            return text.replace('<tr>', '<tr><td></td>', 1) if path == ROOT / 'README.md' else text
+            if path != ROOT / 'README.md':
+                return text
+            head, gallery = text.split('## 预览画廊', 1)
+            return head + '## 预览画廊' + gallery.replace('<tr>', '<tr><td></td>', 1)
         with patch.object(Path, 'read_text', altered):
             with self.assertRaisesRegex(ValueError, 'three columns'):
                 validator.validate(CATALOG)
