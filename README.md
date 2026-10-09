@@ -119,7 +119,7 @@ UI animations & micro-interactions recreated in code, with GIF previews. UI 动�
   </tr>
   <tr>
     <td align="center" width="33%"><a href="examples/chatgpt-document-workspace/README.md"><img src="examples/chatgpt-document-workspace/preview/document-workspace.gif" width="200" alt="Document workspace 复刻"></a><br><a href="examples/chatgpt-document-workspace/README.md">Document workspace 复刻</a></td>
-    <td align="center" width="33%"></td>
+    <td align="center" width="33%"><a href="examples/openaidevs-kinetic-type/README.md"><img src="examples/openaidevs-kinetic-type/preview/loop.gif" width="200" alt="OpenAI leading dot typography"></a><br><a href="examples/openaidevs-kinetic-type/README.md">OpenAI leading dot typography</a></td>
     <td align="center" width="33%"></td>
   </tr>
 </table>

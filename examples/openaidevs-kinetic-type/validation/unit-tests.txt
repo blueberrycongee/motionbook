@@ -1,0 +1,19 @@
+✔ pause and resume preserve elapsed animation time (0.329459ms)
+✔ rapid replay replaces the epoch and repeated play does not reset it (0.060709ms)
+✔ seek clamps and end stops playback; play after end restarts (0.352833ms)
+✔ preference changes cancel playback and never automatically resume it (0.052333ms)
+✔ Standard and Ultrafast retain identical first-line positions as words reveal (1.179417ms)
+✔ word onset, complete Standard hold, and fast reveal use separate clocks (0.173958ms)
+✔ observed dot trajectory includes opening overshoot and diagonal line returns (0.079833ms)
+✔ shape-preserving interpolation is continuous with matching join velocity (1.06225ms)
+✔ scene fades reach black at their endpoints and leave the ending black hold (0.130125ms)
+✔ reduced motion always presents a complete static final message (0.083ms)
+✔ invalid cue counts and nonfinite seek samples fail explicitly (0.402416ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 33.006042

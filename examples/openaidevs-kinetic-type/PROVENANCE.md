@@ -1,0 +1,11 @@
+# Reference, measurements, and rights
+
+Source: [OpenAIDevs / OpenAI announcement](https://x.com/OpenAIDevs/status/2108262812489531498?s=20), observed by a cloud researcher through ordinary public browser playback without logging in. The reported original video is 1920×1080 and approximately 14 seconds. A 560×315 playback region was sampled irregularly at roughly 7–10 fps. Reported positions, colors, and event times are observation estimates, not original video frame PTS or recovered source code.
+
+The local implementer received numerical word boundaries, dot positions, nominal word onsets, settling observations, and fade windows through the delegated task. Local Library materialization failed twice, and direct public-page inspection returned HTTP 403. Neither route was bypassed. The local implementer did not inspect reference pixels. By the requested division of work, cloud reviewers own final visual comparison; no acceptance is asserted here.
+
+The implementation, timeline sampler, interpolation, controls, tests, and browser recording scripts were independently authored. `src/sequence.mjs` contains the reported measurements and explicit fitting choices. Shape-preserving cubic interpolation, smooth opacity/color/fade curves, startup/end radii between sparse samples, and the second exit window are authored approximations. These coefficients are not claimed to be OpenAI’s animation parameters.
+
+The 560×315 ink rectangles constrain the replacement font’s horizontal bounds and each line’s vertical extent. This preserves measured placement while changing glyph contours. Inter Regular is copied from the repository’s `flight-pill/assets/Inter-Regular.woff2`, with its unchanged SIL Open Font License in `assets/Inter-LICENSE.txt`. No original brand font, logo, application code, source video, source screenshot, or reference reconstruction is included in this example.
+
+OpenAI, Codex, ChatGPT, and product names belong to their respective owners. Source attribution does not grant rights in the original design or imply affiliation, endorsement, or permission to reuse brand material. Preview GIF/MP4 and PNGs show only this independently rendered implementation. This example makes no blanket license grant on behalf of the user; the bundled font keeps its own license.
