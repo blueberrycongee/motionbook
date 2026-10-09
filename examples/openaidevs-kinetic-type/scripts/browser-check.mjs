@@ -57,6 +57,22 @@ try {
   });
   assert.ok(ink > 1500, `Previously settled words must remain visible; found ${ink} white pixels`);
   checks.push('settled words remain visible while the next word reveals');
+  const bounds = await stage.evaluate(() => {
+    motionStudy.seek(3.2);
+    const ctx = document.querySelector('canvas').getContext('2d');
+    const pixels = ctx.getImageData(0, 380, 1920, 160).data;
+    const bounds = [1920, 1080, 0, 0];
+    for (let y = 0; y < 160; y++) for (let x = 0; x < 1920; x++) {
+      const i = (y * 1920 + x) * 4;
+      if (pixels[i] < 128) continue;
+      bounds[0] = Math.min(bounds[0], x); bounds[1] = Math.min(bounds[1], y + 380);
+      bounds[2] = Math.max(bounds[2], x); bounds[3] = Math.max(bounds[3], y + 380);
+    }
+    return bounds;
+  });
+  const expected = [106, 122, 422, 147].map(value => value * 24 / 7);
+  assert.ok(bounds.every((value, index) => Math.abs(value - expected[index]) < 3), `Font change must preserve measured ink bounds: ${bounds}`);
+  checks.push('Semibold 600 preserves the measured first-line ink bounds within 3 source pixels');
   const samples = [['opening', .583], ['orange', 1.39], ['return', 1.82], ['standard', 3.2], ['purple', 5.10], ['ultrafast', 6.2], ['cta-reveal', 8.9], ['cta', 10], ['fade', 13.6], ['black', 13.9]];
   for (const [name, time] of samples) {
     await stage.evaluate(t => motionStudy.seek(t), time);
@@ -70,6 +86,7 @@ try {
   });
   assert.equal(ending, true);
   assert.equal(await stage.evaluate(() => document.fonts.check(motionStudy.config.font)), true);
+  assert.equal(await stage.evaluate(() => motionStudy.config.font), '600 128px StudyInter');
   checks.push('local font loaded; final hold is genuinely black; ten browser keyframes captured');
   assert.deepEqual(errors, []);
   await mkdir(new URL('../validation/', import.meta.url), { recursive: true });

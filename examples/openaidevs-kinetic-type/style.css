@@ -1,8 +1,8 @@
 @font-face {
   font-family: StudyInter;
-  src: url("assets/Inter-Regular.woff2") format("woff2");
+  src: url("assets/Inter-SemiBold.woff2") format("woff2");
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-display: block;
 }
 :root { color-scheme: dark; font-family: StudyInter, sans-serif; background: #000; color: #eee; }

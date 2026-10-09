@@ -1,0 +1,176 @@
+{
+  "gif_duration_seconds": 14.0,
+  "frame_count": 350,
+  "delay_values_ms": [
+    40
+  ],
+  "method": "Local GIF pixels compared with cloud-provided nominal cues, not with original source pixels. Thresholds 10% and 90% refer to median max-RGB intensity on settled glyph interiors; frame sampling uncertainty >=40 ms.",
+  "scenes": {
+    "standard": [
+      {
+        "word": "This",
+        "nominal_cue": 0.76,
+        "nominal_full_opacity": 0.88,
+        "nominal_white_at": 1.05,
+        "gif_10pct": 0.8,
+        "gif_90pct": 0.88,
+        "gif_95pct_white": 1.04,
+        "cloud_observed_source_onset": 0.81,
+        "cloud_observed_source_full_color": 0.9,
+        "cloud_observed_source_full_white": 1.05,
+        "gif_full_opacity_minus_observed_full_color_seconds": -0.02
+      },
+      {
+        "word": "is",
+        "nominal_cue": 1,
+        "nominal_full_opacity": 1.12,
+        "nominal_white_at": 1.34,
+        "gif_10pct": 1.04,
+        "gif_90pct": 1.12,
+        "gif_95pct_white": 1.32,
+        "cloud_observed_source_onset": 1.05,
+        "cloud_observed_source_full_color": 1.17,
+        "cloud_observed_source_full_white": 1.34,
+        "gif_full_opacity_minus_observed_full_color_seconds": -0.05
+      },
+      {
+        "word": "GPT-6.1",
+        "nominal_cue": 1.33,
+        "nominal_full_opacity": 1.45,
+        "nominal_white_at": 1.61,
+        "gif_10pct": 1.4,
+        "gif_90pct": 1.44,
+        "gif_95pct_white": 1.6,
+        "cloud_observed_source_onset": 1.38,
+        "cloud_observed_source_full_color": 1.45,
+        "cloud_observed_source_full_white": 1.61,
+        "gif_full_opacity_minus_observed_full_color_seconds": -0.01
+      },
+      {
+        "word": "Sol",
+        "nominal_cue": 1.65,
+        "nominal_full_opacity": 1.77,
+        "nominal_white_at": 1.88,
+        "gif_10pct": 1.72,
+        "gif_90pct": 1.76,
+        "gif_95pct_white": 1.88,
+        "cloud_observed_source_onset": 1.67,
+        "cloud_observed_source_full_color": 1.73,
+        "cloud_observed_source_full_white": 1.88,
+        "gif_full_opacity_minus_observed_full_color_seconds": 0.03
+      },
+      {
+        "word": "in",
+        "nominal_cue": 1.9,
+        "nominal_full_opacity": 2.02,
+        "nominal_white_at": 2.2,
+        "gif_10pct": 1.96,
+        "gif_90pct": 2.0,
+        "gif_95pct_white": 2.2,
+        "cloud_observed_source_onset": 1.98,
+        "cloud_observed_source_full_color": 2.04,
+        "cloud_observed_source_full_white": 2.2,
+        "gif_full_opacity_minus_observed_full_color_seconds": -0.04
+      },
+      {
+        "word": "Standard",
+        "nominal_cue": 2.15,
+        "nominal_full_opacity": 2.27,
+        "nominal_white_at": 2.51,
+        "gif_10pct": 2.2,
+        "gif_90pct": 2.28,
+        "gif_95pct_white": 2.48,
+        "cloud_observed_source_onset": 2.2,
+        "cloud_observed_source_full_color": 2.34,
+        "cloud_observed_source_full_white": 2.51,
+        "gif_full_opacity_minus_observed_full_color_seconds": -0.06
+      },
+      {
+        "word": "mode.",
+        "nominal_cue": 2.53,
+        "nominal_full_opacity": 2.65,
+        "nominal_white_at": 2.79,
+        "gif_10pct": 2.6,
+        "gif_90pct": 2.64,
+        "gif_95pct_white": 2.8,
+        "cloud_observed_source_onset": 2.59,
+        "cloud_observed_source_full_color": 2.6,
+        "cloud_observed_source_full_white": 2.79,
+        "gif_full_opacity_minus_observed_full_color_seconds": 0.04
+      }
+    ],
+    "ultrafast": [
+      {
+        "word": "This",
+        "nominal_cue": 4.88,
+        "nominal_full_opacity": 4.91,
+        "nominal_white_at": 5.073,
+        "gif_10pct": 4.92,
+        "gif_90pct": 4.92,
+        "gif_95pct_white": 5.04
+      },
+      {
+        "word": "is",
+        "nominal_cue": 4.9,
+        "nominal_full_opacity": 4.93,
+        "nominal_white_at": 5.158,
+        "gif_10pct": 4.92,
+        "gif_90pct": 4.96,
+        "gif_95pct_white": 5.12
+      },
+      {
+        "word": "GPT-6.1",
+        "nominal_cue": 4.96,
+        "nominal_full_opacity": 4.99,
+        "nominal_white_at": 5.19,
+        "gif_10pct": 5.0,
+        "gif_90pct": 5.0,
+        "gif_95pct_white": 5.16
+      },
+      {
+        "word": "Sol",
+        "nominal_cue": 5,
+        "nominal_full_opacity": 5.03,
+        "nominal_white_at": 5.237,
+        "gif_10pct": 5.04,
+        "gif_90pct": 5.04,
+        "gif_95pct_white": 5.2
+      },
+      {
+        "word": "in",
+        "nominal_cue": 5.02,
+        "nominal_full_opacity": 5.05,
+        "nominal_white_at": 5.249,
+        "gif_10pct": 5.04,
+        "gif_90pct": 5.08,
+        "gif_95pct_white": 5.2
+      },
+      {
+        "word": "Ultrafast",
+        "nominal_cue": 5.04,
+        "nominal_full_opacity": 5.07,
+        "nominal_white_at": 5.288,
+        "gif_10pct": 5.08,
+        "gif_90pct": 5.08,
+        "gif_95pct_white": 5.24
+      },
+      {
+        "word": "Mode.",
+        "nominal_cue": 5.11,
+        "nominal_full_opacity": 5.14,
+        "nominal_white_at": 5.353,
+        "gif_10pct": 5.12,
+        "gif_90pct": 5.16,
+        "gif_95pct_white": 5.32
+      }
+    ]
+  },
+  "source_observation_uncertainty_seconds": [
+    0.05,
+    0.13
+  ],
+  "standard_first_to_last_onset_seconds": {
+    "gif_10pct": 1.8,
+    "cloud_observed_source": 1.78
+  }
+}

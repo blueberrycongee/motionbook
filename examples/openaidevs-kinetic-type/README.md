@@ -23,7 +23,7 @@ Replace `sequence.mjs` to use other text and timings. Supply one cue per space-s
 
 ## Review status
 
-This first implementation uses a cloud researcher’s observations and measurements. The implementing Mac could not retrieve the reference pixels; it does **not** claim independent visual equivalence. Cloud frame-by-frame acceptance is pending. Inter replaces the source typeface, and the interpolation, fade curves, short unobserved dot endpoints, and second scene exit are fitted estimates. Reference sampling uncertainty is approximately 50–130 ms. The GIF is an actual continuous browser recording of this implementation, not original footage or a static storyboard.
+This implementation uses a cloud researcher’s observations and measurements. The implementing Mac could not retrieve the reference pixels; it does **not** claim independent visual equivalence. Cloud frame-by-frame review is ongoing. The first review corrected the replacement font to Inter Semibold 600, the second scene fade to 7.41–7.65 s, the fast word reveal to 30 ms, and the opening dot tint to .76–.81 s. Inter replaces the source typeface; interpolation, fade curves, and short unobserved dot endpoints remain fitted estimates. Reference sampling uncertainty is approximately 50–130 ms. The GIF is an actual continuous browser recording of this implementation, not original footage or a static storyboard.
 
 ## Verify and record
 
@@ -37,4 +37,4 @@ python3 -m pip install -r requirements.txt
 python3 scripts/encode.py
 ```
 
-`BROWSER_PATH` can select an existing headless Chromium executable; `FFMPEG` can select FFmpeg. Recording uses a temporary synchronization marker outside the animation that is removed before export. Keyframes are browser screenshots; `preview/recording.json` records capture and decoding evidence. Temporary browser recordings remain in ignored `.capture/`.
+`BROWSER_PATH` can select an existing headless Chromium executable; `FFMPEG` can select FFmpeg. Recording uses a temporary synchronization marker outside the animation that is removed before export. The encoder compensates a 40 ms presentation lag observed during the first cloud review; use `--sync-offset 0` or recalibrate when the recorder changes. Animation cues themselves are not shifted. Keyframes are browser screenshots; `preview/recording.json` records capture and decoding evidence. Temporary browser recordings remain in ignored `.capture/`.
