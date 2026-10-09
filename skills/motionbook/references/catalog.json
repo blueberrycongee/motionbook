@@ -3531,6 +3531,122 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "openaidevs-kinetic-type",
+      "title": "OpenAI leading dot typography",
+      "kind": "creative-motion",
+      "fit": "brand",
+      "values": [
+        "expressive-motion"
+      ],
+      "why": "前导圆点、固定排字与两种揭示速度形成清晰的节奏对照",
+      "extract": "可采样逐词显现、色彩落白与连续圆点轨迹",
+      "use_when": "短文案、发布动态、速度对比的排字研究",
+      "avoid": "基于云端实测规格，本地未取得原参考像素，视觉验收待云端完成；Inter替代字体；50–130ms采样误差及独立插值不是源动画精确参数；不包含原片或品牌素材",
+      "keywords": [
+        "OpenAI",
+        "OpenAIDevs",
+        "Sol",
+        "Ultrafast",
+        "kinetic typography",
+        "word reveal",
+        "leading dot",
+        "逐词",
+        "排字",
+        "前导圆点",
+        "显现",
+        "速度"
+      ],
+      "readme": "examples/openaidevs-kinetic-type/README.md",
+      "preview": "examples/openaidevs-kinetic-type/preview/loop.gif",
+      "evidence": [
+        "examples/openaidevs-kinetic-type/PROVENANCE.md",
+        "examples/openaidevs-kinetic-type/VALIDATION.md",
+        "examples/openaidevs-kinetic-type/preview/recording.json",
+        "examples/openaidevs-kinetic-type/validation/browser.json"
+      ],
+      "source_anchors": [
+        {
+          "path": "examples/openaidevs-kinetic-type/src/sequence.mjs",
+          "symbol": "sequence",
+          "match": "export const sequence =",
+          "line": 1,
+          "purpose": "三幕文案、逐词时序、观察到的字形边界与圆点采样；约50–130ms误差，尚待云端视觉验收",
+          "keywords": [
+            "timing",
+            "measurement",
+            "时序",
+            "测量"
+          ]
+        },
+        {
+          "path": "examples/openaidevs-kinetic-type/src/timeline.mjs",
+          "symbol": "interpolateTrack",
+          "match": "export function interpolateTrack(",
+          "line": 6,
+          "purpose": "按非均匀时间采样拟合连续圆点轨迹；保持极值，非原作弹簧系数",
+          "keywords": [
+            "trajectory",
+            "dot",
+            "curve",
+            "轨迹",
+            "圆点",
+            "曲线"
+          ]
+        },
+        {
+          "path": "examples/openaidevs-kinetic-type/src/timeline.mjs",
+          "symbol": "createLayout",
+          "match": "export function createLayout(",
+          "line": 28,
+          "purpose": "预先固定文字位置，按可选字形边界适配替代字体；换文案须删除或重测边界",
+          "keywords": [
+            "layout",
+            "word",
+            "typography",
+            "排字",
+            "文字",
+            "布局"
+          ]
+        },
+        {
+          "path": "examples/openaidevs-kinetic-type/src/timeline.mjs",
+          "symbol": "sampleTimeline",
+          "match": "export function sampleTimeline(",
+          "line": 64,
+          "purpose": "从时间独立采样词透明度、颜色和点姿态；减少动态分支呈现完整静态CTA",
+          "keywords": [
+            "sample",
+            "reveal",
+            "opacity",
+            "采样",
+            "显现",
+            "透明度"
+          ],
+          "capabilities": [
+            "reduced-motion"
+          ]
+        },
+        {
+          "path": "examples/openaidevs-kinetic-type/src/timeline.mjs",
+          "symbol": "createPlayback",
+          "match": "export function createPlayback(",
+          "line": 86,
+          "purpose": "暂停、重播、拖动、完成与减少动态效果共用单一时钟；浏览器生命周期接线见app.mjs",
+          "keywords": [
+            "playback",
+            "replay",
+            "pause",
+            "播放",
+            "重播",
+            "暂停"
+          ],
+          "capabilities": [
+            "reduced-motion"
+          ]
+        }
+      ]
     }
   ]
 }

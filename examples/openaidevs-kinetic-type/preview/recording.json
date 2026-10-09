@@ -1,0 +1,39 @@
+{
+  "capture": {
+    "kind": "continuous real-time browser video",
+    "viewport": [
+      1280,
+      720
+    ],
+    "browser": "141.0.7390.37",
+    "finalState": {
+      "time": 14,
+      "playing": false,
+      "reducedMotion": false
+    },
+    "pageErrors": []
+  },
+  "raf_samples": 842,
+  "max_raf_gap_seconds": 0.016800000000001702,
+  "source_recording_sha256": "a02ea6e9d422def7062ce6a247bb47d6d3442aaa2eb4b7c0936465da80c8b50f",
+  "trim_start_seconds": 0.44,
+  "marker_end_seconds": 0.4,
+  "recording_presentation_offset_seconds": 0.04,
+  "sync_precision_seconds": 0.04,
+  "method": "Continuous real-time Chromium video; recording-only marker trimmed; no reference footage or hand-assembled storyboard used",
+  "gif": {
+    "width": 960,
+    "height": 540,
+    "frames": 350,
+    "distinct_frames": 287,
+    "duration_ms": 14000,
+    "size_bytes": 1040699,
+    "sha256": "a5c91f7e4d60b1d2c0e7fe0fe46ac3ee532df67101563322a5dd4b4f4ac1e348"
+  },
+  "mp4": {
+    "size_bytes": 252599,
+    "sha256": "3190cb743f8b38050c344eddb71f119c1d742d966e59130e4483a134c338ec4d"
+  },
+  "decode": "GIF and MP4 fully decoded by FFmpeg",
+  "reference_comparison": "Pending cloud visual reviewer; local reference access unavailable"
+}

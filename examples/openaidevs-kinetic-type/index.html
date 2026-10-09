@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Leading dot typography · Motionbook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="stage">
+      <canvas width="1920" height="1080" aria-hidden="true"></canvas>
+      <p class="transcript">This is GPT-6.1 Sol in Standard mode. This is GPT-6.1 Sol in Ultrafast Mode. Try it in Codex, ChatGPT Work, and the API today.</p>
+    </div>
+    <div class="controls" aria-label="Animation playback">
+      <button id="play" type="button">Pause</button>
+      <button id="replay" type="button">Replay</button>
+      <label class="timeline">Time <input id="time" type="range" min="0" max="14" step="0.01" value="0" aria-label="Animation time"></label>
+      <output id="position" for="time">0.00 / 14.00 s</output>
+    </div>
+    <p class="note">Independent motion study of <a href="https://x.com/OpenAIDevs/status/2108262812489531498?s=20">OpenAI’s announcement</a>. Inter replaces the reference font. <span id="motion-note"></span></p>
+  </main>
+  <script type="module" src="src/app.mjs"></script>
+</body>
+</html>

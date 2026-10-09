@@ -1,0 +1,95 @@
+Validated 68 entries, 138 code anchors and three-column gallery: {'interface': 12, 'component': 36, 'creative-motion': 11, 'landing-page': 9}
+test_published_source_and_scripted_states (test_adaptation_comparison.AdaptationComparison) ... ERROR
+test_full_inventory_schema_paths_anchors_gallery (test_catalog.CatalogValidation) ... ok
+test_generated_index_is_current (test_catalog.CatalogValidation) ... ok
+test_rejects_absolute_path (test_catalog.CatalogValidation) ... ok
+test_rejects_ambiguous_match (test_catalog.CatalogValidation) ... ok
+test_rejects_anchor_keyword_string (test_catalog.CatalogValidation) ... ok
+test_rejects_changed_gallery_columns (test_catalog.CatalogValidation) ... ok
+test_rejects_duplicate_anchor (test_catalog.CatalogValidation) ... ok
+test_rejects_duplicate_example (test_catalog.CatalogValidation) ... ok
+test_rejects_keyword_string (test_catalog.CatalogValidation) ... ok
+test_rejects_missing_code_anchors (test_catalog.CatalogValidation) ... ok
+test_rejects_missing_example (test_catalog.CatalogValidation) ... ok
+test_rejects_missing_symbol (test_catalog.CatalogValidation) ... ok
+test_rejects_monolingual_keywords (test_catalog.CatalogValidation) ... ok
+test_rejects_noninteger_line (test_catalog.CatalogValidation) ... ok
+test_rejects_nonstring_kind (test_catalog.CatalogValidation) ... ok
+test_rejects_schema_version (test_catalog.CatalogValidation) ... ok
+test_rejects_stale_line (test_catalog.CatalogValidation) ... ok
+test_rejects_traversal (test_catalog.CatalogValidation) ... ok
+test_rejects_unknown_field (test_catalog.CatalogValidation) ... ok
+test_rejects_unrecognized_capability (test_catalog.CatalogValidation) ... ok
+test_rejects_wrong_example_path (test_catalog.CatalogValidation) ... ok
+test_cli_rejects_invalid_limit (test_catalog.Retrieval) ... ok
+test_cli_runs_from_installed_skill_without_repository (test_catalog.Retrieval) ... ok
+test_dot_send_exposes_preview_pipeline_anchors (test_catalog.Retrieval) ... ok
+test_installed_text_cli_exposes_preview_and_evidence_links (test_catalog.Retrieval) ... ok
+test_json_exposes_matched_part_without_mutating_catalog (test_catalog.Retrieval) ... ok
+test_json_preserves_catalog_fields_and_relative_asset_paths (test_catalog.Retrieval) ... ok
+test_no_capability_inferred_from_motion_word (test_catalog.Retrieval) ... ok
+test_realistic_requests (test_catalog.Retrieval) ... ok
+test_source_anchors_are_exposed_in_cli (test_catalog.Retrieval) ... ok
+test_bilingual_discovery (test_kitasenju_integration.KitasenjuIntegration) ... ok
+test_every_anchor_is_unique_and_current (test_kitasenju_integration.KitasenjuIntegration) ... ok
+test_evidence_and_gif_bytes_exist (test_kitasenju_integration.KitasenjuIntegration) ... ok
+test_existing_string_clock_stays_distinct (test_kitasenju_integration.KitasenjuIntegration) ... ok
+test_expressive_classification (test_kitasenju_integration.KitasenjuIntegration) ... ok
+test_geometry_renderer_and_physics_do_not_inherit_capability (test_kitasenju_integration.KitasenjuIntegration) ... ok
+test_kind_and_fit_filters (test_kitasenju_integration.KitasenjuIntegration) ... ok
+test_reduced_motion_uses_inspected_playback_branch (test_kitasenju_integration.KitasenjuIntegration) ... ok
+test_subpart_anchor_selection (test_kitasenju_integration.KitasenjuIntegration) ... ok
+test_bilingual_discovery (test_openaidevs_integration.OpenAIDevsIntegration) ... ok
+test_measured_trajectory_does_not_claim_reduced_motion (test_openaidevs_integration.OpenAIDevsIntegration) ... ok
+test_preview_records_a_real_fourteen_second_animation_and_review_limit (test_openaidevs_integration.OpenAIDevsIntegration) ... ok
+test_apple_music_player (test_unpublished_integration.UnpublishedIntegration) ... ok
+test_cc0_monster_milestone (test_unpublished_integration.UnpublishedIntegration) ... ok
+test_circle_to_search (test_unpublished_integration.UnpublishedIntegration) ... ok
+test_imessage_jitter (test_unpublished_integration.UnpublishedIntegration) ... ok
+test_mac_studio_benchmark_tabs (test_unpublished_integration.UnpublishedIntegration) ... ok
+test_mac_studio_crossfade_gallery (test_unpublished_integration.UnpublishedIntegration) ... ok
+test_mac_studio_hero_transition (test_unpublished_integration.UnpublishedIntegration) ... ok
+test_mac_studio_layered_assembly (test_unpublished_integration.UnpublishedIntegration) ... ok
+test_mac_studio_parallax_features (test_unpublished_integration.UnpublishedIntegration) ... ok
+test_mac_studio_scroll_relay (test_unpublished_integration.UnpublishedIntegration) ... ok
+test_mac_studio_turntable (test_unpublished_integration.UnpublishedIntegration) ... ok
+test_telegram_media_spoiler (test_unpublished_integration.UnpublishedIntegration) ... ok
+test_things_magic_plus (test_unpublished_integration.UnpublishedIntegration) ... ok
+test_youtube_subscribe_feedback (test_unpublished_integration.UnpublishedIntegration) ... ok
+
+======================================================================
+ERROR: test_published_source_and_scripted_states (test_adaptation_comparison.AdaptationComparison)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lulingxi/Documents/Codex/2026-10-09/task-2/motionbook/evals/motionbook/test_adaptation_comparison.py", line 16, in test_published_source_and_scripted_states
+    VERIFY.verify()
+  File "/Users/lulingxi/Documents/Codex/2026-10-09/task-2/motionbook/evals/motionbook/adaptation-comparison/verify.py", line 17, in verify
+    verify(path)
+  File "/Users/lulingxi/Documents/Codex/2026-10-09/task-2/motionbook/evals/motionbook/adaptation-comparison/verify.py", line 20, in verify
+    results = json.loads((round_dir / 'results.json').read_text())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1256, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1242, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1110, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/lulingxi/Documents/Codex/2026-10-09/task-2/motionbook/evals/motionbook/adaptation-comparison/round-4/results.json'
+
+----------------------------------------------------------------------
+Ran 57 tests in 2.593s
+
+FAILED (errors=1)
+A: source fingerprint, source tests, 153 SVG contract samples passed
+B: source fingerprint, source tests, 153 SVG contract samples passed
+C: source fingerprint, source tests, 153 SVG contract samples passed
+D: source fingerprint, source tests, 153 SVG contract samples passed
+E: source fingerprint, source tests, 153 SVG contract samples passed
+F: source fingerprint, source tests, 153 SVG contract samples passed
+G: source fingerprint, source tests, 153 SVG contract samples passed
+H: source fingerprint, source tests, 153 SVG contract samples passed
+I: source fingerprint, source tests, 153 SVG contract samples passed
+J: source fingerprint, source tests, 153 SVG contract samples passed
+K: source fingerprint, source tests, 153 SVG contract samples passed
+L: source fingerprint, source tests, 153 SVG contract samples passed
+M: source fingerprint, source tests, 153 SVG contract samples passed
+N: source fingerprint, source tests, 153 SVG contract samples passed
